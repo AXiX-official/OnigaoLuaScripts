@@ -1,0 +1,1114 @@
+﻿-- chunkname: @IQIGame\\Config\\CfgActivityTable.lua
+
+local CfgActivityTable = {
+	[60000001] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000001,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		Duration = {
+			86400
+		},
+		Desc = getI18NValue(180129553)
+	},
+	[60000002] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000002,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			1,
+			3,
+			5
+		},
+		Duration = {
+			86400
+		},
+		Desc = getI18NValue(180129554)
+	},
+	[60000003] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000003,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			2,
+			4,
+			6
+		},
+		Duration = {
+			86400
+		},
+		Desc = getI18NValue(180129555)
+	},
+	[60000004] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000004,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			7
+		},
+		Duration = {
+			86400
+		},
+		Desc = getI18NValue(180129556)
+	},
+	[60000005] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000005,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			1,
+			3,
+			5,
+			7
+		},
+		Duration = {
+			86400
+		},
+		Desc = getI18NValue(180129557)
+	},
+	[60000006] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000006,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			2,
+			4,
+			6,
+			7
+		},
+		Duration = {
+			86400
+		},
+		Desc = getI18NValue(180129558)
+	},
+	[60000007] = {
+		ActivityType = 1,
+		OpenTime = "11:30:00",
+		OneOnly = false,
+		Id = 60000007,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			2,
+			4,
+			6
+		},
+		Duration = {
+			18000
+		},
+		Desc = getI18NValue(180129559)
+	},
+	[60000008] = {
+		ActivityType = 1,
+		OpenTime = "12:00:00",
+		OneOnly = false,
+		Id = 60000008,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			3,
+			5
+		},
+		Duration = {
+			18000
+		},
+		Desc = getI18NValue(180129560)
+	},
+	[60000009] = {
+		ActivityType = 1,
+		OpenTime = "0:00:00",
+		OneOnly = false,
+		Id = 60000009,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			1,
+			6
+		},
+		Duration = {
+			18000
+		},
+		Desc = getI18NValue(180129561)
+	},
+	[60000010] = {
+		ActivityType = 1,
+		OpenTime = "14:30:00",
+		OneOnly = false,
+		Id = 60000010,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			1,
+			2,
+			3
+		},
+		Duration = {
+			36000
+		},
+		Desc = getI18NValue(180129562)
+	},
+	[60000011] = {
+		ActivityType = 1,
+		OpenTime = "8:00:00",
+		OneOnly = false,
+		Id = 60000011,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			4,
+			5,
+			6
+		},
+		Duration = {
+			14400
+		},
+		Desc = getI18NValue(180129563)
+	},
+	[60001001] = {
+		ActivityType = 16,
+		OneOnly = false,
+		Id = 60001001,
+		OpenTimeType = 3,
+		Duration = {
+			-1
+		},
+		ExtraParam = {
+			36000,
+			86400,
+			60008,
+			61200,
+			86400,
+			60008
+		},
+		Desc = getI18NValue(180129564)
+	},
+	[60001002] = {
+		Id = 60001002,
+		OpenAction = 9,
+		ActivityType = 3,
+		CloseAction = 27,
+		OneOnly = false,
+		OpenTimeType = 3,
+		Duration = {
+			-1
+		},
+		Desc = getI18NValue(180129565),
+		OpenActionParams = {
+			6
+		},
+		CloseActionParams = {
+			6
+		}
+	},
+	[60001004] = {
+		Id = 60001004,
+		OpenAction = 9,
+		ActivityType = 7,
+		CloseAction = 27,
+		OneOnly = false,
+		OpenTimeType = 3,
+		Duration = {
+			-1
+		},
+		Desc = getI18NValue(180129567),
+		OpenActionParams = {
+			8,
+			0
+		},
+		CloseActionParams = {
+			8
+		}
+	},
+	[60002001] = {
+		ActivityType = 17,
+		OpenAction = 9,
+		OneOnly = false,
+		Id = 60002001,
+		OpenTimeType = 3,
+		Duration = {
+			-1
+		},
+		Desc = getI18NValue(180129568),
+		OpenActionParams = {
+			11,
+			1
+		}
+	},
+	[60002010] = {
+		ActivityType = 2,
+		OpenTime = "2025/2/1 16:35",
+		OneOnly = true,
+		Id = 60002010,
+		OpenTimeType = 2,
+		Duration = {
+			4219200
+		},
+		ExtraParam = {
+			80215
+		},
+		Desc = getI18NValue(180153901)
+	},
+	[60002011] = {
+		ActivityType = 2,
+		OpenTime = "2024/8/5 4:00",
+		OneOnly = true,
+		Id = 60002011,
+		OpenTimeType = 2,
+		Duration = {
+			4219200
+		},
+		ExtraParam = {
+			80216
+		},
+		Desc = getI18NValue(180153902)
+	},
+	[60002020] = {
+		OneOnly = false,
+		ActivityType = 18,
+		OpenAction = 9,
+		Id = 60002020,
+		OpenTimeType = 3,
+		Duration = {
+			-1
+		},
+		ExtraParam = {
+			11,
+			2,
+			1,
+			11,
+			2,
+			2
+		},
+		Desc = getI18NValue(180153903),
+		OpenActionParams = {
+			11,
+			2,
+			1
+		}
+	},
+	[60002021] = {
+		OneOnly = false,
+		ActivityType = 18,
+		OpenAction = 9,
+		Id = 60002021,
+		OpenTimeType = 3,
+		Duration = {
+			-1
+		},
+		ExtraParam = {
+			11,
+			4,
+			1,
+			11,
+			4,
+			2
+		},
+		Desc = getI18NValue(180153904),
+		OpenActionParams = {
+			11,
+			4,
+			1
+		},
+		ConditionIds = {
+			30000030
+		}
+	},
+	[60002030] = {
+		OpenAction = 9,
+		OneOnly = false,
+		Id = 60002030,
+		ActivityType = 19,
+		ExtraParam = {
+			11,
+			3,
+			1,
+			11,
+			3,
+			2
+		},
+		Desc = getI18NValue(180153905),
+		OpenActionParams = {
+			11,
+			3,
+			1
+		}
+	},
+	[60003001] = {
+		Id = 60003001,
+		OpenTime = "2025/2/20 0:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1900800
+		},
+		Desc = getI18NValue(180129572),
+		OpenActionParams = {
+			60003001,
+			50300301
+		},
+		CloseActionParams = {
+			60003001,
+			50300301
+		}
+	},
+	[60003002] = {
+		Id = 60003002,
+		OpenTime = "2025/2/20 0:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1900800
+		},
+		Desc = getI18NValue(180129573),
+		OpenActionParams = {
+			60003002,
+			50300302
+		},
+		CloseActionParams = {
+			60003002,
+			50300302
+		}
+	},
+	[60003003] = {
+		OneOnly = false,
+		OpenTime = "2024/8/5 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003003,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		Desc = getI18NValue(180129574),
+		OpenActionParams = {
+			60003003,
+			50300013
+		},
+		CloseActionParams = {
+			60003003,
+			50300013
+		}
+	},
+	[60003004] = {
+		OneOnly = false,
+		OpenTime = "2024/9/30 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003004,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		Desc = getI18NValue(180129575),
+		OpenActionParams = {
+			60003004,
+			50300014
+		},
+		CloseActionParams = {
+			60003004,
+			50300014
+		}
+	},
+	[60003005] = {
+		OneOnly = false,
+		OpenTime = "2024/9/16 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003005,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		Desc = getI18NValue(180146179),
+		OpenActionParams = {
+			60003005,
+			50300015
+		},
+		CloseActionParams = {
+			60003005,
+			50300015
+		}
+	},
+	[60003006] = {
+		OneOnly = false,
+		OpenTime = "2024/7/8 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003006,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		Desc = getI18NValue(180146180),
+		OpenActionParams = {
+			60003006,
+			50300016
+		},
+		CloseActionParams = {
+			60003006,
+			50300016
+		}
+	},
+	[60003007] = {
+		OneOnly = false,
+		OpenTime = "2024/9/2 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003007,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		Desc = getI18NValue(180186257),
+		OpenActionParams = {
+			60003007,
+			50300017
+		},
+		CloseActionParams = {
+			60003007,
+			50300017
+		}
+	},
+	[60003011] = {
+		Id = 60003011,
+		OpenTime = "2025/2/20 0:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1900800
+		},
+		Desc = getI18NValue(180146181),
+		OpenActionParams = {
+			60003011,
+			50300101
+		},
+		CloseActionParams = {
+			60003011,
+			50300101
+		}
+	},
+	[60003012] = {
+		Id = 60003012,
+		OpenTime = "2025/2/20 0:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1900800
+		},
+		Desc = getI18NValue(180146182),
+		OpenActionParams = {
+			60003012,
+			50300102
+		},
+		CloseActionParams = {
+			60003012,
+			50300102
+		}
+	},
+	[60003013] = {
+		OneOnly = false,
+		OpenTime = "2025/2/10 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003013,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180146183),
+		OpenActionParams = {
+			60003013,
+			50300111
+		},
+		CloseActionParams = {
+			60003013,
+			50300111
+		}
+	},
+	[60003014] = {
+		OneOnly = false,
+		OpenTime = "2024/6/27 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003014,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180146184),
+		OpenActionParams = {
+			60003014,
+			50300112
+		},
+		CloseActionParams = {
+			60003014,
+			50300112
+		}
+	},
+	[60003015] = {
+		OneOnly = false,
+		OpenTime = "2024/7/18 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003015,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180169213),
+		OpenActionParams = {
+			60003015,
+			50300121
+		},
+		CloseActionParams = {
+			60003015,
+			50300121
+		}
+	},
+	[60003016] = {
+		OneOnly = false,
+		OpenTime = "2024/7/18 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003016,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180169214),
+		OpenActionParams = {
+			60003016,
+			50300122
+		},
+		CloseActionParams = {
+			60003016,
+			50300122
+		}
+	},
+	[60003017] = {
+		OneOnly = false,
+		OpenTime = "2024/8/8 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003017,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180183837),
+		OpenActionParams = {
+			60003017,
+			50300131
+		},
+		CloseActionParams = {
+			60003017,
+			50300131
+		}
+	},
+	[60003018] = {
+		OneOnly = false,
+		OpenTime = "2024/8/8 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003018,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180183838),
+		OpenActionParams = {
+			60003018,
+			50300132
+		},
+		CloseActionParams = {
+			60003018,
+			50300132
+		}
+	},
+	[60003101] = {
+		ActivityType = 21,
+		OpenTime = "2024/6/18 4:00",
+		OneOnly = false,
+		Id = 60003101,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			0,
+			1,
+			0,
+			60003012
+		},
+		Desc = getI18NValue(180153906)
+	},
+	[60003102] = {
+		ActivityType = 21,
+		OpenTime = "2024/6/27 4:00",
+		OneOnly = false,
+		Id = 60003102,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			0,
+			1,
+			0,
+			60003014
+		},
+		Desc = getI18NValue(180154220)
+	},
+	[60003103] = {
+		ActivityType = 21,
+		OpenTime = "2024/7/18 4:00",
+		OneOnly = false,
+		Id = 60003103,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			0,
+			1,
+			0,
+			60003016
+		},
+		Desc = getI18NValue(180169215)
+	},
+	[60003104] = {
+		ActivityType = 21,
+		OpenTime = "2024/8/8 4:00",
+		OneOnly = false,
+		Id = 60003104,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			0,
+			1,
+			0,
+			60003018
+		},
+		Desc = getI18NValue(180183839)
+	},
+	[60004012] = {
+		Id = 60004012,
+		OpenTime = "2025/1/12 10:00",
+		OpenTimeType = 2,
+		OpenAction = 18,
+		ActivityType = 15,
+		OneOnly = false,
+		version = 3,
+		Duration = {
+			604800
+		},
+		Desc = getI18NValue(180220894),
+		OpenActionParams = {
+			31120001
+		}
+	},
+	[60005001] = {
+		OpenTime = "2024/1/7 4:00",
+		ActivityType = 12,
+		OneOnly = false,
+		Id = 60005001,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			12,
+			3,
+			2,
+			1
+		},
+		Desc = getI18NValue(180129581),
+		Source = {
+			11202100
+		}
+	},
+	[60005011] = {
+		OpenTime = "2024/1/7 4:00",
+		ActivityType = 12,
+		OneOnly = false,
+		Id = 60005011,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			9,
+			3,
+			2,
+			2
+		},
+		Desc = getI18NValue(180146537),
+		Source = {
+			11202200
+		}
+	},
+	[60005081] = {
+		OpenTime = "2024/1/7 4:00",
+		ActivityType = 11,
+		OneOnly = false,
+		Id = 60005081,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			18,
+			3,
+			2,
+			9
+		},
+		Desc = getI18NValue(180146538),
+		Source = {
+			11203000
+		}
+	},
+	[60005082] = {
+		OpenTime = "2024/1/7 4:00",
+		ActivityType = 11,
+		OneOnly = false,
+		Id = 60005082,
+		OpenTimeType = 2,
+		Duration = {
+			604800
+		},
+		ExtraParam = {
+			15,
+			3,
+			2,
+			9
+		},
+		Desc = getI18NValue(180184058),
+		Source = {
+			11203000
+		}
+	},
+	[60006001] = {
+		ActivityType = 14,
+		OpenTime = "2025/1/9 4:00",
+		OneOnly = false,
+		Id = 60006001,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		}
+	},
+	[60007001] = {
+		OpenTime = "2024/6/24 4:00",
+		ActivityType = 20,
+		OpenAction = 9,
+		OneOnly = false,
+		Id = 60007001,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		ExtraParam = {
+			6,
+			31200101,
+			12,
+			31200102,
+			18,
+			31200103,
+			24,
+			31200104,
+			30,
+			31200105
+		},
+		Desc = getI18NValue(180146539),
+		OpenActionParams = {
+			11,
+			5
+		}
+	},
+	[60008000] = {
+		OpenTime = "2025/1/20 4:00",
+		ActivityType = 22,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		Id = 60008000,
+		OpenTimeType = 2,
+		Duration = {
+			0,
+			0,
+			604800,
+			1814400,
+			259200
+		},
+		ExtraParam = {
+			12,
+			0,
+			13
+		},
+		Desc = getI18NValue(180167459),
+		OpenActionParams = {
+			11,
+			6,
+			2
+		},
+		CloseActionParams = {
+			11,
+			6,
+			2
+		}
+	},
+	[60008001] = {
+		OpenTime = "2025/1/20 4:00",
+		ActivityType = 23,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		Id = 60008001,
+		OpenTimeType = 2,
+		Duration = {
+			2419200
+		},
+		ExtraParam = {
+			11,
+			6,
+			1
+		},
+		Desc = getI18NValue(180169784),
+		OpenActionParams = {
+			11,
+			6,
+			1
+		},
+		CloseActionParams = {
+			11,
+			6,
+			1
+		}
+	},
+	[60008005] = {
+		OpenTime = "2024/8/8 4:00",
+		ActivityType = 23,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		Id = 60008005,
+		OpenTimeType = 2,
+		Duration = {
+			1209600
+		},
+		ExtraParam = {
+			11,
+			5,
+			1
+		},
+		Desc = getI18NValue(180184059),
+		OpenActionParams = {
+			11,
+			5,
+			1
+		},
+		CloseActionParams = {
+			11,
+			5,
+			1
+		}
+	},
+	[60008010] = {
+		Id = 60008010,
+		OpenTime = "2024/8/15 4:00",
+		OpenTimeType = 2,
+		ActivityType = 24,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			0,
+			1209600
+		},
+		ExtraParam = {
+			0,
+			0,
+			14
+		},
+		Desc = getI18NValue(180184016)
+	},
+	[60008011] = {
+		Id = 60008011,
+		OpenTime = "2024/8/15 4:00",
+		OpenTimeType = 2,
+		ActivityType = 25,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			0,
+			604800,
+			604800
+		},
+		ExtraParam = {
+			13,
+			101,
+			16
+		},
+		Desc = getI18NValue(180186465),
+		OpenActionParams = {
+			101
+		},
+		CloseActionParams = {
+			101
+		}
+	},
+	[60008012] = {
+		Id = 60008012,
+		OpenTime = "2024/8/15 4:00",
+		OpenTimeType = 2,
+		ActivityType = 26,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1209600
+		},
+		ExtraParam = {
+			3,
+			102
+		},
+		Desc = getI18NValue(180193741),
+		OpenActionParams = {
+			102
+		},
+		CloseActionParams = {
+			102
+		}
+	},
+	[60009001] = {
+		Id = 60009001,
+		OpenTime = "2025/2/21 4:00",
+		OpenTimeType = 2,
+		ActivityType = 13,
+		OpenAction = 30,
+		CloseAction = 31,
+		OneOnly = true,
+		version = 4,
+		Duration = {
+			5184000,
+			604800
+		},
+		ExtraParam = {
+			21,
+			3,
+			1301,
+			1302,
+			1303
+		},
+		Desc = getI18NValue(180195918),
+		OpenActionParams = {
+			1,
+			1,
+			2,
+			3
+		},
+		CloseActionParams = {
+			1
+		},
+		ConditionIds = {
+			30000208,
+			30300303
+		}
+	},
+	[60010001] = {
+		OpenTime = "22:00:00",
+		Id = 60010001,
+		Remote = true,
+		ActivityType = 27,
+		OneOnly = true,
+		OpenTimeType = 1,
+		OpenTimeParam = {
+			7
+		},
+		Duration = {
+			604740,
+			60
+		},
+		Desc = getI18NValue(180231763)
+	}
+}
+
+setmetatable(CfgActivityTable, {
+	__index = function(t, k)
+		error("config error :not find key: [" .. tostring(k) .. "] in table: " .. "[CfgActivityTable]")
+	end
+})
+
+local defaultMetaTable = {
+	__index = {
+		OpenAction = 0,
+		OpenTime = "",
+		CloseAction = 0,
+		OneOnly = false,
+		OpenTimeType = 0,
+		Desc = "",
+		ResetType = 0,
+		Remote = false,
+		ActivityType = 0,
+		version = 0,
+		OpenTimeParam = {},
+		ConditionIds = {},
+		Duration = {},
+		CloseActionParams = {},
+		Source = {},
+		OpenActionParams = {},
+		ExtraParam = {}
+	}
+}
+
+for i, data in pairs(CfgActivityTable) do
+	setmetatable(data, defaultMetaTable)
+end
+
+return CfgActivityTable
