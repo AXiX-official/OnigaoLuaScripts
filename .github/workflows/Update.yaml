@@ -21,7 +21,7 @@ jobs:
         if: steps.check-version.outputs.version != 'None'
         run: |
           pip install UnityPy
-          mv version-new.txt version.txt
+          cp version-new.txt version.txt
           python tool/Download.py
 
       - name: Decompile
