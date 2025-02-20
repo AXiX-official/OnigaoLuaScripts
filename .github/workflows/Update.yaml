@@ -1,0 +1,48 @@
+name: Check file changes
+on:
+  schedule:
+    - cron: "0 6-23 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-file:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check version
+        id: check-version
+        run: |
+          python tool/CheckVersion.py
+
+      - name: Download file
+        if: steps.check-version.outputs.version != "None"
+        run: |
+          mv version-new.txt version.txt
+          python tool/Download.py
+
+      - name: Decompile
+        if: steps.check-version.outputs.version != "None"
+        run: |
+          curl -LO https://github.com/marsinator358/luajit-decompiler-v2/releases/download/Mar_24_2024/luajit-decompiler-v2.exe
+          ./luajit-decompiler-v2 luajit64_sorted -o luajit64
+
+      - name: Commit changes
+        if: steps.check-version.outputs.version != "None"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add version.txt
+          git add luajit64
+          git commit -am "${{ steps.check-version.outputs.version }}" || true
+
+      - name: Pull and rebase latest changes
+        run: |
+          git pull --rebase origin ${{ github.ref }}
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
