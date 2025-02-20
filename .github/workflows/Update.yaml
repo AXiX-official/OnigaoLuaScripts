@@ -17,7 +17,7 @@ jobs:
           python tool/CheckVersion.py
 
       - name: Download file
-        if: steps.check-version.outputs.version != "None"
+        if: steps.check-version.outputs.version != 'None'
         run: |
           mv version-new.txt version.txt
           python tool/Download.py
@@ -29,7 +29,7 @@ jobs:
           ./luajit-decompiler-v2 luajit64_sorted -o luajit64
 
       - name: Commit changes
-        if: steps.check-version.outputs.version != "None"
+        if: steps.check-version.outputs.version != 'None'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
