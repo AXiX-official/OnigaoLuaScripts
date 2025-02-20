@@ -23,7 +23,7 @@ jobs:
           python tool/Download.py
 
       - name: Decompile
-        if: steps.check-version.outputs.version != "None"
+        if: steps.check-version.outputs.version != 'None'
         run: |
           curl -LO https://github.com/marsinator358/luajit-decompiler-v2/releases/download/Mar_24_2024/luajit-decompiler-v2.exe
           ./luajit-decompiler-v2 luajit64_sorted -o luajit64
