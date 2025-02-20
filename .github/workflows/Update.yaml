@@ -14,12 +14,12 @@ jobs:
       - name: Check version
         id: check-version
         run: |
+          pip install requests
           python tool/CheckVersion.py
 
       - name: Download file
         if: steps.check-version.outputs.version != 'None'
         run: |
-          pip install requests
           pip install UnityPy
           mv version-new.txt version.txt
           python tool/Download.py
