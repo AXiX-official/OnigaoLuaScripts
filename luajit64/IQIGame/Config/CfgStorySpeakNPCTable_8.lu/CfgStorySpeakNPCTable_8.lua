@@ -75937,21 +75937,11 @@ local CfgStorySpeakNPCTable_8 = {
 		}
 	},
 	[100100020] = {
+		PlayDubbing = 100000172,
 		SpeakNPC = 102,
 		Id = 100100020,
-		PlayDubbing = 100000172,
 		NPCName = getI18NValue(180111355),
-		SpeakContent = getI18NValue(180111356),
-		AnimationWhenNext = {
-			"S_faint_2",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
+		SpeakContent = getI18NValue(180111356)
 	},
 	[100100021] = {
 		SpeakNPC = 102,

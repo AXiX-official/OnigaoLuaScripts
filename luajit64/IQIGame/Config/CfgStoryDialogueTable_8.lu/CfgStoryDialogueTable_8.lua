@@ -27225,7 +27225,6 @@ local CfgStoryDialogueTable_8 = {
 	},
 	[100100018] = {
 		Id = 100100018,
-		NextID = 100100019,
 		Staytime = 0.8,
 		Speakgroup = {
 			100100019

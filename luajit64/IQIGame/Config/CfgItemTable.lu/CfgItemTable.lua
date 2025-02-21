@@ -1172,15 +1172,14 @@ local CfgItemTable = {
 	},
 	[1100] = {
 		Quality = 4,
-		OverMode = 1,
 		Id = 1100,
+		OverMode = 1,
 		Icon = "/Item/Icon_Item_Rename.png",
 		MaxNum = 99,
 		Reveal = true,
 		SmallIcon = "/Item/Icon_Currency_Small_Coins.png",
 		ItemTypes = 20,
 		BigIcon = "/Item/Icon_Item_Rename.png",
-		DepotType = 2,
 		Name = getI18NValue(180038468),
 		ItemTips = getI18NValue(180038467)
 	},

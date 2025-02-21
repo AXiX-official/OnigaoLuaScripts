@@ -252,7 +252,7 @@ local CfgSoundTable_1 = {
 	},
 	[11000009] = {
 		Id = 11000009,
-		VolumeInSoundGroup = 0.5,
+		VolumeInSoundGroup = 0.3,
 		FadeOutSeconds = 1,
 		Loop = true,
 		Pitch = 1,

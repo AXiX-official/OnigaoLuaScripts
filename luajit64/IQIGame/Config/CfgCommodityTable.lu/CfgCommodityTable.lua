@@ -2136,8 +2136,10 @@ local CfgCommodityTable = {
 	},
 	[50204001] = {
 		CommodityType = 1,
-		ShopID = 50100044,
+		OpenTime = "2024/6/18 4:00",
 		BuyType = 2,
+		CloseTime = "2024/7/18 4:00",
+		ShopID = 50100044,
 		ItemId = 1100,
 		sort = 200,
 		Number = 1,
