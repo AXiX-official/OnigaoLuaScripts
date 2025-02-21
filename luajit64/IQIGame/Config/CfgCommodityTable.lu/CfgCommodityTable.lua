@@ -3816,14 +3816,14 @@ local CfgCommodityTable = {
 		Time = 20,
 		sort = 7,
 		ResetType = 3,
-		Number = 10000,
+		Number = 100000,
 		TimeOvrtShow = 1,
 		Id = 50210107,
 		Desc = "札币",
 		Price = {
 			{
 				14,
-				15
+				10
 			},
 			{},
 			{},
@@ -3839,13 +3839,13 @@ local CfgCommodityTable = {
 		ItemId = 4,
 		sort = 8,
 		TimeOvrtShow = 1,
-		Number = 10000,
+		Number = 100000,
 		Id = 50210108,
 		Desc = "札币",
 		Price = {
 			{
 				14,
-				10
+				15
 			},
 			{},
 			{},

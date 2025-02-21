@@ -99188,16 +99188,18 @@ local CfgBuffTable = {
 		}
 	},
 	[80201001] = {
-		IsNeedText = false,
 		StackMaxNumber = 10,
 		DebuffType = 1,
 		TriggerProbability = 1,
+		IsNeedText = false,
 		StackType = 3,
-		IsTipsVisible = false,
+		IsTipsVisible = true,
+		Icon = "Buff_Def_Up",
 		BuffTime = -1,
-		IsVisible = false,
+		IsVisible = true,
 		DeathEffective = false,
 		Id = 80201001,
+		BuffEffectType = 1,
 		Name = getI18NValue(180241449),
 		Describe = getI18NValue(180241448),
 		RemoveTrigger = {
@@ -99211,6 +99213,10 @@ local CfgBuffTable = {
 		},
 		BuffTag = {
 			11
+		},
+		ShowType = {
+			1,
+			2
 		},
 		EffectType = {
 			301,
