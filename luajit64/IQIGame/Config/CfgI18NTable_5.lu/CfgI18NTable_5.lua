@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_5.lua
 
 local CfgI18NTable_5 = {
+	[180063544] = {
+		Id = 180063544,
+		RefId = 180003889
+	},
 	[180063545] = {
 		Id = 180063545,
 		RefId = 180051405
@@ -19996,10 +20000,6 @@ local CfgI18NTable_5 = {
 	[180068544] = {
 		Id = 180068544,
 		RefId = 180063197
-	},
-	[180068545] = {
-		Id = 180068545,
-		RefId = 180003889
 	}
 }
 local defaultMetaTable = {

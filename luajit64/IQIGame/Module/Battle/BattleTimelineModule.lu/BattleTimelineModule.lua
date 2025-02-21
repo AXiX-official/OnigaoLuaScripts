@@ -127,7 +127,12 @@ function BattleTimelineModule.PlaySkillTimeline(casterUnitID, skillCid, hitUnitI
 			logError("play battleUnit {0} skill {1} Timeline Fail.", casterUnitID, skillCid)
 		end
 
-		timelineViewData:OnRest()
+		if timelineViewData ~= nil then
+			timelineViewData:OnRest()
+		else
+			logError("----->>这里要卡死了")
+		end
+
 		BattleTimelineModule.__CommonTimelineCompleteHandler()
 
 		if callback ~= nil then
@@ -149,6 +154,10 @@ function BattleTimelineModule.PlaySkillTimeline(casterUnitID, skillCid, hitUnitI
 		elseif skillData.skillType == Constant.SkillType.TYPE_DISPLACEMENT then
 			CVModule.PlayCV(Constant.CVActionType.FightDIYFire, battleUnitData:GetHeroCid())
 		end
+	end
+
+	if casterView == nil then
+		return 0
 	end
 
 	return casterView.playableDirector.gameObject:GetInstanceID()

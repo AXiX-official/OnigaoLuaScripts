@@ -24372,11 +24372,11 @@ local CfgSkillLevelTable = {
 			"1"
 		}
 	},
-	[201301512] = {
+	[201301531] = {
 		Skill = 20130153,
-		Id = 201301512,
+		Id = 201301531,
 		SkillLv = 1,
-		SkillTips = getI18NValue(180259499),
+		SkillTips = getI18NValue(170000001),
 		UpGradeOldValue = {
 			"1"
 		}

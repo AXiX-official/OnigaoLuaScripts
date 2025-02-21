@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_2.lua
 
 local CfgI18NTable_2 = {
+	[180035811] = {
+		Id = 180035811,
+		Str = "灯泡爆裂、房间震动、地板的嘎吱声……由子的经历确实很诡异。"
+	},
 	[180035812] = {
 		Id = 180035812,
 		Str = "地板"
@@ -19996,10 +20000,6 @@ local CfgI18NTable_2 = {
 	[180053510] = {
 		Id = 180053510,
 		RefId = 180003889
-	},
-	[180053511] = {
-		Id = 180053511,
-		Str = "安，诸羽，藤本先生，先抓住他！"
 	}
 }
 local defaultMetaTable = {

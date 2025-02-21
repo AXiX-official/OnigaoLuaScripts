@@ -81117,95 +81117,9 @@ local CfgBuffTable = {
 			{
 				"21",
 				"1",
-				"10292006",
+				"10292004",
 				"1"
 			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10292006] = {
-		StackMaxNumber = 1,
-		DebuffType = 1,
-		TriggerProbability = 1,
-		StackType = 5,
-		IsTipsVisible = true,
-		DynamicRPNExp = "A1<=A2*0.5",
-		Icon = "Buff_Element_Up",
-		BuffTime = -1,
-		IsVisible = true,
-		TriggerType = 315,
-		DeathEffective = false,
-		Id = 10292006,
-		IsNeedText = true,
-		Name = getI18NValue(180259756),
-		Describe = getI18NValue(180259755),
-		TriggerParams = {
-			1
-		},
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		Properties = {
-			0
-		},
-		BuffTag = {
-			0,
-			10
-		},
-		ShowType = {
-			1,
-			3
-		},
-		DynamicArgType = {
-			303,
-			303,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"1"
-			},
-			{
-				"2",
-				"1",
-				"8"
-			},
-			{},
-			{}
-		},
-		EffectType = {
-			303,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"3",
-				"719",
-				"1"
-			},
-			{},
 			{},
 			{},
 			{},
@@ -82189,7 +82103,7 @@ local CfgBuffTable = {
 			{
 				"2",
 				"103030",
-				"-3",
+				"-5",
 				"1"
 			},
 			{

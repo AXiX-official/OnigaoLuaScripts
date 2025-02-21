@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_28.lua
 
 local CfgI18NTable_28 = {
+	[180236719] = {
+		Id = 180236719,
+		Str = "嘀嗒、嘀嗒、嘀嗒、嘀嗒、嘀嗒、嘀嗒——"
+	},
 	[180236720] = {
 		Id = 180236720,
 		RefId = 180003889
@@ -19996,10 +20000,6 @@ local CfgI18NTable_28 = {
 	[180241946] = {
 		Id = 180241946,
 		RefId = 180241945
-	},
-	[180241947] = {
-		Id = 180241947,
-		Str = "你拍的对象都好奇怪，没有给人照过吗？"
 	}
 }
 local defaultMetaTable = {

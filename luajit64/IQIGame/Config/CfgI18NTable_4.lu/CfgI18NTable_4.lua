@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_4.lua
 
 local CfgI18NTable_4 = {
+	[180058520] = {
+		Id = 180058520,
+		RefId = 180003889
+	},
 	[180058521] = {
 		Id = 180058521,
 		Str = "说不定神隐之心就有着放大灵力的作用"
@@ -19996,10 +20000,6 @@ local CfgI18NTable_4 = {
 	[180063543] = {
 		Id = 180063543,
 		Str = "你是怎么和这件事有牵连，又是怎么第一时间得知情报的？"
-	},
-	[180063544] = {
-		Id = 180063544,
-		RefId = 180003889
 	}
 }
 local defaultMetaTable = {

@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_23.lua
 
 local CfgI18NTable_23 = {
+	[180203220] = {
+		Id = 180203220,
+		Str = "城下町（与旧城区冲突，已废弃）"
+	},
 	[180203221] = {
 		Id = 180203221,
 		RefId = 180202088
@@ -19996,10 +20000,6 @@ local CfgI18NTable_23 = {
 	[180211241] = {
 		Id = 180211241,
 		Str = "DAILY"
-	},
-	[180211242] = {
-		Id = 180211242,
-		RefId = 180210316
 	}
 }
 local defaultMetaTable = {

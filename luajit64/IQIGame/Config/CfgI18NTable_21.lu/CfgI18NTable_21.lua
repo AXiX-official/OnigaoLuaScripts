@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_21.lua
 
 local CfgI18NTable_21 = {
+	[180186076] = {
+		Id = 180186076,
+		Str = "我们说的都是真的！"
+	},
 	[180186077] = {
 		Id = 180186077,
 		RefId = 180003889
@@ -19996,10 +20000,6 @@ local CfgI18NTable_21 = {
 	[180196018] = {
 		Id = 180196018,
 		Str = "超级回血药"
-	},
-	[180196019] = {
-		Id = 180196019,
-		Str = "回蓝药的升级版。\n*该道具不会在结算时进入玩家仓库"
 	}
 }
 local defaultMetaTable = {

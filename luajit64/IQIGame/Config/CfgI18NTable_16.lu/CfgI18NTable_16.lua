@@ -1,6 +1,10 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_16.lua
 
 local CfgI18NTable_16 = {
+	[180128103] = {
+		Id = 180128103,
+		RefId = 180116134
+	},
 	[180128104] = {
 		Id = 180128104,
 		RefId = 180116134
@@ -19996,10 +20000,6 @@ local CfgI18NTable_16 = {
 	[180135361] = {
 		Id = 180135361,
 		Str = "唔，想查术式的话，最好的办法就是去平安院的书库了"
-	},
-	[180135362] = {
-		Id = 180135362,
-		RefId = 180003889
 	}
 }
 local defaultMetaTable = {
