@@ -788,10 +788,8 @@ local CfgWorldBossStageTable = {
 			10110
 		},
 		KillReward = {
-			3,
-			50,
-			115,
-			550
+			4,
+			1
 		}
 	},
 	[2001] = {
@@ -1581,10 +1579,8 @@ local CfgWorldBossStageTable = {
 			10110
 		},
 		KillReward = {
-			3,
-			50,
-			115,
-			550
+			4,
+			1
 		}
 	},
 	[3001] = {
@@ -2374,10 +2370,8 @@ local CfgWorldBossStageTable = {
 			10110
 		},
 		KillReward = {
-			3,
-			50,
-			115,
-			550
+			4,
+			1
 		}
 	}
 }
