@@ -24,6 +24,7 @@ function m:__Init()
 		local command = args:ToLuaTable()
 
 		BattleModule.Log("BattleCommand 【Start】==> {0}", tableToString(command))
+		BattleModule.RecordDamage_BattleStartCommand(command)
 		BattleModule.OnBattleStartCommandEventHandler(command)
 	end
 
@@ -31,6 +32,7 @@ function m:__Init()
 		local command = args:ToLuaTable()
 
 		BattleModule.Log("BattleCommand 【Round】==> {0}", tableToString(command))
+		BattleModule.RecordDamage_BattleRoundCommand(command)
 		self:__AddRoundAction(command)
 	end
 
@@ -38,6 +40,7 @@ function m:__Init()
 		local command = args:ToLuaTable()
 
 		BattleModule.Log("BattleCommand 【ChooseSkill】==> {0}", tableToString(command))
+		BattleModule.RecordDamage_BattleChooseSkillCommand(command)
 		self:__AddTurnChooseSkill(command)
 	end
 
@@ -45,6 +48,7 @@ function m:__Init()
 		local command = args:ToLuaTable()
 
 		BattleModule.Log("BattleCommand 【Turn】==> {0}", tableToString(command))
+		BattleModule.RecordDamage_BattleTurnCommand(command)
 		self:__AddTurnAction(command)
 	end
 
@@ -52,6 +56,7 @@ function m:__Init()
 		local command = args:ToLuaTable()
 
 		BattleModule.Log("BattleCommand 【RoundEnd】==> {0}", tableToString(command))
+		BattleModule.RecordDamage_BattleRoundEndCommand(command)
 		self:__AddRoundEndAction(command)
 	end
 

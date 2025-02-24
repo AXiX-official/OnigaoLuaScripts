@@ -70,9 +70,6 @@ BattleModule.__UpdateUnitFuc[Constant.UpdateType.CHANGE_HP] = function(battleUpd
 	local hp = battleUpdateUnitPOD.Param[1]
 	local damage = battleUpdateUnitPOD.Param[2]
 	local elementType = battleUpdateUnitPOD.Param[3]
-
-	BattleModule.__RecordDamage(battleUnitData.battleUnitID, damage)
-
 	local battleDamageData = {}
 
 	battleDamageData.battleUnitID = battleUnitData.battleUnitID
@@ -1702,6 +1699,71 @@ function BattleModule.__BattleGuideIsUnLock(cfg)
 	local conditionResult = ConditionModule.CheckMultiple(cfg.UnlockCondition)
 
 	return ConditionModule.CheckMultipleAllIsPass(conditionResult)
+end
+
+function BattleModule.RecordDamage_BattleStartCommand(battleStartCommand)
+	local updateUnits = battleStartCommand.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
+end
+
+function BattleModule.RecordDamage_BattleRoundCommand(battleRoundCommand)
+	local updateUnits = battleRoundCommand.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
+end
+
+function BattleModule.RecordDamage_BattleChooseSkillCommand(battleChooseSkillCommand)
+	local updateUnits = battleChooseSkillCommand.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
+end
+
+function BattleModule.RecordDamage_BattleTurnCommand(battleTurnCommand)
+	local beforeUpdateUnits = battleTurnCommand.BeforeActionPOD.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(beforeUpdateUnits)
+
+	local inActionPOD = battleTurnCommand.InActionPOD
+
+	if inActionPOD ~= nil then
+		ForPairs(inActionPOD.CastSkills, function(_, castSkillPOD)
+			BattleModule.RecordDamage_BattleUpdateUnitPOD(castSkillPOD.BeforeUpdateUnits)
+
+			local skillHitPOD = castSkillPOD.SkillHits
+
+			ForPairs(skillHitPOD, function(_, _skillHitPOD)
+				BattleModule.RecordDamage_BattleUpdateUnitPOD(_skillHitPOD.UpdateUnits)
+			end)
+			BattleModule.RecordDamage_BattleUpdateUnitPOD(castSkillPOD.AfterUpdateUnits)
+		end)
+	end
+
+	local afterUpdateUnits = battleTurnCommand.AfterActionPOD.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(afterUpdateUnits)
+end
+
+function BattleModule.RecordDamage_BattleRoundEndCommand(battleRoundEndCommand)
+	local updateUnits = battleRoundEndCommand.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
+end
+
+function BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
+	if updateUnits == nil then
+		return
+	end
+
+	ForPairs(updateUnits, function(_, updateUnitPOD)
+		if updateUnitPOD.Type ~= Constant.UpdateType.CHANGE_HP then
+			return
+		end
+
+		local damage = updateUnitPOD.Param[2]
+
+		BattleModule.__RecordDamage(updateUnitPOD.ID, damage)
+	end)
 end
 
 function BattleModule.Log(log, ...)
