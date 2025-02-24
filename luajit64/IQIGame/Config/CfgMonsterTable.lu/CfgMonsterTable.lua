@@ -54021,6 +54021,2186 @@ local CfgMonsterTable = {
 			38251
 		}
 	},
+	[135020101] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020101,
+		Name = getI18NValue(180260906),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020201] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020201,
+		Name = getI18NValue(180260907),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020301] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020301,
+		Name = getI18NValue(180260908),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020401] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020401,
+		Name = getI18NValue(180260909),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020501] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020501,
+		Name = getI18NValue(180260910),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020601] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020601,
+		Name = getI18NValue(180260911),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020701] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020701,
+		Name = getI18NValue(180260912),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020801] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020801,
+		Name = getI18NValue(180260913),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135020901] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135020901,
+		Name = getI18NValue(180260914),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021001] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021001,
+		Name = getI18NValue(180260915),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021101] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021101,
+		Name = getI18NValue(180260916),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021201] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021201,
+		Name = getI18NValue(180260917),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021301] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021301,
+		Name = getI18NValue(180260918),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021401] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021401,
+		Name = getI18NValue(180260919),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021501] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021501,
+		Name = getI18NValue(180260920),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021601] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021601,
+		Name = getI18NValue(180260921),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021701] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021701,
+		Name = getI18NValue(180260922),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021801] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021801,
+		Name = getI18NValue(180260923),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135021901] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135021901,
+		Name = getI18NValue(180260924),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135022001] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135022001,
+		Name = getI18NValue(180260925),
+		Skill = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12600,
+			2,
+			932,
+			3,
+			305,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12600
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030101] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030101,
+		Name = getI18NValue(180260926),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030201] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030201,
+		Name = getI18NValue(180260927),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030301] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030301,
+		Name = getI18NValue(180260928),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030401] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030401,
+		Name = getI18NValue(180260929),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030501] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030501,
+		Name = getI18NValue(180260930),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030601] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030601,
+		Name = getI18NValue(180260931),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030701] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030701,
+		Name = getI18NValue(180260932),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030801] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030801,
+		Name = getI18NValue(180260933),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135030901] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135030901,
+		Name = getI18NValue(180260934),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031001] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031001,
+		Name = getI18NValue(180260935),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031101] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031101,
+		Name = getI18NValue(180260936),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031201] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031201,
+		Name = getI18NValue(180260937),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031301] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031301,
+		Name = getI18NValue(180260938),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031401] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031401,
+		Name = getI18NValue(180260939),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031501] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031501,
+		Name = getI18NValue(180260940),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031601] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031601,
+		Name = getI18NValue(180260941),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031701] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031701,
+		Name = getI18NValue(180260942),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031801] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031801,
+		Name = getI18NValue(180260943),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135031901] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135031901,
+		Name = getI18NValue(180260944),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135032001] = {
+		NormalSkill = 1000,
+		Speed = 55,
+		EntityID = 2023010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 40,
+		Description = "淤祸身之龙",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2023010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135032001,
+		Name = getI18NValue(180260945),
+		Skill = {
+			20003,
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		SkillShow = {
+			30230310,
+			30230320,
+			30230330,
+			30230340,
+			30230341,
+			30230350
+		},
+		Attribute = {
+			1,
+			20500,
+			2,
+			1519,
+			3,
+			497,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20500
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
 	[136000101] = {
 		NormalSkill = 1000,
 		Speed = 55,

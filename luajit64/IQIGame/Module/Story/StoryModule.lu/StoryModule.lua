@@ -732,17 +732,17 @@ function StoryModule.WaitCreateNPC(npcID, npcName, entityConfigID, position, npc
 end
 
 function StoryModule.GetCharacterByNPCID(npcID)
-	if npcID == StoryModule.player.npcID then
+	if StoryModule.player ~= nil and npcID == StoryModule.player.npcID then
 		return StoryModule.player
-	else
-		if StoryModule.npcs[npcID] == nil then
-			logError("找不到npc，npcID=" .. npcID)
-
-			return nil
-		end
-
-		return StoryModule.npcs[npcID]
 	end
+
+	if StoryModule.npcs[npcID] == nil then
+		logError("找不到npc，npcID=" .. npcID)
+
+		return nil
+	end
+
+	return StoryModule.npcs[npcID]
 end
 
 function StoryModule.UnloadSceneAndNPCs()

@@ -7239,6 +7239,35 @@ local CfgSearchTargetTable = {
 			45,
 			55
 		}
+	},
+	[302303200] = {
+		Id = 302303200,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 5,
+		ContainAnchorPpoint = -1,
+		ActionScope = 1,
+		SelectCamp = 1,
+		IgnoreTaunt = true,
+		IsGroup = true,
+		SelectDeath = false,
+		DynamicRPNExp = "A1==0",
+		IgnoreOld = false,
+		SearchScope = 1,
+		PointSelectOrder = 1,
+		SelectStealth = true,
+		AlivePriority = true,
+		DynamicArgType = {
+			102,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"202301202"
+			},
+			{}
+		}
 	}
 }
 

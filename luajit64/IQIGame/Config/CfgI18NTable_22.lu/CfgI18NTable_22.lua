@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_22.lua
 
 local CfgI18NTable_22 = {
-	[180196019] = {
-		Id = 180196019,
-		Str = "回蓝药的升级版。\n*该道具不会在结算时进入玩家仓库"
-	},
 	[180196020] = {
 		Id = 180196020,
 		Str = "超级回蓝药"
@@ -20000,6 +19996,10 @@ local CfgI18NTable_22 = {
 	[180203219] = {
 		Id = 180203219,
 		Str = "凶案现场·常世"
+	},
+	[180203220] = {
+		Id = 180203220,
+		Str = "城下町（与旧城区冲突，已废弃）"
 	}
 }
 local defaultMetaTable = {

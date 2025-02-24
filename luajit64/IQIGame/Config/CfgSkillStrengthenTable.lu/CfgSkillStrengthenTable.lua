@@ -23744,7 +23744,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffect = {
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -23762,7 +23762,11 @@ local CfgSkillStrengthenTable = {
 				"102311",
 				"0.108"
 			},
-			{},
+			{
+				"102310",
+				"1",
+				"0.1"
+			},
 			{},
 			{},
 			{},
@@ -23777,7 +23781,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffect = {
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -23795,7 +23799,11 @@ local CfgSkillStrengthenTable = {
 				"102311",
 				"0.144"
 			},
-			{},
+			{
+				"102310",
+				"1",
+				"0.1"
+			},
 			{},
 			{},
 			{},
@@ -23810,7 +23818,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffect = {
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -23828,7 +23836,11 @@ local CfgSkillStrengthenTable = {
 				"102311",
 				"0.18"
 			},
-			{},
+			{
+				"102310",
+				"1",
+				"0.1"
+			},
 			{},
 			{},
 			{},
@@ -23843,7 +23855,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffect = {
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -23861,7 +23873,11 @@ local CfgSkillStrengthenTable = {
 				"102311",
 				"0.216"
 			},
-			{},
+			{
+				"102310",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -23876,7 +23892,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffect = {
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -23894,7 +23910,11 @@ local CfgSkillStrengthenTable = {
 				"102311",
 				"0.252"
 			},
-			{},
+			{
+				"102310",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -23909,7 +23929,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffect = {
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -23927,7 +23947,11 @@ local CfgSkillStrengthenTable = {
 				"102311",
 				"0.3"
 			},
-			{},
+			{
+				"102310",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -38785,7 +38809,7 @@ local CfgSkillStrengthenTable = {
 	[2900502] = {
 		Id = 2900502,
 		SkillSlotEffect = {
-			24,
+			6,
 			0,
 			0,
 			0,
@@ -38799,8 +38823,8 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"100520",
-				"2",
-				"6"
+				"10052000",
+				"10052011"
 			},
 			{},
 			{},

@@ -786,10 +786,6 @@ local CfgWorldBossStageTable = {
 		},
 		AffixBuff = {
 			10110
-		},
-		KillReward = {
-			4,
-			1
 		}
 	},
 	[2001] = {
@@ -1577,10 +1573,6 @@ local CfgWorldBossStageTable = {
 		},
 		AffixBuff = {
 			10110
-		},
-		KillReward = {
-			4,
-			1
 		}
 	},
 	[3001] = {
@@ -2368,10 +2360,6 @@ local CfgWorldBossStageTable = {
 		},
 		AffixBuff = {
 			10110
-		},
-		KillReward = {
-			4,
-			1
 		}
 	}
 }

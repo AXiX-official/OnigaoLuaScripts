@@ -1,6 +1,119 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgMainDialogueTable_2.lua
 
 local CfgMainDialogueTable_2 = {
+	[72020101] = {
+		DialogType = 2,
+		Id = 72020101,
+		TextMan = getI18NValue(180231545),
+		ActionType = {
+			201,
+			202,
+			203,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"100002"
+			},
+			{
+				"1"
+			},
+			{
+				"S_Idle",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"72020102"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[72020102] = {
+		DialogType = 2,
+		Id = 72020102,
+		TextMan = getI18NValue(180231546),
+		ActionType = {
+			201,
+			202,
+			203,
+			101,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"100000"
+			},
+			{
+				"1"
+			},
+			{
+				"S_talk",
+				"1"
+			},
+			{
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"72020103"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[72020103] = {
 		DialogType = 2,
 		Id = 72020103,

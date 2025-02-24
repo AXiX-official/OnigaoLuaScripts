@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_12.lua
 
 local CfgI18NTable_12 = {
-	[180099234] = {
-		Id = 180099234,
-		RefId = 180003889
-	},
 	[180099235] = {
 		Id = 180099235,
 		Str = "能拿到报酬并结束这场闹剧，就万事大吉了"
@@ -20000,6 +19996,10 @@ local CfgI18NTable_12 = {
 	[180104233] = {
 		Id = 180104233,
 		RefId = 180003889
+	},
+	[180104234] = {
+		Id = 180104234,
+		Str = "悲鸣花是什么？"
 	}
 }
 local defaultMetaTable = {

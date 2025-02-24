@@ -64443,7 +64443,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndType = {
 			105,
-			101,
+			0,
 			0,
 			0,
 			0,
@@ -64459,10 +64459,7 @@ local CfgMainDialogueTable_1 = {
 				"1001002,104,0,71010120",
 				"1001003,104,10010102,71010118"
 			},
-			{
-				"0",
-				"11"
-			},
+			{},
 			{},
 			{},
 			{},
@@ -64477,6 +64474,27 @@ local CfgMainDialogueTable_1 = {
 		StayTime = 1.5,
 		DialogType = 1,
 		TextMan = getI18NValue(180211876),
+		ActionType = {
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"0",
+				"11"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
 		ActionEndType = {
 			104,
 			0,
@@ -64531,7 +64549,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndType = {
 			105,
-			101,
+			0,
 			0,
 			0,
 			0,
@@ -64547,11 +64565,7 @@ local CfgMainDialogueTable_1 = {
 				"1001002,104,0,71010120",
 				"1001003,104,10010102,71010118"
 			},
-			{
-				"0",
-				"11",
-				"1"
-			},
+			{},
 			{},
 			{},
 			{},
@@ -64566,15 +64580,20 @@ local CfgMainDialogueTable_1 = {
 		StayTime = 4.5,
 		Id = 71010120,
 		ActionType = {
+			101,
 			1012,
 			1014,
 			101,
 			0,
 			0,
-			0,
 			0
 		},
 		ActionParam = {
+			{
+				"0",
+				"11",
+				"1"
+			},
 			{
 				"0",
 				"S_move",
@@ -64590,7 +64609,6 @@ local CfgMainDialogueTable_1 = {
 				"5",
 				"2"
 			},
-			{},
 			{},
 			{},
 			{}
@@ -144952,7 +144970,7 @@ local CfgMainDialogueTable_1 = {
 		ActionEndType = {
 			1004,
 			1021,
-			1001,
+			0,
 			106,
 			0,
 			0,
@@ -144965,10 +144983,7 @@ local CfgMainDialogueTable_1 = {
 				"1000326"
 			},
 			{},
-			{
-				"106001",
-				"-6,0,-7"
-			},
+			{},
 			{
 				"0"
 			},
@@ -144980,9 +144995,61 @@ local CfgMainDialogueTable_1 = {
 		}
 	},
 	[71032401] = {
-		Id = 71032401,
 		DialogType = 1,
-		PictureID = 10000,
+		StayTime = 0.5,
+		Id = 71032401,
+		ActionType = {
+			103,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"2",
+				"99102",
+				"0,0,0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			0,
+			0,
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{},
+			{},
+			{
+				"0",
+				"71032491"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[71032491] = {
+		DialogType = 1,
+		StayTime = 2,
+		Id = 71032491,
 		ActionType = {
 			1019,
 			1022,
@@ -145023,6 +145090,57 @@ local CfgMainDialogueTable_1 = {
 				"0",
 				"2"
 			},
+			{}
+		},
+		ActionEndType = {
+			0,
+			0,
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{},
+			{},
+			{
+				"0",
+				"71032492"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[71032492] = {
+		DialogType = 1,
+		StayTime = 1,
+		Id = 71032492,
+		ActionType = {
+			108,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"-1",
+				"99102"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
 			{}
 		},
 		ActionEndType = {
@@ -193546,119 +193664,6 @@ local CfgMainDialogueTable_1 = {
 				"2003001",
 				"2003002,104,0,72010101",
 				"2003003,104,0,10000000"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72020101] = {
-		DialogType = 2,
-		Id = 72020101,
-		TextMan = getI18NValue(180231545),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100002"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72020102"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72020102] = {
-		DialogType = 2,
-		Id = 72020102,
-		TextMan = getI18NValue(180231546),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72020103"
 			},
 			{},
 			{},

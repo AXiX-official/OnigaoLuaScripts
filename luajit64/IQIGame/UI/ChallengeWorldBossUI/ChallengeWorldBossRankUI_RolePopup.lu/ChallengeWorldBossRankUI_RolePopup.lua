@@ -38,7 +38,7 @@ function RoleItemCell:Show(jsonData)
 
 	self.RoleLevel:GetComponent("Text").text = UIGlobalApi.GetLevelText(level)
 
-	self.StarRoot:GetComponent("SimpleStarComponent"):UpdateView(5, heroCfg.Quality)
+	self.StarRoot:GetComponent("SimpleStarComponent"):UpdateView(heroCfg.Quality, 0)
 end
 
 function RoleItemCell:Hide()

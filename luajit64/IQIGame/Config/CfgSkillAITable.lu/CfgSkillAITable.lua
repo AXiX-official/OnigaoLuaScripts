@@ -684,114 +684,6 @@ local CfgSkillAITable = {
 			{}
 		}
 	},
-	[1325] = {
-		DynamicRPNExp = "A1>=3",
-		Priority = 999,
-		Id = 1325,
-		DynamicArgType = {
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"1",
-				"61015002"
-			},
-			{},
-			{}
-		}
-	},
-	[1326] = {
-		DynamicRPNExp = "A1==1",
-		Priority = 50,
-		Id = 1326,
-		DynamicArgType = {
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"1",
-				"61020010"
-			},
-			{},
-			{}
-		}
-	},
-	[1327] = {
-		DynamicRPNExp = "A1==1",
-		Priority = 100,
-		Id = 1327,
-		DynamicArgType = {
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"1",
-				"61020010"
-			},
-			{},
-			{}
-		}
-	},
-	[1328] = {
-		DynamicRPNExp = "A1==1&&A2<=2",
-		Priority = 150,
-		Id = 1328,
-		DynamicArgType = {
-			103,
-			102,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"1",
-				"61020010"
-			},
-			{},
-			{}
-		}
-	},
-	[1329] = {
-		DynamicRPNExp = "A1==0",
-		Priority = 50,
-		Id = 1329,
-		DynamicArgType = {
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"1",
-				"61020010"
-			},
-			{},
-			{}
-		}
-	},
-	[1330] = {
-		DynamicRPNExp = "A1==0",
-		Priority = 100,
-		Id = 1330,
-		DynamicArgType = {
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"1",
-				"61020010"
-			},
-			{},
-			{}
-		}
-	},
 	[1331] = {
 		DynamicRPNExp = "A1>=2&&A2/A3<=0.5",
 		Priority = 150,
@@ -4276,6 +4168,24 @@ local CfgSkillAITable = {
 			{}
 		}
 	},
+	[201301500] = {
+		DynamicRPNExp = "A1>=3",
+		Priority = 999,
+		Id = 201301500,
+		DynamicArgType = {
+			103,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"201301502"
+			},
+			{},
+			{}
+		}
+	},
 	[201302500] = {
 		DynamicRPNExp = "A1>=4||A2==1",
 		Priority = 999,
@@ -4437,6 +4347,24 @@ local CfgSkillAITable = {
 			{
 				"1",
 				"203302602"
+			},
+			{},
+			{}
+		}
+	},
+	[302302500] = {
+		DynamicRPNExp = "A1>=1",
+		Priority = 999,
+		Id = 302302500,
+		DynamicArgType = {
+			103,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"302302502"
 			},
 			{},
 			{}

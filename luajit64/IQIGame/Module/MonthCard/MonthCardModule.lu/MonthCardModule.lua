@@ -11,7 +11,9 @@ function MonthCardModule.Reload(monthCardPOD, monthCardData)
 end
 
 function MonthCardModule.__InitNewMonthCard(monthCardData)
-	MonthCardModule.NewMonthCardData = monthCardData
+	if monthCardData ~= nil then
+		MonthCardModule.NewMonthCardData = monthCardData
+	end
 
 	if MonthCardModule.NewMonthCardData == nil then
 		MonthCardModule.NewMonthCardData = {}
