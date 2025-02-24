@@ -10,18 +10,19 @@ local BattleScene = require("IQIGame/Scene/Battle/BattleScene")
 local BattleActionQueueManager = require("IQIGame/Module/Battle/BattleActionQueueManager")
 
 BattleModule = {
+	showRightToolsButton = true,
 	attackBattleTroopType = 0,
-	defineTeamBattleUnitID = 0,
 	canManualExit = true,
+	currentBigRound = 0,
 	defaultSpeedIndex = 0,
 	restartBattle = false,
+	defineTeamBattleUnitID = 0,
 	forceBattleOver = false,
-	defineBattleTroopType = 0,
-	showRightToolsButton = true,
 	canExecuteInit = true,
-	currentBigRound = 0,
-	attackTeamBattleUnitID = 0,
+	defineBattleTroopType = 0,
 	ContinueBattle = false,
+	attackTeamBattleUnitID = 0,
+	totalDamageRecord = 0,
 	isBattleOver = false,
 	autoFight = false,
 	maxBigRound = 0,
@@ -40,13 +41,38 @@ BattleModule = {
 	summonUnitTable = {},
 	bossTable = {},
 	delayDieUnitsTable = {},
-	aiTypeRecordData = {}
+	aiTypeRecordData = {},
+	damageRecord = {}
 }
+
+function BattleModule.__RecordDamage(battleUnitID, damage)
+	if damage > 0 then
+		return
+	end
+
+	local _damage = damage * -1
+
+	BattleModule.totalDamageRecord = BattleModule.totalDamageRecord + _damage
+
+	local totalDamage = BattleModule.damageRecord[battleUnitID]
+
+	if totalDamage == nil then
+		BattleModule.damageRecord[battleUnitID] = _damage
+
+		return
+	end
+
+	BattleModule.damageRecord[battleUnitID] = totalDamage + _damage
+end
+
 BattleModule.__UpdateUnitFuc[Constant.UpdateType.CHANGE_HP] = function(battleUpdateUnitPOD, userData, callback)
 	local battleUnitData = userData.UnitData
 	local hp = battleUpdateUnitPOD.Param[1]
 	local damage = battleUpdateUnitPOD.Param[2]
 	local elementType = battleUpdateUnitPOD.Param[3]
+
+	BattleModule.__RecordDamage(battleUnitData.battleUnitID, damage)
+
 	local battleDamageData = {}
 
 	battleDamageData.battleUnitID = battleUnitData.battleUnitID
@@ -624,6 +650,8 @@ function BattleModule.BeginInit()
 	BattleModule.battleTileHorizontalSize = 4
 	BattleModule.battleTileVerticalSize = 3
 	BattleModule.totalDmg = 0
+	BattleModule.damageRecord = {}
+	BattleModule.totalDamageRecord = 0
 
 	local monsterTeamData = CfgMonsterTeamTable[battleInitCommand.MonsterTeamID]
 
@@ -899,7 +927,7 @@ function BattleModule.__DoBattleOver(battleOverCommand)
 
 	local star = isWin and 3 or 0
 
-	net_fight.fightOver(star, battleOverCommand.BattleType, battleOverCommand.FightResult, battleOverCommand.DmgRecords, battleOverCommand.Attacker, battleOverCommand.Defender, battleOverCommand.JsonOrder, battleOverCommand.UserData)
+	net_fight.fightOver(star, battleOverCommand.BattleType, battleOverCommand.FightResult, battleOverCommand.DmgRecords, battleOverCommand.Attacker, battleOverCommand.Defender, battleOverCommand.JsonOrder, battleOverCommand.UserData, BattleModule.totalDamageRecord)
 
 	local realFightOver = BattleModule.maxBigRound == BattleModule.currentBigRound
 
