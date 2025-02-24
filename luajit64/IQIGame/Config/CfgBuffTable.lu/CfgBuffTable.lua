@@ -77355,7 +77355,7 @@ local CfgBuffTable = {
 				"21",
 				"10232001",
 				"0",
-				"2"
+				"4"
 			},
 			{},
 			{},
@@ -77396,7 +77396,7 @@ local CfgBuffTable = {
 		TriggerProbability = 1,
 		StackType = 5,
 		IsTipsVisible = false,
-		DynamicRPNExp = "A1<5&&A2==1",
+		DynamicRPNExp = "A1<5&&A2>=1",
 		BuffTime = -1,
 		IsVisible = false,
 		TriggerType = 304,
@@ -77537,18 +77537,17 @@ local CfgBuffTable = {
 		}
 	},
 	[10232004] = {
-		IsNeedText = false,
 		StackMaxNumber = 5,
 		DebuffType = 1,
 		TriggerProbability = 1,
 		StackType = 3,
-		Type = 10232,
 		IsTipsVisible = true,
 		Icon = "Buff_Atk_Up",
 		BuffTime = -1,
 		IsVisible = false,
 		DeathEffective = false,
 		Id = 10232004,
+		IsNeedText = false,
 		Name = getI18NValue(180033189),
 		Describe = getI18NValue(180033188),
 		RemoveTrigger = {

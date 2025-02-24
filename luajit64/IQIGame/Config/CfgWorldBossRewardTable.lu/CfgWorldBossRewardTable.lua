@@ -66,7 +66,7 @@ local CfgWorldBossRewardTable = {
 		RankLowerLimit = 11,
 		RankType = 1,
 		Id = 10005,
-		Mail = 35020001,
+		Mail = 35020002,
 		Reward = {
 			3,
 			1000,
