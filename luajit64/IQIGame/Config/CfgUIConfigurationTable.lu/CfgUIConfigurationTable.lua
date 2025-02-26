@@ -595,6 +595,15 @@ local CfgUIConfigurationTable = {
 		UILayer = "UI",
 		BlurBG = true,
 		UIName = "WorldDailyLotteryUI"
+	},
+	{
+		BlurBG = true,
+		FadeInDuration = 0.05,
+		UIName = "UIPaintingThemeUI",
+		Id = 87,
+		UILayer = "UI",
+		FullScreen = true,
+		NeedFade = 1
 	}
 }
 

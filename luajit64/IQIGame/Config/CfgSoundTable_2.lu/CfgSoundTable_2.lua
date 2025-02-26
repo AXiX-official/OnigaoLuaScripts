@@ -20862,6 +20862,86 @@ local CfgSoundTable_2 = {
 		TextTime = 3,
 		Text = getI18NValue(180244093)
 	},
+	[300010311] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010311,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261064)
+	},
+	[300010312] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010312,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261065)
+	},
+	[300010313] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010313,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261066)
+	},
+	[300010314] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010314,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261067)
+	},
+	[300010321] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010321,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261068)
+	},
+	[300010322] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010322,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261069)
+	},
+	[300010323] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010323,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261070)
+	},
+	[300010324] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010324,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180261071)
+	},
 	[300010401] = {
 		GroupName = "Dub",
 		GroupType = 2,

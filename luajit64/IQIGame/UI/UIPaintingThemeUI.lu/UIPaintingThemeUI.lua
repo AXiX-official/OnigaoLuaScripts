@@ -16,16 +16,31 @@ function ThemeView:__Init(view)
 	LuaCodeInterface.BindOutlet(self.gameObject, self)
 end
 
-function ThemeView:Show(itemCid, viewRoot)
+function ThemeView:Show(paintingData)
 	self.gameObject:SetActive(true)
-	viewRoot.transform:SetParent(self.ContentRoot.transform, false)
 
-	viewRoot.transform.localPosition = Vector3.zero
-	viewRoot.transform.localScale = Vector3.one
+	self.paintingData = paintingData
 
-	viewRoot.gameObject:SetActive(true)
+	local assetPath = UIGlobalApi.GetIconPath(paintingData.Icon)
 
-	self.itemCid = itemCid
+	AssetUtil.LoadImage(self, assetPath, self.Icon:GetComponent("Image"))
+
+	local isGet = true
+
+	if paintingData.ItemID > 0 then
+		local num = WarehouseModule.GetItemNumByCfgID(paintingData.ItemID)
+
+		isGet = num > 0
+	end
+
+	self.LockRoot.gameObject:SetActive(not isGet)
+	self:RefreshUsing()
+end
+
+function ThemeView:RefreshUsing()
+	local selectPaintingCid = PlayerModule.GetUsingPaintingItemCid()
+
+	self.UsingTag.gameObject:SetActive(selectPaintingCid == self.paintingData.ID)
 end
 
 function ThemeView:Hide()
@@ -37,6 +52,7 @@ function ThemeView:ChangeSelect(isSelect)
 end
 
 function ThemeView:Dispose()
+	AssetUtil.UnloadAsset(self)
 	LuaCodeInterface.ClearOutlet(self.gameObject, self)
 
 	self.gameObject = nil
@@ -130,37 +146,36 @@ function UIPaintingThemeUI:OnDestroy()
 	end)
 
 	self.themeData = nil
+
+	ForPairs(self.paintingTable, function(k, v)
+		GameObject.Destroy(v)
+	end)
+
+	self.paintingTable = nil
 end
 
 function UIPaintingThemeUI:__InitViewData(userData)
-	if self.themeData == nil then
-		self.themeData = {}
+	self.paintingData = {}
 
-		ForPairs(userData.themes, function(_itemCid, _viewGo)
-			local viewData = self:__CreateViewData(_itemCid, _viewGo)
+	ForPairs(CfgUIPaintingItemTable, function(_, _cfg)
+		if not _cfg.IsShow then
+			return
+		end
 
-			table.insert(self.themeData, viewData)
-		end)
-		table.sort(self.themeData, function(a, b)
-			return a.itemCid < b.itemCid
-		end)
-	end
+		table.insert(self.paintingData, _cfg)
+	end)
 
-	self:__RefreshSelectRoomShow()
-end
+	local __selectItem = self.paintingData[1]
 
-function UIPaintingThemeUI:__CreateViewData(itemCid, viewGo)
-	local viewData = {}
+	self:__ChangeSelectData(__selectItem)
 
-	viewData.itemCid = itemCid
-	viewData.viewGo = UnityEngine.Object.Instantiate(viewGo, self.TempRoot.transform)
+	local totalCount = #self.paintingData
 
-	viewData.viewGo.gameObject:SetActive(false)
-
-	return viewData
+	self.skinAreaList:Refresh(totalCount)
 end
 
 function UIPaintingThemeUI:__InitSkinList()
+	self.paintingTable = {}
 	self.skinAreaList = self.rightScrollView:GetComponent("ScrollAreaList")
 
 	function self.skinAreaList.onRenderCell(cell)
@@ -172,77 +187,116 @@ function UIPaintingThemeUI:__InitSkinList()
 	end
 end
 
-function UIPaintingThemeUI:__OnRenderSkinListItem(page)
-	local insID = page.gameObject:GetInstanceID()
+function UIPaintingThemeUI:__OnRenderSkinListItem(itemCell)
+	local insID = itemCell.gameObject:GetInstanceID()
 	local skinItem = self.skinItemList[insID]
 
 	if skinItem == nil then
-		skinItem = ThemeView.New(page.gameObject)
+		skinItem = ThemeView.New(itemCell.gameObject)
 		self.skinItemList[insID] = skinItem
 	end
 
-	local dataIndex = page.index + 1
-	local themeData = self.themeData[dataIndex]
+	local dataIndex = itemCell.index + 1
+	local themeData = self.paintingData[dataIndex]
 
-	skinItem:Show(themeData.itemCid, themeData.viewGo)
-	skinItem:ChangeSelect(self.selectItemCid == themeData.itemCid)
+	skinItem:Show(themeData)
+	skinItem:ChangeSelect(self.__selectPaintingCfg.ID == themeData.ID)
 end
 
 function UIPaintingThemeUI:__OnItemCellSelect(cell)
 	local insID = cell.gameObject:GetInstanceID()
 	local skinItem = self.skinItemList[insID]
 
-	self:__ChangeSelectCid(skinItem.itemCid)
+	self:__ChangeSelectData(skinItem.paintingData)
 	ForPairs(self.skinItemList, function(k, v)
-		local select = v.itemCid == self.selectItemCid
+		local select = v.paintingData.ID == self.__selectPaintingCfg.ID
 
 		v:ChangeSelect(select)
 	end)
 end
 
-function UIPaintingThemeUI:__RefreshSelectRoomShow()
-	self:__ChangeSelectCid(self.themeData[1].itemCid)
+function UIPaintingThemeUI:__ChangeSelectData(selectPaintingCfg)
+	self.__selectPaintingCfg = selectPaintingCfg
+	self.NameText:GetComponent("Text").text = selectPaintingCfg.Name
+	self.ContentText:GetComponent("Text").text = selectPaintingCfg.ItemTips
 
-	local totalCount = #self.themeData
-
-	self.skinAreaList:Refresh(totalCount)
+	self:__RefreshPaintingShow(selectPaintingCfg.ID)
+	self:__RefreshBtnState()
 end
 
-function UIPaintingThemeUI:__ChangeSelectCid(selectItemCid)
-	self.selectItemCid = TryToNumber(selectItemCid, -999)
+function UIPaintingThemeUI:__RefreshBtnState()
+	local selectPaintingCid = PlayerModule.GetUsingPaintingItemCid()
 
-	local cacheData = PlayerModule.GetPlayerCatchData(Constant.SaveDataKey.PaintingItemCid)
-	local curItemCid = TryToNumber(cacheData, -999)
+	if self.__selectPaintingCfg.ID == selectPaintingCid then
+		self.useButton.gameObject:SetActive(false)
+		self.UsingTag.gameObject:SetActive(true)
 
-	if curItemCid <= 0 then
-		curItemCid = -999
+		return
 	end
 
-	if self.selectItemCid > 0 then
-		local num = WarehouseModule.GetItemNumByCfgID(self.selectItemCid)
+	self.UsingTag.gameObject:SetActive(false)
 
-		if num > 0 then
-			local isUsing = self.selectItemCid == curItemCid
+	local isGet = true
 
-			self.useButton.gameObject:SetActive(not isUsing)
-			self.usingTag.gameObject:SetActive(isUsing)
-			self.GetBtn.gameObject:SetActive(false)
-		else
-			self.useButton.gameObject:SetActive(false)
-			self.usingTag.gameObject:SetActive(false)
-			self.GetBtn.gameObject:SetActive(true)
-		end
-	else
-		local isUsing = self.selectItemCid == curItemCid
+	if self.__selectPaintingCfg.ItemID > 0 then
+		local num = WarehouseModule.GetItemNumByCfgID(self.__selectPaintingCfg.ItemID)
 
-		self.useButton.gameObject:SetActive(not isUsing)
-		self.usingTag.gameObject:SetActive(isUsing)
-		self.GetBtn.gameObject:SetActive(false)
+		isGet = num > 0
 	end
+
+	self.useButton.gameObject:SetActive(isGet)
+end
+
+function UIPaintingThemeUI:__RefreshPaintingShow(itemCid)
+	ForPairs(self.paintingTable, function(_itemCid, _paintingGo)
+		local active = _itemCid == itemCid
+
+		_paintingGo.gameObject:SetActive(active)
+	end)
+
+	if self.paintingTable[itemCid] == nil then
+		self:__LoadPaintingGameObject(itemCid)
+	end
+end
+
+function UIPaintingThemeUI:__LoadPaintingGameObject(itemCid)
+	local cfgPainting = CfgUIPaintingItemTable[itemCid]
+
+	AssetUtil.LoadAsset(self, cfgPainting.PrefabPath, function(_, _, asset, _, userData)
+		self:__OnPaintingItemLoaded(asset, userData)
+	end, function()
+		logError("挂画加载失败PaintingItemCid: {1}", itemCid)
+	end, {
+		paintingItemCid = itemCid
+	})
+end
+
+function UIPaintingThemeUI:__OnPaintingItemLoaded(asset, userData)
+	if self.paintingTable == nil then
+		return
+	end
+
+	if self.paintingTable[userData.paintingItemCid] ~= nil then
+		return
+	end
+
+	local obj = UnityEngine.Object.Instantiate(asset)
+
+	obj.gameObject.transform:SetParent(self.PaintingRoot.transform, false)
+
+	obj.gameObject.transform.localScale = Vector3.one
+	obj.gameObject.transform.localPosition = Vector3.zero
+
+	local selectCid = self.__selectPaintingCfg.ID
+	local active = selectCid == userData.paintingItemCid
+
+	obj.gameObject:SetActive(active)
+
+	self.paintingTable[userData.paintingItemCid] = obj
 end
 
 function UIPaintingThemeUI:__OnUserBtnClicked()
-	PlayerModule.SavePlayerCatchData(Constant.SaveDataKey.PaintingItemCid, self.selectItemCid)
+	PlayerModule.SavePlayerCatchData(Constant.SaveDataKey.PaintingItemCid, self.__selectPaintingCfg.ID)
 end
 
 function UIPaintingThemeUI:__OnCloseBtnClicked()
@@ -250,7 +304,10 @@ function UIPaintingThemeUI:__OnCloseBtnClicked()
 end
 
 function UIPaintingThemeUI:__OnSavePlayerDataSuccess()
-	self:__ChangeSelectCid(self.selectItemCid)
+	self:__RefreshBtnState()
+	ForPairs(self.skinItemList, function(k, v)
+		v:RefreshUsing()
+	end)
 end
 
 return UIPaintingThemeUI

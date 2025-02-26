@@ -4462,6 +4462,30 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
+	[50220015] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 15000,
+		Time = 1,
+		sort = 1,
+		TimeOvrtShow = 1,
+		Number = 1,
+		UnlockConditionId = 30067001,
+		Id = 50220015,
+		Desc = "天照命晶",
+		Price = {
+			{
+				22,
+				10000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[50220101] = {
 		CommodityType = 1,
 		OpenTime = "2024/6/18 4:00",

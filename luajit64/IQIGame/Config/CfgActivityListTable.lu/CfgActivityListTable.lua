@@ -153,13 +153,30 @@ local CfgActivityListTable = {
 		Desc = getI18NValue(180139122)
 	},
 	[60101013] = {
+		ActivityType = 104,
+		ChapterNameImg = "/UI/ActivityPart/ActivityListUI/DupMultipleActivity/DupMultipleActivity_imge04.png",
+		ActivityPrefab = "/_Activity/DupMultipleActivity",
+		ActivityTeam = 2,
+		Sort = 201,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_7.png",
+		Id = 60101013,
+		Name = getI18NValue(180142895),
+		ActivityID = {
+			60005021
+		},
+		ShowConditionID = {
+			30070205
+		},
+		Desc = getI18NValue(180260975)
+	},
+	[60101014] = {
 		ActivityType = 108,
 		ActivityPrefab = "/_Activity/NoviceSignActivity",
 		ActivityTeam = 1,
 		Sort = 101,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_2.png",
-		Id = 60101013,
-		Name = getI18NValue(180142895),
+		Id = 60101014,
+		Name = getI18NValue(180153746),
 		ActivityID = {
 			60001002
 		},
@@ -167,7 +184,7 @@ local CfgActivityListTable = {
 			30070103
 		}
 	},
-	[60101014] = {
+	[60101021] = {
 		ActivityType = 109,
 		ChapterNameImg = "/UI/ActivityPart/ActivityListUI/FreeDrawActivity/FreeDrawActivity_imge01.png",
 		ActivityPrefab = "/_Activity/LotteryActivity",
@@ -175,8 +192,8 @@ local CfgActivityListTable = {
 		Sort = 105,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
 		Jump = 50000003,
-		Id = 60101014,
-		Name = getI18NValue(180153746),
+		Id = 60101021,
+		Name = getI18NValue(180260976),
 		ActivityID = {
 			60003101
 		},
@@ -184,7 +201,7 @@ local CfgActivityListTable = {
 			30070206
 		}
 	},
-	[60101015] = {
+	[60101022] = {
 		ActivityType = 109,
 		ChapterNameImg = "/UI/ActivityPart/ActivityListUI/FreeDrawActivity/FreeDrawActivity_imge02.png",
 		ActivityPrefab = "/_Activity/LotteryActivity_1",
@@ -192,8 +209,8 @@ local CfgActivityListTable = {
 		Sort = 105,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
 		Jump = 50000005,
-		Id = 60101015,
-		Name = getI18NValue(180153907),
+		Id = 60101022,
+		Name = getI18NValue(180260977),
 		ActivityID = {
 			60003102
 		},
@@ -201,7 +218,7 @@ local CfgActivityListTable = {
 			30070207
 		}
 	},
-	[60101016] = {
+	[60101023] = {
 		ActivityType = 109,
 		ChapterNameImg = "/UI/ActivityPart/ActivityListUI/FreeDrawActivity/FreeDrawActivity_imge03.png",
 		ActivityPrefab = "/_Activity/LotteryActivity_2",
@@ -209,8 +226,8 @@ local CfgActivityListTable = {
 		Sort = 105,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
 		Jump = 50000007,
-		Id = 60101016,
-		Name = getI18NValue(180169216),
+		Id = 60101023,
+		Name = getI18NValue(180260978),
 		ActivityID = {
 			60003103
 		},
@@ -218,7 +235,7 @@ local CfgActivityListTable = {
 			30070208
 		}
 	},
-	[60101018] = {
+	[60101024] = {
 		ActivityType = 109,
 		ChapterNameImg = "/UI/ActivityPart/ActivityListUI/FreeDrawActivity/FreeDrawActivity_imge04.png",
 		ActivityPrefab = "/_Activity/LotteryActivity_3",
@@ -226,8 +243,8 @@ local CfgActivityListTable = {
 		Sort = 105,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
 		Jump = 50000009,
-		Id = 60101018,
-		Name = getI18NValue(180183840),
+		Id = 60101024,
+		Name = getI18NValue(180260979),
 		ActivityID = {
 			60003104
 		},

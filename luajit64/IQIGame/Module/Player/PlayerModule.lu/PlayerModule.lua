@@ -584,3 +584,14 @@ function PlayerModule.OnSavePlayerCatchDataSuccess()
 
 	EventDispatcher.Dispatch(EventID.OnSaveDataSuccess)
 end
+
+function PlayerModule.GetUsingPaintingItemCid()
+	local cacheData = PlayerModule.GetPlayerCatchData(Constant.SaveDataKey.PaintingItemCid)
+	local selectCid = TryToNumber(cacheData, 10000)
+
+	if CfgUIPaintingItemTable[selectCid] == nil then
+		return 10000
+	end
+
+	return selectCid
+end

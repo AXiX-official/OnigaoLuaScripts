@@ -1315,6 +1315,17 @@ local CfgItemTable = {
 		Name = getI18NValue(180026970),
 		ItemTips = getI18NValue(180026969)
 	},
+	[1600] = {
+		Id = 1600,
+		Quality = 5,
+		OverMode = 1,
+		Icon = "/Item/1601.png",
+		MaxNum = 1,
+		BigIcon = "/Item/1601.png",
+		ItemSubTypes = 15,
+		Name = getI18NValue(180260982),
+		ItemTips = getI18NValue(180260981)
+	},
 	[1601] = {
 		Id = 1601,
 		Quality = 5,
@@ -1347,6 +1358,16 @@ local CfgItemTable = {
 		ItemSubTypes = 15,
 		Name = getI18NValue(180260155),
 		ItemTips = getI18NValue(180260154)
+	},
+	[1604] = {
+		Icon = "/Item/1604.png",
+		Quality = 5,
+		OverMode = 1,
+		Id = 1604,
+		BigIcon = "/Item/1604.png",
+		ItemSubTypes = 15,
+		MaxNum = 1,
+		Name = getI18NValue(180260983)
 	},
 	[3000] = {
 		Quality = 5,

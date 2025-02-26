@@ -24083,7 +24083,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102320",
 				"3",
-				"0.02"
+				"0.03"
 			},
 			{
 				"102320",
@@ -41890,8 +41890,8 @@ local CfgSkillStrengthenTable = {
 	[2902302] = {
 		Id = 2902302,
 		SkillSlotEffect = {
+			24,
 			17,
-			0,
 			0,
 			0,
 			0,
@@ -41904,9 +41904,13 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"102330",
+				"3",
+				"0.015"
+			},
+			{
+				"102330",
 				"-1"
 			},
-			{},
 			{},
 			{},
 			{},

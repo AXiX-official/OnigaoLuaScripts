@@ -752,17 +752,17 @@ local CfgActivityTable = {
 		}
 	},
 	[60005001] = {
-		OpenTime = "2024/1/7 4:00",
+		OpenTime = "2025/3/24 4:00",
 		ActivityType = 12,
 		OneOnly = false,
 		Id = 60005001,
 		OpenTimeType = 2,
 		Duration = {
-			604800
+			172800
 		},
 		ExtraParam = {
 			12,
-			3,
+			2,
 			2,
 			1
 		},
@@ -772,21 +772,41 @@ local CfgActivityTable = {
 		}
 	},
 	[60005011] = {
-		OpenTime = "2024/1/7 4:00",
+		OpenTime = "2025/3/24 4:00",
 		ActivityType = 12,
 		OneOnly = false,
 		Id = 60005011,
 		OpenTimeType = 2,
 		Duration = {
-			604800
+			172800
 		},
 		ExtraParam = {
 			9,
-			3,
+			2,
 			2,
 			2
 		},
 		Desc = getI18NValue(180146537),
+		Source = {
+			11202200
+		}
+	},
+	[60005021] = {
+		OpenTime = "2025/3/24 4:00",
+		ActivityType = 12,
+		OneOnly = false,
+		Id = 60005021,
+		OpenTimeType = 2,
+		Duration = {
+			259200
+		},
+		ExtraParam = {
+			7,
+			3,
+			2,
+			2
+		},
+		Desc = getI18NValue(180260974),
 		Source = {
 			11202200
 		}

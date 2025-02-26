@@ -72,23 +72,23 @@ local CfgPayActivityTable = {
 	[1007] = {
 		Path = "/DataResource/UIResource/MainCommonImg/MainUI_BannerImg_13.png",
 		Skip = 30020001,
-		OpenTime = "2024/6/24 4:00",
+		OpenTime = "2025/3/24 4:00",
 		Type = 3,
 		Id = 1007,
 		Des = "主界面活动池-经验书双倍",
 		Duration = {
-			345600
+			172800
 		}
 	},
 	[1008] = {
 		Path = "/DataResource/UIResource/MainCommonImg/MainUI_BannerImg_14.png",
 		Skip = 30020002,
-		OpenTime = "2024/6/28 4:00",
+		OpenTime = "2025/3/24 4:00",
 		Type = 3,
 		Id = 1008,
 		Des = "主界面活动池-札币双倍",
 		Duration = {
-			259200
+			172800
 		}
 	},
 	[1009] = {
@@ -144,6 +144,17 @@ local CfgPayActivityTable = {
 		Des = "主界面活动池-驱魔科",
 		Duration = {
 			1209600
+		}
+	},
+	[1014] = {
+		Path = "/DataResource/UIResource/MainCommonImg/MainUI_BannerImg_20.png",
+		Skip = 30020002,
+		OpenTime = "2025/3/24 4:00",
+		Type = 3,
+		Id = 1014,
+		Des = "主界面活动池-鬼武双倍",
+		Duration = {
+			259200
 		}
 	},
 	[2001] = {

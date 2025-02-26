@@ -113179,15 +113179,16 @@ local CfgMainDialogueTable_1 = {
 		StayTime = 0.1,
 		Id = 71025501,
 		ActionType = {
-			1022,
-			1022,
-			1014,
-			1014,
 			0,
+			1022,
+			1022,
+			1014,
+			1014,
 			0,
 			0
 		},
 		ActionParam = {
+			{},
 			{
 				"10010416",
 				"6",
@@ -113208,7 +113209,6 @@ local CfgMainDialogueTable_1 = {
 				"10090416",
 				"1"
 			},
-			{},
 			{},
 			{}
 		},

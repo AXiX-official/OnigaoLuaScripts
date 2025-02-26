@@ -8,31 +8,61 @@ function Controller:__OnInit()
 
 	self.paintingTable = {}
 
-	ForTransformChild(self.view.ContentRoot.transform, function(_trans, _index)
-		local itemCid = TryToNumber(_trans.gameObject.name)
-
-		_trans.gameObject:SetActive(false)
-
-		self.paintingTable[itemCid] = _trans.gameObject
-	end)
 	self:__RefreshShow()
 end
 
 function Controller:__RefreshShow()
-	self.view.NormalRoot.gameObject:SetActive(false)
+	local selectCid = PlayerModule.GetUsingPaintingItemCid()
 
-	local cacheData = PlayerModule.GetPlayerCatchData(Constant.SaveDataKey.PaintingItemCid)
-	local selectCid = TryToNumber(cacheData, 0)
+	self:__RefreshPaintingShow(selectCid)
+end
 
-	if selectCid <= 0 then
-		self.view.NormalRoot.gameObject:SetActive(true)
+function Controller:__RefreshPaintingShow(itemCid)
+	ForPairs(self.paintingTable, function(_itemCid, _paintingGo)
+		local active = _itemCid == itemCid
+
+		_paintingGo.gameObject:SetActive(active)
+	end)
+
+	if self.paintingTable[itemCid] == nil then
+		self:__LoadPaintingGameObject(itemCid)
+	end
+end
+
+function Controller:__LoadPaintingGameObject(itemCid)
+	local cfgPainting = CfgUIPaintingItemTable[itemCid]
+
+	AssetUtil.LoadAsset(self, cfgPainting.PrefabPath, function(_, _, asset, _, userData)
+		self:__OnPaintingItemLoaded(asset, userData)
+	end, function()
+		logError("挂画加载失败PaintingItemCid: {1}", itemCid)
+	end, {
+		paintingItemCid = itemCid
+	})
+end
+
+function Controller:__OnPaintingItemLoaded(asset, userData)
+	if self.paintingTable == nil then
+		return
 	end
 
-	ForPairs(self.paintingTable, function(k, v)
-		local active = k == selectCid
+	if self.paintingTable[userData.paintingItemCid] ~= nil then
+		return
+	end
 
-		v.gameObject:SetActive(active)
-	end)
+	local obj = UnityEngine.Object.Instantiate(asset)
+
+	obj.gameObject.transform:SetParent(self.view.ContentRoot.transform, false)
+
+	obj.gameObject.transform.localScale = Vector3.one
+	obj.gameObject.transform.localPosition = Vector3.zero
+
+	local selectCid = PlayerModule.GetUsingPaintingItemCid()
+	local active = selectCid == userData.paintingItemCid
+
+	obj.gameObject:SetActive(active)
+
+	self.paintingTable[userData.paintingItemCid] = obj
 end
 
 function Controller:__OnAddListeners()
@@ -46,16 +76,7 @@ function Controller:__OnRemoveListeners()
 end
 
 function Controller:__OnTriggerBtnClick()
-	local userData = {
-		themes = {}
-	}
-
-	userData.themes[-999] = self.view.NormalRoot.gameObject
-
-	ForPairs(self.paintingTable, function(_itemCid, _viewGo)
-		userData.themes[_itemCid] = _viewGo
-	end)
-	UIModule.Open(Constant.UIControllerName.UIPaintingThemeUI, Constant.UILayer.UI, userData)
+	UIModule.Open(Constant.UIControllerName.UIPaintingThemeUI, Constant.UILayer.UI)
 end
 
 function Controller:__RefreshUnlockBtn()
@@ -64,6 +85,18 @@ end
 
 function Controller:__OnSavePlayerDataSuccess()
 	self:__RefreshShow()
+end
+
+function Controller:__OnDispose()
+	ForPairs(self.paintingTable, function(_, _go)
+		GameObject.Destroy(_go)
+	end)
+
+	self.paintingTable = nil
+
+	self:__RemoveRedDot()
+	self:__RemoveUnlockFunc()
+	LuaCodeInterface.ClearOutlet(self.actor.gameObject, self.view)
 end
 
 return Controller

@@ -6,7 +6,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 50000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 1,
 		Id = 1001,
 		Describe = getI18NValue(180230419),
@@ -28,7 +28,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 70000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 2,
 		Id = 1002,
 		Describe = getI18NValue(180230420),
@@ -50,7 +50,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 90000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 3,
 		Id = 1003,
 		Describe = getI18NValue(180230421),
@@ -72,7 +72,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 110000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 4,
 		Id = 1004,
 		Describe = getI18NValue(180230422),
@@ -94,7 +94,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 130000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 5,
 		Id = 1005,
 		Describe = getI18NValue(180230423),
@@ -116,7 +116,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 150000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 6,
 		Id = 1006,
 		Describe = getI18NValue(180230424),
@@ -138,7 +138,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 175000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 7,
 		Id = 1007,
 		Describe = getI18NValue(180230425),
@@ -160,7 +160,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 200000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 8,
 		Id = 1008,
 		Describe = getI18NValue(180230426),
@@ -182,7 +182,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 225000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 9,
 		Id = 1009,
 		Describe = getI18NValue(180230427),
@@ -204,7 +204,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 250000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 10,
 		Id = 1010,
 		Describe = getI18NValue(180230428),
@@ -226,7 +226,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 275000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 11,
 		Id = 1011,
 		Describe = getI18NValue(180230429),
@@ -248,7 +248,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 305000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 12,
 		Id = 1012,
 		Describe = getI18NValue(180230430),
@@ -270,7 +270,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 335000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 13,
 		Id = 1013,
 		Describe = getI18NValue(180230431),
@@ -292,7 +292,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 370000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 14,
 		Id = 1014,
 		Describe = getI18NValue(180230432),
@@ -314,7 +314,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 405000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 15,
 		Id = 1015,
 		Describe = getI18NValue(180230433),
@@ -336,7 +336,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 445000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 16,
 		Id = 1016,
 		Describe = getI18NValue(180230434),
@@ -358,7 +358,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 490000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 17,
 		Id = 1017,
 		Describe = getI18NValue(180230435),
@@ -380,7 +380,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 540000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 18,
 		Id = 1018,
 		Describe = getI18NValue(180230436),
@@ -402,7 +402,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 595000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 19,
 		Id = 1019,
 		Describe = getI18NValue(180230437),
@@ -424,7 +424,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 655000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 20,
 		Id = 1020,
 		Describe = getI18NValue(180230438),
@@ -446,7 +446,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 720000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 21,
 		Id = 1021,
 		Describe = getI18NValue(180230439),
@@ -468,7 +468,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 790000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 22,
 		Id = 1022,
 		Describe = getI18NValue(180230440),
@@ -490,7 +490,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 870000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 23,
 		Id = 1023,
 		Describe = getI18NValue(180230441),
@@ -512,7 +512,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 955000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 24,
 		Id = 1024,
 		Describe = getI18NValue(180230442),
@@ -534,7 +534,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1050000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 25,
 		Id = 1025,
 		Describe = getI18NValue(180230443),
@@ -556,7 +556,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1160000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 26,
 		Id = 1026,
 		Describe = getI18NValue(180230444),
@@ -578,7 +578,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1270000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 27,
 		Id = 1027,
 		Describe = getI18NValue(180230445),
@@ -600,7 +600,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1400000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 28,
 		Id = 1028,
 		Describe = getI18NValue(180230446),
@@ -622,7 +622,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1540000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 29,
 		Id = 1029,
 		Describe = getI18NValue(180230447),
@@ -644,7 +644,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1690000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 30,
 		Id = 1030,
 		Describe = getI18NValue(180230448),
@@ -666,7 +666,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 1860000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 31,
 		Id = 1031,
 		Describe = getI18NValue(180230449),
@@ -688,7 +688,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 2050000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 32,
 		Id = 1032,
 		Describe = getI18NValue(180230450),
@@ -710,7 +710,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 2250000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 33,
 		Id = 1033,
 		Describe = getI18NValue(180230451),
@@ -732,7 +732,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 2480000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 34,
 		Id = 1034,
 		Describe = getI18NValue(180230452),
@@ -754,7 +754,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 2720000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 35,
 		Id = 1035,
 		Describe = getI18NValue(180230453),
@@ -776,7 +776,7 @@ local CfgWorldBossStageTable = {
 		ChapterId = 1001,
 		GroupId = 3,
 		RecommendPower = 2720000,
-		BossOrder = 1,
+		BossOrder = 2,
 		BossLevel = 36,
 		Id = 1036,
 		IsExBoss = true,
@@ -788,17 +788,17 @@ local CfgWorldBossStageTable = {
 			10110
 		}
 	},
-	[2001] = {
-		BossType = 2,
+	[1101] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 50000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 1,
-		Id = 2001,
-		Describe = getI18NValue(180230455),
+		Id = 1101,
+		Describe = getI18NValue(180261199),
 		MonsterTeam = {
-			14501010
+			14503010
 		},
 		AffixBuff = {
 			10110
@@ -810,17 +810,17 @@ local CfgWorldBossStageTable = {
 			200
 		}
 	},
-	[2002] = {
-		BossType = 2,
+	[1102] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 70000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 2,
-		Id = 2002,
-		Describe = getI18NValue(180230456),
+		Id = 1102,
+		Describe = getI18NValue(180261200),
 		MonsterTeam = {
-			14501020
+			14503020
 		},
 		AffixBuff = {
 			10110
@@ -832,17 +832,17 @@ local CfgWorldBossStageTable = {
 			210
 		}
 	},
-	[2003] = {
-		BossType = 2,
+	[1103] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 90000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 3,
-		Id = 2003,
-		Describe = getI18NValue(180230457),
+		Id = 1103,
+		Describe = getI18NValue(180261201),
 		MonsterTeam = {
-			14501030
+			14503030
 		},
 		AffixBuff = {
 			10110
@@ -854,17 +854,17 @@ local CfgWorldBossStageTable = {
 			220
 		}
 	},
-	[2004] = {
-		BossType = 2,
+	[1104] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 110000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 4,
-		Id = 2004,
-		Describe = getI18NValue(180230458),
+		Id = 1104,
+		Describe = getI18NValue(180261202),
 		MonsterTeam = {
-			14501040
+			14503040
 		},
 		AffixBuff = {
 			10110
@@ -876,17 +876,17 @@ local CfgWorldBossStageTable = {
 			230
 		}
 	},
-	[2005] = {
-		BossType = 2,
+	[1105] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 130000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 5,
-		Id = 2005,
-		Describe = getI18NValue(180230459),
+		Id = 1105,
+		Describe = getI18NValue(180261203),
 		MonsterTeam = {
-			14501050
+			14503050
 		},
 		AffixBuff = {
 			10110
@@ -898,17 +898,17 @@ local CfgWorldBossStageTable = {
 			240
 		}
 	},
-	[2006] = {
-		BossType = 2,
+	[1106] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 150000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 6,
-		Id = 2006,
-		Describe = getI18NValue(180230460),
+		Id = 1106,
+		Describe = getI18NValue(180261204),
 		MonsterTeam = {
-			14501060
+			14503060
 		},
 		AffixBuff = {
 			10110
@@ -920,17 +920,17 @@ local CfgWorldBossStageTable = {
 			250
 		}
 	},
-	[2007] = {
-		BossType = 2,
+	[1107] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 175000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 7,
-		Id = 2007,
-		Describe = getI18NValue(180230461),
+		Id = 1107,
+		Describe = getI18NValue(180261205),
 		MonsterTeam = {
-			14501070
+			14503070
 		},
 		AffixBuff = {
 			10110
@@ -942,17 +942,17 @@ local CfgWorldBossStageTable = {
 			260
 		}
 	},
-	[2008] = {
-		BossType = 2,
+	[1108] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 200000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 8,
-		Id = 2008,
-		Describe = getI18NValue(180230462),
+		Id = 1108,
+		Describe = getI18NValue(180261206),
 		MonsterTeam = {
-			14501080
+			14503080
 		},
 		AffixBuff = {
 			10110
@@ -964,17 +964,17 @@ local CfgWorldBossStageTable = {
 			270
 		}
 	},
-	[2009] = {
-		BossType = 2,
+	[1109] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 225000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 9,
-		Id = 2009,
-		Describe = getI18NValue(180230463),
+		Id = 1109,
+		Describe = getI18NValue(180261207),
 		MonsterTeam = {
-			14501090
+			14503090
 		},
 		AffixBuff = {
 			10110
@@ -986,17 +986,17 @@ local CfgWorldBossStageTable = {
 			280
 		}
 	},
-	[2010] = {
-		BossType = 2,
+	[1110] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 250000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 10,
-		Id = 2010,
-		Describe = getI18NValue(180230464),
+		Id = 1110,
+		Describe = getI18NValue(180261208),
 		MonsterTeam = {
-			14501100
+			14503100
 		},
 		AffixBuff = {
 			10110
@@ -1008,17 +1008,17 @@ local CfgWorldBossStageTable = {
 			290
 		}
 	},
-	[2011] = {
-		BossType = 2,
+	[1111] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 275000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 11,
-		Id = 2011,
-		Describe = getI18NValue(180230465),
+		Id = 1111,
+		Describe = getI18NValue(180261209),
 		MonsterTeam = {
-			14501110
+			14503110
 		},
 		AffixBuff = {
 			10110
@@ -1030,17 +1030,17 @@ local CfgWorldBossStageTable = {
 			300
 		}
 	},
-	[2012] = {
-		BossType = 2,
+	[1112] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 305000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 12,
-		Id = 2012,
-		Describe = getI18NValue(180230466),
+		Id = 1112,
+		Describe = getI18NValue(180261210),
 		MonsterTeam = {
-			14501120
+			14503120
 		},
 		AffixBuff = {
 			10110
@@ -1052,17 +1052,17 @@ local CfgWorldBossStageTable = {
 			310
 		}
 	},
-	[2013] = {
-		BossType = 2,
+	[1113] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 335000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 13,
-		Id = 2013,
-		Describe = getI18NValue(180230467),
+		Id = 1113,
+		Describe = getI18NValue(180261211),
 		MonsterTeam = {
-			14501130
+			14503130
 		},
 		AffixBuff = {
 			10110
@@ -1074,17 +1074,17 @@ local CfgWorldBossStageTable = {
 			320
 		}
 	},
-	[2014] = {
-		BossType = 2,
+	[1114] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 370000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 14,
-		Id = 2014,
-		Describe = getI18NValue(180230468),
+		Id = 1114,
+		Describe = getI18NValue(180261212),
 		MonsterTeam = {
-			14501140
+			14503140
 		},
 		AffixBuff = {
 			10110
@@ -1096,17 +1096,17 @@ local CfgWorldBossStageTable = {
 			330
 		}
 	},
-	[2015] = {
-		BossType = 2,
+	[1115] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 405000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 15,
-		Id = 2015,
-		Describe = getI18NValue(180230469),
+		Id = 1115,
+		Describe = getI18NValue(180261213),
 		MonsterTeam = {
-			14501150
+			14503150
 		},
 		AffixBuff = {
 			10110
@@ -1118,17 +1118,17 @@ local CfgWorldBossStageTable = {
 			340
 		}
 	},
-	[2016] = {
-		BossType = 2,
+	[1116] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 445000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 16,
-		Id = 2016,
-		Describe = getI18NValue(180230470),
+		Id = 1116,
+		Describe = getI18NValue(180261214),
 		MonsterTeam = {
-			14501160
+			14503160
 		},
 		AffixBuff = {
 			10110
@@ -1140,17 +1140,17 @@ local CfgWorldBossStageTable = {
 			350
 		}
 	},
-	[2017] = {
-		BossType = 2,
+	[1117] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 490000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 17,
-		Id = 2017,
-		Describe = getI18NValue(180230471),
+		Id = 1117,
+		Describe = getI18NValue(180261215),
 		MonsterTeam = {
-			14501170
+			14503170
 		},
 		AffixBuff = {
 			10110
@@ -1162,17 +1162,17 @@ local CfgWorldBossStageTable = {
 			360
 		}
 	},
-	[2018] = {
-		BossType = 2,
+	[1118] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 540000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 18,
-		Id = 2018,
-		Describe = getI18NValue(180230472),
+		Id = 1118,
+		Describe = getI18NValue(180261216),
 		MonsterTeam = {
-			14501180
+			14503180
 		},
 		AffixBuff = {
 			10110
@@ -1184,17 +1184,17 @@ local CfgWorldBossStageTable = {
 			370
 		}
 	},
-	[2019] = {
-		BossType = 2,
+	[1119] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 595000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 19,
-		Id = 2019,
-		Describe = getI18NValue(180230473),
+		Id = 1119,
+		Describe = getI18NValue(180261217),
 		MonsterTeam = {
-			14501190
+			14503190
 		},
 		AffixBuff = {
 			10110
@@ -1206,17 +1206,17 @@ local CfgWorldBossStageTable = {
 			380
 		}
 	},
-	[2020] = {
-		BossType = 2,
+	[1120] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 655000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 20,
-		Id = 2020,
-		Describe = getI18NValue(180230474),
+		Id = 1120,
+		Describe = getI18NValue(180261218),
 		MonsterTeam = {
-			14501200
+			14503200
 		},
 		AffixBuff = {
 			10110
@@ -1228,17 +1228,17 @@ local CfgWorldBossStageTable = {
 			390
 		}
 	},
-	[2021] = {
-		BossType = 2,
+	[1121] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 720000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 21,
-		Id = 2021,
-		Describe = getI18NValue(180230475),
+		Id = 1121,
+		Describe = getI18NValue(180261219),
 		MonsterTeam = {
-			14501200
+			14503210
 		},
 		AffixBuff = {
 			10110
@@ -1250,17 +1250,17 @@ local CfgWorldBossStageTable = {
 			400
 		}
 	},
-	[2022] = {
-		BossType = 2,
+	[1122] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 790000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 22,
-		Id = 2022,
-		Describe = getI18NValue(180230476),
+		Id = 1122,
+		Describe = getI18NValue(180261220),
 		MonsterTeam = {
-			14501200
+			14503220
 		},
 		AffixBuff = {
 			10110
@@ -1272,17 +1272,17 @@ local CfgWorldBossStageTable = {
 			410
 		}
 	},
-	[2023] = {
-		BossType = 2,
+	[1123] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 870000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 23,
-		Id = 2023,
-		Describe = getI18NValue(180230477),
+		Id = 1123,
+		Describe = getI18NValue(180261221),
 		MonsterTeam = {
-			14501200
+			14503230
 		},
 		AffixBuff = {
 			10110
@@ -1294,17 +1294,17 @@ local CfgWorldBossStageTable = {
 			420
 		}
 	},
-	[2024] = {
-		BossType = 2,
+	[1124] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 955000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 24,
-		Id = 2024,
-		Describe = getI18NValue(180230478),
+		Id = 1124,
+		Describe = getI18NValue(180261222),
 		MonsterTeam = {
-			14501200
+			14503240
 		},
 		AffixBuff = {
 			10110
@@ -1316,17 +1316,17 @@ local CfgWorldBossStageTable = {
 			430
 		}
 	},
-	[2025] = {
-		BossType = 2,
+	[1125] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1050000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 25,
-		Id = 2025,
-		Describe = getI18NValue(180230479),
+		Id = 1125,
+		Describe = getI18NValue(180261223),
 		MonsterTeam = {
-			14501200
+			14503250
 		},
 		AffixBuff = {
 			10110
@@ -1338,17 +1338,17 @@ local CfgWorldBossStageTable = {
 			440
 		}
 	},
-	[2026] = {
-		BossType = 2,
+	[1126] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1160000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 26,
-		Id = 2026,
-		Describe = getI18NValue(180230480),
+		Id = 1126,
+		Describe = getI18NValue(180261224),
 		MonsterTeam = {
-			14501200
+			14503260
 		},
 		AffixBuff = {
 			10110
@@ -1360,17 +1360,17 @@ local CfgWorldBossStageTable = {
 			450
 		}
 	},
-	[2027] = {
-		BossType = 2,
+	[1127] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1270000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 27,
-		Id = 2027,
-		Describe = getI18NValue(180230481),
+		Id = 1127,
+		Describe = getI18NValue(180261225),
 		MonsterTeam = {
-			14501200
+			14503270
 		},
 		AffixBuff = {
 			10110
@@ -1382,17 +1382,17 @@ local CfgWorldBossStageTable = {
 			460
 		}
 	},
-	[2028] = {
-		BossType = 2,
+	[1128] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1400000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 28,
-		Id = 2028,
-		Describe = getI18NValue(180230482),
+		Id = 1128,
+		Describe = getI18NValue(180261226),
 		MonsterTeam = {
-			14501200
+			14503280
 		},
 		AffixBuff = {
 			10110
@@ -1404,17 +1404,17 @@ local CfgWorldBossStageTable = {
 			470
 		}
 	},
-	[2029] = {
-		BossType = 2,
+	[1129] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1540000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 29,
-		Id = 2029,
-		Describe = getI18NValue(180230483),
+		Id = 1129,
+		Describe = getI18NValue(180261227),
 		MonsterTeam = {
-			14501200
+			14503290
 		},
 		AffixBuff = {
 			10110
@@ -1426,17 +1426,17 @@ local CfgWorldBossStageTable = {
 			480
 		}
 	},
-	[2030] = {
-		BossType = 2,
+	[1130] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1690000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 30,
-		Id = 2030,
-		Describe = getI18NValue(180230484),
+		Id = 1130,
+		Describe = getI18NValue(180261228),
 		MonsterTeam = {
-			14501200
+			14503300
 		},
 		AffixBuff = {
 			10110
@@ -1448,17 +1448,17 @@ local CfgWorldBossStageTable = {
 			490
 		}
 	},
-	[2031] = {
-		BossType = 2,
+	[1131] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 1860000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 31,
-		Id = 2031,
-		Describe = getI18NValue(180230485),
+		Id = 1131,
+		Describe = getI18NValue(180261229),
 		MonsterTeam = {
-			14501200
+			14503310
 		},
 		AffixBuff = {
 			10110
@@ -1470,17 +1470,17 @@ local CfgWorldBossStageTable = {
 			500
 		}
 	},
-	[2032] = {
-		BossType = 2,
+	[1132] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 2050000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 32,
-		Id = 2032,
-		Describe = getI18NValue(180230486),
+		Id = 1132,
+		Describe = getI18NValue(180261230),
 		MonsterTeam = {
-			14501200
+			14503320
 		},
 		AffixBuff = {
 			10110
@@ -1492,17 +1492,17 @@ local CfgWorldBossStageTable = {
 			510
 		}
 	},
-	[2033] = {
-		BossType = 2,
+	[1133] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 2250000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 33,
-		Id = 2033,
-		Describe = getI18NValue(180230487),
+		Id = 1133,
+		Describe = getI18NValue(180261231),
 		MonsterTeam = {
-			14501200
+			14503330
 		},
 		AffixBuff = {
 			10110
@@ -1514,17 +1514,17 @@ local CfgWorldBossStageTable = {
 			520
 		}
 	},
-	[2034] = {
-		BossType = 2,
+	[1134] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 2480000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 34,
-		Id = 2034,
-		Describe = getI18NValue(180230488),
+		Id = 1134,
+		Describe = getI18NValue(180261232),
 		MonsterTeam = {
-			14501200
+			14503340
 		},
 		AffixBuff = {
 			10110
@@ -1536,17 +1536,17 @@ local CfgWorldBossStageTable = {
 			530
 		}
 	},
-	[2035] = {
-		BossType = 2,
+	[1135] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 2720000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 35,
-		Id = 2035,
-		Describe = getI18NValue(180230489),
+		Id = 1135,
+		Describe = getI18NValue(180261233),
 		MonsterTeam = {
-			14501200
+			14503350
 		},
 		AffixBuff = {
 			10110
@@ -1558,37 +1558,37 @@ local CfgWorldBossStageTable = {
 			540
 		}
 	},
-	[2036] = {
-		BossType = 2,
+	[1136] = {
+		BossType = 1,
 		ChapterId = 1002,
-		GroupId = 3,
+		GroupId = 31,
 		RecommendPower = 2720000,
-		BossOrder = 2,
+		BossOrder = 1,
 		BossLevel = 36,
-		Id = 2036,
+		Id = 1136,
 		IsExBoss = true,
-		Describe = getI18NValue(180230490),
+		Describe = getI18NValue(180261234),
 		MonsterTeam = {
-			14501200
+			14503360
 		},
 		AffixBuff = {
 			10110
 		}
 	},
-	[3001] = {
-		BossType = 3,
+	[1201] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 50000,
 		BossOrder = 3,
 		BossLevel = 1,
-		Id = 3001,
-		Describe = getI18NValue(180230491),
+		Id = 1201,
+		Describe = getI18NValue(180261123),
 		MonsterTeam = {
-			14501010
+			14502010
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1597,20 +1597,20 @@ local CfgWorldBossStageTable = {
 			200
 		}
 	},
-	[3002] = {
-		BossType = 3,
+	[1202] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 70000,
 		BossOrder = 3,
 		BossLevel = 2,
-		Id = 3002,
-		Describe = getI18NValue(180230492),
+		Id = 1202,
+		Describe = getI18NValue(180261124),
 		MonsterTeam = {
-			14501020
+			14502020
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1619,20 +1619,20 @@ local CfgWorldBossStageTable = {
 			210
 		}
 	},
-	[3003] = {
-		BossType = 3,
+	[1203] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 90000,
 		BossOrder = 3,
 		BossLevel = 3,
-		Id = 3003,
-		Describe = getI18NValue(180230493),
+		Id = 1203,
+		Describe = getI18NValue(180261125),
 		MonsterTeam = {
-			14501030
+			14502030
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1641,20 +1641,20 @@ local CfgWorldBossStageTable = {
 			220
 		}
 	},
-	[3004] = {
-		BossType = 3,
+	[1204] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 110000,
 		BossOrder = 3,
 		BossLevel = 4,
-		Id = 3004,
-		Describe = getI18NValue(180230494),
+		Id = 1204,
+		Describe = getI18NValue(180261126),
 		MonsterTeam = {
-			14501040
+			14502040
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1663,20 +1663,20 @@ local CfgWorldBossStageTable = {
 			230
 		}
 	},
-	[3005] = {
-		BossType = 3,
+	[1205] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 130000,
 		BossOrder = 3,
 		BossLevel = 5,
-		Id = 3005,
-		Describe = getI18NValue(180230495),
+		Id = 1205,
+		Describe = getI18NValue(180261127),
 		MonsterTeam = {
-			14501050
+			14502050
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1685,20 +1685,20 @@ local CfgWorldBossStageTable = {
 			240
 		}
 	},
-	[3006] = {
-		BossType = 3,
+	[1206] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 150000,
 		BossOrder = 3,
 		BossLevel = 6,
-		Id = 3006,
-		Describe = getI18NValue(180230496),
+		Id = 1206,
+		Describe = getI18NValue(180261128),
 		MonsterTeam = {
-			14501060
+			14502060
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1707,20 +1707,20 @@ local CfgWorldBossStageTable = {
 			250
 		}
 	},
-	[3007] = {
-		BossType = 3,
+	[1207] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 175000,
 		BossOrder = 3,
 		BossLevel = 7,
-		Id = 3007,
-		Describe = getI18NValue(180230497),
+		Id = 1207,
+		Describe = getI18NValue(180261129),
 		MonsterTeam = {
-			14501070
+			14502070
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1729,20 +1729,20 @@ local CfgWorldBossStageTable = {
 			260
 		}
 	},
-	[3008] = {
-		BossType = 3,
+	[1208] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 200000,
 		BossOrder = 3,
 		BossLevel = 8,
-		Id = 3008,
-		Describe = getI18NValue(180230498),
+		Id = 1208,
+		Describe = getI18NValue(180261130),
 		MonsterTeam = {
-			14501080
+			14502080
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1751,20 +1751,20 @@ local CfgWorldBossStageTable = {
 			270
 		}
 	},
-	[3009] = {
-		BossType = 3,
+	[1209] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 225000,
 		BossOrder = 3,
 		BossLevel = 9,
-		Id = 3009,
-		Describe = getI18NValue(180230499),
+		Id = 1209,
+		Describe = getI18NValue(180261131),
 		MonsterTeam = {
-			14501090
+			14502090
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1773,20 +1773,20 @@ local CfgWorldBossStageTable = {
 			280
 		}
 	},
-	[3010] = {
-		BossType = 3,
+	[1210] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 250000,
 		BossOrder = 3,
 		BossLevel = 10,
-		Id = 3010,
-		Describe = getI18NValue(180230500),
+		Id = 1210,
+		Describe = getI18NValue(180261132),
 		MonsterTeam = {
-			14501100
+			14502100
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1795,20 +1795,20 @@ local CfgWorldBossStageTable = {
 			290
 		}
 	},
-	[3011] = {
-		BossType = 3,
+	[1211] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 275000,
 		BossOrder = 3,
 		BossLevel = 11,
-		Id = 3011,
-		Describe = getI18NValue(180230501),
+		Id = 1211,
+		Describe = getI18NValue(180261133),
 		MonsterTeam = {
-			14501110
+			14502110
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1817,20 +1817,20 @@ local CfgWorldBossStageTable = {
 			300
 		}
 	},
-	[3012] = {
-		BossType = 3,
+	[1212] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 305000,
 		BossOrder = 3,
 		BossLevel = 12,
-		Id = 3012,
-		Describe = getI18NValue(180230502),
+		Id = 1212,
+		Describe = getI18NValue(180261134),
 		MonsterTeam = {
-			14501120
+			14502120
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1839,20 +1839,20 @@ local CfgWorldBossStageTable = {
 			310
 		}
 	},
-	[3013] = {
-		BossType = 3,
+	[1213] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 335000,
 		BossOrder = 3,
 		BossLevel = 13,
-		Id = 3013,
-		Describe = getI18NValue(180230503),
+		Id = 1213,
+		Describe = getI18NValue(180261135),
 		MonsterTeam = {
-			14501130
+			14502130
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1861,20 +1861,20 @@ local CfgWorldBossStageTable = {
 			320
 		}
 	},
-	[3014] = {
-		BossType = 3,
+	[1214] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 370000,
 		BossOrder = 3,
 		BossLevel = 14,
-		Id = 3014,
-		Describe = getI18NValue(180230504),
+		Id = 1214,
+		Describe = getI18NValue(180261136),
 		MonsterTeam = {
-			14501140
+			14502140
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1883,20 +1883,20 @@ local CfgWorldBossStageTable = {
 			330
 		}
 	},
-	[3015] = {
-		BossType = 3,
+	[1215] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 405000,
 		BossOrder = 3,
 		BossLevel = 15,
-		Id = 3015,
-		Describe = getI18NValue(180230505),
+		Id = 1215,
+		Describe = getI18NValue(180261137),
 		MonsterTeam = {
-			14501150
+			14502150
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1905,20 +1905,20 @@ local CfgWorldBossStageTable = {
 			340
 		}
 	},
-	[3016] = {
-		BossType = 3,
+	[1216] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 445000,
 		BossOrder = 3,
 		BossLevel = 16,
-		Id = 3016,
-		Describe = getI18NValue(180230506),
+		Id = 1216,
+		Describe = getI18NValue(180261138),
 		MonsterTeam = {
-			14501160
+			14502160
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1927,20 +1927,20 @@ local CfgWorldBossStageTable = {
 			350
 		}
 	},
-	[3017] = {
-		BossType = 3,
+	[1217] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 490000,
 		BossOrder = 3,
 		BossLevel = 17,
-		Id = 3017,
-		Describe = getI18NValue(180230507),
+		Id = 1217,
+		Describe = getI18NValue(180261139),
 		MonsterTeam = {
-			14501170
+			14502170
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1949,20 +1949,20 @@ local CfgWorldBossStageTable = {
 			360
 		}
 	},
-	[3018] = {
-		BossType = 3,
+	[1218] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 540000,
 		BossOrder = 3,
 		BossLevel = 18,
-		Id = 3018,
-		Describe = getI18NValue(180230508),
+		Id = 1218,
+		Describe = getI18NValue(180261140),
 		MonsterTeam = {
-			14501180
+			14502180
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1971,20 +1971,20 @@ local CfgWorldBossStageTable = {
 			370
 		}
 	},
-	[3019] = {
-		BossType = 3,
+	[1219] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 595000,
 		BossOrder = 3,
 		BossLevel = 19,
-		Id = 3019,
-		Describe = getI18NValue(180230509),
+		Id = 1219,
+		Describe = getI18NValue(180261141),
 		MonsterTeam = {
-			14501190
+			14502190
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -1993,20 +1993,20 @@ local CfgWorldBossStageTable = {
 			380
 		}
 	},
-	[3020] = {
-		BossType = 3,
+	[1220] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 655000,
 		BossOrder = 3,
 		BossLevel = 20,
-		Id = 3020,
-		Describe = getI18NValue(180230510),
+		Id = 1220,
+		Describe = getI18NValue(180261142),
 		MonsterTeam = {
-			14501200
+			14502200
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2015,20 +2015,20 @@ local CfgWorldBossStageTable = {
 			390
 		}
 	},
-	[3021] = {
-		BossType = 3,
+	[1221] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 720000,
 		BossOrder = 3,
 		BossLevel = 21,
-		Id = 3021,
-		Describe = getI18NValue(180230511),
+		Id = 1221,
+		Describe = getI18NValue(180261143),
 		MonsterTeam = {
-			14501200
+			14502210
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2037,20 +2037,20 @@ local CfgWorldBossStageTable = {
 			400
 		}
 	},
-	[3022] = {
-		BossType = 3,
+	[1222] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 790000,
 		BossOrder = 3,
 		BossLevel = 22,
-		Id = 3022,
-		Describe = getI18NValue(180230512),
+		Id = 1222,
+		Describe = getI18NValue(180261144),
 		MonsterTeam = {
-			14501200
+			14502220
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2059,20 +2059,20 @@ local CfgWorldBossStageTable = {
 			410
 		}
 	},
-	[3023] = {
-		BossType = 3,
+	[1223] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 870000,
 		BossOrder = 3,
 		BossLevel = 23,
-		Id = 3023,
-		Describe = getI18NValue(180230513),
+		Id = 1223,
+		Describe = getI18NValue(180261145),
 		MonsterTeam = {
-			14501200
+			14502230
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2081,20 +2081,20 @@ local CfgWorldBossStageTable = {
 			420
 		}
 	},
-	[3024] = {
-		BossType = 3,
+	[1224] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 955000,
 		BossOrder = 3,
 		BossLevel = 24,
-		Id = 3024,
-		Describe = getI18NValue(180230514),
+		Id = 1224,
+		Describe = getI18NValue(180261146),
 		MonsterTeam = {
-			14501200
+			14502240
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2103,20 +2103,20 @@ local CfgWorldBossStageTable = {
 			430
 		}
 	},
-	[3025] = {
-		BossType = 3,
+	[1225] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1050000,
 		BossOrder = 3,
 		BossLevel = 25,
-		Id = 3025,
-		Describe = getI18NValue(180230515),
+		Id = 1225,
+		Describe = getI18NValue(180261147),
 		MonsterTeam = {
-			14501200
+			14502250
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2125,20 +2125,20 @@ local CfgWorldBossStageTable = {
 			440
 		}
 	},
-	[3026] = {
-		BossType = 3,
+	[1226] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1160000,
 		BossOrder = 3,
 		BossLevel = 26,
-		Id = 3026,
-		Describe = getI18NValue(180230516),
+		Id = 1226,
+		Describe = getI18NValue(180261148),
 		MonsterTeam = {
-			14501200
+			14502260
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2147,20 +2147,20 @@ local CfgWorldBossStageTable = {
 			450
 		}
 	},
-	[3027] = {
-		BossType = 3,
+	[1227] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1270000,
 		BossOrder = 3,
 		BossLevel = 27,
-		Id = 3027,
-		Describe = getI18NValue(180230517),
+		Id = 1227,
+		Describe = getI18NValue(180261149),
 		MonsterTeam = {
-			14501200
+			14502270
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2169,20 +2169,20 @@ local CfgWorldBossStageTable = {
 			460
 		}
 	},
-	[3028] = {
-		BossType = 3,
+	[1228] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1400000,
 		BossOrder = 3,
 		BossLevel = 28,
-		Id = 3028,
-		Describe = getI18NValue(180230518),
+		Id = 1228,
+		Describe = getI18NValue(180261150),
 		MonsterTeam = {
-			14501200
+			14502280
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2191,20 +2191,20 @@ local CfgWorldBossStageTable = {
 			470
 		}
 	},
-	[3029] = {
-		BossType = 3,
+	[1229] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1540000,
 		BossOrder = 3,
 		BossLevel = 29,
-		Id = 3029,
-		Describe = getI18NValue(180230519),
+		Id = 1229,
+		Describe = getI18NValue(180261151),
 		MonsterTeam = {
-			14501200
+			14502290
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2213,20 +2213,20 @@ local CfgWorldBossStageTable = {
 			480
 		}
 	},
-	[3030] = {
-		BossType = 3,
+	[1230] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1690000,
 		BossOrder = 3,
 		BossLevel = 30,
-		Id = 3030,
-		Describe = getI18NValue(180230520),
+		Id = 1230,
+		Describe = getI18NValue(180261152),
 		MonsterTeam = {
-			14501200
+			14502300
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2235,20 +2235,20 @@ local CfgWorldBossStageTable = {
 			490
 		}
 	},
-	[3031] = {
-		BossType = 3,
+	[1231] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 1860000,
 		BossOrder = 3,
 		BossLevel = 31,
-		Id = 3031,
-		Describe = getI18NValue(180230521),
+		Id = 1231,
+		Describe = getI18NValue(180261153),
 		MonsterTeam = {
-			14501200
+			14502310
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2257,20 +2257,20 @@ local CfgWorldBossStageTable = {
 			500
 		}
 	},
-	[3032] = {
-		BossType = 3,
+	[1232] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 2050000,
 		BossOrder = 3,
 		BossLevel = 32,
-		Id = 3032,
-		Describe = getI18NValue(180230522),
+		Id = 1232,
+		Describe = getI18NValue(180261154),
 		MonsterTeam = {
-			14501200
+			14502320
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2279,20 +2279,20 @@ local CfgWorldBossStageTable = {
 			510
 		}
 	},
-	[3033] = {
-		BossType = 3,
+	[1233] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 2250000,
 		BossOrder = 3,
 		BossLevel = 33,
-		Id = 3033,
-		Describe = getI18NValue(180230523),
+		Id = 1233,
+		Describe = getI18NValue(180261155),
 		MonsterTeam = {
-			14501200
+			14502330
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2301,20 +2301,20 @@ local CfgWorldBossStageTable = {
 			520
 		}
 	},
-	[3034] = {
-		BossType = 3,
+	[1234] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 2480000,
 		BossOrder = 3,
 		BossLevel = 34,
-		Id = 3034,
-		Describe = getI18NValue(180230524),
+		Id = 1234,
+		Describe = getI18NValue(180261156),
 		MonsterTeam = {
-			14501200
+			14502340
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2323,20 +2323,20 @@ local CfgWorldBossStageTable = {
 			530
 		}
 	},
-	[3035] = {
-		BossType = 3,
+	[1235] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 2720000,
 		BossOrder = 3,
 		BossLevel = 35,
-		Id = 3035,
-		Describe = getI18NValue(180230525),
+		Id = 1235,
+		Describe = getI18NValue(180261157),
 		MonsterTeam = {
-			14501200
+			14502350
 		},
 		AffixBuff = {
-			10110
+			10140
 		},
 		KillReward = {
 			3,
@@ -2345,21 +2345,21 @@ local CfgWorldBossStageTable = {
 			540
 		}
 	},
-	[3036] = {
-		BossType = 3,
+	[1236] = {
+		BossType = 1,
 		ChapterId = 1003,
-		GroupId = 3,
+		GroupId = 30,
 		RecommendPower = 2720000,
 		BossOrder = 3,
 		BossLevel = 36,
-		Id = 3036,
+		Id = 1236,
 		IsExBoss = true,
-		Describe = getI18NValue(180230526),
+		Describe = getI18NValue(180261158),
 		MonsterTeam = {
-			14501200
+			14502360
 		},
 		AffixBuff = {
-			10110
+			10140
 		}
 	}
 }

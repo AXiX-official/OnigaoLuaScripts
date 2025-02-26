@@ -67123,6 +67123,11 @@ local CfgBuffTable = {
 				"1",
 				"1",
 				"21",
+				"10052005",
+				"0",
+				"1",
+				"1",
+				"21",
 				"10052009",
 				"0",
 				"1"
@@ -67289,7 +67294,7 @@ local CfgBuffTable = {
 				"0",
 				"1",
 				"10052000",
-				"1"
+				"1.05"
 			},
 			{},
 			{},
@@ -67710,6 +67715,11 @@ local CfgBuffTable = {
 				"21",
 				"10052013",
 				"0",
+				"1",
+				"1",
+				"21",
+				"10052017",
+				"0",
 				"1"
 			},
 			{},
@@ -67953,7 +67963,7 @@ local CfgBuffTable = {
 				"0",
 				"1",
 				"10052001",
-				"1"
+				"1.05"
 			},
 			{},
 			{},
@@ -103409,7 +103419,7 @@ local CfgBuffTable = {
 		EffectType = {
 			310,
 			101,
-			0,
+			101,
 			0,
 			0,
 			0,
@@ -103433,7 +103443,13 @@ local CfgBuffTable = {
 				"0",
 				"1"
 			},
-			{},
+			{
+				"1",
+				"83",
+				"80217006",
+				"0",
+				"1"
+			},
 			{},
 			{},
 			{},
@@ -103459,8 +103475,10 @@ local CfgBuffTable = {
 		}
 	},
 	[80217002] = {
-		StackMaxNumber = 1,
 		DeathEffective = false,
+		DebuffType = 3,
+		StackMaxNumber = 1,
+		TriggerPriority = 1000,
 		TriggerProbability = 1,
 		StackType = 5,
 		IsTipsVisible = false,
@@ -103468,7 +103486,6 @@ local CfgBuffTable = {
 		BuffTime = -1,
 		IsVisible = false,
 		TriggerType = 315,
-		DebuffType = 3,
 		Id = 80217002,
 		IsNeedText = false,
 		TriggerParams = {
@@ -103499,7 +103516,7 @@ local CfgBuffTable = {
 		},
 		EffectType = {
 			101,
-			310,
+			0,
 			0,
 			0,
 			0,
@@ -103517,13 +103534,7 @@ local CfgBuffTable = {
 				"0",
 				"1"
 			},
-			{
-				"1",
-				"83",
-				"80217001",
-				"0",
-				"31000"
-			},
+			{},
 			{},
 			{},
 			{},
@@ -103600,7 +103611,7 @@ local CfgBuffTable = {
 		}
 	},
 	[80217005] = {
-		StackMaxNumber = 5,
+		StackMaxNumber = 10,
 		DebuffType = 1,
 		TriggerProbability = 1,
 		StackType = 3,
@@ -103640,6 +103651,56 @@ local CfgBuffTable = {
 				"1",
 				"10000",
 				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[80217006] = {
+		BuffTime = -1,
+		DebuffType = 3,
+		StackMaxNumber = 1,
+		TriggerPriority = 100,
+		TriggerProbability = 1,
+		IsTipsVisible = false,
+		IsVisible = false,
+		TriggerType = 315,
+		StackType = 5,
+		DeathEffective = false,
+		Id = 80217006,
+		IsNeedText = false,
+		TriggerParams = {
+			10
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		EffectType = {
+			310,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"83",
+				"80217001",
+				"0",
+				"31000"
 			},
 			{},
 			{},
@@ -104540,7 +104601,7 @@ local CfgBuffTable = {
 		EffectParam = {
 			{
 				"1",
-				"31",
+				"222",
 				"80222005",
 				"0",
 				"1"

@@ -342,6 +342,118 @@ local CfgNpcUiActionTable = {
 			0
 		}
 	},
+	[3011] = {
+		NpcEntityId = 10815502,
+		TriggerType = 1,
+		GroupId = 30,
+		TriggerParam = "0|24|100",
+		Id = 3011,
+		Motion = "special_1",
+		CVid = 300010301,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3012] = {
+		NpcEntityId = 10815502,
+		TriggerType = 1,
+		GroupId = 30,
+		TriggerParam = "0|24|100",
+		Id = 3012,
+		Motion = "skill_1",
+		CVid = 300010302,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3013] = {
+		NpcEntityId = 10815502,
+		TriggerType = 1,
+		GroupId = 30,
+		TriggerParam = "0|24|100",
+		Id = 3013,
+		Motion = "attack_1",
+		CVid = 300010303,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3014] = {
+		NpcEntityId = 10815502,
+		TriggerType = 1,
+		GroupId = 30,
+		TriggerParam = "0|24|100",
+		Id = 3014,
+		Motion = "hit",
+		CVid = 300010304,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3021] = {
+		NpcEntityId = 10815503,
+		TriggerType = 1,
+		GroupId = 31,
+		TriggerParam = "0|24|100",
+		Id = 3021,
+		Motion = "special_1",
+		CVid = 300010301,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3022] = {
+		NpcEntityId = 10815503,
+		TriggerType = 1,
+		GroupId = 31,
+		TriggerParam = "0|24|100",
+		Id = 3022,
+		Motion = "skill_1",
+		CVid = 300010302,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3023] = {
+		NpcEntityId = 10815503,
+		TriggerType = 1,
+		GroupId = 31,
+		TriggerParam = "0|24|100",
+		Id = 3023,
+		Motion = "attack_1",
+		CVid = 300010303,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3024] = {
+		NpcEntityId = 10815503,
+		TriggerType = 1,
+		GroupId = 31,
+		TriggerParam = "0|24|100",
+		Id = 3024,
+		Motion = "hit",
+		CVid = 300010304,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
 	[4001] = {
 		CVid = 300010401,
 		TriggerParam = "0|24|100",

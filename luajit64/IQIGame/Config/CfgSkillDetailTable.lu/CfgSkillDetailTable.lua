@@ -9923,21 +9923,27 @@ local CfgSkillDetailTable = {
 		Id = 802170,
 		FunctionID = 600,
 		BuffOrder = {
+			0,
 			0
 		},
 		BuffProbability = {
+			1,
 			1
 		},
 		BuffTarget = {
-			83
+			83,
+			21
 		},
 		BuffID = {
-			80217000
+			80217000,
+			80217004
 		},
 		BuffTime = {
+			0,
 			0
 		},
 		BuffStackNum = {
+			1,
 			1
 		},
 		CustomParams = {

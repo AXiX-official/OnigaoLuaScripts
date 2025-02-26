@@ -8482,18 +8482,6 @@ local CfgAutoTextI18NTable = {
 		Id = 1739443370,
 		Text = getI18NValue(180260427)
 	},
-	[1739850704] = {
-		Id = 1739850704,
-		Text = getI18NValue(180260843)
-	},
-	[1739850705] = {
-		Id = 1739850705,
-		Text = getI18NValue(180260844)
-	},
-	[1739862056] = {
-		Id = 1739862056,
-		Text = getI18NValue(180260845)
-	},
 	[1739867725] = {
 		Id = 1739867725,
 		Text = getI18NValue(180260846)
@@ -8529,6 +8517,10 @@ local CfgAutoTextI18NTable = {
 	[1740037914] = {
 		Id = 1740037914,
 		Text = getI18NValue(180260860)
+	},
+	[1740547614] = {
+		Id = 1740547614,
+		Text = getI18NValue(180260980)
 	}
 }
 

@@ -3223,6 +3223,14 @@ local CfgElementEntityTable = {
 		Id = 10815501,
 		PrefabName = "Entity/UISpine/Monster/UI_WorldBoss1"
 	},
+	[10815502] = {
+		Id = 10815502,
+		PrefabName = "Entity/UISpine/Monster/UI_WorldBoss2"
+	},
+	[10815503] = {
+		Id = 10815503,
+		PrefabName = "Entity/UISpine/Monster/UI_WorldBoss3"
+	},
 	[10820000] = {
 		Id = 10820000,
 		PrefabName = "Entity/Home/CH_Box"
