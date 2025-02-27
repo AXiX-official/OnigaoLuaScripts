@@ -62,6 +62,10 @@ function MazeModule.ProcessingLeaveStage()
 
 	local labyrinthStagePOD = MazeModule.GetLabyrinthStagePOD(MazeModule.__labyrinthDataPOD.curDifficulty)
 
+	if labyrinthStagePOD == nil then
+		return
+	end
+
 	if labyrinthStagePOD.exploreFlg == Constant.MazeStageExploreState.HerosDeath then
 		MazeModule.log("主动结算迷宫->角色全部死亡")
 		MazeModule.OnExitStage(labyrinthStagePOD.difficulty, Constant.MazeStageExploreState.HerosDeath)

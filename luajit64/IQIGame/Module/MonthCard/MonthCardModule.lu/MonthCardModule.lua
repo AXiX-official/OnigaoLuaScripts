@@ -41,6 +41,7 @@ function MonthCardModule.GetMonthCardAward()
 end
 
 function MonthCardModule.ReceiveMonthCardAwardResult(itemShowPODS)
+	EventDispatcher.Dispatch(EventID.OnReceiveMonthCardAwardResult)
 	MonthCardModule.GetItemShow(itemShowPODS)
 end
 

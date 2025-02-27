@@ -828,6 +828,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/MainCityToHomeTransfer.lua
 Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/MainCityToStoryTransfer.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/MazeSceneToBattleTransfer.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/MazeSceneToHomeTransfer.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/ReEnterStoryTransfer.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/ReturnLoginTransfer.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/SceneTransferController.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Module/SceneTransfer/SceneTransferModule.lua.txt,0

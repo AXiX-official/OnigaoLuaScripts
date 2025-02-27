@@ -73,13 +73,18 @@ end
 function HomeModule.ExitHomeScene()
 	HomeModule.__RemoveListeners()
 	ModuleTimerUtil.Stop(Constant.ModuleTimerName.Home)
-	HomeModule.updateFrameTimer:Stop()
 
-	HomeModule.updateFrameTimer = nil
+	if HomeModule.updateFrameTimer ~= nil then
+		HomeModule.updateFrameTimer:Stop()
 
-	HomeModule.homeScene:Dispose()
+		HomeModule.updateFrameTimer = nil
+	end
 
-	HomeModule.homeScene = nil
+	if HomeModule.homeScene ~= nil then
+		HomeModule.homeScene:Dispose()
+
+		HomeModule.homeScene = nil
+	end
 end
 
 function HomeModule.__AddListeners()

@@ -330,6 +330,7 @@ EventID = {
 	LotteryRecordDrawResultEvent = "LotteryRecordDrawResultEvent",
 	ShowBattleSkillAPCost = "ShowBattleSkillAPCost",
 	SetLotteryAppointedViewActive = "SetLotteryAppointedViewActive",
+	OnReceiveMonthCardAwardResult = "ReceiveMonthCardAwardResult",
 	SummerActivityMainView_OpenStage = "SummerActivityMainView_OpenStage",
 	BattleSetBossPropertyPanelVisible = "BattleSetBossPropertyPanelVisible",
 	ShowUserInfoSkinView = "ShowUserInfoSkinView",

@@ -351,6 +351,7 @@ function StoryPanel:AddListener()
 	self.GMButtonHideDialogue:GetComponent("Button").onClick:AddListener(self.delegateOnClickGMButtonHideDialogue)
 	self.buttonSkip:GetComponent("Button").onClick:AddListener(self.delegateOnClickButtonSkip)
 	self.GMButtonSkip:GetComponent("Button").onClick:AddListener(self.delegateOnClickGMButtonSkip)
+	UIEventUtil.AddClickEventListener_Button(self, "RepairBtn", self.__OnRepairBtnClick)
 end
 
 function StoryPanel:RemoveListener()
@@ -401,6 +402,11 @@ function StoryPanel:RemoveListener()
 	self.GMButtonHideDialogue:GetComponent("Button").onClick:RemoveListener(self.delegateOnClickGMButtonHideDialogue)
 	self.buttonSkip:GetComponent("Button").onClick:RemoveListener(self.delegateOnClickButtonSkip)
 	self.GMButtonSkip:GetComponent("Button").onClick:RemoveListener(self.delegateOnClickGMButtonSkip)
+	UIEventUtil.ClearEventListener(self)
+end
+
+function StoryPanel:__OnRepairBtnClick()
+	SceneTransferModule.ReEnterStory()
 end
 
 function StoryPanel:GetCanvas()

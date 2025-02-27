@@ -156,6 +156,12 @@ function MazeUI:__OnBuffBtnClick()
 end
 
 function MazeUI:__OnMazeStageBtnClick()
+	if StoryModule.IsStoring then
+		NoticeModule.ShowNotice(240036)
+
+		return
+	end
+
 	local labyrinthData = MazeModule.GetLabyrinthData()
 
 	if labyrinthData == nil then

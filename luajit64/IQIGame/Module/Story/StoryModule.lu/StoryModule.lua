@@ -46,6 +46,22 @@ function StoryModule.Destroy()
 end
 
 function StoryModule.StartStageLevel(plotStageDupPOD)
+	local storyParam, isRestart = StoryModule.InitStartStoryParam(plotStageDupPOD)
+
+	if SceneTransferModule.CurScene == SceneTransferModule.SceneName.Story then
+		SceneTransferModule.StoryToStory(storyParam)
+	else
+		SceneTransferModule.MainCityToStory(storyParam)
+	end
+
+	if isRestart then
+		StoryModule.SaveEmpty()
+
+		StoryModule.IsRestart = false
+	end
+end
+
+function StoryModule.InitStartStoryParam(plotStageDupPOD)
 	StoryModule.plotStageDupPOD = plotStageDupPOD
 
 	local isRestart = plotStageDupPOD.storySaveData.currentSceneID == 0 or StoryModule.GetStoryIsRestart()
@@ -81,17 +97,7 @@ function StoryModule.StartStageLevel(plotStageDupPOD)
 	storyParam.NpcVariables = npcVariables
 	storyParam.StoryType = Constant.StoryType.Normal
 
-	if SceneTransferModule.CurScene == SceneTransferModule.SceneName.Story then
-		SceneTransferModule.StoryToStory(storyParam)
-	else
-		SceneTransferModule.MainCityToStory(storyParam)
-	end
-
-	if isRestart then
-		StoryModule.SaveEmpty()
-
-		StoryModule.IsRestart = false
-	end
+	return storyParam, isRestart
 end
 
 function StoryModule.DebugStory(luaTable)
@@ -298,6 +304,13 @@ function StoryModule.ContinueStory()
 	end
 
 	ConversationModule.ContinueConversation()
+end
+
+function StoryModule.StopAllBehaviorTree()
+	ForPairs(StoryModule.npcs, function(_, npc)
+		npc.npcController:StopAllBehaviorTree()
+	end)
+	ConversationModule.ClearConversation()
 end
 
 function StoryModule.Dispose()
@@ -734,6 +747,10 @@ end
 function StoryModule.GetCharacterByNPCID(npcID)
 	if StoryModule.player ~= nil and npcID == StoryModule.player.npcID then
 		return StoryModule.player
+	end
+
+	if StoryModule.npcs == nil then
+		return nil
 	end
 
 	if StoryModule.npcs[npcID] == nil then

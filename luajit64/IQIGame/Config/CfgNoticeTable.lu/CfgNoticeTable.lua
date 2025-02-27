@@ -1807,6 +1807,12 @@ local CfgNoticeTable = {
 		ButtonText1 = getI18NValue(180141021),
 		ButtonText2 = getI18NValue(180141020)
 	},
+	[240036] = {
+		Id = 240036,
+		SubType = 2,
+		Type = 7,
+		Describe = getI18NValue(180261174)
+	},
 	[21040005] = {
 		Type = 7,
 		Id = 21040005,

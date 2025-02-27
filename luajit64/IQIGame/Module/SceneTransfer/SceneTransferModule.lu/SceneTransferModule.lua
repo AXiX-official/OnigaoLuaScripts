@@ -16,6 +16,7 @@ local GhostGameToMainCityTransfer = require("IQIGame/Module/SceneTransfer/GhostG
 local HomeSceneToMazeTransfer = require("IQIGame/Module/SceneTransfer/HomeSceneToMazeTransfer")
 local MazeSceneToBattleTransfer = require("IQIGame/Module/SceneTransfer/MazeSceneToBattleTransfer")
 local MazeSceneToHomeTransfer = require("IQIGame/Module/SceneTransfer/MazeSceneToHomeTransfer")
+local ReEnterStoryTransfer = require("IQIGame/Module/SceneTransfer/ReEnterStoryTransfer")
 
 SceneTransferModule = {
 	SceneTransferTable = {}
@@ -41,6 +42,7 @@ SceneTransferModule.TransferName = {
 	MainCityToStory = "MainCityToStoryTransfer",
 	StoryToStory = "StoryToStory",
 	HomeToMaze = "HomeToMaze",
+	ReEnterStory = "ReEnterStoryTransfer",
 	MainCityToHome = "MainCityToHomeTransfer",
 	BattleToMainCity = "BattleToMainCityTransfer",
 	MazeToBattle = "MazeSceneToBattleTransfer",
@@ -83,6 +85,7 @@ function SceneTransferModule.Init()
 	SceneTransferModule.__AddTransfer(SceneTransferModule.TransferName.HomeToMaze, HomeSceneToMazeTransfer, Constant.MainCameraStackType.Normal)
 	SceneTransferModule.__AddTransfer(SceneTransferModule.TransferName.MazeToBattle, MazeSceneToBattleTransfer, Constant.MainCameraStackType.Battle)
 	SceneTransferModule.__AddTransfer(SceneTransferModule.TransferName.MazeToHome, MazeSceneToHomeTransfer, Constant.MainCameraStackType.Normal)
+	SceneTransferModule.__AddTransfer(SceneTransferModule.TransferName.ReEnterStory, ReEnterStoryTransfer, Constant.MainCameraStackType.Normal)
 
 	SceneTransferModule.updateFrameTimer = ModuleTimerUtil.NewFrameTimer(Constant.ModuleTimerName.SceneTransfer, SceneTransferModule.__OnFrameUpdate, 1, -1)
 
@@ -197,6 +200,24 @@ function SceneTransferModule.MainCityToStory(startStoryParam)
 	}
 
 	SceneTransferModule.__Transfer(SceneTransferModule.TransferName.MainCityToStory, args, SceneTransferModule.__CommonTransferCallback, callbackArgs)
+end
+
+function SceneTransferModule.ReEnterStory()
+	local tips = CfgTipsTable[300000].Text
+
+	NoticeModule.ShowNoticeByType(5, tips, function()
+		SceneTransferModule.__DoReEnterStory()
+	end, function()
+		log("Cancel Exit ReEnterStory.")
+	end)
+end
+
+function SceneTransferModule.__DoReEnterStory()
+	local callbackArgs = {
+		SceneName = SceneTransferModule.SceneName.Story
+	}
+
+	SceneTransferModule.__Transfer(SceneTransferModule.TransferName.ReEnterStory, nil, SceneTransferModule.__CommonTransferCallback, callbackArgs)
 end
 
 function SceneTransferModule.StoryToStory(startStoryParam)

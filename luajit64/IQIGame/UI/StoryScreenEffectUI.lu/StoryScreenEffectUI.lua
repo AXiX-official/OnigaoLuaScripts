@@ -75,6 +75,7 @@ function StoryScreenEffectUI:OnAddListeners()
 	EventDispatcher.AddEventListener(EventID.StoryScreenPlayScreenEffectWithType, self.playScreenEffectWithTypeDelegate)
 	EventDispatcher.AddEventListener(EventID.StoryScreenStopScreenEffectWithType, self.stopScreenEffectWithTypeDelegate)
 	EventUtil.AddEventListener(self, EventID.StoryCutTo)
+	UIEventUtil.AddClickEventListener_Button(self, "RepairBtn", self.__OnRepairBtnClick)
 end
 
 function StoryScreenEffectUI:OnRemoveListeners()
@@ -89,6 +90,7 @@ function StoryScreenEffectUI:OnRemoveListeners()
 	EventDispatcher.RemoveEventListener(EventID.StoryScreenPlayScreenEffectWithType, self.playScreenEffectWithTypeDelegate)
 	EventDispatcher.RemoveEventListener(EventID.StoryScreenStopScreenEffectWithType, self.stopScreenEffectWithTypeDelegate)
 	EventUtil.ClearEventListener(self)
+	UIEventUtil.ClearEventListener(self)
 end
 
 function StoryScreenEffectUI:__OnStoryCutToHandler()
@@ -101,6 +103,8 @@ function StoryScreenEffectUI:__OnStoryCutToHandler()
 end
 
 function StoryScreenEffectUI:OnOpen(userData)
+	self.RepairBtn.gameObject:SetActive(false)
+
 	if userData and userData.event then
 		userData.event()
 	end
@@ -113,10 +117,11 @@ function StoryScreenEffectUI:OnClose(userData)
 	LuaUtility.SetGameObjectShow(self.BlackAlphaScreen, false)
 	LuaUtility.SetGameObjectShow(self.WhiteAlphaScreen, false)
 	LuaUtility.SetGameObjectShow(self.storyCutTo, false)
+	self:__StopRepairBtnTimer()
 end
 
 function StoryScreenEffectUI:OnDestroy()
-	return
+	self:__StopRepairBtnTimer()
 end
 
 function StoryScreenEffectUI:GetPreloadAssetPaths()
@@ -174,6 +179,8 @@ function StoryScreenEffectUI:OnLoadFailed(assetName, status, errorMessage, userD
 end
 
 function StoryScreenEffectUI:BlackInkIn(PlayEffect, withNoTime)
+	self:__OnSetStoryRepairBtnActive(true)
+
 	if withNoTime then
 		LuaUtility.SetGameObjectShow(self.BlackInkScreen, true)
 		self.mat_BlackScreen:SetFloat(property_show, 10)
@@ -200,6 +207,8 @@ function StoryScreenEffectUI:BlackInkIn(PlayEffect, withNoTime)
 end
 
 function StoryScreenEffectUI:BlackInkOut(PlayEffect, withNoTime)
+	self:__OnSetStoryRepairBtnActive(false)
+
 	if withNoTime then
 		LuaUtility.SetGameObjectShow(self.BlackInkScreen, false)
 
@@ -224,6 +233,8 @@ function StoryScreenEffectUI:BlackInkOut(PlayEffect, withNoTime)
 end
 
 function StoryScreenEffectUI:WhiteInkIn(PlayEffect, withNoTime)
+	self:__OnSetStoryRepairBtnActive(true)
+
 	if withNoTime then
 		LuaUtility.SetGameObjectShow(self.WhiteInkScreen, true)
 		self.mat_BlackScreen:SetFloat(property_show, 10)
@@ -250,6 +261,8 @@ function StoryScreenEffectUI:WhiteInkIn(PlayEffect, withNoTime)
 end
 
 function StoryScreenEffectUI:WhiteInkOut(PlayEffect, withNoTime)
+	self:__OnSetStoryRepairBtnActive(false)
+
 	if withNoTime then
 		LuaUtility.SetGameObjectShow(self.BlackInkScreen, false)
 
@@ -274,6 +287,7 @@ function StoryScreenEffectUI:WhiteInkOut(PlayEffect, withNoTime)
 end
 
 function StoryScreenEffectUI:BlackAlphaIn(PlayEffect)
+	self:__OnSetStoryRepairBtnActive(true)
 	LuaUtility.SetGameObjectShow(self.BlackAlphaScreen, true)
 
 	if StoryModule.blackScreenDuration <= 0 then
@@ -292,6 +306,7 @@ function StoryScreenEffectUI:BlackAlphaIn(PlayEffect)
 end
 
 function StoryScreenEffectUI:BlackAlphaOut(PlayEffect)
+	self:__OnSetStoryRepairBtnActive(false)
 	LuaUtility.SetGameObjectShow(self.BlackAlphaScreen, true)
 
 	if StoryModule.blackScreenDuration <= 0 then
@@ -313,6 +328,7 @@ function StoryScreenEffectUI:BlackAlphaOut(PlayEffect)
 end
 
 function StoryScreenEffectUI:WhiteAlphaIn(PlayEffect)
+	self:__OnSetStoryRepairBtnActive(true)
 	LuaUtility.SetGameObjectShow(self.WhiteAlphaScreen, true)
 
 	self.currentActionType = Constant.StoryScreenEffectType.WhiteAlphaIn
@@ -325,6 +341,7 @@ function StoryScreenEffectUI:WhiteAlphaIn(PlayEffect)
 end
 
 function StoryScreenEffectUI:WhiteAlphaOut(PlayEffect)
+	self:__OnSetStoryRepairBtnActive(false)
 	LuaUtility.SetGameObjectShow(self.WhiteAlphaScreen, true)
 
 	self.currentActionType = Constant.StoryScreenEffectType.WhiteAlphaIn
@@ -339,6 +356,7 @@ function StoryScreenEffectUI:WhiteAlphaOut(PlayEffect)
 end
 
 function StoryScreenEffectUI:ShowBlackScreen()
+	self:__OnSetStoryRepairBtnActive(true)
 	self.mat_BlackScreen:SetFloat(property_show, 10)
 	self.mat_BlackScreen:SetFloat(property_hide, 0)
 	LuaUtility.SetGameObjectShow(self.BlackInkScreen, true)
@@ -384,6 +402,8 @@ function StoryScreenEffectUI:OnBlackScreenUpdate()
 end
 
 function StoryScreenEffectUI:OnBlackScreenComplete()
+	self:__OnSetStoryRepairBtnActive(false)
+
 	self.isPlayingBlackScreen = false
 
 	if self.currentActionType == Constant.StoryScreenEffectType.BlackInkOut then
@@ -415,6 +435,8 @@ function StoryScreenEffectUI:PlayEffectWithType(type, task)
 end
 
 function StoryScreenEffectUI:StopEffectWithType(type, task)
+	self:__OnSetStoryRepairBtnActive(false)
+
 	if type == Constant.StoryScreenEffectType.BlackInkScreen then
 		LuaUtility.SetGameObjectShow(self.BlackInkScreen, false)
 	elseif type == Constant.StoryScreenEffectType.ThinkingFilter then
@@ -431,16 +453,18 @@ function StoryScreenEffectUI:ShowThinkingFilter(task)
 		if v >= 1 and task then
 			task:SetComplete()
 		end
+
+		self:__OnSetStoryRepairBtnActive(false)
 	end)
 end
 
 function StoryScreenEffectUI:HideThinkingFilter(task)
-	LuaUtility.SetGameObjectShow(self.thinkingEffect, true)
+	LuaUtility.SetGameObjectShow(self.thinkingEffect, false)
 	LuaUtility.DoTweenTo_Float(1, 0, StoryModule.thinkFilterDuration, function(v)
 		self.Mat_thinkingEffect:SetFloat(property_thinking, v)
 
 		if v <= 0 then
-			LuaUtility.SetGameObjectShow(self.thinkingEffect, false)
+			self:__OnSetStoryRepairBtnActive(false)
 
 			if task then
 				task:SetComplete()
@@ -461,6 +485,36 @@ function StoryScreenEffectUI:_SetNewStoryEffectTask(playEffect)
 	end
 
 	self.playEffect = playEffect
+end
+
+function StoryScreenEffectUI:__OnSetStoryRepairBtnActive(active)
+	self.RepairBtn.gameObject:SetActive(false)
+end
+
+function StoryScreenEffectUI:__StartRepairBtnTimer()
+	self:__StopRepairBtnTimer()
+
+	self.__RepairBtnTimer = Timer.New(function()
+		self.RepairBtn.gameObject:SetActive(true)
+	end, 5)
+
+	self.__RepairBtnTimer:Start()
+end
+
+function StoryScreenEffectUI:__StopRepairBtnTimer()
+	self.RepairBtn.gameObject:SetActive(false)
+
+	if self.__RepairBtnTimer == nil then
+		return
+	end
+
+	self.__RepairBtnTimer:Stop()
+
+	self.__RepairBtnTimer = nil
+end
+
+function StoryScreenEffectUI:__OnRepairBtnClick()
+	SceneTransferModule.ReEnterStory()
 end
 
 return StoryScreenEffectUI

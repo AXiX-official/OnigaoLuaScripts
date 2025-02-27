@@ -78,6 +78,8 @@ function m:Init(view, mainView)
 	self.buttonMonthCardBuy = self.buttonMonthCardBuy:GetComponent("Button")
 	self.buttonHelp = self.buttonHelp:GetComponent("Button")
 
+	self.GetRewardBtn.gameObject:SetActive(false)
+	self.RewardedTag.gameObject:SetActive(false)
 	self:AddListeners()
 end
 
@@ -85,12 +87,16 @@ function m:AddListeners()
 	self.buttonMonthCardBuy.onClick:AddListener(self.buttonMonthCardBuyDelegate)
 	self.buttonHelp.onClick:AddListener(self.buttonHelpDelegate)
 	EventDispatcher.AddEventListener(EventID.SignInNotify, self.buyMonthCardResultEvent)
+	UIEventUtil.AddClickEventListener_Button(self, "GetRewardBtn", self.__OnGetRewardBtnClick)
+	EventUtil.AddEventListener(self, EventID.OnReceiveMonthCardAwardResult, self.__OnReceiveMonthCardAwardResult)
 end
 
 function m:RemoveListeners()
 	self.buttonMonthCardBuy.onClick:RemoveListener(self.buttonMonthCardBuyDelegate)
 	self.buttonHelp.onClick:RemoveListener(self.buttonHelpDelegate)
 	EventDispatcher.RemoveEventListener(EventID.SignInNotify, self.buyMonthCardResultEvent)
+	UIEventUtil.ClearEventListener(self)
+	EventUtil.ClearEventListener(self)
 end
 
 function m:SetData(Data)
@@ -118,9 +124,17 @@ function m:__RefreshNormalCardShow()
 	local buyPrice = monthCardData.commodityData.Price[1][2] / 100
 
 	UGUIUtil.SetText(self.textMonthPrice, buyPrice)
+
+	if MonthCardModule.GetMonthResidualDays() > 0 then
+		self.GetRewardBtn.gameObject:SetActive(not MonthCardModule.monthPrzieState)
+		self.RewardedTag.gameObject:SetActive(MonthCardModule.monthPrzieState)
+	end
 end
 
 function m:__RefreshNewCardShow()
+	self.GetRewardBtn.gameObject:SetActive(false)
+	self.RewardedTag.gameObject:SetActive(false)
+
 	local monthCardData = self.Data.monthCardData
 	local commodityData = self.Data.commodityData
 
@@ -239,6 +253,18 @@ function m:Dispose()
 	LuaCodeInterface.ClearOutlet(self.View, self)
 
 	self.View = nil
+end
+
+function m:__OnGetRewardBtnClick()
+	if MonthCardModule.monthPrzieState then
+		return
+	end
+
+	MonthCardModule.GetMonthCardAward()
+end
+
+function m:__OnReceiveMonthCardAwardResult()
+	self:__RefreshNormalCardShow()
 end
 
 return m
