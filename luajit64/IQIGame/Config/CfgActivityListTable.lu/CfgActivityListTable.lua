@@ -362,6 +362,50 @@ local CfgActivityListTable = {
 			30000010
 		}
 	},
+	[60101018] = {
+		ActivityType = 110,
+		ActivityPrefab = "/_Activity/SummerSignActivity",
+		ActivityTeam = 1,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
+		Id = 60101018,
+		Name = getI18NValue(180261287),
+		ActivityID = {
+			60008014
+		},
+		ShowConditionID = {
+			30070214
+		}
+	},
+	[60301003] = {
+		ActivityType = 301,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
+		Sort = 301,
+		Id = 60301003,
+		ActivityTeam = 3,
+		Name = getI18NValue(180261288),
+		ShowConditionID = {
+			30070215,
+			30000010
+		}
+	},
+	[60301004] = {
+		ActivityType = 301,
+		Branch = 1,
+		ActivityPrefab = "/_ActiveActivity/SummerMainActivity",
+		ActivityTeam = 3,
+		Sort = 1,
+		Background = "/UI/ActivityPart/SummerActivity/SummerActivityMain/SummerActivity_bg_01.png",
+		Id = 60301004,
+		Name = getI18NValue(180261289),
+		ActivityID = {
+			60008013
+		},
+		ShowConditionID = {
+			30070215,
+			30000010
+		}
+	},
 	[60301010] = {
 		ActivityType = 110,
 		ActivityPrefab = "/_Activity/StarryWishesSignActivity",

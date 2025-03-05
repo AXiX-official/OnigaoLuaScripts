@@ -437,6 +437,16 @@ local CfgTopMoneyTable = {
 			0
 		}
 	},
+	[403] = {
+		PrefabName = "ActivityShopUI",
+		Id = 403,
+		TypeArr = {
+			202
+		},
+		JumpType = {
+			0
+		}
+	},
 	[501] = {
 		PrefabName = "MazeUI",
 		Id = 501,

@@ -1811,7 +1811,7 @@ local CfgNoticeTable = {
 		Id = 240036,
 		SubType = 2,
 		Type = 7,
-		Describe = getI18NValue(180261174)
+		Describe = getI18NValue(180261173)
 	},
 	[21040005] = {
 		Type = 7,

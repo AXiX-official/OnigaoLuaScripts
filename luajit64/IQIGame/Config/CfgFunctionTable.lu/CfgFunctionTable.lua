@@ -1330,6 +1330,363 @@ local CfgFunctionTable = {
 			3
 		}
 	},
+	[30020201] = {
+		SceneType = 2,
+		Id = 30020201,
+		FunctionType = 121,
+		Name = getI18NValue(180261292),
+		Params = {
+			1,
+			20040501
+		}
+	},
+	[30020202] = {
+		SceneType = 2,
+		Id = 30020202,
+		FunctionType = 121,
+		Name = getI18NValue(180261293),
+		Params = {
+			1,
+			20040502
+		}
+	},
+	[30020203] = {
+		SceneType = 2,
+		Id = 30020203,
+		FunctionType = 121,
+		Name = getI18NValue(180261294),
+		Params = {
+			1,
+			20040503
+		}
+	},
+	[30020204] = {
+		SceneType = 2,
+		Id = 30020204,
+		FunctionType = 121,
+		Name = getI18NValue(180261295),
+		Params = {
+			1,
+			20040504
+		}
+	},
+	[30020205] = {
+		SceneType = 2,
+		Id = 30020205,
+		FunctionType = 121,
+		Name = getI18NValue(180261296),
+		Params = {
+			1,
+			20040505
+		}
+	},
+	[30020206] = {
+		SceneType = 2,
+		Id = 30020206,
+		FunctionType = 121,
+		Name = getI18NValue(180261297),
+		Params = {
+			1,
+			20040506
+		}
+	},
+	[30020207] = {
+		SceneType = 2,
+		Id = 30020207,
+		FunctionType = 121,
+		Name = getI18NValue(180261298),
+		Params = {
+			1,
+			20040507
+		}
+	},
+	[30020208] = {
+		SceneType = 2,
+		Id = 30020208,
+		FunctionType = 121,
+		Name = getI18NValue(180261299),
+		Params = {
+			1,
+			20040508
+		}
+	},
+	[30020209] = {
+		SceneType = 2,
+		Id = 30020209,
+		FunctionType = 121,
+		Name = getI18NValue(180261300),
+		Params = {
+			1,
+			20040509
+		}
+	},
+	[30020210] = {
+		SceneType = 2,
+		Id = 30020210,
+		FunctionType = 121,
+		Name = getI18NValue(180261301),
+		Params = {
+			1,
+			20040510
+		}
+	},
+	[30020211] = {
+		SceneType = 2,
+		Id = 30020211,
+		FunctionType = 121,
+		Name = getI18NValue(180261302),
+		Params = {
+			1,
+			20040511
+		}
+	},
+	[30020212] = {
+		SceneType = 2,
+		Id = 30020212,
+		FunctionType = 121,
+		Name = getI18NValue(180261303),
+		Params = {
+			1,
+			20040512
+		}
+	},
+	[30020213] = {
+		SceneType = 2,
+		Id = 30020213,
+		FunctionType = 121,
+		Name = getI18NValue(180261304),
+		Params = {
+			1,
+			20040513
+		}
+	},
+	[30020214] = {
+		SceneType = 2,
+		Id = 30020214,
+		FunctionType = 121,
+		Name = getI18NValue(180261305),
+		Params = {
+			1,
+			20040514
+		}
+	},
+	[30020215] = {
+		SceneType = 2,
+		Id = 30020215,
+		FunctionType = 121,
+		Name = getI18NValue(180261621),
+		Params = {
+			1,
+			20040521
+		}
+	},
+	[30020216] = {
+		SceneType = 2,
+		Id = 30020216,
+		FunctionType = 121,
+		Name = getI18NValue(180261622),
+		Params = {
+			1,
+			20040522
+		}
+	},
+	[30020217] = {
+		SceneType = 2,
+		Id = 30020217,
+		FunctionType = 121,
+		Name = getI18NValue(180261623),
+		Params = {
+			1,
+			20040523
+		}
+	},
+	[30020218] = {
+		SceneType = 2,
+		Id = 30020218,
+		FunctionType = 121,
+		Name = getI18NValue(180261624),
+		Params = {
+			1,
+			20040524
+		}
+	},
+	[30020219] = {
+		SceneType = 2,
+		Id = 30020219,
+		FunctionType = 121,
+		Name = getI18NValue(180261625),
+		Params = {
+			1,
+			20040525
+		}
+	},
+	[30020220] = {
+		SceneType = 2,
+		Id = 30020220,
+		FunctionType = 121,
+		Name = getI18NValue(180261626),
+		Params = {
+			1,
+			20040526
+		}
+	},
+	[30020221] = {
+		SceneType = 2,
+		Id = 30020221,
+		FunctionType = 121,
+		Name = getI18NValue(180261627),
+		Params = {
+			1,
+			20040527
+		}
+	},
+	[30020222] = {
+		SceneType = 2,
+		Id = 30020222,
+		FunctionType = 121,
+		Name = getI18NValue(180261628),
+		Params = {
+			1,
+			20040531
+		}
+	},
+	[30020223] = {
+		SceneType = 2,
+		Id = 30020223,
+		FunctionType = 121,
+		Name = getI18NValue(180261629),
+		Params = {
+			1,
+			20040532
+		}
+	},
+	[30020224] = {
+		SceneType = 2,
+		Id = 30020224,
+		FunctionType = 121,
+		Name = getI18NValue(180261630),
+		Params = {
+			1,
+			20040533
+		}
+	},
+	[30020225] = {
+		SceneType = 2,
+		Id = 30020225,
+		FunctionType = 121,
+		Name = getI18NValue(180261631),
+		Params = {
+			1,
+			20040534
+		}
+	},
+	[30020226] = {
+		SceneType = 2,
+		Id = 30020226,
+		FunctionType = 121,
+		Name = getI18NValue(180261632),
+		Params = {
+			1,
+			20040535
+		}
+	},
+	[30020227] = {
+		SceneType = 2,
+		Id = 30020227,
+		FunctionType = 121,
+		Name = getI18NValue(180261633),
+		Params = {
+			1,
+			20040536
+		}
+	},
+	[30020228] = {
+		SceneType = 2,
+		Id = 30020228,
+		FunctionType = 121,
+		Name = getI18NValue(180261634),
+		Params = {
+			1,
+			20040537
+		}
+	},
+	[30020229] = {
+		SceneType = 2,
+		Id = 30020229,
+		FunctionType = 121,
+		Name = getI18NValue(180261635),
+		Params = {
+			1,
+			20040538
+		}
+	},
+	[30020230] = {
+		SceneType = 2,
+		Id = 30020230,
+		FunctionType = 121,
+		Name = getI18NValue(180261636),
+		Params = {
+			1,
+			20040539
+		}
+	},
+	[30020231] = {
+		SceneType = 2,
+		Id = 30020231,
+		FunctionType = 121,
+		Name = getI18NValue(180261306),
+		Params = {
+			1,
+			20040540
+		}
+	},
+	[30020232] = {
+		SceneType = 2,
+		Id = 30020232,
+		FunctionType = 121,
+		Name = getI18NValue(180261307),
+		Params = {
+			1,
+			20040541
+		}
+	},
+	[30020233] = {
+		SceneType = 2,
+		Id = 30020233,
+		FunctionType = 121,
+		Name = getI18NValue(180261308),
+		Params = {
+			1,
+			20040542
+		}
+	},
+	[30020241] = {
+		SceneType = 2,
+		Id = 30020241,
+		FunctionType = 121,
+		Name = getI18NValue(180261637),
+		Params = {
+			1
+		}
+	},
+	[30020242] = {
+		SceneType = 2,
+		Id = 30020242,
+		FunctionType = 121,
+		Name = getI18NValue(180261638),
+		Params = {
+			2
+		}
+	},
+	[30020243] = {
+		SceneType = 2,
+		Id = 30020243,
+		FunctionType = 121,
+		Name = getI18NValue(180261639),
+		Params = {
+			3
+		}
+	},
 	[30030101] = {
 		SceneType = 2,
 		Id = 30030101,

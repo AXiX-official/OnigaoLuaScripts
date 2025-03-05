@@ -5411,7 +5411,7 @@ local CfgSkillFunctionTable = {
 		},
 		DynamicArgParams = {
 			{
-				"2",
+				"3",
 				"1",
 				"8"
 			},
@@ -5419,7 +5419,7 @@ local CfgSkillFunctionTable = {
 				"2"
 			},
 			{
-				"2",
+				"3",
 				"2",
 				"2"
 			},

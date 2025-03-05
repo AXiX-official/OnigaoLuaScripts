@@ -5,7 +5,6 @@ ChallengeWorldBossModule = {}
 function ChallengeWorldBossModule.Reload(podTable)
 	ChallengeWorldBossModule.__worldBossPODTable = podTable
 
-	ChallengeWorldBossModule:__InitChapterCfgSortTable()
 	ChallengeWorldBossModule:__InitStageCfgSortTable()
 	ChallengeWorldBossModule:__InitRewardSortTable()
 
@@ -20,19 +19,6 @@ function ChallengeWorldBossModule.__OnBattleTotalDamageChange(_, totalDamage, ac
 	end
 
 	ChallengeWorldBossModule.CacheFightingData.totalDamage = totalDamage
-end
-
-function ChallengeWorldBossModule:__InitChapterCfgSortTable()
-	local cfgSortTable = {}
-
-	ForPairs(CfgWorldBossChapterTable, function(_, _cfg)
-		table.insert(cfgSortTable, _cfg)
-	end)
-	table.sort(cfgSortTable, function(a, b)
-		return a.BossOrder < b.BossOrder
-	end)
-
-	ChallengeWorldBossModule.__worldBossChapterSortTable = cfgSortTable
 end
 
 function ChallengeWorldBossModule:__InitStageCfgSortTable()
@@ -139,10 +125,19 @@ function ChallengeWorldBossModule.GetCurChapterCfg()
 end
 
 function ChallengeWorldBossModule.GetChapterCfgByActivityOpenCount(openCount)
-	local cfgLength = #ChallengeWorldBossModule.__worldBossChapterSortTable
-	local curIndex = (openCount - 1) % cfgLength + 1
+	log("当前世界Boss期数 --》 {0}", openCount)
 
-	return ChallengeWorldBossModule.__worldBossChapterSortTable[curIndex]
+	local seasonCfg = CfgWorldBossSeasonTable[openCount]
+
+	if seasonCfg == nil then
+		return nil
+	end
+
+	if seasonCfg.ChapterCid == 0 then
+		return nil
+	end
+
+	return CfgWorldBossChapterTable[seasonCfg.ChapterCid]
 end
 
 function ChallengeWorldBossModule.IsFuncOpen()
@@ -150,9 +145,9 @@ function ChallengeWorldBossModule.IsFuncOpen()
 end
 
 function ChallengeWorldBossModule.IsActivityOpen()
-	local activityPOD = ChallengeWorldBossModule.GetCurWorldBossPOD()
+	local chapterCfg = ChallengeWorldBossModule.GetCurChapterCfg()
 
-	if activityPOD == nil then
+	if chapterCfg == nil then
 		return false
 	end
 

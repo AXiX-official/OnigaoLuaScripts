@@ -353,6 +353,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgVariationTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWarehouseTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWorldBossChapterTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWorldBossRewardTable.lua.txt,1
+Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWorldBossSeasonTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWorldBossStageTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWorldMapAreaTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgWorldMapDailyEaterTable.lua.txt,1

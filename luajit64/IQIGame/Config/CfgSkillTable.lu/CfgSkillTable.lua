@@ -7842,6 +7842,39 @@ local CfgSkillTable = {
 			0.91
 		}
 	},
+	[801240] = {
+		SkillShowType = 3,
+		ReleaseType = 2,
+		SkillDetail = 801240,
+		ManualSkill = false,
+		SkillType = 4,
+		LikeId = 80124,
+		Cutin = false,
+		IsTipsVisible = false,
+		Level = 1,
+		Quality = 4,
+		Icon = "/SmallDIYSkill/Diy_80124.png",
+		IsDiy = true,
+		MaxStrengthenLevel = 70,
+		Id = 801240,
+		Name = getI18NValue(180261766),
+		DiyBaseAtt = {
+			41,
+			157,
+			42,
+			49,
+			43,
+			10
+		},
+		DiyGrowAtt = {
+			41,
+			10.57,
+			42,
+			3.27,
+			43,
+			0.7
+		}
+	},
 	[802010] = {
 		SkillShowType = 3,
 		ReleaseType = 2,

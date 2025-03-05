@@ -41,7 +41,7 @@ local CfgUIPaintingItemTable = {
 		ItemID = 1604,
 		ID = 10004,
 		Icon = "/Item/1604.png",
-		IsShow = false,
+		IsShow = true,
 		Name = getI18NValue(180261081),
 		ItemTips = getI18NValue(180261080)
 	}

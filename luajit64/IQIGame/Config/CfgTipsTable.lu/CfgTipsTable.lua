@@ -4631,7 +4631,7 @@ local CfgTipsTable = {
 	},
 	[240036] = {
 		Id = 240036,
-		Text = getI18NValue(180261171)
+		Text = getI18NValue(180261174)
 	},
 	[240101] = {
 		Id = 240101,

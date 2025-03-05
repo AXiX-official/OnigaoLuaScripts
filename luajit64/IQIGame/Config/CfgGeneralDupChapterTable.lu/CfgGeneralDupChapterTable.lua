@@ -270,7 +270,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[401] = {
-		Type = 13,
+		Type = 15,
 		Id = 401,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/SummerActivity/SummerActivityStage/SummerActivityStage_Toggle_1.png",
 		UnlockConditionId = 30000001,
@@ -282,7 +282,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[402] = {
-		Type = 13,
+		Type = 15,
 		Id = 402,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/SummerActivity/SummerActivityStage/SummerActivityStage_Toggle_2.png",
 		UnlockConditionId = 30000010,
@@ -294,7 +294,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[403] = {
-		Type = 13,
+		Type = 15,
 		Id = 403,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/SummerActivity/SummerActivityStage/SummerActivityStage_Toggle_3.png",
 		UnlockConditionId = 30000030,
@@ -314,6 +314,42 @@ local CfgGeneralDupChapterTable = {
 		Index = 1,
 		PlotType = 2,
 		Name = getI18NValue(180184023),
+		EngName = null,
+		Desc = null
+	},
+	[405] = {
+		Type = 13,
+		Id = 405,
+		BackPicture = "Assets/05_Images/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityStage/XiaNaiActive_Img_01.png",
+		UnlockConditionId = 30000005,
+		Chaptercomponents = "Assets/03_Prefabs/UI/ActivityStage/XiaNaiActivity/XiaNaiStagePrefab_Chapter1.prefab",
+		Index = 1,
+		PlotType = 2,
+		Name = getI18NValue(180261309),
+		EngName = null,
+		Desc = null
+	},
+	[406] = {
+		Type = 13,
+		Id = 406,
+		BackPicture = "Assets/05_Images/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityStage/XiaNaiActive_Img_01.png",
+		UnlockConditionId = 30000010,
+		Chaptercomponents = "Assets/03_Prefabs/UI/ActivityStage/XiaNaiActivity/XiaNaiStagePrefab_Chapter2.prefab",
+		Index = 2,
+		PlotType = 2,
+		Name = getI18NValue(180261310),
+		EngName = null,
+		Desc = null
+	},
+	[407] = {
+		Type = 13,
+		Id = 407,
+		BackPicture = "Assets/05_Images/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityStage/XiaNaiActive_Img_01.png",
+		UnlockConditionId = 30000015,
+		Chaptercomponents = "Assets/03_Prefabs/UI/ActivityStage/XiaNaiActivity/XiaNaiStagePrefab_Chapter3.prefab",
+		Index = 3,
+		PlotType = 2,
+		Name = getI18NValue(180261311),
 		EngName = null,
 		Desc = null
 	},

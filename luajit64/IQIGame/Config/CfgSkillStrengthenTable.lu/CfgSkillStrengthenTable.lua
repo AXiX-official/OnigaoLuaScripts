@@ -16193,7 +16193,7 @@ local CfgSkillStrengthenTable = {
 		Id = 1016104,
 		SkillSlotEffect = {
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -16208,7 +16208,11 @@ local CfgSkillStrengthenTable = {
 				"101610",
 				"0.18"
 			},
-			{},
+			{
+				"101610",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -16223,7 +16227,7 @@ local CfgSkillStrengthenTable = {
 		Id = 1016105,
 		SkillSlotEffect = {
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -16238,7 +16242,11 @@ local CfgSkillStrengthenTable = {
 				"101610",
 				"0.24"
 			},
-			{},
+			{
+				"101610",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -16253,7 +16261,7 @@ local CfgSkillStrengthenTable = {
 		Id = 1016106,
 		SkillSlotEffect = {
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -16268,7 +16276,11 @@ local CfgSkillStrengthenTable = {
 				"101610",
 				"0.3"
 			},
-			{},
+			{
+				"101610",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -16283,7 +16295,7 @@ local CfgSkillStrengthenTable = {
 		Id = 1016107,
 		SkillSlotEffect = {
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -16298,7 +16310,11 @@ local CfgSkillStrengthenTable = {
 				"101610",
 				"0.36"
 			},
-			{},
+			{
+				"101610",
+				"1",
+				"0.2"
+			},
 			{},
 			{},
 			{},
@@ -16313,7 +16329,7 @@ local CfgSkillStrengthenTable = {
 		Id = 1016108,
 		SkillSlotEffect = {
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -16328,7 +16344,11 @@ local CfgSkillStrengthenTable = {
 				"101610",
 				"0.42"
 			},
-			{},
+			{
+				"101610",
+				"1",
+				"0.2"
+			},
 			{},
 			{},
 			{},
@@ -16343,7 +16363,7 @@ local CfgSkillStrengthenTable = {
 		Id = 1016109,
 		SkillSlotEffect = {
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -16358,7 +16378,11 @@ local CfgSkillStrengthenTable = {
 				"101610",
 				"0.5"
 			},
-			{},
+			{
+				"101610",
+				"1",
+				"0.2"
+			},
 			{},
 			{},
 			{},
@@ -34231,7 +34255,7 @@ local CfgSkillStrengthenTable = {
 			2,
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -34252,7 +34276,11 @@ local CfgSkillStrengthenTable = {
 				"103212",
 				"0.08"
 			},
-			{},
+			{
+				"103210",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -34267,7 +34295,7 @@ local CfgSkillStrengthenTable = {
 			2,
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -34288,7 +34316,11 @@ local CfgSkillStrengthenTable = {
 				"103212",
 				"0.107"
 			},
-			{},
+			{
+				"103210",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -34303,7 +34335,7 @@ local CfgSkillStrengthenTable = {
 			2,
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -34324,7 +34356,11 @@ local CfgSkillStrengthenTable = {
 				"103212",
 				"0.133"
 			},
-			{},
+			{
+				"103210",
+				"1",
+				"0.15"
+			},
 			{},
 			{},
 			{},
@@ -34339,7 +34375,7 @@ local CfgSkillStrengthenTable = {
 			2,
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -34360,7 +34396,11 @@ local CfgSkillStrengthenTable = {
 				"103212",
 				"0.16"
 			},
-			{},
+			{
+				"103210",
+				"1",
+				"0.2"
+			},
 			{},
 			{},
 			{},
@@ -34375,7 +34415,7 @@ local CfgSkillStrengthenTable = {
 			2,
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -34396,7 +34436,11 @@ local CfgSkillStrengthenTable = {
 				"103212",
 				"0.187"
 			},
-			{},
+			{
+				"103210",
+				"1",
+				"0.2"
+			},
 			{},
 			{},
 			{},
@@ -34411,7 +34455,7 @@ local CfgSkillStrengthenTable = {
 			2,
 			2,
 			2,
-			0,
+			24,
 			0,
 			0,
 			0,
@@ -34432,7 +34476,11 @@ local CfgSkillStrengthenTable = {
 				"103212",
 				"0.222"
 			},
-			{},
+			{
+				"103210",
+				"1",
+				"0.2"
+			},
 			{},
 			{},
 			{},

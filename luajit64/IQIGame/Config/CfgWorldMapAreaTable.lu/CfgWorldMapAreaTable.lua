@@ -130,6 +130,19 @@ local CfgWorldMapAreaTable = {
 		UnlockCondition = {
 			30000420
 		}
+	},
+	[20100] = {
+		MapName = "活动专属区域",
+		Id = 20100,
+		IsDefault = false,
+		WeatherImg = "2",
+		Name = {
+			getI18NValue(180261618),
+			""
+		},
+		UnlockCondition = {
+			30000000
+		}
 	}
 }
 

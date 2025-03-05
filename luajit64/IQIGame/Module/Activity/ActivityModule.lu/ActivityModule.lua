@@ -191,10 +191,7 @@ function ActivityModule.ReceiveSupplyResult(shows)
 	NoticeModule.ShowGetItems(Constant.TipConst.TIP_GET_ITEM_NOTICE_TEXT, shows)
 end
 
-ActivityModule.filterActivityID = {
-	60008000,
-	60008001
-}
+ActivityModule.filterActivityID = {}
 
 function ActivityModule.FilterActivity(activityID)
 	local isExist

@@ -608,6 +608,21 @@ local CfgItemTable = {
 		Name = getI18NValue(180187155),
 		ItemTips = getI18NValue(180187154)
 	},
+	[202] = {
+		Quality = 5,
+		Id = 202,
+		OverMode = 1,
+		Reveal = true,
+		Icon = "/Item/Icon_Currency_Other_9.png",
+		MaxNum = 99999999,
+		SmallIcon = "/Item/Icon_Currency_SmallOther_9.png",
+		ItemTypes = 1,
+		BigIcon = "/Item/Icon_Currency_Other_9.png",
+		ItemSubTypes = 3,
+		Name = getI18NValue(180261314),
+		ItemTips = getI18NValue(180261312),
+		ItemStory = getI18NValue(180261313)
+	},
 	[1000] = {
 		UserAction = 5,
 		Quality = 3,
@@ -3035,6 +3050,26 @@ local CfgItemTable = {
 			500
 		}
 	},
+	[40001] = {
+		UserAction = 1,
+		Quality = 4,
+		UseType = 1,
+		OverMode = 1,
+		Icon = "/Item/Icon_Item_Favorable_15.png",
+		Star = false,
+		Reveal = false,
+		ItemTypes = 6,
+		MaxNum = 1,
+		Sell = false,
+		Id = 40001,
+		BigIcon = "/Item/Icon_Item_Favorable_15.png",
+		ItemSubTypes = 1,
+		Name = getI18NValue(180261642),
+		ActionParams = {
+			3,
+			100
+		}
+	},
 	[50001] = {
 		UserAction = 3,
 		Quality = 2,
@@ -4389,6 +4424,44 @@ local CfgItemTable = {
 		ItemTips = getI18NValue(180260511),
 		ActionParams = {
 			39
+		}
+	},
+	[60127] = {
+		UserAction = 19,
+		Quality = 4,
+		Id = 60127,
+		OverMode = 1,
+		ItemTypes = 6,
+		Icon = "/Item/60127.png",
+		MaxUse = 1,
+		Reveal = true,
+		UseType = 2,
+		MaxNum = 1,
+		ItemSubTypes = 5,
+		DepotType = 16,
+		Name = getI18NValue(180261164),
+		ItemTips = getI18NValue(180261163),
+		ActionParams = {
+			150001
+		}
+	},
+	[60128] = {
+		UserAction = 19,
+		Quality = 5,
+		Id = 60128,
+		OverMode = 1,
+		ItemTypes = 6,
+		Icon = "/Item/60128.png",
+		MaxUse = 1,
+		Reveal = true,
+		UseType = 2,
+		MaxNum = 1,
+		ItemSubTypes = 5,
+		DepotType = 16,
+		Name = getI18NValue(180261166),
+		ItemTips = getI18NValue(180261165),
+		ActionParams = {
+			150002
 		}
 	},
 	[60201] = {
@@ -8346,6 +8419,26 @@ local CfgItemTable = {
 		Name = getI18NValue(180260165),
 		ItemTips = getI18NValue(180260163),
 		ItemStory = getI18NValue(180260164),
+		ActionParams = {
+			1
+		}
+	},
+	[80124] = {
+		UserAction = 21,
+		Quality = 4,
+		Star = true,
+		OverMode = 1,
+		Icon = "/SmallDIYSkill/Diy_80124.png",
+		LikeId = 801240,
+		Reveal = true,
+		ItemTypes = 4,
+		MaxNum = 1,
+		Isdestroyed = true,
+		Id = 80124,
+		BigIcon = "/SmallDIYSkill/Diy_80124.png",
+		ItemSubTypes = 2,
+		DepotType = 4,
+		Name = getI18NValue(180261643),
 		ActionParams = {
 			1
 		}

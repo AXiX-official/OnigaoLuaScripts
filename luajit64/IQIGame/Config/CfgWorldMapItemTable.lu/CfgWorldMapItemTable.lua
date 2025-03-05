@@ -4530,7 +4530,7 @@ local CfgWorldMapItemTable = {
 		RecommendLevel = 10,
 		WeatherImg = "2",
 		IconPath = "ChapterSummer/07_haian",
-		Type = 13,
+		Type = 15,
 		Id = 20040101,
 		Name = getI18NValue(180169763),
 		ChapterName = getI18NValue(180167464),
@@ -4554,7 +4554,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010010,
 		IconPath = "ChapterSummer/02_senlin",
-		Type = 13,
+		Type = 15,
 		Id = 20040102,
 		Name = getI18NValue(180169764),
 		ChapterName = getI18NValue(180167465),
@@ -4578,7 +4578,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010020,
 		IconPath = "ChapterSummer/05_daoyushenchu",
-		Type = 13,
+		Type = 15,
 		Id = 20040103,
 		Name = getI18NValue(180169765),
 		ChapterName = getI18NValue(180167466),
@@ -4602,7 +4602,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010030,
 		IconPath = "ChapterSummer/01_shatan",
-		Type = 13,
+		Type = 15,
 		Id = 20040104,
 		Name = getI18NValue(180169767),
 		ChapterName = getI18NValue(180174428),
@@ -4625,7 +4625,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011010,
 		IconPath = "ChapterSummer/07_haian",
-		Type = 13,
+		Type = 15,
 		Id = 20040105,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080151,
@@ -4652,7 +4652,7 @@ local CfgWorldMapItemTable = {
 		RecommendLevel = 20,
 		WeatherImg = "2",
 		IconPath = "ChapterSummer/01_shatan",
-		Type = 13,
+		Type = 15,
 		Id = 20040106,
 		Name = getI18NValue(180169769),
 		ChapterName = getI18NValue(180167469),
@@ -4675,7 +4675,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011020,
 		IconPath = "ChapterSummer/02_senlin",
-		Type = 13,
+		Type = 15,
 		Id = 20040201,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080152,
@@ -4702,7 +4702,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011021,
 		IconPath = "ChapterSummer/07_haian",
-		Type = 13,
+		Type = 15,
 		Id = 20040202,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080153,
@@ -4729,7 +4729,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011022,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
-		Type = 13,
+		Type = 15,
 		Id = 20040203,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080154,
@@ -4756,7 +4756,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011023,
 		IconPath = "ChapterSummer/05_daoyushenchu",
-		Type = 13,
+		Type = 15,
 		Id = 20040204,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080155,
@@ -4783,7 +4783,7 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010050,
 		WeatherImg = "2",
-		Type = 13,
+		Type = 15,
 		Id = 20040205,
 		IconPath = "ChapterSummer/02_senlin",
 		Name = getI18NValue(180170281),
@@ -4811,7 +4811,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010060,
 		IconPath = "ChapterSummer/05_daoyushenchu",
-		Type = 13,
+		Type = 15,
 		Id = 20040206,
 		Name = getI18NValue(180170284),
 		ChapterName = getI18NValue(180170283),
@@ -4834,7 +4834,7 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010070,
 		WeatherImg = "2",
-		Type = 13,
+		Type = 15,
 		Id = 20040207,
 		IconPath = "ChapterSummer/08_shatan2",
 		Name = getI18NValue(180170287),
@@ -4862,7 +4862,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010080,
 		IconPath = "ChapterSummer/05_daoyushenchu",
-		Type = 13,
+		Type = 15,
 		Id = 20040208,
 		Name = getI18NValue(180170290),
 		ChapterName = getI18NValue(180170289),
@@ -4885,7 +4885,7 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010090,
 		WeatherImg = "2",
-		Type = 13,
+		Type = 15,
 		Id = 20040209,
 		IconPath = "ChapterSummer/03_hupo",
 		Name = getI18NValue(180170293),
@@ -4913,7 +4913,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010100,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
-		Type = 13,
+		Type = 15,
 		Id = 20040210,
 		Name = getI18NValue(180170296),
 		ChapterName = getI18NValue(180170295),
@@ -4936,7 +4936,7 @@ local CfgWorldMapItemTable = {
 		IsFight = 2,
 		WeatherImg = "2",
 		IconPath = "ChapterSummer/08_shatan2",
-		Type = 13,
+		Type = 15,
 		Id = 20040211,
 		Name = getI18NValue(180170299),
 		ChapterName = getI18NValue(180170298),
@@ -4962,7 +4962,7 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010120,
 		WeatherImg = "2",
-		Type = 13,
+		Type = 15,
 		Id = 20040212,
 		IconPath = "ChapterSummer/05_daoyushenchu",
 		Name = getI18NValue(180174431),
@@ -4993,7 +4993,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010130,
 		IconPath = "ChapterSummer/03_hupo",
-		Type = 13,
+		Type = 15,
 		Id = 20040213,
 		Name = getI18NValue(180174434),
 		ChapterName = getI18NValue(180174433),
@@ -5016,7 +5016,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011030,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
-		Type = 13,
+		Type = 15,
 		Id = 20040301,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080156,
@@ -5044,7 +5044,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011031,
 		IconPath = "ChapterSummer/04_xuanya",
-		Type = 13,
+		Type = 15,
 		Id = 20040302,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080157,
@@ -5073,7 +5073,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010140,
 		IconPath = "ChapterSummer/05_daoyushenchu",
-		Type = 13,
+		Type = 15,
 		Id = 20040303,
 		Name = getI18NValue(180170305),
 		Desc = getI18NValue(180170304),
@@ -5101,7 +5101,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010150,
 		IconPath = "ChapterSummer/03_hupo",
-		Type = 13,
+		Type = 15,
 		Id = 20040304,
 		Name = getI18NValue(180170307),
 		Desc = getI18NValue(180170306),
@@ -5125,7 +5125,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010160,
 		IconPath = "ChapterSummer/01_shatan",
-		Type = 13,
+		Type = 15,
 		Id = 20040305,
 		Name = getI18NValue(180170310),
 		Desc = getI18NValue(180170308),
@@ -5149,7 +5149,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4010170,
 		IconPath = "ChapterSummer/05_daoyushenchu",
-		Type = 13,
+		Type = 15,
 		Id = 20040306,
 		Name = getI18NValue(180170313),
 		Desc = getI18NValue(180170311),
@@ -5166,7 +5166,7 @@ local CfgWorldMapItemTable = {
 		}
 	},
 	[20040307] = {
-		Type = 13,
+		Type = 15,
 		ChapterId = 403,
 		RecommendLevel = 70,
 		IsFight = 1,
@@ -5201,7 +5201,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011040,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
-		Type = 13,
+		Type = 15,
 		Id = 20040308,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080158,
@@ -5229,7 +5229,7 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011041,
 		IconPath = "ChapterSummer/07_haian",
-		Type = 13,
+		Type = 15,
 		Id = 20040309,
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080159,
@@ -5382,6 +5382,1045 @@ local CfgWorldMapItemTable = {
 		},
 		FirstReward = {
 			31202006
+		}
+	},
+	[20040501] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 405,
+		RecommendLevel = 10,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040501,
+		IsFight = 1,
+		Name = getI18NValue(180261458),
+		Desc = getI18NValue(180261457),
+		EnterConditionId = {
+			30080221,
+			30080261
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201501
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040502] = {
+		SmallId = 10030,
+		PlotID = 208002,
+		ChapterId = 405,
+		RecommendLevel = 15,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040502,
+		IsFight = 1,
+		Name = getI18NValue(180261460),
+		Desc = getI18NValue(180261459),
+		EnterConditionId = {
+			30080222
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201502
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040503] = {
+		SmallId = 10030,
+		PlotID = 208003,
+		ChapterId = 405,
+		RecommendLevel = 20,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Type = 13,
+		PlotReview = true,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 2008030,
+		Id = 20040503,
+		IsFight = 2,
+		Name = getI18NValue(180261462),
+		Desc = getI18NValue(180261461),
+		EnterConditionId = {
+			30080223
+		},
+		PassCost = {
+			11,
+			10
+		},
+		FirstReward = {
+			31201503
+		},
+		PassReward = {
+			31201541
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040504] = {
+		SmallId = 10030,
+		PlotID = 208004,
+		ChapterId = 405,
+		RecommendLevel = 25,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/Common_ChapterSign_1",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040504,
+		IsFight = 1,
+		Name = getI18NValue(180261464),
+		Desc = getI18NValue(180261463),
+		EnterConditionId = {
+			30080224
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201504
+		},
+		Location = {
+			-525,
+			-102,
+			0
+		}
+	},
+	[20040505] = {
+		SmallId = 10030,
+		PlotID = 208005,
+		ChapterId = 405,
+		RecommendLevel = 30,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/Common_ChapterSign_1",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040505,
+		IsFight = 1,
+		Name = getI18NValue(180261466),
+		Desc = getI18NValue(180261465),
+		EnterConditionId = {
+			30080225
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201505
+		},
+		Location = {
+			-636,
+			-102,
+			0
+		}
+	},
+	[20040506] = {
+		SmallId = 10010,
+		PlotID = 208006,
+		ChapterId = 405,
+		RecommendLevel = 35,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040506,
+		IsFight = 1,
+		Name = getI18NValue(180261468),
+		Desc = getI18NValue(180261467),
+		EnterConditionId = {
+			30080226
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201506
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040507] = {
+		SmallId = 10030,
+		PlotID = 209001,
+		ChapterId = 406,
+		RecommendLevel = 40,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Type = 13,
+		PlotReview = true,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 2009010,
+		Id = 20040507,
+		IsFight = 2,
+		Name = getI18NValue(180261470),
+		Desc = getI18NValue(180261469),
+		EnterConditionId = {
+			30080227,
+			30080262
+		},
+		PassCost = {
+			11,
+			12
+		},
+		FirstReward = {
+			31201507
+		},
+		PassReward = {
+			31201542
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040508] = {
+		SmallId = 10030,
+		PlotID = 209002,
+		ChapterId = 406,
+		RecommendLevel = 45,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040508,
+		IsFight = 1,
+		Name = getI18NValue(180261472),
+		Desc = getI18NValue(180261471),
+		EnterConditionId = {
+			30080228
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201508
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040509] = {
+		SmallId = 10030,
+		PlotID = 209003,
+		ChapterId = 406,
+		RecommendLevel = 50,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Type = 13,
+		PlotReview = true,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 2009030,
+		Id = 20040509,
+		IsFight = 2,
+		Name = getI18NValue(180261474),
+		Desc = getI18NValue(180261473),
+		EnterConditionId = {
+			30080229
+		},
+		PassCost = {
+			11,
+			12
+		},
+		FirstReward = {
+			31201509
+		},
+		PassReward = {
+			31201543
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040510] = {
+		SmallId = 10020,
+		PlotID = 209004,
+		ChapterId = 406,
+		RecommendLevel = 55,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/NanJia_Chen",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040510,
+		IsFight = 1,
+		Name = getI18NValue(180261476),
+		Desc = getI18NValue(180261475),
+		EnterConditionId = {
+			30080230
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201510
+		},
+		Location = {
+			-325,
+			140,
+			0
+		}
+	},
+	[20040511] = {
+		SmallId = 10020,
+		PlotID = 209005,
+		ChapterId = 407,
+		RecommendLevel = 60,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/NanJia_Chen",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040511,
+		IsFight = 1,
+		Name = getI18NValue(180261478),
+		Desc = getI18NValue(180261477),
+		EnterConditionId = {
+			30080231,
+			30080263
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201511
+		},
+		Location = {
+			-325,
+			140,
+			0
+		}
+	},
+	[20040512] = {
+		SmallId = 10030,
+		PlotID = 209006,
+		ChapterId = 407,
+		RecommendLevel = 60,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040512,
+		IsFight = 1,
+		Name = getI18NValue(180261480),
+		Desc = getI18NValue(180261479),
+		EnterConditionId = {
+			30080232
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201512
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040513] = {
+		SmallId = 10030,
+		PlotID = 209007,
+		ChapterId = 407,
+		RecommendLevel = 60,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Type = 13,
+		PlotReview = true,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 2009070,
+		Id = 20040513,
+		IsFight = 2,
+		Name = getI18NValue(180261482),
+		Desc = getI18NValue(180261481),
+		EnterConditionId = {
+			30080233
+		},
+		PassCost = {
+			11,
+			14
+		},
+		FirstReward = {
+			31201513
+		},
+		PassReward = {
+			31201544
+		},
+		Location = {
+			-246.5,
+			3,
+			0
+		}
+	},
+	[20040514] = {
+		SmallId = 10030,
+		PlotID = 209008,
+		ChapterId = 407,
+		RecommendLevel = 60,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/Common_ChapterSign_1",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040514,
+		IsFight = 1,
+		Name = getI18NValue(180261484),
+		Desc = getI18NValue(180261483),
+		EnterConditionId = {
+			30080234
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201514
+		},
+		Location = {
+			-636,
+			-102,
+			0
+		}
+	},
+	[20040521] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 405,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040521,
+		IsFight = 1,
+		Name = getI18NValue(180261486),
+		Desc = getI18NValue(180261485),
+		EnterConditionId = {
+			30080223
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201515
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040522] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 405,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040522,
+		IsFight = 1,
+		Name = getI18NValue(180261488),
+		Desc = getI18NValue(180261487),
+		EnterConditionId = {
+			30080226
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201516
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040523] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 406,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040523,
+		IsFight = 1,
+		Name = getI18NValue(180261490),
+		Desc = getI18NValue(180261489),
+		EnterConditionId = {
+			30080228
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201517
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040524] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 406,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040524,
+		IsFight = 1,
+		Name = getI18NValue(180261492),
+		Desc = getI18NValue(180261491),
+		EnterConditionId = {
+			30080230
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201518
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040525] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 407,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040525,
+		IsFight = 1,
+		Name = getI18NValue(180261494),
+		Desc = getI18NValue(180261493),
+		EnterConditionId = {
+			30080233
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201519
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040526] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 407,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040526,
+		IsFight = 1,
+		Name = getI18NValue(180261496),
+		Desc = getI18NValue(180261495),
+		EnterConditionId = {
+			30080234
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201520
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040527] = {
+		SmallId = 10010,
+		PlotID = 208001,
+		ChapterId = 407,
+		RecommendLevel = 1,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		IconPath = "ChapterSignImg/Chapter1/ShiWuSuo_Bai",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		PlotReview = true,
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		Id = 20040527,
+		IsFight = 1,
+		Name = getI18NValue(180261498),
+		Desc = getI18NValue(180261497),
+		EnterConditionId = {
+			30080235
+		},
+		PassCost = {
+			11,
+			0
+		},
+		FirstReward = {
+			31201521
+		},
+		Location = {
+			588,
+			220,
+			0
+		}
+	},
+	[20040531] = {
+		IsFight = 2,
+		ChapterId = 405,
+		RecommendLevel = 20,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013010,
+		Id = 20040531,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261500),
+		Desc = getI18NValue(180261499),
+		EnterConditionId = {
+			30080222
+		},
+		PassCost = {
+			11,
+			10
+		},
+		FirstReward = {
+			31201522
+		},
+		PassReward = {
+			31201545
+		}
+	},
+	[20040532] = {
+		IsFight = 2,
+		ChapterId = 405,
+		RecommendLevel = 25,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013020,
+		Id = 20040532,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261502),
+		Desc = getI18NValue(180261501),
+		EnterConditionId = {
+			30080225
+		},
+		PassCost = {
+			11,
+			10
+		},
+		FirstReward = {
+			31201523
+		},
+		PassReward = {
+			31201546
+		}
+	},
+	[20040533] = {
+		IsFight = 2,
+		ChapterId = 405,
+		RecommendLevel = 30,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013030,
+		Id = 20040533,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261504),
+		Desc = getI18NValue(180261503),
+		EnterConditionId = {
+			30080227
+		},
+		PassCost = {
+			11,
+			12
+		},
+		FirstReward = {
+			31201524
+		},
+		PassReward = {
+			31201547
+		}
+	},
+	[20040534] = {
+		IsFight = 2,
+		ChapterId = 406,
+		RecommendLevel = 30,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013040,
+		Id = 20040534,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261506),
+		Desc = getI18NValue(180261505),
+		EnterConditionId = {
+			30080229
+		},
+		PassCost = {
+			11,
+			12
+		},
+		FirstReward = {
+			31201525
+		},
+		PassReward = {
+			31201548
+		}
+	},
+	[20040535] = {
+		IsFight = 2,
+		ChapterId = 406,
+		RecommendLevel = 35,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013050,
+		Id = 20040535,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261508),
+		Desc = getI18NValue(180261507),
+		EnterConditionId = {
+			30080231
+		},
+		PassCost = {
+			11,
+			12
+		},
+		FirstReward = {
+			31201526
+		},
+		PassReward = {
+			31201549
+		}
+	},
+	[20040536] = {
+		IsFight = 2,
+		ChapterId = 406,
+		RecommendLevel = 40,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013060,
+		Id = 20040536,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261510),
+		Desc = getI18NValue(180261509),
+		EnterConditionId = {
+			30080248
+		},
+		PassCost = {
+			11,
+			14
+		},
+		FirstReward = {
+			31201527
+		},
+		PassReward = {
+			31201550
+		}
+	},
+	[20040537] = {
+		IsFight = 2,
+		ChapterId = 406,
+		RecommendLevel = 45,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013070,
+		Id = 20040537,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261512),
+		Desc = getI18NValue(180261511),
+		EnterConditionId = {
+			30080249
+		},
+		PassCost = {
+			11,
+			14
+		},
+		FirstReward = {
+			31201528
+		},
+		PassReward = {
+			31201551
+		}
+	},
+	[20040538] = {
+		IsFight = 2,
+		ChapterId = 407,
+		RecommendLevel = 50,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013080,
+		Id = 20040538,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261514),
+		Desc = getI18NValue(180261513),
+		EnterConditionId = {
+			30080232
+		},
+		PassCost = {
+			11,
+			14
+		},
+		FirstReward = {
+			31201529
+		},
+		PassReward = {
+			31201552
+		}
+	},
+	[20040539] = {
+		IsFight = 2,
+		ChapterId = 407,
+		RecommendLevel = 55,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013090,
+		Id = 20040539,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261516),
+		Desc = getI18NValue(180261515),
+		EnterConditionId = {
+			30080233
+		},
+		PassCost = {
+			11,
+			14
+		},
+		FirstReward = {
+			31201530
+		},
+		PassReward = {
+			31201553
+		}
+	},
+	[20040540] = {
+		IsFight = 2,
+		ChapterId = 407,
+		RecommendLevel = 60,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013100,
+		Id = 20040540,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261518),
+		Desc = getI18NValue(180261517),
+		EnterConditionId = {
+			30080235
+		},
+		PassCost = {
+			11,
+			16
+		},
+		FirstReward = {
+			31201531
+		},
+		PassReward = {
+			31201554
+		}
+	},
+	[20040541] = {
+		IsFight = 2,
+		ChapterId = 407,
+		RecommendLevel = 65,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013110,
+		Id = 20040541,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261520),
+		Desc = getI18NValue(180261519),
+		EnterConditionId = {
+			30080252
+		},
+		PassCost = {
+			11,
+			18
+		},
+		FirstReward = {
+			31201532
+		},
+		PassReward = {
+			31201555
+		}
+	},
+	[20040542] = {
+		IsFight = 2,
+		ChapterId = 407,
+		RecommendLevel = 70,
+		PlotReview = true,
+		IconPath = "ChapterSignImg/Chapter1/TianChengXueYuan",
+		SignImg = "ChapterMainImg/MainSignImg_02",
+		Type = 13,
+		OnMap = 1,
+		WeatherImg = "2",
+		ShowStoryBattleID = 4013120,
+		Id = 20040542,
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Name = getI18NValue(180261522),
+		Desc = getI18NValue(180261521),
+		EnterConditionId = {
+			30080253
+		},
+		PassCost = {
+			11,
+			20
+		},
+		FirstReward = {
+			31201533
+		},
+		PassReward = {
+			31201556
 		}
 	},
 	[20050101] = {

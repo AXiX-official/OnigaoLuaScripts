@@ -4099,7 +4099,7 @@ local CfgCommodityTable = {
 		sort = 1,
 		TimeOvrtShow = 1,
 		Number = 1,
-		UnlockConditionId = 30067005,
+		UnlockConditionId = 30067001,
 		Id = 50220001,
 		Desc = "天照命晶",
 		Price = {
@@ -4123,7 +4123,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 1,
-		sort = 3,
+		sort = 2,
 		Id = 50220003,
 		Desc = "神觉银契",
 		Price = {
@@ -4154,7 +4154,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 1,
-		sort = 4,
+		sort = 3,
 		Id = 50220004,
 		Desc = "鬼武专契",
 		Price = {
@@ -4185,7 +4185,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 30000,
-		sort = 5,
+		sort = 15,
 		Id = 50220005,
 		Desc = "札币",
 		Price = {
@@ -4216,7 +4216,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 5,
-		sort = 6,
+		sort = 10,
 		Id = 50220006,
 		Desc = "神宗鬼卷·真言",
 		Price = {
@@ -4247,7 +4247,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 5,
-		sort = 7,
+		sort = 13,
 		Id = 50220007,
 		Desc = "神宗鬼卷·拓本",
 		Price = {
@@ -4278,7 +4278,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 5,
-		sort = 8,
+		sort = 11,
 		Id = 50220008,
 		Desc = "神宗鬼卷·真言",
 		Price = {
@@ -4309,7 +4309,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 5,
-		sort = 9,
+		sort = 17,
 		Id = 50220009,
 		Desc = "神宗鬼卷·注卷",
 		Price = {
@@ -4340,7 +4340,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 5,
-		sort = 10,
+		sort = 14,
 		Id = 50220010,
 		Desc = "神宗鬼卷·拓本",
 		Price = {
@@ -4371,7 +4371,7 @@ local CfgCommodityTable = {
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
 		Number = 5,
-		sort = 11,
+		sort = 19,
 		Id = 50220011,
 		Desc = "神宗鬼卷·抄本",
 		Price = {
@@ -4398,7 +4398,7 @@ local CfgCommodityTable = {
 		ShopID = 50102000,
 		BuyType = 2,
 		ItemId = 50032,
-		sort = 12,
+		sort = 18,
 		TimeOvrtShow = 1,
 		Number = 1,
 		UnlockConditionId = 30067001,
@@ -4421,7 +4421,7 @@ local CfgCommodityTable = {
 		ShopID = 50102000,
 		BuyType = 2,
 		ItemId = 50031,
-		sort = 13,
+		sort = 20,
 		TimeOvrtShow = 1,
 		Number = 1,
 		UnlockConditionId = 30067001,
@@ -4444,7 +4444,7 @@ local CfgCommodityTable = {
 		ShopID = 50102000,
 		BuyType = 2,
 		ItemId = 4,
-		sort = 14,
+		sort = 16,
 		TimeOvrtShow = 1,
 		Number = 150,
 		UnlockConditionId = 30067001,
@@ -4466,18 +4466,67 @@ local CfgCommodityTable = {
 		CommodityType = 1,
 		ShopID = 50102000,
 		BuyType = 2,
-		ItemId = 15000,
-		Time = 1,
-		sort = 1,
+		ItemId = 60128,
+		Time = 10,
+		sort = 4,
 		TimeOvrtShow = 1,
 		Number = 1,
 		UnlockConditionId = 30067001,
 		Id = 50220015,
-		Desc = "天照命晶",
+		Desc = "五星识域",
 		Price = {
 			{
 				22,
-				10000
+				2000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220016] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 60127,
+		Time = 20,
+		sort = 12,
+		TimeOvrtShow = 1,
+		Number = 1,
+		UnlockConditionId = 30067001,
+		Id = 50220016,
+		Desc = "四星识域",
+		Price = {
+			{
+				22,
+				500
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220017] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 21,
+		Time = 5,
+		sort = 5,
+		ResetType = 2,
+		Number = 1,
+		UnlockConditionId = 30067001,
+		TimeOvrtShow = 1,
+		Id = 50220017,
+		Desc = "异象券",
+		Price = {
+			{
+				4,
+				2000
 			},
 			{},
 			{},
@@ -4488,22 +4537,19 @@ local CfgCommodityTable = {
 	},
 	[50220101] = {
 		CommodityType = 1,
-		OpenTime = "2024/6/18 4:00",
-		BuyType = 1,
-		CloseTime = "2024/7/18 3:59",
-		Time = 1,
 		ShopID = 50102010,
-		AbsoluteValue = 68,
-		Number = 1,
-		ItemId = 600014,
+		BuyType = 2,
+		ItemId = 80207,
+		Time = 1,
 		sort = 100,
 		TimeOvrtShow = 1,
+		Number = 1,
 		Id = 50220101,
-		Desc = "星海轻语",
+		Desc = "火鼠裘",
 		Price = {
 			{
-				1,
-				6800
+				202,
+				3000
 			},
 			{},
 			{},
@@ -4516,17 +4562,337 @@ local CfgCommodityTable = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 10034,
+		ItemId = 60122,
 		Time = 1,
-		sort = 100,
+		sort = 101,
 		TimeOvrtShow = 1,
 		Number = 1,
 		Id = 50220102,
-		Desc = "一川晴",
+		Desc = "五星鬼武（随机）",
 		Price = {
 			{
-				18,
-				10000
+				202,
+				2500
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220103] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 80124,
+		Time = 1,
+		sort = 102,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220103,
+		Desc = "妖刀村正",
+		Price = {
+			{
+				202,
+				1500
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220104] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 60123,
+		Time = 1,
+		sort = 103,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220104,
+		Desc = "四星鬼武",
+		Price = {
+			{
+				202,
+				1200
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220105] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 60123,
+		Time = 1,
+		sort = 104,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220105,
+		Desc = "四星鬼武",
+		Price = {
+			{
+				202,
+				1000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220106] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 55001,
+		Time = 3,
+		sort = 105,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220106,
+		Desc = "人格稳定试剂",
+		Price = {
+			{
+				202,
+				100
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220107] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50004,
+		Time = 10,
+		sort = 106,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220107,
+		Desc = "阴阳秘文·完本",
+		Price = {
+			{
+				202,
+				80
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220108] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50003,
+		Time = 20,
+		sort = 107,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220108,
+		Desc = "阴阳秘文·断章",
+		Price = {
+			{
+				202,
+				50
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220109] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50002,
+		Time = 30,
+		sort = 108,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220109,
+		Desc = "阴阳秘文·残页",
+		Price = {
+			{
+				202,
+				20
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220110] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50034,
+		Time = 20,
+		sort = 109,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220110,
+		Desc = "神宗鬼卷·真言",
+		Price = {
+			{
+				202,
+				140
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220111] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50033,
+		Time = 30,
+		sort = 110,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220111,
+		Desc = "神宗鬼卷·拓本",
+		Price = {
+			{
+				202,
+				120
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220112] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50032,
+		Time = 50,
+		sort = 111,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220112,
+		Desc = "神宗鬼卷·注卷",
+		Price = {
+			{
+				202,
+				60
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220113] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 4,
+		Time = 10,
+		sort = 112,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220113,
+		Desc = "札币",
+		Price = {
+			{
+				202,
+				160
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220114] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 4,
+		Time = 20,
+		sort = 113,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220114,
+		Desc = "札币",
+		Price = {
+			{
+				202,
+				200
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220115] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50001,
+		sort = 114,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220115,
+		Desc = "阴阳秘文·残片",
+		Price = {
+			{
+				202,
+				1
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220116] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50031,
+		sort = 115,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220116,
+		Desc = "神宗鬼卷·抄本",
+		Price = {
+			{
+				202,
+				1
 			},
 			{},
 			{},

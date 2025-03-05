@@ -1150,6 +1150,90 @@ local CfgStoryBattleTable = {
 		},
 		VictroyDesc = getI18NValue(180174427)
 	},
+	[4013010] = {
+		Id = 4013010,
+		MonsterTeam = {
+			14701101
+		},
+		VictroyDesc = getI18NValue(180261834)
+	},
+	[4013020] = {
+		Id = 4013020,
+		MonsterTeam = {
+			14701102
+		},
+		VictroyDesc = getI18NValue(180261835)
+	},
+	[4013030] = {
+		Id = 4013030,
+		MonsterTeam = {
+			14701103
+		},
+		VictroyDesc = getI18NValue(180261836)
+	},
+	[4013040] = {
+		Id = 4013040,
+		MonsterTeam = {
+			14701104
+		},
+		VictroyDesc = getI18NValue(180261837)
+	},
+	[4013050] = {
+		Id = 4013050,
+		MonsterTeam = {
+			14701105
+		},
+		VictroyDesc = getI18NValue(180261838)
+	},
+	[4013060] = {
+		Id = 4013060,
+		MonsterTeam = {
+			14701106
+		},
+		VictroyDesc = getI18NValue(180261839)
+	},
+	[4013070] = {
+		Id = 4013070,
+		MonsterTeam = {
+			14701107
+		},
+		VictroyDesc = getI18NValue(180261840)
+	},
+	[4013080] = {
+		Id = 4013080,
+		MonsterTeam = {
+			14701108
+		},
+		VictroyDesc = getI18NValue(180261841)
+	},
+	[4013090] = {
+		Id = 4013090,
+		MonsterTeam = {
+			14701109
+		},
+		VictroyDesc = getI18NValue(180261842)
+	},
+	[4013100] = {
+		Id = 4013100,
+		MonsterTeam = {
+			14701110
+		},
+		VictroyDesc = getI18NValue(180261843)
+	},
+	[4013110] = {
+		Id = 4013110,
+		MonsterTeam = {
+			14701111
+		},
+		VictroyDesc = getI18NValue(180261844)
+	},
+	[4013120] = {
+		Id = 4013120,
+		MonsterTeam = {
+			14701112
+		},
+		VictroyDesc = getI18NValue(180261845)
+	},
 	[4021011] = {
 		Id = 4021011,
 		PlayerTeam = 40202,

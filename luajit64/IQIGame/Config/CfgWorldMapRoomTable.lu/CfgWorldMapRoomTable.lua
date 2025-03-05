@@ -1208,6 +1208,19 @@ local CfgWorldMapRoomTable = {
 		UnlockCondition = {
 			39111005
 		}
+	},
+	[201001] = {
+		Id = 201001,
+		AreaId = 20100,
+		Sort = 201001,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180261619),
+		UnlockCondition = {
+			30000000
+		}
 	}
 }
 

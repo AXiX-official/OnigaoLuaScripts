@@ -3970,13 +3970,13 @@ local CfgMonsterTable = {
 		Id = 130003801,
 		Name = getI18NValue(180127653),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -4015,14 +4015,14 @@ local CfgMonsterTable = {
 		Id = 130003802,
 		Name = getI18NValue(180127654),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -4060,18 +4060,14 @@ local CfgMonsterTable = {
 		Id = 130003803,
 		Name = getI18NValue(180127655),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -5467,14 +5463,14 @@ local CfgMonsterTable = {
 		Id = 130004801,
 		Name = getI18NValue(180127684),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -5513,16 +5509,14 @@ local CfgMonsterTable = {
 		Id = 130004802,
 		Name = getI18NValue(180127685),
 		Skill = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		SkillShow = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		Attribute = {
 			1,
@@ -5560,14 +5554,14 @@ local CfgMonsterTable = {
 		Id = 130004803,
 		Name = getI18NValue(180127686),
 		Skill = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		SkillShow = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		Attribute = {
 			1,
@@ -8196,13 +8190,13 @@ local CfgMonsterTable = {
 		Id = 130007308,
 		Name = getI18NValue(180127726),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -8241,18 +8235,14 @@ local CfgMonsterTable = {
 		Id = 130007309,
 		Name = getI18NValue(180127727),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -10379,7 +10369,7 @@ local CfgMonsterTable = {
 			8,
 			4230,
 			13,
-			1
+			2
 		},
 		Tag = {
 			17010
@@ -10514,7 +10504,7 @@ local CfgMonsterTable = {
 			8,
 			6550,
 			13,
-			1
+			2
 		},
 		Tag = {
 			17010
@@ -10561,7 +10551,7 @@ local CfgMonsterTable = {
 			8,
 			4590,
 			13,
-			1
+			2
 		},
 		Tag = {
 			17010
@@ -10608,7 +10598,7 @@ local CfgMonsterTable = {
 			8,
 			4590,
 			13,
-			1
+			2
 		},
 		Tag = {
 			17010
@@ -10655,7 +10645,7 @@ local CfgMonsterTable = {
 			8,
 			8240,
 			13,
-			1
+			2
 		},
 		Tag = {
 			17010
@@ -10972,7 +10962,7 @@ local CfgMonsterTable = {
 			8,
 			610,
 			13,
-			1
+			2
 		},
 		Tag = {
 			3
@@ -11019,7 +11009,7 @@ local CfgMonsterTable = {
 			8,
 			990,
 			13,
-			1
+			2
 		},
 		Tag = {
 			1
@@ -16693,7 +16683,7 @@ local CfgMonsterTable = {
 			8,
 			18860,
 			13,
-			1
+			2
 		},
 		Tag = {
 			2
@@ -19035,7 +19025,7 @@ local CfgMonsterTable = {
 			8,
 			7610,
 			13,
-			1
+			2
 		},
 		Tag = {
 			4
@@ -21121,7 +21111,7 @@ local CfgMonsterTable = {
 			8,
 			18200,
 			13,
-			1
+			2
 		},
 		InitialBuff = {
 			9010,
@@ -21389,7 +21379,7 @@ local CfgMonsterTable = {
 			8,
 			16090,
 			13,
-			1
+			2
 		},
 		Tag = {
 			3
@@ -21513,7 +21503,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者破",
 		bust = "HeadImg_NormalMon_01",
 		IsEnergyVisible = false,
@@ -21532,25 +21522,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5700,
+			17205,
 			2,
-			1338,
+			1471,
 			3,
-			459,
+			882,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			5700,
-			20,
-			200,
-			70,
-			-0.15,
-			72,
-			0.4,
-			64,
-			10
+			17205
 		},
 		Tag = {
 			17010
@@ -21563,7 +21545,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者破",
 		bust = "HeadImg_NormalMon_01",
 		IsEnergyVisible = false,
@@ -21582,25 +21564,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5700,
+			17205,
 			2,
-			1338,
+			1471,
 			3,
-			459,
+			882,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			5700,
-			20,
-			200,
-			70,
-			-0.15,
-			72,
-			0.4,
-			64,
-			10
+			17205
 		},
 		Tag = {
 			17010
@@ -21613,7 +21587,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "神觉者火",
 		bust = "HeadImg_NormalMon_01",
 		IsEnergyVisible = false,
@@ -21632,25 +21606,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6600,
+			10036,
 			2,
-			1402,
+			2390,
 			3,
-			408,
+			515,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6600,
-			20,
-			150,
-			68,
-			-0.15,
-			70,
-			0.4,
-			64,
-			10
+			10036
 		},
 		Tag = {
 			17010
@@ -21663,7 +21629,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "神觉者火",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1061020",
@@ -21681,25 +21647,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6600,
+			10036,
 			2,
-			1402,
+			2390,
 			3,
-			408,
+			515,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6600,
-			20,
-			150,
-			68,
-			-0.15,
-			70,
-			0.4,
-			64,
-			10
+			10036
 		},
 		Tag = {
 			17010
@@ -21712,7 +21670,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "相马家神隐之子",
 		bust = "HeadImg_NormalMon_04",
 		IsEnergyVisible = false,
@@ -21733,27 +21691,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			9400,
+			13980,
 			2,
-			1420,
+			3072,
 			3,
-			413,
+			551,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			9400,
-			20,
-			135,
-			70,
-			0.2,
-			72,
-			-0.1,
-			74,
-			-0.1,
-			64,
-			-10
+			13980
 		},
 		Tag = {
 			11010
@@ -21766,7 +21714,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者破",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1012030",
@@ -21786,25 +21734,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6100,
+			10239,
 			2,
-			1291,
+			2438,
 			3,
-			542,
+			525,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6100,
-			20,
-			250,
-			70,
-			0.2,
-			72,
-			-0.15,
-			64,
-			-10
+			10239
 		},
 		Tag = {
 			11010
@@ -21817,7 +21757,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者破",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1012030",
@@ -21837,25 +21777,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6100,
+			10239,
 			2,
-			1291,
+			2438,
 			3,
-			542,
+			525,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6100,
-			20,
-			250,
-			70,
-			0.2,
-			72,
-			-0.15,
-			64,
-			-10
+			10239
 		},
 		Tag = {
 			11010
@@ -21868,7 +21800,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者破",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1012030",
@@ -21888,25 +21820,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6100,
+			10239,
 			2,
-			1291,
+			2438,
 			3,
-			542,
+			525,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6100,
-			20,
-			250,
-			70,
-			0.2,
-			72,
-			-0.15,
-			64,
-			-10
+			10239
 		},
 		Tag = {
 			11010
@@ -21919,7 +21843,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 58,
+		Level = 70,
 		bust = "HeadImg_HeroMon_07",
 		IsEnergyVisible = false,
 		HeadIcon = "Hero_BattleHead_9007",
@@ -21939,21 +21863,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			9500,
+			14790,
 			2,
-			1438,
+			3250,
 			3,
-			418,
+			583,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			9500,
-			20,
-			135,
-			64,
-			30
+			14790
 		},
 		Tag = {
 			2
@@ -21966,7 +21886,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 1,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者侍",
 		bust = "HeadImg_NormalMon_02",
 		IsEnergyVisible = false,
@@ -21987,25 +21907,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6800,
+			10341,
 			2,
-			1438,
+			2462,
 			3,
-			418,
+			530,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6800,
-			20,
-			150,
-			68,
-			0.2,
-			70,
-			-0.15,
-			64,
-			-10
+			10341
 		},
 		Tag = {
 			11010
@@ -22018,7 +21930,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 1,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者侍",
 		bust = "HeadImg_NormalMon_02",
 		IsEnergyVisible = false,
@@ -22039,25 +21951,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6800,
+			10341,
 			2,
-			1438,
+			2462,
 			3,
-			418,
+			530,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6800,
-			20,
-			150,
-			68,
-			0.2,
-			70,
-			-0.15,
-			64,
-			-10
+			10341
 		},
 		Tag = {
 			11010
@@ -22070,7 +21974,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 1,
-		Level = 58,
+		Level = 70,
 		Description = "平安院神觉者侍",
 		bust = "HeadImg_NormalMon_02",
 		IsEnergyVisible = false,
@@ -22091,25 +21995,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6800,
+			10341,
 			2,
-			1438,
+			2462,
 			3,
-			418,
+			530,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			6800,
-			20,
-			150,
-			68,
-			0.2,
-			70,
-			-0.15,
-			64,
-			-10
+			10341
 		},
 		Tag = {
 			11010
@@ -22122,7 +22018,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22141,25 +22037,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5300,
+			10544,
 			2,
-			1588,
+			2510,
 			3,
-			424,
+			541,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			5300,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10544
 		},
 		Tag = {
 			16010
@@ -22172,7 +22060,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22191,25 +22079,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5300,
+			10544,
 			2,
-			1588,
+			2510,
 			3,
-			424,
+			541,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			5300,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10544
 		},
 		Tag = {
 			16010
@@ -22222,7 +22102,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22241,25 +22121,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5300,
+			10544,
 			2,
-			1588,
+			2510,
 			3,
-			424,
+			541,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			5300,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10544
 		},
 		Tag = {
 			16010
@@ -22272,7 +22144,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 58,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22291,25 +22163,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5300,
+			10544,
 			2,
-			1588,
+			2510,
 			3,
-			424,
+			541,
 			61,
-			0.165,
+			0.03,
 			81,
-			0.83,
+			0.5,
 			8,
-			5300,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10544
 		},
 		Tag = {
 			16010
@@ -22322,7 +22186,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 4,
-		Level = 59,
+		Level = 70,
 		Description = "恐怖分子精英",
 		bust = "HeadImg_NormalMon_02",
 		IsEnergyVisible = false,
@@ -22343,27 +22207,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			7700,
+			11390,
 			2,
-			1627,
+			2712,
 			3,
-			434,
+			584,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			7700,
-			20,
-			180,
-			68,
-			-0.1,
-			72,
-			-0.1,
-			74,
-			0.3,
-			64,
-			20
+			11390
 		},
 		Tag = {
 			16010
@@ -22376,7 +22230,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22395,25 +22249,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5500,
+			10849,
 			2,
-			1627,
+			2583,
 			3,
-			434,
+			556,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5500,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10849
 		},
 		Tag = {
 			16010
@@ -22426,7 +22272,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22445,25 +22291,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5500,
+			10849,
 			2,
-			1627,
+			2583,
 			3,
-			434,
+			556,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5500,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10849
 		},
 		Tag = {
 			16010
@@ -22476,7 +22314,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
+		Level = 70,
 		Description = "袭击者",
 		bust = "HeadImg_NormalMon_09",
 		IsEnergyVisible = false,
@@ -22495,25 +22333,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5500,
+			10849,
 			2,
-			1627,
+			2583,
 			3,
-			434,
+			556,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5500,
-			20,
-			200,
-			66,
-			0.2,
-			68,
-			-0.15,
-			64,
-			-10
+			10849
 		},
 		Tag = {
 			16010
@@ -22521,50 +22351,40 @@ local CfgMonsterTable = {
 	},
 	[131071001] = {
 		NormalSkill = 1000,
-		Speed = 91,
-		EntityID = 1031040,
+		Speed = 90,
+		EntityID = 1031050,
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 1,
-		Level = 59,
-		Description = "诸行无常之物，无感无识无明，被一部分人认为是连接现实和常世的使者。",
-		bust = "HeadImg_NormalMon_10",
-		HeadIcon = "Monster_BattleHead_1031040",
-		Profession = 5,
+		Level = 70,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
 		MonsterType = 1,
 		Id = 131071001,
 		Name = getI18NValue(180128006),
 		Skill = {
-			10310410,
-			10310430
+			10310510,
+			10310530
 		},
 		SkillShow = {
-			10310410,
-			10310430
+			10310510,
+			10310530
 		},
 		Attribute = {
 			1,
-			6700,
+			10950,
 			2,
-			1372,
+			2607,
 			3,
-			576,
+			562,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			6700,
-			20,
-			250,
-			66,
-			0.2,
-			68,
-			-0.1,
-			74,
-			-0.1,
-			64,
-			-10
+			10950
 		},
 		Tag = {
 			13010
@@ -22572,50 +22392,40 @@ local CfgMonsterTable = {
 	},
 	[131071002] = {
 		NormalSkill = 1000,
-		Speed = 91,
-		EntityID = 1031040,
+		Speed = 90,
+		EntityID = 1031050,
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 1,
-		Level = 59,
-		Description = "诸行无常之物，无感无识无明，被一部分人认为是连接现实和常世的使者。",
-		bust = "HeadImg_NormalMon_10",
-		HeadIcon = "Monster_BattleHead_1031040",
-		Profession = 5,
+		Level = 70,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
 		MonsterType = 1,
 		Id = 131071002,
 		Name = getI18NValue(180128007),
 		Skill = {
-			10310410,
-			10310430
+			10310510,
+			10310530
 		},
 		SkillShow = {
-			10310410,
-			10310430
+			10310510,
+			10310530
 		},
 		Attribute = {
 			1,
-			6700,
+			10950,
 			2,
-			1372,
+			2607,
 			3,
-			576,
+			562,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			6700,
-			20,
-			250,
-			66,
-			0.2,
-			68,
-			-0.1,
-			74,
-			-0.1,
-			64,
-			-10
+			10950
 		},
 		Tag = {
 			13010
@@ -22628,7 +22438,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 1,
-		Level = 59,
+		Level = 70,
 		Description = "诸行无常之物，无感无识无明，被一部分人认为是连接现实和常世的使者。",
 		bust = "HeadImg_NormalMon_10",
 		HeadIcon = "Monster_BattleHead_1031040",
@@ -22646,27 +22456,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			6700,
+			15643,
 			2,
-			1372,
+			2006,
 			3,
-			576,
+			802,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			6700,
-			20,
-			250,
-			66,
-			0.2,
-			68,
-			-0.1,
-			74,
-			-0.1,
-			64,
-			-10
+			15643
 		},
 		Tag = {
 			13010
@@ -22679,7 +22479,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
+		Level = 70,
 		Description = "由人类的愤懑、争斗而诞生的妖物，粗暴且充满破坏欲，现实中绝大部分的非自然灾害都会出现它的身影。",
 		bust = "HeadImg_NormalMon_11",
 		IsEnergyVisible = false,
@@ -22700,25 +22500,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			10000,
+			11500,
 			2,
-			1510,
+			2738,
 			3,
-			439,
+			590,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			10000,
-			20,
-			135,
-			66,
-			0.3,
-			72,
-			-0.15,
-			64,
-			-10
+			11500
 		},
 		Tag = {
 			13010
@@ -22726,17 +22518,18 @@ local CfgMonsterTable = {
 	},
 	[131071201] = {
 		NormalSkill = 1000,
-		Speed = 78,
-		EntityID = 1051020,
-		MonsterScale = 1,
+		Speed = 65,
+		EntityID = 1051031,
+		MonsterScale = 0.8,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
-		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
-		bust = "HeadImg_NormalMon_08",
-		HeadIcon = "Monster_BattleHead_1051020",
-		Profession = 3,
-		MonsterType = 1,
+		Level = 70,
+		Description = "平安院量产的精英替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_EliteMon_05",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1051031",
+		Profession = 1,
+		MonsterType = 2,
 		Id = 131071201,
 		Name = getI18NValue(180128010),
 		Skill = {
@@ -22749,25 +22542,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5700,
+			19890,
 			2,
-			1667,
+			1700,
 			3,
-			444,
+			1020,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5700,
-			20,
-			200,
-			68,
-			-0.15,
-			70,
-			0.2,
-			64,
-			-10
+			19890
 		},
 		Tag = {
 			15010
@@ -22775,17 +22560,18 @@ local CfgMonsterTable = {
 	},
 	[131071202] = {
 		NormalSkill = 1000,
-		Speed = 78,
-		EntityID = 1051020,
-		MonsterScale = 1,
+		Speed = 65,
+		EntityID = 1051031,
+		MonsterScale = 0.8,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
-		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
-		bust = "HeadImg_NormalMon_08",
-		HeadIcon = "Monster_BattleHead_1051020",
-		Profession = 3,
-		MonsterType = 1,
+		Level = 70,
+		Description = "平安院量产的精英替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_EliteMon_05",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1051031",
+		Profession = 1,
+		MonsterType = 2,
 		Id = 131071202,
 		Name = getI18NValue(180128011),
 		Skill = {
@@ -22798,25 +22584,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5700,
+			19890,
 			2,
-			1667,
+			1700,
 			3,
-			444,
+			1020,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5700,
-			20,
-			200,
-			68,
-			-0.15,
-			70,
-			0.2,
-			64,
-			-10
+			19890
 		},
 		Tag = {
 			15010
@@ -22829,7 +22607,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
+		Level = 70,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		HeadIcon = "Monster_BattleHead_1051020",
@@ -22847,25 +22625,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5700,
+			11052,
 			2,
-			1667,
+			2631,
 			3,
-			444,
+			567,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5700,
-			20,
-			200,
-			68,
-			-0.15,
-			70,
-			0.2,
-			64,
-			-10
+			11052
 		},
 		Tag = {
 			15010
@@ -22878,7 +22648,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 59,
+		Level = 70,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		HeadIcon = "Monster_BattleHead_1051020",
@@ -22896,25 +22666,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5700,
+			11052,
 			2,
-			1667,
+			2631,
 			3,
-			444,
+			567,
 			61,
-			0.17,
+			0.03,
 			81,
-			0.84,
+			0.5,
 			8,
-			5700,
-			20,
-			200,
-			68,
-			-0.15,
-			70,
-			0.2,
-			64,
-			-10
+			11052
 		},
 		Tag = {
 			15010
@@ -26557,7 +26319,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 30,
+		Level = 20,
 		Description = "平安院神觉者破",
 		bust = "HeadImg_NormalMon_01",
 		IsEnergyVisible = false,
@@ -26576,17 +26338,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			2747,
 			2,
-			403,
+			235,
 			3,
-			242,
+			141,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			2747
 		},
 		Tag = {
 			17010
@@ -26599,7 +26361,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 20,
 		Description = "神觉者火",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1061020",
@@ -26617,17 +26379,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			1603,
 			2,
-			654,
+			382,
 			3,
-			141,
+			82,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			1603
 		},
 		Tag = {
 			17010
@@ -26640,7 +26402,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 20,
 		Description = "神觉者火",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1061020",
@@ -26658,17 +26420,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			1603,
 			2,
-			654,
+			382,
 			3,
-			141,
+			82,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			1603
 		},
 		Tag = {
 			17010
@@ -26681,7 +26443,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 20,
 		Description = "神觉者火",
 		bust = "HeadImg_NormalMon_01",
 		HeadIcon = "Monster_BattleHead_1061020",
@@ -26699,17 +26461,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			1603,
 			2,
-			654,
+			382,
 			3,
-			141,
+			82,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			1603
 		},
 		Tag = {
 			17010
@@ -26722,7 +26484,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 40,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -26741,17 +26503,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			3576,
 			2,
-			654,
+			851,
 			3,
-			141,
+			183,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			3576
 		},
 		Tag = {
 			15010
@@ -26764,7 +26526,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 40,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -26783,17 +26545,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			3576,
 			2,
-			654,
+			851,
 			3,
-			141,
+			183,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			3576
 		},
 		Tag = {
 			15010
@@ -26806,7 +26568,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 40,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -26825,17 +26587,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			3576,
 			2,
-			654,
+			851,
 			3,
-			141,
+			183,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			3576
 		},
 		Tag = {
 			15010
@@ -26848,7 +26610,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 40,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -26867,17 +26629,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			3576,
 			2,
-			654,
+			851,
 			3,
-			141,
+			183,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			3576
 		},
 		Tag = {
 			15010
@@ -26890,7 +26652,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 50,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -26909,17 +26671,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			9687,
 			2,
-			403,
+			828,
 			3,
-			242,
+			497,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			9687
 		},
 		Tag = {
 			15010
@@ -26932,7 +26694,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 50,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -26951,17 +26713,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			9687,
 			2,
-			403,
+			828,
 			3,
-			242,
+			497,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			9687
 		},
 		Tag = {
 			15010
@@ -26974,7 +26736,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 50,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -26993,17 +26755,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			9687,
 			2,
-			403,
+			828,
 			3,
-			242,
+			497,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			9687
 		},
 		Tag = {
 			15010
@@ -27016,7 +26778,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 50,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -27035,17 +26797,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			9687,
 			2,
-			403,
+			828,
 			3,
-			242,
+			497,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			9687
 		},
 		Tag = {
 			15010
@@ -27058,7 +26820,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -27077,17 +26839,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2198,
+			5995,
 			2,
-			615,
+			1677,
 			3,
-			132,
+			361,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2198
+			5995
 		},
 		Tag = {
 			15010
@@ -27100,7 +26862,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -27119,17 +26881,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2198,
+			5995,
 			2,
-			615,
+			1677,
 			3,
-			132,
+			361,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2198
+			5995
 		},
 		Tag = {
 			15010
@@ -27142,7 +26904,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -27161,17 +26923,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2198,
+			5995,
 			2,
-			615,
+			1677,
 			3,
-			132,
+			361,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2198
+			5995
 		},
 		Tag = {
 			15010
@@ -27184,7 +26946,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
 		bust = "HeadImg_NormalMon_06",
 		HeadIcon = "Monster_BattleHead_1051010",
@@ -27202,17 +26964,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			3140,
+			8565,
 			2,
-			473,
+			1290,
 			3,
-			189,
+			516,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			3140
+			8565
 		},
 		Tag = {
 			15010
@@ -27225,7 +26987,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
 		bust = "HeadImg_NormalMon_06",
 		HeadIcon = "Monster_BattleHead_1051010",
@@ -27243,17 +27005,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			3140,
+			8565,
 			2,
-			473,
+			1290,
 			3,
-			189,
+			516,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			3140
+			8565
 		},
 		Tag = {
 			15010
@@ -27266,7 +27028,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -27285,17 +27047,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			3140,
+			12847,
 			2,
-			322,
+			1098,
 			3,
-			193,
+			659,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			3140
+			12847
 		},
 		Tag = {
 			15010
@@ -27308,7 +27070,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -27327,17 +27089,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			12847,
 			2,
-			403,
+			1098,
 			3,
-			242,
+			659,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			12847
 		},
 		Tag = {
 			15010
@@ -27350,7 +27112,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -27369,17 +27131,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			7494,
 			2,
-			654,
+			1784,
 			3,
-			141,
+			384,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			7494
 		},
 		Tag = {
 			15010
@@ -27392,7 +27154,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_NormalMon_08",
 		IsEnergyVisible = false,
@@ -27411,17 +27173,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2747,
+			7494,
 			2,
-			654,
+			1784,
 			3,
-			141,
+			384,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2747
+			7494
 		},
 		Tag = {
 			15010
@@ -27434,7 +27196,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -27453,17 +27215,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			12847,
 			2,
-			403,
+			1098,
 			3,
-			242,
+			659,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			12847
 		},
 		Tag = {
 			15010
@@ -27476,7 +27238,7 @@ local CfgMonsterTable = {
 		MonsterScale = 1,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
 		bust = "HeadImg_NormalMon_05",
 		IsEnergyVisible = false,
@@ -27495,17 +27257,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4710,
+			12847,
 			2,
-			403,
+			1098,
 			3,
-			242,
+			659,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4710
+			12847
 		},
 		Tag = {
 			15010
@@ -27518,7 +27280,7 @@ local CfgMonsterTable = {
 		MonsterScale = 0.8,
 		ArmsType = 1,
 		Elements = 2,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的精英战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
 		bust = "HeadImg_EliteMon_08",
 		HeadIcon = "Monster_BattleHead_1051021",
@@ -27536,17 +27298,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2885,
+			7869,
 			2,
-			687,
+			1874,
 			3,
-			148,
+			404,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2885
+			7869
 		},
 		Tag = {
 			15010
@@ -27559,7 +27321,7 @@ local CfgMonsterTable = {
 		MonsterScale = 0.8,
 		ArmsType = 1,
 		Elements = 3,
-		Level = 30,
+		Level = 60,
 		Description = "平安院量产的精英术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
 		bust = "HeadImg_EliteMon_06",
 		IsEnergyVisible = false,
@@ -27578,17 +27340,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4121,
+			11241,
 			2,
-			528,
+			1441,
 			3,
-			211,
+			576,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4121
+			11241
 		},
 		Tag = {
 			15010
@@ -51690,17 +51452,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			9042,
+			7535,
 			2,
-			538,
+			449,
 			3,
-			116,
+			97,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			9042
+			7535
 		}
 	},
 	[135010102] = {
@@ -51728,17 +51490,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2064,
+			1720,
 			2,
-			491,
+			410,
 			3,
-			106,
+			88,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2064
+			1720
 		}
 	},
 	[135010103] = {
@@ -51766,17 +51528,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2064,
+			1720,
 			2,
-			491,
+			410,
 			3,
-			106,
+			88,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2064
+			1720
 		}
 	},
 	[135010201] = {
@@ -51808,17 +51570,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			11483,
+			9569,
 			2,
-			684,
+			570,
 			3,
-			147,
+			123,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			11483
+			9569
 		}
 	},
 	[135010202] = {
@@ -51846,17 +51608,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2621,
+			2184,
 			2,
-			624,
+			520,
 			3,
-			134,
+			112,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2621
+			2184
 		}
 	},
 	[135010203] = {
@@ -51884,17 +51646,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2621,
+			2184,
 			2,
-			624,
+			520,
 			3,
-			134,
+			112,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2621
+			2184
 		}
 	},
 	[135010301] = {
@@ -51926,17 +51688,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			14583,
+			12152,
 			2,
-			868,
+			723,
 			3,
-			187,
+			156,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			14583
+			12152
 		}
 	},
 	[135010302] = {
@@ -51964,17 +51726,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			3329,
+			2774,
 			2,
-			793,
+			660,
 			3,
-			171,
+			142,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			3329
+			2774
 		}
 	},
 	[135010303] = {
@@ -52002,17 +51764,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			3329,
+			2774,
 			2,
-			793,
+			660,
 			3,
-			171,
+			142,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			3329
+			2774
 		}
 	},
 	[135010401] = {
@@ -52044,17 +51806,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			18521,
+			15434,
 			2,
-			1102,
+			919,
 			3,
-			237,
+			198,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			18521
+			15434
 		}
 	},
 	[135010402] = {
@@ -52082,17 +51844,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4228,
+			3523,
 			2,
-			1007,
+			839,
 			3,
-			217,
+			181,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4228
+			3523
 		}
 	},
 	[135010403] = {
@@ -52120,17 +51882,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4228,
+			3523,
 			2,
-			1007,
+			839,
 			3,
-			217,
+			181,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4228
+			3523
 		}
 	},
 	[135010501] = {
@@ -52162,17 +51924,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			24226,
+			20189,
 			2,
-			1400,
+			1167,
 			3,
-			302,
+			251,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			24226
+			20189
 		}
 	},
 	[135010502] = {
@@ -52200,17 +51962,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5530,
+			4608,
 			2,
-			1278,
+			1065,
 			3,
-			275,
+			229,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			5530
+			4608
 		}
 	},
 	[135010503] = {
@@ -52238,17 +52000,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5530,
+			4608,
 			2,
-			1278,
+			1065,
 			3,
-			275,
+			229,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			5530
+			4608
 		}
 	},
 	[135010601] = {
@@ -52280,17 +52042,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			30767,
+			25639,
 			2,
-			1778,
+			1482,
 			3,
-			383,
+			319,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			30767
+			25639
 		}
 	},
 	[135010602] = {
@@ -52318,17 +52080,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			7023,
+			5852,
 			2,
-			1623,
+			1353,
 			3,
-			350,
+			291,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			7023
+			5852
 		}
 	},
 	[135010603] = {
@@ -52356,17 +52118,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			7023,
+			5852,
 			2,
-			2110,
+			1759,
 			3,
-			350,
+			291,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			7023
+			5852
 		}
 	},
 	[135010701] = {
@@ -52398,17 +52160,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			39074,
+			32562,
 			2,
-			2936,
+			2446,
 			3,
-			486,
+			405,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			39074
+			32562
 		}
 	},
 	[135010702] = {
@@ -52436,17 +52198,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			8919,
+			7433,
 			2,
-			2680,
+			2234,
 			3,
-			444,
+			370,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			8919
+			7433
 		}
 	},
 	[135010703] = {
@@ -52474,17 +52236,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			8919,
+			7433,
 			2,
-			2062,
+			1718,
 			3,
-			444,
+			370,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			8919
+			7433
 		}
 	},
 	[135010801] = {
@@ -52516,17 +52278,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			49624,
+			41354,
 			2,
-			2868,
+			2390,
 			3,
-			618,
+			515,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			49624
+			41354
 		}
 	},
 	[135010802] = {
@@ -52554,17 +52316,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			11327,
+			9439,
 			2,
-			2618,
+			2182,
 			3,
-			564,
+			470,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			11327
+			9439
 		}
 	},
 	[135010803] = {
@@ -52592,17 +52354,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			11327,
+			9439,
 			2,
-			2618,
+			2182,
 			3,
-			564,
+			470,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			11327
+			9439
 		}
 	},
 	[135010901] = {
@@ -52634,17 +52396,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			63023,
+			52519,
 			2,
-			3642,
+			3035,
 			3,
-			784,
+			654,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			63023
+			52519
 		}
 	},
 	[135010902] = {
@@ -52672,17 +52434,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			14386,
+			11988,
 			2,
-			3325,
+			2771,
 			3,
-			716,
+			597,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			14386
+			11988
 		}
 	},
 	[135010903] = {
@@ -52710,17 +52472,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			14386,
+			11988,
 			2,
-			3325,
+			2771,
 			3,
-			716,
+			597,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			14386
+			11988
 		}
 	},
 	[135011001] = {
@@ -52752,17 +52514,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			79869,
+			66557,
 			2,
-			4485,
+			3738,
 			3,
-			966,
+			805,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			79869
+			66557
 		}
 	},
 	[135011002] = {
@@ -52790,17 +52552,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			18231,
+			15192,
 			2,
-			4095,
+			3413,
 			3,
-			882,
+			735,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			18231
+			15192
 		}
 	},
 	[135011003] = {
@@ -52828,17 +52590,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			18231,
+			15192,
 			2,
-			4095,
+			3413,
 			3,
-			882,
+			735,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			18231
+			15192
 		}
 	},
 	[135011101] = {
@@ -52870,17 +52632,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			91849,
+			76541,
 			2,
-			5158,
+			4298,
 			3,
-			1111,
+			926,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			91849
+			76541
 		}
 	},
 	[135011102] = {
@@ -52908,17 +52670,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			20966,
+			17471,
 			2,
-			4709,
+			3924,
 			3,
-			1014,
+			845,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			20966
+			17471
 		}
 	},
 	[135011103] = {
@@ -52946,17 +52708,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			20966,
+			17471,
 			2,
-			4709,
+			3924,
 			3,
-			1014,
+			845,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			20966
+			17471
 		}
 	},
 	[135011201] = {
@@ -52988,17 +52750,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			105627,
+			88022,
 			2,
-			5931,
+			4943,
 			3,
-			1278,
+			1065,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			105627
+			88022
 		}
 	},
 	[135011202] = {
@@ -53026,17 +52788,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			24110,
+			20092,
 			2,
-			5416,
+			4513,
 			3,
-			1166,
+			972,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			24110
+			20092
 		}
 	},
 	[135011203] = {
@@ -53064,17 +52826,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			24110,
+			20092,
 			2,
-			5416,
+			4513,
 			3,
-			1166,
+			972,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			24110
+			20092
 		}
 	},
 	[135011301] = {
@@ -53106,17 +52868,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			116190,
+			96825,
 			2,
-			6525,
+			5437,
 			3,
-			1405,
+			1171,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			116190
+			96825
 		}
 	},
 	[135011302] = {
@@ -53144,17 +52906,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			26522,
+			22101,
 			2,
-			5957,
+			4964,
 			3,
-			1283,
+			1069,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			26522
+			22101
 		}
 	},
 	[135011303] = {
@@ -53182,17 +52944,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			26522,
+			22101,
 			2,
-			5957,
+			4964,
 			3,
-			1283,
+			1069,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			26522
+			22101
 		}
 	},
 	[135011401] = {
@@ -53224,17 +52986,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			127809,
+			106508,
 			2,
-			7177,
+			5981,
 			3,
-			1546,
+			1288,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			127809
+			106508
 		}
 	},
 	[135011402] = {
@@ -53262,17 +53024,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			29174,
+			24312,
 			2,
-			6553,
+			5461,
 			3,
-			1411,
+			1176,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			29174
+			24312
 		}
 	},
 	[135011403] = {
@@ -53300,17 +53062,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			29174,
+			24312,
 			2,
-			6553,
+			5461,
 			3,
-			1411,
+			1176,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			29174
+			24312
 		}
 	},
 	[135011501] = {
@@ -53342,17 +53104,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			137999,
+			114999,
 			2,
-			7536,
+			6280,
 			3,
-			1623,
+			1353,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			137999
+			114999
 		}
 	},
 	[135011502] = {
@@ -53380,17 +53142,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			31500,
+			26250,
 			2,
-			6881,
+			5734,
 			3,
-			1482,
+			1235,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			31500
+			26250
 		}
 	},
 	[135011503] = {
@@ -53418,17 +53180,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			31500,
+			26250,
 			2,
-			6881,
+			5734,
 			3,
-			1482,
+			1235,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			31500
+			26250
 		}
 	},
 	[135011601] = {
@@ -53460,17 +53222,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			144899,
+			120749,
 			2,
-			7913,
+			6594,
 			3,
-			1704,
+			1420,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			144899
+			120749
 		}
 	},
 	[135011602] = {
@@ -53498,17 +53260,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			33075,
+			27562,
 			2,
-			7225,
+			6021,
 			3,
-			1556,
+			1297,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			33075
+			27562
 		}
 	},
 	[135011603] = {
@@ -53536,17 +53298,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			33075,
+			27562,
 			2,
-			7225,
+			6021,
 			3,
-			1556,
+			1297,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			33075
+			27562
 		}
 	},
 	[135011701] = {
@@ -53578,17 +53340,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			149245,
+			124371,
 			2,
-			8150,
+			6792,
 			3,
-			1755,
+			1463,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			149245
+			124371
 		}
 	},
 	[135011702] = {
@@ -53616,17 +53378,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			34067,
+			28389,
 			2,
-			7441,
+			6201,
 			3,
-			1603,
+			1336,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			34067
+			28389
 		}
 	},
 	[135011703] = {
@@ -53654,17 +53416,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			34067,
+			28389,
 			2,
-			7441,
+			6201,
 			3,
-			1603,
+			1336,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			34067
+			28389
 		}
 	},
 	[135011801] = {
@@ -53696,17 +53458,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			153723,
+			128103,
 			2,
-			8395,
+			6996,
 			3,
-			1808,
+			1507,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			153723
+			128103
 		}
 	},
 	[135011802] = {
@@ -53734,17 +53496,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			35089,
+			29241,
 			2,
-			7665,
+			6387,
 			3,
-			1651,
+			1376,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			35089
+			29241
 		}
 	},
 	[135011803] = {
@@ -53772,17 +53534,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			35089,
+			29241,
 			2,
-			7665,
+			6387,
 			3,
-			1651,
+			1376,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			35089
+			29241
 		}
 	},
 	[135011901] = {
@@ -53814,17 +53576,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			158335,
+			131946,
 			2,
-			8647,
+			7205,
 			3,
-			1862,
+			1552,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			158335
+			131946
 		}
 	},
 	[135011902] = {
@@ -53852,17 +53614,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			36142,
+			30118,
 			2,
-			7895,
+			6579,
 			3,
-			1700,
+			1417,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			36142
+			30118
 		}
 	},
 	[135011903] = {
@@ -53890,17 +53652,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			36142,
+			30118,
 			2,
-			7895,
+			6579,
 			3,
-			1700,
+			1417,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			36142
+			30118
 		}
 	},
 	[135012001] = {
@@ -53932,17 +53694,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			167574,
+			139645,
 			2,
-			8906,
+			7422,
 			3,
-			1918,
+			1599,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			167574
+			139645
 		}
 	},
 	[135012002] = {
@@ -53970,17 +53732,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			38251,
+			31876,
 			2,
-			8132,
+			6776,
 			3,
-			1751,
+			1460,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			38251
+			31876
 		}
 	},
 	[135012003] = {
@@ -54008,17 +53770,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			38251,
+			31876,
 			2,
-			8132,
+			6776,
 			3,
-			1751,
+			1460,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			38251
+			31876
 		}
 	},
 	[135012101] = {
@@ -54050,17 +53812,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			172602,
+			143835,
 			2,
-			9173,
+			7644,
 			3,
-			1976,
+			1646,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			172602
+			143835
 		}
 	},
 	[135012102] = {
@@ -54088,17 +53850,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			39398,
+			32832,
 			2,
-			8376,
+			6980,
 			3,
-			1804,
+			1503,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			39398
+			32832
 		}
 	},
 	[135012103] = {
@@ -54126,17 +53888,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			39398,
+			32832,
 			2,
-			8376,
+			6980,
 			3,
-			1804,
+			1503,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			39398
+			32832
 		}
 	},
 	[135012201] = {
@@ -54168,17 +53930,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			181232,
+			151027,
 			2,
-			9632,
+			8027,
 			3,
-			2075,
+			1729,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			181232
+			151027
 		}
 	},
 	[135012202] = {
@@ -54206,17 +53968,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			41368,
+			34473,
 			2,
-			8794,
+			7329,
 			3,
-			1894,
+			1578,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			41368
+			34473
 		}
 	},
 	[135012203] = {
@@ -54244,17 +54006,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			41368,
+			34473,
 			2,
-			11433,
+			9527,
 			3,
-			1894,
+			1578,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			41368
+			34473
 		}
 	},
 	[135012301] = {
@@ -54286,17 +54048,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			190294,
+			158578,
 			2,
-			13147,
+			10956,
 			3,
-			2178,
+			1815,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			190294
+			158578
 		}
 	},
 	[135012302] = {
@@ -54324,17 +54086,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			43437,
+			36197,
 			2,
-			12004,
+			10003,
 			3,
-			1989,
+			1657,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			43437
+			36197
 		}
 	},
 	[135012303] = {
@@ -54362,17 +54124,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			43437,
+			36197,
 			2,
-			9234,
+			7695,
 			3,
-			1989,
+			1657,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			43437
+			36197
 		}
 	},
 	[135012401] = {
@@ -54404,17 +54166,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			199808,
+			166507,
 			2,
-			10619,
+			8849,
 			3,
-			2287,
+			1906,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			199808
+			166507
 		}
 	},
 	[135012402] = {
@@ -54442,17 +54204,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			45608,
+			38007,
 			2,
-			9696,
+			8080,
 			3,
-			2088,
+			1740,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			45608
+			38007
 		}
 	},
 	[135012403] = {
@@ -54480,17 +54242,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			45608,
+			38007,
 			2,
-			9696,
+			8080,
 			3,
-			2088,
+			1740,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			45608
+			38007
 		}
 	},
 	[135012501] = {
@@ -54522,17 +54284,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			215418,
+			179515,
 			2,
-			11150,
+			9292,
 			3,
-			2402,
+			2001,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			215418
+			179515
 		}
 	},
 	[135012502] = {
@@ -54560,17 +54322,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			49171,
+			40976,
 			2,
-			10180,
+			8484,
 			3,
-			2193,
+			1827,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			49171
+			40976
 		}
 	},
 	[135012503] = {
@@ -54598,17 +54360,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			49171,
+			40976,
 			2,
-			10180,
+			8484,
 			3,
-			2193,
+			1827,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			49171
+			40976
 		}
 	},
 	[135012601] = {
@@ -54640,17 +54402,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			226188,
+			188490,
 			2,
-			11707,
+			9756,
 			3,
-			2522,
+			2101,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			226188
+			188490
 		}
 	},
 	[135012602] = {
@@ -54678,17 +54440,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			51630,
+			43025,
 			2,
-			10689,
+			8908,
 			3,
-			2302,
+			1919,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			51630
+			43025
 		}
 	},
 	[135012603] = {
@@ -54716,17 +54478,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			51630,
+			43025,
 			2,
-			10689,
+			8908,
 			3,
-			2302,
+			1919,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			51630
+			43025
 		}
 	},
 	[135012701] = {
@@ -54758,17 +54520,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			237498,
+			197915,
 			2,
-			12293,
+			10244,
 			3,
-			2648,
+			2206,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			237498
+			197915
 		}
 	},
 	[135012702] = {
@@ -54796,17 +54558,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			54211,
+			45176,
 			2,
-			11224,
+			9353,
 			3,
-			2417,
+			2015,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			54211
+			45176
 		}
 	},
 	[135012703] = {
@@ -54834,17 +54596,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			54211,
+			45176,
 			2,
-			11224,
+			9353,
 			3,
-			2417,
+			2015,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			54211
+			45176
 		}
 	},
 	[135012801] = {
@@ -54876,17 +54638,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			249372,
+			207810,
 			2,
-			12907,
+			10756,
 			3,
-			2780,
+			2317,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			249372
+			207810
 		}
 	},
 	[135012802] = {
@@ -54914,17 +54676,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			56922,
+			47435,
 			2,
-			11785,
+			9821,
 			3,
-			2538,
+			2115,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			56922
+			47435
 		}
 	},
 	[135012803] = {
@@ -54952,17 +54714,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			56922,
+			47435,
 			2,
-			11785,
+			9821,
 			3,
-			2538,
+			2115,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			56922
+			47435
 		}
 	},
 	[135012901] = {
@@ -54994,17 +54756,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			261841,
+			218201,
 			2,
-			13553,
+			11294,
 			3,
-			2919,
+			2433,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			261841
+			218201
 		}
 	},
 	[135012902] = {
@@ -55032,17 +54794,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			59768,
+			49807,
 			2,
-			12374,
+			10312,
 			3,
-			2665,
+			2221,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			59768
+			49807
 		}
 	},
 	[135012903] = {
@@ -55070,17 +54832,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			59768,
+			49807,
 			2,
-			12374,
+			10312,
 			3,
-			2665,
+			2221,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			59768
+			49807
 		}
 	},
 	[135013001] = {
@@ -55112,17 +54874,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			282106,
+			235089,
 			2,
-			14231,
+			11859,
 			3,
-			3065,
+			2554,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			282106
+			235089
 		}
 	},
 	[135013002] = {
@@ -55150,17 +54912,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			64394,
+			53662,
 			2,
-			12993,
+			10828,
 			3,
-			2799,
+			2332,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			64394
+			53662
 		}
 	},
 	[135013003] = {
@@ -55188,17 +54950,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			64394,
+			53662,
 			2,
-			12993,
+			10828,
 			3,
-			2799,
+			2332,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			64394
+			53662
 		}
 	},
 	[135013101] = {
@@ -55230,17 +54992,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			296211,
+			246843,
 			2,
-			14942,
+			12452,
 			3,
-			3218,
+			2682,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			296211
+			246843
 		}
 	},
 	[135013102] = {
@@ -55268,17 +55030,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			67613,
+			56345,
 			2,
-			13643,
+			11369,
 			3,
-			2938,
+			2449,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			67613
+			56345
 		}
 	},
 	[135013103] = {
@@ -55306,17 +55068,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			67613,
+			56345,
 			2,
-			13643,
+			11369,
 			3,
-			2938,
+			2449,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			67613
+			56345
 		}
 	},
 	[135013201] = {
@@ -55348,17 +55110,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			311022,
+			259185,
 			2,
-			15689,
+			13074,
 			3,
-			3379,
+			2816,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			311022
+			259185
 		}
 	},
 	[135013202] = {
@@ -55386,17 +55148,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			70994,
+			59162,
 			2,
-			14325,
+			11937,
 			3,
-			3085,
+			2571,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			70994
+			59162
 		}
 	},
 	[135013203] = {
@@ -55424,17 +55186,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			70994,
+			59162,
 			2,
-			14325,
+			11937,
 			3,
-			3085,
+			2571,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			70994
+			59162
 		}
 	},
 	[135013301] = {
@@ -55466,17 +55228,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			326572,
+			272144,
 			2,
-			16474,
+			13728,
 			3,
-			3548,
+			2957,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			326572
+			272144
 		}
 	},
 	[135013302] = {
@@ -55504,17 +55266,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			74544,
+			62120,
 			2,
-			15041,
+			12534,
 			3,
-			3240,
+			2700,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			74544
+			62120
 		}
 	},
 	[135013303] = {
@@ -55542,17 +55304,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			74544,
+			62120,
 			2,
-			15041,
+			12534,
 			3,
-			3240,
+			2700,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			74544
+			62120
 		}
 	},
 	[135013401] = {
@@ -55584,17 +55346,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			342902,
+			285751,
 			2,
-			17297,
+			14414,
 			3,
-			3726,
+			3105,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			342902
+			285751
 		}
 	},
 	[135013402] = {
@@ -55622,17 +55384,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			78271,
+			65226,
 			2,
-			15793,
+			13161,
 			3,
-			3402,
+			2835,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			78271
+			65226
 		}
 	},
 	[135013403] = {
@@ -55660,17 +55422,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			78271,
+			65226,
 			2,
-			15793,
+			13161,
 			3,
-			3402,
+			2835,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			78271
+			65226
 		}
 	},
 	[135013501] = {
@@ -55702,17 +55464,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			369201,
+			307667,
 			2,
-			18162,
+			15135,
 			3,
-			3912,
+			3260,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			369201
+			307667
 		}
 	},
 	[135013502] = {
@@ -55740,17 +55502,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			84274,
+			70228,
 			2,
-			16583,
+			13819,
 			3,
-			3572,
+			2976,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			84274
+			70228
 		}
 	},
 	[135013503] = {
@@ -55778,17 +55540,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			84274,
+			70228,
 			2,
-			16583,
+			13819,
 			3,
-			3572,
+			2976,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			84274
+			70228
 		}
 	},
 	[135013601] = {
@@ -55820,17 +55582,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			387661,
+			323051,
 			2,
-			19070,
+			15892,
 			3,
-			4107,
+			3423,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			387661
+			323051
 		}
 	},
 	[135013602] = {
@@ -55858,17 +55620,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			88488,
+			73740,
 			2,
-			17412,
+			14510,
 			3,
-			3750,
+			3125,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			88488
+			73740
 		}
 	},
 	[135013603] = {
@@ -55896,17 +55658,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			88488,
+			73740,
 			2,
-			17412,
+			14510,
 			3,
-			3750,
+			3125,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			88488
+			73740
 		}
 	},
 	[135020101] = {
@@ -55925,6 +55687,7 @@ local CfgMonsterTable = {
 		Id = 135020101,
 		Name = getI18NValue(180260906),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -55979,6 +55742,7 @@ local CfgMonsterTable = {
 		Id = 135020201,
 		Name = getI18NValue(180260907),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56033,6 +55797,7 @@ local CfgMonsterTable = {
 		Id = 135020301,
 		Name = getI18NValue(180260908),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56087,6 +55852,7 @@ local CfgMonsterTable = {
 		Id = 135020401,
 		Name = getI18NValue(180260909),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56141,6 +55907,7 @@ local CfgMonsterTable = {
 		Id = 135020501,
 		Name = getI18NValue(180260910),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56195,6 +55962,7 @@ local CfgMonsterTable = {
 		Id = 135020601,
 		Name = getI18NValue(180260911),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56249,6 +56017,7 @@ local CfgMonsterTable = {
 		Id = 135020701,
 		Name = getI18NValue(180260912),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56303,6 +56072,7 @@ local CfgMonsterTable = {
 		Id = 135020801,
 		Name = getI18NValue(180260913),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56357,6 +56127,7 @@ local CfgMonsterTable = {
 		Id = 135020901,
 		Name = getI18NValue(180260914),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56411,6 +56182,7 @@ local CfgMonsterTable = {
 		Id = 135021001,
 		Name = getI18NValue(180260915),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56465,6 +56237,7 @@ local CfgMonsterTable = {
 		Id = 135021101,
 		Name = getI18NValue(180260916),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56519,6 +56292,7 @@ local CfgMonsterTable = {
 		Id = 135021201,
 		Name = getI18NValue(180260917),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56573,6 +56347,7 @@ local CfgMonsterTable = {
 		Id = 135021301,
 		Name = getI18NValue(180260918),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56627,6 +56402,7 @@ local CfgMonsterTable = {
 		Id = 135021401,
 		Name = getI18NValue(180260919),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56681,6 +56457,7 @@ local CfgMonsterTable = {
 		Id = 135021501,
 		Name = getI18NValue(180260920),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56735,6 +56512,7 @@ local CfgMonsterTable = {
 		Id = 135021601,
 		Name = getI18NValue(180260921),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56789,6 +56567,7 @@ local CfgMonsterTable = {
 		Id = 135021701,
 		Name = getI18NValue(180260922),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56843,6 +56622,7 @@ local CfgMonsterTable = {
 		Id = 135021801,
 		Name = getI18NValue(180260923),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56897,6 +56677,7 @@ local CfgMonsterTable = {
 		Id = 135021901,
 		Name = getI18NValue(180260924),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -56951,6 +56732,7 @@ local CfgMonsterTable = {
 		Id = 135022001,
 		Name = getI18NValue(180260925),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57005,6 +56787,7 @@ local CfgMonsterTable = {
 		Id = 135022101,
 		Name = getI18NValue(180261032),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57059,6 +56842,7 @@ local CfgMonsterTable = {
 		Id = 135022201,
 		Name = getI18NValue(180261033),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57113,6 +56897,7 @@ local CfgMonsterTable = {
 		Id = 135022301,
 		Name = getI18NValue(180261034),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57167,6 +56952,7 @@ local CfgMonsterTable = {
 		Id = 135022401,
 		Name = getI18NValue(180261035),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57221,6 +57007,7 @@ local CfgMonsterTable = {
 		Id = 135022501,
 		Name = getI18NValue(180261036),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57275,6 +57062,7 @@ local CfgMonsterTable = {
 		Id = 135022601,
 		Name = getI18NValue(180261037),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57329,6 +57117,7 @@ local CfgMonsterTable = {
 		Id = 135022701,
 		Name = getI18NValue(180261038),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57383,6 +57172,7 @@ local CfgMonsterTable = {
 		Id = 135022801,
 		Name = getI18NValue(180261039),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57437,6 +57227,7 @@ local CfgMonsterTable = {
 		Id = 135022901,
 		Name = getI18NValue(180261040),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57491,6 +57282,7 @@ local CfgMonsterTable = {
 		Id = 135023001,
 		Name = getI18NValue(180261041),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57545,6 +57337,7 @@ local CfgMonsterTable = {
 		Id = 135023101,
 		Name = getI18NValue(180261042),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57599,6 +57392,7 @@ local CfgMonsterTable = {
 		Id = 135023201,
 		Name = getI18NValue(180261043),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57653,6 +57447,7 @@ local CfgMonsterTable = {
 		Id = 135023301,
 		Name = getI18NValue(180261044),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57707,6 +57502,7 @@ local CfgMonsterTable = {
 		Id = 135023401,
 		Name = getI18NValue(180261045),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57761,6 +57557,7 @@ local CfgMonsterTable = {
 		Id = 135023501,
 		Name = getI18NValue(180261046),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57815,6 +57612,7 @@ local CfgMonsterTable = {
 		Id = 135023601,
 		Name = getI18NValue(180261047),
 		Skill = {
+			30002,
 			30230210,
 			30230220,
 			30230230,
@@ -57869,6 +57667,7 @@ local CfgMonsterTable = {
 		Id = 135030101,
 		Name = getI18NValue(180260926),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -57887,17 +57686,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			2906,
+			6781,
 			2,
-			455,
+			380,
 			3,
-			149,
+			124,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			2906
+			6781
 		},
 		InitialBuff = {
 			1009,
@@ -57924,6 +57723,7 @@ local CfgMonsterTable = {
 		Id = 135030201,
 		Name = getI18NValue(180260927),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -57942,17 +57742,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			3691,
+			8612,
 			2,
-			578,
+			482,
 			3,
-			189,
+			158,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			3691
+			8612
 		},
 		InitialBuff = {
 			1009,
@@ -57979,6 +57779,7 @@ local CfgMonsterTable = {
 		Id = 135030301,
 		Name = getI18NValue(180260928),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -57997,17 +57798,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			4687,
+			10937,
 			2,
-			734,
+			612,
 			3,
-			240,
+			200,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			4687
+			10937
 		},
 		InitialBuff = {
 			1009,
@@ -58034,6 +57835,7 @@ local CfgMonsterTable = {
 		Id = 135030401,
 		Name = getI18NValue(180260929),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58052,17 +57854,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			5953,
+			13890,
 			2,
-			933,
+			777,
 			3,
-			305,
+			254,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			5953
+			13890
 		},
 		InitialBuff = {
 			1009,
@@ -58089,6 +57891,7 @@ local CfgMonsterTable = {
 		Id = 135030501,
 		Name = getI18NValue(180260930),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58107,17 +57910,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			7560,
+			17640,
 			2,
-			1185,
+			987,
 			3,
-			388,
+			323,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			7560
+			17640
 		},
 		InitialBuff = {
 			1009,
@@ -58144,6 +57947,7 @@ local CfgMonsterTable = {
 		Id = 135030601,
 		Name = getI18NValue(180260931),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58162,17 +57966,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			9601,
+			22403,
 			2,
-			1504,
+			1254,
 			3,
-			492,
+			410,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			9601
+			22403
 		},
 		InitialBuff = {
 			1009,
@@ -58199,6 +58003,7 @@ local CfgMonsterTable = {
 		Id = 135030701,
 		Name = getI18NValue(180260932),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58217,17 +58022,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			12194,
+			28452,
 			2,
-			1911,
+			1592,
 			3,
-			625,
+			521,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			12194
+			28452
 		},
 		InitialBuff = {
 			1009,
@@ -58254,6 +58059,7 @@ local CfgMonsterTable = {
 		Id = 135030801,
 		Name = getI18NValue(180260933),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58272,17 +58078,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			15486,
+			36134,
 			2,
-			2427,
+			2022,
 			3,
-			794,
+			662,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			15486
+			36134
 		},
 		InitialBuff = {
 			1009,
@@ -58309,6 +58115,7 @@ local CfgMonsterTable = {
 		Id = 135030901,
 		Name = getI18NValue(180260934),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58327,17 +58134,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			19667,
+			45890,
 			2,
-			3082,
+			2568,
 			3,
-			1009,
+			840,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			19667
+			45890
 		},
 		InitialBuff = {
 			1009,
@@ -58364,6 +58171,7 @@ local CfgMonsterTable = {
 		Id = 135031001,
 		Name = getI18NValue(180260935),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58382,17 +58190,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			24219,
+			56511,
 			2,
-			3795,
+			3163,
 			3,
-			1242,
+			1035,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			24219
+			56511
 		},
 		InitialBuff = {
 			1009,
@@ -58419,6 +58227,7 @@ local CfgMonsterTable = {
 		Id = 135031101,
 		Name = getI18NValue(180260936),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58437,17 +58246,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			27852,
+			64988,
 			2,
-			4364,
+			3637,
 			3,
-			1428,
+			1190,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			27852
+			64988
 		},
 		InitialBuff = {
 			1009,
@@ -58474,6 +58283,7 @@ local CfgMonsterTable = {
 		Id = 135031201,
 		Name = getI18NValue(180260937),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58492,17 +58302,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			32030,
+			74736,
 			2,
-			5019,
+			4182,
 			3,
-			1643,
+			1369,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			32030
+			74736
 		},
 		InitialBuff = {
 			1009,
@@ -58529,6 +58339,7 @@ local CfgMonsterTable = {
 		Id = 135031301,
 		Name = getI18NValue(180260938),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58547,17 +58358,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			35233,
+			82210,
 			2,
-			5521,
+			4601,
 			3,
-			1807,
+			1506,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			35233
+			82210
 		},
 		InitialBuff = {
 			1009,
@@ -58584,6 +58395,7 @@ local CfgMonsterTable = {
 		Id = 135031401,
 		Name = getI18NValue(180260939),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58602,17 +58414,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			38756,
+			90431,
 			2,
-			6073,
+			5061,
 			3,
-			1987,
+			1656,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			38756
+			90431
 		},
 		InitialBuff = {
 			1009,
@@ -58639,6 +58451,7 @@ local CfgMonsterTable = {
 		Id = 135031501,
 		Name = getI18NValue(180260940),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58657,17 +58470,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			40694,
+			94953,
 			2,
-			6377,
+			5314,
 			3,
-			2087,
+			1739,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			40694
+			94953
 		},
 		InitialBuff = {
 			1009,
@@ -58694,6 +58507,7 @@ local CfgMonsterTable = {
 		Id = 135031601,
 		Name = getI18NValue(180260941),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58712,17 +58526,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			42729,
+			99701,
 			2,
-			6695,
+			5580,
 			3,
-			2191,
+			1826,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			42729
+			99701
 		},
 		InitialBuff = {
 			1009,
@@ -58749,6 +58563,7 @@ local CfgMonsterTable = {
 		Id = 135031701,
 		Name = getI18NValue(180260942),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58767,17 +58582,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			44011,
+			102692,
 			2,
-			6896,
+			5747,
 			3,
-			2257,
+			1881,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			44011
+			102692
 		},
 		InitialBuff = {
 			1009,
@@ -58804,6 +58619,7 @@ local CfgMonsterTable = {
 		Id = 135031801,
 		Name = getI18NValue(180260943),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58822,17 +58638,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			45331,
+			105773,
 			2,
-			7103,
+			5919,
 			3,
-			2325,
+			1937,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			45331
+			105773
 		},
 		InitialBuff = {
 			1009,
@@ -58859,6 +58675,7 @@ local CfgMonsterTable = {
 		Id = 135031901,
 		Name = getI18NValue(180260944),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58877,17 +58694,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			46691,
+			108946,
 			2,
-			7316,
+			6097,
 			3,
-			2394,
+			1995,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			46691
+			108946
 		},
 		InitialBuff = {
 			1009,
@@ -58914,6 +58731,7 @@ local CfgMonsterTable = {
 		Id = 135032001,
 		Name = getI18NValue(180260945),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58932,17 +58750,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			48092,
+			112215,
 			2,
-			7536,
+			6280,
 			3,
-			2466,
+			2055,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			48092
+			112215
 		},
 		InitialBuff = {
 			1009,
@@ -58969,6 +58787,7 @@ local CfgMonsterTable = {
 		Id = 135032101,
 		Name = getI18NValue(180261048),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -58987,17 +58806,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			49535,
+			115582,
 			2,
-			7762,
+			6468,
 			3,
-			2540,
+			2117,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			49535
+			115582
 		},
 		InitialBuff = {
 			1009,
@@ -59024,6 +58843,7 @@ local CfgMonsterTable = {
 		Id = 135032201,
 		Name = getI18NValue(180261049),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59042,17 +58862,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			52012,
+			121361,
 			2,
-			8150,
+			6792,
 			3,
-			2667,
+			2223,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			52012
+			121361
 		},
 		InitialBuff = {
 			1009,
@@ -59079,6 +58899,7 @@ local CfgMonsterTable = {
 		Id = 135032301,
 		Name = getI18NValue(180261050),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59097,17 +58918,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			54612,
+			127429,
 			2,
-			8557,
+			7131,
 			3,
-			2801,
+			2334,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			54612
+			127429
 		},
 		InitialBuff = {
 			1009,
@@ -59134,6 +58955,7 @@ local CfgMonsterTable = {
 		Id = 135032401,
 		Name = getI18NValue(180261051),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59152,17 +58974,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			57343,
+			133800,
 			2,
-			8985,
+			7488,
 			3,
-			2941,
+			2451,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			57343
+			133800
 		},
 		InitialBuff = {
 			1009,
@@ -59189,6 +59011,7 @@ local CfgMonsterTable = {
 		Id = 135032501,
 		Name = getI18NValue(180261052),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59207,17 +59030,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			60210,
+			140490,
 			2,
-			9435,
+			7862,
 			3,
-			3088,
+			2573,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			60210
+			140490
 		},
 		InitialBuff = {
 			1009,
@@ -59244,6 +59067,7 @@ local CfgMonsterTable = {
 		Id = 135032601,
 		Name = getI18NValue(180261053),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59262,17 +59086,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			63220,
+			147514,
 			2,
-			9906,
+			8255,
 			3,
-			3242,
+			2702,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			63220
+			147514
 		},
 		InitialBuff = {
 			1009,
@@ -59299,6 +59123,7 @@ local CfgMonsterTable = {
 		Id = 135032701,
 		Name = getI18NValue(180261054),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59317,17 +59142,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			66381,
+			154890,
 			2,
-			10402,
+			8668,
 			3,
-			3404,
+			2837,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			66381
+			154890
 		},
 		InitialBuff = {
 			1009,
@@ -59354,6 +59179,7 @@ local CfgMonsterTable = {
 		Id = 135032801,
 		Name = getI18NValue(180261055),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59372,17 +59198,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			69700,
+			162634,
 			2,
-			10922,
+			9101,
 			3,
-			3574,
+			2979,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			69700
+			162634
 		},
 		InitialBuff = {
 			1009,
@@ -59409,6 +59235,7 @@ local CfgMonsterTable = {
 		Id = 135032901,
 		Name = getI18NValue(180261056),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59427,17 +59254,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			73185,
+			170766,
 			2,
-			11468,
+			9557,
 			3,
-			3753,
+			3128,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			73185
+			170766
 		},
 		InitialBuff = {
 			1009,
@@ -59464,6 +59291,7 @@ local CfgMonsterTable = {
 		Id = 135033001,
 		Name = getI18NValue(180261057),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59482,17 +59310,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			76845,
+			179305,
 			2,
-			12041,
+			10034,
 			3,
-			3941,
+			3284,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			76845
+			179305
 		},
 		InitialBuff = {
 			1009,
@@ -59519,6 +59347,7 @@ local CfgMonsterTable = {
 		Id = 135033101,
 		Name = getI18NValue(180261058),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59537,17 +59366,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			80687,
+			188270,
 			2,
-			12643,
+			10536,
 			3,
-			4138,
+			3448,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			80687
+			188270
 		},
 		InitialBuff = {
 			1009,
@@ -59574,6 +59403,7 @@ local CfgMonsterTable = {
 		Id = 135033201,
 		Name = getI18NValue(180261059),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59592,17 +59422,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			84721,
+			197683,
 			2,
-			13275,
+			11063,
 			3,
-			4345,
+			3621,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			84721
+			197683
 		},
 		InitialBuff = {
 			1009,
@@ -59629,6 +59459,7 @@ local CfgMonsterTable = {
 		Id = 135033301,
 		Name = getI18NValue(180261060),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59647,17 +59478,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			88957,
+			207567,
 			2,
-			13939,
+			11616,
 			3,
-			4562,
+			3802,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			88957
+			207567
 		},
 		InitialBuff = {
 			1009,
@@ -59684,6 +59515,7 @@ local CfgMonsterTable = {
 		Id = 135033401,
 		Name = getI18NValue(180261061),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59702,17 +59534,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			93405,
+			217946,
 			2,
-			14636,
+			12197,
 			3,
-			4790,
+			3992,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			93405
+			217946
 		},
 		InitialBuff = {
 			1009,
@@ -59739,6 +59571,7 @@ local CfgMonsterTable = {
 		Id = 135033501,
 		Name = getI18NValue(180261062),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59757,17 +59590,17 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			98076,
+			228844,
 			2,
-			15368,
+			12807,
 			3,
-			5030,
+			4191,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			98076
+			228844
 		},
 		InitialBuff = {
 			1009,
@@ -59794,6 +59627,7 @@ local CfgMonsterTable = {
 		Id = 135033601,
 		Name = getI18NValue(180261063),
 		Skill = {
+			30003,
 			20003,
 			30230310,
 			30230320,
@@ -59812,17 +59646,1997 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			102980,
+			240286,
 			2,
-			16136,
+			13447,
 			3,
-			5281,
+			4401,
 			61,
 			0.03,
 			81,
 			0.5,
 			8,
-			102980
+			240286
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040101] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 1,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040101,
+		Name = getI18NValue(180261315),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			6055,
+			2,
+			380,
+			3,
+			124,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6055
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040201] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 2,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040201,
+		Name = getI18NValue(180261316),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			7690,
+			2,
+			482,
+			3,
+			158,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7690
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040301] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 3,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040301,
+		Name = getI18NValue(180261317),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			9765,
+			2,
+			612,
+			3,
+			200,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			9765
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040401] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 4,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040401,
+		Name = getI18NValue(180261318),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			12402,
+			2,
+			777,
+			3,
+			254,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			12402
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040501] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 5,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040501,
+		Name = getI18NValue(180261319),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			15750,
+			2,
+			987,
+			3,
+			323,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			15750
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040601] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 6,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040601,
+		Name = getI18NValue(180261320),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			20003,
+			2,
+			1254,
+			3,
+			410,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20003
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040701] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 7,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040701,
+		Name = getI18NValue(180261321),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			25404,
+			2,
+			1592,
+			3,
+			521,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			25404
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040801] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 8,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040801,
+		Name = getI18NValue(180261322),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			32263,
+			2,
+			2022,
+			3,
+			662,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			32263
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135040901] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 9,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135040901,
+		Name = getI18NValue(180261323),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			40974,
+			2,
+			2568,
+			3,
+			840,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			40974
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041001] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 10,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041001,
+		Name = getI18NValue(180261324),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			50456,
+			2,
+			3163,
+			3,
+			1035,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			50456
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041101] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 11,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041101,
+		Name = getI18NValue(180261325),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			58025,
+			2,
+			3637,
+			3,
+			1190,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			58025
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041201] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 12,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041201,
+		Name = getI18NValue(180261326),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			66728,
+			2,
+			4182,
+			3,
+			1369,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			66728
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041301] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 13,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041301,
+		Name = getI18NValue(180261327),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			73402,
+			2,
+			4601,
+			3,
+			1506,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			73402
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041401] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 14,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041401,
+		Name = getI18NValue(180261328),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			80742,
+			2,
+			5061,
+			3,
+			1656,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			80742
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041501] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 15,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041501,
+		Name = getI18NValue(180261329),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			84780,
+			2,
+			5314,
+			3,
+			1739,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			84780
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041601] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 16,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041601,
+		Name = getI18NValue(180261330),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			89019,
+			2,
+			5580,
+			3,
+			1826,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			89019
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041701] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 17,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041701,
+		Name = getI18NValue(180261331),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			91689,
+			2,
+			5747,
+			3,
+			1881,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			91689
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041801] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 18,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041801,
+		Name = getI18NValue(180261332),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			94440,
+			2,
+			5919,
+			3,
+			1937,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			94440
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135041901] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 19,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135041901,
+		Name = getI18NValue(180261333),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			97274,
+			2,
+			6097,
+			3,
+			1995,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			97274
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042001] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 20,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042001,
+		Name = getI18NValue(180261334),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			100192,
+			2,
+			6280,
+			3,
+			2055,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			100192
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042101] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 21,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042101,
+		Name = getI18NValue(180261335),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			103198,
+			2,
+			6468,
+			3,
+			2117,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			103198
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042201] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 22,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042201,
+		Name = getI18NValue(180261336),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			108358,
+			2,
+			6792,
+			3,
+			2223,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			108358
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042301] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 23,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042301,
+		Name = getI18NValue(180261337),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			113776,
+			2,
+			7131,
+			3,
+			2334,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			113776
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042401] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 24,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042401,
+		Name = getI18NValue(180261338),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			119464,
+			2,
+			7488,
+			3,
+			2451,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			119464
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042501] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 25,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042501,
+		Name = getI18NValue(180261339),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			125437,
+			2,
+			7862,
+			3,
+			2573,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			125437
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042601] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 26,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042601,
+		Name = getI18NValue(180261340),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			131709,
+			2,
+			8255,
+			3,
+			2702,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			131709
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042701] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 27,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042701,
+		Name = getI18NValue(180261341),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			138295,
+			2,
+			8668,
+			3,
+			2837,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			138295
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042801] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 28,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042801,
+		Name = getI18NValue(180261342),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			145209,
+			2,
+			9101,
+			3,
+			2979,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			145209
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135042901] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 29,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135042901,
+		Name = getI18NValue(180261343),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			152470,
+			2,
+			9557,
+			3,
+			3128,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			152470
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043001] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 30,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043001,
+		Name = getI18NValue(180261344),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			160094,
+			2,
+			10034,
+			3,
+			3284,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			160094
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043101] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 31,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043101,
+		Name = getI18NValue(180261345),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			168098,
+			2,
+			10536,
+			3,
+			3448,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			168098
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043201] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 32,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043201,
+		Name = getI18NValue(180261346),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			176503,
+			2,
+			11063,
+			3,
+			3621,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			176503
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043301] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 33,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043301,
+		Name = getI18NValue(180261347),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			185328,
+			2,
+			11616,
+			3,
+			3802,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			185328
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043401] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 34,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043401,
+		Name = getI18NValue(180261348),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			194595,
+			2,
+			12197,
+			3,
+			3992,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			194595
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043501] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 35,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043501,
+		Name = getI18NValue(180261349),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			204325,
+			2,
+			12807,
+			3,
+			4191,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			204325
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			21010
+		}
+	},
+	[135043601] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 2013010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 36,
+		Description = "坂本次郎",
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_2013010",
+		Profession = 4,
+		MonsterType = 4,
+		Id = 135043601,
+		Name = getI18NValue(180261350),
+		Skill = {
+			30002,
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		SkillShow = {
+			30230210,
+			30230220,
+			30230230,
+			30230240,
+			30230250,
+			30230251
+		},
+		Attribute = {
+			1,
+			214541,
+			2,
+			13447,
+			3,
+			4401,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			214541
 		},
 		InitialBuff = {
 			1009,
@@ -74032,13 +75846,13 @@ local CfgMonsterTable = {
 		Id = 137000103,
 		Name = getI18NValue(180134211),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74080,13 +75894,13 @@ local CfgMonsterTable = {
 		Id = 137000104,
 		Name = getI18NValue(180134212),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74128,13 +75942,13 @@ local CfgMonsterTable = {
 		Id = 137000105,
 		Name = getI18NValue(180175905),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74176,13 +75990,13 @@ local CfgMonsterTable = {
 		Id = 137000201,
 		Name = getI18NValue(180134213),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74224,13 +76038,13 @@ local CfgMonsterTable = {
 		Id = 137000202,
 		Name = getI18NValue(180134214),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74272,13 +76086,13 @@ local CfgMonsterTable = {
 		Id = 137000203,
 		Name = getI18NValue(180134215),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74320,13 +76134,13 @@ local CfgMonsterTable = {
 		Id = 137000204,
 		Name = getI18NValue(180134216),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74368,13 +76182,13 @@ local CfgMonsterTable = {
 		Id = 137000205,
 		Name = getI18NValue(180175906),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74417,14 +76231,14 @@ local CfgMonsterTable = {
 		Id = 137000301,
 		Name = getI18NValue(180134217),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -74467,14 +76281,14 @@ local CfgMonsterTable = {
 		Id = 137000302,
 		Name = getI18NValue(180134218),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -74517,14 +76331,14 @@ local CfgMonsterTable = {
 		Id = 137000303,
 		Name = getI18NValue(180134219),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -74566,13 +76380,13 @@ local CfgMonsterTable = {
 		Id = 137000501,
 		Name = getI18NValue(180134245),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74614,13 +76428,13 @@ local CfgMonsterTable = {
 		Id = 137000502,
 		Name = getI18NValue(180134246),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74662,13 +76476,13 @@ local CfgMonsterTable = {
 		Id = 137000503,
 		Name = getI18NValue(180134247),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74710,13 +76524,13 @@ local CfgMonsterTable = {
 		Id = 137000504,
 		Name = getI18NValue(180134248),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74758,14 +76572,14 @@ local CfgMonsterTable = {
 		Id = 137000601,
 		Name = getI18NValue(180134249),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -74809,13 +76623,13 @@ local CfgMonsterTable = {
 		Id = 137000602,
 		Name = getI18NValue(180134250),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74857,13 +76671,13 @@ local CfgMonsterTable = {
 		Id = 137000603,
 		Name = getI18NValue(180134251),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74905,13 +76719,13 @@ local CfgMonsterTable = {
 		Id = 137000604,
 		Name = getI18NValue(180134252),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -74953,13 +76767,13 @@ local CfgMonsterTable = {
 		Id = 137000605,
 		Name = getI18NValue(180175907),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -75002,14 +76816,14 @@ local CfgMonsterTable = {
 		Id = 137000701,
 		Name = getI18NValue(180134253),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75052,14 +76866,14 @@ local CfgMonsterTable = {
 		Id = 137000702,
 		Name = getI18NValue(180134254),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75102,14 +76916,14 @@ local CfgMonsterTable = {
 		Id = 137000703,
 		Name = getI18NValue(180134255),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75152,14 +76966,14 @@ local CfgMonsterTable = {
 		Id = 137000704,
 		Name = getI18NValue(180134256),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75202,14 +77016,14 @@ local CfgMonsterTable = {
 		Id = 137000801,
 		Name = getI18NValue(180134257),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75252,14 +77066,14 @@ local CfgMonsterTable = {
 		Id = 137000802,
 		Name = getI18NValue(180134258),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75302,14 +77116,14 @@ local CfgMonsterTable = {
 		Id = 137000803,
 		Name = getI18NValue(180134259),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75352,16 +77166,14 @@ local CfgMonsterTable = {
 		Id = 137000804,
 		Name = getI18NValue(180134260),
 		Skill = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		SkillShow = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		Attribute = {
 			1,
@@ -75406,14 +77218,14 @@ local CfgMonsterTable = {
 		Id = 137000805,
 		Name = getI18NValue(180175908),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -75455,18 +77267,14 @@ local CfgMonsterTable = {
 		Id = 137000901,
 		Name = getI18NValue(180175909),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75508,13 +77316,13 @@ local CfgMonsterTable = {
 		Id = 137000902,
 		Name = getI18NValue(180175910),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -75556,13 +77364,13 @@ local CfgMonsterTable = {
 		Id = 137000903,
 		Name = getI18NValue(180175911),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -75604,18 +77412,14 @@ local CfgMonsterTable = {
 		Id = 137000904,
 		Name = getI18NValue(180175912),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75657,14 +77461,14 @@ local CfgMonsterTable = {
 		Id = 137001001,
 		Name = getI18NValue(180134261),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -75708,18 +77512,14 @@ local CfgMonsterTable = {
 		Id = 137001002,
 		Name = getI18NValue(180175913),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75761,18 +77561,14 @@ local CfgMonsterTable = {
 		Id = 137001003,
 		Name = getI18NValue(180175914),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75814,18 +77610,14 @@ local CfgMonsterTable = {
 		Id = 137001004,
 		Name = getI18NValue(180175915),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75867,18 +77659,14 @@ local CfgMonsterTable = {
 		Id = 137001201,
 		Name = getI18NValue(180175916),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75920,18 +77708,14 @@ local CfgMonsterTable = {
 		Id = 137001202,
 		Name = getI18NValue(180175917),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -75973,18 +77757,14 @@ local CfgMonsterTable = {
 		Id = 137001203,
 		Name = getI18NValue(180175918),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76026,18 +77806,14 @@ local CfgMonsterTable = {
 		Id = 137001204,
 		Name = getI18NValue(180175919),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76079,18 +77855,14 @@ local CfgMonsterTable = {
 		Id = 137001205,
 		Name = getI18NValue(180175920),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76132,18 +77904,14 @@ local CfgMonsterTable = {
 		Id = 137001301,
 		Name = getI18NValue(180175921),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76185,18 +77953,14 @@ local CfgMonsterTable = {
 		Id = 137001302,
 		Name = getI18NValue(180175922),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76238,14 +78002,14 @@ local CfgMonsterTable = {
 		Id = 137001303,
 		Name = getI18NValue(180175923),
 		Skill = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		SkillShow = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		Attribute = {
 			1,
@@ -76287,18 +78051,14 @@ local CfgMonsterTable = {
 		Id = 137001304,
 		Name = getI18NValue(180175924),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76340,18 +78100,14 @@ local CfgMonsterTable = {
 		Id = 137001305,
 		Name = getI18NValue(180175925),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -76393,14 +78149,14 @@ local CfgMonsterTable = {
 		Id = 137001401,
 		Name = getI18NValue(180175926),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -76445,14 +78201,14 @@ local CfgMonsterTable = {
 		Id = 137001402,
 		Name = getI18NValue(180175927),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -76495,14 +78251,14 @@ local CfgMonsterTable = {
 		Id = 137001403,
 		Name = getI18NValue(180175928),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -76545,16 +78301,14 @@ local CfgMonsterTable = {
 		Id = 137001404,
 		Name = getI18NValue(180175929),
 		Skill = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		SkillShow = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		Attribute = {
 			1,
@@ -76599,14 +78353,14 @@ local CfgMonsterTable = {
 		Id = 137001405,
 		Name = getI18NValue(180175930),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -76649,16 +78403,14 @@ local CfgMonsterTable = {
 		Id = 137001501,
 		Name = getI18NValue(180175931),
 		Skill = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		SkillShow = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		Attribute = {
 			1,
@@ -76702,13 +78454,13 @@ local CfgMonsterTable = {
 		Id = 137001502,
 		Name = getI18NValue(180175932),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -76750,13 +78502,13 @@ local CfgMonsterTable = {
 		Id = 137001503,
 		Name = getI18NValue(180175933),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -76798,14 +78550,14 @@ local CfgMonsterTable = {
 		Id = 137001504,
 		Name = getI18NValue(180175934),
 		Skill = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		SkillShow = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		Attribute = {
 			1,
@@ -76848,14 +78600,14 @@ local CfgMonsterTable = {
 		Id = 137001505,
 		Name = getI18NValue(180175935),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -76898,14 +78650,14 @@ local CfgMonsterTable = {
 		Id = 137001506,
 		Name = getI18NValue(180175936),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -77133,13 +78885,13 @@ local CfgMonsterTable = {
 		Id = 137005101,
 		Name = getI18NValue(180175940),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77181,13 +78933,13 @@ local CfgMonsterTable = {
 		Id = 137005102,
 		Name = getI18NValue(180175941),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77229,13 +78981,13 @@ local CfgMonsterTable = {
 		Id = 137005103,
 		Name = getI18NValue(180175942),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77277,13 +79029,13 @@ local CfgMonsterTable = {
 		Id = 137005104,
 		Name = getI18NValue(180175943),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77325,13 +79077,13 @@ local CfgMonsterTable = {
 		Id = 137005201,
 		Name = getI18NValue(180175944),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77373,13 +79125,13 @@ local CfgMonsterTable = {
 		Id = 137005202,
 		Name = getI18NValue(180175945),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77421,13 +79173,13 @@ local CfgMonsterTable = {
 		Id = 137005203,
 		Name = getI18NValue(180175946),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77469,13 +79221,13 @@ local CfgMonsterTable = {
 		Id = 137005204,
 		Name = getI18NValue(180175947),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77517,13 +79269,13 @@ local CfgMonsterTable = {
 		Id = 137005205,
 		Name = getI18NValue(180175948),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77565,13 +79317,13 @@ local CfgMonsterTable = {
 		Id = 137005206,
 		Name = getI18NValue(180175949),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77613,13 +79365,13 @@ local CfgMonsterTable = {
 		Id = 137005211,
 		Name = getI18NValue(180175950),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77661,13 +79413,13 @@ local CfgMonsterTable = {
 		Id = 137005212,
 		Name = getI18NValue(180175951),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77709,13 +79461,13 @@ local CfgMonsterTable = {
 		Id = 137005213,
 		Name = getI18NValue(180175952),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77757,13 +79509,13 @@ local CfgMonsterTable = {
 		Id = 137005214,
 		Name = getI18NValue(180175953),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77805,14 +79557,14 @@ local CfgMonsterTable = {
 		Id = 137005215,
 		Name = getI18NValue(180175954),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -77856,13 +79608,13 @@ local CfgMonsterTable = {
 		Id = 137005221,
 		Name = getI18NValue(180175955),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77904,13 +79656,13 @@ local CfgMonsterTable = {
 		Id = 137005222,
 		Name = getI18NValue(180175956),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -77953,14 +79705,14 @@ local CfgMonsterTable = {
 		Id = 137005223,
 		Name = getI18NValue(180175957),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78003,14 +79755,14 @@ local CfgMonsterTable = {
 		Id = 137005224,
 		Name = getI18NValue(180175958),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78052,13 +79804,13 @@ local CfgMonsterTable = {
 		Id = 137005231,
 		Name = getI18NValue(180175959),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -78101,14 +79853,14 @@ local CfgMonsterTable = {
 		Id = 137005232,
 		Name = getI18NValue(180175960),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78151,14 +79903,14 @@ local CfgMonsterTable = {
 		Id = 137005233,
 		Name = getI18NValue(180175961),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78200,14 +79952,14 @@ local CfgMonsterTable = {
 		Id = 137005234,
 		Name = getI18NValue(180175962),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -78251,13 +80003,13 @@ local CfgMonsterTable = {
 		Id = 137005235,
 		Name = getI18NValue(180175963),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -78299,13 +80051,13 @@ local CfgMonsterTable = {
 		Id = 137005301,
 		Name = getI18NValue(180175964),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -78348,14 +80100,14 @@ local CfgMonsterTable = {
 		Id = 137005302,
 		Name = getI18NValue(180175965),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78397,18 +80149,14 @@ local CfgMonsterTable = {
 		Id = 137005303,
 		Name = getI18NValue(180175966),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -78450,18 +80198,14 @@ local CfgMonsterTable = {
 		Id = 137005304,
 		Name = getI18NValue(180175967),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -78503,18 +80247,14 @@ local CfgMonsterTable = {
 		Id = 137005305,
 		Name = getI18NValue(180175968),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -78556,14 +80296,14 @@ local CfgMonsterTable = {
 		Id = 137005311,
 		Name = getI18NValue(180175969),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -78608,14 +80348,14 @@ local CfgMonsterTable = {
 		Id = 137005312,
 		Name = getI18NValue(180175970),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78657,18 +80397,14 @@ local CfgMonsterTable = {
 		Id = 137005313,
 		Name = getI18NValue(180175971),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -78710,18 +80446,14 @@ local CfgMonsterTable = {
 		Id = 137005314,
 		Name = getI18NValue(180175972),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -78764,14 +80496,14 @@ local CfgMonsterTable = {
 		Id = 137005315,
 		Name = getI18NValue(180175973),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -78813,14 +80545,14 @@ local CfgMonsterTable = {
 		Id = 137005401,
 		Name = getI18NValue(180175974),
 		Skill = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		SkillShow = {
-			480110,
-			480130,
-			480140
+			40120110,
+			40120130,
+			40120140
 		},
 		Attribute = {
 			1,
@@ -78865,16 +80597,14 @@ local CfgMonsterTable = {
 		Id = 137005402,
 		Name = getI18NValue(180175975),
 		Skill = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		SkillShow = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		Attribute = {
 			1,
@@ -78918,18 +80648,14 @@ local CfgMonsterTable = {
 		Id = 137005403,
 		Name = getI18NValue(180175976),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -78971,13 +80697,13 @@ local CfgMonsterTable = {
 		Id = 137005404,
 		Name = getI18NValue(180175977),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -79019,13 +80745,13 @@ local CfgMonsterTable = {
 		Id = 137005405,
 		Name = getI18NValue(180175978),
 		Skill = {
-			380110,
-			380120,
-			380130
+			40110110,
+			40110130,
+			40110131
 		},
 		SkillShow = {
-			380110,
-			380120
+			40110110,
+			40110130
 		},
 		Attribute = {
 			1,
@@ -79067,18 +80793,14 @@ local CfgMonsterTable = {
 		Id = 137005406,
 		Name = getI18NValue(180175979),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -79121,16 +80843,14 @@ local CfgMonsterTable = {
 		Id = 137005411,
 		Name = getI18NValue(180175980),
 		Skill = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		SkillShow = {
-			480210,
-			480220,
-			480230,
-			480240
+			40120210,
+			40120220,
+			40120230
 		},
 		Attribute = {
 			1,
@@ -79174,14 +80894,14 @@ local CfgMonsterTable = {
 		Id = 137005412,
 		Name = getI18NValue(180175981),
 		Skill = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		SkillShow = {
-			480310,
-			480320,
-			480330
+			40120310,
+			40120320,
+			40120330
 		},
 		Attribute = {
 			1,
@@ -79224,14 +80944,14 @@ local CfgMonsterTable = {
 		Id = 137005413,
 		Name = getI18NValue(180175982),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -79273,18 +80993,14 @@ local CfgMonsterTable = {
 		Id = 137005414,
 		Name = getI18NValue(180175983),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -79326,18 +81042,14 @@ local CfgMonsterTable = {
 		Id = 137005415,
 		Name = getI18NValue(180175984),
 		Skill = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		SkillShow = {
-			380310,
-			380320,
-			380330,
-			380340,
-			380350
+			40110310,
+			40110320,
+			40110330
 		},
 		Attribute = {
 			1,
@@ -79380,14 +81092,14 @@ local CfgMonsterTable = {
 		Id = 137005416,
 		Name = getI18NValue(180175985),
 		Skill = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		SkillShow = {
-			380210,
-			380220,
-			380230
+			40110210,
+			40110220,
+			40110230
 		},
 		Attribute = {
 			1,
@@ -79627,6 +81339,2441 @@ local CfgMonsterTable = {
 		},
 		Tag = {
 			4
+		}
+	},
+	[137007001] = {
+		NormalSkill = 1000,
+		Speed = 65,
+		EntityID = 1051031,
+		MonsterScale = 0.8,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 20,
+		Description = "平安院量产的精英替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_EliteMon_05",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1051031",
+		Profession = 1,
+		MonsterType = 2,
+		Id = 137007001,
+		Name = getI18NValue(180261777),
+		Skill = {
+			10510350,
+			10510370
+		},
+		SkillShow = {
+			10510350,
+			10510370
+		},
+		Attribute = {
+			1,
+			3796,
+			2,
+			247,
+			3,
+			148,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3796
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007002] = {
+		NormalSkill = 1000,
+		Speed = 58,
+		EntityID = 1051030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 20,
+		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_NormalMon_05",
+		HeadIcon = "Monster_BattleHead_1051030",
+		Profession = 1,
+		MonsterType = 1,
+		Id = 137007002,
+		Name = getI18NValue(180261778),
+		Skill = {
+			10510310,
+			10510330
+		},
+		SkillShow = {
+			10510310,
+			10510330
+		},
+		Attribute = {
+			1,
+			3615,
+			2,
+			235,
+			3,
+			141,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3615
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007003] = {
+		NormalSkill = 1000,
+		Speed = 78,
+		EntityID = 1051020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 20,
+		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
+		bust = "HeadImg_NormalMon_08",
+		HeadIcon = "Monster_BattleHead_1051020",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007003,
+		Name = getI18NValue(180261779),
+		Skill = {
+			10510210,
+			10510230
+		},
+		SkillShow = {
+			10510210,
+			10510230
+		},
+		Attribute = {
+			1,
+			2109,
+			2,
+			382,
+			3,
+			82,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			2109
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007004] = {
+		NormalSkill = 1000,
+		Speed = 78,
+		EntityID = 1051020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 20,
+		Description = "平安院量产的战斗傀儡，拥有永不退却的笑面，挥舞着名为守护的破坏之刃。",
+		bust = "HeadImg_NormalMon_08",
+		HeadIcon = "Monster_BattleHead_1051020",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007004,
+		Name = getI18NValue(180261780),
+		Skill = {
+			10510210,
+			10510230
+		},
+		SkillShow = {
+			10510210,
+			10510230
+		},
+		Attribute = {
+			1,
+			2109,
+			2,
+			382,
+			3,
+			82,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			2109
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007011] = {
+		NormalSkill = 1000,
+		Speed = 62,
+		EntityID = 1031021,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 25,
+		Description = "被未知力量影响后异形化的精英怪物。当那不知满足的贪婪之口打破界限时，一切都是被品尝之物。",
+		bust = "HeadImg_EliteMon_09",
+		HeadIcon = "Monster_BattleHead_1031021",
+		Profession = 4,
+		MonsterType = 2,
+		Id = 137007011,
+		Name = getI18NValue(180261781),
+		Skill = {
+			10310250,
+			10310260,
+			10310270
+		},
+		SkillShow = {
+			10310250,
+			10310260,
+			10310270
+		},
+		Attribute = {
+			1,
+			3626,
+			2,
+			474,
+			3,
+			155,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3626
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007012] = {
+		NormalSkill = 1000,
+		Speed = 65,
+		EntityID = 1031031,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 25,
+		Description = "被未知力量影响后异形化的怪物。面对一无所知的虚空，它唯有盲目地呐喊。",
+		bust = "HeadImg_EliteMon_07",
+		HeadIcon = "Monster_BattleHead_1031031",
+		Profession = 4,
+		MonsterType = 2,
+		Id = 137007012,
+		Name = getI18NValue(180261782),
+		Skill = {
+			10310350,
+			10310370
+		},
+		SkillShow = {
+			10310350,
+			10310370
+		},
+		Attribute = {
+			1,
+			3626,
+			2,
+			474,
+			3,
+			155,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3626
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007013] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1051010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 25,
+		Description = "平安院量产的术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
+		bust = "HeadImg_NormalMon_06",
+		HeadIcon = "Monster_BattleHead_1051010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007013,
+		Name = getI18NValue(180261783),
+		Skill = {
+			10510110,
+			10510130
+		},
+		SkillShow = {
+			10510110,
+			10510130
+		},
+		Attribute = {
+			1,
+			3838,
+			2,
+			410,
+			3,
+			164,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3838
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007014] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1051010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 25,
+		Description = "平安院量产的术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
+		bust = "HeadImg_NormalMon_06",
+		HeadIcon = "Monster_BattleHead_1051010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007014,
+		Name = getI18NValue(180261784),
+		Skill = {
+			10510110,
+			10510130
+		},
+		SkillShow = {
+			10510110,
+			10510130
+		},
+		Attribute = {
+			1,
+			3838,
+			2,
+			410,
+			3,
+			164,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3838
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007015] = {
+		NormalSkill = 1000,
+		Speed = 59,
+		EntityID = 1031030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 25,
+		Description = "被未知力量影响后异形化的怪物。面对一无所知的虚空，它唯有盲目地呐喊。",
+		bust = "HeadImg_NormalMon_07",
+		HeadIcon = "Monster_BattleHead_1031030",
+		Profession = 4,
+		MonsterType = 1,
+		Id = 137007015,
+		Name = getI18NValue(180261785),
+		Skill = {
+			10310310,
+			10310330,
+			20001
+		},
+		SkillShow = {
+			10310310,
+			10310330
+		},
+		Attribute = {
+			1,
+			3454,
+			2,
+			451,
+			3,
+			148,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3454
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007021] = {
+		NormalSkill = 1000,
+		Speed = 58,
+		EntityID = 1051030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_NormalMon_05",
+		HeadIcon = "Monster_BattleHead_1051030",
+		Profession = 1,
+		MonsterType = 1,
+		Id = 137007021,
+		Name = getI18NValue(180261786),
+		Skill = {
+			10510310,
+			10510330
+		},
+		SkillShow = {
+			10510310,
+			10510330
+		},
+		Attribute = {
+			1,
+			5375,
+			2,
+			373,
+			3,
+			224,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			5375
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007022] = {
+		NormalSkill = 1000,
+		Speed = 63,
+		EntityID = 1032040,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 30,
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1032040",
+		Profession = 4,
+		MonsterType = 3,
+		Id = 137007022,
+		Name = getI18NValue(180261787),
+		Skill = {
+			10320410,
+			10320420,
+			10320430,
+			10320440
+		},
+		SkillShow = {
+			10320410,
+			10320420,
+			10320430,
+			10320440
+		},
+		Attribute = {
+			1,
+			4434,
+			2,
+			565,
+			3,
+			185,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			4434
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007023] = {
+		NormalSkill = 1000,
+		Speed = 98,
+		EntityID = 1051011,
+		MonsterScale = 0.8,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 30,
+		Description = "平安院量产的精英术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
+		bust = "HeadImg_EliteMon_06",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1051011",
+		Profession = 5,
+		MonsterType = 2,
+		Id = 137007023,
+		Name = getI18NValue(180261788),
+		Skill = {
+			10510150,
+			10510170
+		},
+		SkillShow = {
+			10510150,
+			10510170
+		},
+		Attribute = {
+			1,
+			4703,
+			2,
+			490,
+			3,
+			196,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			4703
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007024] = {
+		NormalSkill = 1000,
+		Speed = 58,
+		EntityID = 1051030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_NormalMon_05",
+		HeadIcon = "Monster_BattleHead_1051030",
+		Profession = 1,
+		MonsterType = 1,
+		Id = 137007024,
+		Name = getI18NValue(180261789),
+		Skill = {
+			10510310,
+			10510330
+		},
+		SkillShow = {
+			10510310,
+			10510330
+		},
+		Attribute = {
+			1,
+			5375,
+			2,
+			373,
+			3,
+			224,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			5375
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007025] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1051010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 30,
+		Description = "平安院量产的术师傀儡，仅仅是一张呆板无神的面孔，就莫名有着令人胆寒的力量。",
+		bust = "HeadImg_NormalMon_06",
+		HeadIcon = "Monster_BattleHead_1051010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007025,
+		Name = getI18NValue(180261790),
+		Skill = {
+			10510110,
+			10510130
+		},
+		SkillShow = {
+			10510110,
+			10510130
+		},
+		Attribute = {
+			1,
+			4479,
+			2,
+			467,
+			3,
+			187,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			4479
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007031] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 1042050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "由人类的愤懑、争斗而诞生的妖物，粗暴且充满破坏欲，现实中绝大部分的非自然灾害都会出现它的身影。",
+		bust = "HeadImg_NormalMon_11",
+		HeadIcon = "Monster_BattleHead_1042050",
+		Profession = 3,
+		MonsterType = 3,
+		Id = 137007031,
+		Name = getI18NValue(180261791),
+		Skill = {
+			10420510,
+			10420520,
+			10420530
+		},
+		SkillShow = {
+			10420510,
+			10420520,
+			10420530
+		},
+		Attribute = {
+			1,
+			3292,
+			2,
+			637,
+			3,
+			137,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3292
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007032] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 1042050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "由人类的愤懑、争斗而诞生的妖物，粗暴且充满破坏欲，现实中绝大部分的非自然灾害都会出现它的身影。",
+		bust = "HeadImg_NormalMon_11",
+		HeadIcon = "Monster_BattleHead_1042050",
+		Profession = 3,
+		MonsterType = 3,
+		Id = 137007032,
+		Name = getI18NValue(180261792),
+		Skill = {
+			10420510,
+			10420520,
+			10420530
+		},
+		SkillShow = {
+			10420510,
+			10420520,
+			10420530
+		},
+		Attribute = {
+			1,
+			3292,
+			2,
+			637,
+			3,
+			137,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3292
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007033] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 1042050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "由人类的愤懑、争斗而诞生的妖物，粗暴且充满破坏欲，现实中绝大部分的非自然灾害都会出现它的身影。",
+		bust = "HeadImg_NormalMon_11",
+		HeadIcon = "Monster_BattleHead_1042050",
+		Profession = 3,
+		MonsterType = 3,
+		Id = 137007033,
+		Name = getI18NValue(180261793),
+		Skill = {
+			10420510,
+			10420520,
+			10420530
+		},
+		SkillShow = {
+			10420510,
+			10420520,
+			10420530
+		},
+		Attribute = {
+			1,
+			3292,
+			2,
+			637,
+			3,
+			137,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3292
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007034] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 1042050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "由人类的愤懑、争斗而诞生的妖物，粗暴且充满破坏欲，现实中绝大部分的非自然灾害都会出现它的身影。",
+		bust = "HeadImg_NormalMon_11",
+		HeadIcon = "Monster_BattleHead_1042050",
+		Profession = 3,
+		MonsterType = 3,
+		Id = 137007034,
+		Name = getI18NValue(180261794),
+		Skill = {
+			10420510,
+			10420520,
+			10420530
+		},
+		SkillShow = {
+			10420510,
+			10420520,
+			10420530
+		},
+		Attribute = {
+			1,
+			3292,
+			2,
+			637,
+			3,
+			137,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3292
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007035] = {
+		NormalSkill = 1000,
+		Speed = 71,
+		EntityID = 1042050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 30,
+		Description = "由人类的愤懑、争斗而诞生的妖物，粗暴且充满破坏欲，现实中绝大部分的非自然灾害都会出现它的身影。",
+		bust = "HeadImg_NormalMon_11",
+		HeadIcon = "Monster_BattleHead_1042050",
+		Profession = 3,
+		MonsterType = 3,
+		Id = 137007035,
+		Name = getI18NValue(180261795),
+		Skill = {
+			10420510,
+			10420520,
+			10420530
+		},
+		SkillShow = {
+			10420510,
+			10420520,
+			10420530
+		},
+		Attribute = {
+			1,
+			3292,
+			2,
+			637,
+			3,
+			137,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3292
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007041] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 35,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041020",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007041,
+		Name = getI18NValue(180261796),
+		Skill = {
+			10410210,
+			10410230
+		},
+		SkillShow = {
+			10410210,
+			10410230
+		},
+		Attribute = {
+			1,
+			5395,
+			2,
+			537,
+			3,
+			215,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			5395
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007042] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 35,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041020",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007042,
+		Name = getI18NValue(180261797),
+		Skill = {
+			10410210,
+			10410230
+		},
+		SkillShow = {
+			10410210,
+			10410230
+		},
+		Attribute = {
+			1,
+			5395,
+			2,
+			537,
+			3,
+			215,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			5395
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007043] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1031050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 35,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007043,
+		Name = getI18NValue(180261798),
+		Skill = {
+			10310510,
+			10310530
+		},
+		SkillShow = {
+			10310510,
+			10310530
+		},
+		Attribute = {
+			1,
+			3776,
+			2,
+			698,
+			3,
+			150,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3776
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007044] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 35,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041020",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007044,
+		Name = getI18NValue(180261799),
+		Skill = {
+			10410210,
+			10410230
+		},
+		SkillShow = {
+			10410210,
+			10410230
+		},
+		Attribute = {
+			1,
+			5395,
+			2,
+			537,
+			3,
+			215,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			5395
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007045] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1031050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 35,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007045,
+		Name = getI18NValue(180261800),
+		Skill = {
+			10310510,
+			10310530
+		},
+		SkillShow = {
+			10310510,
+			10310530
+		},
+		Attribute = {
+			1,
+			3776,
+			2,
+			698,
+			3,
+			150,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			3776
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007051] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 40,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007051,
+		Name = getI18NValue(180261801),
+		Skill = {
+			10410110,
+			10410120
+		},
+		SkillShow = {
+			10410110,
+			10410120
+		},
+		Attribute = {
+			1,
+			6461,
+			2,
+			616,
+			3,
+			246,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6461
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007052] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 40,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007052,
+		Name = getI18NValue(180261802),
+		Skill = {
+			10410110,
+			10410120
+		},
+		SkillShow = {
+			10410110,
+			10410120
+		},
+		Attribute = {
+			1,
+			6461,
+			2,
+			616,
+			3,
+			246,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6461
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007053] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 40,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007053,
+		Name = getI18NValue(180261803),
+		Skill = {
+			10410110,
+			10410120
+		},
+		SkillShow = {
+			10410110,
+			10410120
+		},
+		Attribute = {
+			1,
+			6461,
+			2,
+			616,
+			3,
+			246,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6461
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007054] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 40,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007054,
+		Name = getI18NValue(180261804),
+		Skill = {
+			10410110,
+			10410120
+		},
+		SkillShow = {
+			10410110,
+			10410120
+		},
+		Attribute = {
+			1,
+			6461,
+			2,
+			616,
+			3,
+			246,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6461
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007055] = {
+		NormalSkill = 1000,
+		Speed = 92,
+		EntityID = 1041010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 40,
+		bust = "HeadImg_NormalMon_15",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1041010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007055,
+		Name = getI18NValue(180261805),
+		Skill = {
+			10410110,
+			10410120
+		},
+		SkillShow = {
+			10410110,
+			10410120
+		},
+		Attribute = {
+			1,
+			6461,
+			2,
+			616,
+			3,
+			246,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6461
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007061] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1031050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 45,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007061,
+		Name = getI18NValue(180261806),
+		Skill = {
+			10310510,
+			10310530
+		},
+		SkillShow = {
+			10310510,
+			10310530
+		},
+		Attribute = {
+			1,
+			6778,
+			2,
+			1127,
+			3,
+			243,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6778
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007062] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1031050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 45,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007062,
+		Name = getI18NValue(180261807),
+		Skill = {
+			10310510,
+			10310530
+		},
+		SkillShow = {
+			10310510,
+			10310530
+		},
+		Attribute = {
+			1,
+			6778,
+			2,
+			1127,
+			3,
+			243,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6778
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007063] = {
+		NormalSkill = 1000,
+		Speed = 90,
+		EntityID = 1031050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 45,
+		Description = "全身缠绕如同黑雾一般的怪虫，伴随着常世之门的打开而来到了现世",
+		bust = "HeadImg_NormalMon_16",
+		HeadIcon = "Monster_BattleHead_1031050",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007063,
+		Name = getI18NValue(180261808),
+		Skill = {
+			10310510,
+			10310530
+		},
+		SkillShow = {
+			10310510,
+			10310530
+		},
+		Attribute = {
+			1,
+			6778,
+			2,
+			1127,
+			3,
+			243,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6778
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007064] = {
+		NormalSkill = 1000,
+		Speed = 60,
+		EntityID = 1012060,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 45,
+		Description = "相马家神隐之子",
+		bust = "HeadImg_NormalMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1012060",
+		Profession = 3,
+		MonsterType = 2,
+		Id = 137007064,
+		Name = getI18NValue(180261809),
+		Skill = {
+			10120610,
+			10120620,
+			10120630
+		},
+		SkillShow = {
+			10120610,
+			10120620,
+			10120630
+		},
+		Attribute = {
+			1,
+			7117,
+			2,
+			1183,
+			3,
+			255,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7117
+		},
+		Tag = {
+			11010
+		}
+	},
+	[137007065] = {
+		Elements = 3,
+		Speed = 71,
+		EntityID = 1031060,
+		NormalSkill = 1000,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Level = 45,
+		Description = "淤祸身之龙分身",
+		bust = "HeadImg_BossMon_04",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1031060",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007065,
+		Name = getI18NValue(180261810),
+		Skill = {
+			10310610,
+			10310620
+		},
+		SkillShow = {
+			10310610,
+			10310620
+		},
+		Attribute = {
+			1,
+			6778,
+			2,
+			1127,
+			3,
+			243,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			6778
+		},
+		InitialBuff = {
+			1002,
+			-1,
+			100,
+			1003,
+			-1,
+			100,
+			1004,
+			-1,
+			100,
+			1005,
+			-1,
+			100,
+			1006,
+			-1,
+			100,
+			1007,
+			-1,
+			100,
+			1008,
+			-1,
+			100,
+			1009,
+			-1,
+			100
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007071] = {
+		NormalSkill = 1000,
+		Speed = 70,
+		EntityID = 1042030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 50,
+		Description = "如同雷电本身一般的元素聚合体，没有什么智能，但很喜欢人类制造的各种电气设备，通常来说没有什么威胁。",
+		bust = "HeadImg_NormalMon_14",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1042030",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007071,
+		Name = getI18NValue(180261811),
+		Skill = {
+			10420310,
+			10420320,
+			10420330
+		},
+		SkillShow = {
+			10420310,
+			10420320,
+			10420330
+		},
+		Attribute = {
+			1,
+			7786,
+			2,
+			1265,
+			3,
+			272,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7786
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007072] = {
+		NormalSkill = 1000,
+		Speed = 70,
+		EntityID = 1042030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 50,
+		Description = "如同雷电本身一般的元素聚合体，没有什么智能，但很喜欢人类制造的各种电气设备，通常来说没有什么威胁。",
+		bust = "HeadImg_NormalMon_14",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1042030",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007072,
+		Name = getI18NValue(180261812),
+		Skill = {
+			10420310,
+			10420320,
+			10420330
+		},
+		SkillShow = {
+			10420310,
+			10420320,
+			10420330
+		},
+		Attribute = {
+			1,
+			7786,
+			2,
+			1265,
+			3,
+			272,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7786
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007073] = {
+		NormalSkill = 1000,
+		Speed = 70,
+		EntityID = 1042030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 50,
+		Description = "如同雷电本身一般的元素聚合体，没有什么智能，但很喜欢人类制造的各种电气设备，通常来说没有什么威胁。",
+		bust = "HeadImg_NormalMon_14",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1042030",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007073,
+		Name = getI18NValue(180261813),
+		Skill = {
+			10420310,
+			10420320,
+			10420330
+		},
+		SkillShow = {
+			10420310,
+			10420320,
+			10420330
+		},
+		Attribute = {
+			1,
+			7786,
+			2,
+			1265,
+			3,
+			272,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7786
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007074] = {
+		NormalSkill = 1000,
+		Speed = 70,
+		EntityID = 1042030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 50,
+		Description = "如同雷电本身一般的元素聚合体，没有什么智能，但很喜欢人类制造的各种电气设备，通常来说没有什么威胁。",
+		bust = "HeadImg_NormalMon_14",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1042030",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007074,
+		Name = getI18NValue(180261814),
+		Skill = {
+			10420310,
+			10420320,
+			10420330
+		},
+		SkillShow = {
+			10420310,
+			10420320,
+			10420330
+		},
+		Attribute = {
+			1,
+			7786,
+			2,
+			1265,
+			3,
+			272,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7786
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007075] = {
+		NormalSkill = 1000,
+		Speed = 70,
+		EntityID = 1042030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 3,
+		Level = 50,
+		Description = "如同雷电本身一般的元素聚合体，没有什么智能，但很喜欢人类制造的各种电气设备，通常来说没有什么威胁。",
+		bust = "HeadImg_NormalMon_14",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1042030",
+		Profession = 3,
+		MonsterType = 1,
+		Id = 137007075,
+		Name = getI18NValue(180261815),
+		Skill = {
+			10420310,
+			10420320,
+			10420330
+		},
+		SkillShow = {
+			10420310,
+			10420320,
+			10420330
+		},
+		Attribute = {
+			1,
+			7786,
+			2,
+			1265,
+			3,
+			272,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			7786
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007081] = {
+		NormalSkill = 1000,
+		Speed = 73,
+		EntityID = 1042010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 55,
+		Description = "漂浮在大气中的风灵，随着风浮游在各地。群聚的风露有一定的危险引发一些特殊的气象现象，通常隐门会在风露大量聚集时，让专人去进行处理。",
+		bust = "HeadImg_NormalMon_13",
+		HeadIcon = "Monster_BattleHead_1042010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007081,
+		Name = getI18NValue(180261816),
+		Skill = {
+			10420110,
+			10420120,
+			10420130
+		},
+		SkillShow = {
+			10420110,
+			10420120,
+			10420130
+		},
+		Attribute = {
+			1,
+			14410,
+			2,
+			1187,
+			3,
+			475,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			14410
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007082] = {
+		NormalSkill = 1000,
+		Speed = 73,
+		EntityID = 1042010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 55,
+		Description = "漂浮在大气中的风灵，随着风浮游在各地。群聚的风露有一定的危险引发一些特殊的气象现象，通常隐门会在风露大量聚集时，让专人去进行处理。",
+		bust = "HeadImg_NormalMon_13",
+		HeadIcon = "Monster_BattleHead_1042010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007082,
+		Name = getI18NValue(180261817),
+		Skill = {
+			10420110,
+			10420120,
+			10420130
+		},
+		SkillShow = {
+			10420110,
+			10420120,
+			10420130
+		},
+		Attribute = {
+			1,
+			14410,
+			2,
+			1187,
+			3,
+			475,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			14410
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007083] = {
+		NormalSkill = 1000,
+		Speed = 73,
+		EntityID = 1042010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 55,
+		Description = "漂浮在大气中的风灵，随着风浮游在各地。群聚的风露有一定的危险引发一些特殊的气象现象，通常隐门会在风露大量聚集时，让专人去进行处理。",
+		bust = "HeadImg_NormalMon_13",
+		HeadIcon = "Monster_BattleHead_1042010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007083,
+		Name = getI18NValue(180261818),
+		Skill = {
+			10420110,
+			10420120,
+			10420130
+		},
+		SkillShow = {
+			10420110,
+			10420120,
+			10420130
+		},
+		Attribute = {
+			1,
+			14410,
+			2,
+			1187,
+			3,
+			475,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			14410
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007084] = {
+		NormalSkill = 1000,
+		Speed = 73,
+		EntityID = 1042010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 55,
+		Description = "漂浮在大气中的风灵，随着风浮游在各地。群聚的风露有一定的危险引发一些特殊的气象现象，通常隐门会在风露大量聚集时，让专人去进行处理。",
+		bust = "HeadImg_NormalMon_13",
+		HeadIcon = "Monster_BattleHead_1042010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007084,
+		Name = getI18NValue(180261819),
+		Skill = {
+			10420110,
+			10420120,
+			10420130
+		},
+		SkillShow = {
+			10420110,
+			10420120,
+			10420130
+		},
+		Attribute = {
+			1,
+			14410,
+			2,
+			1187,
+			3,
+			475,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			14410
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007085] = {
+		NormalSkill = 1000,
+		Speed = 73,
+		EntityID = 1042010,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 1,
+		Level = 55,
+		Description = "漂浮在大气中的风灵，随着风浮游在各地。群聚的风露有一定的危险引发一些特殊的气象现象，通常隐门会在风露大量聚集时，让专人去进行处理。",
+		bust = "HeadImg_NormalMon_13",
+		HeadIcon = "Monster_BattleHead_1042010",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007085,
+		Name = getI18NValue(180261820),
+		Skill = {
+			10420110,
+			10420120,
+			10420130
+		},
+		SkillShow = {
+			10420110,
+			10420120,
+			10420130
+		},
+		Attribute = {
+			1,
+			14410,
+			2,
+			1187,
+			3,
+			475,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			14410
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007091] = {
+		NormalSkill = 1000,
+		Speed = 62,
+		EntityID = 1031021,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 60,
+		Description = "被未知力量影响后异形化的精英怪物。当那不知满足的贪婪之口打破界限时，一切都是被品尝之物。",
+		bust = "HeadImg_EliteMon_09",
+		HeadIcon = "Monster_BattleHead_1031021",
+		Profession = 4,
+		MonsterType = 2,
+		Id = 137007091,
+		Name = getI18NValue(180261821),
+		Skill = {
+			10310250,
+			10310260,
+			10310270
+		},
+		SkillShow = {
+			10310250,
+			10310260,
+			10310270
+		},
+		Attribute = {
+			1,
+			15135,
+			2,
+			1490,
+			3,
+			488,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			15135
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007092] = {
+		NormalSkill = 1000,
+		Speed = 65,
+		EntityID = 1051031,
+		MonsterScale = 0.8,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 60,
+		Description = "平安院量产的精英替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_EliteMon_05",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1051031",
+		Profession = 1,
+		MonsterType = 2,
+		Id = 137007092,
+		Name = getI18NValue(180261822),
+		Skill = {
+			10510350,
+			10510370
+		},
+		SkillShow = {
+			10510350,
+			10510370
+		},
+		Attribute = {
+			1,
+			20180,
+			2,
+			1084,
+			3,
+			650,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20180
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007093] = {
+		NormalSkill = 1000,
+		Speed = 65,
+		EntityID = 1051031,
+		MonsterScale = 0.8,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 60,
+		Description = "平安院量产的精英替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_EliteMon_05",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1051031",
+		Profession = 1,
+		MonsterType = 2,
+		Id = 137007093,
+		Name = getI18NValue(180261823),
+		Skill = {
+			10510350,
+			10510370
+		},
+		SkillShow = {
+			10510350,
+			10510370
+		},
+		Attribute = {
+			1,
+			20180,
+			2,
+			1084,
+			3,
+			650,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			20180
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007094] = {
+		NormalSkill = 1000,
+		Elements = 4,
+		Speed = 60,
+		EntityID = 1042040,
+		ArmsType = 1,
+		MonsterScale = 1,
+		Level = 60,
+		bust = "HeadImg_NormalMon_15",
+		HeadIcon = "Monster_BattleHead_1042040",
+		Profession = 5,
+		MonsterType = 2,
+		Id = 137007094,
+		Name = getI18NValue(180261824),
+		Skill = {
+			10420410,
+			10420430
+		},
+		SkillShow = {
+			10420410,
+			10420430
+		},
+		Attribute = {
+			1,
+			16817,
+			2,
+			1355,
+			3,
+			542,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			16817
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007095] = {
+		NormalSkill = 1000,
+		Elements = 4,
+		Speed = 60,
+		EntityID = 1042040,
+		ArmsType = 1,
+		MonsterScale = 1,
+		Level = 60,
+		bust = "HeadImg_NormalMon_15",
+		HeadIcon = "Monster_BattleHead_1042040",
+		Profession = 5,
+		MonsterType = 2,
+		Id = 137007095,
+		Name = getI18NValue(180261825),
+		Skill = {
+			10420410,
+			10420430
+		},
+		SkillShow = {
+			10420410,
+			10420430
+		},
+		Attribute = {
+			1,
+			16817,
+			2,
+			1355,
+			3,
+			542,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			16817
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007101] = {
+		NormalSkill = 1000,
+		Speed = 58,
+		EntityID = 1051030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 65,
+		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_NormalMon_05",
+		HeadIcon = "Monster_BattleHead_1051030",
+		Profession = 1,
+		MonsterType = 1,
+		Id = 137007101,
+		Name = getI18NValue(180261826),
+		Skill = {
+			10510310,
+			10510330
+		},
+		SkillShow = {
+			10510310,
+			10510330
+		},
+		Attribute = {
+			1,
+			31538,
+			2,
+			1337,
+			3,
+			802,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			31538
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007102] = {
+		NormalSkill = 1000,
+		Speed = 58,
+		EntityID = 1051030,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 65,
+		Description = "平安院量产的替身傀儡，谁也无法知晓，在那赤红的狂面下，究竟是什么使它不动如山。",
+		bust = "HeadImg_NormalMon_05",
+		HeadIcon = "Monster_BattleHead_1051030",
+		Profession = 1,
+		MonsterType = 1,
+		Id = 137007102,
+		Name = getI18NValue(180261827),
+		Skill = {
+			10510310,
+			10510330
+		},
+		SkillShow = {
+			10510310,
+			10510330
+		},
+		Attribute = {
+			1,
+			31538,
+			2,
+			1337,
+			3,
+			802,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			31538
+		},
+		Tag = {
+			15010
+		}
+	},
+	[137007103] = {
+		NormalSkill = 1000,
+		Speed = 95,
+		EntityID = 1012050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 65,
+		Description = "相马家神隐之子",
+		bust = "HeadImg_NormalMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1012050",
+		Profession = 5,
+		MonsterType = 2,
+		Id = 137007103,
+		Name = getI18NValue(180261828),
+		Skill = {
+			10120510,
+			10120520,
+			10120521,
+			10120530,
+			10120540
+		},
+		SkillShow = {
+			10120510,
+			10120520,
+			10120530,
+			10120540
+		},
+		Attribute = {
+			1,
+			27595,
+			2,
+			1755,
+			3,
+			702,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			27595
+		},
+		Tag = {
+			11010
+		}
+	},
+	[137007104] = {
+		NormalSkill = 1000,
+		Speed = 62,
+		EntityID = 1031021,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 65,
+		Description = "被未知力量影响后异形化的精英怪物。当那不知满足的贪婪之口打破界限时，一切都是被品尝之物。",
+		bust = "HeadImg_EliteMon_09",
+		HeadIcon = "Monster_BattleHead_1031021",
+		Profession = 4,
+		MonsterType = 2,
+		Id = 137007104,
+		Name = getI18NValue(180261829),
+		Skill = {
+			10310250,
+			10310260,
+			10310270
+		},
+		SkillShow = {
+			10310250,
+			10310260,
+			10310270
+		},
+		Attribute = {
+			1,
+			24836,
+			2,
+			1931,
+			3,
+			632,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			24836
+		},
+		Tag = {
+			13010
+		}
+	},
+	[137007111] = {
+		NormalSkill = 1000,
+		Speed = 95,
+		EntityID = 1012050,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 70,
+		Description = "相马家神隐之子",
+		bust = "HeadImg_NormalMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1012050",
+		Profession = 5,
+		MonsterType = 2,
+		Id = 137007111,
+		Name = getI18NValue(180261830),
+		Skill = {
+			10120510,
+			10120520,
+			10120521,
+			10120530,
+			10120540
+		},
+		SkillShow = {
+			10120510,
+			10120520,
+			10120530,
+			10120540
+		},
+		Attribute = {
+			1,
+			30162,
+			2,
+			1878,
+			3,
+			751,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			30162
+		},
+		Tag = {
+			11010
+		}
+	},
+	[137007112] = {
+		NormalSkill = 1000,
+		Speed = 74,
+		EntityID = 1042020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 70,
+		Description = "在穗秋国的山脉中经常能目睹这种火系灵的身影，偶尔也会出现在温泉或者干旱的地方。和他们给人的印象不同，反倒是一种温和而且喜爱和平的灵。",
+		bust = "HeadImg_NormalMon_15",
+		HeadIcon = "Monster_BattleHead_1042020",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007112,
+		Name = getI18NValue(180261831),
+		Skill = {
+			10420210,
+			10420220,
+			10420230
+		},
+		SkillShow = {
+			10420210,
+			10420220,
+			10420230
+		},
+		Attribute = {
+			1,
+			28726,
+			2,
+			1789,
+			3,
+			715,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			28726
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007113] = {
+		NormalSkill = 1000,
+		Speed = 74,
+		EntityID = 1042020,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 2,
+		Level = 70,
+		Description = "在穗秋国的山脉中经常能目睹这种火系灵的身影，偶尔也会出现在温泉或者干旱的地方。和他们给人的印象不同，反倒是一种温和而且喜爱和平的灵。",
+		bust = "HeadImg_NormalMon_15",
+		HeadIcon = "Monster_BattleHead_1042020",
+		Profession = 5,
+		MonsterType = 1,
+		Id = 137007113,
+		Name = getI18NValue(180261832),
+		Skill = {
+			10420210,
+			10420220,
+			10420230
+		},
+		SkillShow = {
+			10420210,
+			10420220,
+			10420230
+		},
+		Attribute = {
+			1,
+			28726,
+			2,
+			1789,
+			3,
+			715,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			28726
+		},
+		Tag = {
+			14010
+		}
+	},
+	[137007114] = {
+		NormalSkill = 1000,
+		Speed = 63,
+		EntityID = 1032040,
+		MonsterScale = 1,
+		ArmsType = 1,
+		Elements = 4,
+		Level = 70,
+		bust = "HeadImg_BossMon_02",
+		IsEnergyVisible = false,
+		HeadIcon = "Monster_BattleHead_1032040",
+		Profession = 4,
+		MonsterType = 3,
+		Id = 137007114,
+		Name = getI18NValue(180261833),
+		Skill = {
+			10320410,
+			10320420,
+			10320430,
+			10320440
+		},
+		SkillShow = {
+			10320410,
+			10320420,
+			10320430,
+			10320440
+		},
+		Attribute = {
+			1,
+			28439,
+			2,
+			2164,
+			3,
+			708,
+			61,
+			0.03,
+			81,
+			0.5,
+			8,
+			28439
+		},
+		Tag = {
+			13010
 		}
 	},
 	[137010101] = {

@@ -23,7 +23,19 @@ function BattlePODData:__InitBuffsData(buffs)
 	self.buffsData = {}
 
 	for _, _buffData in pairs(buffs) do
-		local buffData = BattleBuffData.New(_buffData.Cid, _buffData.Stack, _buffData.LeftTime)
+		local ext = ""
+
+		ForPairs(_buffData.CustomParams, function(k, _argValue)
+			local arg = ValueToFloat(_argValue, 3, true)
+
+			if not LuaUtility.StrIsNullOrEmpty(ext) then
+				ext = ext .. ","
+			end
+
+			ext = ext .. arg
+		end)
+
+		local buffData = BattleBuffData.New(_buffData.Cid, _buffData.Stack, _buffData.LeftTime, ext)
 
 		self.buffsData[buffData.cid] = buffData
 	end

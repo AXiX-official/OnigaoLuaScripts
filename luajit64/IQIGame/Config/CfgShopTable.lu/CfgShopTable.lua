@@ -235,7 +235,7 @@ local CfgShopTable = {
 	},
 	[50102010] = {
 		CheckToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_125.png",
-		MoneyType = 13,
+		MoneyType = 403,
 		OpenType = 1,
 		LeftBottomBG = "/DataResource/UIResource/ShopCommonImg/LeftBottom_SpecialImg_01.png",
 		Open = 2,

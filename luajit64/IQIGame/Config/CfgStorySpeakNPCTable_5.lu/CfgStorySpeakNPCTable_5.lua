@@ -28759,6 +28759,7 @@ local CfgStorySpeakNPCTable_5 = {
 	[203040428] = {
 		SpeakNPC = 201,
 		Id = 203040428,
+		FacialEffect = 8,
 		NPCName = getI18NValue(180088446),
 		SpeakContent = getI18NValue(180088447),
 		AnimationWhenNext = {

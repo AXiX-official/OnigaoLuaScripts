@@ -788,7 +788,7 @@ local CfgPlotTable = {
 		Save = true,
 		Type = 1,
 		Id = 107008,
-		BattleTypeID = 1070800,
+		BattleTypeID = 1070801,
 		Name = getI18NValue(180260261),
 		Desc = getI18NValue(180260260)
 	},

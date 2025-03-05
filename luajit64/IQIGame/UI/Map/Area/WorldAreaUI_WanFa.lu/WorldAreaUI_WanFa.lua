@@ -110,8 +110,10 @@ function ElemView:Show()
 		self.challengeWorldBossActivityOpen = ChallengeWorldBossModule.IsActivityOpen()
 
 		self.ChallengeWorldBossLockRoot.gameObject:SetActive(not self.challengeWorldBossActivityOpen)
+		self.ChallengeWorldBossRestRoot.gameObject:SetActive(not self.challengeWorldBossActivityOpen)
 	else
 		self.ChallengeWorldBossLockRoot.gameObject:SetActive(true)
+		self.ChallengeWorldBossRestRoot.gameObject:SetActive(false)
 	end
 end
 

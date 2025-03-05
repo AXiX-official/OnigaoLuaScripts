@@ -2113,6 +2113,54 @@ local CfgSkillRankTable = {
 			3344003
 		}
 	},
+	[8012401] = {
+		LOOK = true,
+		Skill = 801240,
+		NeedSkillLv = 20,
+		Id = 8012401,
+		StrengLv = 1,
+		BreakCost = {
+			15021,
+			15,
+			4,
+			10000
+		},
+		StrengthenId = {
+			3343001
+		}
+	},
+	[8012402] = {
+		LOOK = true,
+		Skill = 801240,
+		NeedSkillLv = 40,
+		Id = 8012402,
+		StrengLv = 2,
+		BreakCost = {
+			15021,
+			45,
+			4,
+			20000
+		},
+		StrengthenId = {
+			3343002
+		}
+	},
+	[8012403] = {
+		LOOK = true,
+		Skill = 801240,
+		NeedSkillLv = 60,
+		Id = 8012403,
+		StrengLv = 3,
+		BreakCost = {
+			15021,
+			90,
+			4,
+			40000
+		},
+		StrengthenId = {
+			3343003
+		}
+	},
 	[8020101] = {
 		LOOK = true,
 		Skill = 802010,

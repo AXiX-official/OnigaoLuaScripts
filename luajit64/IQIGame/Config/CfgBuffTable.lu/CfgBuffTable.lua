@@ -66166,12 +66166,12 @@ local CfgBuffTable = {
 			{
 				"-1",
 				"1",
-				"10810"
+				"20810"
 			},
 			{
 				"-1",
 				"1",
-				"10000"
+				"10002"
 			},
 			{},
 			{},
@@ -66230,7 +66230,7 @@ local CfgBuffTable = {
 			{
 				"-1",
 				"1",
-				"10810"
+				"20810"
 			},
 			{},
 			{},
@@ -78210,7 +78210,7 @@ local CfgBuffTable = {
 		},
 		DynamicArgParams = {
 			{
-				"2",
+				"1",
 				"1",
 				"10242002"
 			},
@@ -92847,14 +92847,15 @@ local CfgBuffTable = {
 		StackMaxNumber = 1,
 		DebuffType = 1,
 		TriggerProbability = 1,
+		IsNeedText = false,
 		StackType = 5,
 		IsTipsVisible = true,
 		Icon = "Buff_Def_Up",
 		BuffTime = 2,
 		IsVisible = true,
+		TriggerType = 103,
 		DeathEffective = false,
 		Id = 80004000,
-		IsNeedText = false,
 		Name = getI18NValue(180241248),
 		Describe = getI18NValue(180241247),
 		RemoveTrigger = {
@@ -92865,6 +92866,9 @@ local CfgBuffTable = {
 		},
 		BuffTag = {
 			10
+		},
+		ShowType = {
+			1
 		},
 		EffectType = {
 			301,
@@ -99447,6 +99451,130 @@ local CfgBuffTable = {
 				"68",
 				"1",
 				"10001",
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[80124000] = {
+		TriggerType = 305,
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 3,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		BuffTime = -1,
+		IsVisible = false,
+		DeathEffective = false,
+		Id = 80124000,
+		TriggerParams = {
+			1,
+			2,
+			-1,
+			-1,
+			-1
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			303,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"1",
+				"10101",
+				"1"
+			},
+			{
+				"1",
+				"21",
+				"80124001",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[80124001] = {
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		TriggerProbability = 1,
+		StartEffectPoint = 10001,
+		StartEffectID = 80031,
+		StackType = 5,
+		IsTipsVisible = true,
+		StartBuffSound = 20000004,
+		Icon = "Buff_Blood",
+		BuffTime = 1,
+		IsVisible = true,
+		DeathEffective = false,
+		Id = 80124001,
+		BuffEffectType = 4,
+		Name = getI18NValue(180261764),
+		Describe = getI18NValue(180261763),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		BuffTag = {
+			11
+		},
+		EffectType = {
+			301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"11",
+				"1",
+				"10002",
 				"0"
 			},
 			{},

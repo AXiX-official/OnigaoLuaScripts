@@ -819,7 +819,8 @@ local CfgSkillDetailTable = {
 			1
 		},
 		CustomParams = {
-			0.1
+			0.12,
+			0.3
 		}
 	},
 	[100240] = {
@@ -9382,6 +9383,34 @@ local CfgSkillDetailTable = {
 		},
 		CustomParams = {
 			0.05
+		}
+	},
+	[801240] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 801240,
+		FunctionID = 600,
+		BuffOrder = {
+			0
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			80114000
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		},
+		CustomParams = {
+			0.05,
+			0.1
 		}
 	},
 	[802010] = {

@@ -1739,6 +1739,26 @@ local CfgWorldRoomSceneTable = {
 		Id = 30601104,
 		RoomId = 111005,
 		Name = getI18NValue(180204455)
+	},
+	[40100100] = {
+		CameraPrefab = "Assets/03_Prefabs/Home/Scene_02_2_Woods/SceneVirtualCamera.prefab",
+		RenderConfigNight = "Story/02_2_Woods_Afternoon_SRCStory",
+		BGMNight = 11000030,
+		EnvironmentalSoundNight = 23002022,
+		SceneFile = "Story/02_2_Woods_Afternoon_PrefabStory",
+		MovePrefabNight = "Assets/03_Prefabs/Home/MoveConfig/MoveConfig_Woods_003.prefab",
+		MountPointPrefabNight = "Assets/03_Prefabs/Home/Scene_02_2_Woods/HomeMountPoint.prefab",
+		SceneFileNight = "Story/02_2_Woods_Afternoon_PrefabStory",
+		BGM = 11000030,
+		MountPointPrefab = "Assets/03_Prefabs/Home/Scene_02_2_Woods/HomeMountPoint.prefab",
+		MovePrefab = "Assets/03_Prefabs/Home/MoveConfig/MoveConfig_Woods_003.prefab",
+		PreviewImage = "Assets/05_Images/UI/HomeLand/HomeLandSceneImage/pic-07.png",
+		EnvironmentalSound = 23002003,
+		CameraPrefabNight = "Assets/03_Prefabs/Home/Scene_02_2_Woods/SceneVirtualCamera.prefab",
+		RenderConfig = "Story/02_2_Woods_Afternoon_SRCStory",
+		Id = 40100100,
+		RoomId = 201001,
+		Name = getI18NValue(180261620)
 	}
 }
 

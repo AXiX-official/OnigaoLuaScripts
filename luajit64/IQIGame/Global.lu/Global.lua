@@ -1134,3 +1134,24 @@ function NumberInRange(value, minValue, includeMin, maxValue, includeMax)
 
 	return true
 end
+
+function ValueToFloat(value, targetPrecision, exZero)
+	local num = TryToNumber(value, 0)
+
+	if num == 0 then
+		return 0
+	end
+
+	local factor = 10^targetPrecision
+
+	num = math.floor(num * factor + 0.5) / factor
+
+	local formatString = string.format("%%.%d", targetPrecision)
+	local numStr = tostring(num, formatString)
+
+	if exZero then
+		numStr = string.gsub(numStr, "^%.%d+$", "")
+	end
+
+	return TryToNumber(numStr, 0)
+end

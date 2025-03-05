@@ -222,6 +222,7 @@ local SplitConfigInfo = {
 	CfgRoleTable = false,
 	CfgCrusadeDupChapterTable = false,
 	CfgHeroSkinDisplayActionTable = false,
+	CfgWorldBossSeasonTable = false,
 	CfgRedDotTable = false
 }
 
