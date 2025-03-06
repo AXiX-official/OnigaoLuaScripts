@@ -55555,16 +55555,16 @@ local CfgMonsterTable = {
 	},
 	[135013601] = {
 		EntityID = 3023010,
-		NormalSkill = 1000,
 		bust = "HeadImg_BossMon_04",
+		NormalSkill = 1000,
 		MonsterScale = 1,
 		ArmsType = 1,
-		IsNotEnableGloablAlpha = true,
 		HeadIcon = "Monster_BattleHead_3023010",
 		Profession = 3,
 		MonsterType = 4,
 		Id = 135013601,
 		Level = 36,
+		IsNotEnableGloablAlpha = true,
 		Name = getI18NValue(180261029),
 		Skill = {
 			30001,
@@ -55593,6 +55593,14 @@ local CfgMonsterTable = {
 			0.5,
 			8,
 			323051
+		},
+		InitialBuff = {
+			1009,
+			-1,
+			100,
+			11004,
+			-1,
+			1
 		}
 	},
 	[135013602] = {
@@ -57645,7 +57653,10 @@ local CfgMonsterTable = {
 		InitialBuff = {
 			1009,
 			-1,
-			100
+			100,
+			11004,
+			-1,
+			1
 		},
 		Tag = {
 			21010
@@ -59661,7 +59672,10 @@ local CfgMonsterTable = {
 		InitialBuff = {
 			1009,
 			-1,
-			100
+			100,
+			11004,
+			-1,
+			1
 		},
 		Tag = {
 			21010
@@ -61641,7 +61655,10 @@ local CfgMonsterTable = {
 		InitialBuff = {
 			1009,
 			-1,
-			100
+			100,
+			11004,
+			-1,
+			1
 		},
 		Tag = {
 			21010

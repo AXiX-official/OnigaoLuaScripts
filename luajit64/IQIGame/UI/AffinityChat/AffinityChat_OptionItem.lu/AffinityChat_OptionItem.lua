@@ -55,6 +55,14 @@ function AffinityChat_OptionItem:SetSelect(v)
 	LuaUtility.SetGameObjectShow(self.selectState, v)
 end
 
+function AffinityChat_OptionItem:SetInteractable(interactable)
+	if self.button == nil then
+		return
+	end
+
+	self.button.interactable = interactable
+end
+
 function AffinityChat_OptionItem:OnDestroy()
 	self:RemoveListener()
 	LuaUtility.UnLoadAsset(self)
@@ -68,6 +76,7 @@ function AffinityChat_OptionItem:Refresh(Data)
 
 	self:SetSelect(false)
 	LuaUtility.SetText(self.chatText, self.data.Context)
+	self:SetInteractable(true)
 end
 
 return AffinityChat_OptionItem

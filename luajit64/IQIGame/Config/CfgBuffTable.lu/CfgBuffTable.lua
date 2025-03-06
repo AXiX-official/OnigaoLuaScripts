@@ -31350,6 +31350,57 @@ local CfgBuffTable = {
 			{}
 		}
 	},
+	[11004] = {
+		DebuffType = 3,
+		StackMaxNumber = 1,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = true,
+		Icon = "Buff_Immune_Normal",
+		BuffTime = -1,
+		IsVisible = true,
+		TriggerType = 319,
+		DeathEffective = false,
+		Id = 11004,
+		IsNeedText = false,
+		Name = getI18NValue(180262057),
+		Describe = getI18NValue(180262056),
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			303,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"0",
+				"3",
+				"701",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[20003] = {
 		DeathEffective = false,
 		IsNeedText = true,

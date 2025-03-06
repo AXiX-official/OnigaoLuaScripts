@@ -672,6 +672,7 @@ function m:ShowOptions(optionArray)
 end
 
 function m:OnOptionClick(view)
+	self:__DisableOptionItemButton()
 	coroutine.start(function()
 		view:SetSelect(true)
 
@@ -682,6 +683,12 @@ function m:OnOptionClick(view)
 		AffinityModule.EntryOption(view.data.EntryID, view.data.Sort)
 
 		self.isAnimate = false
+	end)
+end
+
+function m:__DisableOptionItemButton()
+	ForPairs(self.optionViewList, function(_, _item)
+		_item:SetInteractable(false)
 	end)
 end
 

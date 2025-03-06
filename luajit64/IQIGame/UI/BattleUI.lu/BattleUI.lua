@@ -652,7 +652,7 @@ function BattleUI:OnShowBattleDialogComplete(dialogCid)
 end
 
 function BattleUI:OnHideRoleSkillSelectView()
-	self.apView:Hide()
+	self.apView:Show()
 	self.battleSkillView:Hide()
 	self.battleTeamActionsView:ClearSelect()
 end
@@ -699,7 +699,7 @@ function BattleUI:OnBattleUnitOrderComplete()
 	self.battleTeamActionsView:Close()
 	self.battleSkillView:Hide()
 	self.skillPreviewView:Hide()
-	self.apView:Hide()
+	self.apView:Show()
 end
 
 function BattleUI:OnBattleUnitJoinFight(battleUnitID)
