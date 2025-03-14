@@ -510,3 +510,19 @@ function LotteryModule.SendChooseShowGroupData(showGroup, recordCid)
 
 	net_draw.chooseShowGroup(showGroup, recordCid)
 end
+
+function LotteryModule.GetGroupCardJackpotID(groupCid, realRecordCid)
+	local jackpotCid = LotteryModule.GetShowGroupRecordData(groupCid)
+
+	if realRecordCid then
+		return jackpotCid
+	end
+
+	if jackpotCid <= 0 then
+		local cardGroupCfg = CfgCardGroupTable[groupCid]
+
+		jackpotCid = cardGroupCfg.CardJackpotID[1]
+	end
+
+	return jackpotCid
+end

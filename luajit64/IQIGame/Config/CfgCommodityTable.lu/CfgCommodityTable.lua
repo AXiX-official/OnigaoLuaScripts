@@ -4572,7 +4572,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				2500
+				2400
 			},
 			{},
 			{},
@@ -4595,7 +4595,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				1500
+				1000
 			},
 			{},
 			{},
@@ -4618,7 +4618,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				1200
+				800
 			},
 			{},
 			{},
@@ -4641,7 +4641,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				1000
+				600
 			},
 			{},
 			{},
@@ -4664,7 +4664,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				100
+				50
 			},
 			{},
 			{},
@@ -4687,7 +4687,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				80
+				60
 			},
 			{},
 			{},
@@ -4710,7 +4710,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				50
+				30
 			},
 			{},
 			{},
@@ -4733,7 +4733,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				20
+				10
 			},
 			{},
 			{},
@@ -4756,7 +4756,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				140
+				100
 			},
 			{},
 			{},
@@ -4779,7 +4779,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				120
+				80
 			},
 			{},
 			{},
@@ -4802,7 +4802,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				60
+				40
 			},
 			{},
 			{},
@@ -4825,7 +4825,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				160
+				100
 			},
 			{},
 			{},
@@ -4848,7 +4848,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				202,
-				200
+				130
 			},
 			{},
 			{},

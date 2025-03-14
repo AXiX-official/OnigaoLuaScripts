@@ -158,13 +158,7 @@ function controller:RefreshMustGuaranteeText()
 	local cardPoolCid = self.cardPoolCid
 
 	if self.isGroupCid then
-		cardPoolCid = LotteryModule.GetShowGroupRecordData(self.cardPoolCid)
-	end
-
-	if cardPoolCid == 0 then
-		self.mustGuaranteeText:GetComponent("Text").text = 80
-
-		return
+		cardPoolCid = LotteryModule.GetGroupCardJackpotID(self.cardPoolCid, false)
 	end
 
 	if self.mustGuaranteeText == nil then
@@ -174,6 +168,12 @@ function controller:RefreshMustGuaranteeText()
 	local cardJackpotData = CfgCardJackpotTable[cardPoolCid]
 	local cardJackpotGroupData = CfgCardJackpotGroupTable[cardJackpotData.CardGroup]
 	local poolData = LotteryModule.GetPoolDataByType(cardPoolCid)
+
+	if poolData == nil then
+		poolData = {}
+		poolData.mustGuarantee = 80
+	end
+
 	local nextMustGuarantee = cardJackpotGroupData.MustGuarantee - poolData.mustGuarantee
 
 	self.mustGuaranteeText:GetComponent("Text").text = tostring(nextMustGuarantee)
