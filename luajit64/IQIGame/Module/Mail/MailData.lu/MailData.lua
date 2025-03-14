@@ -21,6 +21,5 @@ function MailData:Init(mailPOD)
 		self.title = mailPOD.title
 		self.sender = CfgMailTable[CfgDiscreteDataTable[46].Data[1]].Sender
 		self.content = string.gsub(mailPOD.content, "\\n", "\n")
-		self.content = string.gsub(mailPOD.content, "\n", "")
 	end
 end
