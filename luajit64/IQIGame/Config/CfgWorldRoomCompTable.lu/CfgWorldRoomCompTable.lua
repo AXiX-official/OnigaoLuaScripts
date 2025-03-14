@@ -3275,6 +3275,18 @@ local CfgWorldRoomCompTable = {
 			0
 		}
 	},
+	[40060104] = {
+		ShowType = 1,
+		SkinCid = 30502003,
+		Type = 3,
+		Id = 40060104,
+		RoomId = 101004,
+		Location = {
+			-3.2,
+			0,
+			-0.75
+		}
+	},
 	[40060105] = {
 		ShowType = 1,
 		SkinCid = 30502003,
@@ -3285,6 +3297,54 @@ local CfgWorldRoomCompTable = {
 			-8,
 			0,
 			-7.2
+		}
+	},
+	[40060107] = {
+		ShowType = 1,
+		SkinCid = 30502003,
+		Type = 3,
+		Id = 40060107,
+		RoomId = 101007,
+		Location = {
+			-7.5,
+			0,
+			0
+		}
+	},
+	[40060108] = {
+		ShowType = 1,
+		SkinCid = 30502001,
+		Type = 3,
+		Id = 40060108,
+		RoomId = 101008,
+		Location = {
+			-7.85,
+			0,
+			-2.7
+		}
+	},
+	[40060109] = {
+		ShowType = 1,
+		SkinCid = 30502003,
+		Type = 3,
+		Id = 40060109,
+		RoomId = 101009,
+		Location = {
+			-8,
+			0,
+			-1
+		}
+	},
+	[40060110] = {
+		ShowType = 1,
+		SkinCid = 30502003,
+		Type = 3,
+		Id = 40060110,
+		RoomId = 101010,
+		Location = {
+			-5.6,
+			0,
+			-4
 		}
 	},
 	[10010201] = {

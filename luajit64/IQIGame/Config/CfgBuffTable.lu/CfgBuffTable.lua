@@ -31363,8 +31363,8 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 11004,
 		IsNeedText = false,
-		Name = getI18NValue(180262057),
-		Describe = getI18NValue(180262056),
+		Name = getI18NValue(180262050),
+		Describe = getI18NValue(180262049),
 		TriggerMaxNumber = {
 			-1
 		},
@@ -31389,6 +31389,282 @@ local CfgBuffTable = {
 				"3",
 				"701",
 				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[11005] = {
+		StackMaxNumber = 1,
+		DebuffType = 3,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = true,
+		Icon = "Buff_Immune_Normal",
+		BuffTime = -1,
+		IsVisible = true,
+		TriggerType = 322,
+		DeathEffective = false,
+		Id = 11005,
+		IsNeedText = false,
+		Name = getI18NValue(180262879),
+		Describe = getI18NValue(180262878),
+		TriggerParams = {
+			1,
+			-1,
+			1,
+			-1,
+			-1,
+			0
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"11006",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[11006] = {
+		DebuffType = 1,
+		StackMaxNumber = 1,
+		IsNeedText = false,
+		IsTipsVisible = false,
+		BuffTime = -1,
+		IsVisible = false,
+		StackType = 5,
+		DeathEffective = true,
+		Id = 11006,
+		Name = getI18NValue(180262881),
+		Describe = getI18NValue(180262880),
+		RemoveTrigger = {
+			101,
+			302
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"80",
+				"3",
+				"-0.2",
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[11007] = {
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		BuffTime = -1,
+		IsVisible = false,
+		TriggerType = 103,
+		DeathEffective = true,
+		Id = 11007,
+		Name = getI18NValue(180262883),
+		Describe = getI18NValue(180262882),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"11008",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[11008] = {
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		BuffTime = -1,
+		IsVisible = false,
+		TriggerType = 103,
+		DeathEffective = true,
+		Id = 11008,
+		Name = getI18NValue(180262885),
+		Describe = getI18NValue(180262884),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			306,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"-1",
+				"1",
+				"20810"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[12001] = {
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		BuffTime = -1,
+		IsVisible = false,
+		DeathEffective = false,
+		Id = 12001,
+		Name = getI18NValue(180262851),
+		Describe = getI18NValue(180262850),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		BuffTag = {
+			152,
+			11
+		},
+		EffectType = {
+			301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"80",
+				"3",
+				"0.15",
+				"0"
 			},
 			{},
 			{},
@@ -70107,6 +70383,135 @@ local CfgBuffTable = {
 			{}
 		}
 	},
+	[10102003] = {
+		DebuffType = 3,
+		StackMaxNumber = 1,
+		IsNeedText = false,
+		TriggerProbability = 1,
+		BuffTime = -1,
+		TriggerType = 306,
+		StackType = 5,
+		DeathEffective = false,
+		Id = 10102003,
+		TriggerParams = {
+			-1,
+			2,
+			-1,
+			-1,
+			-1,
+			0
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		ShowType = {
+			1
+		},
+		EffectType = {
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"0",
+				"96",
+				"10102004",
+				"3",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10102004] = {
+		StackMaxNumber = 3,
+		IsNeedText = false,
+		TriggerProbability = 1,
+		DebuffType = 2,
+		StackType = 3,
+		IsTipsVisible = true,
+		Icon = "Debuff_Curse",
+		BuffTime = -1,
+		IsVisible = true,
+		TriggerType = 302,
+		Element = 2,
+		DeathEffective = false,
+		Id = 10102004,
+		BuffEffectType = 4,
+		Name = getI18NValue(180262759),
+		Describe = getI18NValue(180262758),
+		TriggerParams = {
+			1,
+			0
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		BuffTag = {
+			40,
+			41
+		},
+		ShowType = {
+			1,
+			2
+		},
+		EffectType = {
+			303,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"0",
+				"1",
+				"101002",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[10103000] = {
 		TriggerType = 332,
 		IsNeedText = false,
@@ -71340,8 +71745,8 @@ local CfgBuffTable = {
 			0
 		},
 		EffectType = {
-			303,
 			101,
+			0,
 			0,
 			0,
 			0,
@@ -71354,17 +71759,12 @@ local CfgBuffTable = {
 		EffectParam = {
 			{
 				"1",
-				"1",
-				"711",
-				"0.15"
-			},
-			{
-				"1",
 				"21",
-				"10132002",
+				"10132004",
 				"0",
 				"1"
 			},
+			{},
 			{},
 			{},
 			{},
@@ -71554,6 +71954,116 @@ local CfgBuffTable = {
 				"1",
 				"10202",
 				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10132004] = {
+		TriggerType = 103,
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 2,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		BuffTime = 1,
+		IsVisible = false,
+		DeathEffective = false,
+		Id = 10132004,
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			1
+		},
+		Properties = {
+			0
+		},
+		BuffTag = {
+			1013
+		},
+		EffectType = {
+			303,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"1",
+				"711",
+				"0.15"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10132005] = {
+		TriggerType = 103,
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 3,
+		TriggerProbability = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		BuffTime = -1,
+		IsVisible = false,
+		DeathEffective = false,
+		Id = 10132005,
+		TriggerParams = {
+			5,
+			1013
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		Properties = {
+			0
+		},
+		EffectType = {
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"10132002",
+				"0",
+				"1"
 			},
 			{},
 			{},
@@ -79583,210 +80093,24 @@ local CfgBuffTable = {
 			1
 		}
 	},
-	[10271000] = {
-		StackMaxNumber = 1,
-		DebuffType = 2,
-		TriggerProbability = 1,
-		StackType = 5,
-		Type = 102710,
-		IsTipsVisible = true,
-		StartBuffSound = 20000004,
-		Icon = "Debuff_Atk_Down",
-		BuffTime = 2,
-		IsVisible = false,
+	[10271100] = {
 		DeathEffective = false,
-		Id = 10271000,
-		IsNeedText = true,
-		Name = getI18NValue(180260437),
-		Describe = getI18NValue(180260436),
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		BuffTag = {
-			1,
-			21,
-			219
-		},
-		ShowType = {
-			1
-		},
-		EffectType = {
-			301,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"2",
-				"1",
-				"10201",
-				"0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10271001] = {
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		IsTipsVisible = false,
+		TriggerProbability = 1,
+		BuffTime = 1,
+		IsVisible = false,
 		TriggerType = 103,
-		StackMaxNumber = 1,
-		DeathEffective = false,
-		TriggerProbability = 1,
 		StackType = 5,
-		IsTipsVisible = false,
-		DynamicRPNExp = "A1<A2",
-		BuffTime = 1,
-		IsVisible = false,
 		DebuffType = 3,
-		Id = 10271001,
-		IsNeedText = false,
-		TriggerMaxNumber = {
-			1
-		},
-		DynamicArgType = {
-			103,
-			332,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"10271002"
-			},
-			{
-				"3"
-			},
-			{},
-			{}
-		},
-		EffectType = {
-			310,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"21",
-				"10271002",
-				"0",
-				"10271000"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10271002] = {
-		IsNeedText = false,
-		StackMaxNumber = 10,
-		DebuffType = 2,
-		TriggerProbability = 1,
-		IsTipsVisible = true,
-		Icon = "Debuff_Poison",
-		BuffTime = 3,
-		IsVisible = false,
-		TriggerType = 302,
-		Element = 2,
-		DeathEffective = false,
-		Id = 10271002,
-		Name = getI18NValue(180260439),
-		Describe = getI18NValue(180260438),
-		TriggerParams = {
-			1,
-			1
-		},
+		Id = 10271100,
 		RemoveTrigger = {
 			101
 		},
 		TriggerMaxNumber = {
 			-1
 		},
-		BuffTag = {
-			1,
-			21,
-			40,
-			282
-		},
-		EffectType = {
-			303,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"0",
-				"1",
-				"10271002",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10271003] = {
-		DeathEffective = false,
-		BuffTime = 1,
-		StackMaxNumber = 1,
-		IsTipsVisible = false,
-		TriggerProbability = 1,
-		IsVisible = false,
-		TriggerType = 304,
-		StackType = 5,
-		DebuffType = 3,
-		Id = 10271003,
-		IsNeedText = false,
-		TriggerParams = {
-			1
-		},
-		TriggerMaxNumber = {
-			1
-		},
 		EffectType = {
 			103,
 			0,
@@ -79803,71 +80127,7 @@ local CfgBuffTable = {
 			{
 				"21",
 				"1",
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10272000] = {
-		DeathEffective = false,
-		StackMaxNumber = 1,
-		IsNeedText = false,
-		TriggerProbability = 1,
-		StackType = 5,
-		IsTipsVisible = false,
-		DynamicRPNExp = "A1==2",
-		BuffTime = 1,
-		IsVisible = false,
-		TriggerType = 312,
-		DebuffType = 3,
-		Id = 10272000,
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			1
-		},
-		DynamicArgType = {
-			320,
-			0,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2"
-			},
-			{},
-			{},
-			{}
-		},
-		EffectType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"21",
-				"10272001",
-				"0",
+				"10273000",
 				"1"
 			},
 			{},
@@ -79882,125 +80142,6 @@ local CfgBuffTable = {
 		}
 	},
 	[10272001] = {
-		BuffTime = -1,
-		DebuffType = 3,
-		StackMaxNumber = 1,
-		IsNeedText = false,
-		TriggerProbability = 1,
-		IsTipsVisible = false,
-		IsVisible = false,
-		TriggerType = 323,
-		StackType = 5,
-		DeathEffective = false,
-		Id = 10272001,
-		TriggerParams = {
-			1,
-			-1,
-			-1,
-			2,
-			2,
-			0
-		},
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		EffectType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"97",
-				"10272002",
-				"3",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10272002] = {
-		StackMaxNumber = 1,
-		DebuffType = 2,
-		TriggerProbability = 1,
-		StackType = 5,
-		IsTipsVisible = true,
-		Icon = "Debuff_Poison",
-		BuffTime = 3,
-		IsVisible = false,
-		TriggerType = 302,
-		Element = 2,
-		DeathEffective = false,
-		Id = 10272002,
-		IsNeedText = false,
-		Name = getI18NValue(180260441),
-		Describe = getI18NValue(180260440),
-		TriggerParams = {
-			1,
-			1
-		},
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		BuffTag = {
-			1,
-			21,
-			40,
-			282
-		},
-		EffectType = {
-			303,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"0",
-				"1",
-				"20230",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10272003] = {
 		DeathEffective = false,
 		IsNeedText = false,
 		StackMaxNumber = 1,
@@ -80008,13 +80149,13 @@ local CfgBuffTable = {
 		TriggerProbability = 1,
 		StackType = 5,
 		IsTipsVisible = false,
-		DynamicRPNExp = "A1+A2>=1",
+		DynamicRPNExp = "A1>=1",
 		BuffTime = -1,
 		IsVisible = false,
 		TriggerType = 318,
-		Id = 10272003,
+		Id = 10272001,
 		TriggerParams = {
-			1,
+			-1,
 			-1,
 			-1,
 			-1,
@@ -80029,7 +80170,7 @@ local CfgBuffTable = {
 		},
 		DynamicArgType = {
 			102,
-			102,
+			0,
 			0,
 			0
 		},
@@ -80037,13 +80178,9 @@ local CfgBuffTable = {
 			{
 				"6",
 				"5",
-				"40"
+				"41"
 			},
-			{
-				"2",
-				"1",
-				"10271000"
-			},
+			{},
 			{},
 			{}
 		},
@@ -80062,8 +80199,8 @@ local CfgBuffTable = {
 		EffectParam = {
 			{
 				"1",
-				"97",
-				"10272005",
+				"96",
+				"10272003",
 				"0",
 				"1"
 			},
@@ -80078,7 +80215,7 @@ local CfgBuffTable = {
 			{}
 		}
 	},
-	[10272004] = {
+	[10272002] = {
 		BuffTime = -1,
 		DebuffType = 3,
 		StackMaxNumber = 1,
@@ -80089,11 +80226,11 @@ local CfgBuffTable = {
 		TriggerType = 320,
 		StackType = 5,
 		DeathEffective = false,
-		Id = 10272004,
+		Id = 10272002,
 		TriggerParams = {
 			1,
-			0,
-			0
+			5,
+			41
 		},
 		RemoveTrigger = {
 			101
@@ -80117,7 +80254,7 @@ local CfgBuffTable = {
 			{
 				"1",
 				"95",
-				"10272005",
+				"10272003",
 				"0",
 				"1"
 			},
@@ -80132,28 +80269,31 @@ local CfgBuffTable = {
 			{}
 		}
 	},
-	[10272005] = {
-		BuffTime = 1,
-		DebuffType = 3,
-		StackMaxNumber = 1,
+	[10272003] = {
 		IsNeedText = false,
+		StackMaxNumber = 1,
+		DebuffType = 3,
 		TriggerProbability = 1,
+		StackType = 5,
 		IsTipsVisible = false,
+		BuffTime = 1,
 		IsVisible = false,
 		TriggerType = 320,
 		DeathEffective = false,
-		Id = 10272005,
+		Id = 10272003,
+		Name = getI18NValue(180262765),
+		Describe = getI18NValue(180262764),
 		TriggerParams = {
 			4,
-			0,
-			0
+			5,
+			41
 		},
 		RemoveTrigger = {
 			101,
 			303
 		},
 		TriggerMaxNumber = {
-			1
+			-1
 		},
 		EffectType = {
 			301,
@@ -80169,7 +80309,7 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"84",
+				"80",
 				"1",
 				"10272000",
 				"0"
@@ -80177,9 +80317,605 @@ local CfgBuffTable = {
 			{
 				"21",
 				"1",
-				"10272005",
+				"10272003",
 				"1"
 			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272010] = {
+		BuffTime = -1,
+		DebuffType = 3,
+		StackMaxNumber = 1,
+		IsNeedText = false,
+		TriggerProbability = 1,
+		IsTipsVisible = false,
+		IsVisible = false,
+		TriggerType = 329,
+		StackType = 5,
+		DeathEffective = false,
+		Id = 10272010,
+		TriggerParams = {
+			-1,
+			-1,
+			-1,
+			-1,
+			-1
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		EffectType = {
+			101,
+			101,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"96",
+				"10272013",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"96",
+				"10272011",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"96",
+				"10272014",
+				"0",
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272011] = {
+		DeathEffective = false,
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		TriggerProbability = 0.25,
+		TriggerType = 103,
+		StackType = 5,
+		DebuffType = 3,
+		Id = 10272011,
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		EffectType = {
+			101,
+			101,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"10272013",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"21",
+				"10272012",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"99",
+				"10272015",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272012] = {
+		DeathEffective = false,
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		TriggerProbability = 0.4,
+		TriggerType = 103,
+		StackType = 5,
+		DebuffType = 3,
+		Id = 10272012,
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		EffectType = {
+			101,
+			0,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"10272013",
+				"0",
+				"1"
+			},
+			{},
+			{
+				"1",
+				"99",
+				"10272016",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272013] = {
+		TriggerType = 103,
+		StackMaxNumber = 1,
+		DeathEffective = false,
+		TriggerProbability = 1,
+		IsNeedText = false,
+		StackType = 5,
+		DynamicRPNExp = "A1<A2",
+		BuffTime = 1,
+		IsVisible = false,
+		DebuffType = 3,
+		Id = 10272013,
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		DynamicArgType = {
+			103,
+			332,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"2",
+				"1",
+				"10272014"
+			},
+			{
+				"3"
+			},
+			{},
+			{}
+		},
+		EffectType = {
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"10272014",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272014] = {
+		StackMaxNumber = 8,
+		DebuffType = 2,
+		TriggerProbability = 1,
+		StackType = 3,
+		IsTipsVisible = true,
+		Icon = "Debuff_On_Zhouyuan",
+		BuffTime = 3,
+		IsVisible = true,
+		TriggerType = 302,
+		Element = 2,
+		DeathEffective = false,
+		Id = 10272014,
+		IsNeedText = false,
+		Name = getI18NValue(180262790),
+		Describe = getI18NValue(180262789),
+		TriggerParams = {
+			1,
+			1
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		BuffTag = {
+			1,
+			21,
+			40,
+			282,
+			41
+		},
+		EffectType = {
+			303,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"0",
+				"1",
+				"10271002",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272015] = {
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		TriggerProbability = 1,
+		IsNeedText = false,
+		StackType = 5,
+		IsTipsVisible = true,
+		Icon = "Buff_Cri_Up",
+		BuffTime = 2,
+		IsVisible = true,
+		DeathEffective = false,
+		Id = 10272015,
+		BuffEffectType = 2,
+		Name = getI18NValue(180262760),
+		Describe = getI18NValue(180262059),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		ShowType = {
+			1
+		},
+		EffectType = {
+			301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"61",
+				"3",
+				"0.15",
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272016] = {
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		TriggerProbability = 1,
+		IsNeedText = false,
+		StackType = 5,
+		IsTipsVisible = true,
+		Icon = "Buff_CriDmg_Up",
+		BuffTime = 2,
+		IsVisible = true,
+		DeathEffective = false,
+		Id = 10272016,
+		BuffEffectType = 2,
+		Name = getI18NValue(180262794),
+		Describe = getI18NValue(180262793),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		ShowType = {
+			1
+		},
+		EffectType = {
+			301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"81",
+				"3",
+				"0.3",
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272020] = {
+		BuffTime = -1,
+		DebuffType = 3,
+		StackMaxNumber = 1,
+		IsNeedText = false,
+		TriggerProbability = 1,
+		IsTipsVisible = false,
+		IsVisible = false,
+		TriggerType = 329,
+		StackType = 5,
+		DeathEffective = false,
+		Id = 10272020,
+		TriggerParams = {
+			-1,
+			-1,
+			-1,
+			-1,
+			-1
+		},
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		EffectType = {
+			101,
+			101,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"96",
+				"10272013",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"96",
+				"10272021",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"96",
+				"10272014",
+				"0",
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272021] = {
+		DeathEffective = false,
+		IsNeedText = false,
+		StackMaxNumber = 1,
+		TriggerProbability = 0.4,
+		TriggerType = 103,
+		StackType = 5,
+		DebuffType = 3,
+		Id = 10272021,
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		EffectType = {
+			101,
+			101,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"1",
+				"21",
+				"10272013",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"21",
+				"10272012",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"99",
+				"10272022",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10272022] = {
+		StackMaxNumber = 1,
+		DebuffType = 1,
+		TriggerProbability = 1,
+		IsNeedText = false,
+		StackType = 5,
+		IsTipsVisible = true,
+		Icon = "Buff_Cri_Up",
+		BuffTime = 2,
+		IsVisible = true,
+		DeathEffective = false,
+		Id = 10272022,
+		BuffEffectType = 2,
+		Name = getI18NValue(180262792),
+		Describe = getI18NValue(180262791),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			-1
+		},
+		ShowType = {
+			1
+		},
+		EffectType = {
+			301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"61",
+				"3",
+				"0.3",
+				"0"
+			},
+			{},
 			{},
 			{},
 			{},
@@ -80196,7 +80932,7 @@ local CfgBuffTable = {
 		StackMaxNumber = 1,
 		IsTipsVisible = false,
 		TriggerProbability = 1,
-		BuffTime = 1,
+		BuffTime = -1,
 		IsVisible = false,
 		TriggerType = 103,
 		DebuffType = 3,
@@ -80208,8 +80944,8 @@ local CfgBuffTable = {
 			-1
 		},
 		EffectType = {
-			346,
 			345,
+			346,
 			0,
 			0,
 			0,
@@ -80220,58 +80956,15 @@ local CfgBuffTable = {
 			0
 		},
 		EffectParam = {
+			{
+				"102710"
+			},
 			{
 				"102711",
 				"102710",
 				"102710",
 				"102710"
 			},
-			{
-				"102710"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[10273001] = {
-		DeathEffective = false,
-		IsTipsVisible = false,
-		StackMaxNumber = 1,
-		TriggerProbability = 1,
-		BuffTime = 1,
-		IsVisible = false,
-		TriggerType = 103,
-		DebuffType = 3,
-		Id = 10273001,
-		IsNeedText = false,
-		TriggerMaxNumber = {
-			1
-		},
-		EffectType = {
-			316,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"1",
-				"4"
-			},
-			{},
 			{},
 			{},
 			{},
@@ -94806,21 +95499,27 @@ local CfgBuffTable = {
 		}
 	},
 	[80019001] = {
-		DeathEffective = false,
-		IsNeedText = false,
 		StackMaxNumber = 1,
-		IsTipsVisible = false,
+		IsNeedText = false,
 		TriggerProbability = 1,
-		BuffTime = -1,
-		IsVisible = false,
+		DeathEffective = false,
 		StackType = 4,
+		IsTipsVisible = true,
+		Icon = "Buff_Def_Up",
+		BuffTime = -1,
+		IsVisible = true,
 		DebuffType = 3,
 		Id = 80019001,
+		Name = getI18NValue(180263084),
+		Describe = getI18NValue(180263083),
 		RemoveTrigger = {
 			101
 		},
 		TriggerMaxNumber = {
 			-1
+		},
+		ShowType = {
+			1
 		},
 		EffectType = {
 			301,
@@ -99595,8 +100294,8 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 80124001,
 		BuffEffectType = 4,
-		Name = getI18NValue(180261764),
-		Describe = getI18NValue(180261763),
+		Name = getI18NValue(180261622),
+		Describe = getI18NValue(180261621),
 		RemoveTrigger = {
 			101
 		},
@@ -99607,7 +100306,8 @@ local CfgBuffTable = {
 			0
 		},
 		BuffTag = {
-			11
+			11,
+			1013
 		},
 		EffectType = {
 			301,
@@ -109748,7 +110448,7 @@ local CfgBuffTable = {
 			{
 				"3",
 				"1",
-				"201302300"
+				"201302301"
 			},
 			{},
 			{},
@@ -109786,12 +110486,12 @@ local CfgBuffTable = {
 		}
 	},
 	[201302213] = {
-		StackMaxNumber = 7,
+		StackMaxNumber = 3,
 		DebuffType = 3,
 		TriggerProbability = 1,
 		IsNeedText = true,
 		IsTipsVisible = true,
-		DynamicRPNExp = "A1==7",
+		DynamicRPNExp = "A1==3",
 		Icon = "Debuff_All_Down",
 		BuffTime = -1,
 		IsVisible = true,
@@ -109804,7 +110504,7 @@ local CfgBuffTable = {
 			101
 		},
 		TriggerMaxNumber = {
-			-1
+			1
 		},
 		ShowType = {
 			3
@@ -109826,7 +110526,7 @@ local CfgBuffTable = {
 			{}
 		},
 		EffectType = {
-			103,
+			110,
 			0,
 			0,
 			0,
@@ -109839,10 +110539,9 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"21",
 				"1",
 				"201302211",
-				"1"
+				"-1"
 			},
 			{},
 			{},
@@ -110091,7 +110790,7 @@ local CfgBuffTable = {
 		},
 		EffectType = {
 			303,
-			0,
+			101,
 			0,
 			0,
 			0,
@@ -110108,7 +110807,13 @@ local CfgBuffTable = {
 				"710",
 				"0.05"
 			},
-			{},
+			{
+				"1",
+				"21",
+				"201302301",
+				"0",
+				"1"
+			},
 			{},
 			{},
 			{},
@@ -110117,6 +110822,21 @@ local CfgBuffTable = {
 			{},
 			{},
 			{}
+		}
+	},
+	[201302301] = {
+		DebuffType = 3,
+		IsTipsVisible = false,
+		StackMaxNumber = 1,
+		TriggerProbability = 1,
+		BuffTime = 1,
+		IsVisible = false,
+		StackType = 5,
+		DeathEffective = false,
+		Id = 201302301,
+		IsNeedText = false,
+		TriggerMaxNumber = {
+			-1
 		}
 	},
 	[201302400] = {
@@ -110201,7 +110921,7 @@ local CfgBuffTable = {
 				"21",
 				"201302501",
 				"0",
-				"10101"
+				"10100"
 			},
 			{},
 			{},
@@ -114853,7 +115573,7 @@ local CfgBuffTable = {
 		Describe = getI18NValue(180234762),
 		TriggerParams = {
 			1,
-			-1,
+			2,
 			-1,
 			-1,
 			-1,
@@ -121879,7 +122599,7 @@ local CfgBuffTable = {
 		}
 	},
 	[302301215] = {
-		StackMaxNumber = 4,
+		StackMaxNumber = 5,
 		DebuffType = 2,
 		TriggerProbability = 1,
 		StackType = 3,
@@ -121917,7 +122637,7 @@ local CfgBuffTable = {
 			{
 				"84",
 				"3",
-				"-0.1",
+				"-0.03",
 				"0"
 			},
 			{},

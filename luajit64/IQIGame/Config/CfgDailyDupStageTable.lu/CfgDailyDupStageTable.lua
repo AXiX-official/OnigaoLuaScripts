@@ -4925,7 +4925,7 @@ local CfgDailyDupStageTable = {
 		ChapterId = 1000003,
 		RecommendLevel = 70,
 		Id = 907120,
-		Name = getI18NValue(180138099),
+		Name = getI18NValue(180262877),
 		UnlockConditionId = {
 			30000001
 		},
@@ -4943,7 +4943,137 @@ local CfgDailyDupStageTable = {
 			2,
 			3
 		},
-		VictroyDesc = getI18NValue(180138098)
+		VictroyDesc = getI18NValue(180262876)
+	},
+	[907200] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907200,
+		Name = getI18NValue(180262856),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601061
+		},
+		VictroyDesc = getI18NValue(180262855)
+	},
+	[907201] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907201,
+		Name = getI18NValue(180262858),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601062
+		},
+		VictroyDesc = getI18NValue(180262857)
+	},
+	[907202] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907202,
+		Name = getI18NValue(180262860),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601063
+		},
+		VictroyDesc = getI18NValue(180262859)
+	},
+	[907203] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907203,
+		Name = getI18NValue(180262862),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601064
+		},
+		VictroyDesc = getI18NValue(180262861)
+	},
+	[907204] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907204,
+		Name = getI18NValue(180262864),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601065
+		},
+		VictroyDesc = getI18NValue(180262863)
+	},
+	[907205] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907205,
+		Name = getI18NValue(180262866),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601066
+		},
+		VictroyDesc = getI18NValue(180262865)
+	},
+	[907206] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907206,
+		Name = getI18NValue(180262868),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601067
+		},
+		VictroyDesc = getI18NValue(180262867)
+	},
+	[907207] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907207,
+		Name = getI18NValue(180262870),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601068
+		},
+		VictroyDesc = getI18NValue(180262869)
+	},
+	[907208] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907208,
+		Name = getI18NValue(180262872),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601069
+		},
+		VictroyDesc = getI18NValue(180262871)
+	},
+	[907209] = {
+		IsHelp = true,
+		ChapterId = 1000006,
+		Id = 907209,
+		Name = getI18NValue(180262874),
+		UnlockConditionId = {
+			30000001
+		},
+		MonsterTeam = {
+			14601070
+		},
+		VictroyDesc = getI18NValue(180262873)
 	}
 }
 

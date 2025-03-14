@@ -19,9 +19,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120001
-		},
-		OddsTypes = {
-			3
 		}
 	},
 	[20901002] = {
@@ -41,12 +38,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120002
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901003] = {
@@ -66,12 +57,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120003
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901004] = {
@@ -91,12 +76,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120004
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901005] = {
@@ -116,12 +95,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120005
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901006] = {
@@ -141,12 +114,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120006
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901007] = {
@@ -166,12 +133,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120007
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901008] = {
@@ -191,12 +152,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120008
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901009] = {
@@ -216,12 +171,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120009
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901010] = {
@@ -241,12 +190,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120010
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901011] = {
@@ -266,12 +209,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120011
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901012] = {
@@ -291,12 +228,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120012
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901013] = {
@@ -316,12 +247,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120013
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901014] = {
@@ -341,12 +266,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120014
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901015] = {
@@ -366,12 +285,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120015
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901016] = {
@@ -391,12 +304,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120016
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901017] = {
@@ -416,12 +323,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120017
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901018] = {
@@ -441,12 +342,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120018
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901019] = {
@@ -466,12 +361,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120019
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901020] = {
@@ -491,12 +380,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120020
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901021] = {
@@ -516,12 +399,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120021
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901022] = {
@@ -541,12 +418,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120022
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901023] = {
@@ -566,12 +437,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120023
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901024] = {
@@ -591,12 +456,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120024
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901025] = {
@@ -616,12 +475,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120025
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901026] = {
@@ -641,12 +494,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120026
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901027] = {
@@ -666,12 +513,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120027
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901028] = {
@@ -691,12 +532,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120028
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901029] = {
@@ -716,12 +551,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120029
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901030] = {
@@ -741,12 +570,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120030
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			3
 		}
 	},
 	[20901031] = {
@@ -766,12 +589,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120031
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901032] = {
@@ -791,12 +608,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120032
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901033] = {
@@ -816,12 +627,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120033
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901034] = {
@@ -841,12 +646,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120034
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901035] = {
@@ -866,12 +665,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120035
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901036] = {
@@ -891,12 +684,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120036
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901037] = {
@@ -916,12 +703,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120037
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901038] = {
@@ -941,12 +722,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120038
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901039] = {
@@ -966,12 +741,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120039
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901040] = {
@@ -991,12 +760,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120040
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			4
 		}
 	},
 	[20901041] = {
@@ -1016,12 +779,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120041
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			0
 		}
 	},
 	[20901042] = {
@@ -1041,12 +798,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120042
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			0
 		}
 	},
 	[20901043] = {
@@ -1066,12 +817,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120043
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			0
 		}
 	},
 	[20901044] = {
@@ -1091,12 +836,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120044
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			0
 		}
 	},
 	[20901045] = {
@@ -1116,12 +855,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120045
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			0
 		}
 	},
 	[20901046] = {
@@ -1141,12 +874,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120046
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901047] = {
@@ -1166,12 +893,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120047
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901048] = {
@@ -1191,12 +912,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120048
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901049] = {
@@ -1216,12 +931,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120049
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901050] = {
@@ -1241,12 +950,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120050
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901051] = {
@@ -1266,12 +969,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120051
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901052] = {
@@ -1291,12 +988,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120052
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901053] = {
@@ -1316,12 +1007,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120053
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901054] = {
@@ -1341,12 +1026,6 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120054
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901055] = {
@@ -1366,17 +1045,11 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120055
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			1
 		}
 	},
 	[20901056] = {
 		ChallengeType = 1,
-		VisibleLevel = 4,
+		VisibleLevel = 5,
 		ChapterId = 20800001,
 		Order = 56,
 		Id = 20901056,
@@ -1391,17 +1064,11 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120056
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901057] = {
 		ChallengeType = 1,
-		VisibleLevel = 3,
+		VisibleLevel = 5,
 		ChapterId = 20800001,
 		Order = 57,
 		Id = 20901057,
@@ -1416,17 +1083,11 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120057
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901058] = {
 		ChallengeType = 1,
-		VisibleLevel = 2,
+		VisibleLevel = 5,
 		ChapterId = 20800001,
 		Order = 58,
 		Id = 20901058,
@@ -1441,17 +1102,11 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120058
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901059] = {
 		ChallengeType = 1,
-		VisibleLevel = 1,
+		VisibleLevel = 5,
 		ChapterId = 20800001,
 		Order = 59,
 		Id = 20901059,
@@ -1466,16 +1121,11 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120059
-		},
-		OddsTypes = {
-			2
-		},
-		OddsValues = {
-			2
 		}
 	},
 	[20901060] = {
 		ChallengeType = 2,
+		VisibleLevel = 5,
 		ChapterId = 20800001,
 		Order = 60,
 		Id = 20901060,
@@ -1490,12 +1140,195 @@ local CfgTowerStageTable = {
 		},
 		PassReward = {
 			120060
+		}
+	},
+	[20901061] = {
+		ChallengeType = 1,
+		VisibleLevel = 5,
+		ChapterId = 20800001,
+		Order = 51,
+		Id = 20901061,
+		Level = 61,
+		Name = getI18NValue(180262073),
+		Desc = getI18NValue(180262072),
+		UnlockConditionId = {
+			30031161
 		},
-		OddsTypes = {
-			2
+		MonsterTeam = {
+			14601061
 		},
-		OddsValues = {
-			2
+		PassReward = {
+			120061
+		}
+	},
+	[20901062] = {
+		ChallengeType = 1,
+		VisibleLevel = 5,
+		ChapterId = 20800001,
+		Order = 52,
+		Id = 20901062,
+		Level = 62,
+		Name = getI18NValue(180262075),
+		Desc = getI18NValue(180262074),
+		UnlockConditionId = {
+			30031162
+		},
+		MonsterTeam = {
+			14601062
+		},
+		PassReward = {
+			120062
+		}
+	},
+	[20901063] = {
+		ChallengeType = 1,
+		VisibleLevel = 5,
+		ChapterId = 20800001,
+		Order = 53,
+		Id = 20901063,
+		Level = 63,
+		Name = getI18NValue(180262077),
+		Desc = getI18NValue(180262076),
+		UnlockConditionId = {
+			30031163
+		},
+		MonsterTeam = {
+			14601063
+		},
+		PassReward = {
+			120063
+		}
+	},
+	[20901064] = {
+		ChallengeType = 1,
+		VisibleLevel = 5,
+		ChapterId = 20800001,
+		Order = 54,
+		Id = 20901064,
+		Level = 64,
+		Name = getI18NValue(180262079),
+		Desc = getI18NValue(180262078),
+		UnlockConditionId = {
+			30031164
+		},
+		MonsterTeam = {
+			14601064
+		},
+		PassReward = {
+			120064
+		}
+	},
+	[20901065] = {
+		ChallengeType = 2,
+		VisibleLevel = 5,
+		ChapterId = 20800001,
+		Order = 55,
+		Id = 20901065,
+		Level = 65,
+		Name = getI18NValue(180262081),
+		Desc = getI18NValue(180262080),
+		UnlockConditionId = {
+			30031165
+		},
+		MonsterTeam = {
+			14601065
+		},
+		PassReward = {
+			120065
+		}
+	},
+	[20901066] = {
+		ChallengeType = 1,
+		VisibleLevel = 4,
+		ChapterId = 20800001,
+		Order = 56,
+		Id = 20901066,
+		Level = 66,
+		Name = getI18NValue(180262083),
+		Desc = getI18NValue(180262082),
+		UnlockConditionId = {
+			30031166
+		},
+		MonsterTeam = {
+			14601066
+		},
+		PassReward = {
+			120066
+		}
+	},
+	[20901067] = {
+		ChallengeType = 1,
+		VisibleLevel = 3,
+		ChapterId = 20800001,
+		Order = 57,
+		Id = 20901067,
+		Level = 67,
+		Name = getI18NValue(180262085),
+		Desc = getI18NValue(180262084),
+		UnlockConditionId = {
+			30031167
+		},
+		MonsterTeam = {
+			14601067
+		},
+		PassReward = {
+			120067
+		}
+	},
+	[20901068] = {
+		ChallengeType = 1,
+		VisibleLevel = 2,
+		ChapterId = 20800001,
+		Order = 58,
+		Id = 20901068,
+		Level = 68,
+		Name = getI18NValue(180262087),
+		Desc = getI18NValue(180262086),
+		UnlockConditionId = {
+			30031168
+		},
+		MonsterTeam = {
+			14601068
+		},
+		PassReward = {
+			120068
+		}
+	},
+	[20901069] = {
+		ChallengeType = 1,
+		VisibleLevel = 1,
+		ChapterId = 20800001,
+		Order = 59,
+		Id = 20901069,
+		Level = 69,
+		Name = getI18NValue(180262089),
+		Desc = getI18NValue(180262088),
+		UnlockConditionId = {
+			30031169
+		},
+		MonsterTeam = {
+			14601069
+		},
+		PassReward = {
+			120069
+		}
+	},
+	[20901070] = {
+		ChallengeType = 2,
+		ChapterId = 20800001,
+		Order = 60,
+		Id = 20901070,
+		Level = 70,
+		Name = getI18NValue(180262091),
+		Desc = getI18NValue(180262090),
+		UnlockConditionId = {
+			30031170
+		},
+		MonsterTeam = {
+			14601070
+		},
+		PassReward = {
+			120070
 		}
 	}
 }

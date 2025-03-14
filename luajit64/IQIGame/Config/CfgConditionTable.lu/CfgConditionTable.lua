@@ -27662,6 +27662,466 @@ local CfgConditionTable = {
 			0
 		}
 	},
+	[30031162] = {
+		Id = 30031162,
+		Name = getI18NValue(180262060),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901061,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031163] = {
+		Id = 30031163,
+		Name = getI18NValue(180262061),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901062,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031164] = {
+		Id = 30031164,
+		Name = getI18NValue(180262062),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901063,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031165] = {
+		Id = 30031165,
+		Name = getI18NValue(180262063),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901064,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031166] = {
+		Id = 30031166,
+		Name = getI18NValue(180262064),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901065,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031167] = {
+		Id = 30031167,
+		Name = getI18NValue(180262065),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901066,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031168] = {
+		Id = 30031168,
+		Name = getI18NValue(180262066),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901067,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031169] = {
+		Id = 30031169,
+		Name = getI18NValue(180262067),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901068,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031170] = {
+		Id = 30031170,
+		Name = getI18NValue(180262068),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901069,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30031171] = {
+		Id = 30031171,
+		Name = getI18NValue(180262069),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				6
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			20901070,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
 	[30040010] = {
 		Id = 30040010,
 		Name = getI18NValue(180224110),
@@ -49070,7 +49530,7 @@ local CfgConditionTable = {
 	},
 	[30080221] = {
 		Id = 30080221,
-		Name = getI18NValue(180261846),
+		Name = getI18NValue(180261848),
 		Type = {
 			1,
 			0,
@@ -49106,7 +49566,7 @@ local CfgConditionTable = {
 	},
 	[30080222] = {
 		Id = 30080222,
-		Name = getI18NValue(180261847),
+		Name = getI18NValue(180261849),
 		Type = {
 			1,
 			0,
@@ -49152,7 +49612,7 @@ local CfgConditionTable = {
 	},
 	[30080223] = {
 		Id = 30080223,
-		Name = getI18NValue(180261848),
+		Name = getI18NValue(180261850),
 		Type = {
 			1,
 			0,
@@ -49198,7 +49658,7 @@ local CfgConditionTable = {
 	},
 	[30080224] = {
 		Id = 30080224,
-		Name = getI18NValue(180261849),
+		Name = getI18NValue(180261851),
 		Type = {
 			1,
 			0,
@@ -49244,7 +49704,7 @@ local CfgConditionTable = {
 	},
 	[30080225] = {
 		Id = 30080225,
-		Name = getI18NValue(180261850),
+		Name = getI18NValue(180261852),
 		Type = {
 			1,
 			0,
@@ -49290,7 +49750,7 @@ local CfgConditionTable = {
 	},
 	[30080226] = {
 		Id = 30080226,
-		Name = getI18NValue(180261851),
+		Name = getI18NValue(180261853),
 		Type = {
 			1,
 			0,
@@ -49336,7 +49796,7 @@ local CfgConditionTable = {
 	},
 	[30080227] = {
 		Id = 30080227,
-		Name = getI18NValue(180261852),
+		Name = getI18NValue(180261854),
 		Type = {
 			1,
 			0,
@@ -49382,7 +49842,7 @@ local CfgConditionTable = {
 	},
 	[30080228] = {
 		Id = 30080228,
-		Name = getI18NValue(180261853),
+		Name = getI18NValue(180261855),
 		Type = {
 			1,
 			0,
@@ -49428,7 +49888,7 @@ local CfgConditionTable = {
 	},
 	[30080229] = {
 		Id = 30080229,
-		Name = getI18NValue(180261854),
+		Name = getI18NValue(180261856),
 		Type = {
 			1,
 			0,
@@ -49474,7 +49934,7 @@ local CfgConditionTable = {
 	},
 	[30080230] = {
 		Id = 30080230,
-		Name = getI18NValue(180261855),
+		Name = getI18NValue(180261857),
 		Type = {
 			1,
 			0,
@@ -49520,7 +49980,7 @@ local CfgConditionTable = {
 	},
 	[30080231] = {
 		Id = 30080231,
-		Name = getI18NValue(180261856),
+		Name = getI18NValue(180261858),
 		Type = {
 			1,
 			0,
@@ -49566,7 +50026,7 @@ local CfgConditionTable = {
 	},
 	[30080232] = {
 		Id = 30080232,
-		Name = getI18NValue(180261857),
+		Name = getI18NValue(180261859),
 		Type = {
 			1,
 			0,
@@ -49612,7 +50072,7 @@ local CfgConditionTable = {
 	},
 	[30080233] = {
 		Id = 30080233,
-		Name = getI18NValue(180261858),
+		Name = getI18NValue(180261860),
 		Type = {
 			1,
 			0,
@@ -49658,7 +50118,7 @@ local CfgConditionTable = {
 	},
 	[30080234] = {
 		Id = 30080234,
-		Name = getI18NValue(180261859),
+		Name = getI18NValue(180261861),
 		Type = {
 			1,
 			0,
@@ -49704,7 +50164,7 @@ local CfgConditionTable = {
 	},
 	[30080235] = {
 		Id = 30080235,
-		Name = getI18NValue(180261860),
+		Name = getI18NValue(180261862),
 		Type = {
 			1,
 			0,
@@ -49750,7 +50210,7 @@ local CfgConditionTable = {
 	},
 	[30080236] = {
 		Id = 30080236,
-		Name = getI18NValue(180261861),
+		Name = getI18NValue(180261863),
 		Type = {
 			1,
 			0,
@@ -49796,7 +50256,7 @@ local CfgConditionTable = {
 	},
 	[30080237] = {
 		Id = 30080237,
-		Name = getI18NValue(180261862),
+		Name = getI18NValue(180261864),
 		Type = {
 			1,
 			0,
@@ -49842,7 +50302,7 @@ local CfgConditionTable = {
 	},
 	[30080238] = {
 		Id = 30080238,
-		Name = getI18NValue(180261863),
+		Name = getI18NValue(180261865),
 		Type = {
 			1,
 			0,
@@ -49888,7 +50348,7 @@ local CfgConditionTable = {
 	},
 	[30080239] = {
 		Id = 30080239,
-		Name = getI18NValue(180261864),
+		Name = getI18NValue(180261866),
 		Type = {
 			1,
 			0,
@@ -49934,7 +50394,7 @@ local CfgConditionTable = {
 	},
 	[30080240] = {
 		Id = 30080240,
-		Name = getI18NValue(180261865),
+		Name = getI18NValue(180261867),
 		Type = {
 			1,
 			0,
@@ -49980,7 +50440,7 @@ local CfgConditionTable = {
 	},
 	[30080241] = {
 		Id = 30080241,
-		Name = getI18NValue(180261866),
+		Name = getI18NValue(180261868),
 		Type = {
 			1,
 			0,
@@ -50026,7 +50486,7 @@ local CfgConditionTable = {
 	},
 	[30080242] = {
 		Id = 30080242,
-		Name = getI18NValue(180261867),
+		Name = getI18NValue(180261869),
 		Type = {
 			1,
 			0,
@@ -50072,7 +50532,7 @@ local CfgConditionTable = {
 	},
 	[30080243] = {
 		Id = 30080243,
-		Name = getI18NValue(180261868),
+		Name = getI18NValue(180261870),
 		Type = {
 			1,
 			0,
@@ -50118,7 +50578,7 @@ local CfgConditionTable = {
 	},
 	[30080244] = {
 		Id = 30080244,
-		Name = getI18NValue(180261869),
+		Name = getI18NValue(180261871),
 		Type = {
 			1,
 			0,
@@ -50164,7 +50624,7 @@ local CfgConditionTable = {
 	},
 	[30080245] = {
 		Id = 30080245,
-		Name = getI18NValue(180261870),
+		Name = getI18NValue(180261872),
 		Type = {
 			1,
 			0,
@@ -50210,7 +50670,7 @@ local CfgConditionTable = {
 	},
 	[30080246] = {
 		Id = 30080246,
-		Name = getI18NValue(180261871),
+		Name = getI18NValue(180261873),
 		Type = {
 			1,
 			0,
@@ -50256,7 +50716,7 @@ local CfgConditionTable = {
 	},
 	[30080247] = {
 		Id = 30080247,
-		Name = getI18NValue(180261872),
+		Name = getI18NValue(180261874),
 		Type = {
 			1,
 			0,
@@ -50302,7 +50762,7 @@ local CfgConditionTable = {
 	},
 	[30080248] = {
 		Id = 30080248,
-		Name = getI18NValue(180261873),
+		Name = getI18NValue(180261875),
 		Type = {
 			1,
 			0,
@@ -50348,7 +50808,7 @@ local CfgConditionTable = {
 	},
 	[30080249] = {
 		Id = 30080249,
-		Name = getI18NValue(180261874),
+		Name = getI18NValue(180261876),
 		Type = {
 			1,
 			0,
@@ -50394,7 +50854,7 @@ local CfgConditionTable = {
 	},
 	[30080250] = {
 		Id = 30080250,
-		Name = getI18NValue(180261875),
+		Name = getI18NValue(180261877),
 		Type = {
 			1,
 			0,
@@ -50440,7 +50900,7 @@ local CfgConditionTable = {
 	},
 	[30080251] = {
 		Id = 30080251,
-		Name = getI18NValue(180261876),
+		Name = getI18NValue(180261878),
 		Type = {
 			1,
 			0,
@@ -50486,7 +50946,7 @@ local CfgConditionTable = {
 	},
 	[30080252] = {
 		Id = 30080252,
-		Name = getI18NValue(180261877),
+		Name = getI18NValue(180261879),
 		Type = {
 			1,
 			0,
@@ -50532,7 +50992,7 @@ local CfgConditionTable = {
 	},
 	[30080253] = {
 		Id = 30080253,
-		Name = getI18NValue(180261878),
+		Name = getI18NValue(180261880),
 		Type = {
 			1,
 			0,
@@ -50576,9 +51036,9 @@ local CfgConditionTable = {
 			0
 		}
 	},
-	[30080261] = {
-		Id = 30080261,
-		Name = getI18NValue(180261879),
+	[30080254] = {
+		Id = 30080254,
+		Name = getI18NValue(180262028),
 		Type = {
 			1,
 			0,
@@ -50588,62 +51048,16 @@ local CfgConditionTable = {
 			0
 		},
 		SubType = {
-			26,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		Params = {
-			{
-				60008013
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ComparisonOP = {
-			"==",
-			"",
-			"",
-			"",
-			"",
-			""
-		},
-		Value = {
 			2,
 			0,
 			0,
 			0,
 			0,
 			0
-		}
-	},
-	[30080262] = {
-		Id = 30080262,
-		Name = getI18NValue(180261880),
-		Type = {
-			1,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		SubType = {
-			26,
-			0,
-			0,
-			0,
-			0,
-			0
 		},
 		Params = {
 			{
-				60008013
+				13
 			},
 			{},
 			{},
@@ -50660,7 +51074,7 @@ local CfgConditionTable = {
 			""
 		},
 		Value = {
-			3,
+			20040542,
 			0,
 			0,
 			0,
@@ -50668,8 +51082,8 @@ local CfgConditionTable = {
 			0
 		}
 	},
-	[30080263] = {
-		Id = 30080263,
+	[30080261] = {
+		Id = 30080261,
 		Name = getI18NValue(180261881),
 		Type = {
 			1,
@@ -50698,7 +51112,99 @@ local CfgConditionTable = {
 			{}
 		},
 		ComparisonOP = {
-			"==",
+			">=",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			2,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30080262] = {
+		Id = 30080262,
+		Name = getI18NValue(180261882),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			26,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				60008013
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			">=",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			3,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[30080263] = {
+		Id = 30080263,
+		Name = getI18NValue(180261883),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			26,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		Params = {
+			{
+				60008013
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ComparisonOP = {
+			">=",
 			"",
 			"",
 			"",

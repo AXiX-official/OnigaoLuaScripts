@@ -1600,6 +1600,62 @@ local CfgPlotTable = {
 		Name = getI18NValue(180194490),
 		Desc = getI18NValue(180194489)
 	},
+	[403001] = {
+		Save = true,
+		Type = 13,
+		Id = 403001,
+		BattleTypeID = 4030101,
+		Name = getI18NValue(180262032),
+		Desc = getI18NValue(180262031)
+	},
+	[403002] = {
+		Save = true,
+		Type = 13,
+		Id = 403002,
+		BattleTypeID = 4030201,
+		Name = getI18NValue(180262034),
+		Desc = getI18NValue(180262033)
+	},
+	[403003] = {
+		Save = true,
+		Type = 13,
+		Id = 403003,
+		BattleTypeID = 4030301,
+		Name = getI18NValue(180262036),
+		Desc = getI18NValue(180262035)
+	},
+	[403004] = {
+		Save = true,
+		Type = 13,
+		Id = 403004,
+		BattleTypeID = 4030401,
+		Name = getI18NValue(180262038),
+		Desc = getI18NValue(180262037)
+	},
+	[403005] = {
+		Save = true,
+		Type = 13,
+		Id = 403005,
+		BattleTypeID = 4030301,
+		Name = getI18NValue(180262040),
+		Desc = getI18NValue(180262039)
+	},
+	[403006] = {
+		Save = true,
+		Type = 13,
+		Id = 403006,
+		BattleTypeID = 4030301,
+		Name = getI18NValue(180262042),
+		Desc = getI18NValue(180262041)
+	},
+	[403007] = {
+		Save = true,
+		Type = 13,
+		Id = 403007,
+		BattleTypeID = 4030301,
+		Name = getI18NValue(180262044),
+		Desc = getI18NValue(180262043)
+	},
 	[500101] = {
 		Save = true,
 		Type = 7,

@@ -17104,7 +17104,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17134,7 +17134,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17164,7 +17164,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17194,7 +17194,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17224,7 +17224,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17254,7 +17254,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17284,7 +17284,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -17317,7 +17317,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -17350,7 +17350,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -17383,7 +17383,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -17416,7 +17416,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17446,7 +17446,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17476,7 +17476,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17506,7 +17506,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17536,7 +17536,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17566,7 +17566,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17596,7 +17596,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17626,7 +17626,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17656,7 +17656,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17686,7 +17686,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17716,7 +17716,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17750,7 +17750,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17784,7 +17784,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17818,7 +17818,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17852,7 +17852,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17886,7 +17886,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17920,7 +17920,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17954,7 +17954,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -17988,7 +17988,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18022,7 +18022,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18056,7 +18056,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18090,7 +18090,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18124,7 +18124,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18158,7 +18158,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18192,7 +18192,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			13,
@@ -18226,7 +18226,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18259,7 +18259,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18292,7 +18292,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18325,7 +18325,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18358,7 +18358,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18391,7 +18391,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18424,7 +18424,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18457,7 +18457,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18490,7 +18490,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18523,7 +18523,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18556,7 +18556,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18589,7 +18589,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18622,7 +18622,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18655,7 +18655,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18688,7 +18688,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18721,7 +18721,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18754,7 +18754,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -18787,7 +18787,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			2
+			4
 		},
 		EventParam = {
 			-1,
@@ -19894,7 +19894,9 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			1
+			1,
+			55001,
+			2
 		},
 		CompleteAction = {
 			1,
@@ -19922,7 +19924,9 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			2
+			1,
+			4,
+			100000
 		},
 		CompleteAction = {
 			1,
@@ -19950,7 +19954,9 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			1
+			1,
+			3003,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -19978,7 +19984,9 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			1
+			1,
+			55001,
+			3
 		},
 		CompleteAction = {
 			1,
@@ -20006,7 +20014,9 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			1
+			1,
+			50004,
+			15
 		},
 		CompleteAction = {
 			1,
@@ -20034,7 +20044,9 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			1
+			1,
+			50034,
+			20
 		},
 		CompleteAction = {
 			1,
@@ -20062,7 +20074,99 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
+			1,
+			55002,
+			2
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441208] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441206,
+		NeedSchedule = 8,
+		Type = 11,
+		Id = 12441208,
+		Name = getI18NValue(180262418),
+		Desc = getI18NValue(180262417),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
 			3
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3003,
+			5
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441209] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441206,
+		NeedSchedule = 9,
+		Type = 11,
+		Id = 12441209,
+		Name = getI18NValue(180262420),
+		Desc = getI18NValue(180262419),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			3
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			60201,
+			30
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441210] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441206,
+		NeedSchedule = 10,
+		Type = 11,
+		Id = 12441210,
+		Name = getI18NValue(180262422),
+		Desc = getI18NValue(180262421),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			3
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			15000,
+			1
 		},
 		CompleteAction = {
 			1,
@@ -20078,12 +20182,12 @@ local CfgTaskTable = {
 		JumpType = 30020201,
 		MonitorTarget = 1020,
 		Id = 12441211,
-		Name = getI18NValue(170000001),
-		Desc = getI18NValue(180261641),
+		Name = getI18NValue(180261656),
+		Desc = getI18NValue(180261655),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20108,12 +20212,12 @@ local CfgTaskTable = {
 		JumpType = 30020202,
 		MonitorTarget = 1020,
 		Id = 12441212,
-		Name = getI18NValue(180261644),
-		Desc = getI18NValue(170000002),
+		Name = getI18NValue(180261658),
+		Desc = getI18NValue(180261657),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20138,12 +20242,12 @@ local CfgTaskTable = {
 		JumpType = 30020203,
 		MonitorTarget = 1020,
 		Id = 12441213,
-		Name = getI18NValue(180261646),
-		Desc = getI18NValue(180261645),
+		Name = getI18NValue(180261660),
+		Desc = getI18NValue(180261659),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20168,12 +20272,12 @@ local CfgTaskTable = {
 		JumpType = 30020204,
 		MonitorTarget = 1020,
 		Id = 12441214,
-		Name = getI18NValue(180261648),
-		Desc = getI18NValue(180261647),
+		Name = getI18NValue(180261662),
+		Desc = getI18NValue(180261661),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20198,12 +20302,12 @@ local CfgTaskTable = {
 		JumpType = 30020205,
 		MonitorTarget = 1020,
 		Id = 12441215,
-		Name = getI18NValue(180261650),
-		Desc = getI18NValue(180261649),
+		Name = getI18NValue(180261664),
+		Desc = getI18NValue(180261663),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20228,12 +20332,12 @@ local CfgTaskTable = {
 		JumpType = 30020206,
 		MonitorTarget = 1020,
 		Id = 12441216,
-		Name = getI18NValue(180261652),
-		Desc = getI18NValue(180261651),
+		Name = getI18NValue(180261666),
+		Desc = getI18NValue(180261665),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20258,12 +20362,12 @@ local CfgTaskTable = {
 		JumpType = 30020207,
 		MonitorTarget = 1020,
 		Id = 12441217,
-		Name = getI18NValue(180261654),
-		Desc = getI18NValue(180261653),
+		Name = getI18NValue(180261668),
+		Desc = getI18NValue(180261667),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20288,12 +20392,12 @@ local CfgTaskTable = {
 		JumpType = 30020208,
 		MonitorTarget = 1020,
 		Id = 12441218,
-		Name = getI18NValue(180261656),
-		Desc = getI18NValue(180261655),
+		Name = getI18NValue(180261670),
+		Desc = getI18NValue(180261669),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20318,12 +20422,12 @@ local CfgTaskTable = {
 		JumpType = 30020209,
 		MonitorTarget = 1020,
 		Id = 12441219,
-		Name = getI18NValue(180261658),
-		Desc = getI18NValue(180261657),
+		Name = getI18NValue(180261672),
+		Desc = getI18NValue(180261671),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20348,12 +20452,12 @@ local CfgTaskTable = {
 		JumpType = 30020210,
 		MonitorTarget = 1020,
 		Id = 12441220,
-		Name = getI18NValue(180261660),
-		Desc = getI18NValue(180261659),
+		Name = getI18NValue(180261674),
+		Desc = getI18NValue(180261673),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20378,12 +20482,12 @@ local CfgTaskTable = {
 		JumpType = 30020211,
 		MonitorTarget = 1020,
 		Id = 12441221,
-		Name = getI18NValue(180261662),
-		Desc = getI18NValue(180261661),
+		Name = getI18NValue(180261676),
+		Desc = getI18NValue(180261675),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20408,12 +20512,12 @@ local CfgTaskTable = {
 		JumpType = 30020212,
 		MonitorTarget = 1020,
 		Id = 12441222,
-		Name = getI18NValue(180261664),
-		Desc = getI18NValue(180261663),
+		Name = getI18NValue(180261678),
+		Desc = getI18NValue(180261677),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20438,12 +20542,12 @@ local CfgTaskTable = {
 		JumpType = 30020213,
 		MonitorTarget = 1020,
 		Id = 12441223,
-		Name = getI18NValue(180261666),
-		Desc = getI18NValue(180261665),
+		Name = getI18NValue(180261680),
+		Desc = getI18NValue(180261679),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20468,12 +20572,12 @@ local CfgTaskTable = {
 		JumpType = 30020214,
 		MonitorTarget = 1020,
 		Id = 12441224,
-		Name = getI18NValue(180261668),
-		Desc = getI18NValue(180261667),
+		Name = getI18NValue(180261682),
+		Desc = getI18NValue(180261681),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20498,12 +20602,12 @@ local CfgTaskTable = {
 		JumpType = 30020215,
 		MonitorTarget = 1020,
 		Id = 12441225,
-		Name = getI18NValue(180261670),
-		Desc = getI18NValue(180261669),
+		Name = getI18NValue(180261684),
+		Desc = getI18NValue(180261683),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20528,12 +20632,12 @@ local CfgTaskTable = {
 		JumpType = 30020216,
 		MonitorTarget = 1020,
 		Id = 12441226,
-		Name = getI18NValue(180261672),
-		Desc = getI18NValue(180261671),
+		Name = getI18NValue(180261686),
+		Desc = getI18NValue(180261685),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20558,12 +20662,12 @@ local CfgTaskTable = {
 		JumpType = 30020217,
 		MonitorTarget = 1020,
 		Id = 12441227,
-		Name = getI18NValue(180261674),
-		Desc = getI18NValue(180261673),
+		Name = getI18NValue(180261688),
+		Desc = getI18NValue(180261687),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20588,12 +20692,12 @@ local CfgTaskTable = {
 		JumpType = 30020218,
 		MonitorTarget = 1020,
 		Id = 12441228,
-		Name = getI18NValue(180261676),
-		Desc = getI18NValue(180261675),
+		Name = getI18NValue(180261690),
+		Desc = getI18NValue(180261689),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20618,12 +20722,12 @@ local CfgTaskTable = {
 		JumpType = 30020219,
 		MonitorTarget = 1020,
 		Id = 12441229,
-		Name = getI18NValue(180261678),
-		Desc = getI18NValue(180261677),
+		Name = getI18NValue(180261692),
+		Desc = getI18NValue(180261691),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20648,12 +20752,12 @@ local CfgTaskTable = {
 		JumpType = 30020220,
 		MonitorTarget = 1020,
 		Id = 12441230,
-		Name = getI18NValue(180261680),
-		Desc = getI18NValue(180261679),
+		Name = getI18NValue(180261694),
+		Desc = getI18NValue(180261693),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20678,12 +20782,12 @@ local CfgTaskTable = {
 		JumpType = 30020221,
 		MonitorTarget = 1020,
 		Id = 12441231,
-		Name = getI18NValue(180261682),
-		Desc = getI18NValue(180261681),
+		Name = getI18NValue(180261696),
+		Desc = getI18NValue(180261695),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20708,12 +20812,12 @@ local CfgTaskTable = {
 		JumpType = 30020222,
 		MonitorTarget = 1020,
 		Id = 12441232,
-		Name = getI18NValue(180261684),
-		Desc = getI18NValue(180261683),
+		Name = getI18NValue(180261698),
+		Desc = getI18NValue(180261697),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20738,12 +20842,12 @@ local CfgTaskTable = {
 		JumpType = 30020223,
 		MonitorTarget = 1020,
 		Id = 12441233,
-		Name = getI18NValue(180261686),
-		Desc = getI18NValue(180261685),
+		Name = getI18NValue(180261700),
+		Desc = getI18NValue(180261699),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20768,12 +20872,12 @@ local CfgTaskTable = {
 		JumpType = 30020224,
 		MonitorTarget = 1020,
 		Id = 12441234,
-		Name = getI18NValue(180261688),
-		Desc = getI18NValue(180261687),
+		Name = getI18NValue(180261702),
+		Desc = getI18NValue(180261701),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20798,12 +20902,12 @@ local CfgTaskTable = {
 		JumpType = 30020225,
 		MonitorTarget = 1020,
 		Id = 12441235,
-		Name = getI18NValue(180261690),
-		Desc = getI18NValue(180261689),
+		Name = getI18NValue(180261704),
+		Desc = getI18NValue(180261703),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20828,12 +20932,12 @@ local CfgTaskTable = {
 		JumpType = 30020226,
 		MonitorTarget = 1020,
 		Id = 12441236,
-		Name = getI18NValue(180261692),
-		Desc = getI18NValue(180261691),
+		Name = getI18NValue(180261706),
+		Desc = getI18NValue(180261705),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20858,12 +20962,12 @@ local CfgTaskTable = {
 		JumpType = 30020227,
 		MonitorTarget = 1020,
 		Id = 12441237,
-		Name = getI18NValue(180261694),
-		Desc = getI18NValue(180261693),
+		Name = getI18NValue(180261708),
+		Desc = getI18NValue(180261707),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20888,12 +20992,12 @@ local CfgTaskTable = {
 		JumpType = 30020228,
 		MonitorTarget = 1020,
 		Id = 12441238,
-		Name = getI18NValue(180261696),
-		Desc = getI18NValue(180261695),
+		Name = getI18NValue(180261710),
+		Desc = getI18NValue(180261709),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20918,12 +21022,12 @@ local CfgTaskTable = {
 		JumpType = 30020229,
 		MonitorTarget = 1020,
 		Id = 12441239,
-		Name = getI18NValue(180261698),
-		Desc = getI18NValue(180261697),
+		Name = getI18NValue(180261712),
+		Desc = getI18NValue(180261711),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20948,12 +21052,12 @@ local CfgTaskTable = {
 		JumpType = 30020230,
 		MonitorTarget = 1020,
 		Id = 12441240,
-		Name = getI18NValue(180261700),
-		Desc = getI18NValue(180261699),
+		Name = getI18NValue(180261714),
+		Desc = getI18NValue(180261713),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -20978,12 +21082,12 @@ local CfgTaskTable = {
 		JumpType = 30020231,
 		MonitorTarget = 1020,
 		Id = 12441241,
-		Name = getI18NValue(180261702),
-		Desc = getI18NValue(180261701),
+		Name = getI18NValue(180261716),
+		Desc = getI18NValue(180261715),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21008,12 +21112,12 @@ local CfgTaskTable = {
 		JumpType = 30020232,
 		MonitorTarget = 1020,
 		Id = 12441242,
-		Name = getI18NValue(180261704),
-		Desc = getI18NValue(180261703),
+		Name = getI18NValue(180261718),
+		Desc = getI18NValue(180261717),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21038,12 +21142,12 @@ local CfgTaskTable = {
 		JumpType = 30020233,
 		MonitorTarget = 1020,
 		Id = 12441243,
-		Name = getI18NValue(180261706),
-		Desc = getI18NValue(180261705),
+		Name = getI18NValue(180261720),
+		Desc = getI18NValue(180261719),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21065,28 +21169,24 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020222,
-		MonitorTarget = 1021,
+		JumpType = 30020234,
+		MonitorTarget = 1020,
 		Id = 12441244,
-		Name = getI18NValue(180261708),
-		Desc = getI18NValue(180261707),
+		Name = getI18NValue(180261722),
+		Desc = getI18NValue(180261721),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
-			405,
-			20040531,
-			1,
-			2,
-			2,
-			-1
+			407,
+			20040543
 		},
 		ActionParam = {
 			202,
-			25
+			30
 		},
 		CompleteAction = {
 			1,
@@ -21099,20 +21199,20 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020223,
+		JumpType = 30020222,
 		MonitorTarget = 1021,
 		Id = 12441245,
-		Name = getI18NValue(180261710),
-		Desc = getI18NValue(180261709),
+		Name = getI18NValue(180261724),
+		Desc = getI18NValue(180261723),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
 			405,
-			20040532,
+			20040531,
 			1,
 			2,
 			2,
@@ -21133,15 +21233,49 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020224,
+		JumpType = 30020223,
 		MonitorTarget = 1021,
 		Id = 12441246,
-		Name = getI18NValue(180261712),
-		Desc = getI18NValue(180261711),
+		Name = getI18NValue(180261726),
+		Desc = getI18NValue(180261725),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
+		},
+		EventParam = {
+			13,
+			405,
+			20040532,
+			1,
+			2,
+			2,
+			-1
+		},
+		ActionParam = {
+			202,
+			25
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441247] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 1,
+		JumpType = 30020224,
+		MonitorTarget = 1021,
+		Id = 12441247,
+		Name = getI18NValue(180261728),
+		Desc = getI18NValue(180261727),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			2
 		},
 		EventParam = {
 			13,
@@ -21163,19 +21297,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441247] = {
+	[12441248] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020225,
 		MonitorTarget = 1021,
-		Id = 12441247,
-		Name = getI18NValue(180261714),
-		Desc = getI18NValue(180261713),
+		Id = 12441248,
+		Name = getI18NValue(180261730),
+		Desc = getI18NValue(180261729),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21197,19 +21331,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441248] = {
+	[12441249] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020226,
 		MonitorTarget = 1021,
-		Id = 12441248,
-		Name = getI18NValue(180261716),
-		Desc = getI18NValue(180261715),
+		Id = 12441249,
+		Name = getI18NValue(180261732),
+		Desc = getI18NValue(180261731),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21217,41 +21351,7 @@ local CfgTaskTable = {
 			20040535,
 			1,
 			2,
-			2,
-			-1
-		},
-		ActionParam = {
-			202,
-			25
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441249] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 1,
-		JumpType = 30020227,
-		MonitorTarget = 1021,
-		Id = 12441249,
-		Name = getI18NValue(180261718),
-		Desc = getI18NValue(180261717),
-		PickUpInfo = null,
-		TypeExtend = {
-			6,
-			4
-		},
-		EventParam = {
-			13,
-			406,
-			20040536,
-			1,
-			2,
-			2,
+			3,
 			-1
 		},
 		ActionParam = {
@@ -21269,23 +21369,23 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020228,
+		JumpType = 30020227,
 		MonitorTarget = 1021,
 		Id = 12441250,
-		Name = getI18NValue(180261720),
-		Desc = getI18NValue(180261719),
+		Name = getI18NValue(180261734),
+		Desc = getI18NValue(180261733),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
 			406,
-			20040537,
+			20040536,
 			1,
 			2,
-			2,
+			3,
 			-1
 		},
 		ActionParam = {
@@ -21303,15 +21403,49 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020229,
+		JumpType = 30020228,
 		MonitorTarget = 1021,
 		Id = 12441251,
-		Name = getI18NValue(180261722),
-		Desc = getI18NValue(180261721),
+		Name = getI18NValue(180261736),
+		Desc = getI18NValue(180261735),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
+		},
+		EventParam = {
+			13,
+			406,
+			20040537,
+			1,
+			2,
+			3,
+			-1
+		},
+		ActionParam = {
+			202,
+			25
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441252] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 1,
+		JumpType = 30020229,
+		MonitorTarget = 1021,
+		Id = 12441252,
+		Name = getI18NValue(180261738),
+		Desc = getI18NValue(180261737),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			2
 		},
 		EventParam = {
 			13,
@@ -21333,19 +21467,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441252] = {
+	[12441253] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020230,
 		MonitorTarget = 1021,
-		Id = 12441252,
-		Name = getI18NValue(180261724),
-		Desc = getI18NValue(180261723),
+		Id = 12441253,
+		Name = getI18NValue(180261740),
+		Desc = getI18NValue(180261739),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21367,19 +21501,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441253] = {
+	[12441254] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020231,
 		MonitorTarget = 1021,
-		Id = 12441253,
-		Name = getI18NValue(180261726),
-		Desc = getI18NValue(180261725),
+		Id = 12441254,
+		Name = getI18NValue(180261742),
+		Desc = getI18NValue(180261741),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21387,41 +21521,7 @@ local CfgTaskTable = {
 			20040540,
 			1,
 			2,
-			4,
-			-1
-		},
-		ActionParam = {
-			202,
-			25
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441254] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 1,
-		JumpType = 30020232,
-		MonitorTarget = 1021,
-		Id = 12441254,
-		Name = getI18NValue(180261728),
-		Desc = getI18NValue(180261727),
-		PickUpInfo = null,
-		TypeExtend = {
-			6,
-			4
-		},
-		EventParam = {
-			13,
-			407,
-			20040541,
-			1,
-			2,
-			4,
+			5,
 			-1
 		},
 		ActionParam = {
@@ -21439,23 +21539,23 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020233,
+		JumpType = 30020232,
 		MonitorTarget = 1021,
 		Id = 12441255,
-		Name = getI18NValue(180261730),
-		Desc = getI18NValue(180261729),
+		Name = getI18NValue(180261744),
+		Desc = getI18NValue(180261743),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
 			407,
-			20040542,
+			20040541,
 			1,
 			2,
-			4,
+			5,
 			-1
 		},
 		ActionParam = {
@@ -21473,15 +21573,49 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020222,
+		JumpType = 30020233,
 		MonitorTarget = 1021,
 		Id = 12441256,
-		Name = getI18NValue(180261732),
-		Desc = getI18NValue(180261731),
+		Name = getI18NValue(180261746),
+		Desc = getI18NValue(180261745),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
+		},
+		EventParam = {
+			13,
+			407,
+			20040542,
+			1,
+			2,
+			6,
+			-1
+		},
+		ActionParam = {
+			202,
+			25
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441257] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 1,
+		JumpType = 30020222,
+		MonitorTarget = 1021,
+		Id = 12441257,
+		Name = getI18NValue(180261748),
+		Desc = getI18NValue(180261747),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			2
 		},
 		EventParam = {
 			13,
@@ -21503,19 +21637,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441257] = {
+	[12441258] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020223,
 		MonitorTarget = 1021,
-		Id = 12441257,
-		Name = getI18NValue(180261734),
-		Desc = getI18NValue(180261733),
+		Id = 12441258,
+		Name = getI18NValue(180261750),
+		Desc = getI18NValue(180261749),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21537,19 +21671,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441258] = {
+	[12441259] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020224,
 		MonitorTarget = 1021,
-		Id = 12441258,
-		Name = getI18NValue(180261736),
-		Desc = getI18NValue(180261735),
+		Id = 12441259,
+		Name = getI18NValue(180261752),
+		Desc = getI18NValue(180261751),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21571,19 +21705,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441259] = {
+	[12441260] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020225,
 		MonitorTarget = 1021,
-		Id = 12441259,
-		Name = getI18NValue(180261738),
-		Desc = getI18NValue(180261737),
+		Id = 12441260,
+		Name = getI18NValue(180261754),
+		Desc = getI18NValue(180261753),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21605,19 +21739,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441260] = {
+	[12441261] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020226,
 		MonitorTarget = 1021,
-		Id = 12441260,
-		Name = getI18NValue(180261740),
-		Desc = getI18NValue(180261739),
+		Id = 12441261,
+		Name = getI18NValue(180261756),
+		Desc = getI18NValue(180261755),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21625,41 +21759,7 @@ local CfgTaskTable = {
 			20040535,
 			1,
 			2,
-			1,
-			-1
-		},
-		ActionParam = {
-			202,
-			30
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441261] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 1,
-		JumpType = 30020227,
-		MonitorTarget = 1021,
-		Id = 12441261,
-		Name = getI18NValue(180261742),
-		Desc = getI18NValue(180261741),
-		PickUpInfo = null,
-		TypeExtend = {
-			6,
-			4
-		},
-		EventParam = {
-			13,
-			406,
-			20040536,
-			1,
 			2,
-			1,
 			-1
 		},
 		ActionParam = {
@@ -21677,23 +21777,23 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020228,
+		JumpType = 30020227,
 		MonitorTarget = 1021,
 		Id = 12441262,
-		Name = getI18NValue(180261744),
-		Desc = getI18NValue(180261743),
+		Name = getI18NValue(180261758),
+		Desc = getI18NValue(180261757),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
 			406,
-			20040537,
+			20040536,
 			1,
 			2,
-			1,
+			2,
 			-1
 		},
 		ActionParam = {
@@ -21711,15 +21811,49 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020229,
+		JumpType = 30020228,
 		MonitorTarget = 1021,
 		Id = 12441263,
-		Name = getI18NValue(180261746),
-		Desc = getI18NValue(180261745),
+		Name = getI18NValue(180261760),
+		Desc = getI18NValue(180261759),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
+		},
+		EventParam = {
+			13,
+			406,
+			20040537,
+			1,
+			2,
+			2,
+			-1
+		},
+		ActionParam = {
+			202,
+			30
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441264] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 1,
+		JumpType = 30020229,
+		MonitorTarget = 1021,
+		Id = 12441264,
+		Name = getI18NValue(180261762),
+		Desc = getI18NValue(180261761),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			2
 		},
 		EventParam = {
 			13,
@@ -21741,19 +21875,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441264] = {
+	[12441265] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020230,
 		MonitorTarget = 1021,
-		Id = 12441264,
-		Name = getI18NValue(180261748),
-		Desc = getI18NValue(180261747),
+		Id = 12441265,
+		Name = getI18NValue(180261764),
+		Desc = getI18NValue(180261763),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21775,19 +21909,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441265] = {
+	[12441266] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
 		JumpType = 30020231,
 		MonitorTarget = 1021,
-		Id = 12441265,
-		Name = getI18NValue(180261750),
-		Desc = getI18NValue(180261749),
+		Id = 12441266,
+		Name = getI18NValue(180261766),
+		Desc = getI18NValue(180261765),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
@@ -21795,41 +21929,7 @@ local CfgTaskTable = {
 			20040540,
 			1,
 			2,
-			2,
-			-1
-		},
-		ActionParam = {
-			202,
-			30
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441266] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 1,
-		JumpType = 30020232,
-		MonitorTarget = 1021,
-		Id = 12441266,
-		Name = getI18NValue(180261752),
-		Desc = getI18NValue(180261751),
-		PickUpInfo = null,
-		TypeExtend = {
-			6,
-			4
-		},
-		EventParam = {
-			13,
-			407,
-			20040541,
-			1,
-			2,
-			2,
+			3,
 			-1
 		},
 		ActionParam = {
@@ -21847,23 +21947,23 @@ local CfgTaskTable = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 1,
-		JumpType = 30020233,
+		JumpType = 30020232,
 		MonitorTarget = 1021,
 		Id = 12441267,
-		Name = getI18NValue(180261754),
-		Desc = getI18NValue(180261753),
+		Name = getI18NValue(180261768),
+		Desc = getI18NValue(180261767),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			13,
 			407,
-			20040542,
+			20040541,
 			1,
 			2,
-			2,
+			3,
 			-1
 		},
 		ActionParam = {
@@ -21880,24 +21980,25 @@ local CfgTaskTable = {
 	[12441268] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 100,
-		JumpType = 30020141,
-		MonitorTarget = 1009,
+		NeedSchedule = 1,
+		JumpType = 30020233,
+		MonitorTarget = 1021,
 		Id = 12441268,
-		Name = getI18NValue(180261756),
-		Desc = getI18NValue(180261755),
+		Name = getI18NValue(180261770),
+		Desc = getI18NValue(180261769),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
-			-1,
-			-1,
-			-1,
-			-1,
-			202,
-			2
+			13,
+			407,
+			20040542,
+			1,
+			2,
+			4,
+			-1
 		},
 		ActionParam = {
 			202,
@@ -21913,16 +22014,16 @@ local CfgTaskTable = {
 	[12441269] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 500,
-		JumpType = 30020141,
+		NeedSchedule = 100,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441269,
-		Name = getI18NValue(180261758),
-		Desc = getI18NValue(180261757),
+		Name = getI18NValue(180261772),
+		Desc = getI18NValue(180261771),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -21946,16 +22047,16 @@ local CfgTaskTable = {
 	[12441270] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 1000,
-		JumpType = 30020141,
+		NeedSchedule = 500,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441270,
-		Name = getI18NValue(180261760),
-		Desc = getI18NValue(180261759),
+		Name = getI18NValue(180261774),
+		Desc = getI18NValue(180261773),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -21979,8 +22080,8 @@ local CfgTaskTable = {
 	[12441271] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 2000,
-		JumpType = 30020141,
+		NeedSchedule = 1000,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441271,
 		Name = getI18NValue(180261385),
@@ -21988,7 +22089,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22000,7 +22101,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			202,
-			50
+			30
 		},
 		CompleteAction = {
 			1,
@@ -22012,8 +22113,8 @@ local CfgTaskTable = {
 	[12441272] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 3000,
-		JumpType = 30020141,
+		NeedSchedule = 2000,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441272,
 		Name = getI18NValue(180261387),
@@ -22021,7 +22122,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22045,8 +22146,8 @@ local CfgTaskTable = {
 	[12441273] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 5000,
-		JumpType = 30020141,
+		NeedSchedule = 3000,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441273,
 		Name = getI18NValue(180261389),
@@ -22054,7 +22155,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22078,8 +22179,8 @@ local CfgTaskTable = {
 	[12441274] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 8000,
-		JumpType = 30020141,
+		NeedSchedule = 5000,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441274,
 		Name = getI18NValue(180261391),
@@ -22087,7 +22188,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22111,8 +22212,8 @@ local CfgTaskTable = {
 	[12441275] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 10000,
-		JumpType = 30020141,
+		NeedSchedule = 8000,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
 		Id = 12441275,
 		Name = getI18NValue(180261393),
@@ -22120,7 +22221,40 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
+		},
+		EventParam = {
+			-1,
+			-1,
+			-1,
+			-1,
+			202,
+			2
+		},
+		ActionParam = {
+			202,
+			50
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441276] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 10000,
+		JumpType = 30020241,
+		MonitorTarget = 1009,
+		Id = 12441276,
+		Name = getI18NValue(180261395),
+		Desc = getI18NValue(180261394),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			2
 		},
 		EventParam = {
 			-1,
@@ -22141,19 +22275,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441276] = {
+	[12441277] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 12000,
-		JumpType = 30020141,
+		JumpType = 30020241,
 		MonitorTarget = 1009,
-		Id = 12441276,
-		Name = getI18NValue(180261395),
-		Desc = getI18NValue(180261394),
+		Id = 12441277,
+		Name = getI18NValue(180261397),
+		Desc = getI18NValue(180261396),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22174,44 +22308,11 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441277] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 100,
-		JumpType = 30020142,
-		MonitorTarget = 1009,
-		Id = 12441277,
-		Name = getI18NValue(180261397),
-		Desc = getI18NValue(180261396),
-		PickUpInfo = null,
-		TypeExtend = {
-			6,
-			4
-		},
-		EventParam = {
-			-1,
-			-1,
-			-1,
-			-1,
-			202,
-			1
-		},
-		ActionParam = {
-			202,
-			30
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
 	[12441278] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 500,
-		JumpType = 30020142,
+		NeedSchedule = 100,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441278,
 		Name = getI18NValue(180261399),
@@ -22219,7 +22320,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22243,8 +22344,8 @@ local CfgTaskTable = {
 	[12441279] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 1000,
-		JumpType = 30020142,
+		NeedSchedule = 500,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441279,
 		Name = getI18NValue(180261401),
@@ -22252,7 +22353,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22276,16 +22377,16 @@ local CfgTaskTable = {
 	[12441280] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 2000,
-		JumpType = 30020142,
+		NeedSchedule = 1000,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441280,
-		Name = getI18NValue(180261762),
-		Desc = getI18NValue(180261761),
+		Name = getI18NValue(180261776),
+		Desc = getI18NValue(180261775),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22297,7 +22398,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			202,
-			50
+			30
 		},
 		CompleteAction = {
 			1,
@@ -22309,8 +22410,8 @@ local CfgTaskTable = {
 	[12441281] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 3000,
-		JumpType = 30020142,
+		NeedSchedule = 2000,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441281,
 		Name = getI18NValue(180261403),
@@ -22318,7 +22419,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22342,8 +22443,8 @@ local CfgTaskTable = {
 	[12441282] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 5000,
-		JumpType = 30020142,
+		NeedSchedule = 3000,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441282,
 		Name = getI18NValue(180261405),
@@ -22351,7 +22452,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22375,8 +22476,8 @@ local CfgTaskTable = {
 	[12441283] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 8000,
-		JumpType = 30020142,
+		NeedSchedule = 5000,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441283,
 		Name = getI18NValue(180261407),
@@ -22384,7 +22485,7 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,
@@ -22408,8 +22509,8 @@ local CfgTaskTable = {
 	[12441284] = {
 		Type = 11,
 		LockShow = 1,
-		NeedSchedule = 10000,
-		JumpType = 30020142,
+		NeedSchedule = 8000,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
 		Id = 12441284,
 		Name = getI18NValue(180261409),
@@ -22417,7 +22518,40 @@ local CfgTaskTable = {
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
+		},
+		EventParam = {
+			-1,
+			-1,
+			-1,
+			-1,
+			202,
+			1
+		},
+		ActionParam = {
+			202,
+			50
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441285] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 10000,
+		JumpType = 30020242,
+		MonitorTarget = 1009,
+		Id = 12441285,
+		Name = getI18NValue(180261411),
+		Desc = getI18NValue(180261410),
+		PickUpInfo = null,
+		TypeExtend = {
+			6,
+			2
 		},
 		EventParam = {
 			-1,
@@ -22438,19 +22572,19 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441285] = {
+	[12441286] = {
 		Type = 11,
 		LockShow = 1,
 		NeedSchedule = 12000,
-		JumpType = 30020142,
+		JumpType = 30020242,
 		MonitorTarget = 1009,
-		Id = 12441285,
-		Name = getI18NValue(180261411),
-		Desc = getI18NValue(180261410),
+		Id = 12441286,
+		Name = getI18NValue(180262428),
+		Desc = getI18NValue(180262427),
 		PickUpInfo = null,
 		TypeExtend = {
 			6,
-			4
+			2
 		},
 		EventParam = {
 			-1,

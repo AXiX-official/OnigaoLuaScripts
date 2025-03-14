@@ -194,6 +194,90 @@ local CfgCardJackpotTable = {
 			1
 		}
 	},
+	[50300103] = {
+		Id = 50300103,
+		LargeGuaranteeTeam = 104,
+		TinyGuaranteeTeam = 103,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_2.prefab",
+		TopMoneyID = 24,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroup = 50310004,
+		Index = 11,
+		IsShow = true,
+		Name = getI18NValue(180262608),
+		CardTeam = {
+			11,
+			12,
+			2
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3001,
+			1
+		},
+		Access = {
+			50100045,
+			50205002
+		},
+		TenTimesMust = {
+			2
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300104] = {
+		Id = 50300104,
+		LargeGuaranteeTeam = 204,
+		TinyGuaranteeTeam = 203,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_SkillUp_2.prefab",
+		TopMoneyID = 25,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroup = 50310005,
+		Index = 12,
+		IsShow = true,
+		Name = getI18NValue(180262609),
+		CardTeam = {
+			21,
+			22
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1500
+		},
+		OneTime = {
+			3003,
+			1
+		},
+		Access = {
+			50100045,
+			50205003
+		},
+		TenTimesMust = {
+			22
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
 	[50300301] = {
 		Id = 50300301,
 		TinyGuaranteeTeam = 31,
@@ -252,6 +336,138 @@ local CfgCardJackpotTable = {
 		Index = 4,
 		IsShow = true,
 		Name = getI18NValue(180260090),
+		CardTeam = {
+			11,
+			12,
+			2
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3004,
+			1
+		},
+		Access = {
+			50100045,
+			50205004
+		},
+		TenTimesMust = {
+			2
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300303] = {
+		Id = 50300303,
+		TinyGuaranteeTeam = 32,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_1.prefab",
+		TopMoneyID = 104,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroupID = 102,
+		CardGroup = 50310101,
+		ShowGroup = 1,
+		Index = 4,
+		IsShow = true,
+		Name = getI18NValue(180262610),
+		CardTeam = {
+			11,
+			12,
+			2
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3004,
+			1
+		},
+		Access = {
+			50100045,
+			50205004
+		},
+		TenTimesMust = {
+			2
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300304] = {
+		Id = 50300304,
+		TinyGuaranteeTeam = 33,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_1.prefab",
+		TopMoneyID = 104,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroupID = 102,
+		CardGroup = 50310101,
+		ShowGroup = 1,
+		Index = 4,
+		IsShow = true,
+		Name = getI18NValue(180262611),
+		CardTeam = {
+			11,
+			12,
+			2
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3004,
+			1
+		},
+		Access = {
+			50100045,
+			50205004
+		},
+		TenTimesMust = {
+			2
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300305] = {
+		Id = 50300305,
+		TinyGuaranteeTeam = 38,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_1.prefab",
+		TopMoneyID = 104,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroupID = 102,
+		CardGroup = 50310101,
+		ShowGroup = 1,
+		Index = 4,
+		IsShow = true,
+		Name = getI18NValue(180262612),
 		CardTeam = {
 			11,
 			12,

@@ -1474,7 +1474,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020215,
 		FunctionType = 121,
-		Name = getI18NValue(180261621),
+		Name = getI18NValue(180261623),
 		Params = {
 			1,
 			20040521
@@ -1484,7 +1484,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020216,
 		FunctionType = 121,
-		Name = getI18NValue(180261622),
+		Name = getI18NValue(180261624),
 		Params = {
 			1,
 			20040522
@@ -1494,7 +1494,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020217,
 		FunctionType = 121,
-		Name = getI18NValue(180261623),
+		Name = getI18NValue(180261625),
 		Params = {
 			1,
 			20040523
@@ -1504,7 +1504,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020218,
 		FunctionType = 121,
-		Name = getI18NValue(180261624),
+		Name = getI18NValue(180261626),
 		Params = {
 			1,
 			20040524
@@ -1514,7 +1514,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020219,
 		FunctionType = 121,
-		Name = getI18NValue(180261625),
+		Name = getI18NValue(180261627),
 		Params = {
 			1,
 			20040525
@@ -1524,7 +1524,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020220,
 		FunctionType = 121,
-		Name = getI18NValue(180261626),
+		Name = getI18NValue(180261628),
 		Params = {
 			1,
 			20040526
@@ -1534,7 +1534,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020221,
 		FunctionType = 121,
-		Name = getI18NValue(180261627),
+		Name = getI18NValue(180261629),
 		Params = {
 			1,
 			20040527
@@ -1544,7 +1544,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020222,
 		FunctionType = 121,
-		Name = getI18NValue(180261628),
+		Name = getI18NValue(180261630),
 		Params = {
 			1,
 			20040531
@@ -1554,7 +1554,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020223,
 		FunctionType = 121,
-		Name = getI18NValue(180261629),
+		Name = getI18NValue(180261631),
 		Params = {
 			1,
 			20040532
@@ -1564,7 +1564,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020224,
 		FunctionType = 121,
-		Name = getI18NValue(180261630),
+		Name = getI18NValue(180261632),
 		Params = {
 			1,
 			20040533
@@ -1574,7 +1574,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020225,
 		FunctionType = 121,
-		Name = getI18NValue(180261631),
+		Name = getI18NValue(180261633),
 		Params = {
 			1,
 			20040534
@@ -1584,7 +1584,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020226,
 		FunctionType = 121,
-		Name = getI18NValue(180261632),
+		Name = getI18NValue(180261634),
 		Params = {
 			1,
 			20040535
@@ -1594,7 +1594,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020227,
 		FunctionType = 121,
-		Name = getI18NValue(180261633),
+		Name = getI18NValue(180261635),
 		Params = {
 			1,
 			20040536
@@ -1604,7 +1604,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020228,
 		FunctionType = 121,
-		Name = getI18NValue(180261634),
+		Name = getI18NValue(180261636),
 		Params = {
 			1,
 			20040537
@@ -1614,7 +1614,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020229,
 		FunctionType = 121,
-		Name = getI18NValue(180261635),
+		Name = getI18NValue(180261637),
 		Params = {
 			1,
 			20040538
@@ -1624,7 +1624,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020230,
 		FunctionType = 121,
-		Name = getI18NValue(180261636),
+		Name = getI18NValue(180261638),
 		Params = {
 			1,
 			20040539
@@ -1660,11 +1660,21 @@ local CfgFunctionTable = {
 			20040542
 		}
 	},
+	[30020234] = {
+		SceneType = 2,
+		Id = 30020234,
+		FunctionType = 121,
+		Name = getI18NValue(180262423),
+		Params = {
+			1,
+			20040543
+		}
+	},
 	[30020241] = {
 		SceneType = 2,
 		Id = 30020241,
 		FunctionType = 121,
-		Name = getI18NValue(180261637),
+		Name = getI18NValue(180261639),
 		Params = {
 			1
 		}
@@ -1673,7 +1683,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020242,
 		FunctionType = 121,
-		Name = getI18NValue(180261638),
+		Name = getI18NValue(180261640),
 		Params = {
 			2
 		}
@@ -1682,7 +1692,7 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Id = 30020243,
 		FunctionType = 121,
-		Name = getI18NValue(180261639),
+		Name = getI18NValue(180261641),
 		Params = {
 			3
 		}

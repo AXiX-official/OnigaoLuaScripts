@@ -881,6 +881,7 @@ local CfgDropLibTable = {
 		LoopCount = 1,
 		Id = 30,
 		RandomIds = {
+			80000,
 			80001,
 			80002,
 			80003,
@@ -890,7 +891,17 @@ local CfgDropLibTable = {
 			80007,
 			80008,
 			80009,
+			80010,
 			80011,
+			80012,
+			80013,
+			80014,
+			80015,
+			80016,
+			80017,
+			80018,
+			80019,
+			80020,
 			80101,
 			80102,
 			80103,
@@ -906,6 +917,15 @@ local CfgDropLibTable = {
 			80113,
 			80114,
 			80115,
+			80116,
+			80117,
+			80118,
+			80119,
+			80120,
+			80121,
+			80122,
+			80123,
+			80124,
 			80201,
 			80202,
 			80203,
@@ -913,9 +933,59 @@ local CfgDropLibTable = {
 			80205,
 			80206,
 			80207,
-			80208
+			80208,
+			80209,
+			80210,
+			80211,
+			80212,
+			80213,
+			80214,
+			80215,
+			80216,
+			80217,
+			80218,
+			80219,
+			80220,
+			80221,
+			80222,
+			80223
 		},
 		RandomType = {
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
+			2,
 			2,
 			2,
 			2,
@@ -983,9 +1053,79 @@ local CfgDropLibTable = {
 			1,
 			1,
 			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
 			1
 		},
 		Rates = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -2832,7 +2972,7 @@ local CfgDropLibTable = {
 		},
 		RandomCount = {
 			1,
-			5,
+			300,
 			5,
 			99,
 			999,
@@ -24894,96 +25034,27 @@ local CfgDropLibTable = {
 			100
 		}
 	},
-	[31201541] = {
-		Id = 31201541,
+	[31201534] = {
+		Id = 31201534,
 		DropShowItem = {
-			202,
-			5
+			3,
+			202
 		},
 		DropShowItemNum = {
-			15,
-			100
+			50,
+			200
 		},
 		DropItemTag = {
-			0,
-			0
+			3,
+			3
 		},
 		GiftItemIds = {
-			202,
-			5
+			3,
+			202
 		},
 		GiftItemCount = {
-			15,
-			100
-		}
-	},
-	[31201542] = {
-		Id = 31201542,
-		DropShowItem = {
-			202,
-			5
-		},
-		DropShowItemNum = {
-			22,
-			120
-		},
-		DropItemTag = {
-			0,
-			0
-		},
-		GiftItemIds = {
-			202,
-			5
-		},
-		GiftItemCount = {
-			22,
-			120
-		}
-	},
-	[31201543] = {
-		Id = 31201543,
-		DropShowItem = {
-			202,
-			5
-		},
-		DropShowItemNum = {
-			22,
-			120
-		},
-		DropItemTag = {
-			0,
-			0
-		},
-		GiftItemIds = {
-			202,
-			5
-		},
-		GiftItemCount = {
-			22,
-			120
-		}
-	},
-	[31201544] = {
-		Id = 31201544,
-		DropShowItem = {
-			202,
-			5
-		},
-		DropShowItemNum = {
-			28,
-			140
-		},
-		DropItemTag = {
-			0,
-			0
-		},
-		GiftItemIds = {
-			202,
-			5
-		},
-		GiftItemCount = {
-			28,
-			140
+			50,
+			200
 		}
 	},
 	[31201545] = {
@@ -24993,8 +25064,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			15,
-			100
+			12,
+			60
 		},
 		DropItemTag = {
 			0,
@@ -25005,8 +25076,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			15,
-			100
+			12,
+			60
 		}
 	},
 	[31201546] = {
@@ -25016,8 +25087,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			15,
-			100
+			16,
+			80
 		},
 		DropItemTag = {
 			0,
@@ -25028,8 +25099,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			15,
-			100
+			16,
+			80
 		}
 	},
 	[31201547] = {
@@ -25039,8 +25110,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			22,
-			120
+			20,
+			100
 		},
 		DropItemTag = {
 			0,
@@ -25051,8 +25122,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			22,
-			120
+			20,
+			100
 		}
 	},
 	[31201548] = {
@@ -25062,7 +25133,7 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			22,
+			24,
 			120
 		},
 		DropItemTag = {
@@ -25074,7 +25145,7 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			22,
+			24,
 			120
 		}
 	},
@@ -25085,8 +25156,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			22,
-			120
+			28,
+			140
 		},
 		DropItemTag = {
 			0,
@@ -25097,8 +25168,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			22,
-			120
+			28,
+			140
 		}
 	},
 	[31201550] = {
@@ -25108,8 +25179,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			28,
-			140
+			32,
+			160
 		},
 		DropItemTag = {
 			0,
@@ -25120,8 +25191,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			28,
-			140
+			32,
+			160
 		}
 	},
 	[31201551] = {
@@ -25131,8 +25202,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			28,
-			140
+			36,
+			180
 		},
 		DropItemTag = {
 			0,
@@ -25143,8 +25214,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			28,
-			140
+			36,
+			180
 		}
 	},
 	[31201552] = {
@@ -25154,8 +25225,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			28,
-			140
+			40,
+			200
 		},
 		DropItemTag = {
 			0,
@@ -25166,8 +25237,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			28,
-			140
+			40,
+			200
 		}
 	},
 	[31201553] = {
@@ -25177,8 +25248,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			28,
-			140
+			44,
+			220
 		},
 		DropItemTag = {
 			0,
@@ -25189,8 +25260,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			28,
-			140
+			44,
+			220
 		}
 	},
 	[31201554] = {
@@ -25200,8 +25271,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			35,
-			160
+			48,
+			240
 		},
 		DropItemTag = {
 			0,
@@ -25212,8 +25283,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			35,
-			160
+			48,
+			240
 		}
 	},
 	[31201555] = {
@@ -25223,8 +25294,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			45,
-			180
+			52,
+			260
 		},
 		DropItemTag = {
 			0,
@@ -25235,8 +25306,8 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			45,
-			180
+			52,
+			260
 		}
 	},
 	[31201556] = {
@@ -25246,8 +25317,8 @@ local CfgDropLibTable = {
 			5
 		},
 		DropShowItemNum = {
-			60,
-			200
+			56,
+			280
 		},
 		DropItemTag = {
 			0,
@@ -25258,8 +25329,31 @@ local CfgDropLibTable = {
 			5
 		},
 		GiftItemCount = {
-			60,
-			200
+			56,
+			280
+		}
+	},
+	[31201557] = {
+		Id = 31201557,
+		DropShowItem = {
+			202,
+			5
+		},
+		DropShowItemNum = {
+			150,
+			300
+		},
+		DropItemTag = {
+			0,
+			0
+		},
+		GiftItemIds = {
+			202,
+			5
+		},
+		GiftItemCount = {
+			150,
+			300
 		}
 	},
 	[31202001] = {

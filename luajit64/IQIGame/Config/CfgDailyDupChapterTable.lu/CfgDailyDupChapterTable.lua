@@ -336,6 +336,17 @@ local CfgDailyDupChapterTable = {
 		Index = 20,
 		ActivityId = 60000001,
 		Name = getI18NValue(180036308)
+	},
+	[1000006] = {
+		Id = 1000006,
+		TabImg = "/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTitleImg_04.png",
+		EnglishName = "CESHIGUANQIA",
+		UnlockConditionId = 30000001,
+		ChapterNameImg = "/DataResource/ChapterResource/ResourceImg/ResourceImg_01.png",
+		Type = 2,
+		Index = 21,
+		ActivityId = 60000001,
+		Name = getI18NValue(180262852)
 	}
 }
 

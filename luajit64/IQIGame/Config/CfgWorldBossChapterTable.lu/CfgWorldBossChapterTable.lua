@@ -31,6 +31,20 @@ local CfgWorldBossChapterTable = {
 		Id = 1004,
 		ActivityId = 60010001,
 		Name = getI18NValue(180261420)
+	},
+	[1005] = {
+		MonsterTeam = 14501010,
+		BossType = 1,
+		Id = 1005,
+		ActivityId = 60010001,
+		Name = getI18NValue(180263001)
+	},
+	[1006] = {
+		MonsterTeam = 14501010,
+		BossType = 1,
+		Id = 1006,
+		ActivityId = 60010001,
+		Name = getI18NValue(180263002)
 	}
 }
 

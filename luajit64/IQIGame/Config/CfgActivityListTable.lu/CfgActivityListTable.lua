@@ -364,7 +364,7 @@ local CfgActivityListTable = {
 	},
 	[60101018] = {
 		ActivityType = 110,
-		ActivityPrefab = "/_Activity/SummerSignActivity",
+		ActivityPrefab = "/_Activity/XiaNaiSignActivity",
 		ActivityTeam = 1,
 		Sort = 101,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
@@ -386,16 +386,16 @@ local CfgActivityListTable = {
 		Name = getI18NValue(180261288),
 		ShowConditionID = {
 			30070215,
-			30000010
+			30000005
 		}
 	},
 	[60301004] = {
 		ActivityType = 301,
 		Branch = 1,
-		ActivityPrefab = "/_ActiveActivity/SummerMainActivity",
+		ActivityPrefab = "/_ActiveActivity/XiaNaiMainActivity",
 		ActivityTeam = 3,
 		Sort = 1,
-		Background = "/UI/ActivityPart/SummerActivity/SummerActivityMain/SummerActivity_bg_01.png",
+		Background = "/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityMain/XiaNaiActivity_bg_01.png",
 		Id = 60301004,
 		Name = getI18NValue(180261289),
 		ActivityID = {
@@ -403,7 +403,7 @@ local CfgActivityListTable = {
 		},
 		ShowConditionID = {
 			30070215,
-			30000010
+			30000005
 		}
 	},
 	[60301010] = {

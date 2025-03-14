@@ -460,6 +460,18 @@ function LotteryUI:__RefreshCardPoolShow(selectCardJackpotID)
 	ForPairs(openPool, function(_, _drawPOD)
 		local cardCfg = CfgUtil.GetCardJackpotWithID(_drawPOD.id)
 
+		if not cardCfg.RookieCard then
+			local endTime = TryToNumber(_drawPOD.endTime, 0)
+
+			if endTime > 0 then
+				local span = endTime - tonumber(PlayerModule.GetServerTimeByMs())
+
+				if span <= 0 then
+					return
+				end
+			end
+		end
+
 		if cardCfg.CardGroupID ~= 0 then
 			if __showGroupPool[cardCfg.CardGroupID] == nil then
 				__showGroupPool[cardCfg.CardGroupID] = {}

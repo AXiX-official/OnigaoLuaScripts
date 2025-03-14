@@ -116,10 +116,10 @@ local CfgPayActivityTable = {
 	[1011] = {
 		Path = "/DataResource/UIResource/MainCommonImg/MainUI_BannerImg_17.png",
 		Skip = 50000004,
-		OpenTime = "2024/6/27 4:00",
+		OpenTime = "2024/3/14 4:00",
 		Type = 2,
 		Id = 1011,
-		Des = "卡池跳转-烈火追凶",
+		Des = "卡池跳转-桀怨劫火",
 		Duration = {
 			1814400
 		}
@@ -127,10 +127,10 @@ local CfgPayActivityTable = {
 	[1012] = {
 		Path = "/DataResource/UIResource/MainCommonImg/MainUI_BannerImg_18.png",
 		Skip = 50000005,
-		OpenTime = "2024/6/27 4:00",
+		OpenTime = "2024/3/14 4:00",
 		Type = 2,
 		Id = 1012,
-		Des = "卡池跳转-妖吟咒火",
+		Des = "卡池跳转-火鼠裘",
 		Duration = {
 			1814400
 		}
@@ -264,20 +264,20 @@ local CfgPayActivityTable = {
 	},
 	[10105] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
+		UIPrefab = "/_Notice/Notice_Lottery_zhanzi_1",
 		Type = 2,
 		Id = 10105,
 		Order = 8,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_wunian_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_zhanzi_Banner_01_1.png",
 		Name = getI18NValue(180253658)
 	},
 	[10106] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_1",
+		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_2",
 		Type = 2,
 		Id = 10106,
 		Order = 9,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_2.png",
 		Name = getI18NValue(180253659)
 	},
 	[10107] = {
@@ -330,15 +330,15 @@ local CfgPayActivityTable = {
 	},
 	[10111] = {
 		Id = 10111,
-		OpenTime = "2024/3/5 4:00",
+		OpenTime = "2025/3/14 4:00",
 		Type = 2,
 		Skip = 30020201,
 		Order = 7,
-		UIPrefab = "/_Notice/Notice_Lottery_kanjieyoulei_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_FanLi_Banner_1.png",
+		UIPrefab = "/_Notice/Notice_XiaNai",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_XiaNai.png",
 		Name = getI18NValue(180261351),
 		Duration = {
-			1209600
+			2764800
 		}
 	},
 	[30101] = {
@@ -382,20 +382,20 @@ local CfgPayActivityTable = {
 	},
 	[30105] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
+		UIPrefab = "/_Notice/Notice_Lottery_zhanzi_1",
 		Type = 3,
 		Id = 30105,
 		Order = 8,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_wunian_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_zhanzi_Banner_01_1.png",
 		Name = getI18NValue(180255857)
 	},
 	[30106] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_1",
+		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_2",
 		Type = 3,
 		Id = 30106,
 		Order = 9,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_2.png",
 		Name = getI18NValue(180255858)
 	},
 	[30107] = {
@@ -448,15 +448,15 @@ local CfgPayActivityTable = {
 	},
 	[30111] = {
 		Id = 30111,
-		OpenTime = "2024/3/5 4:00",
+		OpenTime = "2025/3/14 4:00",
 		Type = 3,
 		Skip = 30020201,
 		Order = 7,
-		UIPrefab = "/_Notice/Notice_Lottery_kanjieyoulei_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_FanLi_Banner_1.png",
+		UIPrefab = "/_Notice/Notice_XiaNai",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_XiaNai.png",
 		Name = getI18NValue(180261352),
 		Duration = {
-			1209600
+			2764800
 		}
 	}
 }

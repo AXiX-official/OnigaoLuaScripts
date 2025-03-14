@@ -349,7 +349,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3011,
 		Motion = "special_1",
-		CVid = 300010301,
+		CVid = 300010311,
 		Position = {
 			0,
 			-160,
@@ -363,7 +363,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3012,
 		Motion = "skill_1",
-		CVid = 300010302,
+		CVid = 300010312,
 		Position = {
 			0,
 			-160,
@@ -377,7 +377,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3013,
 		Motion = "attack_1",
-		CVid = 300010303,
+		CVid = 300010313,
 		Position = {
 			0,
 			-160,
@@ -391,7 +391,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3014,
 		Motion = "hit",
-		CVid = 300010304,
+		CVid = 300010314,
 		Position = {
 			0,
 			-160,
@@ -405,7 +405,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3021,
 		Motion = "special_1",
-		CVid = 300010301,
+		CVid = 300010321,
 		Position = {
 			0,
 			-160,
@@ -419,7 +419,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3022,
 		Motion = "skill_1",
-		CVid = 300010302,
+		CVid = 300010322,
 		Position = {
 			0,
 			-160,
@@ -433,7 +433,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3023,
 		Motion = "attack_1",
-		CVid = 300010303,
+		CVid = 300010323,
 		Position = {
 			0,
 			-160,
@@ -447,7 +447,7 @@ local CfgNpcUiActionTable = {
 		TriggerParam = "0|24|100",
 		Id = 3024,
 		Motion = "hit",
-		CVid = 300010304,
+		CVid = 300010324,
 		Position = {
 			0,
 			-160,

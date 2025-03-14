@@ -448,6 +448,16 @@ local CfgImagePuzzleTable = {
 		IsAlphaBG = true,
 		ImageDescription = getI18NValue(180167644)
 	},
+	[40301] = {
+		Id = 40301,
+		ImagePrefabPath = "Assets/03_Prefabs/UI/_ImagePuzzleUI/Event3/Jigsaw_01.prefab",
+		ImageDescription = getI18NValue(180262435)
+	},
+	[40302] = {
+		Id = 40302,
+		ImagePrefabPath = "Assets/03_Prefabs/UI/_ImagePuzzleUI/Event3/Jigsaw_02.prefab",
+		ImageDescription = getI18NValue(180262436)
+	},
 	[10100] = {
 		Id = 10100,
 		ImagePrefabPath = "Assets/03_Prefabs/UI/_ImagePuzzleUI/part1/Part1_End.prefab",

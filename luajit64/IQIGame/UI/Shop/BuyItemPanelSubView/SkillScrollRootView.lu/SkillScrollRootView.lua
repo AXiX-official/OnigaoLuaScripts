@@ -27,9 +27,9 @@ end
 
 function m:SetData(itemCfg)
 	local skillCfg = CfgSkillTable[itemCfg.LikeId]
-	local skillLvCfg = CfgUtil.GetCfgSkillLevelDataWithID(skillCfg.Id)[1]
+	local skillTips = WarehouseModule.GetSkillTipsByLevel(itemCfg.LikeId, 1)
 
-	UGUIUtil.SetText(self.skillDescText, skillLvCfg.SkillTips)
+	UGUIUtil.SetText(self.skillDescText, skillTips)
 	self:Reset()
 
 	local isElementLimit = table.len(skillCfg.ElementLimit) > 0

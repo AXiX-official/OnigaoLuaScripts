@@ -841,6 +841,13 @@ local CfgSceneListTable = {
 		SceneFile = "Battle/401_1_Maze_Hospital_Normal_PrefabBattle",
 		LoadingUI = "LoadingNormalUI"
 	},
+	[1991] = {
+		BGM = 11000006,
+		RenderConfig = "Battle/99_1_CollegeLnfirmary_Normal_SRCBattle",
+		Id = 1991,
+		SceneFile = "Battle/99_1_CollegeLnfirmary_Normal_PrefabBattle",
+		LoadingUI = "LoadingNormalUI"
+	},
 	[2005] = {
 		BGM = 10000004,
 		RenderConfig = "MainCity/01_1_MainCity_Afternoon_SRCMainCity",
@@ -1642,6 +1649,13 @@ local CfgSceneListTable = {
 		RenderConfig = "Story/46_2_SchoolLaboratory_night_SRCStory",
 		Id = 2462,
 		SceneFile = "Story/46_2_SchoolLaboratory_night_PrefabStory",
+		LoadingUI = "LoadingNormalUI"
+	},
+	[2463] = {
+		BGM = 11000006,
+		RenderConfig = "Story/46_3_SchoolLaboratory_Branch_Normal_SRCStory",
+		Id = 2463,
+		SceneFile = "Story/46_3_SchoolLaboratory_Branch_Normal_PrefabStory",
 		LoadingUI = "LoadingNormalUI"
 	},
 	[2471] = {

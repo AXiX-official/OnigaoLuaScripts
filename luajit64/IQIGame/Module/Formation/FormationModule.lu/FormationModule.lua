@@ -425,8 +425,9 @@ function FormationModule.GetChapterConfigByType(chapterType, stageId, storyBattl
 		config = CfgUtil.GetCfgActivityStageDataWithID(stageId)
 	elseif chapterType == Constant.ChapterPassType.TYPE_Challenge or chapterType == Constant.ChapterPassType.TYPE_SummerActivity or chapterType == Constant.ChapterPassType.TYPE_Ghost then
 		local cfgWorldMapItem = CfgUtil.GetCfgWorldMapItemDataWithID(stageId)
+		local showStoryBattleID = TryToNumber(cfgWorldMapItem.ShowStoryBattleID, 0)
 
-		if cfgWorldMapItem.ShowStoryBattleID then
+		if showStoryBattleID > 0 then
 			config = CfgUtil.GetCfgStoryBattleDataWithID(cfgWorldMapItem.ShowStoryBattleID)
 		end
 	elseif chapterType == Constant.ChapterPassType.TYPE_Maze then

@@ -47,7 +47,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203191),
 		UnlockCondition = {
-			39101004
+			39101006
 		}
 	},
 	[101005] = {
@@ -83,7 +83,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203194),
 		UnlockCondition = {
-			39101007
+			39101006
 		}
 	},
 	[101008] = {
@@ -96,7 +96,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203195),
 		UnlockCondition = {
-			39101008
+			39101006
 		}
 	},
 	[101009] = {
@@ -109,7 +109,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203196),
 		UnlockCondition = {
-			39101009
+			39101006
 		}
 	},
 	[101010] = {
@@ -122,7 +122,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203197),
 		UnlockCondition = {
-			39101010
+			39101006
 		}
 	},
 	[101011] = {
@@ -1218,6 +1218,97 @@ local CfgWorldMapRoomTable = {
 		IsDefault = false,
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180261619),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201002] = {
+		Id = 201002,
+		AreaId = 20100,
+		Sort = 201002,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262769),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201003] = {
+		Id = 201003,
+		AreaId = 20100,
+		Sort = 201003,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262770),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201004] = {
+		Id = 201004,
+		AreaId = 20100,
+		Sort = 201004,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262771),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201005] = {
+		Id = 201005,
+		AreaId = 20100,
+		Sort = 201005,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262772),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201006] = {
+		Id = 201006,
+		AreaId = 20100,
+		Sort = 201006,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262773),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201007] = {
+		Id = 201007,
+		AreaId = 20100,
+		Sort = 201007,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262774),
+		UnlockCondition = {
+			30000000
+		}
+	},
+	[201008] = {
+		Id = 201008,
+		AreaId = 20100,
+		Sort = 201008,
+		RoomType = 2,
+		SceneId = 40100100,
+		IsDefault = false,
+		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
+		Name = getI18NValue(180262775),
 		UnlockCondition = {
 			30000000
 		}

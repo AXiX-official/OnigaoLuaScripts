@@ -207,6 +207,21 @@ local CfgDupTagTable = {
 			30000001
 		}
 	},
+	[209] = {
+		DupShow = 1,
+		DupType = 2,
+		TitleImgClose = "Assets/05_Images/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTypeImg_02.png",
+		TitleImg = "Assets/05_Images/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTypeImg_01.png",
+		Id = 209,
+		ParentID = 2,
+		Name = getI18NValue(180262875),
+		FilterIds = {
+			1000006
+		},
+		UnlockConditionId = {
+			30000001
+		}
+	},
 	[302] = {
 		UnlockNoticeId = 55004,
 		DupShow = 2,

@@ -34,6 +34,7 @@ end
 function ChallengeWorldBossUI:OnOpen(userData)
 	self.entryPopupView:Hide()
 	self.monsterTeamView:Hide()
+	self.PreviewBtn.gameObject:SetActive(false)
 
 	local chapterCfg = ChallengeWorldBossModule.GetCurChapterCfg()
 
@@ -110,7 +111,7 @@ function ChallengeWorldBossUI:OnDestroy()
 end
 
 function ChallengeWorldBossUI:__OnPreviewBtnClickHandler()
-	UIModule.Open(Constant.UIControllerName.ChallengeWorldBossPreviewUI, Constant.UILayer.UI)
+	return
 end
 
 function ChallengeWorldBossUI:__OnTopRewardBtnClickHandler()

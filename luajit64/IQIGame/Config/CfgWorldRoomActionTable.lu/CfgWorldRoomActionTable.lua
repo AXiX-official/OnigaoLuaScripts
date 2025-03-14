@@ -15241,52 +15241,48 @@ local CfgWorldRoomActionTable = {
 		}
 	},
 	[401001] = {
-		Id = 401001,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40040401,
-		TriggerTimesMax = 104001,
+		ActionType = 2001,
+		Id = 401001,
+		Order = 1,
 		ActionName = getI18NValue(180234388),
 		ActionParam = {
 			104018
 		}
 	},
 	[401002] = {
-		Id = 401002,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40070418,
-		TriggerTimesMax = 104018,
+		ActionType = 2001,
+		Id = 401002,
+		Order = 1,
 		ActionName = getI18NValue(180234389),
 		ActionParam = {
 			104001
 		}
 	},
 	[401003] = {
-		Id = 401003,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40040102,
-		TriggerTimesMax = 101002,
+		ActionType = 2001,
+		Id = 401003,
+		Order = 1,
 		ActionName = getI18NValue(180234390),
 		ActionParam = {
 			101001
 		}
 	},
 	[401004] = {
-		Id = 401004,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40060101,
-		TriggerTimesMax = 101001,
+		ActionType = 2001,
+		Id = 401004,
+		Order = 1,
 		ActionName = getI18NValue(180234391),
 		ActionParam = {
 			101002,
@@ -15294,94 +15290,151 @@ local CfgWorldRoomActionTable = {
 		}
 	},
 	[401005] = {
-		Id = 401005,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40040201,
-		TriggerTimesMax = 102001,
+		ActionType = 2001,
+		Id = 401005,
+		Order = 1,
 		ActionName = getI18NValue(180234392),
 		ActionParam = {
 			102012
 		}
 	},
 	[401006] = {
-		Id = 401006,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40040212,
-		TriggerTimesMax = 102012,
+		ActionType = 2001,
+		Id = 401006,
+		Order = 1,
 		ActionName = getI18NValue(180234393),
 		ActionParam = {
 			102001
 		}
 	},
 	[401007] = {
-		Id = 401007,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40050212,
-		TriggerTimesMax = 102012,
+		ActionType = 2001,
+		Id = 401007,
+		Order = 1,
 		ActionName = getI18NValue(180234394),
 		ActionParam = {
 			102007
 		}
 	},
 	[401008] = {
-		Id = 401008,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40060207,
-		TriggerTimesMax = 102007,
+		ActionType = 2001,
+		Id = 401008,
+		Order = 1,
 		ActionName = getI18NValue(180234395),
 		ActionParam = {
 			102012
 		}
 	},
 	[401009] = {
-		Id = 401009,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40040301,
-		TriggerTimesMax = 103001,
+		ActionType = 2001,
+		Id = 401009,
+		Order = 1,
 		ActionName = getI18NValue(180234396),
 		ActionParam = {
 			103002
 		}
 	},
 	[401010] = {
-		Id = 401010,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40040302,
-		TriggerTimesMax = 103002,
+		ActionType = 2001,
+		Id = 401010,
+		Order = 1,
 		ActionName = getI18NValue(180234397),
 		ActionParam = {
 			103001
 		}
 	},
 	[401011] = {
-		Id = 401011,
 		IsStatic = true,
-		ActionType = 2001,
-		Order = 1,
 		TriggerType = 2,
 		CompId = 40060105,
-		TriggerTimesMax = 101005,
+		ActionType = 2001,
+		Id = 401011,
+		Order = 1,
 		ActionName = getI18NValue(180234398),
 		ActionParam = {
 			101001
+		}
+	},
+	[401012] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060104,
+		ActionType = 2001,
+		Id = 401012,
+		Order = 1,
+		ActionName = getI18NValue(180262409),
+		ActionParam = {
+			101001,
+			101007
+		}
+	},
+	[401013] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060107,
+		ActionType = 2001,
+		Id = 401013,
+		Order = 1,
+		ActionName = getI18NValue(180262410),
+		ActionParam = {
+			101004,
+			101010,
+			101008
+		}
+	},
+	[401014] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060108,
+		ActionType = 2001,
+		Id = 401014,
+		Order = 1,
+		ActionName = getI18NValue(180262411),
+		ActionParam = {
+			101007
+		}
+	},
+	[401015] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060109,
+		ActionType = 2001,
+		Id = 401015,
+		Order = 1,
+		ActionName = getI18NValue(180262412),
+		ActionParam = {
+			101010
+		}
+	},
+	[401016] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060110,
+		ActionType = 2001,
+		Id = 401016,
+		Order = 1,
+		ActionName = getI18NValue(180262413),
+		ActionParam = {
+			101007,
+			101009
 		}
 	},
 	[700101] = {

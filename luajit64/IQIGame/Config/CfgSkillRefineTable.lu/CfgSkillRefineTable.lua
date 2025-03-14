@@ -4282,8 +4282,8 @@ local CfgSkillRefineTable = {
 		SkillRefineLv = 1,
 		RefineNeedItemNum = 1,
 		Id = 8012401,
-		SkillTips = getI18NValue(180261767),
-		NextSkillTips = getI18NValue(180261768),
+		SkillTips = getI18NValue(180261646),
+		NextSkillTips = getI18NValue(180261647),
 		RefineNeedItem = {
 			80124,
 			15031
@@ -4294,14 +4294,14 @@ local CfgSkillRefineTable = {
 		SkillRefineLv = 2,
 		Skill = 801240,
 		Id = 8012402,
-		SkillTips = getI18NValue(180261769),
-		NextSkillTips = getI18NValue(180261770),
+		SkillTips = getI18NValue(180261648),
+		NextSkillTips = getI18NValue(180261649),
 		RefineNeedItem = {
 			80124,
 			15031
 		},
 		RefineStrengthenId = {
-			8020102
+			8012402
 		},
 		RefineAttribute = {
 			41,
@@ -4317,14 +4317,14 @@ local CfgSkillRefineTable = {
 		SkillRefineLv = 3,
 		Skill = 801240,
 		Id = 8012403,
-		SkillTips = getI18NValue(180261771),
-		NextSkillTips = getI18NValue(180261772),
+		SkillTips = getI18NValue(180261650),
+		NextSkillTips = getI18NValue(180261651),
 		RefineNeedItem = {
 			80124,
 			15031
 		},
 		RefineStrengthenId = {
-			8020103
+			8012403
 		},
 		RefineAttribute = {
 			41,
@@ -4340,14 +4340,14 @@ local CfgSkillRefineTable = {
 		SkillRefineLv = 4,
 		Skill = 801240,
 		Id = 8012404,
-		SkillTips = getI18NValue(180261773),
-		NextSkillTips = getI18NValue(180261774),
+		SkillTips = getI18NValue(180261652),
+		NextSkillTips = getI18NValue(180261653),
 		RefineNeedItem = {
 			80124,
 			15031
 		},
 		RefineStrengthenId = {
-			8020104
+			8012404
 		},
 		RefineAttribute = {
 			41,
@@ -4362,9 +4362,9 @@ local CfgSkillRefineTable = {
 		SkillRefineLv = 5,
 		Skill = 801240,
 		Id = 8012405,
-		SkillTips = getI18NValue(180261775),
+		SkillTips = getI18NValue(180261654),
 		RefineStrengthenId = {
-			8020105
+			8012405
 		},
 		RefineAttribute = {
 			41,

@@ -1750,6 +1750,12 @@ function BattleModule.RecordDamage_BattleRoundEndCommand(battleRoundEndCommand)
 	BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
 end
 
+function BattleModule.RecordDamage_BattleOverCommand(battleOverCommand)
+	local updateUnits = battleOverCommand.UpdateUnits
+
+	BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
+end
+
 function BattleModule.RecordDamage_BattleUpdateUnitPOD(updateUnits)
 	if updateUnits == nil then
 		return

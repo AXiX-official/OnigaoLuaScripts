@@ -1443,6 +1443,8 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/GhostActivity/GhostBossUI
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/GhostActivity/GhostBossUI_scoreDetailPanel_scoreItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/GhostActivity/GhostGameActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/GhostActivity/GhostGameTaskUI_taskItem.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityViewItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/SummerActivity/SummerActivityMainView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/BattleActivity/BattleActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/Common/PassActivityRewardItem.lua.txt,0

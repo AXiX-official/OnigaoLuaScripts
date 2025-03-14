@@ -11,11 +11,6 @@ local CfgCardJackpotShowTable = {
 		ShowDetail = {
 			50520001
 		},
-		CardListShow = {
-			1,
-			2,
-			3
-		},
 		ShowProbability = {
 			"5",
 			"180113",
@@ -32,11 +27,6 @@ local CfgCardJackpotShowTable = {
 		},
 		ShowDetail = {
 			50520002
-		},
-		CardListShow = {
-			11,
-			12,
-			13
 		},
 		ShowProbability = {
 			"5",
@@ -55,11 +45,6 @@ local CfgCardJackpotShowTable = {
 		ShowDetail = {
 			50520003
 		},
-		CardListShow = {
-			21,
-			22,
-			23
-		},
 		ShowProbability = {
 			"5",
 			"180115",
@@ -76,12 +61,6 @@ local CfgCardJackpotShowTable = {
 		},
 		ShowDetail = {
 			50520101
-		},
-		CardListShow = {
-			11,
-			12,
-			13,
-			101
 		},
 		ShowProbability = {
 			"5",
@@ -100,11 +79,39 @@ local CfgCardJackpotShowTable = {
 		ShowDetail = {
 			50520102
 		},
-		CardListShow = {
-			21,
-			22,
-			201,
-			202
+		ShowProbability = {
+			"5",
+			"180129",
+			"4",
+			"180130"
+		}
+	},
+	[50500103] = {
+		CardJackpot = 50300103,
+		Id = 50500103,
+		ShowInstruction = {
+			50510105,
+			50510106
+		},
+		ShowDetail = {
+			50520103
+		},
+		ShowProbability = {
+			"5",
+			"180125",
+			"4",
+			"180126"
+		}
+	},
+	[50500104] = {
+		CardJackpot = 50300104,
+		Id = 50500104,
+		ShowInstruction = {
+			50510107,
+			50510108
+		},
+		ShowDetail = {
+			50520104
 		},
 		ShowProbability = {
 			"5",
@@ -123,13 +130,6 @@ local CfgCardJackpotShowTable = {
 		ShowDetail = {
 			50520201
 		},
-		CardListShow = {
-			11,
-			12,
-			2,
-			31,
-			36
-		},
 		ShowProbability = {
 			"5",
 			"180127",
@@ -147,12 +147,56 @@ local CfgCardJackpotShowTable = {
 		ShowDetail = {
 			50520201
 		},
-		CardListShow = {
-			11,
-			12,
-			2,
-			31,
-			36
+		ShowProbability = {
+			"5",
+			"180127",
+			"4",
+			"180128"
+		}
+	},
+	[50500203] = {
+		CardJackpot = 50300303,
+		Id = 50500203,
+		ShowInstruction = {
+			50510203,
+			50510204
+		},
+		ShowDetail = {
+			50520202
+		},
+		ShowProbability = {
+			"5",
+			"180127",
+			"4",
+			"180128"
+		}
+	},
+	[50500204] = {
+		CardJackpot = 50300304,
+		Id = 50500204,
+		ShowInstruction = {
+			50510203,
+			50510204
+		},
+		ShowDetail = {
+			50520202
+		},
+		ShowProbability = {
+			"5",
+			"180127",
+			"4",
+			"180128"
+		}
+	},
+	[50500205] = {
+		CardJackpot = 50300305,
+		Id = 50500205,
+		ShowInstruction = {
+			50510203,
+			50510204
+		},
+		ShowDetail = {
+			50520202
 		},
 		ShowProbability = {
 			"5",

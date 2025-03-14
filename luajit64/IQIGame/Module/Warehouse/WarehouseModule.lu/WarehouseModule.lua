@@ -977,3 +977,40 @@ function WarehouseModule.CalculateConvertibleItems(items, exp)
 
 	return result
 end
+
+function WarehouseModule.GetSkillTipsByLevel(skillCid, level)
+	local result
+	local skillCfg = CfgSkillTable[skillCid]
+
+	if skillCfg.IsDiy then
+		ForPairs(CfgSkillRefineTable, function(_, _cfg)
+			if _cfg.Skill ~= skillCid then
+				return
+			end
+
+			if _cfg.SkillRefineLv ~= level then
+				return
+			end
+
+			result = _cfg.SkillTips
+
+			return true
+		end)
+	else
+		ForPairs(CfgSkillLevelTable, function(_, _cfg)
+			if _cfg.Skill ~= skillCid then
+				return
+			end
+
+			if _cfg.SkillLv ~= level then
+				return
+			end
+
+			result = _cfg.SkillTips
+
+			return true
+		end)
+	end
+
+	return result
+end

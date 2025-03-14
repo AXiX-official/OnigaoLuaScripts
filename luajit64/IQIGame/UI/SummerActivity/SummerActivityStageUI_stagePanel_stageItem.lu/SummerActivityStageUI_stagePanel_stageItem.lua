@@ -76,8 +76,21 @@ function SummerActivityStageUI_stagePanel_stageItem:Refresh()
 		return
 	end
 
-	LuaUtility.SetGameObjectShow(self.bgPlot, self.data.PlotID > 0)
-	LuaUtility.SetGameObjectShow(self.bgBattle, self.data.PlotID == 0)
+	if self.bgGame ~= nil then
+		if self.data.IsFight == 3 then
+			LuaUtility.SetGameObjectShow(self.bgGame, true)
+			LuaUtility.SetGameObjectShow(self.bgPlot, false)
+			LuaUtility.SetGameObjectShow(self.bgBattle, false)
+		else
+			LuaUtility.SetGameObjectShow(self.bgGame, false)
+			LuaUtility.SetGameObjectShow(self.bgPlot, self.data.PlotID > 0)
+			LuaUtility.SetGameObjectShow(self.bgBattle, self.data.PlotID == 0)
+		end
+	else
+		LuaUtility.SetGameObjectShow(self.bgPlot, self.data.PlotID > 0)
+		LuaUtility.SetGameObjectShow(self.bgBattle, self.data.PlotID == 0)
+	end
+
 	LuaUtility.SetGameObjectShow(self.Finish, StoryChapterModule.GetStageIsCompleteWithID(self.data.Id))
 	LuaUtility.SetText(self.textName, self.data.Name)
 

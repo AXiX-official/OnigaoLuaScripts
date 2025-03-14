@@ -240,6 +240,32 @@ local CfgSkillTable = {
 		Name = getI18NValue(180260887),
 		EffectText = getI18NValue(180260886)
 	},
+	[30005] = {
+		ManualSkill = false,
+		Level = 1,
+		ReleaseType = 2,
+		IsTipsVisible = false,
+		SkillType = 3,
+		IsDiy = false,
+		Cutin = false,
+		Id = 30005,
+		SkillDetail = 30005,
+		Name = getI18NValue(180262997),
+		EffectText = getI18NValue(180262996)
+	},
+	[30006] = {
+		ManualSkill = false,
+		Level = 1,
+		ReleaseType = 2,
+		IsTipsVisible = false,
+		SkillType = 3,
+		IsDiy = false,
+		Cutin = false,
+		Id = 30006,
+		SkillDetail = 30006,
+		Name = getI18NValue(180262999),
+		EffectText = getI18NValue(180262998)
+	},
 	[72021] = {
 		ManualSkill = false,
 		Level = 1,
@@ -7857,7 +7883,10 @@ local CfgSkillTable = {
 		IsDiy = true,
 		MaxStrengthenLevel = 70,
 		Id = 801240,
-		Name = getI18NValue(180261766),
+		Name = getI18NValue(180261644),
+		ProfessionLimit = {
+			3
+		},
 		DiyBaseAtt = {
 			41,
 			157,

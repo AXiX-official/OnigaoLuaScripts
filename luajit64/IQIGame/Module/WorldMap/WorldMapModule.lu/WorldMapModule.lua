@@ -327,9 +327,13 @@ function this.EnterArea(areaId, active)
 	net_sceneMap.enterArea(areaId, active)
 end
 
-function this.EnterRoom(roomId, active, data)
+function this.EnterRoom(roomId, active, data, hideNotice)
 	if roomId == this.GetCurrentHomeData().cid then
-		NoticeModule.ShowNotice(11027)
+		if not hideNotice then
+			NoticeModule.ShowNotice(11027)
+		else
+			log("EnterRoom RoomID:{0} active:{1} data:{2}", roomId, active, data)
+		end
 
 		return
 	end

@@ -390,10 +390,6 @@ function SceneTransferModule.EnterCurrentDupByChapterType(arg)
 			chooseChallenge = true
 		}))
 	elseif GameChapterModule.CurSelectChapterType == Constant.ChapterPassType.TYPE_SummerActivity then
-		CoroutineUtility.Yield(WaitOpenUI(Constant.UIControllerName.ActiveActivityListUI, Constant.UILayer.UI, {
-			teamID = Constant.ActivityListTeamID.SummerActivity
-		}))
-
 		local activityPod = ActivityModule.GetActivityPodByActivityType({
 			Constant.ActivityType.ActivityType_Summer
 		})[1]
@@ -403,10 +399,6 @@ function SceneTransferModule.EnterCurrentDupByChapterType(arg)
 			selectChapterId = GameChapterModule.lastEnterChapterData.PassId
 		}))
 	elseif GameChapterModule.CurSelectChapterType == Constant.ChapterPassType.TYPE_Ghost then
-		CoroutineUtility.Yield(WaitOpenUI(Constant.UIControllerName.ActiveActivityListUI, Constant.UILayer.UI, {
-			teamID = Constant.ActivityListTeamID.SummerActivity
-		}))
-
 		local activityPod = ActivityModule.GetActivityPodByActivityType({
 			Constant.ActivityType.ActivityType_Ghost
 		})[1]

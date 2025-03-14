@@ -13,7 +13,7 @@ function BehaviorTreeUtility.EnterRoom(roomId)
 		return
 	end
 
-	WorldMapModule.EnterRoom(roomId, false)
+	WorldMapModule.EnterRoom(roomId, false, "", true)
 end
 
 function BehaviorTreeUtility.TriggerRPGAction(actionCid)

@@ -779,14 +779,15 @@ Constant.TopMoneyType = {
 	SkillStrengthenUI = 5,
 	WarehouseUI = 10,
 	ActivityShop = 402,
-	MainUI = 1,
+	ActivityShop_New = 403,
 	MainPhoneUI = 28,
 	MainFakeUI = 100,
 	EquipChoosePanelUI = 16,
+	MainUI = 1,
 	MazeBattleUI = 502,
 	MazeSenroUI = 503,
-	ShopUIGiftBag = 13,
 	RoleBreachUI = 4,
+	ShopUIGiftBag = 13,
 	SummerActivityStage = 401
 }
 Constant.ItemCid = {

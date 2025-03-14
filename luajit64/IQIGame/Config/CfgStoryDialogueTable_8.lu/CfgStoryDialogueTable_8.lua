@@ -1,6 +1,13 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStoryDialogueTable_8.lua
 
 local CfgStoryDialogueTable_8 = {
+	[102090117] = {
+		Id = 102090117,
+		NextID = 102090118,
+		Speakgroup = {
+			102090117
+		}
+	},
 	[102090118] = {
 		Id = 102090118,
 		NextID = 102090119,
@@ -35909,13 +35916,6 @@ local CfgStoryDialogueTable_8 = {
 		NextID = 401020703,
 		Speakgroup = {
 			401020702
-		}
-	},
-	[401020703] = {
-		Id = 401020703,
-		NextID = 401020704,
-		Speakgroup = {
-			401020703
 		}
 	}
 }

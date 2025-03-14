@@ -1155,84 +1155,91 @@ local CfgStoryBattleTable = {
 		MonsterTeam = {
 			14701101
 		},
-		VictroyDesc = getI18NValue(180261834)
+		VictroyDesc = getI18NValue(180261836)
 	},
 	[4013020] = {
 		Id = 4013020,
 		MonsterTeam = {
 			14701102
 		},
-		VictroyDesc = getI18NValue(180261835)
+		VictroyDesc = getI18NValue(180261837)
 	},
 	[4013030] = {
 		Id = 4013030,
 		MonsterTeam = {
 			14701103
 		},
-		VictroyDesc = getI18NValue(180261836)
+		VictroyDesc = getI18NValue(180261838)
 	},
 	[4013040] = {
 		Id = 4013040,
 		MonsterTeam = {
 			14701104
 		},
-		VictroyDesc = getI18NValue(180261837)
+		VictroyDesc = getI18NValue(180261839)
 	},
 	[4013050] = {
 		Id = 4013050,
 		MonsterTeam = {
 			14701105
 		},
-		VictroyDesc = getI18NValue(180261838)
+		VictroyDesc = getI18NValue(180261840)
 	},
 	[4013060] = {
 		Id = 4013060,
 		MonsterTeam = {
 			14701106
 		},
-		VictroyDesc = getI18NValue(180261839)
+		VictroyDesc = getI18NValue(180261841)
 	},
 	[4013070] = {
 		Id = 4013070,
 		MonsterTeam = {
 			14701107
 		},
-		VictroyDesc = getI18NValue(180261840)
+		VictroyDesc = getI18NValue(180261842)
 	},
 	[4013080] = {
 		Id = 4013080,
 		MonsterTeam = {
 			14701108
 		},
-		VictroyDesc = getI18NValue(180261841)
+		VictroyDesc = getI18NValue(180261843)
 	},
 	[4013090] = {
 		Id = 4013090,
 		MonsterTeam = {
 			14701109
 		},
-		VictroyDesc = getI18NValue(180261842)
+		VictroyDesc = getI18NValue(180261844)
 	},
 	[4013100] = {
 		Id = 4013100,
 		MonsterTeam = {
 			14701110
 		},
-		VictroyDesc = getI18NValue(180261843)
+		VictroyDesc = getI18NValue(180261845)
 	},
 	[4013110] = {
 		Id = 4013110,
 		MonsterTeam = {
 			14701111
 		},
-		VictroyDesc = getI18NValue(180261844)
+		VictroyDesc = getI18NValue(180261846)
 	},
 	[4013120] = {
 		Id = 4013120,
 		MonsterTeam = {
 			14701112
 		},
-		VictroyDesc = getI18NValue(180261845)
+		VictroyDesc = getI18NValue(180261847)
+	},
+	[4013130] = {
+		Id = 4013130,
+		MonsterTeam = {
+			14701113
+		},
+		VictroyDesc = getI18NValue(180262071)
 	},
 	[4021011] = {
 		Id = 4021011,

@@ -3885,6 +3885,10 @@ local CfgTipsTable = {
 		Id = 111027,
 		Text = getI18NValue(180118658)
 	},
+	[111028] = {
+		Id = 111028,
+		Text = getI18NValue(180262788)
+	},
 	[112001] = {
 		Id = 112001,
 		Text = getI18NValue(180156350)

@@ -393,108 +393,69 @@ local CfgActivityTable = {
 		}
 	},
 	[60003003] = {
-		OneOnly = false,
-		OpenTime = "2024/8/5 4:00",
+		Id = 60003003,
+		OpenTime = "2025/3/14 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
 		ActivityType = 4,
 		CloseAction = 16,
-		OpenAction = 15,
-		Id = 60003003,
-		OpenTimeType = 2,
+		OneOnly = false,
+		version = 1,
 		Duration = {
-			1209600
+			1814400
 		},
 		Desc = getI18NValue(180129574),
 		OpenActionParams = {
 			60003003,
-			50300013
+			50300303
 		},
 		CloseActionParams = {
 			60003003,
-			50300013
+			50300303
 		}
 	},
 	[60003004] = {
-		OneOnly = false,
-		OpenTime = "2024/9/30 4:00",
+		Id = 60003004,
+		OpenTime = "2025/3/14 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
 		ActivityType = 4,
 		CloseAction = 16,
-		OpenAction = 15,
-		Id = 60003004,
-		OpenTimeType = 2,
+		OneOnly = false,
+		version = 1,
 		Duration = {
-			1209600
+			1814400
 		},
 		Desc = getI18NValue(180129575),
 		OpenActionParams = {
 			60003004,
-			50300014
+			50300304
 		},
 		CloseActionParams = {
 			60003004,
-			50300014
+			50300304
 		}
 	},
 	[60003005] = {
-		OneOnly = false,
-		OpenTime = "2024/9/16 4:00",
+		Id = 60003005,
+		OpenTime = "2025/3/14 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
 		ActivityType = 4,
 		CloseAction = 16,
-		OpenAction = 15,
-		Id = 60003005,
-		OpenTimeType = 2,
+		OneOnly = false,
+		version = 1,
 		Duration = {
-			1209600
+			1814400
 		},
 		Desc = getI18NValue(180146179),
 		OpenActionParams = {
 			60003005,
-			50300015
+			50300305
 		},
 		CloseActionParams = {
 			60003005,
-			50300015
-		}
-	},
-	[60003006] = {
-		OneOnly = false,
-		OpenTime = "2024/7/8 4:00",
-		ActivityType = 4,
-		CloseAction = 16,
-		OpenAction = 15,
-		Id = 60003006,
-		OpenTimeType = 2,
-		Duration = {
-			1209600
-		},
-		Desc = getI18NValue(180146180),
-		OpenActionParams = {
-			60003006,
-			50300016
-		},
-		CloseActionParams = {
-			60003006,
-			50300016
-		}
-	},
-	[60003007] = {
-		OneOnly = false,
-		OpenTime = "2024/9/2 4:00",
-		ActivityType = 4,
-		CloseAction = 16,
-		OpenAction = 15,
-		Id = 60003007,
-		OpenTimeType = 2,
-		Duration = {
-			1209600
-		},
-		Desc = getI18NValue(180186257),
-		OpenActionParams = {
-			60003007,
-			50300017
-		},
-		CloseActionParams = {
-			60003007,
-			50300017
+			50300305
 		}
 	},
 	[60003011] = {
@@ -543,7 +504,7 @@ local CfgActivityTable = {
 	},
 	[60003013] = {
 		OneOnly = false,
-		OpenTime = "2025/2/10 4:00",
+		OpenTime = "2025/3/14 4:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,
@@ -555,16 +516,16 @@ local CfgActivityTable = {
 		Desc = getI18NValue(180146183),
 		OpenActionParams = {
 			60003013,
-			50300111
+			50300103
 		},
 		CloseActionParams = {
 			60003013,
-			50300111
+			50300103
 		}
 	},
 	[60003014] = {
 		OneOnly = false,
-		OpenTime = "2024/6/27 4:00",
+		OpenTime = "2025/3/14 4:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,
@@ -576,11 +537,11 @@ local CfgActivityTable = {
 		Desc = getI18NValue(180146184),
 		OpenActionParams = {
 			60003014,
-			50300112
+			50300104
 		},
 		CloseActionParams = {
 			60003014,
-			50300112
+			50300104
 		}
 	},
 	[60003015] = {
@@ -914,12 +875,12 @@ local CfgActivityTable = {
 		OpenActionParams = {
 			11,
 			6,
-			2
+			4
 		},
 		CloseActionParams = {
 			11,
 			6,
-			2
+			4
 		}
 	},
 	[60008001] = {
@@ -1050,19 +1011,19 @@ local CfgActivityTable = {
 	},
 	[60008013] = {
 		Id = 60008013,
-		OpenTime = "2024/3/5 4:00",
+		OpenTime = "2025/3/14 4:00",
 		OpenTimeType = 2,
 		ActivityType = 22,
 		OpenAction = 9,
 		CloseAction = 27,
 		OneOnly = false,
-		version = 1,
+		version = 3,
 		Duration = {
 			0,
 			604800,
 			604800,
 			1209600,
-			259200
+			345600
 		},
 		ExtraParam = {
 			12,
@@ -1073,23 +1034,22 @@ local CfgActivityTable = {
 		OpenActionParams = {
 			11,
 			6,
-			4
+			2
 		},
 		CloseActionParams = {
 			11,
 			6,
-			4
+			2
 		}
 	},
 	[60008014] = {
-		Id = 60008014,
-		OpenTime = "2024/3/5 4:00",
-		OpenTimeType = 2,
+		OpenTime = "2025/3/14 4:00",
 		ActivityType = 23,
 		OpenAction = 9,
 		CloseAction = 27,
 		OneOnly = false,
-		version = 1,
+		Id = 60008014,
+		OpenTimeType = 2,
 		Duration = {
 			2419200
 		},

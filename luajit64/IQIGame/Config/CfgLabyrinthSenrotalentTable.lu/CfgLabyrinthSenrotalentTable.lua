@@ -486,15 +486,15 @@ local CfgLabyrinthSenrotalentTable = {
 		TalentParams = {
 			{
 				20,
-				2000
+				50
 			},
 			{
 				20,
-				4000
+				100
 			},
 			{
 				20,
-				6000
+				200
 			}
 		}
 	},

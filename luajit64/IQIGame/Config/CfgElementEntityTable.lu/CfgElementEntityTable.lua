@@ -1496,6 +1496,11 @@ local CfgElementEntityTable = {
 		IsPrefabFaceToRight = true,
 		Id = 7121
 	},
+	[7122] = {
+		PrefabName = "Story/Role/NPC/CH_Ghost_Girl_A_1",
+		IsPrefabFaceToRight = true,
+		Id = 7122
+	},
 	[8000] = {
 		PrefabName = "Story/Role/NPC/CH_Angelica",
 		IsPrefabFaceToRight = true,

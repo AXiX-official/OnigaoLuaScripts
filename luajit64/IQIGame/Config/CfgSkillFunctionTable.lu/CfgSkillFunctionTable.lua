@@ -2140,9 +2140,10 @@ local CfgSkillFunctionTable = {
 	},
 	[10100] = {
 		DynamicRPNExp = "A1*A2",
+		IsDamagePlus = true,
 		IsBaseAttribute = false,
 		Id = 10100,
-		IsDamagePlus = true,
+		DamageType = 5,
 		DynamicArgType = {
 			332,
 			303,
@@ -2168,9 +2169,10 @@ local CfgSkillFunctionTable = {
 	},
 	[10101] = {
 		DynamicRPNExp = "A1*A2",
+		IsDamagePlus = false,
 		IsBaseAttribute = false,
 		Id = 10101,
-		IsDamagePlus = false,
+		DamageType = 4,
 		DynamicArgType = {
 			332,
 			303,
@@ -3801,6 +3803,34 @@ local CfgSkillFunctionTable = {
 				"8"
 			},
 			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[101002] = {
+		DynamicRPNExp = "A1*A2",
+		IsDamagePlus = false,
+		Id = 101002,
+		DamageType = 4,
+		DynamicArgType = {
+			303,
+			332,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"1",
+				"2"
+			},
+			{
+				"3"
+			},
 			{},
 			{},
 			{},
@@ -5801,7 +5831,7 @@ local CfgSkillFunctionTable = {
 			{
 				"2",
 				"1",
-				"10271002"
+				"10272014"
 			},
 			{
 				"3"
@@ -5813,26 +5843,21 @@ local CfgSkillFunctionTable = {
 		}
 	},
 	[10271002] = {
-		DynamicRPNExp = "A1*A2*A3",
+		DynamicRPNExp = "A1*A2",
 		IsDamagePlus = false,
 		IsBaseAttribute = false,
 		Id = 10271002,
 		DamageType = 1,
 		DynamicArgType = {
-			103,
 			332,
 			303,
+			0,
 			0,
 			0,
 			0
 		},
 		DynamicArgParams = {
 			{
-				"2",
-				"1",
-				"10271002"
-			},
-			{
 				"2"
 			},
 			{
@@ -5840,21 +5865,22 @@ local CfgSkillFunctionTable = {
 				"1",
 				"2"
 			},
+			{},
 			{},
 			{},
 			{}
 		}
 	},
 	[10272000] = {
-		DynamicRPNExp = "(A1+A2)*A3",
+		DynamicRPNExp = "A1*A2",
 		IsBaseAttribute = false,
+		MinDamage = 10272001,
 		Id = 10272000,
-		MaxFunctionRPN = 10272001,
 		IsDamagePlus = false,
 		DynamicArgType = {
 			313,
-			102,
 			332,
+			0,
 			0,
 			0,
 			0
@@ -5863,26 +5889,22 @@ local CfgSkillFunctionTable = {
 			{
 				"2",
 				"5",
-				"40"
-			},
-			{
-				"2",
-				"1",
-				"10271000"
+				"41"
 			},
 			{
 				"1"
 			},
 			{},
 			{},
+			{},
 			{}
 		}
 	},
 	[10272001] = {
-		DynamicRPNExp = "A1*5",
+		DynamicRPNExp = "A1*3",
 		IsBaseAttribute = false,
 		Id = 10272001,
-		IsDamagePlus = true,
+		IsDamagePlus = false,
 		DynamicArgType = {
 			332,
 			0,

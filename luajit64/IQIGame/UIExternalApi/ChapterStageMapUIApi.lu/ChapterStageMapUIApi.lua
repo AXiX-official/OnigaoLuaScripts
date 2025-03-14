@@ -81,6 +81,8 @@ function ChapterStageMapUIApi:GetStageTypeText(type)
 		return self:GetCfgText(111027)
 	elseif type == 2 then
 		return self:GetCfgText(110005)
+	elseif type == 3 then
+		return self:GetCfgText(111028)
 	else
 		return self:GetCfgText(110005)
 	end

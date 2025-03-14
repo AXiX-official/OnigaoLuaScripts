@@ -904,7 +904,7 @@ local CfgDiscreteDataTable = {
 	[115] = {
 		Id = 115,
 		Data = {
-			10
+			5
 		}
 	},
 	[116] = {

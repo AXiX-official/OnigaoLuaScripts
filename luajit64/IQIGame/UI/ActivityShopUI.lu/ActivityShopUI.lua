@@ -194,13 +194,17 @@ function ActivityShopUI:Refresh()
 	self.timer:Start()
 	self:RefreshTime()
 
+	local TopMoneyType = Constant.TopMoneyType.ActivityShop
+
 	if shopType == Constant.ShopType.SummerShop.Type then
 		LuaUtility.SetStateController(self.gameObject, dataName_theme, stateName_summer)
+
+		TopMoneyType = Constant.TopMoneyType.ActivityShop_New
 	elseif shopType == Constant.ShopType.GhostShop.Type then
 		LuaUtility.SetStateController(self.gameObject, dataName_theme, stateName_ghost)
 	end
 
-	self.moneyCell:RefreshItem(Constant.TopMoneyType.ActivityShop)
+	self.moneyCell:RefreshItem(TopMoneyType)
 end
 
 function ActivityShopUI:RefreshTime()

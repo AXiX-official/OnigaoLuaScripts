@@ -3024,6 +3024,8 @@ local CfgStoryDialogueTable_6 = {
 	},
 	[208011008] = {
 		Id = 208011008,
+		skiptime = 1.5,
+		Staytime = 1.5,
 		Speakgroup = {
 			208011008
 		}
@@ -3164,8 +3166,6 @@ local CfgStoryDialogueTable_6 = {
 	},
 	[208010001] = {
 		Id = 208010001,
-		DialogueType = 1,
-		DialogueParam = -6,
 		Speakgroup = {
 			208010001
 		}
@@ -3630,15 +3630,9 @@ local CfgStoryDialogueTable_6 = {
 	},
 	[208010067] = {
 		Id = 208010067,
-		NextID = 208010068,
-		Speakgroup = {
-			208010067
-		}
-	},
-	[208010068] = {
-		Id = 208010068,
 		NextID = 208010069,
 		Speakgroup = {
+			208010067,
 			208010068
 		}
 	},
@@ -23021,9 +23015,23 @@ local CfgStoryDialogueTable_6 = {
 	},
 	[209040198] = {
 		Id = 209040198,
-		NextID = 209040199,
+		NextID = 209042198,
 		Speakgroup = {
 			209040198
+		}
+	},
+	[209042198] = {
+		Id = 209042198,
+		NextID = 209042199,
+		Speakgroup = {
+			209042198
+		}
+	},
+	[209042199] = {
+		Id = 209042199,
+		NextID = 209040199,
+		Speakgroup = {
+			209042199
 		}
 	},
 	[209040199] = {
@@ -35222,12 +35230,6 @@ local CfgStoryDialogueTable_6 = {
 		Id = 210010270,
 		Speakgroup = {
 			210010270
-		}
-	},
-	[210010271] = {
-		Id = 210010271,
-		Speakgroup = {
-			210010271
 		}
 	}
 }

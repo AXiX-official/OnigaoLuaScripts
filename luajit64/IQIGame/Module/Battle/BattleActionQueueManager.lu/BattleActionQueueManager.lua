@@ -64,6 +64,7 @@ function m:__Init()
 		local command = args:ToLuaTable()
 
 		BattleModule.Log("BattleCommand 【Over】==> {0}", tableToString(command))
+		BattleModule.RecordDamage_BattleOverCommand(command)
 		self:__AddBattleOverCommand(command)
 	end
 

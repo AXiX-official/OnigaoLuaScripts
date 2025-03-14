@@ -142,6 +142,8 @@ function MultipleFightPopupView:__OnFightButtonClick()
 		ResourceChapterModule.SweepDup(userData.StageId, userData.FightCount)
 	elseif userData.ChapterType == Constant.ChapterPassType.TYPE_EQUIP then
 		EquipChapterModule.SweepDup(userData.StageId, userData.FightCount)
+	elseif userData.ChapterType == Constant.ChapterPassType.TYPE_SummerActivity then
+		UIModule.Open(Constant.UIControllerName.FormationUI, Constant.UILayer.UI, userData)
 	end
 
 	self:Hide()

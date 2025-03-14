@@ -8038,6 +8038,86 @@ local CfgStoryTextTable = {
 		Id = 402102,
 		Text = getI18NValue(180193054)
 	},
+	[403001] = {
+		Id = 403001,
+		Text = getI18NValue(180261887)
+	},
+	[403002] = {
+		Id = 403002,
+		Text = getI18NValue(180261888)
+	},
+	[403003] = {
+		Id = 403003,
+		Text = getI18NValue(180261889)
+	},
+	[403004] = {
+		Id = 403004,
+		Text = getI18NValue(180261890)
+	},
+	[403005] = {
+		Id = 403005,
+		Text = getI18NValue(180261891)
+	},
+	[403006] = {
+		Id = 403006,
+		Text = getI18NValue(180261892)
+	},
+	[403007] = {
+		Id = 403007,
+		Text = getI18NValue(180262013)
+	},
+	[403008] = {
+		Id = 403008,
+		Text = getI18NValue(180262048)
+	},
+	[403009] = {
+		Id = 403009,
+		Text = getI18NValue(180262398)
+	},
+	[403010] = {
+		Id = 403010,
+		Text = getI18NValue(180262399)
+	},
+	[403011] = {
+		Id = 403011,
+		Text = getI18NValue(180262400)
+	},
+	[403012] = {
+		Id = 403012,
+		Text = getI18NValue(180262401)
+	},
+	[403013] = {
+		Id = 403013,
+		Text = getI18NValue(180262402)
+	},
+	[403014] = {
+		Id = 403014,
+		Text = getI18NValue(180262403)
+	},
+	[403015] = {
+		Id = 403015,
+		Text = getI18NValue(180262404)
+	},
+	[403016] = {
+		Id = 403016,
+		Text = getI18NValue(180262527)
+	},
+	[403017] = {
+		Id = 403017,
+		Text = getI18NValue(180262528)
+	},
+	[403018] = {
+		Id = 403018,
+		Text = getI18NValue(180263075)
+	},
+	[403019] = {
+		Id = 403019,
+		Text = getI18NValue(180263076)
+	},
+	[403020] = {
+		Id = 403020,
+		Text = getI18NValue(180263077)
+	},
 	[4302001] = {
 		Id = 4302001,
 		Text = getI18NValue(180191096)

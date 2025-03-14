@@ -118,6 +118,15 @@ local CfgStoryDataTable = {
 			0
 		}
 	},
+	[101] = {
+		Id = 101,
+		Path = "storydata/test/FollowTest",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
 	[1000001] = {
 		Id = 1000001,
 		Path = "storydata/part0/0-1",
@@ -5638,6 +5647,60 @@ local CfgStoryDataTable = {
 	[4020302] = {
 		Id = 4020302,
 		Path = "storydata/Event2/2_3_2",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030101] = {
+		Id = 4030101,
+		Path = "storydata/Event3/E3_1_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030102] = {
+		Id = 4030102,
+		Path = "storydata/Event3/E3_1_2",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030201] = {
+		Id = 4030201,
+		Path = "storydata/Event3/E3_2_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030202] = {
+		Id = 4030202,
+		Path = "storydata/Event3/E3_2_2",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030301] = {
+		Id = 4030301,
+		Path = "storydata/Event3/E3_3_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030401] = {
+		Id = 4030401,
+		Path = "storydata/Event3/E3_4_1",
 		PlayerInitPosition = {
 			0,
 			0,
