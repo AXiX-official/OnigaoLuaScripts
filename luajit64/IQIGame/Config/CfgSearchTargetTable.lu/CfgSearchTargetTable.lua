@@ -119,6 +119,23 @@ local CfgSearchTargetTable = {
 		SelectDeath = false,
 		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_100.png"
 	},
+	[24] = {
+		PointSelectOrder = 1,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 1,
+		IgnoreOld = false,
+		AlivePriority = true,
+		IgnoreTaunt = true,
+		SearchScope = 1,
+		ActionScope = 1,
+		IsGroup = false,
+		SelectCamp = 10,
+		SelectStealth = true,
+		Id = 24,
+		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_100.png",
+		SelectDeath = false
+	},
 	[30] = {
 		ContainAnchorPpoint = 1,
 		SelectSelf = false,
@@ -4541,20 +4558,19 @@ local CfgSearchTargetTable = {
 		}
 	},
 	[1021] = {
-		PointSelectOrder = 1,
+		SelectCamp = 3,
 		SelectSelf = true,
 		AttackStealth = true,
 		SelectNum = 1,
 		IgnoreOld = false,
-		ContainAnchorPpoint = 1,
-		AlivePriority = true,
 		IgnoreTaunt = true,
-		SelectCamp = 3,
 		IsGroup = false,
-		ActionScope = 1,
+		SearchScope = 1,
+		PointSelectOrder = 1,
+		AlivePriority = true,
+		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_100.png",
 		SelectStealth = true,
 		Id = 1021,
-		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_100.png",
 		SelectDeath = false
 	},
 	[1097] = {
@@ -4982,6 +4998,23 @@ local CfgSearchTargetTable = {
 		IsGroup = true,
 		SelectStealth = true,
 		Id = 1121,
+		ActionScope = 1,
+		SelectDeath = false
+	},
+	[1122] = {
+		ContainAnchorPpoint = -1,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 1,
+		IgnoreOld = false,
+		SelectCamp = 1,
+		AlivePriority = true,
+		SearchScope = 1,
+		PointSelectOrder = 1,
+		IgnoreTaunt = false,
+		IsGroup = true,
+		SelectStealth = true,
+		Id = 1122,
 		ActionScope = 1,
 		SelectDeath = false
 	},

@@ -44,6 +44,15 @@ local CfgUIPaintingItemTable = {
 		IsShow = true,
 		Name = getI18NValue(180261081),
 		ItemTips = getI18NValue(180261080)
+	},
+	[10005] = {
+		PrefabPath = "Assets/03_Prefabs/Home/Parts/Painting_1605.prefab",
+		ItemID = 1605,
+		ID = 10005,
+		Icon = "/Item/1605.png",
+		IsShow = true,
+		Name = getI18NValue(180263173),
+		ItemTips = getI18NValue(180263172)
 	}
 }
 

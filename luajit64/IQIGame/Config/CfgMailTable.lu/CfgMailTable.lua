@@ -535,6 +535,13 @@ local CfgMailTable = {
 		Title = getI18NValue(180260179),
 		Content = getI18NValue(180260178)
 	},
+	[35060008] = {
+		MailType = 1,
+		Id = 35060008,
+		Title = getI18NValue(180263164),
+		Sender = getI18NValue(180263162),
+		Content = getI18NValue(180263163)
+	},
 	[35070001] = {
 		MailType = 1,
 		Id = 35070001,

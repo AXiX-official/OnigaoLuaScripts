@@ -244,7 +244,17 @@ function m.GetImgId()
 		return
 	end
 
-	return IQIUSDK.Instance:getImgId()
+	local imgId = IQIUSDK.Instance:getImgId()
+
+	if imgId == 1 or imgId == 11 then
+		return 1
+	end
+
+	if imgId == 2 or imgId == 12 then
+		return 2
+	end
+
+	return imgId
 end
 
 function m.IsChannelHasExitDialog()

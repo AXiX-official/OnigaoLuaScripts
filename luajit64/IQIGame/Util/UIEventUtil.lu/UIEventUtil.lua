@@ -5,6 +5,24 @@ UIEventUtil = {
 	ButtonClickEventHandlerNameTemplate = "__On%sClickHandler"
 }
 
+function UIEventUtil.HasClickEventListener_Button(owner, buttonName)
+	if owner.__uiDelegateProxyTable == nil then
+		return false
+	end
+
+	if owner.__uiDelegateProxyTable.buttonClick == nil then
+		return false
+	end
+
+	local delegateProxyFunc = owner.__uiDelegateProxyTable.buttonClick[buttonName]
+
+	if delegateProxyFunc == nil then
+		return false
+	end
+
+	return true
+end
+
 function UIEventUtil.AddClickEventListener_Button(owner, buttonName, customHandler)
 	if owner.__uiDelegateProxyTable == nil then
 		owner.__uiDelegateProxyTable = {}

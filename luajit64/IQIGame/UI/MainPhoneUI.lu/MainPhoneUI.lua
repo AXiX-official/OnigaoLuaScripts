@@ -41,6 +41,7 @@ function MainPhoneUI:OnInit()
 
 	self:__SetSkinDisplayMode(true, false)
 	self.gameObject.gameObject:SetActive(false)
+	self:__InitDynamicsActivityBtn()
 end
 
 function MainPhoneUI:GetPreloadAssetPaths()
@@ -78,6 +79,7 @@ function MainPhoneUI:OnOpen(userData)
 	self:__RefreshButtonStatus()
 	self:__InitRedDotShow()
 	self.rightView:Show()
+	self:__RefreshDynamicsActivityBtn()
 
 	local isRandom = SettingModule.GetRoleDisplayRandomState()
 
@@ -209,6 +211,8 @@ function MainPhoneUI:OnLoadFailed(assetName, status, errorMessage, userData)
 end
 
 function MainPhoneUI:OnDestroy()
+	UIEventUtil.ClearEventListener(self)
+	EventUtil.ClearEventListener(self)
 	self.moneyCell:Dispose()
 	self.roleDisplayView:Dispose()
 	self.rightView:Dispose()
@@ -412,6 +416,7 @@ end
 
 function MainPhoneUI:__OnUnlockFunctionHandler()
 	self:__RefreshButtonStatus()
+	self:__RefreshDynamicsActivityBtn()
 end
 
 function MainPhoneUI:__OnChangeKanBanPODHandler()
@@ -708,6 +713,64 @@ function MainPhoneUI:__GetNextRoleDisplaySkinCid(index, isRandom)
 	end
 
 	return index, realSkinCidList[index]
+end
+
+function MainPhoneUI:__InitDynamicsActivityBtn()
+	self.__dynamicsActivityBtnTable = {}
+
+	ForTransformChild(self.ActivityBtnRoot.transform, function(_trans, _index)
+		local activityCid = TryToNumber(_trans.name, 0)
+
+		if activityCid == 0 then
+			return
+		end
+
+		table.insert(self.__dynamicsActivityBtnTable, {
+			ActivityCid = activityCid,
+			BtnGo = _trans.gameObject
+		})
+	end)
+	self:__RefreshDynamicsActivityBtn()
+end
+
+function MainPhoneUI:__RefreshDynamicsActivityBtn()
+	ForPairs(self.__dynamicsActivityBtnTable, function(_, _tabData)
+		local active = GameNoticeModule.CheckActivityBtnShow(_tabData.ActivityCid)
+
+		_tabData.BtnGo.gameObject:SetActive(active)
+
+		if not active then
+			return
+		end
+
+		local btnInjectName = _tabData.BtnGo.name
+
+		if self[btnInjectName] == nil then
+			self[btnInjectName] = _tabData.BtnGo
+		end
+
+		if UIEventUtil.HasClickEventListener_Button(self, btnInjectName) then
+			return
+		end
+
+		UIEventUtil.AddClickEventListener_Button(self, btnInjectName, function()
+			self:__OnDynamicsActivityBtnClickHandler(_tabData.ActivityCid)
+		end)
+	end)
+end
+
+function MainPhoneUI:__OnDynamicsActivityBtnClickHandler(activityCid)
+	local activityCfg = CfgPayActivityTable[activityCid]
+
+	if activityCfg == nil then
+		return
+	end
+
+	if activityCfg.Skip == 0 then
+		return
+	end
+
+	JumpModule.Jump(activityCfg.Skip)
 end
 
 return MainPhoneUI

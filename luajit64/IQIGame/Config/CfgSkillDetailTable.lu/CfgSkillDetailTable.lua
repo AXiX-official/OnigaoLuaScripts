@@ -2699,37 +2699,16 @@ local CfgSkillDetailTable = {
 		}
 	},
 	[101510] = {
-		Id = 101510,
 		FunctionID = 601,
-		TargetTypeID = 101,
 		Element = 1,
+		Id = 101510,
 		NotSelectTarget = false,
+		TargetTypeID = 101,
 		SkillAI = {
 			1
 		},
 		SkillRatio = {
-			1
-		},
-		BuffOrder = {
-			1
-		},
-		BuffProbability = {
-			1
-		},
-		BuffTarget = {
-			21
-		},
-		BuffID = {
-			10151000
-		},
-		BuffTime = {
-			0
-		},
-		BuffStackNum = {
-			1
-		},
-		CustomParams = {
-			0.6
+			1.2
 		}
 	},
 	[101520] = {
@@ -2751,7 +2730,7 @@ local CfgSkillDetailTable = {
 		},
 		BuffID = {
 			10152000,
-			10152004
+			10152003
 		},
 		BuffTime = {
 			0,
@@ -2762,7 +2741,8 @@ local CfgSkillDetailTable = {
 			1
 		},
 		CustomParams = {
-			0.03
+			0.06,
+			0.3
 		}
 	},
 	[101530] = {
@@ -2777,35 +2757,28 @@ local CfgSkillDetailTable = {
 			2
 		},
 		SkillRatio = {
-			0.222
+			0.28
 		},
 		BuffOrder = {
-			1,
 			1
 		},
 		BuffProbability = {
-			1,
 			1
 		},
 		BuffTarget = {
-			21,
 			21
 		},
 		BuffID = {
-			10153000,
-			10153003
+			10153000
 		},
 		BuffTime = {
-			0,
 			0
 		},
 		BuffStackNum = {
-			1,
 			1
 		},
 		CustomParams = {
-			0.1,
-			0.5
+			0.15
 		}
 	},
 	[101531] = {
@@ -2815,7 +2788,7 @@ local CfgSkillDetailTable = {
 		FunctionID = 601,
 		TargetTypeID = 31,
 		SkillRatio = {
-			0.333
+			0.324
 		}
 	},
 	[101532] = {
@@ -2825,7 +2798,7 @@ local CfgSkillDetailTable = {
 		FunctionID = 601,
 		TargetTypeID = 31,
 		SkillRatio = {
-			0.444
+			0.405
 		}
 	},
 	[101540] = {
@@ -11679,10 +11652,8 @@ local CfgSkillDetailTable = {
 	[10320320] = {
 		FunctionID = 600,
 		Id = 10320320,
-		InitCD = 2,
 		TargetTypeID = 999,
 		NotSelectTarget = false,
-		CoolDown = 3,
 		SkillAI = {
 			103
 		},
@@ -11707,8 +11678,10 @@ local CfgSkillDetailTable = {
 	},
 	[10320330] = {
 		NotSelectTarget = false,
+		InitCD = 2,
 		TargetTypeID = 21,
 		Id = 10320330,
+		CoolDown = 3,
 		FunctionID = 600,
 		BuffOrder = {
 			2
@@ -11950,7 +11923,7 @@ local CfgSkillDetailTable = {
 		},
 		BuffTarget = {
 			97,
-			201
+			21
 		},
 		BuffID = {
 			104102300,
@@ -12026,9 +11999,27 @@ local CfgSkillDetailTable = {
 	},
 	[10420120] = {
 		NotSelectTarget = false,
+		TargetTypeID = 999,
 		Id = 10420120,
 		FunctionID = 600,
-		TargetTypeID = 999
+		BuffOrder = {
+			0
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			104201200
+		},
+		BuffTime = {
+			-1
+		},
+		BuffStackNum = {
+			1
+		}
 	},
 	[10420130] = {
 		Id = 10420130,

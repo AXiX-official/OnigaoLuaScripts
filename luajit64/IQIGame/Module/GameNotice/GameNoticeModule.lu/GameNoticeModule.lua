@@ -54,6 +54,16 @@ function GameNoticeModule.GetPayActiveNoticeList()
 	return cfgList
 end
 
+function GameNoticeModule.CheckActivityBtnShow(activityCid)
+	local activityCfg = CfgPayActivityTable[activityCid]
+
+	if activityCfg == nil then
+		return false
+	end
+
+	return GameNoticeModule.__CheckPayActiveItem(activityCfg)
+end
+
 function GameNoticeModule.__CheckPayActiveItem(itemConfig)
 	if itemConfig.Type ~= 2 then
 		return false
