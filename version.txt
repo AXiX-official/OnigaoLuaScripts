@@ -1,5 +1,5 @@
 {
     "LatestGameVersion": "1.2.3",
-    "InternalResourceVersion": 688,
+    "InternalResourceVersion": 689,
     "VersionListLength": 902402
 }

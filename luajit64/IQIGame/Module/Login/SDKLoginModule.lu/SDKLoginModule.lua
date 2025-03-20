@@ -116,6 +116,22 @@ function m.Login(userInfo)
 		return
 	end
 
+	local version = LuaCodeInterface.GetDeviceInfo().version
+
+	if version == "1.2.2" and SDKLoginModule.GetChannelId() == 18 then
+		NoticeModule.ShowNoticeByType(4, "游戏版本过低，请到应用商店更新最新版本！", function()
+			if IQIUSDK.Instance:getImgId() == 1 then
+				Application.OpenURL("https://www.taptap.cn/app/235316")
+			end
+
+			if IQIUSDK.Instance:getImgId() == 2 then
+				Application.OpenURL("https://www.3839.com/a/144043.htm")
+			end
+		end)
+
+		return
+	end
+
 	NetCommController.Sending()
 
 	local data = LoginRequestData.New()

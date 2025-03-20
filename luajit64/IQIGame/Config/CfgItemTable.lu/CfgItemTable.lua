@@ -4475,6 +4475,36 @@ local CfgItemTable = {
 			150002
 		}
 	},
+	[60129] = {
+		UserAction = 10,
+		Quality = 5,
+		Id = 60129,
+		OverMode = 1,
+		ItemTypes = 6,
+		Icon = "/Item/Icon_ItemBag_011.png",
+		MaxUse = 1,
+		Reveal = true,
+		UseType = 2,
+		MaxNum = 1,
+		ItemSubTypes = 2,
+		DepotType = 16,
+		Name = getI18NValue(180263175),
+		ItemTips = getI18NValue(180263174),
+		ActionParams = {
+			80202,
+			1,
+			80203,
+			1,
+			80204,
+			1,
+			80209,
+			1,
+			80217,
+			1,
+			80220,
+			1
+		}
+	},
 	[60201] = {
 		UserAction = 10,
 		Quality = 2,
