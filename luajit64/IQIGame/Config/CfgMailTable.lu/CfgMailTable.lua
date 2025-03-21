@@ -116,10 +116,6 @@ local CfgMailTable = {
 		EffectiveDuration = 7,
 		Title = getI18NValue(180002999),
 		Sender = getI18NValue(180002997),
-		Reward = {
-			40001,
-			1
-		},
 		Content = getI18NValue(180002998)
 	},
 	[35010003] = {
@@ -128,10 +124,6 @@ local CfgMailTable = {
 		EffectiveDuration = 7,
 		Title = getI18NValue(180003002),
 		Sender = getI18NValue(180003000),
-		Reward = {
-			50003,
-			1
-		},
 		Content = getI18NValue(180003001)
 	},
 	[35010004] = {

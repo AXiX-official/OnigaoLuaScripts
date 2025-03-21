@@ -46392,7 +46392,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209020154,
 		NPCName = getI18NValue(180139544),
 		SpeakContent = getI18NValue(180139546),
-		SpeakContent_Female = getI18NValue(180139545),
 		AnimationName = {
 			"S_argee_1",
 			"S_argee_3",
@@ -46732,7 +46731,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209020175,
 		NPCName = getI18NValue(180139587),
 		SpeakContent = getI18NValue(180139589),
-		SpeakContent_Female = getI18NValue(180139588),
 		AnimationName = {
 			"S_talk_1",
 			"S_talk_3",
@@ -47014,7 +47012,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209020191,
 		NPCName = getI18NValue(180139620),
 		SpeakContent = getI18NValue(180139622),
-		SpeakContent_Female = getI18NValue(180139621),
 		AnimationName = {
 			"S_thinking_1",
 			"S_thinking_2",
@@ -48085,7 +48082,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209020260,
 		NPCName = getI18NValue(180139759),
 		SpeakContent = getI18NValue(180139761),
-		SpeakContent_Female = getI18NValue(180139760),
 		AnimationName = {
 			"S_talk_yes",
 			"S_stay",
@@ -48115,7 +48111,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209020263,
 		NPCName = getI18NValue(180139766),
 		SpeakContent = getI18NValue(180139768),
-		SpeakContent_Female = getI18NValue(180139767),
 		AnimationName = {
 			"S_talk_yes",
 			"S_stay",
@@ -58957,7 +58952,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209050030,
 		NPCName = getI18NValue(180167743),
 		SpeakContent = getI18NValue(180167745),
-		SpeakContent_Female = getI18NValue(180167744),
 		AnimationName = {
 			"S_talk_yes",
 			"S_stay",
@@ -58980,7 +58974,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209050032,
 		NPCName = getI18NValue(180167748),
 		SpeakContent = getI18NValue(180167750),
-		SpeakContent_Female = getI18NValue(180167749),
 		AnimationName = {
 			"S_talk_no",
 			"S_stay",
@@ -61006,7 +60999,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209050156,
 		NPCName = getI18NValue(180167997),
 		SpeakContent = getI18NValue(180167999),
-		SpeakContent_Female = getI18NValue(180167998),
 		AnimationName = {
 			"S_talk_yes",
 			"S_stay",
@@ -61985,7 +61977,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209050227,
 		NPCName = getI18NValue(180168140),
 		SpeakContent = getI18NValue(180168142),
-		SpeakContent_Female = getI18NValue(180168141),
 		AnimationName = {
 			"S_thinking_3",
 			"S_talk_yes",
@@ -62087,7 +62078,6 @@ local CfgStorySpeakNPCTable_6 = {
 		Id = 209050235,
 		NPCName = getI18NValue(180168157),
 		SpeakContent = getI18NValue(180168159),
-		SpeakContent_Female = getI18NValue(180168158),
 		AnimationName = {
 			"S_talk_no",
 			"S_stay",
