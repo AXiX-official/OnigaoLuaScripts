@@ -141,9 +141,26 @@ function Element:Show()
 	self.gameObject:SetActive(true)
 	self.moneyCell:RefreshItem(Constant.TopMoneyType.MazeShopUI)
 	self.levelUpElement:Hide()
-	self:__RefreshItemsShow()
 	self:__AddEnableEventListener()
 	self:__ShowShop()
+	self:__RefreshItemsShow()
+	self:__DisposeDelayTimer()
+
+	self.__delayTimer = Timer.New(function()
+		self:__RefreshItemsShow()
+	end, 0.6, 1)
+
+	self.__delayTimer:Start()
+end
+
+function Element:__DisposeDelayTimer()
+	if self.__delayTimer == nil then
+		return
+	end
+
+	self.__delayTimer:Stop()
+
+	self.__delayTimer = nil
 end
 
 function Element:__ShowShop()
@@ -176,6 +193,7 @@ function Element:__OnMazeShopLevelChange()
 end
 
 function Element:Hide()
+	self:__DisposeDelayTimer()
 	self:__HideShop()
 	self:__RemoveEnableListener()
 	self.gameObject:SetActive(false)

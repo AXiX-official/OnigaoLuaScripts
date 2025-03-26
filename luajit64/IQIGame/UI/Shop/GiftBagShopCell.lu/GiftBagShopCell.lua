@@ -32,6 +32,12 @@ end
 function GiftBagShopCell:InitComponent()
 	self.buyButton = self.ImgButton:GetComponent("Button")
 	self.imageItem = self.imageIcon:GetComponent("Image")
+
+	if self.textDiscountNum ~= nil then
+		local textTrans = self.textDiscountNum.gameObject:GetComponent("RectTransform")
+
+		textTrans.pivot = Vector2.New(textTrans.pivot.x, 0.5)
+	end
 end
 
 function GiftBagShopCell:AddListener()
@@ -75,14 +81,27 @@ function GiftBagShopCell:Refresh(data)
 	self:CheckBuyCondition()
 
 	self.refreshLayoutTime = Timer.New(function()
+		LuaUtility.SetGameObjectShow(self.textDiscountNum, not self.Data.config.Free)
+
 		self.textDiscountNum:GetComponent("Text").enabled = true
 
-		local layoutGroup = self.PriceLayoutRoot.gameObject:GetComponent("HorizontalLayoutGroup")
+		local layoutGroup = self:__GetHorizontalLayoutGroup()
 
-		layoutGroup.enabled = true
+		if layoutGroup ~= nil then
+			layoutGroup.childControlWidth = true
+			layoutGroup.enabled = true
+		end
 	end, 0.5, 1)
 
 	self.refreshLayoutTime:Start()
+end
+
+function GiftBagShopCell:__GetHorizontalLayoutGroup()
+	if self.PriceLayoutRoot ~= nil then
+		return self.PriceLayoutRoot.gameObject:GetComponent("HorizontalLayoutGroup")
+	else
+		return self.textDiscountNum.gameObject.transform.parent:GetComponent("HorizontalLayoutGroup")
+	end
 end
 
 function GiftBagShopCell:Reset()
@@ -99,9 +118,12 @@ function GiftBagShopCell:Reset()
 		self.refreshLayoutTime = nil
 	end
 
-	local layoutGroup = self.PriceLayoutRoot.gameObject:GetComponent("HorizontalLayoutGroup")
+	local layoutGroup = self:__GetHorizontalLayoutGroup()
 
-	layoutGroup.enabled = false
+	if layoutGroup ~= nil then
+		layoutGroup.enabled = false
+	end
+
 	self.textDiscountNum:GetComponent("Text").enabled = false
 end
 
