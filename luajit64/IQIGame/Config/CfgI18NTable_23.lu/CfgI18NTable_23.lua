@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_23.lua
 
 local CfgI18NTable_23 = {
-	[180203276] = {
-		Id = 180203276,
-		RefId = 180203275
-	},
 	[180203277] = {
 		Id = 180203277,
 		Str = "诸叶位移"
@@ -3387,7 +3383,7 @@ local CfgI18NTable_23 = {
 	},
 	[180204850] = {
 		Id = 180204850,
-		Str = "对、对不起……"
+		RefId = 180173270
 	},
 	[180204851] = {
 		Id = 180204851,
@@ -20000,6 +19996,10 @@ local CfgI18NTable_23 = {
 	[180211308] = {
 		Id = 180211308,
 		RefId = 180205977
+	},
+	[180211309] = {
+		Id = 180211309,
+		Str = "（这个女孩……）"
 	}
 }
 local defaultMetaTable = {

@@ -73,14 +73,36 @@ function GiftBagShopCell:Refresh(data)
 	self:CheckDiscount()
 	self:SetRedDotState()
 	self:CheckBuyCondition()
+
+	self.refreshLayoutTime = Timer.New(function()
+		self.textDiscountNum:GetComponent("Text").enabled = true
+
+		local layoutGroup = self.PriceLayoutRoot.gameObject:GetComponent("HorizontalLayoutGroup")
+
+		layoutGroup.enabled = true
+	end, 0.5, 1)
+
+	self.refreshLayoutTime:Start()
 end
 
 function GiftBagShopCell:Reset()
 	LuaUtility.SetGameObjectShow(self.discountRoot, false)
 	LuaUtility.SetGameObjectShow(self.timeRoot, false)
 	LuaUtility.SetGameObjectShow(self.residueRoot, false)
+	LuaUtility.SetGameObjectShow(self.textDiscountNum, false)
 	LuaUtility.SetGameObjectShow(self.SellOutRoot, false)
 	LuaUtility.SetGameObjectShow(self.imagePriceDelete, false)
+
+	if self.refreshLayoutTime ~= nil then
+		self.refreshLayoutTime:Stop()
+
+		self.refreshLayoutTime = nil
+	end
+
+	local layoutGroup = self.PriceLayoutRoot.gameObject:GetComponent("HorizontalLayoutGroup")
+
+	layoutGroup.enabled = false
+	self.textDiscountNum:GetComponent("Text").enabled = false
 end
 
 function GiftBagShopCell:CheckTime()
@@ -169,6 +191,12 @@ function GiftBagShopCell:SetRedDotState()
 end
 
 function GiftBagShopCell:Dispose()
+	if self.refreshLayoutTime ~= nil then
+		self.refreshLayoutTime:Stop()
+
+		self.refreshLayoutTime = nil
+	end
+
 	self:RemoveListener()
 
 	if self.Timer then

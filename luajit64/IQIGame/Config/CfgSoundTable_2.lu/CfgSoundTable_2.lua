@@ -20942,6 +20942,46 @@ local CfgSoundTable_2 = {
 		TextTime = 3,
 		Text = getI18NValue(180261071)
 	},
+	[300010331] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010331,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180263773)
+	},
+	[300010332] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010332,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180263774)
+	},
+	[300010333] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010333,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180263775)
+	},
+	[300010334] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010334,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180263776)
+	},
 	[300010401] = {
 		GroupName = "Dub",
 		GroupType = 2,

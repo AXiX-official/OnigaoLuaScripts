@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_22.lua
 
 local CfgI18NTable_22 = {
-	[180196184] = {
-		Id = 180196184,
-		RefId = 180097009
-	},
 	[180196185] = {
 		Id = 180196185,
 		RefId = 180009385
@@ -20000,6 +19996,10 @@ local CfgI18NTable_22 = {
 	[180203275] = {
 		Id = 180203275,
 		Str = "瞬位移"
+	},
+	[180203276] = {
+		Id = 180203276,
+		RefId = 180203275
 	}
 }
 local defaultMetaTable = {

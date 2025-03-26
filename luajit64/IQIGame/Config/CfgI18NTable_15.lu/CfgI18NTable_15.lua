@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_15.lua
 
 local CfgI18NTable_15 = {
-	[180116466] = {
-		Id = 180116466,
-		RefId = 180116413
-	},
 	[180116467] = {
 		Id = 180116467,
 		Str = "优子"
@@ -19999,6 +19995,10 @@ local CfgI18NTable_15 = {
 	},
 	[180128103] = {
 		Id = 180128103,
+		RefId = 180116134
+	},
+	[180128104] = {
+		Id = 180128104,
 		RefId = 180116134
 	}
 }

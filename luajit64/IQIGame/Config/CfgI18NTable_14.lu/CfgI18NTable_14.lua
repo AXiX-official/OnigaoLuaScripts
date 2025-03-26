@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_14.lua
 
 local CfgI18NTable_14 = {
-	[180109235] = {
-		Id = 180109235,
-		RefId = 180002998
-	},
 	[180109236] = {
 		Id = 180109236,
 		RefId = 180054647
@@ -20000,6 +19996,10 @@ local CfgI18NTable_14 = {
 	[180116465] = {
 		Id = 180116465,
 		Str = "学院门口"
+	},
+	[180116466] = {
+		Id = 180116466,
+		RefId = 180116413
 	}
 }
 local defaultMetaTable = {

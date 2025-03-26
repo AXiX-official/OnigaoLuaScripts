@@ -25138,6 +25138,71 @@ local CfgSkillLevelTable = {
 			"1.68"
 		}
 	},
+	[302402101] = {
+		Skill = 30240210,
+		Id = 302402101,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263590),
+		UpGradeOldValue = {
+			"1.2",
+			"0.03"
+		}
+	},
+	[302402201] = {
+		Skill = 30240220,
+		Id = 302402201,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263591),
+		UpGradeOldValue = {
+			"0.3",
+			"0.03",
+			"10"
+		}
+	},
+	[302402211] = {
+		Skill = 30240221,
+		Id = 302402211,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263592),
+		UpGradeOldValue = {
+			"0.05"
+		}
+	},
+	[302402221] = {
+		Id = 302402221,
+		Skill = 30240222,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263593)
+	},
+	[302402301] = {
+		Skill = 30240230,
+		Id = 302402301,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263594),
+		UpGradeOldValue = {
+			"1.2",
+			"0.05"
+		}
+	},
+	[302402401] = {
+		Skill = 30240240,
+		Id = 302402401,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263595),
+		UpGradeOldValue = {
+			"1",
+			"0.3"
+		}
+	},
+	[302402501] = {
+		Skill = 30240250,
+		Id = 302402501,
+		SkillLv = 1,
+		SkillTips = getI18NValue(180263596),
+		UpGradeOldValue = {
+			"0.8"
+		}
+	},
 	[401101101] = {
 		Skill = 40110110,
 		Id = 401101101,

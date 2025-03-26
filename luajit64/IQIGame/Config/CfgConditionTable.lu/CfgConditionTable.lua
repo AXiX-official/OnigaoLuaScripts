@@ -34274,6 +34274,42 @@ local CfgConditionTable = {
 			0
 		}
 	},
+	[30040260] = {
+		Id = 30040260,
+		Name = getI18NValue(180263780),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SubType = {
+			7,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ComparisonOP = {
+			"==",
+			"",
+			"",
+			"",
+			"",
+			""
+		},
+		Value = {
+			10000027,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
 	[30040261] = {
 		Id = 30040261,
 		Name = getI18NValue(180133203),
@@ -34312,7 +34348,7 @@ local CfgConditionTable = {
 			""
 		},
 		Value = {
-			2,
+			1,
 			0,
 			0,
 			0,
@@ -34358,7 +34394,7 @@ local CfgConditionTable = {
 			""
 		},
 		Value = {
-			4,
+			20,
 			0,
 			0,
 			0,
@@ -34404,7 +34440,7 @@ local CfgConditionTable = {
 			""
 		},
 		Value = {
-			6,
+			40,
 			0,
 			0,
 			0,
@@ -34450,7 +34486,7 @@ local CfgConditionTable = {
 			""
 		},
 		Value = {
-			8,
+			25,
 			0,
 			0,
 			0,

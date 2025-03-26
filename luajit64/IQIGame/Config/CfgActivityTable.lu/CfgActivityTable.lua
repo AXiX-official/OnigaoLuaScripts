@@ -264,16 +264,17 @@ local CfgActivityTable = {
 		Desc = getI18NValue(180153901)
 	},
 	[60002011] = {
-		ActivityType = 2,
-		OpenTime = "2024/8/5 4:00",
-		OneOnly = true,
 		Id = 60002011,
+		OpenTime = "2025/3/26 4:00",
 		OpenTimeType = 2,
+		ActivityType = 2,
+		OneOnly = true,
+		version = 1,
 		Duration = {
-			4219200
+			3628800
 		},
 		ExtraParam = {
-			80216
+			80211
 		},
 		Desc = getI18NValue(180153902)
 	},

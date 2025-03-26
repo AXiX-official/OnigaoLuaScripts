@@ -2536,6 +2536,33 @@ local CfgStoryOptionTable = {
 			2090703
 		}
 	},
+	[209072] = {
+		OptionType = 1,
+		Id = 209072,
+		Des = getI18NValue(180263684),
+		Options = {
+			2090706,
+			2090707
+		}
+	},
+	[209073] = {
+		OptionType = 1,
+		Id = 209073,
+		Des = getI18NValue(180263685),
+		Options = {
+			2090708,
+			2090709
+		}
+	},
+	[209074] = {
+		OptionType = 1,
+		Id = 209074,
+		Des = getI18NValue(180263686),
+		Options = {
+			2090710,
+			2090711
+		}
+	},
 	[210011] = {
 		OptionType = 1,
 		Id = 210011,

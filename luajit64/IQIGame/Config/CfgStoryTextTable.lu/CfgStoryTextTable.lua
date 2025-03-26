@@ -7626,6 +7626,30 @@ local CfgStoryTextTable = {
 		Id = 2090705,
 		Text = getI18NValue(180174400)
 	},
+	[2090706] = {
+		Id = 2090706,
+		Text = getI18NValue(180263763)
+	},
+	[2090707] = {
+		Id = 2090707,
+		Text = getI18NValue(180263764)
+	},
+	[2090708] = {
+		Id = 2090708,
+		Text = getI18NValue(180263765)
+	},
+	[2090709] = {
+		Id = 2090709,
+		Text = getI18NValue(180263766)
+	},
+	[2090710] = {
+		Id = 2090710,
+		Text = getI18NValue(180263767)
+	},
+	[2090711] = {
+		Id = 2090711,
+		Text = getI18NValue(180263768)
+	},
 	[2090801] = {
 		Id = 2090801,
 		Text = getI18NValue(180175901)
@@ -8117,6 +8141,50 @@ local CfgStoryTextTable = {
 	[403020] = {
 		Id = 403020,
 		Text = getI18NValue(180263077)
+	},
+	[403021] = {
+		Id = 403021,
+		Text = getI18NValue(180263479)
+	},
+	[403022] = {
+		Id = 403022,
+		Text = getI18NValue(180263480)
+	},
+	[403023] = {
+		Id = 403023,
+		Text = getI18NValue(180263481)
+	},
+	[403024] = {
+		Id = 403024,
+		Text = getI18NValue(180263482)
+	},
+	[403025] = {
+		Id = 403025,
+		Text = getI18NValue(180263483)
+	},
+	[403026] = {
+		Id = 403026,
+		Text = getI18NValue(180263484)
+	},
+	[403027] = {
+		Id = 403027,
+		Text = getI18NValue(180263485)
+	},
+	[403028] = {
+		Id = 403028,
+		Text = getI18NValue(180263486)
+	},
+	[403029] = {
+		Id = 403029,
+		Text = getI18NValue(180263487)
+	},
+	[403030] = {
+		Id = 403030,
+		Text = getI18NValue(180263493)
+	},
+	[403031] = {
+		Id = 403031,
+		Text = getI18NValue(180263497)
 	},
 	[4302001] = {
 		Id = 4302001,

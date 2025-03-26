@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_9.lua
 
 local CfgI18NTable_9 = {
-	[180083546] = {
-		Id = 180083546,
-		Str = "让我们彻底祓禊它吧！"
-	},
 	[180083547] = {
 		Id = 180083547,
 		RefId = 180002998
@@ -20000,6 +19996,10 @@ local CfgI18NTable_9 = {
 	[180088616] = {
 		Id = 180088616,
 		RefId = 180002998
+	},
+	[180088617] = {
+		Id = 180088617,
+		Str = "刚刚无论如何\n都无法靠近这里"
 	}
 }
 local defaultMetaTable = {

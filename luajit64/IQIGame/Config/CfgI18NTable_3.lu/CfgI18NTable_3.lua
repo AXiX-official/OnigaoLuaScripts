@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_3.lua
 
 local CfgI18NTable_3 = {
-	[180053512] = {
-		Id = 180053512,
-		RefId = 180002998
-	},
 	[180053513] = {
 		Id = 180053513,
 		RefId = 180053415
@@ -20000,6 +19996,10 @@ local CfgI18NTable_3 = {
 	[180058520] = {
 		Id = 180058520,
 		RefId = 180002998
+	},
+	[180058521] = {
+		Id = 180058521,
+		Str = "说不定神隐之心就有着放大灵力的作用"
 	}
 }
 local defaultMetaTable = {

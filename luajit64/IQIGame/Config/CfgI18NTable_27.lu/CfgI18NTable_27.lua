@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_27.lua
 
 local CfgI18NTable_27 = {
-	[180231032] = {
-		Id = 180231032,
-		Str = "是啊，诡影那家伙会跑\n哪里去"
-	},
 	[180231033] = {
 		Id = 180231033,
 		RefId = 180009385
@@ -20000,6 +19996,10 @@ local CfgI18NTable_27 = {
 	[180236844] = {
 		Id = 180236844,
 		Str = "明天再看看如何行动"
+	},
+	[180236845] = {
+		Id = 180236845,
+		RefId = 180002998
 	}
 }
 local defaultMetaTable = {

@@ -1,6 +1,612 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStorySpeakNPCTable_9.lua
 
 local CfgStorySpeakNPCTable_9 = {
+	[401001503] = {
+		Id = 401001503,
+		NPCName = getI18NValue(180176392),
+		SpeakContent = getI18NValue(180176393),
+		AnimationName = {
+			"S_talk_no",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[401001504] = {
+		SpeakNPC = 103,
+		Id = 401001504,
+		NPCName = getI18NValue(180176394),
+		SpeakContent = getI18NValue(180176395),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001505] = {
+		SpeakNPC = 103,
+		Id = 401001505,
+		NPCName = getI18NValue(180176396),
+		SpeakContent = getI18NValue(180176397),
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001506] = {
+		Id = 401001506,
+		NPCName = getI18NValue(180176398),
+		SpeakContent = getI18NValue(180176399),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001507] = {
+		Id = 401001507,
+		NPCName = getI18NValue(180176400),
+		SpeakContent = getI18NValue(180176401),
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001508] = {
+		SpeakNPC = 103,
+		Id = 401001508,
+		NPCName = getI18NValue(180176402),
+		SpeakContent = getI18NValue(180176403),
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[401001509] = {
+		Id = 401001509,
+		NPCName = getI18NValue(180176404),
+		SpeakContent = getI18NValue(180176405),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001510] = {
+		Id = 401001510,
+		NPCName = getI18NValue(180176406),
+		SpeakContent = getI18NValue(180176407)
+	},
+	[401001511] = {
+		Id = 401001511,
+		NPCName = getI18NValue(180176408),
+		SpeakContent = getI18NValue(180176409),
+		AnimationName = {
+			"S_thinking_3",
+			"S_talk_1",
+			"S_talk_2",
+			""
+		},
+		AnimationLoop = {
+			false,
+			false,
+			true,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001512] = {
+		SpeakNPC = 105,
+		Id = 401001512,
+		NPCName = getI18NValue(180176410),
+		SpeakContent = getI18NValue(180176411),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001513] = {
+		SpeakNPC = 105,
+		Id = 401001513,
+		NPCName = getI18NValue(180176412),
+		SpeakContent = getI18NValue(180176413),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001514] = {
+		Id = 401001514,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180176414),
+		SpeakContent = getI18NValue(180176415),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001515] = {
+		Id = 401001515,
+		NPCName = getI18NValue(180176416),
+		SpeakContent = getI18NValue(180176417),
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001516] = {
+		Id = 401001516,
+		SpeakNPC = -6,
+		NPCName = getI18NValue(180176418),
+		SpeakContent = getI18NValue(180176419)
+	},
+	[401001517] = {
+		Id = 401001517,
+		SpeakNPC = -6,
+		NPCName = getI18NValue(180176420),
+		SpeakContent = getI18NValue(180176421)
+	},
+	[401001518] = {
+		Id = 401001518,
+		SpeakNPC = -6,
+		NPCName = getI18NValue(180176422),
+		SpeakContent = getI18NValue(180176423)
+	},
+	[401001601] = {
+		SpeakNPC = 104,
+		Id = 401001601,
+		NPCName = getI18NValue(180176424),
+		SpeakContent = getI18NValue(180176425),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001602] = {
+		Id = 401001602,
+		SpeakNPC = 104,
+		NPCName = getI18NValue(180176426),
+		SpeakContent = getI18NValue(180176427)
+	},
+	[401001603] = {
+		Id = 401001603,
+		SpeakNPC = 104,
+		NPCName = getI18NValue(180176428),
+		SpeakContent = getI18NValue(180176429)
+	},
+	[401001604] = {
+		Id = 401001604,
+		SpeakNPC = 104,
+		NPCName = getI18NValue(180176430),
+		SpeakContent = getI18NValue(180176431)
+	},
+	[401001605] = {
+		Id = 401001605,
+		SpeakNPC = 104,
+		NPCName = getI18NValue(180176432),
+		SpeakContent = getI18NValue(180176433)
+	},
+	[401001606] = {
+		SpeakNPC = 104,
+		Id = 401001606,
+		NPCName = getI18NValue(180176434),
+		SpeakContent = getI18NValue(180176435),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001607] = {
+		Id = 401001607,
+		SpeakNPC = 103,
+		PlaySound = 22000105,
+		NPCName = getI18NValue(180176436),
+		SpeakContent = getI18NValue(180176437),
+		AnimationName = {
+			"S_surprised_1",
+			"S_surprised_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_surprised_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001608] = {
+		SpeakNPC = 104,
+		Id = 401001608,
+		NPCName = getI18NValue(180176438),
+		SpeakContent = getI18NValue(180176439),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001609] = {
+		Id = 401001609,
+		SpeakNPC = 104,
+		NPCName = getI18NValue(180176440),
+		SpeakContent = getI18NValue(180176441)
+	},
+	[401001610] = {
+		SpeakNPC = 104,
+		Id = 401001610,
+		NPCName = getI18NValue(180176442),
+		SpeakContent = getI18NValue(180176443),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001611] = {
+		SpeakNPC = 101,
+		Id = 401001611,
+		NPCName = getI18NValue(180176444),
+		SpeakContent = getI18NValue(180176445),
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[401001612] = {
+		SpeakNPC = 104,
+		Id = 401001612,
+		NPCName = getI18NValue(180176446),
+		SpeakContent = getI18NValue(180176447),
+		AnimationName = {
+			"S_laugh_1",
+			"S_laugh_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_laugh_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001613] = {
+		SpeakNPC = 101,
+		Id = 401001613,
+		NPCName = getI18NValue(180176448),
+		SpeakContent = getI18NValue(180176449),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001614] = {
+		SpeakNPC = 104,
+		Id = 401001614,
+		NPCName = getI18NValue(180176450),
+		SpeakContent = getI18NValue(180176451),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001615] = {
+		SpeakNPC = 104,
+		Id = 401001615,
+		NPCName = getI18NValue(180176452),
+		SpeakContent = getI18NValue(180176453),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001616] = {
+		SpeakNPC = 101,
+		Id = 401001616,
+		NPCName = getI18NValue(180176454),
+		SpeakContent = getI18NValue(180176455),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001617] = {
+		SpeakNPC = 103,
+		Id = 401001617,
+		NPCName = getI18NValue(180176456),
+		SpeakContent = getI18NValue(180176457),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001618] = {
+		SpeakNPC = 104,
+		Id = 401001618,
+		NPCName = getI18NValue(180176458),
+		SpeakContent = getI18NValue(180176459),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[401001619] = {
+		Id = 401001619,
+		SpeakNPC = 104,
+		NPCName = getI18NValue(180176460),
+		SpeakContent = getI18NValue(180176461)
+	},
+	[401001620] = {
+		SpeakNPC = 104,
+		Id = 401001620,
+		NPCName = getI18NValue(180176462),
+		SpeakContent = getI18NValue(180176463),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[401001621] = {
+		PlaySound = 22000137,
+		Id = 401001621,
+		FacialEffect = 5,
+		NPCName = getI18NValue(180176464),
+		SpeakContent = getI18NValue(180176465),
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[401001622] = {
+		SpeakNPC = 101,
+		Id = 401001622,
+		FacialEffect = 5,
+		NPCName = getI18NValue(180176466),
+		SpeakContent = getI18NValue(180176467),
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
 	[401001623] = {
 		SpeakNPC = 103,
 		Id = 401001623,
@@ -54861,6 +55467,1369 @@ local CfgStorySpeakNPCTable_9 = {
 			false
 		}
 	},
+	[403050001] = {
+		Id = 403050001,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180263179),
+		SpeakContent = getI18NValue(180263180)
+	},
+	[403050002] = {
+		Id = 403050002,
+		NPCName = getI18NValue(180263181),
+		SpeakContent = getI18NValue(180263182),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050003] = {
+		PlaySound = 22000106,
+		SpeakNPC = 403001,
+		Id = 403050003,
+		NPCName = getI18NValue(180263183),
+		SpeakContent = getI18NValue(180263184)
+	},
+	[403050004] = {
+		PlaySound = 22000107,
+		SpeakNPC = 403001,
+		Id = 403050004,
+		NPCName = getI18NValue(180263185),
+		SpeakContent = getI18NValue(180263186),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050005] = {
+		Id = 403050005,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263187),
+		SpeakContent = getI18NValue(180263188)
+	},
+	[403050006] = {
+		Id = 403050006,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263189),
+		SpeakContent = getI18NValue(180263190),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050007] = {
+		SpeakNPC = 403001,
+		Id = 403050007,
+		NPCName = getI18NValue(180263191),
+		SpeakContent = getI18NValue(180263192),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050008] = {
+		Id = 403050008,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263193),
+		SpeakContent = getI18NValue(180263194)
+	},
+	[403050009] = {
+		Id = 403050009,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263195),
+		SpeakContent = getI18NValue(180263196)
+	},
+	[403050010] = {
+		Id = 403050010,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263197),
+		SpeakContent = getI18NValue(180263198)
+	},
+	[403050011] = {
+		Id = 403050011,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263199),
+		SpeakContent = getI18NValue(180263200)
+	},
+	[403050012] = {
+		PlaySound = 22000114,
+		SpeakNPC = 403001,
+		Id = 403050012,
+		NPCName = getI18NValue(180263201),
+		SpeakContent = getI18NValue(180263202)
+	},
+	[403050013] = {
+		Id = 403050013,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263203),
+		SpeakContent = getI18NValue(180263204)
+	},
+	[403050014] = {
+		Id = 403050014,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263205),
+		SpeakContent = getI18NValue(180263206)
+	},
+	[403050015] = {
+		Id = 403050015,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263207),
+		SpeakContent = getI18NValue(180263208)
+	},
+	[403050016] = {
+		Id = 403050016,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263209),
+		SpeakContent = getI18NValue(180263210)
+	},
+	[403050017] = {
+		Id = 403050017,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180263211),
+		SpeakContent = getI18NValue(180263212)
+	},
+	[403050018] = {
+		Id = 403050018,
+		NPCName = getI18NValue(180263213),
+		SpeakContent = getI18NValue(180263214)
+	},
+	[403050019] = {
+		Id = 403050019,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263215),
+		SpeakContent = getI18NValue(180263216)
+	},
+	[403050020] = {
+		Id = 403050020,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263217),
+		SpeakContent = getI18NValue(180263218)
+	},
+	[403050021] = {
+		Id = 403050021,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263219),
+		SpeakContent = getI18NValue(180263220)
+	},
+	[403050022] = {
+		PlaySound = 22000121,
+		SpeakNPC = 403001,
+		Id = 403050022,
+		NPCName = getI18NValue(180263221),
+		SpeakContent = getI18NValue(180263222)
+	},
+	[403050023] = {
+		Id = 403050023,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263223),
+		SpeakContent = getI18NValue(180263224)
+	},
+	[403050024] = {
+		PlaySound = 22000114,
+		SpeakNPC = 403001,
+		Id = 403050024,
+		NPCName = getI18NValue(180263225),
+		SpeakContent = getI18NValue(180263226)
+	},
+	[403050025] = {
+		Id = 403050025,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263227),
+		SpeakContent = getI18NValue(180263228)
+	},
+	[403050026] = {
+		Id = 403050026,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263229),
+		SpeakContent = getI18NValue(180263230)
+	},
+	[403050027] = {
+		PlaySound = 22000107,
+		SpeakNPC = 403001,
+		FacialEffect = 1,
+		Id = 403050027,
+		NPCName = getI18NValue(180263231),
+		SpeakContent = getI18NValue(180263232)
+	},
+	[403050028] = {
+		Id = 403050028,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263233),
+		SpeakContent = getI18NValue(180263234)
+	},
+	[403050029] = {
+		Id = 403050029,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263235),
+		SpeakContent = getI18NValue(180263236)
+	},
+	[403050030] = {
+		Id = 403050030,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263237),
+		SpeakContent = getI18NValue(180263238)
+	},
+	[403050031] = {
+		Id = 403050031,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263239),
+		SpeakContent = getI18NValue(180263240)
+	},
+	[403050032] = {
+		Id = 403050032,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263241),
+		SpeakContent = getI18NValue(180263242)
+	},
+	[403050033] = {
+		Id = 403050033,
+		NPCName = getI18NValue(180263243),
+		SpeakContent = getI18NValue(180263244),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050034] = {
+		Id = 403050034,
+		NPCName = getI18NValue(180263245),
+		SpeakContent = getI18NValue(180263246)
+	},
+	[403050035] = {
+		Id = 403050035,
+		NPCName = getI18NValue(180263247),
+		SpeakContent = getI18NValue(180263248),
+		AnimationName = {
+			"S_thinking_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050101] = {
+		Id = 403050101,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263249),
+		SpeakContent = getI18NValue(180263250)
+	},
+	[403050102] = {
+		PlaySound = 22000114,
+		SpeakNPC = 403001,
+		Id = 403050102,
+		NPCName = getI18NValue(180263251),
+		SpeakContent = getI18NValue(180263252)
+	},
+	[403050103] = {
+		Id = 403050103,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263253),
+		SpeakContent = getI18NValue(180263254)
+	},
+	[403050104] = {
+		Id = 403050104,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263255),
+		SpeakContent = getI18NValue(180263256)
+	},
+	[403050105] = {
+		Id = 403050105,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263257),
+		SpeakContent = getI18NValue(180263258)
+	},
+	[403050106] = {
+		Id = 403050106,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263259),
+		SpeakContent = getI18NValue(180263260)
+	},
+	[403050107] = {
+		Id = 403050107,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180264291),
+		SpeakContent = getI18NValue(180264292)
+	},
+	[403050108] = {
+		Id = 403050108,
+		NPCName = getI18NValue(180264293),
+		SpeakContent = getI18NValue(180264294)
+	},
+	[403050109] = {
+		Id = 403050109,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264295),
+		SpeakContent = getI18NValue(180264296)
+	},
+	[403050110] = {
+		Id = 403050110,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264297),
+		SpeakContent = getI18NValue(180264298)
+	},
+	[403050111] = {
+		Id = 403050111,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264299),
+		SpeakContent = getI18NValue(180264300)
+	},
+	[403050112] = {
+		PlaySound = 22000121,
+		SpeakNPC = 403001,
+		Id = 403050112,
+		NPCName = getI18NValue(180264301),
+		SpeakContent = getI18NValue(180264302)
+	},
+	[403050113] = {
+		Id = 403050113,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264303),
+		SpeakContent = getI18NValue(180264304)
+	},
+	[403050114] = {
+		PlaySound = 22000114,
+		SpeakNPC = 403001,
+		Id = 403050114,
+		NPCName = getI18NValue(180264305),
+		SpeakContent = getI18NValue(180264306)
+	},
+	[403050115] = {
+		Id = 403050115,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264307),
+		SpeakContent = getI18NValue(180264308)
+	},
+	[403050116] = {
+		Id = 403050116,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264309),
+		SpeakContent = getI18NValue(180264310)
+	},
+	[403050117] = {
+		PlaySound = 22000107,
+		SpeakNPC = 403001,
+		FacialEffect = 1,
+		Id = 403050117,
+		NPCName = getI18NValue(180264311),
+		SpeakContent = getI18NValue(180264312)
+	},
+	[403050118] = {
+		Id = 403050118,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264313),
+		SpeakContent = getI18NValue(180264314)
+	},
+	[403050119] = {
+		Id = 403050119,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264315),
+		SpeakContent = getI18NValue(180264316)
+	},
+	[403050120] = {
+		Id = 403050120,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264317),
+		SpeakContent = getI18NValue(180264318)
+	},
+	[403050121] = {
+		Id = 403050121,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264319),
+		SpeakContent = getI18NValue(180264320)
+	},
+	[403050122] = {
+		Id = 403050122,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180264321),
+		SpeakContent = getI18NValue(180264322)
+	},
+	[403050201] = {
+		Id = 403050201,
+		NPCName = getI18NValue(180263261),
+		SpeakContent = getI18NValue(180263262)
+	},
+	[403050202] = {
+		PlaySound = 22000106,
+		SpeakNPC = 201,
+		Id = 403050202,
+		NPCName = getI18NValue(180263263),
+		SpeakContent = getI18NValue(180263264),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050203] = {
+		Id = 403050203,
+		SpeakNPC = 201,
+		NPCName = getI18NValue(180263265),
+		SpeakContent = getI18NValue(180263266)
+	},
+	[403050204] = {
+		Id = 403050204,
+		SpeakNPC = 201,
+		NPCName = getI18NValue(180263267),
+		SpeakContent = getI18NValue(180263268)
+	},
+	[403050205] = {
+		PlaySound = 22000114,
+		SpeakNPC = 201,
+		Id = 403050205,
+		NPCName = getI18NValue(180263269),
+		SpeakContent = getI18NValue(180263270),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050206] = {
+		SpeakNPC = 201,
+		Id = 403050206,
+		NPCName = getI18NValue(180263271),
+		SpeakContent = getI18NValue(180263272),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050207] = {
+		PlaySound = 22000107,
+		SpeakNPC = 201,
+		Id = 403050207,
+		NPCName = getI18NValue(180263273),
+		SpeakContent = getI18NValue(180263274),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050208] = {
+		Id = 403050208,
+		SpeakNPC = 201,
+		NPCName = getI18NValue(180263275),
+		SpeakContent = getI18NValue(180263276)
+	},
+	[403050209] = {
+		Id = 403050209,
+		SpeakNPC = 201,
+		NPCName = getI18NValue(180263277),
+		SpeakContent = getI18NValue(180263278)
+	},
+	[403050210] = {
+		Id = 403050210,
+		SpeakNPC = 201,
+		NPCName = getI18NValue(180263279),
+		SpeakContent = getI18NValue(180263280)
+	},
+	[403050211] = {
+		Id = 403050211,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263281),
+		SpeakContent = getI18NValue(180263282)
+	},
+	[403050301] = {
+		Id = 403050301,
+		NPCName = getI18NValue(180263283),
+		SpeakContent = getI18NValue(180263284)
+	},
+	[403050302] = {
+		PlaySound = 22000114,
+		SpeakNPC = 202,
+		Id = 403050302,
+		NPCName = getI18NValue(180263285),
+		SpeakContent = getI18NValue(180263286),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050303] = {
+		Id = 403050303,
+		SpeakNPC = 202,
+		NPCName = getI18NValue(180263287),
+		SpeakContent = getI18NValue(180263288)
+	},
+	[403050304] = {
+		SpeakNPC = 202,
+		Id = 403050304,
+		NPCName = getI18NValue(180263289),
+		SpeakContent = getI18NValue(180263290),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050305] = {
+		Id = 403050305,
+		NPCName = getI18NValue(180263291),
+		SpeakContent = getI18NValue(180263292)
+	},
+	[403050306] = {
+		SpeakNPC = 202,
+		Id = 403050306,
+		NPCName = getI18NValue(180263293),
+		SpeakContent = getI18NValue(180263294),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050307] = {
+		SpeakNPC = 202,
+		Id = 403050307,
+		NPCName = getI18NValue(180263295),
+		SpeakContent = getI18NValue(180263296),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050308] = {
+		Id = 403050308,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263297),
+		SpeakContent = getI18NValue(180263298)
+	},
+	[403050401] = {
+		Id = 403050401,
+		NPCName = getI18NValue(180263299),
+		SpeakContent = getI18NValue(180263300)
+	},
+	[403050402] = {
+		SpeakNPC = 203,
+		PlaySound = 22000114,
+		Id = 403050402,
+		NPCName = getI18NValue(180263301),
+		SpeakContent = getI18NValue(180263303),
+		SpeakContent_Female = getI18NValue(180263302),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050403] = {
+		Id = 403050403,
+		NPCName = getI18NValue(180263304),
+		SpeakContent = getI18NValue(180263305)
+	},
+	[403050404] = {
+		SpeakNPC = 203,
+		Id = 403050404,
+		NPCName = getI18NValue(180263306),
+		SpeakContent = getI18NValue(180263307),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050405] = {
+		Id = 403050405,
+		SpeakNPC = 203,
+		NPCName = getI18NValue(180263308),
+		SpeakContent = getI18NValue(180263309)
+	},
+	[403050406] = {
+		Id = 403050406,
+		SpeakNPC = 203,
+		NPCName = getI18NValue(180263310),
+		SpeakContent = getI18NValue(180263311)
+	},
+	[403050407] = {
+		SpeakNPC = 203,
+		Id = 403050407,
+		NPCName = getI18NValue(180263312),
+		SpeakContent = getI18NValue(180263313),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050408] = {
+		Id = 403050408,
+		SpeakNPC = 203,
+		NPCName = getI18NValue(180263314),
+		SpeakContent = getI18NValue(180263315)
+	},
+	[403050409] = {
+		Id = 403050409,
+		SpeakNPC = 203,
+		NPCName = getI18NValue(180263316),
+		SpeakContent = getI18NValue(180263317)
+	},
+	[403050410] = {
+		Id = 403050410,
+		SpeakNPC = 203,
+		PlaySound = 22000114,
+		NPCName = getI18NValue(180263318),
+		SpeakContent = getI18NValue(180263319),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050411] = {
+		Id = 403050411,
+		NPCName = getI18NValue(180263320),
+		SpeakContent = getI18NValue(180263321)
+	},
+	[403050412] = {
+		SpeakNPC = 203,
+		Id = 403050412,
+		NPCName = getI18NValue(180263322),
+		SpeakContent = getI18NValue(180263324),
+		SpeakContent_Female = getI18NValue(180263323)
+	},
+	[403050501] = {
+		Id = 403050501,
+		NPCName = getI18NValue(180263325),
+		SpeakContent = getI18NValue(180263326)
+	},
+	[403050502] = {
+		PlaySound = 22000111,
+		SpeakNPC = 204,
+		Id = 403050502,
+		NPCName = getI18NValue(180263327),
+		SpeakContent = getI18NValue(180263328)
+	},
+	[403050503] = {
+		Id = 403050503,
+		SpeakNPC = 204,
+		NPCName = getI18NValue(180263329),
+		SpeakContent = getI18NValue(180263330)
+	},
+	[403050504] = {
+		Id = 403050504,
+		NPCName = getI18NValue(180263331),
+		SpeakContent = getI18NValue(180263332),
+		AnimationName = {
+			"S_talk_no",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050505] = {
+		Id = 403050505,
+		SpeakNPC = 204,
+		NPCName = getI18NValue(180263333),
+		SpeakContent = getI18NValue(180263334)
+	},
+	[403050601] = {
+		Id = 403050601,
+		NPCName = getI18NValue(180263335),
+		SpeakContent = getI18NValue(180263336)
+	},
+	[403050602] = {
+		PlaySound = 22000114,
+		SpeakNPC = 205,
+		Id = 403050602,
+		NPCName = getI18NValue(180263337),
+		SpeakContent = getI18NValue(180263338)
+	},
+	[403050603] = {
+		Id = 403050603,
+		SpeakNPC = 205,
+		NPCName = getI18NValue(180263339),
+		SpeakContent = getI18NValue(180263340)
+	},
+	[403050604] = {
+		Id = 403050604,
+		SpeakNPC = 205,
+		NPCName = getI18NValue(180263341),
+		SpeakContent = getI18NValue(180263342)
+	},
+	[403050605] = {
+		Id = 403050605,
+		SpeakNPC = 205,
+		NPCName = getI18NValue(180263343),
+		SpeakContent = getI18NValue(180263344)
+	},
+	[403050606] = {
+		Id = 403050606,
+		SpeakNPC = 205,
+		NPCName = getI18NValue(180263345),
+		SpeakContent = getI18NValue(180263346)
+	},
+	[403050607] = {
+		Id = 403050607,
+		SpeakNPC = 205,
+		NPCName = getI18NValue(180263347),
+		SpeakContent = getI18NValue(180263348)
+	},
+	[403050608] = {
+		Id = 403050608,
+		SpeakNPC = 206,
+		NPCName = getI18NValue(180263349),
+		SpeakContent = getI18NValue(180263350)
+	},
+	[403050609] = {
+		Id = 403050609,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263351),
+		SpeakContent = getI18NValue(180263352)
+	},
+	[403050701] = {
+		Id = 403050701,
+		NPCName = getI18NValue(180263353),
+		SpeakContent = getI18NValue(180263354)
+	},
+	[403050702] = {
+		PlaySound = 22000106,
+		SpeakNPC = 208,
+		Id = 403050702,
+		NPCName = getI18NValue(180263355),
+		SpeakContent = getI18NValue(180263356)
+	},
+	[403050703] = {
+		Id = 403050703,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263357),
+		SpeakContent = getI18NValue(180263358),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050704] = {
+		Id = 403050704,
+		NPCName = getI18NValue(180263359),
+		SpeakContent = getI18NValue(180263360),
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050705] = {
+		SpeakNPC = 207,
+		Id = 403050705,
+		NPCName = getI18NValue(180263361),
+		SpeakContent = getI18NValue(180263362),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050706] = {
+		Id = 403050706,
+		SpeakNPC = 207,
+		NPCName = getI18NValue(180263363),
+		SpeakContent = getI18NValue(180263364)
+	},
+	[403050707] = {
+		Id = 403050707,
+		SpeakNPC = 207,
+		NPCName = getI18NValue(180263365),
+		SpeakContent = getI18NValue(180263366)
+	},
+	[403050708] = {
+		Id = 403050708,
+		SpeakNPC = 207,
+		NPCName = getI18NValue(180263367),
+		SpeakContent = getI18NValue(180263368)
+	},
+	[403050709] = {
+		Id = 403050709,
+		SpeakNPC = 207,
+		NPCName = getI18NValue(180263369),
+		SpeakContent = getI18NValue(180263370)
+	},
+	[403050710] = {
+		SpeakNPC = 207,
+		Id = 403050710,
+		NPCName = getI18NValue(180263371),
+		SpeakContent = getI18NValue(180263372),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050801] = {
+		Id = 403050801,
+		NPCName = getI18NValue(180263373),
+		SpeakContent = getI18NValue(180263374)
+	},
+	[403050802] = {
+		FacialEffect = 8,
+		SpeakNPC = 209,
+		Id = 403050802,
+		NPCName = getI18NValue(180263375),
+		SpeakContent = getI18NValue(180263376)
+	},
+	[403050803] = {
+		Id = 403050803,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180263377),
+		SpeakContent = getI18NValue(180263378)
+	},
+	[403050804] = {
+		Id = 403050804,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263379),
+		SpeakContent = getI18NValue(180263380)
+	},
+	[403050805] = {
+		Id = 403050805,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263381),
+		SpeakContent = getI18NValue(180263382)
+	},
+	[403050806] = {
+		Id = 403050806,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263383),
+		SpeakContent = getI18NValue(180263384)
+	},
+	[403050807] = {
+		Id = 403050807,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263385),
+		SpeakContent = getI18NValue(180263386)
+	},
+	[403050808] = {
+		Id = 403050808,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180263387),
+		SpeakContent = getI18NValue(180263388)
+	},
+	[403050809] = {
+		Id = 403050809,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263389),
+		SpeakContent = getI18NValue(180263390)
+	},
+	[403050810] = {
+		Id = 403050810,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263391),
+		SpeakContent = getI18NValue(180263392)
+	},
+	[403050811] = {
+		Id = 403050811,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180263393),
+		SpeakContent = getI18NValue(180263394)
+	},
+	[403050812] = {
+		Id = 403050812,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263395),
+		SpeakContent = getI18NValue(180263396)
+	},
+	[403050813] = {
+		Id = 403050813,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263397),
+		SpeakContent = getI18NValue(180263398)
+	},
+	[403050814] = {
+		Id = 403050814,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263399),
+		SpeakContent = getI18NValue(180263400)
+	},
+	[403050815] = {
+		FacialEffect = 8,
+		SpeakNPC = 209,
+		Id = 403050815,
+		NPCName = getI18NValue(180263401),
+		SpeakContent = getI18NValue(180263402)
+	},
+	[403050816] = {
+		SpeakNPC = 209,
+		Id = 403050816,
+		NPCName = getI18NValue(180263403),
+		SpeakContent = getI18NValue(180263404),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050817] = {
+		Id = 403050817,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263405),
+		SpeakContent = getI18NValue(180263406)
+	},
+	[403050818] = {
+		SpeakNPC = 209,
+		Id = 403050818,
+		NPCName = getI18NValue(180263407),
+		SpeakContent = getI18NValue(180263408),
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[403050819] = {
+		Id = 403050819,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180263409),
+		SpeakContent = getI18NValue(180263410)
+	},
+	[403050820] = {
+		Id = 403050820,
+		SpeakNPC = 209,
+		NPCName = getI18NValue(180263411),
+		SpeakContent = getI18NValue(180263412)
+	},
+	[403050821] = {
+		Id = 403050821,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263413),
+		SpeakContent = getI18NValue(180263414)
+	},
+	[403050901] = {
+		Id = 403050901,
+		NPCName = getI18NValue(180263415),
+		SpeakContent = getI18NValue(180263416)
+	},
+	[403050902] = {
+		PlaySound = 22000106,
+		SpeakNPC = 210,
+		Id = 403050902,
+		NPCName = getI18NValue(180263417),
+		SpeakContent = getI18NValue(180263418)
+	},
+	[403050903] = {
+		Id = 403050903,
+		SpeakNPC = 210,
+		NPCName = getI18NValue(180263419),
+		SpeakContent = getI18NValue(180263420)
+	},
+	[403050904] = {
+		Id = 403050904,
+		SpeakNPC = 210,
+		NPCName = getI18NValue(180263421),
+		SpeakContent = getI18NValue(180263422)
+	},
+	[403050905] = {
+		SpeakNPC = 210,
+		Id = 403050905,
+		NPCName = getI18NValue(180263423),
+		SpeakContent = getI18NValue(180263424),
+		AnimationName = {
+			"S_stay_4",
+			"S_stay_1",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403050906] = {
+		Id = 403050906,
+		SpeakNPC = 210,
+		NPCName = getI18NValue(180263425),
+		SpeakContent = getI18NValue(180263426)
+	},
+	[403050907] = {
+		Id = 403050907,
+		SpeakNPC = 210,
+		NPCName = getI18NValue(180263427),
+		SpeakContent = getI18NValue(180263428)
+	},
+	[403050908] = {
+		Id = 403050908,
+		SpeakNPC = 210,
+		NPCName = getI18NValue(180263429),
+		SpeakContent = getI18NValue(180263430)
+	},
+	[403050909] = {
+		Id = 403050909,
+		SpeakNPC = 210,
+		NPCName = getI18NValue(180263431),
+		SpeakContent = getI18NValue(180263432)
+	},
+	[403050910] = {
+		Id = 403050910,
+		NPCName = getI18NValue(180263433),
+		SpeakContent = getI18NValue(180263434)
+	},
+	[403051001] = {
+		Id = 403051001,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180263435),
+		SpeakContent = getI18NValue(180263436)
+	},
+	[403051002] = {
+		Id = 403051002,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180263437),
+		SpeakContent = getI18NValue(180263438)
+	},
+	[403051003] = {
+		Id = 403051003,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263439),
+		SpeakContent = getI18NValue(180263440)
+	},
+	[403051004] = {
+		Id = 403051004,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180263441),
+		SpeakContent = getI18NValue(180263442)
+	},
+	[403051101] = {
+		Id = 403051101,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180263443),
+		SpeakContent = getI18NValue(180263444)
+	},
+	[403051102] = {
+		Id = 403051102,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180263445),
+		SpeakContent = getI18NValue(180263446)
+	},
+	[403051103] = {
+		Id = 403051103,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180263447),
+		SpeakContent = getI18NValue(180263448)
+	},
+	[403051201] = {
+		Id = 403051201,
+		NPCName = getI18NValue(180263449),
+		SpeakContent = getI18NValue(180263450)
+	},
+	[403051202] = {
+		PlaySound = 22000106,
+		SpeakNPC = 403002,
+		Id = 403051202,
+		NPCName = getI18NValue(180263451),
+		SpeakContent = getI18NValue(180263452)
+	},
+	[403051203] = {
+		PlaySound = 22000106,
+		SpeakNPC = 403002,
+		Id = 403051203,
+		NPCName = getI18NValue(180263453),
+		SpeakContent = getI18NValue(180263454)
+	},
+	[403051204] = {
+		PlaySound = 22000106,
+		SpeakNPC = 403002,
+		Id = 403051204,
+		NPCName = getI18NValue(180263455),
+		SpeakContent = getI18NValue(180263456)
+	},
+	[403051301] = {
+		Id = 403051301,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263457),
+		SpeakContent = getI18NValue(180263458)
+	},
+	[403051302] = {
+		Id = 403051302,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263459),
+		SpeakContent = getI18NValue(180263460)
+	},
+	[403051401] = {
+		PlaySound = 22000107,
+		SpeakNPC = 403001,
+		Id = 403051401,
+		NPCName = getI18NValue(180263461),
+		SpeakContent = getI18NValue(180263462),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403051402] = {
+		Id = 403051402,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263463),
+		SpeakContent = getI18NValue(180263464)
+	},
+	[403051403] = {
+		Id = 403051403,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263465),
+		SpeakContent = getI18NValue(180263466)
+	},
+	[403051404] = {
+		SpeakNPC = 403001,
+		Id = 403051404,
+		NPCName = getI18NValue(180263467),
+		SpeakContent = getI18NValue(180263468),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[403051405] = {
+		PlaySound = 22000109,
+		FacialEffect = 4,
+		Id = 403051405,
+		NPCName = getI18NValue(180263469),
+		SpeakContent = getI18NValue(180263470)
+	},
+	[403051406] = {
+		Id = 403051406,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263471),
+		SpeakContent = getI18NValue(180263472)
+	},
+	[403051407] = {
+		Id = 403051407,
+		SpeakNPC = 403001,
+		NPCName = getI18NValue(180263473),
+		SpeakContent = getI18NValue(180263474)
+	},
+	[403051408] = {
+		Id = 403051408,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180263475),
+		SpeakContent = getI18NValue(180263476)
+	},
+	[403051409] = {
+		Id = 403051409,
+		NPCName = getI18NValue(180263477),
+		SpeakContent = getI18NValue(180263478)
+	},
 	[500101001] = {
 		SpeakNPC = 1003,
 		Id = 500101001,
@@ -60999,2206 +62968,6 @@ local CfgStorySpeakNPCTable_9 = {
 		SpeakNPC = 6002,
 		NPCName = getI18NValue(180213659),
 		SpeakContent = getI18NValue(180213660)
-	},
-	[500202057] = {
-		Id = 500202057,
-		NPCName = getI18NValue(180213661),
-		SpeakContent = getI18NValue(180213662)
-	},
-	[500202058] = {
-		Id = 500202058,
-		NPCName = getI18NValue(180213663),
-		SpeakContent = getI18NValue(180213664)
-	},
-	[500202059] = {
-		Id = 500202059,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213665),
-		SpeakContent = getI18NValue(180213666)
-	},
-	[500202060] = {
-		Id = 500202060,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180213667),
-		SpeakContent = getI18NValue(180213668)
-	},
-	[500202061] = {
-		Id = 500202061,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213669),
-		SpeakContent = getI18NValue(180213670)
-	},
-	[500202062] = {
-		Id = 500202062,
-		NPCName = getI18NValue(180213671),
-		SpeakContent = getI18NValue(180213672)
-	},
-	[500202063] = {
-		Id = 500202063,
-		NPCName = getI18NValue(180213673),
-		SpeakContent = getI18NValue(180213674)
-	},
-	[500202064] = {
-		Id = 500202064,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213675),
-		SpeakContent = getI18NValue(180213676)
-	},
-	[500202065] = {
-		Id = 500202065,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213677),
-		SpeakContent = getI18NValue(180213678)
-	},
-	[500202066] = {
-		Id = 500202066,
-		NPCName = getI18NValue(180213679),
-		SpeakContent = getI18NValue(180213680)
-	},
-	[500202067] = {
-		Id = 500202067,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180213681),
-		SpeakContent = getI18NValue(180213682)
-	},
-	[500202068] = {
-		Id = 500202068,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213683),
-		SpeakContent = getI18NValue(180213684)
-	},
-	[500202069] = {
-		Id = 500202069,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213685),
-		SpeakContent = getI18NValue(180213686)
-	},
-	[500202070] = {
-		Id = 500202070,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213687),
-		SpeakContent = getI18NValue(180213688)
-	},
-	[500202071] = {
-		Id = 500202071,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213689),
-		SpeakContent = getI18NValue(180213690)
-	},
-	[500202072] = {
-		Id = 500202072,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213691),
-		SpeakContent = getI18NValue(180213692)
-	},
-	[500202073] = {
-		Id = 500202073,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213693),
-		SpeakContent = getI18NValue(180213694)
-	},
-	[500202074] = {
-		Id = 500202074,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213695),
-		SpeakContent = getI18NValue(180213696)
-	},
-	[500202075] = {
-		Id = 500202075,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180213697),
-		SpeakContent = getI18NValue(180213698)
-	},
-	[500202076] = {
-		Id = 500202076,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213699),
-		SpeakContent = getI18NValue(180213700)
-	},
-	[500202077] = {
-		Id = 500202077,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213701),
-		SpeakContent = getI18NValue(180213702)
-	},
-	[500202078] = {
-		Id = 500202078,
-		NPCName = getI18NValue(180213703),
-		SpeakContent = getI18NValue(180213704)
-	},
-	[500202079] = {
-		Id = 500202079,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213705),
-		SpeakContent = getI18NValue(180213706)
-	},
-	[500202080] = {
-		Id = 500202080,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213707),
-		SpeakContent = getI18NValue(180213708)
-	},
-	[500202081] = {
-		Id = 500202081,
-		NPCName = getI18NValue(180213709),
-		SpeakContent = getI18NValue(180213710)
-	},
-	[500202082] = {
-		Id = 500202082,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213711),
-		SpeakContent = getI18NValue(180213712)
-	},
-	[500202083] = {
-		Id = 500202083,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213713),
-		SpeakContent = getI18NValue(180213714)
-	},
-	[500202084] = {
-		Id = 500202084,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180213715),
-		SpeakContent = getI18NValue(180213716)
-	},
-	[500202085] = {
-		Id = 500202085,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213717),
-		SpeakContent = getI18NValue(180213718)
-	},
-	[500202086] = {
-		Id = 500202086,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213719),
-		SpeakContent = getI18NValue(180213720)
-	},
-	[500202087] = {
-		Id = 500202087,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213721),
-		SpeakContent = getI18NValue(180213722)
-	},
-	[500202088] = {
-		Id = 500202088,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213723),
-		SpeakContent = getI18NValue(180213724)
-	},
-	[500202089] = {
-		Id = 500202089,
-		NPCName = getI18NValue(180213725),
-		SpeakContent = getI18NValue(180213726)
-	},
-	[500202090] = {
-		Id = 500202090,
-		NPCName = getI18NValue(180213727),
-		SpeakContent = getI18NValue(180213728)
-	},
-	[500202091] = {
-		Id = 500202091,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213729),
-		SpeakContent = getI18NValue(180213730)
-	},
-	[500202092] = {
-		Id = 500202092,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180213731),
-		SpeakContent = getI18NValue(180213732)
-	},
-	[500202093] = {
-		Id = 500202093,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213733),
-		SpeakContent = getI18NValue(180213734)
-	},
-	[500202094] = {
-		Id = 500202094,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213735),
-		SpeakContent = getI18NValue(180213736)
-	},
-	[500202095] = {
-		Id = 500202095,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213737),
-		SpeakContent = getI18NValue(180213738)
-	},
-	[500202096] = {
-		Id = 500202096,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180213739),
-		SpeakContent = getI18NValue(180213740)
-	},
-	[500202097] = {
-		Id = 500202097,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213741),
-		SpeakContent = getI18NValue(180213742)
-	},
-	[500202098] = {
-		Id = 500202098,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213743),
-		SpeakContent = getI18NValue(180213744)
-	},
-	[500202099] = {
-		Id = 500202099,
-		NPCName = getI18NValue(180213745),
-		SpeakContent = getI18NValue(180213746)
-	},
-	[500202100] = {
-		Id = 500202100,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213747),
-		SpeakContent = getI18NValue(180213748)
-	},
-	[500202101] = {
-		Id = 500202101,
-		SpeakNPC = 6002,
-		NPCName = getI18NValue(180213749),
-		SpeakContent = getI18NValue(180213750)
-	},
-	[500202102] = {
-		Id = 500202102,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180213751),
-		SpeakContent = getI18NValue(180213752)
-	},
-	[500301001] = {
-		SpeakNPC = 1003,
-		Id = 500301001,
-		NPCName = getI18NValue(180214295),
-		SpeakContent = getI18NValue(180214296),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301002] = {
-		Id = 500301002,
-		SpeakNPC = 1003,
-		NPCName = getI18NValue(180214297),
-		SpeakContent = getI18NValue(180214298)
-	},
-	[500301003] = {
-		Id = 500301003,
-		NPCName = getI18NValue(180214299),
-		SpeakContent = getI18NValue(180214300)
-	},
-	[500301004] = {
-		SpeakNPC = 1003,
-		Id = 500301004,
-		NPCName = getI18NValue(180214301),
-		SpeakContent = getI18NValue(180214302),
-		AnimationName = {
-			"S_talk_3",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301005] = {
-		SpeakNPC = 1003,
-		Id = 500301005,
-		NPCName = getI18NValue(180214303),
-		SpeakContent = getI18NValue(180214304),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301006] = {
-		Id = 500301006,
-		SpeakNPC = 1003,
-		NPCName = getI18NValue(180214305),
-		SpeakContent = getI18NValue(180214306)
-	},
-	[500301007] = {
-		SpeakNPC = 1003,
-		Id = 500301007,
-		NPCName = getI18NValue(180214307),
-		SpeakContent = getI18NValue(180214308),
-		AnimationName = {
-			"S_thinking_2",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301008] = {
-		Id = 500301008,
-		NPCName = getI18NValue(180214309),
-		SpeakContent = getI18NValue(180214310)
-	},
-	[500301009] = {
-		SpeakNPC = 1003,
-		Id = 500301009,
-		NPCName = getI18NValue(180214311),
-		SpeakContent = getI18NValue(180214312),
-		AnimationName = {
-			"S_thinking_1",
-			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301010] = {
-		Id = 500301010,
-		SpeakNPC = 1003,
-		NPCName = getI18NValue(180214313),
-		SpeakContent = getI18NValue(180214314)
-	},
-	[500301011] = {
-		SpeakNPC = 1003,
-		Id = 500301011,
-		NPCName = getI18NValue(180214315),
-		SpeakContent = getI18NValue(180214316),
-		AnimationName = {
-			"S_talk_2",
-			"",
-			"",
-			""
-		},
-		AnimationLoop = {
-			true,
-			false,
-			false,
-			false
-		}
-	},
-	[500301012] = {
-		SpeakNPC = 1003,
-		Id = 500301012,
-		NPCName = getI18NValue(180214317),
-		SpeakContent = getI18NValue(180214318),
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301013] = {
-		Id = 500301013,
-		NPCName = getI18NValue(180214319),
-		SpeakContent = getI18NValue(180214320),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301014] = {
-		Id = 500301014,
-		NPCName = getI18NValue(180214321),
-		SpeakContent = getI18NValue(180214322)
-	},
-	[500301015] = {
-		Id = 500301015,
-		NPCName = getI18NValue(180214323),
-		SpeakContent = getI18NValue(180214324)
-	},
-	[500301016] = {
-		SpeakNPC = 1003,
-		Id = 500301016,
-		NPCName = getI18NValue(180214325),
-		SpeakContent = getI18NValue(180214326),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301017] = {
-		Id = 500301017,
-		NPCName = getI18NValue(180214327),
-		SpeakContent = getI18NValue(180214328)
-	},
-	[500301018] = {
-		SpeakNPC = 1003,
-		Id = 500301018,
-		NPCName = getI18NValue(180214329),
-		SpeakContent = getI18NValue(180214330),
-		AnimationName = {
-			"S_thinking_1",
-			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301019] = {
-		SpeakNPC = 1003,
-		Id = 500301019,
-		NPCName = getI18NValue(180214331),
-		SpeakContent = getI18NValue(180214332),
-		AnimationName = {
-			"S_talk_2",
-			"",
-			"",
-			""
-		},
-		AnimationLoop = {
-			true,
-			false,
-			false,
-			false
-		}
-	},
-	[500301020] = {
-		SpeakNPC = 1003,
-		Id = 500301020,
-		NPCName = getI18NValue(180214333),
-		SpeakContent = getI18NValue(180214334),
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301021] = {
-		Id = 500301021,
-		NPCName = getI18NValue(180214335),
-		SpeakContent = getI18NValue(180214336)
-	},
-	[500301022] = {
-		SpeakNPC = 1003,
-		Id = 500301022,
-		NPCName = getI18NValue(180214337),
-		SpeakContent = getI18NValue(180214338),
-		AnimationName = {
-			"S_thinking_1",
-			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301023] = {
-		SpeakNPC = 1003,
-		Id = 500301023,
-		NPCName = getI18NValue(180214339),
-		SpeakContent = getI18NValue(180214340),
-		AnimationWhenNext = {
-			"S_thinking_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301024] = {
-		Id = 500301024,
-		NPCName = getI18NValue(180214341),
-		SpeakContent = getI18NValue(180214342)
-	},
-	[500301025] = {
-		SpeakNPC = 1003,
-		Id = 500301025,
-		NPCName = getI18NValue(180214343),
-		SpeakContent = getI18NValue(180214344),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301026] = {
-		Id = 500301026,
-		SpeakNPC = 1003,
-		NPCName = getI18NValue(180214345),
-		SpeakContent = getI18NValue(180214346)
-	},
-	[500301027] = {
-		SpeakNPC = 1003,
-		Id = 500301027,
-		NPCName = getI18NValue(180214347),
-		SpeakContent = getI18NValue(180214348),
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301028] = {
-		Id = 500301028,
-		NPCName = getI18NValue(180214349),
-		SpeakContent = getI18NValue(180214350),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301029] = {
-		Id = 500301029,
-		NPCName = getI18NValue(180214351),
-		SpeakContent = getI18NValue(180214352)
-	},
-	[500301030] = {
-		Id = 500301030,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214353),
-		SpeakContent = getI18NValue(180214354)
-	},
-	[500301031] = {
-		Id = 500301031,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214355),
-		SpeakContent = getI18NValue(180214356)
-	},
-	[500301032] = {
-		Id = 500301032,
-		NPCName = getI18NValue(180214357),
-		SpeakContent = getI18NValue(180214358),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301033] = {
-		SpeakNPC = 1001,
-		Id = 500301033,
-		NPCName = getI18NValue(180214359),
-		SpeakContent = getI18NValue(180214360),
-		AnimationName = {
-			"S_thinking_1",
-			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301034] = {
-		Id = 500301034,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180214361),
-		SpeakContent = getI18NValue(180214362)
-	},
-	[500301035] = {
-		SpeakNPC = 1002,
-		Id = 500301035,
-		NPCName = getI18NValue(180214363),
-		SpeakContent = getI18NValue(180214364),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301036] = {
-		Id = 500301036,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214365),
-		SpeakContent = getI18NValue(180214366)
-	},
-	[500301037] = {
-		SpeakNPC = 1002,
-		Id = 500301037,
-		NPCName = getI18NValue(180214367),
-		SpeakContent = getI18NValue(180214368),
-		AnimationName = {
-			"S_talk_3",
-			"S_thinking_1",
-			"S_thinking_2",
-			""
-		},
-		AnimationLoop = {
-			false,
-			false,
-			true,
-			false
-		},
-		AnimationWhenNext = {
-			"S_thinking_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301038] = {
-		Id = 500301038,
-		SpeakNPC = 1001,
-		FacialEffect = 5,
-		PlaySound = 22000106,
-		NPCName = getI18NValue(180214369),
-		SpeakContent = getI18NValue(180214370),
-		AnimationName = {
-			"S_surprised_1",
-			"S_surprised_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_surprised_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301039] = {
-		Id = 500301039,
-		NPCName = getI18NValue(180214371),
-		SpeakContent = getI18NValue(180214372),
-		AnimationName = {
-			"S_talk_b_1",
-			"S_talk_b_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301040] = {
-		Id = 500301040,
-		NPCName = getI18NValue(180214373),
-		SpeakContent = getI18NValue(180214374),
-		AnimationName = {
-			"S_talk_b_3",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301041] = {
-		SpeakNPC = 1003,
-		Id = 500301041,
-		NPCName = getI18NValue(180214375),
-		SpeakContent = getI18NValue(180214376),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301042] = {
-		Id = 500301042,
-		NPCName = getI18NValue(180214377),
-		SpeakContent = getI18NValue(180214378)
-	},
-	[500301043] = {
-		PlaySound = 22000121,
-		SpeakNPC = 1002,
-		Id = 500301043,
-		FacialEffect = 7,
-		NPCName = getI18NValue(180214379),
-		SpeakContent = getI18NValue(180214380),
-		AnimationName = {
-			"S_thinking_1",
-			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500301044] = {
-		PlaySound = 22000121,
-		SpeakNPC = 1001,
-		FacialEffect = 7,
-		Id = 500301044,
-		NPCName = getI18NValue(180214381),
-		SpeakContent = getI18NValue(180214382)
-	},
-	[500301045] = {
-		SpeakNPC = 1002,
-		Id = 500301045,
-		NPCName = getI18NValue(180214383),
-		SpeakContent = getI18NValue(180214384),
-		AnimationWhenNext = {
-			"S_thinking_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500301046] = {
-		Id = 500301046,
-		NPCName = getI18NValue(180214385),
-		SpeakContent = getI18NValue(180214386)
-	},
-	[500301047] = {
-		Id = 500301047,
-		SpeakNPC = 1003,
-		NPCName = getI18NValue(180214387),
-		SpeakContent = getI18NValue(180214388)
-	},
-	[500304001] = {
-		Id = 500304001,
-		NPCName = getI18NValue(180214389),
-		SpeakContent = getI18NValue(180214390),
-		AnimationName = {
-			"S_talk_no",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304002] = {
-		Id = 500304002,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214391),
-		SpeakContent = getI18NValue(180214392)
-	},
-	[500304003] = {
-		Id = 500304003,
-		NPCName = getI18NValue(180214393),
-		SpeakContent = getI18NValue(180214394),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304004] = {
-		Id = 500304004,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214395),
-		SpeakContent = getI18NValue(180214396)
-	},
-	[500304005] = {
-		Id = 500304005,
-		NPCName = getI18NValue(180214397),
-		SpeakContent = getI18NValue(180214398),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304006] = {
-		PlaySound = 22000107,
-		SpeakNPC = 1002,
-		Id = 500304006,
-		NPCName = getI18NValue(180214399),
-		SpeakContent = getI18NValue(180214400),
-		AnimationName = {
-			"S_tucao_A_1",
-			"S_tucao_A_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304007] = {
-		Id = 500304007,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180214401),
-		SpeakContent = getI18NValue(180214402)
-	},
-	[500304008] = {
-		SpeakNPC = 1002,
-		Id = 500304008,
-		NPCName = getI18NValue(180214403),
-		SpeakContent = getI18NValue(180214404),
-		AnimationName = {
-			"S_tucao_A_3",
-			"S_talk_1",
-			"S_talk_2",
-			""
-		},
-		AnimationLoop = {
-			false,
-			false,
-			true,
-			false
-		}
-	},
-	[500304009] = {
-		SpeakNPC = 1002,
-		Id = 500304009,
-		NPCName = getI18NValue(180214405),
-		SpeakContent = getI18NValue(180214406),
-		AnimationName = {
-			"S_Pick_Nose_1",
-			"S_Pick_Nose_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304010] = {
-		Id = 500304010,
-		NPCName = getI18NValue(180214407),
-		SpeakContent = getI18NValue(180214408),
-		AnimationName = {
-			"S_see_1",
-			"S_see_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304011] = {
-		Id = 500304011,
-		NPCName = getI18NValue(180214409),
-		SpeakContent = getI18NValue(180214410)
-	},
-	[500304012] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1002,
-		Id = 500304012,
-		NPCName = getI18NValue(180214411),
-		SpeakContent = getI18NValue(180214412),
-		AnimationName = {
-			"S_surprised_1",
-			"S_surprised_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304013] = {
-		SpeakNPC = 1001,
-		Id = 500304013,
-		NPCName = getI18NValue(180214413),
-		SpeakContent = getI18NValue(180214414),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304014] = {
-		SpeakNPC = 1001,
-		Id = 500304014,
-		NPCName = getI18NValue(180214415),
-		SpeakContent = getI18NValue(180214416),
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304015] = {
-		Id = 500304015,
-		NPCName = getI18NValue(180214417),
-		SpeakContent = getI18NValue(180214418),
-		AnimationName = {
-			"S_stay",
-			"",
-			"",
-			""
-		},
-		AnimationLoop = {
-			true,
-			false,
-			false,
-			false
-		}
-	},
-	[500304016] = {
-		Id = 500304016,
-		NPCName = getI18NValue(180214419),
-		SpeakContent = getI18NValue(180214420)
-	},
-	[500304017] = {
-		Id = 500304017,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214421),
-		SpeakContent = getI18NValue(180214422)
-	},
-	[500304018] = {
-		Id = 500304018,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214423),
-		SpeakContent = getI18NValue(180214424)
-	},
-	[500304019] = {
-		Id = 500304019,
-		NPCName = getI18NValue(180214425),
-		SpeakContent = getI18NValue(180214426),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304020] = {
-		Id = 500304020,
-		NPCName = getI18NValue(180214427),
-		SpeakContent = getI18NValue(180214428),
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304021] = {
-		Id = 500304021,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214429),
-		SpeakContent = getI18NValue(180214430)
-	},
-	[500304022] = {
-		Id = 500304022,
-		NPCName = getI18NValue(180214431),
-		SpeakContent = getI18NValue(180214432),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304023] = {
-		Id = 500304023,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214433),
-		SpeakContent = getI18NValue(180214434)
-	},
-	[500304024] = {
-		SpeakNPC = 1001,
-		Id = 500304024,
-		NPCName = getI18NValue(180214435),
-		SpeakContent = getI18NValue(180214436),
-		AnimationName = {
-			"S_thinking_1",
-			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_thinking_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304025] = {
-		Id = 500304025,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214437),
-		SpeakContent = getI18NValue(180214438)
-	},
-	[500304026] = {
-		Id = 500304026,
-		NPCName = getI18NValue(180214439),
-		SpeakContent = getI18NValue(180214440),
-		AnimationName = {
-			"S_see_1",
-			"S_see_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304027] = {
-		SpeakNPC = 1002,
-		Id = 500304027,
-		NPCName = getI18NValue(180214441),
-		SpeakContent = getI18NValue(180214442),
-		AnimationName = {
-			"S_surprised_3",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304028] = {
-		PlaySound = 22000111,
-		FacialEffect = 3,
-		Id = 500304028,
-		NPCName = getI18NValue(180214443),
-		SpeakContent = getI18NValue(180214444)
-	},
-	[500304029] = {
-		SpeakNPC = 1001,
-		Id = 500304029,
-		NPCName = getI18NValue(180214445),
-		SpeakContent = getI18NValue(180214446),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304030] = {
-		SpeakNPC = 1001,
-		Id = 500304030,
-		NPCName = getI18NValue(180214447),
-		SpeakContent = getI18NValue(180214448),
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304031] = {
-		Id = 500304031,
-		NPCName = getI18NValue(180214449),
-		SpeakContent = getI18NValue(180214450)
-	},
-	[500304032] = {
-		Id = 500304032,
-		NPCName = getI18NValue(180214451),
-		SpeakContent = getI18NValue(180214452),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304033] = {
-		SpeakNPC = 1002,
-		Id = 500304033,
-		NPCName = getI18NValue(180214453),
-		SpeakContent = getI18NValue(180214454),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304034] = {
-		Id = 500304034,
-		NPCName = getI18NValue(180214455),
-		SpeakContent = getI18NValue(180214456),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304035] = {
-		SpeakNPC = 1002,
-		Id = 500304035,
-		NPCName = getI18NValue(180214457),
-		SpeakContent = getI18NValue(180214458),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304036] = {
-		Id = 500304036,
-		NPCName = getI18NValue(180214459),
-		SpeakContent = getI18NValue(180214460)
-	},
-	[500304037] = {
-		Id = 500304037,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214461),
-		SpeakContent = getI18NValue(180214462)
-	},
-	[500304038] = {
-		PlaySound = 22000106,
-		FacialEffect = 5,
-		Id = 500304038,
-		NPCName = getI18NValue(180214463),
-		SpeakContent = getI18NValue(180214464)
-	},
-	[500304039] = {
-		Id = 500304039,
-		SpeakNPC = 1002,
-		FacialEffect = 5,
-		PlaySound = 22000106,
-		NPCName = getI18NValue(180214465),
-		SpeakContent = getI18NValue(180214466),
-		AnimationName = {
-			"S_surprised_1",
-			"S_surprised_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_surprised_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304040] = {
-		Id = 500304040,
-		SpeakNPC = 1001,
-		FacialEffect = 5,
-		PlaySound = 22000106,
-		NPCName = getI18NValue(180214467),
-		SpeakContent = getI18NValue(180214468),
-		AnimationName = {
-			"S_surprised_1",
-			"S_surprised_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_surprised_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304041] = {
-		Id = 500304041,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214469),
-		SpeakContent = getI18NValue(180214470)
-	},
-	[500304042] = {
-		Id = 500304042,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214471),
-		SpeakContent = getI18NValue(180214472)
-	},
-	[500304043] = {
-		Id = 500304043,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214473),
-		SpeakContent = getI18NValue(180214474)
-	},
-	[500304044] = {
-		Id = 500304044,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180214475),
-		SpeakContent = getI18NValue(180214476)
-	},
-	[500304045] = {
-		Id = 500304045,
-		SpeakNPC = 225701,
-		NPCName = getI18NValue(180214477),
-		SpeakContent = getI18NValue(180214478)
-	},
-	[500304046] = {
-		Id = 500304046,
-		SpeakNPC = 225702,
-		NPCName = getI18NValue(180214479),
-		SpeakContent = getI18NValue(180214480)
-	},
-	[500304047] = {
-		Id = 500304047,
-		SpeakNPC = 225703,
-		NPCName = getI18NValue(180214481),
-		SpeakContent = getI18NValue(180214482)
-	},
-	[500304048] = {
-		SpeakNPC = 1035,
-		Id = 500304048,
-		NPCName = getI18NValue(180214483),
-		SpeakContent = getI18NValue(180214484),
-		AnimationName = {
-			"S_B_deterrence_1",
-			"S_B_deterrence_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304049] = {
-		Id = 500304049,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214485),
-		SpeakContent = getI18NValue(180214486)
-	},
-	[500304050] = {
-		SpeakNPC = 1035,
-		Id = 500304050,
-		NPCName = getI18NValue(180214487),
-		SpeakContent = getI18NValue(180214488),
-		AnimationWhenNext = {
-			"S_B_deterrence_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304051] = {
-		Id = 500304051,
-		SpeakNPC = 1005,
-		NPCName = getI18NValue(180214489),
-		SpeakContent = getI18NValue(180214490)
-	},
-	[500304052] = {
-		Id = 500304052,
-		SpeakNPC = 1005,
-		NPCName = getI18NValue(180214491),
-		SpeakContent = getI18NValue(180214492)
-	},
-	[500304053] = {
-		Id = 500304053,
-		SpeakNPC = 1005,
-		NPCName = getI18NValue(180214493),
-		SpeakContent = getI18NValue(180214494)
-	},
-	[500304054] = {
-		Id = 500304054,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214495),
-		SpeakContent = getI18NValue(180214496)
-	},
-	[500304055] = {
-		Id = 500304055,
-		NPCName = getI18NValue(180214497),
-		SpeakContent = getI18NValue(180214498)
-	},
-	[500304056] = {
-		SpeakNPC = 1005,
-		Id = 500304056,
-		NPCName = getI18NValue(180214499),
-		SpeakContent = getI18NValue(180214500),
-		AnimationName = {
-			"S_B_thinking_1",
-			"S_B_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_B_thinking_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304057] = {
-		Id = 500304057,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214501),
-		SpeakContent = getI18NValue(180214502)
-	},
-	[500304058] = {
-		Id = 500304058,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214503),
-		SpeakContent = getI18NValue(180214504)
-	},
-	[500304059] = {
-		SpeakNPC = 1005,
-		Id = 500304059,
-		NPCName = getI18NValue(180214505),
-		SpeakContent = getI18NValue(180214506),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304060] = {
-		SpeakNPC = 1005,
-		Id = 500304060,
-		NPCName = getI18NValue(180214507),
-		SpeakContent = getI18NValue(180214508),
-		AnimationWhenNext = {
-			"S_B_talk_2",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304061] = {
-		SpeakNPC = 1035,
-		Id = 500304061,
-		NPCName = getI18NValue(180214509),
-		SpeakContent = getI18NValue(180214510),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304062] = {
-		SpeakNPC = 1035,
-		Id = 500304062,
-		NPCName = getI18NValue(180214511),
-		SpeakContent = getI18NValue(180214512),
-		AnimationWhenNext = {
-			"S_B_talk_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304063] = {
-		PlaySound = 22000106,
-		FacialEffect = 5,
-		Id = 500304063,
-		NPCName = getI18NValue(180214513),
-		SpeakContent = getI18NValue(180214514)
-	},
-	[500304064] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1001,
-		FacialEffect = 5,
-		Id = 500304064,
-		NPCName = getI18NValue(180214515),
-		SpeakContent = getI18NValue(180214516)
-	},
-	[500304065] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1002,
-		FacialEffect = 5,
-		Id = 500304065,
-		NPCName = getI18NValue(180214517),
-		SpeakContent = getI18NValue(180214518)
-	},
-	[500304066] = {
-		Id = 500304066,
-		NPCName = getI18NValue(180214519),
-		SpeakContent = getI18NValue(180214520)
-	},
-	[500304067] = {
-		SpeakNPC = 1005,
-		Id = 500304067,
-		NPCName = getI18NValue(180214521),
-		SpeakContent = getI18NValue(180214522),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_B_talk_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304068] = {
-		SpeakNPC = 1035,
-		Id = 500304068,
-		NPCName = getI18NValue(180214523),
-		SpeakContent = getI18NValue(180214524),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304069] = {
-		Id = 500304069,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214525),
-		SpeakContent = getI18NValue(180214526)
-	},
-	[500304070] = {
-		SpeakNPC = 1035,
-		Id = 500304070,
-		NPCName = getI18NValue(180214527),
-		SpeakContent = getI18NValue(180214528),
-		AnimationWhenNext = {
-			"S_B_talk_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304071] = {
-		SpeakNPC = 1005,
-		Id = 500304071,
-		NPCName = getI18NValue(180214529),
-		SpeakContent = getI18NValue(180214530),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304072] = {
-		SpeakNPC = 1005,
-		Id = 500304072,
-		NPCName = getI18NValue(180214531),
-		SpeakContent = getI18NValue(180214532),
-		AnimationWhenNext = {
-			"S_B_talk_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304073] = {
-		PlaySound = 22000107,
-		SpeakNPC = 1035,
-		Id = 500304073,
-		NPCName = getI18NValue(180214533),
-		SpeakContent = getI18NValue(180214534),
-		AnimationName = {
-			"S_B_deterrence_1",
-			"S_B_deterrence_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304074] = {
-		Id = 500304074,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214535),
-		SpeakContent = getI18NValue(180214536)
-	},
-	[500304075] = {
-		SpeakNPC = 1035,
-		Id = 500304075,
-		NPCName = getI18NValue(180214537),
-		SpeakContent = getI18NValue(180214538),
-		AnimationWhenNext = {
-			"S_B_deterrence_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304076] = {
-		Id = 500304076,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214539),
-		SpeakContent = getI18NValue(180214540)
-	},
-	[500304077] = {
-		Id = 500304077,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214541),
-		SpeakContent = getI18NValue(180214542)
-	},
-	[500304078] = {
-		Id = 500304078,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180214543),
-		SpeakContent = getI18NValue(180214544)
-	},
-	[500304079] = {
-		SpeakNPC = 1035,
-		Id = 500304079,
-		NPCName = getI18NValue(180214545),
-		SpeakContent = getI18NValue(180214546),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304080] = {
-		Id = 500304080,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214547),
-		SpeakContent = getI18NValue(180214548)
-	},
-	[500304081] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1035,
-		FacialEffect = 5,
-		Id = 500304081,
-		NPCName = getI18NValue(180214549),
-		SpeakContent = getI18NValue(180214550)
-	},
-	[500304082] = {
-		SpeakNPC = 1035,
-		Id = 500304082,
-		NPCName = getI18NValue(180214551),
-		SpeakContent = getI18NValue(180214552),
-		AnimationName = {
-			"S_B_talk_3",
-			"S_B_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304083] = {
-		Id = 500304083,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214553),
-		SpeakContent = getI18NValue(180214554)
-	},
-	[500304084] = {
-		FacialEffect = 8,
-		SpeakNPC = 1035,
-		Id = 500304084,
-		NPCName = getI18NValue(180214555),
-		SpeakContent = getI18NValue(180214556)
-	},
-	[500304085] = {
-		Id = 500304085,
-		SpeakNPC = 1005,
-		NPCName = getI18NValue(180214557),
-		SpeakContent = getI18NValue(180214558)
-	},
-	[500304086] = {
-		PlaySound = 22000114,
-		SpeakNPC = 1035,
-		Id = 500304086,
-		NPCName = getI18NValue(180214559),
-		SpeakContent = getI18NValue(180214560)
-	},
-	[500304087] = {
-		PlaySound = 22000106,
-		FacialEffect = 5,
-		Id = 500304087,
-		NPCName = getI18NValue(180214561),
-		SpeakContent = getI18NValue(180214562)
-	},
-	[500304088] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1002,
-		FacialEffect = 5,
-		Id = 500304088,
-		NPCName = getI18NValue(180214563),
-		SpeakContent = getI18NValue(180214564)
-	},
-	[500304089] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1001,
-		FacialEffect = 5,
-		Id = 500304089,
-		NPCName = getI18NValue(180214565),
-		SpeakContent = getI18NValue(180214566)
-	},
-	[500304090] = {
-		PlaySound = 22000106,
-		SpeakNPC = 1005,
-		FacialEffect = 5,
-		Id = 500304090,
-		NPCName = getI18NValue(180214567),
-		SpeakContent = getI18NValue(180214568)
-	},
-	[500304091] = {
-		Id = 500304091,
-		SpeakNPC = 225701,
-		NPCName = getI18NValue(180214569),
-		SpeakContent = getI18NValue(180214570)
-	},
-	[500304092] = {
-		Id = 500304092,
-		SpeakNPC = 225702,
-		NPCName = getI18NValue(180214571),
-		SpeakContent = getI18NValue(180214572)
-	},
-	[500304093] = {
-		Id = 500304093,
-		SpeakNPC = 225703,
-		NPCName = getI18NValue(180214573),
-		SpeakContent = getI18NValue(180214574)
-	},
-	[500304094] = {
-		Id = 500304094,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214575),
-		SpeakContent = getI18NValue(180214576)
-	},
-	[500304095] = {
-		Id = 500304095,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180214577),
-		SpeakContent = getI18NValue(180214578)
-	},
-	[500304096] = {
-		Id = 500304096,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214579),
-		SpeakContent = getI18NValue(180214580)
-	},
-	[500304097] = {
-		Id = 500304097,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214581),
-		SpeakContent = getI18NValue(180214582)
-	},
-	[500304098] = {
-		Id = 500304098,
-		SpeakNPC = 1035,
-		NPCName = getI18NValue(180214583),
-		SpeakContent = getI18NValue(180214584)
-	},
-	[500304099] = {
-		Id = 500304099,
-		SpeakNPC = 1005,
-		NPCName = getI18NValue(180214585),
-		SpeakContent = getI18NValue(180214586)
-	},
-	[500304100] = {
-		Id = 500304100,
-		SpeakNPC = 1002,
-		NPCName = getI18NValue(180214587),
-		SpeakContent = getI18NValue(180214588)
-	},
-	[500304101] = {
-		Id = 500304101,
-		NPCName = getI18NValue(180214589),
-		SpeakContent = getI18NValue(180214590),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304102] = {
-		Id = 500304102,
-		SpeakNPC = 1001,
-		NPCName = getI18NValue(180214591),
-		SpeakContent = getI18NValue(180214592)
-	},
-	[500304103] = {
-		Id = 500304103,
-		NPCName = getI18NValue(180214593),
-		SpeakContent = getI18NValue(180214594)
-	},
-	[500304104] = {
-		Id = 500304104,
-		NPCName = getI18NValue(180214595),
-		SpeakContent = getI18NValue(180214596)
-	},
-	[500304105] = {
-		SpeakNPC = 1005,
-		Id = 500304105,
-		NPCName = getI18NValue(180214597),
-		SpeakContent = getI18NValue(180214598),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[500304106] = {
-		SpeakNPC = 1005,
-		Id = 500304106,
-		NPCName = getI18NValue(180214599),
-		SpeakContent = getI18NValue(180214600),
-		AnimationWhenNext = {
-			"S_B_talk_3",
-			"S_B_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[500304107] = {
-		SpeakNPC = 1001,
-		Id = 500304107,
-		NPCName = getI18NValue(180214601),
-		SpeakContent = getI18NValue(180214602),
-		AnimationName = {
-			"S_stay_a",
-			"",
-			"",
-			""
-		},
-		AnimationLoop = {
-			true,
-			false,
-			false,
-			false
-		}
-	},
-	[500304108] = {
-		Id = 500304108,
-		NPCName = getI18NValue(180214603),
-		SpeakContent = getI18NValue(180214604)
-	},
-	[500304109] = {
-		FacialEffect = 8,
-		SpeakNPC = 1035,
-		Id = 500304109,
-		NPCName = getI18NValue(180214605),
-		SpeakContent = getI18NValue(180214606)
-	},
-	[500304110] = {
-		SpeakNPC = 1035,
-		Id = 500304110,
-		NPCName = getI18NValue(180214607),
-		SpeakContent = getI18NValue(180214608),
-		AnimationName = {
-			"S_B_talk_1",
-			"S_B_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
 	}
 }
 

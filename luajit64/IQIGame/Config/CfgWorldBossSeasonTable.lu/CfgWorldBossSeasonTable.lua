@@ -25,10 +25,12 @@ local CfgWorldBossSeasonTable = {
 		ChapterCid = 1006
 	},
 	{
-		Id = 7
+		Id = 7,
+		ChapterCid = 1007
 	},
 	{
-		Id = 8
+		Id = 8,
+		ChapterCid = 1008
 	},
 	{
 		Id = 9

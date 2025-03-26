@@ -4446,14 +4446,14 @@ local CfgCommodityTable = {
 		ItemId = 4,
 		sort = 16,
 		TimeOvrtShow = 1,
-		Number = 150,
+		Number = 3000,
 		UnlockConditionId = 30067001,
 		Id = 50220014,
 		Desc = "札币",
 		Price = {
 			{
 				22,
-				1
+				20
 			},
 			{},
 			{},
@@ -4527,6 +4527,29 @@ local CfgCommodityTable = {
 			{
 				4,
 				2000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220018] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 22,
+		sort = 6,
+		TimeOvrtShow = 1,
+		Number = 300,
+		UnlockConditionId = 30067001,
+		Id = 50220018,
+		Desc = "塞钱",
+		Price = {
+			{
+				23,
+				1
 			},
 			{},
 			{},

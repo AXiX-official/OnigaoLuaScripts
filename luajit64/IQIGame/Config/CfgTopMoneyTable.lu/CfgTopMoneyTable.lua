@@ -486,9 +486,11 @@ local CfgTopMoneyTable = {
 		PrefabName = "MazeUI",
 		Id = 504,
 		TypeArr = {
-			22
+			22,
+			23
 		},
 		JumpType = {
+			0,
 			0
 		}
 	}

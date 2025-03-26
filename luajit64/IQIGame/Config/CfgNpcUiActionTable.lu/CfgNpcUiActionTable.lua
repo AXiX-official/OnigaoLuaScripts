@@ -454,6 +454,62 @@ local CfgNpcUiActionTable = {
 			0
 		}
 	},
+	[3031] = {
+		NpcEntityId = 10815504,
+		TriggerType = 1,
+		GroupId = 32,
+		TriggerParam = "0|24|100",
+		Id = 3031,
+		Motion = "special_1",
+		CVid = 300010331,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3032] = {
+		NpcEntityId = 10815504,
+		TriggerType = 1,
+		GroupId = 32,
+		TriggerParam = "0|24|100",
+		Id = 3032,
+		Motion = "skill_1",
+		CVid = 300010332,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3033] = {
+		NpcEntityId = 10815504,
+		TriggerType = 1,
+		GroupId = 32,
+		TriggerParam = "0|24|100",
+		Id = 3033,
+		Motion = "attack_1",
+		CVid = 300010333,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
+	[3034] = {
+		NpcEntityId = 10815504,
+		TriggerType = 1,
+		GroupId = 32,
+		TriggerParam = "0|24|100",
+		Id = 3034,
+		Motion = "hit",
+		CVid = 300010334,
+		Position = {
+			0,
+			-160,
+			0
+		}
+	},
 	[4001] = {
 		CVid = 300010401,
 		TriggerParam = "0|24|100",

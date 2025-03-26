@@ -6,7 +6,7 @@ local CfgMonthCardTable = {
 		CommodityId = 50202101,
 		Time = 7,
 		Id = 102,
-		Limit = 28,
+		Limit = 364,
 		Name = getI18NValue(180260245),
 		Tips = {
 			getI18NValue(180260380),

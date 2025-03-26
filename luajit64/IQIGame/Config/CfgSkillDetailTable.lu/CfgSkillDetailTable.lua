@@ -429,6 +429,60 @@ local CfgSkillDetailTable = {
 			0.3
 		}
 	},
+	[30007] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 30007,
+		FunctionID = 600,
+		BuffOrder = {
+			0
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			11009
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		},
+		CustomParams = {
+			0.15
+		}
+	},
+	[30008] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 30008,
+		FunctionID = 600,
+		BuffOrder = {
+			0
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			11011
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		},
+		CustomParams = {
+			0.15
+		}
+	},
 	[72021] = {
 		NotSelectTarget = false,
 		TargetTypeID = 201,
@@ -2717,27 +2771,21 @@ local CfgSkillDetailTable = {
 		Id = 101520,
 		FunctionID = 600,
 		BuffOrder = {
-			0,
 			0
 		},
 		BuffProbability = {
-			1,
 			1
 		},
 		BuffTarget = {
-			21,
 			21
 		},
 		BuffID = {
-			10152000,
-			10152003
+			10152000
 		},
 		BuffTime = {
-			0,
 			0
 		},
 		BuffStackNum = {
-			1,
 			1
 		},
 		CustomParams = {
@@ -4050,8 +4098,7 @@ local CfgSkillDetailTable = {
 		},
 		CustomParams = {
 			0.2,
-			0.1,
-			0.15
+			0.1
 		}
 	},
 	[102431] = {
@@ -16675,6 +16722,306 @@ local CfgSkillDetailTable = {
 		TargetTypeID = 31,
 		SkillRatio = {
 			0.35
+		}
+	},
+	[30240210] = {
+		Id = 30240210,
+		FunctionID = 612,
+		TargetTypeID = 101,
+		Element = 1,
+		NotSelectTarget = false,
+		SkillAI = {
+			101
+		},
+		SkillRatio = {
+			1.2
+		},
+		BuffOrder = {
+			1
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			302402100
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		}
+	},
+	[30240220] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 30240220,
+		FunctionID = 600,
+		BuffOrder = {
+			0
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			302402200
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		},
+		CustomParams = {
+			0.03
+		}
+	},
+	[30240221] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 30240221,
+		FunctionID = 600,
+		BuffOrder = {
+			0,
+			0
+		},
+		BuffProbability = {
+			1,
+			1
+		},
+		BuffTarget = {
+			21,
+			21
+		},
+		BuffID = {
+			302402210,
+			302402212
+		},
+		BuffTime = {
+			0,
+			0
+		},
+		BuffStackNum = {
+			1,
+			1
+		},
+		CustomParams = {
+			0.05
+		}
+	},
+	[30240222] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 30240222,
+		FunctionID = 600,
+		BuffOrder = {
+			0
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			302402220
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		}
+	},
+	[30240230] = {
+		Id = 30240230,
+		FunctionID = 612,
+		TargetTypeID = 102,
+		Element = 1,
+		NotSelectTarget = false,
+		CoolDown = 3,
+		SkillAI = {
+			103
+		},
+		SkillRatio = {
+			0.1
+		},
+		BuffOrder = {
+			6
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			302402300
+		},
+		BuffID = {
+			302402300
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		}
+	},
+	[30240231] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240231,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.15
+		}
+	},
+	[30240232] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240232,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.2
+		}
+	},
+	[30240233] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240233,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.2
+		}
+	},
+	[30240234] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240234,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.25
+		}
+	},
+	[30240235] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240235,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.3
+		}
+	},
+	[30240240] = {
+		Id = 30240240,
+		FunctionID = 612,
+		InitCD = 5,
+		TargetTypeID = 121,
+		Element = 1,
+		NotSelectTarget = false,
+		CoolDown = 5,
+		SkillAI = {
+			104
+		},
+		SkillRatio = {
+			0.1
+		},
+		BuffOrder = {
+			6
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			132
+		},
+		BuffID = {
+			302402400
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
+		}
+	},
+	[30240241] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240241,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.1
+		}
+	},
+	[30240242] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240242,
+		FunctionID = 612,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.2
+		}
+	},
+	[30240250] = {
+		Id = 30240250,
+		FunctionID = 302402500,
+		TargetTypeID = 121,
+		Element = 1,
+		NotSelectTarget = false,
+		SkillAI = {
+			302402500
+		},
+		SkillRatio = {
+			0.1
+		},
+		BuffOrder = {
+			1,
+			6
+		},
+		BuffProbability = {
+			1,
+			1
+		},
+		BuffTarget = {
+			100,
+			21
+		},
+		BuffID = {
+			302402500,
+			302402502
+		},
+		BuffTime = {
+			0,
+			0
+		},
+		BuffStackNum = {
+			1,
+			1
+		},
+		CustomParams = {
+			1
+		}
+	},
+	[30240251] = {
+		NotSelectTarget = false,
+		Element = 1,
+		Id = 30240251,
+		FunctionID = 302402500,
+		TargetTypeID = 31,
+		SkillRatio = {
+			0.1
 		}
 	},
 	[40110110] = {

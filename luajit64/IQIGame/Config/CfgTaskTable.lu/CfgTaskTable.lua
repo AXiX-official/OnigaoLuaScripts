@@ -10305,7 +10305,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80215,
+			80211,
 			1
 		},
 		CompleteAction = {
@@ -11610,7 +11610,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			55002,
+			80211,
 			1
 		},
 		CompleteAction = {
@@ -12045,8 +12045,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80215,
-			2
+			80211,
+			1
 		},
 		CompleteAction = {
 			1,
@@ -12625,8 +12625,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80215,
-			2
+			80211,
+			1
 		},
 		CompleteAction = {
 			1,

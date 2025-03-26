@@ -5707,6 +5707,33 @@ local CfgStoryDataTable = {
 			0
 		}
 	},
+	[4030501] = {
+		Id = 4030501,
+		Path = "storydata/Event3/E3_5_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030601] = {
+		Id = 4030601,
+		Path = "storydata/Event3/E3_6_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
+	[4030701] = {
+		Id = 4030701,
+		Path = "storydata/Event3/E3_7_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
+	},
 	[5000101] = {
 		Id = 5000101,
 		Path = "storydata/Maze1/Maze1_1",

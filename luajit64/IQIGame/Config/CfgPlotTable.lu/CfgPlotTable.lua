@@ -1636,7 +1636,7 @@ local CfgPlotTable = {
 		Save = true,
 		Type = 13,
 		Id = 403005,
-		BattleTypeID = 4030301,
+		BattleTypeID = 4030501,
 		Name = getI18NValue(180262040),
 		Desc = getI18NValue(180262039)
 	},
@@ -1644,7 +1644,7 @@ local CfgPlotTable = {
 		Save = true,
 		Type = 13,
 		Id = 403006,
-		BattleTypeID = 4030301,
+		BattleTypeID = 4030601,
 		Name = getI18NValue(180262042),
 		Desc = getI18NValue(180262041)
 	},
@@ -1652,7 +1652,7 @@ local CfgPlotTable = {
 		Save = true,
 		Type = 13,
 		Id = 403007,
-		BattleTypeID = 4030301,
+		BattleTypeID = 4030701,
 		Name = getI18NValue(180262044),
 		Desc = getI18NValue(180262043)
 	},

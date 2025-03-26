@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_17.lua
 
 local CfgI18NTable_17 = {
-	[180135363] = {
-		Id = 180135363,
-		Str = "那个书库在哪？"
-	},
 	[180135364] = {
 		Id = 180135364,
 		RefId = 180066073
@@ -20000,6 +19996,10 @@ local CfgI18NTable_17 = {
 	[180141742] = {
 		Id = 180141742,
 		RefId = 180002998
+	},
+	[180141743] = {
+		Id = 180141743,
+		Str = "总之真理子不可能\n做那种事！"
 	}
 }
 local defaultMetaTable = {

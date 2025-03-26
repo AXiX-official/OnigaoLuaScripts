@@ -1,10 +1,6 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgI18NTable_29.lua
 
 local CfgI18NTable_29 = {
-	[180242073] = {
-		Id = 180242073,
-		Str = "嗯，而且每天晚上电视台还会播放动画，听说很多就是从这些漫画里面改编的。"
-	},
 	[180242074] = {
 		Id = 180242074,
 		RefId = 180242073
@@ -20000,6 +19996,10 @@ local CfgI18NTable_29 = {
 	[180247425] = {
 		Id = 180247425,
 		RefId = 180246495
+	},
+	[180247426] = {
+		Id = 180247426,
+		RefId = 180246503
 	}
 }
 local defaultMetaTable = {

@@ -1515,3 +1515,26 @@ end
 function BehaviorTreeUtility.HideCheckersCluePanel()
 	EventDispatcher.Dispatch(EventID.JudgmentCheckersPanel_HideCluePanelEvent)
 end
+
+function BehaviorTreeUtility.SetCustomText(args)
+	local textCom, content
+
+	ForArrayByCount(1, 10, 1, function(_index)
+		local textGo = args["TextGo_" .. _index]
+
+		if textGo == nil then
+			return
+		end
+
+		textCom = textGo:GetComponent("Text")
+		content = args["TextContent_" .. _index]
+
+		return true
+	end)
+
+	if textCom == nil then
+		return
+	end
+
+	textCom.text = content
+end
