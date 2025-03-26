@@ -145,12 +145,6 @@ function Element:Show()
 	self:__ShowShop()
 	self:__RefreshItemsShow()
 	self:__DisposeDelayTimer()
-
-	self.__delayTimer = Timer.New(function()
-		self:__RefreshItemsShow()
-	end, 0.6, 1)
-
-	self.__delayTimer:Start()
 end
 
 function Element:__DisposeDelayTimer()
