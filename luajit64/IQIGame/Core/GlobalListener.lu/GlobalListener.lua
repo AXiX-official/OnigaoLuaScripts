@@ -24,10 +24,6 @@ end
 
 function GlobalListener.OnUserInputKey(sender, event)
 	if event.KeyCode == 27 then
-		if PlayerModule.IsFirstQuit == true then
-			return
-		end
-
 		PlayerModule.IsFirstQuit = true
 
 		LoginModule.OnPlayerExitGame()
