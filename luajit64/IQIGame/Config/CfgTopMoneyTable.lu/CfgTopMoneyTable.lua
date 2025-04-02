@@ -407,6 +407,16 @@ local CfgTopMoneyTable = {
 			0
 		}
 	},
+	[105] = {
+		PrefabName = "ShopUI_33",
+		Id = 105,
+		TypeArr = {
+			117
+		},
+		JumpType = {
+			0
+		}
+	},
 	[203] = {
 		PrefabName = "HomeLandMissionUI",
 		Id = 203,

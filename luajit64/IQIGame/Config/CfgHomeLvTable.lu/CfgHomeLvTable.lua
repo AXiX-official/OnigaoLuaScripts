@@ -2,13 +2,15 @@
 
 local CfgHomeLvTable = {
 	[30100001] = {
-		UnlickTaskQuality = 1,
-		Id = 30100001,
+		UnlickTaskQuality = 5,
 		TaskTypeCountLimt = 3,
+		Id = 30100001,
 		DispTaskSpotRecoverCount = 1,
 		DispTaskSpotRecoverTime = 720,
-		TaskCountLimt = 4,
-		EverydayTaskRefreshLimit = 3,
+		SpecialTaskGuaranteed = 6,
+		SpecialTaskCountLimit = 1,
+		TaskCountLimt = 8,
+		EverydayTaskRefreshLimit = 10,
 		DispTaskSpotRecoverLimt = 120,
 		NeedPlayerLv = 1,
 		Lv = 1,
@@ -22,9 +24,16 @@ local CfgHomeLvTable = {
 			30300008
 		},
 		EverydayTaskRefreshCost = {
-			1000,
-			1000,
-			1000
+			5000,
+			5000,
+			6000,
+			7000,
+			8000,
+			9000,
+			10000,
+			15000,
+			15000,
+			20000
 		}
 	},
 	[30100002] = {
@@ -35,7 +44,7 @@ local CfgHomeLvTable = {
 		TaskCountLimt = 6,
 		EverydayTaskRefreshLimit = 6,
 		DispTaskSpotRecoverLimt = 135,
-		NeedPlayerLv = 10,
+		NeedPlayerLv = 200,
 		TaskTypeCountLimt = 3,
 		Lv = 2,
 		UpgradeNeedCost = {
@@ -53,13 +62,12 @@ local CfgHomeLvTable = {
 	},
 	[30100003] = {
 		UnlickTaskQuality = 3,
-		Id = 30100003,
 		DispTaskSpotRecoverCount = 1,
 		DispTaskSpotRecoverTime = 576,
 		TaskCountLimt = 7,
 		EverydayTaskRefreshLimit = 9,
 		DispTaskSpotRecoverLimt = 150,
-		NeedPlayerLv = 20,
+		Id = 30100003,
 		TaskTypeCountLimt = 3,
 		Lv = 3,
 		UpgradeNeedCost = {

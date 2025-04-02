@@ -1,6 +1,25 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStoryDialogueTable_10.lua
 
 local CfgStoryDialogueTable_10 = {
+	[600703008] = {
+		Id = 600703008,
+		Speakgroup = {
+			600703008
+		}
+	},
+	[600704001] = {
+		Id = 600704001,
+		NextID = 600704002,
+		Speakgroup = {
+			600704001
+		}
+	},
+	[600704002] = {
+		Id = 600704002,
+		Speakgroup = {
+			600704002
+		}
+	},
 	[600704003] = {
 		Id = 600704003,
 		skiptime = 1.5,

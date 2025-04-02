@@ -154,7 +154,7 @@ local CfgCombinationTable = {
 		},
 		Combination = {
 			12012,
-			30
+			20
 		}
 	},
 	[10013] = {

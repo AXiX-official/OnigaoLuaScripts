@@ -3464,6 +3464,10 @@ local CfgElementEntityTable = {
 		Id = 10820470,
 		PrefabName = "Entity/Home/CH_Man_B_3"
 	},
+	[10820480] = {
+		Id = 10820480,
+		PrefabName = "Entity/Home/CH_ZhuY"
+	},
 	[10850010] = {
 		PrefabName = "Entity/Home/NPC/RPG_Women_A_2",
 		IsPrefabFaceToRight = true,
@@ -4291,7 +4295,12 @@ local CfgElementEntityTable = {
 		PrefabName = "Entity/Skin/LH_He_J3/UI_LH_He_J3"
 	},
 	[10831201] = {
-		Id = 10831201
+		Id = 10831201,
+		PrefabName = "Entity/Skin/LH_LiuLY_J1/UI_LH_LiuLY_J1"
+	},
+	[10831202] = {
+		Id = 10831202,
+		PrefabName = "Entity/Skin/LH_LiuLY_J3/UI_LH_LiuLY_J3"
 	},
 	[10831301] = {
 		Id = 10831301,

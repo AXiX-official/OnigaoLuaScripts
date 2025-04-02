@@ -423,9 +423,114 @@ local CfgHeroStarLevelTable = {
 	},
 	[100501] = {
 		StarLv = 1,
-		HeroId = 10000013,
+		HeroId = 10000012,
 		StarType = 1,
 		Id = 100501,
+		StarLvNow = 4,
+		StarCost = {
+			12012,
+			20
+		},
+		AttrType = {
+			1,
+			2,
+			3
+		},
+		AttrValue = {
+			112,
+			19,
+			9
+		}
+	},
+	[100502] = {
+		StarLv = 2,
+		HeroId = 10000012,
+		StarType = 1,
+		Id = 100502,
+		StarLvNow = 4,
+		StarCost = {
+			12012,
+			40
+		},
+		AttrType = {
+			1,
+			2,
+			3
+		},
+		AttrValue = {
+			225,
+			38,
+			17
+		}
+	},
+	[100503] = {
+		StarLv = 3,
+		HeroId = 10000012,
+		StarType = 1,
+		Id = 100503,
+		StarLvNow = 4,
+		StarCost = {
+			12012,
+			60
+		},
+		AttrType = {
+			1,
+			2,
+			3
+		},
+		AttrValue = {
+			299,
+			51,
+			23
+		}
+	},
+	[100504] = {
+		StarLv = 4,
+		HeroId = 10000012,
+		StarType = 1,
+		Id = 100504,
+		StarLvNow = 4,
+		StarCost = {
+			12012,
+			80
+		},
+		AttrType = {
+			1,
+			2,
+			3
+		},
+		AttrValue = {
+			412,
+			70,
+			32
+		}
+	},
+	[100505] = {
+		StarLv = 5,
+		HeroId = 10000012,
+		StarType = 1,
+		Id = 100505,
+		StarLvNow = 4,
+		StarCost = {
+			12012,
+			100
+		},
+		AttrType = {
+			1,
+			2,
+			3
+		},
+		AttrValue = {
+			524,
+			88,
+			41
+		}
+	},
+	[100601] = {
+		StarLv = 1,
+		HeroId = 10000013,
+		StarType = 1,
+		Id = 100601,
 		StarLvNow = 4,
 		StarCost = {
 			12013,
@@ -442,11 +547,11 @@ local CfgHeroStarLevelTable = {
 			6
 		}
 	},
-	[100502] = {
+	[100602] = {
 		StarLv = 2,
 		HeroId = 10000013,
 		StarType = 1,
-		Id = 100502,
+		Id = 100602,
 		StarLvNow = 4,
 		StarCost = {
 			12013,
@@ -463,11 +568,11 @@ local CfgHeroStarLevelTable = {
 			11
 		}
 	},
-	[100503] = {
+	[100603] = {
 		StarLv = 3,
 		HeroId = 10000013,
 		StarType = 1,
-		Id = 100503,
+		Id = 100603,
 		StarLvNow = 4,
 		StarCost = {
 			12013,
@@ -484,11 +589,11 @@ local CfgHeroStarLevelTable = {
 			15
 		}
 	},
-	[100504] = {
+	[100604] = {
 		StarLv = 4,
 		HeroId = 10000013,
 		StarType = 1,
-		Id = 100504,
+		Id = 100604,
 		StarLvNow = 4,
 		StarCost = {
 			12013,
@@ -505,11 +610,11 @@ local CfgHeroStarLevelTable = {
 			20
 		}
 	},
-	[100505] = {
+	[100605] = {
 		StarLv = 5,
 		HeroId = 10000013,
 		StarType = 1,
-		Id = 100505,
+		Id = 100605,
 		StarLvNow = 4,
 		StarCost = {
 			12013,
@@ -526,11 +631,11 @@ local CfgHeroStarLevelTable = {
 			26
 		}
 	},
-	[100601] = {
+	[100701] = {
 		StarLv = 1,
 		HeroId = 10000017,
 		StarType = 1,
-		Id = 100601,
+		Id = 100701,
 		StarLvNow = 4,
 		StarCost = {
 			12017,
@@ -547,11 +652,11 @@ local CfgHeroStarLevelTable = {
 			7
 		}
 	},
-	[100602] = {
+	[100702] = {
 		StarLv = 2,
 		HeroId = 10000017,
 		StarType = 1,
-		Id = 100602,
+		Id = 100702,
 		StarLvNow = 4,
 		StarCost = {
 			12017,
@@ -568,11 +673,11 @@ local CfgHeroStarLevelTable = {
 			15
 		}
 	},
-	[100603] = {
+	[100703] = {
 		StarLv = 3,
 		HeroId = 10000017,
 		StarType = 1,
-		Id = 100603,
+		Id = 100703,
 		StarLvNow = 4,
 		StarCost = {
 			12017,
@@ -589,11 +694,11 @@ local CfgHeroStarLevelTable = {
 			20
 		}
 	},
-	[100604] = {
+	[100704] = {
 		StarLv = 4,
 		HeroId = 10000017,
 		StarType = 1,
-		Id = 100604,
+		Id = 100704,
 		StarLvNow = 4,
 		StarCost = {
 			12017,
@@ -610,11 +715,11 @@ local CfgHeroStarLevelTable = {
 			27
 		}
 	},
-	[100605] = {
+	[100705] = {
 		StarLv = 5,
 		HeroId = 10000017,
 		StarType = 1,
-		Id = 100605,
+		Id = 100705,
 		StarLvNow = 4,
 		StarCost = {
 			12017,
@@ -631,11 +736,11 @@ local CfgHeroStarLevelTable = {
 			35
 		}
 	},
-	[100701] = {
+	[100801] = {
 		StarLv = 1,
 		HeroId = 10000018,
 		StarType = 1,
-		Id = 100701,
+		Id = 100801,
 		StarLvNow = 4,
 		StarCost = {
 			12018,
@@ -652,11 +757,11 @@ local CfgHeroStarLevelTable = {
 			10
 		}
 	},
-	[100702] = {
+	[100802] = {
 		StarLv = 2,
 		HeroId = 10000018,
 		StarType = 1,
-		Id = 100702,
+		Id = 100802,
 		StarLvNow = 4,
 		StarCost = {
 			12018,
@@ -673,11 +778,11 @@ local CfgHeroStarLevelTable = {
 			20
 		}
 	},
-	[100703] = {
+	[100803] = {
 		StarLv = 3,
 		HeroId = 10000018,
 		StarType = 1,
-		Id = 100703,
+		Id = 100803,
 		StarLvNow = 4,
 		StarCost = {
 			12018,
@@ -694,11 +799,11 @@ local CfgHeroStarLevelTable = {
 			27
 		}
 	},
-	[100704] = {
+	[100804] = {
 		StarLv = 4,
 		HeroId = 10000018,
 		StarType = 1,
-		Id = 100704,
+		Id = 100804,
 		StarLvNow = 4,
 		StarCost = {
 			12018,
@@ -715,11 +820,11 @@ local CfgHeroStarLevelTable = {
 			37
 		}
 	},
-	[100705] = {
+	[100805] = {
 		StarLv = 5,
 		HeroId = 10000018,
 		StarType = 1,
-		Id = 100705,
+		Id = 100805,
 		StarLvNow = 4,
 		StarCost = {
 			12018,
@@ -736,11 +841,11 @@ local CfgHeroStarLevelTable = {
 			48
 		}
 	},
-	[100801] = {
+	[100901] = {
 		StarLv = 1,
 		HeroId = 10000021,
 		StarType = 1,
-		Id = 100801,
+		Id = 100901,
 		StarLvNow = 4,
 		StarCost = {
 			12021,
@@ -757,11 +862,11 @@ local CfgHeroStarLevelTable = {
 			6
 		}
 	},
-	[100802] = {
+	[100902] = {
 		StarLv = 2,
 		HeroId = 10000021,
 		StarType = 1,
-		Id = 100802,
+		Id = 100902,
 		StarLvNow = 4,
 		StarCost = {
 			12021,
@@ -778,11 +883,11 @@ local CfgHeroStarLevelTable = {
 			13
 		}
 	},
-	[100803] = {
+	[100903] = {
 		StarLv = 3,
 		HeroId = 10000021,
 		StarType = 1,
-		Id = 100803,
+		Id = 100903,
 		StarLvNow = 4,
 		StarCost = {
 			12021,
@@ -799,11 +904,11 @@ local CfgHeroStarLevelTable = {
 			17
 		}
 	},
-	[100804] = {
+	[100904] = {
 		StarLv = 4,
 		HeroId = 10000021,
 		StarType = 1,
-		Id = 100804,
+		Id = 100904,
 		StarLvNow = 4,
 		StarCost = {
 			12021,
@@ -820,11 +925,11 @@ local CfgHeroStarLevelTable = {
 			24
 		}
 	},
-	[100805] = {
+	[100905] = {
 		StarLv = 5,
 		HeroId = 10000021,
 		StarType = 1,
-		Id = 100805,
+		Id = 100905,
 		StarLvNow = 4,
 		StarCost = {
 			12021,
@@ -841,11 +946,11 @@ local CfgHeroStarLevelTable = {
 			30
 		}
 	},
-	[100901] = {
+	[101001] = {
 		StarLv = 1,
 		HeroId = 10000022,
 		StarType = 1,
-		Id = 100901,
+		Id = 101001,
 		StarLvNow = 4,
 		StarCost = {
 			12022,
@@ -862,11 +967,11 @@ local CfgHeroStarLevelTable = {
 			8
 		}
 	},
-	[100902] = {
+	[101002] = {
 		StarLv = 2,
 		HeroId = 10000022,
 		StarType = 1,
-		Id = 100902,
+		Id = 101002,
 		StarLvNow = 4,
 		StarCost = {
 			12022,
@@ -883,11 +988,11 @@ local CfgHeroStarLevelTable = {
 			16
 		}
 	},
-	[100903] = {
+	[101003] = {
 		StarLv = 3,
 		HeroId = 10000022,
 		StarType = 1,
-		Id = 100903,
+		Id = 101003,
 		StarLvNow = 4,
 		StarCost = {
 			12022,
@@ -904,11 +1009,11 @@ local CfgHeroStarLevelTable = {
 			21
 		}
 	},
-	[100904] = {
+	[101004] = {
 		StarLv = 4,
 		HeroId = 10000022,
 		StarType = 1,
-		Id = 100904,
+		Id = 101004,
 		StarLvNow = 4,
 		StarCost = {
 			12022,
@@ -925,11 +1030,11 @@ local CfgHeroStarLevelTable = {
 			29
 		}
 	},
-	[100905] = {
+	[101005] = {
 		StarLv = 5,
 		HeroId = 10000022,
 		StarType = 1,
-		Id = 100905,
+		Id = 101005,
 		StarLvNow = 4,
 		StarCost = {
 			12022,
@@ -946,11 +1051,11 @@ local CfgHeroStarLevelTable = {
 			36
 		}
 	},
-	[101001] = {
+	[101101] = {
 		StarLv = 1,
 		HeroId = 10000029,
 		StarType = 1,
-		Id = 101001,
+		Id = 101101,
 		StarLvNow = 4,
 		StarCost = {
 			12029,
@@ -967,11 +1072,11 @@ local CfgHeroStarLevelTable = {
 			9
 		}
 	},
-	[101002] = {
+	[101102] = {
 		StarLv = 2,
 		HeroId = 10000029,
 		StarType = 1,
-		Id = 101002,
+		Id = 101102,
 		StarLvNow = 4,
 		StarCost = {
 			12029,
@@ -988,11 +1093,11 @@ local CfgHeroStarLevelTable = {
 			19
 		}
 	},
-	[101003] = {
+	[101103] = {
 		StarLv = 3,
 		HeroId = 10000029,
 		StarType = 1,
-		Id = 101003,
+		Id = 101103,
 		StarLvNow = 4,
 		StarCost = {
 			12029,
@@ -1009,11 +1114,11 @@ local CfgHeroStarLevelTable = {
 			25
 		}
 	},
-	[101004] = {
+	[101104] = {
 		StarLv = 4,
 		HeroId = 10000029,
 		StarType = 1,
-		Id = 101004,
+		Id = 101104,
 		StarLvNow = 4,
 		StarCost = {
 			12029,
@@ -1030,11 +1135,11 @@ local CfgHeroStarLevelTable = {
 			34
 		}
 	},
-	[101005] = {
+	[101105] = {
 		StarLv = 5,
 		HeroId = 10000029,
 		StarType = 1,
-		Id = 101005,
+		Id = 101105,
 		StarLvNow = 4,
 		StarCost = {
 			12029,
@@ -1051,11 +1156,11 @@ local CfgHeroStarLevelTable = {
 			44
 		}
 	},
-	[101101] = {
+	[101201] = {
 		StarLv = 1,
 		HeroId = 10000030,
 		StarType = 1,
-		Id = 101101,
+		Id = 101201,
 		StarLvNow = 4,
 		StarCost = {
 			12030,
@@ -1072,11 +1177,11 @@ local CfgHeroStarLevelTable = {
 			5
 		}
 	},
-	[101102] = {
+	[101202] = {
 		StarLv = 2,
 		HeroId = 10000030,
 		StarType = 1,
-		Id = 101102,
+		Id = 101202,
 		StarLvNow = 4,
 		StarCost = {
 			12030,
@@ -1093,11 +1198,11 @@ local CfgHeroStarLevelTable = {
 			9
 		}
 	},
-	[101103] = {
+	[101203] = {
 		StarLv = 3,
 		HeroId = 10000030,
 		StarType = 1,
-		Id = 101103,
+		Id = 101203,
 		StarLvNow = 4,
 		StarCost = {
 			12030,
@@ -1114,11 +1219,11 @@ local CfgHeroStarLevelTable = {
 			13
 		}
 	},
-	[101104] = {
+	[101204] = {
 		StarLv = 4,
 		HeroId = 10000030,
 		StarType = 1,
-		Id = 101104,
+		Id = 101204,
 		StarLvNow = 4,
 		StarCost = {
 			12030,
@@ -1135,11 +1240,11 @@ local CfgHeroStarLevelTable = {
 			17
 		}
 	},
-	[101105] = {
+	[101205] = {
 		StarLv = 5,
 		HeroId = 10000030,
 		StarType = 1,
-		Id = 101105,
+		Id = 101205,
 		StarLvNow = 4,
 		StarCost = {
 			12030,
@@ -1156,11 +1261,11 @@ local CfgHeroStarLevelTable = {
 			22
 		}
 	},
-	[101201] = {
+	[101301] = {
 		StarLv = 1,
 		HeroId = 10000031,
 		StarType = 1,
-		Id = 101201,
+		Id = 101301,
 		StarLvNow = 4,
 		StarCost = {
 			12031,
@@ -1177,11 +1282,11 @@ local CfgHeroStarLevelTable = {
 			6
 		}
 	},
-	[101202] = {
+	[101302] = {
 		StarLv = 2,
 		HeroId = 10000031,
 		StarType = 1,
-		Id = 101202,
+		Id = 101302,
 		StarLvNow = 4,
 		StarCost = {
 			12031,
@@ -1198,11 +1303,11 @@ local CfgHeroStarLevelTable = {
 			13
 		}
 	},
-	[101203] = {
+	[101303] = {
 		StarLv = 3,
 		HeroId = 10000031,
 		StarType = 1,
-		Id = 101203,
+		Id = 101303,
 		StarLvNow = 4,
 		StarCost = {
 			12031,
@@ -1219,11 +1324,11 @@ local CfgHeroStarLevelTable = {
 			17
 		}
 	},
-	[101204] = {
+	[101304] = {
 		StarLv = 4,
 		HeroId = 10000031,
 		StarType = 1,
-		Id = 101204,
+		Id = 101304,
 		StarLvNow = 4,
 		StarCost = {
 			12031,
@@ -1240,11 +1345,11 @@ local CfgHeroStarLevelTable = {
 			23
 		}
 	},
-	[101205] = {
+	[101305] = {
 		StarLv = 5,
 		HeroId = 10000031,
 		StarType = 1,
-		Id = 101205,
+		Id = 101305,
 		StarLvNow = 4,
 		StarCost = {
 			12031,
@@ -1261,11 +1366,11 @@ local CfgHeroStarLevelTable = {
 			29
 		}
 	},
-	[101301] = {
+	[101401] = {
 		StarLv = 1,
 		HeroId = 10000032,
 		StarType = 1,
-		Id = 101301,
+		Id = 101401,
 		StarLvNow = 4,
 		StarCost = {
 			12032,
@@ -1282,11 +1387,11 @@ local CfgHeroStarLevelTable = {
 			8
 		}
 	},
-	[101302] = {
+	[101402] = {
 		StarLv = 2,
 		HeroId = 10000032,
 		StarType = 1,
-		Id = 101302,
+		Id = 101402,
 		StarLvNow = 4,
 		StarCost = {
 			12032,
@@ -1303,11 +1408,11 @@ local CfgHeroStarLevelTable = {
 			17
 		}
 	},
-	[101303] = {
+	[101403] = {
 		StarLv = 3,
 		HeroId = 10000032,
 		StarType = 1,
-		Id = 101303,
+		Id = 101403,
 		StarLvNow = 4,
 		StarCost = {
 			12032,
@@ -1324,11 +1429,11 @@ local CfgHeroStarLevelTable = {
 			23
 		}
 	},
-	[101304] = {
+	[101404] = {
 		StarLv = 4,
 		HeroId = 10000032,
 		StarType = 1,
-		Id = 101304,
+		Id = 101404,
 		StarLvNow = 4,
 		StarCost = {
 			12032,
@@ -1345,11 +1450,11 @@ local CfgHeroStarLevelTable = {
 			31
 		}
 	},
-	[101305] = {
+	[101405] = {
 		StarLv = 5,
 		HeroId = 10000032,
 		StarType = 1,
-		Id = 101305,
+		Id = 101405,
 		StarLvNow = 4,
 		StarCost = {
 			12032,

@@ -4286,7 +4286,7 @@ local CfgSkillRefineTable = {
 		NextSkillTips = getI18NValue(180261647),
 		RefineNeedItem = {
 			80124,
-			15031
+			15032
 		}
 	},
 	[8012402] = {
@@ -4298,7 +4298,7 @@ local CfgSkillRefineTable = {
 		NextSkillTips = getI18NValue(180261649),
 		RefineNeedItem = {
 			80124,
-			15031
+			15032
 		},
 		RefineStrengthenId = {
 			8012402
@@ -4321,7 +4321,7 @@ local CfgSkillRefineTable = {
 		NextSkillTips = getI18NValue(180261651),
 		RefineNeedItem = {
 			80124,
-			15031
+			15032
 		},
 		RefineStrengthenId = {
 			8012403
@@ -4344,7 +4344,7 @@ local CfgSkillRefineTable = {
 		NextSkillTips = getI18NValue(180261653),
 		RefineNeedItem = {
 			80124,
-			15031
+			15032
 		},
 		RefineStrengthenId = {
 			8012404
@@ -6627,6 +6627,203 @@ local CfgSkillRefineTable = {
 			0.96,
 			43,
 			0.58
+		}
+	},
+	[8022401] = {
+		Skill = 802240,
+		SkillRefineLv = 1,
+		RefineNeedItemNum = 1,
+		Id = 8022401,
+		SkillTips = getI18NValue(180264364),
+		NextSkillTips = getI18NValue(180264365),
+		RefineNeedItem = {
+			80224,
+			15031
+		}
+	},
+	[8022402] = {
+		RefineNeedItemNum = 1,
+		SkillRefineLv = 2,
+		Skill = 802240,
+		Id = 8022402,
+		SkillTips = getI18NValue(180264366),
+		NextSkillTips = getI18NValue(180264367),
+		RefineNeedItem = {
+			80224,
+			15031
+		},
+		RefineStrengthenId = {
+			8022402
+		},
+		RefineAttribute = {
+			41,
+			1.37,
+			42,
+			0.42,
+			43,
+			0.09
+		}
+	},
+	[8022403] = {
+		RefineNeedItemNum = 1,
+		SkillRefineLv = 3,
+		Skill = 802240,
+		Id = 8022403,
+		SkillTips = getI18NValue(180264368),
+		NextSkillTips = getI18NValue(180264369),
+		RefineNeedItem = {
+			80224,
+			15031
+		},
+		RefineStrengthenId = {
+			8022403
+		},
+		RefineAttribute = {
+			41,
+			2.52,
+			42,
+			0.78,
+			43,
+			0.17
+		}
+	},
+	[8022404] = {
+		RefineNeedItemNum = 1,
+		SkillRefineLv = 4,
+		Skill = 802240,
+		Id = 8022404,
+		SkillTips = getI18NValue(180264370),
+		NextSkillTips = getI18NValue(180264371),
+		RefineNeedItem = {
+			80224,
+			15031
+		},
+		RefineStrengthenId = {
+			8022404
+		},
+		RefineAttribute = {
+			41,
+			3.89,
+			42,
+			1.2,
+			43,
+			0.26
+		}
+	},
+	[8022405] = {
+		SkillRefineLv = 5,
+		Skill = 802240,
+		Id = 8022405,
+		SkillTips = getI18NValue(180264372),
+		RefineStrengthenId = {
+			8022405
+		},
+		RefineAttribute = {
+			41,
+			5.03,
+			42,
+			1.56,
+			43,
+			0.34
+		}
+	},
+	[8022501] = {
+		Skill = 802250,
+		SkillRefineLv = 1,
+		RefineNeedItemNum = 1,
+		Id = 8022501,
+		SkillTips = getI18NValue(180264373),
+		NextSkillTips = getI18NValue(180264374),
+		RefineNeedItem = {
+			80225,
+			15031
+		}
+	},
+	[8022502] = {
+		RefineNeedItemNum = 1,
+		SkillRefineLv = 2,
+		Skill = 802250,
+		Id = 8022502,
+		SkillTips = getI18NValue(180264375),
+		NextSkillTips = getI18NValue(180264376),
+		RefineNeedItem = {
+			80225,
+			15031
+		},
+		RefineStrengthenId = {
+			8022502
+		},
+		RefineAttribute = {
+			41,
+			1.96,
+			42,
+			0.33,
+			43,
+			0.13
+		}
+	},
+	[8022503] = {
+		RefineNeedItemNum = 1,
+		SkillRefineLv = 3,
+		Skill = 802250,
+		Id = 8022503,
+		SkillTips = getI18NValue(180264377),
+		NextSkillTips = getI18NValue(180264378),
+		RefineNeedItem = {
+			80225,
+			15031
+		},
+		RefineStrengthenId = {
+			8022503
+		},
+		RefineAttribute = {
+			41,
+			3.6,
+			42,
+			0.6,
+			43,
+			0.24
+		}
+	},
+	[8022504] = {
+		RefineNeedItemNum = 1,
+		SkillRefineLv = 4,
+		Skill = 802250,
+		Id = 8022504,
+		SkillTips = getI18NValue(180264379),
+		NextSkillTips = getI18NValue(180264380),
+		RefineNeedItem = {
+			80225,
+			15031
+		},
+		RefineStrengthenId = {
+			8022504
+		},
+		RefineAttribute = {
+			41,
+			5.56,
+			42,
+			0.93,
+			43,
+			0.37
+		}
+	},
+	[8022505] = {
+		SkillRefineLv = 5,
+		RefineNeedItemNum = 1,
+		Id = 8022505,
+		Skill = 802250,
+		SkillTips = getI18NValue(180264381),
+		RefineStrengthenId = {
+			8022505
+		},
+		RefineAttribute = {
+			41,
+			7.19,
+			42,
+			1.2,
+			43,
+			0.48
 		}
 	}
 }

@@ -70,7 +70,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203193),
 		UnlockCondition = {
-			39101006
+			39101011
 		}
 	},
 	[101007] = {
@@ -83,7 +83,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203194),
 		UnlockCondition = {
-			39101006
+			39101011
 		}
 	},
 	[101008] = {
@@ -96,7 +96,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203195),
 		UnlockCondition = {
-			39101006
+			39101011
 		}
 	},
 	[101009] = {
@@ -109,7 +109,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203196),
 		UnlockCondition = {
-			39101006
+			39101011
 		}
 	},
 	[101010] = {
@@ -122,7 +122,7 @@ local CfgWorldMapRoomTable = {
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
 		Name = getI18NValue(180203197),
 		UnlockCondition = {
-			39101006
+			39101011
 		}
 	},
 	[101011] = {

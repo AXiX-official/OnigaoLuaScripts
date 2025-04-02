@@ -174,7 +174,12 @@ function SignInUI:StartSign()
 end
 
 function SignInUI:InitMsic()
-	self:RefreshCommon(SignInModule.CurDateState, SignInModule.MonthSignDay + 1)
+	if SignInModule.MonthSignDay == tonumber(SignInModule.CurMonthDay) then
+		self:RefreshCommon(SignInModule.CurDateState, SignInModule.MonthSignDay)
+	else
+		self:RefreshCommon(SignInModule.CurDateState, SignInModule.MonthSignDay + 1)
+	end
+
 	self:InitMonthCatdBase()
 	self:RefreshOther()
 end

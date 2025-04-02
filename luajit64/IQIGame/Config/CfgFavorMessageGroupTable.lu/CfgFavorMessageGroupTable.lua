@@ -2135,6 +2135,203 @@ local CfgFavorMessageGroupTable = {
 			200
 		}
 	},
+	[11200] = {
+		MessageType = 1,
+		UnlockCondition = 30040110,
+		MessageStage = 1,
+		Id = 11200,
+		Weight = 100,
+		StartEntry = 11200001,
+		HeroID = 10000012,
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11201] = {
+		MessageStage = 1,
+		UnlockCondition = 30040111,
+		StartEntry = 11201001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11201,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11202] = {
+		MessageStage = 1,
+		UnlockCondition = 30040111,
+		StartEntry = 11202001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11202,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11203] = {
+		MessageStage = 1,
+		UnlockCondition = 30040111,
+		StartEntry = 11203001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11203,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11207] = {
+		MessageStage = 2,
+		UnlockCondition = 30040112,
+		StartEntry = 11207001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11207,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11208] = {
+		MessageStage = 2,
+		UnlockCondition = 30040112,
+		StartEntry = 11208001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11208,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11209] = {
+		MessageStage = 2,
+		UnlockCondition = 30040112,
+		StartEntry = 11209001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11209,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11213] = {
+		MessageStage = 3,
+		UnlockCondition = 30040113,
+		StartEntry = 11213001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11213,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11214] = {
+		MessageStage = 3,
+		UnlockCondition = 30040113,
+		StartEntry = 11214001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11214,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11215] = {
+		MessageStage = 3,
+		UnlockCondition = 30040113,
+		StartEntry = 11215001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11215,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11216] = {
+		MessageStage = 3,
+		UnlockCondition = 30040113,
+		StartEntry = 11216001,
+		HeroID = 10000012,
+		MessageType = 2,
+		Id = 11216,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11291] = {
+		MessageStage = 1,
+		UnlockCondition = 30040114,
+		StartEntry = 11291001,
+		HeroID = 10000012,
+		MessageType = 3,
+		Id = 11291,
+		Weight = 100,
+		Name = getI18NValue(180265141),
+		FinishReward = {
+			114,
+			200
+		}
+	},
 	[11600] = {
 		MessageType = 1,
 		UnlockCondition = 30040150,

@@ -1,6 +1,46 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStorySpeakNPCTable_4.lua
 
 local CfgStorySpeakNPCTable_4 = {
+	[101090806] = {
+		Id = 101090806,
+		NPCName = getI18NValue(180075409),
+		SpeakContent = getI18NValue(180075410)
+	},
+	[101090807] = {
+		PlaySound = 22000114,
+		Id = 101090807,
+		NPCName = getI18NValue(180075411),
+		SpeakContent = getI18NValue(180075412),
+		AnimationName = {
+			"S_talk_3",
+			"S_talk_no",
+			"S_stay",
+			""
+		},
+		AnimationLoop = {
+			false,
+			false,
+			true,
+			false
+		},
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[101090808] = {
+		FacialEffect = 8,
+		SpeakNPC = 205,
+		Id = 101090808,
+		NPCName = getI18NValue(180075413),
+		SpeakContent = getI18NValue(180075414)
+	},
 	[101090809] = {
 		SpeakNPC = 205,
 		Id = 101090809,
@@ -79232,43 +79272,6 @@ local CfgStorySpeakNPCTable_4 = {
 		AnimationName = {
 			"S_thinking_1",
 			"S_thinking_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[202040119] = {
-		Id = 202040119,
-		NPCName = getI18NValue(180085367),
-		SpeakContent = getI18NValue(180085368)
-	},
-	[202040120] = {
-		Id = 202040120,
-		NPCName = getI18NValue(180085369),
-		SpeakContent = getI18NValue(180085370),
-		AnimationWhenNext = {
-			"S_thinking_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[202040121] = {
-		Id = 202040121,
-		NPCName = getI18NValue(180085371),
-		SpeakContent = getI18NValue(180085372),
-		AnimationName = {
-			"S_talk_b_1",
-			"S_talk_b_2",
 			"",
 			""
 		},

@@ -438,14 +438,14 @@ local CfgTimelineTable = {
 	},
 	[1012105] = {
 		Id = 1012105,
-		HitType = 2,
+		HitType = 1,
 		IsHideTile = true,
 		ForceHitTarget = true,
 		CloseRoleEffect = true,
 		MaskType = 4,
 		timeline = "Battle/Role/Hero/LiuLY/Sources/Timeline/TL_LiuLY_special_1",
 		Cinemachine = "Battle/Role/Hero/LiuLY/Sources/Cinemachine/TL_LiuLY_special_1",
-		HitBindingType = 2
+		HitBindingType = 3
 	},
 	[1013101] = {
 		Id = 1013101,

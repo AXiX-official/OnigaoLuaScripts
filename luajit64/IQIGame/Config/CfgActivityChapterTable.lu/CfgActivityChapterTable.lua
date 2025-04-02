@@ -29,7 +29,7 @@ local CfgActivityChapterTable = {
 	},
 	[21000102] = {
 		ActivityID = 60006001,
-		OpenTime = 172800,
+		OpenTime = 259200,
 		TabImg = "/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTitleImg_10.png",
 		ChapterNameImg = "/DataResource/ChapterResource/ResourceImg/ResourceImg_112.png",
 		EnglishName = "JINGUZHIYING",
@@ -55,7 +55,7 @@ local CfgActivityChapterTable = {
 	},
 	[21000103] = {
 		ActivityID = 60006001,
-		OpenTime = 345600,
+		OpenTime = 518400,
 		TabImg = "/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTitleImg_11.png",
 		ChapterNameImg = "/DataResource/ChapterResource/ResourceImg/ResourceImg_113.png",
 		EnglishName = "GUZHIBEIMING",
@@ -82,7 +82,7 @@ local CfgActivityChapterTable = {
 	},
 	[21000104] = {
 		ActivityID = 60006001,
-		OpenTime = 518400,
+		OpenTime = 777600,
 		TabImg = "/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTitleImg_11.png",
 		ChapterNameImg = "/DataResource/ChapterResource/ResourceImg/ResourceImg_115.png",
 		EnglishName = "GUZHIBEIMING",

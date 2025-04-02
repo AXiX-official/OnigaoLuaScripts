@@ -1,6 +1,66 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStorySpeakNPCTable_8.lua
 
 local CfgStorySpeakNPCTable_8 = {
+	[102062099] = {
+		Id = 102062099,
+		NPCName = getI18NValue(180102001),
+		SpeakContent = getI18NValue(180102002),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[102062100] = {
+		Id = 102062100,
+		NPCName = getI18NValue(180102003),
+		SpeakContent = getI18NValue(180102004),
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[102062101] = {
+		SpeakNPC = 103,
+		Id = 102062101,
+		NPCName = getI18NValue(180102005),
+		SpeakContent = getI18NValue(180102006),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
 	[102062102] = {
 		Id = 102062102,
 		NPCName = getI18NValue(180102007),
@@ -83049,68 +83109,6 @@ local CfgStorySpeakNPCTable_8 = {
 			false,
 			false
 		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[401001443] = {
-		SpeakNPC = 102,
-		Id = 401001443,
-		NPCName = getI18NValue(180176386),
-		SpeakContent = getI18NValue(180176387),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[401001501] = {
-		SpeakNPC = 101,
-		Id = 401001501,
-		NPCName = getI18NValue(180176388),
-		SpeakContent = getI18NValue(180176389),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		}
-	},
-	[401001502] = {
-		SpeakNPC = 101,
-		Id = 401001502,
-		NPCName = getI18NValue(180176390),
-		SpeakContent = getI18NValue(180176391),
 		AnimationWhenNext = {
 			"S_talk_3",
 			"S_stay",

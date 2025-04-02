@@ -749,6 +749,11 @@ local CfgFunctionTable = {
 		SceneType = 2,
 		Name = getI18NValue(180216635)
 	},
+	[20000001] = {
+		Id = 20000001,
+		SceneType = 2,
+		Name = getI18NValue(180264499)
+	},
 	[20000010] = {
 		SceneType = 2,
 		Id = 20000010,

@@ -23093,12 +23093,14 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50003,
+			16001,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
-			5000
+			5,
+			2,
+			10000
 		}
 	},
 	[300002] = {
@@ -23106,11 +23108,13 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50033,
+			16002,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
+			5,
+			2,
 			10000
 		}
 	},
@@ -23118,26 +23122,30 @@ local CfgDropLibTable = {
 		Id = 300003,
 		GiftItemIds = {
 			3,
-			60202,
+			15001,
+			16003,
 			4
 		},
 		GiftItemCount = {
 			50,
-			8,
-			15000
+			10,
+			2,
+			10000
 		}
 	},
 	[300004] = {
 		Id = 300004,
 		GiftItemIds = {
 			3,
-			60201,
-			4
+			15011,
+			16004,
+			12012
 		},
 		GiftItemCount = {
 			50,
 			10,
-			20000
+			2,
+			10
 		}
 	},
 	[300005] = {
@@ -23145,12 +23153,14 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50003,
+			16001,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
-			5000
+			5,
+			2,
+			10000
 		}
 	},
 	[300006] = {
@@ -23158,11 +23168,13 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50033,
+			16002,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
+			5,
+			2,
 			10000
 		}
 	},
@@ -23170,26 +23182,30 @@ local CfgDropLibTable = {
 		Id = 300007,
 		GiftItemIds = {
 			3,
-			60202,
+			15002,
+			16003,
 			4
 		},
 		GiftItemCount = {
 			50,
-			8,
-			15000
+			10,
+			2,
+			10000
 		}
 	},
 	[300008] = {
 		Id = 300008,
 		GiftItemIds = {
 			3,
-			60201,
-			4
+			15012,
+			16004,
+			12012
 		},
 		GiftItemCount = {
 			50,
 			10,
-			20000
+			2,
+			10
 		}
 	},
 	[300009] = {
@@ -23197,12 +23213,14 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50003,
+			16001,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
-			5000
+			5,
+			2,
+			10000
 		}
 	},
 	[300010] = {
@@ -23210,11 +23228,13 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50033,
+			16002,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
+			5,
+			2,
 			10000
 		}
 	},
@@ -23222,26 +23242,30 @@ local CfgDropLibTable = {
 		Id = 300011,
 		GiftItemIds = {
 			3,
-			60202,
+			15003,
+			16003,
 			4
 		},
 		GiftItemCount = {
 			50,
-			8,
-			15000
+			10,
+			2,
+			10000
 		}
 	},
 	[300012] = {
 		Id = 300012,
 		GiftItemIds = {
 			3,
-			60201,
-			4
+			15013,
+			16004,
+			12012
 		},
 		GiftItemCount = {
 			50,
 			10,
-			20000
+			2,
+			10
 		}
 	},
 	[300013] = {
@@ -23249,12 +23273,14 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50003,
+			16001,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
-			5000
+			5,
+			2,
+			10000
 		}
 	},
 	[300014] = {
@@ -23262,11 +23288,13 @@ local CfgDropLibTable = {
 		GiftItemIds = {
 			3,
 			50033,
+			16002,
 			4
 		},
 		GiftItemCount = {
 			50,
-			3,
+			5,
+			2,
 			10000
 		}
 	},
@@ -23274,26 +23302,30 @@ local CfgDropLibTable = {
 		Id = 300015,
 		GiftItemIds = {
 			3,
-			60202,
+			15004,
+			16003,
 			4
 		},
 		GiftItemCount = {
 			50,
-			8,
-			15000
+			10,
+			2,
+			10000
 		}
 	},
 	[300016] = {
 		Id = 300016,
 		GiftItemIds = {
 			3,
-			60201,
-			4
+			15014,
+			16004,
+			12012
 		},
 		GiftItemCount = {
 			50,
 			10,
-			20000
+			2,
+			10
 		}
 	},
 	[31200101] = {

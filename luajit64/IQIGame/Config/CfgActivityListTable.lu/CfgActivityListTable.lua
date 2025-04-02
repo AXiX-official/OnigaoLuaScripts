@@ -79,10 +79,10 @@ local CfgActivityListTable = {
 			30070113
 		},
 		Reward = {
+			12012,
 			3,
 			50033,
-			60202,
-			4
+			50003
 		},
 		Desc = getI18NValue(180164842)
 	},

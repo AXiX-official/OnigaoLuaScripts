@@ -1,6 +1,43 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStorySpeakNPCTable_5.lua
 
 local CfgStorySpeakNPCTable_5 = {
+	[202040119] = {
+		Id = 202040119,
+		NPCName = getI18NValue(180085367),
+		SpeakContent = getI18NValue(180085368)
+	},
+	[202040120] = {
+		Id = 202040120,
+		NPCName = getI18NValue(180085369),
+		SpeakContent = getI18NValue(180085370),
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		}
+	},
+	[202040121] = {
+		Id = 202040121,
+		NPCName = getI18NValue(180085371),
+		SpeakContent = getI18NValue(180085372),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
 	[202040122] = {
 		Id = 202040122,
 		NPCName = getI18NValue(180085373),
@@ -85664,24 +85701,6 @@ local CfgStorySpeakNPCTable_5 = {
 			true,
 			false
 		}
-	},
-	[205060203] = {
-		Id = 205060203,
-		SpeakNPC = 105,
-		NPCName = getI18NValue(180094764),
-		SpeakContent = getI18NValue(180094765)
-	},
-	[205060204] = {
-		Id = 205060204,
-		SpeakNPC = 104,
-		NPCName = getI18NValue(180094766),
-		SpeakContent = getI18NValue(180094767)
-	},
-	[205060205] = {
-		Id = 205060205,
-		SpeakNPC = 105,
-		NPCName = getI18NValue(180094768),
-		SpeakContent = getI18NValue(180094769)
 	}
 }
 

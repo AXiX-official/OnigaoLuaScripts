@@ -3264,6 +3264,102 @@ local CfgSkillRankTable = {
 		StrengthenId = {
 			3352003
 		}
+	},
+	[8022401] = {
+		LOOK = true,
+		Skill = 802240,
+		NeedSkillLv = 20,
+		Id = 8022401,
+		StrengLv = 1,
+		BreakCost = {
+			15021,
+			15,
+			4,
+			10000
+		},
+		StrengthenId = {
+			3353001
+		}
+	},
+	[8022402] = {
+		LOOK = true,
+		Skill = 802240,
+		NeedSkillLv = 40,
+		Id = 8022402,
+		StrengLv = 2,
+		BreakCost = {
+			15021,
+			45,
+			4,
+			20000
+		},
+		StrengthenId = {
+			3353002
+		}
+	},
+	[8022403] = {
+		LOOK = true,
+		Skill = 802240,
+		NeedSkillLv = 60,
+		Id = 8022403,
+		StrengLv = 3,
+		BreakCost = {
+			15021,
+			90,
+			4,
+			40000
+		},
+		StrengthenId = {
+			3353003
+		}
+	},
+	[8022501] = {
+		LOOK = true,
+		Skill = 802250,
+		NeedSkillLv = 20,
+		Id = 8022501,
+		StrengLv = 1,
+		BreakCost = {
+			15021,
+			15,
+			4,
+			10000
+		},
+		StrengthenId = {
+			3354001
+		}
+	},
+	[8022502] = {
+		LOOK = true,
+		Skill = 802250,
+		NeedSkillLv = 40,
+		Id = 8022502,
+		StrengLv = 2,
+		BreakCost = {
+			15021,
+			45,
+			4,
+			20000
+		},
+		StrengthenId = {
+			3354002
+		}
+	},
+	[8022503] = {
+		LOOK = true,
+		Skill = 802250,
+		NeedSkillLv = 60,
+		Id = 8022503,
+		StrengLv = 3,
+		BreakCost = {
+			15021,
+			90,
+			4,
+			40000
+		},
+		StrengthenId = {
+			3354003
+		}
 	}
 }
 

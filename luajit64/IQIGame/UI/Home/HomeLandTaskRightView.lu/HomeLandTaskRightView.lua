@@ -191,13 +191,11 @@ function UIElement:Show(taskCid)
 	self.costNum:GetComponent("Text").text = HomeLandApi:GetReceiveTaskCostText(taskCfg.Cost[2])
 	self.needHeroNum:GetComponent("Text").text = HomeLandApi:GetReceiveTaskNeedHeroNumText(taskCfg.HeroLimit)
 
-	local sceneCfg = HomeModule.GetRoomDefaultSkinCfg(taskCfg.Room)
-
-	if not LuaUtility.StrIsNullOrEmpty(sceneCfg.PreviewImage) then
-		AssetUtil.LoadImage(self, sceneCfg.PreviewImage, self.areaImg:GetComponent("Image"))
+	if not LuaUtility.StrIsNullOrEmpty(taskCfg.MiniMapRes) then
+		AssetUtil.LoadImage(self, taskCfg.MiniMapRes, self.areaImg:GetComponent("Image"))
 	end
 
-	self.areaName:GetComponent("Text").text = sceneCfg.Name
+	self.areaName:GetComponent("Text").text = taskCfg.MapName
 
 	if taskData.status == Constant.HomeLandDispTaskType.Ready then
 		self.workingState.gameObject:SetActive(false)

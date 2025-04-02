@@ -12371,7 +12371,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.14"
+				"0.135"
 			},
 			{},
 			{},
@@ -12402,7 +12402,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.16"
+				"0.15"
 			},
 			{},
 			{},
@@ -12433,7 +12433,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.18"
+				"0.165"
 			},
 			{},
 			{},
@@ -12464,7 +12464,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.2"
+				"0.18"
 			},
 			{},
 			{},
@@ -12495,7 +12495,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.22"
+				"0.195"
 			},
 			{},
 			{},
@@ -12526,7 +12526,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.24"
+				"0.21"
 			},
 			{},
 			{},
@@ -12557,7 +12557,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.27"
+				"0.23"
 			},
 			{},
 			{},
@@ -12588,7 +12588,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"1",
-				"0.3"
+				"0.26"
 			},
 			{},
 			{},
@@ -12618,7 +12618,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.078"
+				"0.076"
 			},
 			{},
 			{},
@@ -12648,7 +12648,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.156"
+				"0.151"
 			},
 			{},
 			{},
@@ -12678,7 +12678,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.234"
+				"0.227"
 			},
 			{},
 			{},
@@ -12708,7 +12708,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.312"
+				"0.302"
 			},
 			{},
 			{},
@@ -12738,7 +12738,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.39"
+				"0.378"
 			},
 			{},
 			{},
@@ -12768,7 +12768,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.468"
+				"0.454"
 			},
 			{},
 			{},
@@ -12798,7 +12798,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.546"
+				"0.529"
 			},
 			{},
 			{},
@@ -12828,7 +12828,7 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101230",
-				"0.65"
+				"0.63"
 			},
 			{},
 			{},
@@ -15642,15 +15642,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.016"
+				"0.018"
 			},
 			{
 				"101531",
-				"0.019"
+				"0.021"
 			},
 			{
 				"101532",
-				"0.024"
+				"0.027"
 			},
 			{},
 			{},
@@ -15678,15 +15678,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.032"
+				"0.036"
 			},
 			{
 				"101531",
-				"0.039"
+				"0.043"
 			},
 			{
 				"101532",
-				"0.049"
+				"0.054"
 			},
 			{},
 			{},
@@ -15714,15 +15714,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.049"
+				"0.054"
 			},
 			{
 				"101531",
-				"0.058"
+				"0.064"
 			},
 			{
 				"101532",
-				"0.073"
+				"0.08"
 			},
 			{},
 			{},
@@ -15750,15 +15750,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.065"
+				"0.071"
 			},
 			{
 				"101531",
-				"0.078"
+				"0.086"
 			},
 			{
 				"101532",
-				"0.097"
+				"0.107"
 			},
 			{},
 			{},
@@ -15786,15 +15786,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.081"
+				"0.089"
 			},
 			{
 				"101531",
-				"0.097"
+				"0.107"
 			},
 			{
 				"101532",
-				"0.122"
+				"0.134"
 			},
 			{},
 			{},
@@ -15822,15 +15822,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.097"
+				"0.107"
 			},
 			{
 				"101531",
-				"0.117"
+				"0.128"
 			},
 			{
 				"101532",
-				"0.146"
+				"0.161"
 			},
 			{},
 			{},
@@ -15858,15 +15858,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.114"
+				"0.125"
 			},
 			{
 				"101531",
-				"0.136"
+				"0.15"
 			},
 			{
 				"101532",
-				"0.17"
+				"0.187"
 			},
 			{},
 			{},
@@ -15894,15 +15894,15 @@ local CfgSkillStrengthenTable = {
 		SkillSlotEffectParam = {
 			{
 				"101530",
-				"0.135"
+				"0.149"
 			},
 			{
 				"101531",
-				"0.162"
+				"0.178"
 			},
 			{
 				"101532",
-				"0.203"
+				"0.223"
 			},
 			{},
 			{},
@@ -40446,7 +40446,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101220",
 				"2",
-				"0.25"
+				"0.24"
 			},
 			{},
 			{},
@@ -40889,7 +40889,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"101530",
 				"1",
-				"0.3"
+				"0.36"
 			},
 			{},
 			{},
@@ -56061,6 +56061,254 @@ local CfgSkillStrengthenTable = {
 				"802230",
 				"1",
 				"0.05"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022402] = {
+		Id = 8022402,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802240",
+				"1",
+				"0.09"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022403] = {
+		Id = 8022403,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802240",
+				"1",
+				"0.11"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022404] = {
+		Id = 8022404,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802240",
+				"1",
+				"0.13"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022405] = {
+		Id = 8022405,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802240",
+				"1",
+				"0.15"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022502] = {
+		Id = 8022502,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802250",
+				"1",
+				"0.14"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022503] = {
+		Id = 8022503,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802250",
+				"1",
+				"0.16"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022504] = {
+		Id = 8022504,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802250",
+				"1",
+				"0.18"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[8022505] = {
+		Id = 8022505,
+		SkillSlotEffect = {
+			24,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		SkillSlotEffectParam = {
+			{
+				"802250",
+				"1",
+				"0.2"
 			},
 			{},
 			{},

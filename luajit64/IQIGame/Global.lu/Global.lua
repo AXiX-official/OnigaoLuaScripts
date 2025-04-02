@@ -531,6 +531,23 @@ function getDateTimeDiffDay(timeStamp1, timeStamp2)
 	return math.abs(num1 - num2) / 86400
 end
 
+function getDateTimeDiffDay_New(timeStamp1, timeStamp2)
+	local date1 = getDateTimeTable(timeStamp1)
+	local date2 = getDateTimeTable(timeStamp2)
+	local num1 = os.time({
+		year = date1.year,
+		month = date1.month,
+		day = date1.day
+	})
+	local num2 = os.time({
+		year = date2.year,
+		month = date2.month,
+		day = date2.day
+	})
+
+	return (num1 - num2) / 86400
+end
+
 function GetPreciseDecimal(nNum, n)
 	if type(nNum) ~= "number" then
 		return nNum

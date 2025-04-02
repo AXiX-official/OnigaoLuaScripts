@@ -666,7 +666,7 @@ local CfgWorldRoomSceneTable = {
 		RenderConfig = "Story/32_2_PrisonInterrogationroom_Normal_SRCStory",
 		Id = 30600310,
 		RoomId = 103005,
-		BGMNight = 11000055,
+		BGMNight = 11000020,
 		BGM = 11000055,
 		Name = getI18NValue(180203086)
 	},

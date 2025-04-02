@@ -15,15 +15,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050001,
-			30050103,
-			30050401
+			30050102,
+			30050101
 		}
 	},
 	[21100102] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000101,
-		RecommendLevel = 30,
+		RecommendLevel = 40,
 		Order = 2,
 		Id = 21100102,
 		Name = getI18NValue(180124726),
@@ -36,15 +36,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050002,
-			30050102,
-			30050406
+			30050103,
+			30050101
 		}
 	},
 	[21100103] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000101,
-		RecommendLevel = 45,
+		RecommendLevel = 60,
 		Order = 3,
 		Id = 21100103,
 		Name = getI18NValue(180124728),
@@ -57,7 +57,7 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050003,
-			30050202,
+			30050104,
 			30050102
 		}
 	},
@@ -65,7 +65,7 @@ local CfgActivityStageTable = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000101,
-		RecommendLevel = 60,
+		RecommendLevel = 70,
 		Order = 4,
 		Id = 21100104,
 		Name = getI18NValue(180124730),
@@ -78,8 +78,8 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050004,
-			30050201,
-			30050102
+			30050105,
+			30050103
 		}
 	},
 	[21100201] = {
@@ -96,15 +96,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050005,
-			30050103,
-			30050405
+			30050102,
+			30050101
 		}
 	},
 	[21100202] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000102,
-		RecommendLevel = 30,
+		RecommendLevel = 40,
 		Order = 2,
 		Id = 21100202,
 		Name = getI18NValue(180124734),
@@ -117,15 +117,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050006,
-			30050102,
-			30050409
+			30050103,
+			30050101
 		}
 	},
 	[21100203] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000102,
-		RecommendLevel = 45,
+		RecommendLevel = 60,
 		Order = 3,
 		Id = 21100203,
 		Name = getI18NValue(180124736),
@@ -138,15 +138,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050007,
-			30050309,
-			30050202
+			30050104,
+			30050102
 		}
 	},
 	[21100204] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000102,
-		RecommendLevel = 60,
+		RecommendLevel = 70,
 		Order = 4,
 		Id = 21100204,
 		Name = getI18NValue(180124738),
@@ -159,8 +159,8 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050008,
-			30050202,
-			30050102
+			30050105,
+			30050103
 		}
 	},
 	[21100301] = {
@@ -177,15 +177,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050009,
-			30050103,
-			30050203
+			30050102,
+			30050101
 		}
 	},
 	[21100302] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000103,
-		RecommendLevel = 30,
+		RecommendLevel = 40,
 		Order = 2,
 		Id = 21100302,
 		Name = getI18NValue(180124742),
@@ -198,15 +198,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050010,
-			30050102,
-			30050301
+			30050103,
+			30050101
 		}
 	},
 	[21100303] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000103,
-		RecommendLevel = 45,
+		RecommendLevel = 60,
 		Order = 3,
 		Id = 21100303,
 		Name = getI18NValue(180124744),
@@ -219,7 +219,7 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050011,
-			30050202,
+			30050104,
 			30050102
 		}
 	},
@@ -227,7 +227,7 @@ local CfgActivityStageTable = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000103,
-		RecommendLevel = 60,
+		RecommendLevel = 70,
 		Order = 4,
 		Id = 21100304,
 		Name = getI18NValue(180124746),
@@ -240,8 +240,8 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050012,
-			30050201,
-			30050102
+			30050105,
+			30050103
 		}
 	},
 	[21100401] = {
@@ -258,15 +258,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050013,
-			30050103,
-			30050413
+			30050102,
+			30050101
 		}
 	},
 	[21100402] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000104,
-		RecommendLevel = 30,
+		RecommendLevel = 40,
 		Order = 2,
 		Id = 21100402,
 		Name = getI18NValue(180124750),
@@ -279,15 +279,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050014,
-			30050102,
-			30050203
+			30050103,
+			30050101
 		}
 	},
 	[21100403] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000104,
-		RecommendLevel = 45,
+		RecommendLevel = 60,
 		Order = 3,
 		Id = 21100403,
 		Name = getI18NValue(180124752),
@@ -300,15 +300,15 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050015,
-			30050202,
-			30050201
+			30050104,
+			30050102
 		}
 	},
 	[21100404] = {
 		MaxRound = 30,
 		Mapid = 1,
 		ChapterId = 21000104,
-		RecommendLevel = 60,
+		RecommendLevel = 70,
 		Order = 4,
 		Id = 21100404,
 		Name = getI18NValue(180124754),
@@ -321,8 +321,8 @@ local CfgActivityStageTable = {
 		},
 		ChallengeDesc = {
 			30050016,
-			30050102,
-			30050101
+			30050105,
+			30050103
 		}
 	}
 }

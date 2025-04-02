@@ -221,6 +221,21 @@ local CfgShopTable = {
 		Id = 50101010,
 		TagName = getI18NValue(180242828)
 	},
+	[50101011] = {
+		CheckToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_122.png",
+		MoneyType = 105,
+		OpenType = 1,
+		ScrollType = 2,
+		LeftBottomBG = "/DataResource/UIResource/ShopCommonImg/LeftBottom_PayImg_01.png",
+		Open = 1,
+		Order = 11,
+		NormaToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_122.png",
+		NpcActionGroupid = 4,
+		ShopType = 2,
+		Type = 3,
+		Id = 50101011,
+		TagName = getI18NValue(180264502)
+	},
 	[50102000] = {
 		CheckToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_11.png",
 		MoneyType = 11,

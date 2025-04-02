@@ -459,6 +459,50 @@ local CfgActivityTable = {
 			50300305
 		}
 	},
+	[60003006] = {
+		Id = 60003006,
+		OpenTime = "2025/4/9 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180264382),
+		OpenActionParams = {
+			60003006,
+			50300306
+		},
+		CloseActionParams = {
+			60003006,
+			50300306
+		}
+	},
+	[60003007] = {
+		Id = 60003007,
+		OpenTime = "2025/4/9 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180264383),
+		OpenActionParams = {
+			60003007,
+			50300307
+		},
+		CloseActionParams = {
+			60003007,
+			50300307
+		}
+	},
 	[60003011] = {
 		Id = 60003011,
 		OpenTime = "2025/2/20 0:00",
@@ -547,7 +591,7 @@ local CfgActivityTable = {
 	},
 	[60003015] = {
 		OneOnly = false,
-		OpenTime = "2024/7/18 4:00",
+		OpenTime = "2025/4/9 4:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,
@@ -559,16 +603,16 @@ local CfgActivityTable = {
 		Desc = getI18NValue(180169213),
 		OpenActionParams = {
 			60003015,
-			50300121
+			50300105
 		},
 		CloseActionParams = {
 			60003015,
-			50300121
+			50300105
 		}
 	},
 	[60003016] = {
 		OneOnly = false,
-		OpenTime = "2024/7/18 4:00",
+		OpenTime = "2025/4/9 4:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,
@@ -580,11 +624,11 @@ local CfgActivityTable = {
 		Desc = getI18NValue(180169214),
 		OpenActionParams = {
 			60003016,
-			50300122
+			50300106
 		},
 		CloseActionParams = {
 			60003016,
-			50300122
+			50300106
 		}
 	},
 	[60003017] = {
@@ -815,13 +859,14 @@ local CfgActivityTable = {
 	},
 	[60006001] = {
 		ActivityType = 14,
-		OpenTime = "2025/1/9 4:00",
+		OpenTime = "2025/4/2 4:00",
 		OneOnly = false,
 		Id = 60006001,
 		OpenTimeType = 2,
 		Duration = {
 			1209600
-		}
+		},
+		Desc = getI18NValue(180264323)
 	},
 	[60007001] = {
 		OpenTime = "2024/6/24 4:00",

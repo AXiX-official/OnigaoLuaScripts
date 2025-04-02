@@ -7277,7 +7277,7 @@ local CfgSearchTargetTable = {
 		Id = 302303200,
 		SelectSelf = false,
 		AttackStealth = true,
-		SelectNum = 5,
+		SelectNum = 3,
 		ContainAnchorPpoint = -1,
 		ActionScope = 1,
 		SelectCamp = 1,
@@ -7297,7 +7297,7 @@ local CfgSearchTargetTable = {
 		DynamicArgParams = {
 			{
 				"1",
-				"202301202"
+				"302303202"
 			},
 			{}
 		}

@@ -11829,15 +11829,22 @@ local CfgStoryDialogueTable_2 = {
 	[107010517] = {
 		Id = 107010517,
 		NextID = 107010518,
-		Staytime = 0.8,
 		Speakgroup = {
 			107010517
 		}
 	},
 	[107010518] = {
 		Id = 107010518,
+		NextID = 107010519,
+		Staytime = 0.8,
 		Speakgroup = {
 			107010518
+		}
+	},
+	[107010519] = {
+		Id = 107010519,
+		Speakgroup = {
+			107010519
 		}
 	},
 	[107010601] = {
@@ -12575,6 +12582,8 @@ local CfgStoryDialogueTable_2 = {
 	},
 	[107020402] = {
 		Id = 107020402,
+		skiptime = 1.5,
+		Staytime = 1.5,
 		Speakgroup = {
 			107020402
 		}
@@ -12649,15 +12658,18 @@ local CfgStoryDialogueTable_2 = {
 		}
 	},
 	[107020701] = {
-		Id = 107020701,
+		skiptime = 1.5,
 		NextID = 107020702,
-		Staytime = 0.8,
+		Staytime = 1.5,
+		Id = 107020701,
 		Speakgroup = {
 			107020701
 		}
 	},
 	[107020702] = {
 		Id = 107020702,
+		skiptime = 1,
+		Staytime = 1,
 		Speakgroup = {
 			107020702
 		}
@@ -13093,6 +13105,8 @@ local CfgStoryDialogueTable_2 = {
 	},
 	[107021818] = {
 		Id = 107021818,
+		skiptime = 1.5,
+		Staytime = 1.5,
 		Speakgroup = {
 			107021818
 		}
@@ -13350,8 +13364,15 @@ local CfgStoryDialogueTable_2 = {
 	},
 	[107022205] = {
 		Id = 107022205,
+		NextID = 107022206,
 		Speakgroup = {
 			107022205
+		}
+	},
+	[107022206] = {
+		Id = 107022206,
+		Speakgroup = {
+			107022206
 		}
 	},
 	[107022301] = {
@@ -13411,8 +13432,15 @@ local CfgStoryDialogueTable_2 = {
 	},
 	[107022405] = {
 		Id = 107022405,
+		NextID = 107022406,
 		Speakgroup = {
 			107022405
+		}
+	},
+	[107022406] = {
+		Id = 107022406,
+		Speakgroup = {
+			107022406
 		}
 	},
 	[107022501] = {
@@ -14661,14 +14689,12 @@ local CfgStoryDialogueTable_2 = {
 	},
 	[107031203] = {
 		Id = 107031203,
-		NextID = 107031204,
 		Speakgroup = {
 			107031203
 		}
 	},
 	[107031204] = {
 		Id = 107031204,
-		NextID = 107031205,
 		Speakgroup = {
 			107031204
 		}
@@ -14709,6 +14735,7 @@ local CfgStoryDialogueTable_2 = {
 	},
 	[107031210] = {
 		Id = 107031210,
+		NextID = 107031211,
 		Speakgroup = {
 			107031210
 		}
@@ -36730,29 +36757,6 @@ local CfgStoryDialogueTable_2 = {
 		DialogueParam = -2,
 		Speakgroup = {
 			108102703
-		}
-	},
-	[108102704] = {
-		DialogueType = 1,
-		Staytime = 0.8,
-		Id = 108102704,
-		DialogueParam = -2,
-		Speakgroup = {
-			108102704
-		}
-	},
-	[108102801] = {
-		Id = 108102801,
-		NextID = 108102802,
-		Speakgroup = {
-			108102801
-		}
-	},
-	[108102802] = {
-		Id = 108102802,
-		NextID = 108102803,
-		Speakgroup = {
-			108102802
 		}
 	}
 }

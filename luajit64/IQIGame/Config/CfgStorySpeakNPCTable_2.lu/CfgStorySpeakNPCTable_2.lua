@@ -26393,6 +26393,7 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180063577)
 	},
 	[107010205] = {
+		PlaySound = 22000106,
 		SpeakNPC = 201,
 		Id = 107010205,
 		FacialEffect = 5,
@@ -26410,6 +26411,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010206] = {
+		PlaySound = 22000106,
 		SpeakNPC = 202,
 		Id = 107010206,
 		FacialEffect = 5,
@@ -27082,10 +27084,16 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010516] = {
-		SpeakNPC = 202,
 		Id = 107010516,
+		SpeakNPC = 202,
 		NPCName = getI18NValue(180063646),
-		SpeakContent = getI18NValue(180063647),
+		SpeakContent = getI18NValue(180063647)
+	},
+	[107010517] = {
+		SpeakNPC = 202,
+		Id = 107010517,
+		NPCName = getI18NValue(180063648),
+		SpeakContent = getI18NValue(180063649),
 		AnimationWhenNext = {
 			"S_talk_3",
 			"S_stay",
@@ -27097,10 +27105,10 @@ local CfgStorySpeakNPCTable_2 = {
 			false
 		}
 	},
-	[107010517] = {
-		Id = 107010517,
-		NPCName = getI18NValue(180063648),
-		SpeakContent = getI18NValue(180063649),
+	[107010518] = {
+		Id = 107010518,
+		NPCName = getI18NValue(180187170),
+		SpeakContent = getI18NValue(180187171),
 		AnimationName = {
 			"S_talk_1",
 			"S_talk_2",
@@ -27124,11 +27132,12 @@ local CfgStorySpeakNPCTable_2 = {
 			false
 		}
 	},
-	[107010518] = {
-		Id = 107010518,
+	[107010519] = {
 		FacialEffect = 2,
-		NPCName = getI18NValue(180187170),
-		SpeakContent = getI18NValue(180187171),
+		PlaySound = 22000116,
+		Id = 107010519,
+		NPCName = getI18NValue(180264609),
+		SpeakContent = getI18NValue(180264610),
 		AnimationName = {
 			"S_talk_b_1",
 			"S_talk_b_2",
@@ -27292,6 +27301,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010606] = {
+		PlaySound = 22000121,
 		SpeakNPC = 202,
 		Id = 107010606,
 		NPCName = getI18NValue(180063660),
@@ -27372,6 +27382,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010612] = {
+		PlaySound = 22000116,
 		SpeakNPC = 201,
 		Id = 107010612,
 		FacialEffect = 2,
@@ -27389,6 +27400,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010613] = {
+		PlaySound = 22000116,
 		SpeakNPC = 202,
 		Id = 107010613,
 		FacialEffect = 2,
@@ -27485,6 +27497,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010618] = {
+		PlaySound = 22000111,
 		Id = 107010618,
 		NPCName = getI18NValue(180063685),
 		SpeakContent = getI18NValue(180063686),
@@ -27717,6 +27730,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107010706] = {
+		PlaySound = 22000121,
 		Id = 107010706,
 		NPCName = getI18NValue(180063705),
 		SpeakContent = getI18NValue(180063706),
@@ -27826,8 +27840,9 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180063716)
 	},
 	[107010901] = {
-		SpeakNPC = 102,
 		Id = 107010901,
+		SpeakNPC = 102,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180063717),
 		SpeakContent = getI18NValue(180063718),
 		AnimationName = {
@@ -28030,6 +28045,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107011006] = {
+		PlaySound = 22000111,
 		SpeakNPC = 201,
 		Id = 107011006,
 		NPCName = getI18NValue(180063735),
@@ -28046,6 +28062,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107011007] = {
+		PlaySound = 22000111,
 		SpeakNPC = 202,
 		Id = 107011007,
 		NPCName = getI18NValue(180063737),
@@ -28200,8 +28217,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107011104] = {
-		SpeakNPC = 103,
 		Id = 107011104,
+		SpeakNPC = 103,
+		PlaySound = 22000114,
 		NPCName = getI18NValue(180063749),
 		SpeakContent = getI18NValue(180063750),
 		AnimationName = {
@@ -28333,8 +28351,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107011110] = {
-		SpeakNPC = 102,
 		Id = 107011110,
+		SpeakNPC = 102,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180063761),
 		SpeakContent = getI18NValue(180063762),
 		AnimationName = {
@@ -28388,8 +28407,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107011112] = {
-		SpeakNPC = 102,
 		Id = 107011112,
+		SpeakNPC = 102,
+		PlaySound = 22000107,
 		NPCName = getI18NValue(180063765),
 		SpeakContent = getI18NValue(180063766),
 		AnimationName = {
@@ -29157,8 +29177,8 @@ local CfgStorySpeakNPCTable_2 = {
 		NPCName = getI18NValue(180063849),
 		SpeakContent = getI18NValue(180063850),
 		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
+			"S_sleepy_1",
+			"S_sleepy_2",
 			"",
 			""
 		},
@@ -29166,16 +29186,6 @@ local CfgStorySpeakNPCTable_2 = {
 			false,
 			true,
 			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
 			false
 		}
 	},
@@ -29186,10 +29196,22 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180063852)
 	},
 	[107020502] = {
-		Id = 107020502,
 		SpeakNPC = 102,
+		Id = 107020502,
 		NPCName = getI18NValue(180063853),
-		SpeakContent = getI18NValue(180063854)
+		SpeakContent = getI18NValue(180063854),
+		AnimationName = {
+			"S_sleepy_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
 	},
 	[107020601] = {
 		SpeakNPC = 102,
@@ -30310,8 +30332,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107021809] = {
-		FacialEffect = 7,
+		PlaySound = 22000121,
 		Id = 107021809,
+		FacialEffect = 7,
 		NPCName = getI18NValue(180063979),
 		SpeakContent = getI18NValue(180063980),
 		AnimationWhenNext = {
@@ -30416,8 +30439,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107021814] = {
-		SpeakNPC = 102,
 		Id = 107021814,
+		SpeakNPC = 102,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180063989),
 		SpeakContent = getI18NValue(180063990),
 		AnimationName = {
@@ -30478,8 +30502,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107021817] = {
-		Id = 107021817,
+		PlaySound = 22000107,
 		SpeakNPC = 102,
+		Id = 107021817,
 		NPCName = getI18NValue(180063995),
 		SpeakContent = getI18NValue(180063996)
 	},
@@ -30866,6 +30891,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022103] = {
+		PlaySound = 22000114,
 		Id = 107022103,
 		NPCName = getI18NValue(180064031),
 		SpeakContent = getI18NValue(180064032),
@@ -30933,8 +30959,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022107] = {
-		SpeakNPC = 102,
 		Id = 107022107,
+		SpeakNPC = 102,
+		PlaySound = 22000107,
 		NPCName = getI18NValue(180064039),
 		SpeakContent = getI18NValue(180064040),
 		AnimationName = {
@@ -31109,6 +31136,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022115] = {
+		PlaySound = 22000111,
 		Id = 107022115,
 		NPCName = getI18NValue(180064055),
 		SpeakContent = getI18NValue(180064056),
@@ -31239,6 +31267,12 @@ local CfgStorySpeakNPCTable_2 = {
 		NPCName = getI18NValue(180195246),
 		SpeakContent = getI18NValue(180195247)
 	},
+	[107022206] = {
+		Id = 107022206,
+		SpeakNPC = 103,
+		NPCName = getI18NValue(180264611),
+		SpeakContent = getI18NValue(180264612)
+	},
 	[107022301] = {
 		Id = 107022301,
 		SpeakNPC = 103,
@@ -31288,10 +31322,16 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180064084)
 	},
 	[107022405] = {
-		SpeakNPC = 103,
 		Id = 107022405,
+		SpeakNPC = 103,
 		NPCName = getI18NValue(180064085),
-		SpeakContent = getI18NValue(180064086),
+		SpeakContent = getI18NValue(180064086)
+	},
+	[107022406] = {
+		SpeakNPC = 103,
+		Id = 107022406,
+		NPCName = getI18NValue(180264613),
+		SpeakContent = getI18NValue(180264614),
 		AnimationWhenNext = {
 			"S_talk_3",
 			"S_stay",
@@ -31415,6 +31455,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022505] = {
+		PlaySound = 22000121,
 		SpeakNPC = 101,
 		Id = 107022505,
 		FacialEffect = 7,
@@ -31484,8 +31525,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022604] = {
-		Id = 107022604,
+		PlaySound = 22000106,
 		SpeakNPC = 101,
+		Id = 107022604,
 		NPCName = getI18NValue(180064103),
 		SpeakContent = getI18NValue(180064104)
 	},
@@ -31551,8 +31593,9 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180064114)
 	},
 	[107022706] = {
-		FacialEffect = 6,
+		PlaySound = 22000114,
 		SpeakNPC = 103,
+		FacialEffect = 6,
 		Id = 107022706,
 		NPCName = getI18NValue(180064115),
 		SpeakContent = getI18NValue(180064116)
@@ -31629,8 +31672,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022801] = {
-		FacialEffect = 5,
+		PlaySound = 22000106,
 		SpeakNPC = 103,
+		FacialEffect = 5,
 		Id = 107022801,
 		NPCName = getI18NValue(180064127),
 		SpeakContent = getI18NValue(180064128)
@@ -31787,8 +31831,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022809] = {
-		SpeakNPC = 101,
 		Id = 107022809,
+		SpeakNPC = 101,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180064143),
 		SpeakContent = getI18NValue(180064144),
 		AnimationName = {
@@ -31910,6 +31955,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107022817] = {
+		PlaySound = 22000114,
 		Id = 107022817,
 		NPCName = getI18NValue(180064159),
 		SpeakContent = getI18NValue(180064160),
@@ -32466,6 +32512,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030205] = {
+		PlaySound = 22000121,
 		Id = 107030205,
 		NPCName = getI18NValue(180064217),
 		SpeakContent = getI18NValue(180064218),
@@ -33049,6 +33096,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030501] = {
+		PlaySound = 22000121,
 		Id = 107030501,
 		NPCName = getI18NValue(180064275),
 		SpeakContent = getI18NValue(180064276),
@@ -33128,6 +33176,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030505] = {
+		PlaySound = 22000109,
 		SpeakNPC = 102,
 		Id = 107030505,
 		NPCName = getI18NValue(180064283),
@@ -33172,8 +33221,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030507] = {
-		SpeakNPC = 101,
 		Id = 107030507,
+		SpeakNPC = 101,
+		PlaySound = 22000111,
 		NPCName = getI18NValue(180064287),
 		SpeakContent = getI18NValue(180064288),
 		AnimationName = {
@@ -33301,8 +33351,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030603] = {
-		SpeakNPC = 106,
 		Id = 107030603,
+		SpeakNPC = 106,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180064301),
 		SpeakContent = getI18NValue(180064302),
 		AnimationName = {
@@ -33540,8 +33591,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030707] = {
-		Id = 107030707,
+		PlaySound = 22000116,
 		SpeakNPC = 102,
+		Id = 107030707,
 		NPCName = getI18NValue(180064323),
 		SpeakContent = getI18NValue(180064324)
 	},
@@ -33893,6 +33945,7 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180064357)
 	},
 	[107030815] = {
+		PlaySound = 22000121,
 		SpeakNPC = 106,
 		Id = 107030815,
 		FacialEffect = 7,
@@ -33938,8 +33991,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030817] = {
-		Id = 107030817,
+		PlaySound = 22000107,
 		SpeakNPC = 102,
+		Id = 107030817,
 		NPCName = getI18NValue(180064362),
 		SpeakContent = getI18NValue(180064363)
 	},
@@ -34175,6 +34229,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030907] = {
+		PlaySound = 22000106,
 		SpeakNPC = 108,
 		Id = 107030907,
 		NPCName = getI18NValue(180064390),
@@ -34205,6 +34260,7 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180064395)
 	},
 	[107030910] = {
+		PlaySound = 22000121,
 		SpeakNPC = 108,
 		Id = 107030910,
 		NPCName = getI18NValue(180064396),
@@ -34311,8 +34367,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107030915] = {
-		SpeakNPC = 106,
 		Id = 107030915,
+		SpeakNPC = 106,
+		FacialEffect = 8,
 		NPCName = getI18NValue(180064406),
 		SpeakContent = getI18NValue(180064407),
 		AnimationName = {
@@ -34602,6 +34659,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107031204] = {
+		PlaySound = 22000107,
 		SpeakNPC = 108,
 		Id = 107031204,
 		NPCName = getI18NValue(180064430),
@@ -34675,8 +34733,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107031207] = {
-		Id = 107031207,
+		PlaySound = 22000107,
 		SpeakNPC = 108,
+		Id = 107031207,
 		NPCName = getI18NValue(180064436),
 		SpeakContent = getI18NValue(180064437)
 	},
@@ -34699,6 +34758,7 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180190757)
 	},
 	[107031211] = {
+		PlaySound = 22000106,
 		SpeakNPC = -2,
 		Id = 107031211,
 		NPCName = getI18NValue(180190758),
@@ -34743,8 +34803,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107031302] = {
-		Id = 107031302,
+		PlaySound = 22000107,
 		SpeakNPC = 108,
+		Id = 107031302,
 		NPCName = getI18NValue(180064440),
 		SpeakContent = getI18NValue(180064441)
 	},
@@ -34777,8 +34838,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107031304] = {
-		Id = 107031304,
+		PlaySound = 22000116,
 		SpeakNPC = 108,
+		Id = 107031304,
 		NPCName = getI18NValue(180064444),
 		SpeakContent = getI18NValue(180064445)
 	},
@@ -34823,6 +34885,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107031308] = {
+		PlaySound = 22000107,
 		SpeakNPC = 108,
 		Id = 107031308,
 		NPCName = getI18NValue(180190762),
@@ -34925,6 +34988,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107031504] = {
+		PlaySound = 22000116,
 		SpeakNPC = 102,
 		Id = 107031504,
 		NPCName = getI18NValue(180064458),
@@ -35980,6 +36044,7 @@ local CfgStorySpeakNPCTable_2 = {
 		SpeakContent = getI18NValue(180190777)
 	},
 	[107032122] = {
+		PlaySound = 22000121,
 		Id = 107032122,
 		NPCName = getI18NValue(180190778),
 		SpeakContent = getI18NValue(180190779),
@@ -36211,8 +36276,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107032306] = {
-		Id = 107032306,
+		PlaySound = 22000116,
 		FacialEffect = 2,
+		Id = 107032306,
 		NPCName = getI18NValue(180064576),
 		SpeakContent = getI18NValue(180064577)
 	},
@@ -36292,6 +36358,7 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107032502] = {
+		MessageIcon = 50048,
 		Id = 107032502,
 		NPCName = getI18NValue(180064586),
 		SpeakContent = getI18NValue(180064587),
@@ -82492,46 +82559,6 @@ local CfgStorySpeakNPCTable_2 = {
 			true,
 			false
 		}
-	},
-	[108080101] = {
-		SpeakNPC = 103,
-		Id = 108080101,
-		NPCName = getI18NValue(180188746),
-		SpeakContent = getI18NValue(180188747),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[108080102] = {
-		Id = 108080102,
-		SpeakNPC = 102,
-		NPCName = getI18NValue(180188748),
-		SpeakContent = getI18NValue(180188749)
-	},
-	[108080103] = {
-		Id = 108080103,
-		SpeakNPC = 102,
-		NPCName = getI18NValue(180188750),
-		SpeakContent = getI18NValue(180188751)
 	}
 }
 

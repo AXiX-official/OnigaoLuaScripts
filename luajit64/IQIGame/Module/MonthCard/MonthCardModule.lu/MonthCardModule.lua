@@ -75,7 +75,13 @@ function MonthCardModule.GetNewCardEndDay(cardItemCid)
 		return 0
 	end
 
-	return getDateTimeDiffDay(endTime / 1000, PlayerModule.GetServerTime())
+	local day = getDateTimeDiffDay_New(endTime / 1000, PlayerModule.GetServerTime())
+
+	if day < 0 then
+		day = 0
+	end
+
+	return day
 end
 
 function MonthCardModule.BuyNewMonthCard(data)
