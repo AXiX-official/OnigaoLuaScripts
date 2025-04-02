@@ -31025,6 +31025,14 @@ local CfgConditionTable = {
 	[30040110] = {
 		Id = 30040110,
 		Name = getI18NValue(180265195),
+		Type = {
+			1,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
 		SubType = {
 			7,
 			0,
