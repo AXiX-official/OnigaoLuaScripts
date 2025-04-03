@@ -49,6 +49,12 @@ function m.AddSDKListener()
 	end
 
 	function IQIUSDK.Instance.OnPayFailed(payResultData)
+		if payResultData.msg == "pay fail msg = PAY_CANCEL" then
+			log("支付取消")
+
+			return
+		end
+
 		log("支付失败")
 		NoticeModule.ShowNoticeByType(Constant.NoticeType.BoxSingleButton, payResultData.msg)
 	end

@@ -4300,13 +4300,13 @@ local CfgFavorMessageOptionTable = {
 			}
 		}
 	},
-	[112140191] = {
+	[112140141] = {
 		Sort = 1,
-		NextEntryID = 11214020,
-		Id = 112140191,
+		NextEntryID = 11214015,
+		Id = 112140141,
 		FavorType = 1,
-		EntryID = 11214019,
-		Context = getI18NValue(180265154),
+		EntryID = 11214014,
+		Context = getI18NValue(180265332),
 		TriggerAction = {
 			1
 		},
@@ -4317,13 +4317,13 @@ local CfgFavorMessageOptionTable = {
 			}
 		}
 	},
-	[112140192] = {
+	[112140142] = {
 		Sort = 2,
-		NextEntryID = 11214026,
-		Id = 112140192,
+		NextEntryID = 11214021,
+		Id = 112140142,
 		FavorType = 2,
-		EntryID = 11214019,
-		Context = getI18NValue(180265155),
+		EntryID = 11214014,
+		Context = getI18NValue(180265333),
 		TriggerAction = {
 			1
 		},
