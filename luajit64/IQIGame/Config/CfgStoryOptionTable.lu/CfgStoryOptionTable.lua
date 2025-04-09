@@ -3117,6 +3117,15 @@ local CfgStoryOptionTable = {
 			2019005,
 			2019006
 		}
+	},
+	[702201] = {
+		OptionType = 1,
+		Id = 702201,
+		Des = getI18NValue(180265417),
+		Options = {
+			2022004,
+			2022005
+		}
 	}
 }
 

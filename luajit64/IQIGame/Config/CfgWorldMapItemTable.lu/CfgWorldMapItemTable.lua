@@ -9060,6 +9060,22 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180258927),
 		Desc = getI18NValue(180258926)
 	},
+	[20072201] = {
+		OnMap = 1,
+		IconType = 3006,
+		PlotID = 602201,
+		ChapterId = 601,
+		WeatherImg = "4",
+		IsFight = 2,
+		IconPath = "ChapterSignImg/Chapter1/Common_ChapterSign_1",
+		HeroID = 10000015,
+		ListImg = "ChapterSignImg/GiftChapter/GiftChapter_01",
+		MainTaskId = 6220100,
+		Type = 9,
+		Id = 20072201,
+		Name = getI18NValue(180265610),
+		Desc = getI18NValue(180265609)
+	},
 	[20080401] = {
 		OnMap = 1,
 		ChapterId = 601,

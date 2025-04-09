@@ -264,20 +264,20 @@ local CfgPayActivityTable = {
 	},
 	[10105] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_zhanzi_1",
+		UIPrefab = "/_Notice/Notice_Lottery_siye_1",
 		Type = 2,
 		Id = 10105,
 		Order = 8,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_zhanzi_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_siye_Banner_01_1.png",
 		Name = getI18NValue(180253658)
 	},
 	[10106] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_2",
+		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_3",
 		Type = 2,
 		Id = 10106,
 		Order = 9,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_2.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_3.png",
 		Name = getI18NValue(180253659)
 	},
 	[10107] = {
@@ -382,20 +382,20 @@ local CfgPayActivityTable = {
 	},
 	[30105] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_zhanzi_1",
+		UIPrefab = "/_Notice/Notice_Lottery_siye_1",
 		Type = 3,
 		Id = 30105,
 		Order = 8,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_zhanzi_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_siye_Banner_01_1.png",
 		Name = getI18NValue(180255857)
 	},
 	[30106] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_2",
+		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_3",
 		Type = 3,
 		Id = 30106,
 		Order = 9,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_2.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_3.png",
 		Name = getI18NValue(180255858)
 	},
 	[30107] = {

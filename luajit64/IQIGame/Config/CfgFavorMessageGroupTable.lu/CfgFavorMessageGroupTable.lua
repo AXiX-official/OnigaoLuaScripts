@@ -2121,10 +2121,11 @@ local CfgFavorMessageGroupTable = {
 		}
 	},
 	[11091] = {
-		Icon = "Assets/05_Images/UI/BasicsPart/Favor/AffinityChat/AffinityChat_Icon_03.png",
-		MessageStage = 1,
-		UnlockCondition = 30040094,
+		UnlockCondition = 30040099,
 		StartEntry = 11091001,
+		MessageStage = 1,
+		Icon = "Assets/05_Images/UI/BasicsPart/Favor/AffinityChat/AffinityChat_Icon_03.png",
+		HideCondition = 30040090,
 		HeroID = 10000010,
 		MessageType = 3,
 		Id = 11091,
@@ -2319,14 +2320,215 @@ local CfgFavorMessageGroupTable = {
 		}
 	},
 	[11291] = {
-		MessageStage = 1,
 		UnlockCondition = 30040114,
 		StartEntry = 11291001,
+		MessageStage = 1,
+		Icon = "Assets/05_Images/UI/BasicsPart/Favor/AffinityChat/AffinityChat_Icon_03.png",
+		HideCondition = 39120104,
 		HeroID = 10000012,
 		MessageType = 3,
 		Id = 11291,
 		Weight = 100,
 		Name = getI18NValue(180265141),
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11500] = {
+		MessageType = 1,
+		UnlockCondition = 30040140,
+		MessageStage = 1,
+		Id = 11500,
+		Weight = 100,
+		StartEntry = 11500001,
+		HeroID = 10000015,
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11501] = {
+		MessageStage = 1,
+		UnlockCondition = 30040141,
+		StartEntry = 11501001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11501,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11502] = {
+		MessageStage = 1,
+		UnlockCondition = 30040141,
+		StartEntry = 11502001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11502,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11503] = {
+		MessageStage = 1,
+		UnlockCondition = 30040141,
+		StartEntry = 11503001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11503,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11507] = {
+		MessageStage = 2,
+		UnlockCondition = 30040142,
+		StartEntry = 11507001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11507,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11508] = {
+		MessageStage = 2,
+		UnlockCondition = 30040142,
+		StartEntry = 11508001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11508,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11509] = {
+		MessageStage = 2,
+		UnlockCondition = 30040142,
+		StartEntry = 11509001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11509,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11513] = {
+		MessageStage = 3,
+		UnlockCondition = 30040143,
+		StartEntry = 11513001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11513,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11514] = {
+		MessageStage = 3,
+		UnlockCondition = 30040143,
+		StartEntry = 11514001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11514,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11515] = {
+		MessageStage = 3,
+		UnlockCondition = 30040143,
+		StartEntry = 11515001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11515,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11516] = {
+		MessageStage = 3,
+		UnlockCondition = 30040143,
+		StartEntry = 11516001,
+		HeroID = 10000015,
+		MessageType = 2,
+		Id = 11516,
+		Weight = 100,
+		StartCost = {
+			113,
+			1
+		},
+		FinishReward = {
+			114,
+			200
+		}
+	},
+	[11591] = {
+		UnlockCondition = 30040144,
+		StartEntry = 11591001,
+		MessageStage = 1,
+		Icon = "Assets/05_Images/UI/BasicsPart/Favor/AffinityChat/AffinityChat_Icon_03.png",
+		HideCondition = 39120122,
+		HeroID = 10000015,
+		MessageType = 3,
+		Id = 11591,
+		Weight = 100,
+		Name = getI18NValue(180266271),
 		FinishReward = {
 			114,
 			200

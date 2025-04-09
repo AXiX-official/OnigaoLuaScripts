@@ -456,6 +456,13 @@ local CfgSceneListTable = {
 		SceneFile = "Battle/38_4_Worldlink_Dark_PrefabBattle",
 		LoadingUI = "LoadingNormalUI"
 	},
+	[1401] = {
+		BGM = 10000006,
+		RenderConfig = "Battle/40_1_Subway_Street_daytime_SceneBattle",
+		Id = 1401,
+		SceneFile = "Battle/40_1_Subway_Street_daytime_PrefabBattle",
+		LoadingUI = "LoadingNormalUI"
+	},
 	[1411] = {
 		BGM = 10000006,
 		RenderConfig = "Battle/41_1_OldShrine_Night_SRCBattle",
@@ -709,7 +716,7 @@ local CfgSceneListTable = {
 		LoadingUI = "LoadingNormalUI"
 	},
 	[1841] = {
-		BGM = 11000006,
+		BGM = 10000006,
 		RenderConfig = "Battle/84_1_OutsidetheTemple_normal_SRCBattle",
 		Id = 1841,
 		SceneFile = "Battle/84_1_OutsidetheTemple_normal_PrefabBattle",
@@ -842,7 +849,7 @@ local CfgSceneListTable = {
 		LoadingUI = "LoadingNormalUI"
 	},
 	[1991] = {
-		BGM = 11000006,
+		BGM = 10000006,
 		RenderConfig = "Battle/99_1_CollegeLnfirmary_Normal_SRCBattle",
 		Id = 1991,
 		SceneFile = "Battle/99_1_CollegeLnfirmary_Normal_PrefabBattle",

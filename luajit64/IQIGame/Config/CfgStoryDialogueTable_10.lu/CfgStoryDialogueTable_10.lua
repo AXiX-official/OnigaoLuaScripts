@@ -24218,6 +24218,830 @@ local CfgStoryDialogueTable_10 = {
 		Speakgroup = {
 			702101197
 		}
+	},
+	[702201001] = {
+		DialogueType = 2,
+		NextID = 702201002,
+		Id = 702201001,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201001
+		}
+	},
+	[702201002] = {
+		DialogueType = 2,
+		NextID = 702201003,
+		Id = 702201002,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201002
+		}
+	},
+	[702201003] = {
+		DialogueType = 2,
+		NextID = 702201004,
+		Id = 702201003,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201003
+		}
+	},
+	[702201004] = {
+		DialogueType = 2,
+		NextID = 702201005,
+		skiptime = 1.5,
+		Staytime = 1.5,
+		Id = 702201004,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201004
+		}
+	},
+	[702201005] = {
+		DialogueType = 2,
+		NextID = 702201006,
+		Id = 702201005,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201005
+		}
+	},
+	[702201006] = {
+		DialogueType = 2,
+		NextID = 702201007,
+		Id = 702201006,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201006
+		}
+	},
+	[702201007] = {
+		DialogueType = 2,
+		NextID = 702201008,
+		skiptime = 1.5,
+		Staytime = 1.5,
+		Id = 702201007,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201007
+		}
+	},
+	[702201008] = {
+		DialogueType = 2,
+		NextID = 702201009,
+		Id = 702201008,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201008
+		}
+	},
+	[702201009] = {
+		DialogueType = 2,
+		NextID = 702201010,
+		Id = 702201009,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201009
+		}
+	},
+	[702201010] = {
+		DialogueType = 2,
+		NextID = 702201011,
+		Id = 702201010,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201010
+		}
+	},
+	[702201011] = {
+		DialogueType = 2,
+		NextID = 702201012,
+		Id = 702201011,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201011
+		}
+	},
+	[702201012] = {
+		DialogueType = 2,
+		NextID = 702201013,
+		Id = 702201012,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201012
+		}
+	},
+	[702201013] = {
+		DialogueType = 2,
+		NextID = 702201014,
+		Id = 702201013,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201013
+		}
+	},
+	[702201014] = {
+		DialogueType = 2,
+		NextID = 702201015,
+		Id = 702201014,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201014
+		}
+	},
+	[702201015] = {
+		DialogueType = 2,
+		NextID = 702201016,
+		Id = 702201015,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201015
+		}
+	},
+	[702201016] = {
+		DialogueType = 2,
+		NextID = 702201017,
+		Id = 702201016,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201016
+		}
+	},
+	[702201017] = {
+		DialogueType = 2,
+		NextID = 702201018,
+		Id = 702201017,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201017
+		}
+	},
+	[702201018] = {
+		DialogueType = 2,
+		NextID = 702201019,
+		Id = 702201018,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201018
+		}
+	},
+	[702201019] = {
+		DialogueType = 2,
+		NextID = 702201020,
+		Id = 702201019,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201019
+		}
+	},
+	[702201020] = {
+		DialogueType = 2,
+		NextID = 702201021,
+		Id = 702201020,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201020
+		}
+	},
+	[702201021] = {
+		DialogueType = 2,
+		NextID = 702201022,
+		Id = 702201021,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201021
+		}
+	},
+	[702201022] = {
+		DialogueType = 2,
+		NextID = 702201023,
+		Id = 702201022,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201022
+		}
+	},
+	[702201023] = {
+		DialogueType = 2,
+		NextID = 702201024,
+		Id = 702201023,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201023
+		}
+	},
+	[702201024] = {
+		DialogueType = 2,
+		NextID = 702201025,
+		Id = 702201024,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201024
+		}
+	},
+	[702201025] = {
+		DialogueType = 2,
+		NextID = 702201026,
+		Id = 702201025,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201025
+		}
+	},
+	[702201026] = {
+		DialogueType = 2,
+		NextID = 702201027,
+		Id = 702201026,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201026
+		}
+	},
+	[702201027] = {
+		DialogueType = 2,
+		NextID = 702201028,
+		Id = 702201027,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201027
+		}
+	},
+	[702201028] = {
+		DialogueType = 2,
+		NextID = 702201029,
+		Id = 702201028,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201028
+		}
+	},
+	[702201029] = {
+		DialogueType = 2,
+		NextID = 702201030,
+		Id = 702201029,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201029
+		}
+	},
+	[702201030] = {
+		DialogueType = 2,
+		NextID = 702201031,
+		Id = 702201030,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201030
+		}
+	},
+	[702201031] = {
+		DialogueType = 2,
+		NextID = 702201032,
+		Id = 702201031,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201031
+		}
+	},
+	[702201032] = {
+		DialogueType = 2,
+		NextID = 702201033,
+		Id = 702201032,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201032
+		}
+	},
+	[702201033] = {
+		DialogueType = 2,
+		NextID = 702201034,
+		Id = 702201033,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201033
+		}
+	},
+	[702201034] = {
+		DialogueType = 2,
+		NextID = 702201035,
+		Id = 702201034,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201034
+		}
+	},
+	[702201035] = {
+		DialogueType = 2,
+		NextID = 702201036,
+		Id = 702201035,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201035
+		}
+	},
+	[702201036] = {
+		DialogueType = 2,
+		NextID = 702201037,
+		Id = 702201036,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201036
+		}
+	},
+	[702201037] = {
+		DialogueType = 2,
+		NextID = 702201038,
+		skiptime = 1.5,
+		Staytime = 1.5,
+		Id = 702201037,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201037
+		}
+	},
+	[702201038] = {
+		DialogueType = 2,
+		NextID = 702201039,
+		Id = 702201038,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201038
+		}
+	},
+	[702201039] = {
+		DialogueType = 2,
+		NextID = 702201040,
+		Id = 702201039,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201039
+		}
+	},
+	[702201040] = {
+		DialogueType = 2,
+		NextID = 702201041,
+		skiptime = 1.5,
+		Staytime = 1.5,
+		Id = 702201040,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201040
+		}
+	},
+	[702201041] = {
+		DialogueType = 2,
+		NextID = 702201042,
+		Id = 702201041,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201041
+		}
+	},
+	[702201042] = {
+		DialogueType = 2,
+		NextID = 702201043,
+		Id = 702201042,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201042
+		}
+	},
+	[702201043] = {
+		DialogueType = 2,
+		NextID = 702201044,
+		Id = 702201043,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201043
+		}
+	},
+	[702201044] = {
+		DialogueType = 2,
+		NextID = 702201045,
+		Id = 702201044,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201044
+		}
+	},
+	[702201045] = {
+		DialogueType = 2,
+		NextID = 702201046,
+		Id = 702201045,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201045
+		}
+	},
+	[702201046] = {
+		DialogueType = 2,
+		NextID = 702201047,
+		Id = 702201046,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201046
+		}
+	},
+	[702201047] = {
+		DialogueType = 2,
+		NextID = 702201048,
+		Id = 702201047,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201047
+		}
+	},
+	[702201048] = {
+		DialogueType = 2,
+		NextID = 702201049,
+		Id = 702201048,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201048
+		}
+	},
+	[702201049] = {
+		DialogueType = 2,
+		NextID = 702201050,
+		Id = 702201049,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201049
+		}
+	},
+	[702201050] = {
+		DialogueType = 2,
+		NextID = 702201051,
+		Id = 702201050,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201050
+		}
+	},
+	[702201051] = {
+		DialogueType = 2,
+		NextID = 702201052,
+		Id = 702201051,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201051
+		}
+	},
+	[702201052] = {
+		DialogueType = 2,
+		NextID = 702201053,
+		Id = 702201052,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201052
+		}
+	},
+	[702201053] = {
+		DialogueType = 2,
+		NextID = 702201054,
+		Id = 702201053,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201053
+		}
+	},
+	[702201054] = {
+		DialogueType = 2,
+		NextID = 702201055,
+		Id = 702201054,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201054
+		}
+	},
+	[702201055] = {
+		Id = 702201055,
+		DialogueType = 2,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201055
+		}
+	},
+	[702201101] = {
+		DialogueType = 2,
+		NextID = 702201102,
+		Id = 702201101,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201101
+		}
+	},
+	[702201102] = {
+		DialogueType = 2,
+		NextID = 702201103,
+		Id = 702201102,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201102
+		}
+	},
+	[702201103] = {
+		DialogueType = 2,
+		NextID = 702201104,
+		Id = 702201103,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201103
+		}
+	},
+	[702201104] = {
+		DialogueType = 2,
+		NextID = 702201105,
+		Id = 702201104,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201104
+		}
+	},
+	[702201105] = {
+		DialogueType = 2,
+		NextID = 702201106,
+		Id = 702201105,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201105
+		}
+	},
+	[702201106] = {
+		DialogueType = 2,
+		NextID = 702201107,
+		Id = 702201106,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201106
+		}
+	},
+	[702201107] = {
+		DialogueType = 2,
+		NextID = 702201108,
+		Id = 702201107,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201107
+		}
+	},
+	[702201108] = {
+		DialogueType = 2,
+		NextID = 702201109,
+		Id = 702201108,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201108
+		}
+	},
+	[702201109] = {
+		DialogueType = 2,
+		NextID = 702201110,
+		Id = 702201109,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201109
+		}
+	},
+	[702201110] = {
+		Id = 702201110,
+		DialogueType = 2,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201110
+		}
+	},
+	[702201111] = {
+		DialogueType = 2,
+		NextID = 702201112,
+		Id = 702201111,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201111
+		}
+	},
+	[702201112] = {
+		Id = 702201112,
+		DialogueType = 2,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201112
+		}
+	},
+	[702201201] = {
+		DialogueType = 2,
+		NextID = 702201202,
+		Id = 702201201,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201201
+		}
+	},
+	[702201202] = {
+		DialogueType = 2,
+		NextID = 702201203,
+		Id = 702201202,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201202
+		}
+	},
+	[702201203] = {
+		DialogueType = 2,
+		NextID = 702201204,
+		Id = 702201203,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201203
+		}
+	},
+	[702201204] = {
+		DialogueType = 2,
+		NextID = 702201205,
+		Id = 702201204,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201204
+		}
+	},
+	[702201205] = {
+		DialogueType = 2,
+		NextID = 702201206,
+		Id = 702201205,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201205
+		}
+	},
+	[702201206] = {
+		DialogueType = 2,
+		NextID = 702201207,
+		Id = 702201206,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201206
+		}
+	},
+	[702201207] = {
+		DialogueType = 2,
+		NextID = 702201208,
+		Id = 702201207,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201207
+		}
+	},
+	[702201208] = {
+		DialogueType = 2,
+		NextID = 702201209,
+		Id = 702201208,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201208
+		}
+	},
+	[702201209] = {
+		DialogueType = 2,
+		NextID = 702201210,
+		Id = 702201209,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201209
+		}
+	},
+	[702201210] = {
+		DialogueType = 2,
+		NextID = 702201211,
+		Id = 702201210,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201210
+		}
+	},
+	[702201211] = {
+		DialogueType = 2,
+		NextID = 702201212,
+		Id = 702201211,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201211
+		}
+	},
+	[702201212] = {
+		DialogueType = 2,
+		NextID = 702201213,
+		Id = 702201212,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201212
+		}
+	},
+	[702201213] = {
+		DialogueType = 2,
+		NextID = 702201214,
+		skiptime = 1.5,
+		Staytime = 1.5,
+		Id = 702201213,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201213
+		}
+	},
+	[702201214] = {
+		DialogueType = 2,
+		NextID = 702201215,
+		Id = 702201214,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201214
+		}
+	},
+	[702201215] = {
+		DialogueType = 2,
+		NextID = 702201216,
+		Id = 702201215,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201215
+		}
+	},
+	[702201216] = {
+		DialogueType = 2,
+		NextID = 702201217,
+		Id = 702201216,
+		DialogueParam = 2,
+		Speakgroup = {
+			702201216
+		}
+	},
+	[702201217] = {
+		DialogueType = 2,
+		NextID = 702201218,
+		Id = 702201217,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201217
+		}
+	},
+	[702201218] = {
+		DialogueType = 2,
+		NextID = 702201219,
+		Id = 702201218,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201218
+		}
+	},
+	[702201219] = {
+		DialogueType = 2,
+		NextID = 702201220,
+		Id = 702201219,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201219
+		}
+	},
+	[702201220] = {
+		Id = 702201220,
+		DialogueType = 2,
+		DialogueParam = 1,
+		Speakgroup = {
+			702201220
+		}
+	},
+	[702201301] = {
+		DialogueType = 1,
+		NextID = 702201302,
+		Id = 702201301,
+		DialogueParam = -2,
+		Speakgroup = {
+			702201301
+		}
+	},
+	[702201302] = {
+		DialogueType = 1,
+		NextID = 702201303,
+		Id = 702201302,
+		DialogueParam = -2,
+		Speakgroup = {
+			702201302
+		}
+	},
+	[702201303] = {
+		DialogueType = 1,
+		NextID = 702201304,
+		Id = 702201303,
+		DialogueParam = -2,
+		Speakgroup = {
+			702201303
+		}
+	},
+	[702201304] = {
+		Id = 702201304,
+		DialogueType = 1,
+		DialogueParam = -2,
+		Speakgroup = {
+			702201304
+		}
 	}
 }
 

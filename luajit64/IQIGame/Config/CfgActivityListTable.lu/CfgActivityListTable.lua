@@ -184,6 +184,22 @@ local CfgActivityListTable = {
 			30070103
 		}
 	},
+	[60101015] = {
+		ActivityType = 108,
+		ActivityPrefab = "/_Activity/NoviceSignActivity",
+		ActivityTeam = 2,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_2.png",
+		Id = 60101015,
+		Name = getI18NValue(180266478),
+		ActivityID = {
+			60001005
+		},
+		ShowConditionID = {
+			30070216,
+			30000101
+		}
+	},
 	[60101021] = {
 		ActivityType = 109,
 		ChapterNameImg = "/UI/ActivityPart/ActivityListUI/FreeDrawActivity/FreeDrawActivity_imge01.png",

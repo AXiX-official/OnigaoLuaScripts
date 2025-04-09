@@ -4368,6 +4368,334 @@ local CfgFavorMessageOptionTable = {
 			}
 		}
 	},
+	[115000121] = {
+		Sort = 1,
+		NextEntryID = 11500013,
+		Id = 115000121,
+		EntryID = 11500012,
+		Context = getI18NValue(180266272),
+		TriggerAction = {
+			0
+		},
+		TriggerActionParam = {
+			{
+				0
+			}
+		}
+	},
+	[115000122] = {
+		Sort = 2,
+		NextEntryID = 11500015,
+		Id = 115000122,
+		EntryID = 11500012,
+		Context = getI18NValue(180266273),
+		TriggerAction = {
+			0
+		},
+		TriggerActionParam = {
+			{
+				0
+			}
+		}
+	},
+	[115010171] = {
+		Sort = 1,
+		NextEntryID = 11501018,
+		Id = 115010171,
+		FavorType = 1,
+		EntryID = 11501017,
+		Context = getI18NValue(180266274),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115010172] = {
+		Sort = 2,
+		NextEntryID = 11501022,
+		Id = 115010172,
+		FavorType = 2,
+		EntryID = 11501017,
+		Context = getI18NValue(180266275),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115020021] = {
+		Sort = 1,
+		NextEntryID = 11502003,
+		Id = 115020021,
+		FavorType = 1,
+		EntryID = 11502002,
+		Context = getI18NValue(180266276),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115020022] = {
+		Sort = 2,
+		NextEntryID = 11502007,
+		Id = 115020022,
+		FavorType = 2,
+		EntryID = 11502002,
+		Context = getI18NValue(180266277),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115030011] = {
+		Sort = 1,
+		NextEntryID = 11503002,
+		Id = 115030011,
+		EntryID = 11503001,
+		Context = getI18NValue(180266278),
+		TriggerAction = {
+			0
+		},
+		TriggerActionParam = {
+			{
+				0
+			}
+		}
+	},
+	[115030012] = {
+		Sort = 2,
+		NextEntryID = 11503003,
+		Id = 115030012,
+		EntryID = 11503001,
+		Context = getI18NValue(180266279),
+		TriggerAction = {
+			0
+		},
+		TriggerActionParam = {
+			{
+				0
+			}
+		}
+	},
+	[115070021] = {
+		Sort = 1,
+		NextEntryID = 11507003,
+		Id = 115070021,
+		FavorType = 2,
+		EntryID = 11507002,
+		Context = getI18NValue(180266280),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115070022] = {
+		Sort = 2,
+		NextEntryID = 11507008,
+		Id = 115070022,
+		FavorType = 1,
+		EntryID = 11507002,
+		Context = getI18NValue(180266281),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115080091] = {
+		Sort = 1,
+		NextEntryID = 11508010,
+		Id = 115080091,
+		FavorType = 2,
+		EntryID = 11508009,
+		Context = getI18NValue(180266282),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115080092] = {
+		Sort = 2,
+		NextEntryID = 11508011,
+		Id = 115080092,
+		FavorType = 1,
+		EntryID = 11508009,
+		Context = getI18NValue(180266283),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115130031] = {
+		Sort = 1,
+		NextEntryID = 11513004,
+		Id = 115130031,
+		FavorType = 1,
+		EntryID = 11513003,
+		Context = getI18NValue(180266284),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115130032] = {
+		Sort = 2,
+		NextEntryID = 11513005,
+		Id = 115130032,
+		FavorType = 2,
+		EntryID = 11513003,
+		Context = getI18NValue(180266285),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115140091] = {
+		Sort = 1,
+		NextEntryID = 11514010,
+		Id = 115140091,
+		FavorType = 1,
+		EntryID = 11514009,
+		Context = getI18NValue(180266531),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115140092] = {
+		Sort = 2,
+		NextEntryID = 11514019,
+		Id = 115140092,
+		FavorType = 2,
+		EntryID = 11514009,
+		Context = getI18NValue(180266532),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115150021] = {
+		Sort = 1,
+		NextEntryID = 11515003,
+		Id = 115150021,
+		FavorType = 2,
+		EntryID = 11515002,
+		Context = getI18NValue(180266288),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				300
+			}
+		}
+	},
+	[115150022] = {
+		Sort = 2,
+		NextEntryID = 11515024,
+		Id = 115150022,
+		FavorType = 1,
+		EntryID = 11515002,
+		Context = getI18NValue(180266289),
+		TriggerAction = {
+			1
+		},
+		TriggerActionParam = {
+			{
+				114,
+				100
+			}
+		}
+	},
+	[115910071] = {
+		Sort = 1,
+		NextEntryID = 11591008,
+		Id = 115910071,
+		EntryID = 11591007,
+		Context = getI18NValue(180266290),
+		TriggerAction = {
+			0
+		},
+		TriggerActionParam = {
+			{
+				0
+			}
+		}
+	},
+	[115910072] = {
+		Sort = 2,
+		NextEntryID = 11591009,
+		Id = 115910072,
+		EntryID = 11591007,
+		Context = getI18NValue(180266291),
+		TriggerAction = {
+			0
+		},
+		TriggerActionParam = {
+			{
+				0
+			}
+		}
+	},
 	[116010071] = {
 		Sort = 1,
 		NextEntryID = 11601008,

@@ -292,9 +292,9 @@ local CfgCardJackpotTable = {
 		IsShow = true,
 		Name = getI18NValue(180264469),
 		CardTeam = {
-			11,
+			15,
 			12,
-			2
+			4
 		},
 		ShowStar = {
 			3,
@@ -314,7 +314,7 @@ local CfgCardJackpotTable = {
 			50205002
 		},
 		TenTimesMust = {
-			2
+			4
 		},
 		CardDrawType = {
 			1,
@@ -597,9 +597,9 @@ local CfgCardJackpotTable = {
 		IsShow = true,
 		Name = getI18NValue(180264471),
 		CardTeam = {
-			11,
+			15,
 			12,
-			2
+			4
 		},
 		ShowStar = {
 			3,
@@ -619,7 +619,7 @@ local CfgCardJackpotTable = {
 			50205004
 		},
 		TenTimesMust = {
-			2
+			4
 		},
 		CardDrawType = {
 			1,
@@ -641,9 +641,9 @@ local CfgCardJackpotTable = {
 		IsShow = true,
 		Name = getI18NValue(180264472),
 		CardTeam = {
-			11,
+			15,
 			12,
-			2
+			4
 		},
 		ShowStar = {
 			3,
@@ -663,7 +663,7 @@ local CfgCardJackpotTable = {
 			50205004
 		},
 		TenTimesMust = {
-			2
+			4
 		},
 		CardDrawType = {
 			1,

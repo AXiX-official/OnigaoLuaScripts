@@ -731,7 +731,7 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
 			200
 		}
@@ -751,9 +751,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			210
+			300
 		}
 	},
 	[1103] = {
@@ -771,9 +771,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			220
+			400
 		}
 	},
 	[1104] = {
@@ -791,9 +791,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			230
+			500
 		}
 	},
 	[1105] = {
@@ -811,9 +811,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			240
+			600
 		}
 	},
 	[1106] = {
@@ -831,9 +831,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			250
+			700
 		}
 	},
 	[1107] = {
@@ -851,9 +851,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			260
+			800
 		}
 	},
 	[1108] = {
@@ -871,9 +871,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			270
+			900
 		}
 	},
 	[1109] = {
@@ -891,9 +891,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			280
+			1000
 		}
 	},
 	[1110] = {
@@ -911,9 +911,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			290
+			1000
 		}
 	},
 	[1111] = {
@@ -931,9 +931,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			300
+			1100
 		}
 	},
 	[1112] = {
@@ -951,9 +951,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			310
+			1200
 		}
 	},
 	[1113] = {
@@ -971,9 +971,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			320
+			1300
 		}
 	},
 	[1114] = {
@@ -991,441 +991,21 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			150,
 			115,
-			330
+			1500
 		}
 	},
 	[1115] = {
 		BossType = 1,
-		GroupId = 31,
 		ChapterId = 1002,
+		GroupId = 31,
 		BossLevel = 15,
 		Id = 1115,
+		IsExBoss = true,
 		Describe = getI18NValue(180261102),
 		MonsterTeam = {
 			14503150
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			340
-		}
-	},
-	[1116] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 16,
-		Id = 1116,
-		Describe = getI18NValue(180261103),
-		MonsterTeam = {
-			14503160
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			350
-		}
-	},
-	[1117] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 17,
-		Id = 1117,
-		Describe = getI18NValue(180261104),
-		MonsterTeam = {
-			14503170
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			360
-		}
-	},
-	[1118] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 18,
-		Id = 1118,
-		Describe = getI18NValue(180261105),
-		MonsterTeam = {
-			14503180
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			370
-		}
-	},
-	[1119] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 19,
-		Id = 1119,
-		Describe = getI18NValue(180261106),
-		MonsterTeam = {
-			14503190
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			380
-		}
-	},
-	[1120] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 20,
-		Id = 1120,
-		Describe = getI18NValue(180261107),
-		MonsterTeam = {
-			14503200
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			390
-		}
-	},
-	[1121] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 21,
-		Id = 1121,
-		Describe = getI18NValue(180261108),
-		MonsterTeam = {
-			14503210
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			400
-		}
-	},
-	[1122] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 22,
-		Id = 1122,
-		Describe = getI18NValue(180261109),
-		MonsterTeam = {
-			14503220
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			410
-		}
-	},
-	[1123] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 23,
-		Id = 1123,
-		Describe = getI18NValue(180261110),
-		MonsterTeam = {
-			14503230
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			420
-		}
-	},
-	[1124] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 24,
-		Id = 1124,
-		Describe = getI18NValue(180261111),
-		MonsterTeam = {
-			14503240
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			430
-		}
-	},
-	[1125] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 25,
-		Id = 1125,
-		Describe = getI18NValue(180261112),
-		MonsterTeam = {
-			14503250
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			440
-		}
-	},
-	[1126] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 26,
-		Id = 1126,
-		Describe = getI18NValue(180261113),
-		MonsterTeam = {
-			14503260
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			450
-		}
-	},
-	[1127] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 27,
-		Id = 1127,
-		Describe = getI18NValue(180261114),
-		MonsterTeam = {
-			14503270
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			460
-		}
-	},
-	[1128] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 28,
-		Id = 1128,
-		Describe = getI18NValue(180261115),
-		MonsterTeam = {
-			14503280
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			470
-		}
-	},
-	[1129] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 29,
-		Id = 1129,
-		Describe = getI18NValue(180261116),
-		MonsterTeam = {
-			14503290
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			480
-		}
-	},
-	[1130] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 30,
-		Id = 1130,
-		Describe = getI18NValue(180261117),
-		MonsterTeam = {
-			14503300
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			490
-		}
-	},
-	[1131] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 31,
-		Id = 1131,
-		Describe = getI18NValue(180261118),
-		MonsterTeam = {
-			14503310
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			500
-		}
-	},
-	[1132] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 32,
-		Id = 1132,
-		Describe = getI18NValue(180261119),
-		MonsterTeam = {
-			14503320
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			510
-		}
-	},
-	[1133] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 33,
-		Id = 1133,
-		Describe = getI18NValue(180261120),
-		MonsterTeam = {
-			14503330
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			520
-		}
-	},
-	[1134] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 34,
-		Id = 1134,
-		Describe = getI18NValue(180261121),
-		MonsterTeam = {
-			14503340
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			530
-		}
-	},
-	[1135] = {
-		BossType = 1,
-		GroupId = 31,
-		ChapterId = 1002,
-		BossLevel = 35,
-		Id = 1135,
-		Describe = getI18NValue(180261122),
-		MonsterTeam = {
-			14503350
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			540
-		}
-	},
-	[1136] = {
-		BossType = 1,
-		ChapterId = 1002,
-		GroupId = 31,
-		BossLevel = 36,
-		Id = 1136,
-		IsExBoss = true,
-		Describe = getI18NValue(180261123),
-		MonsterTeam = {
-			14503360
 		},
 		AffixBuff = {
 			10130
@@ -6166,451 +5746,10 @@ local CfgWorldBossStageTable = {
 		BossOrder = 1,
 		BossLevel = 15,
 		Id = 1815,
+		IsExBoss = true,
 		Describe = getI18NValue(180265173),
 		MonsterTeam = {
 			14503150
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			340
-		}
-	},
-	[1816] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 16,
-		Id = 1816,
-		Describe = getI18NValue(180265174),
-		MonsterTeam = {
-			14503160
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			350
-		}
-	},
-	[1817] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 17,
-		Id = 1817,
-		Describe = getI18NValue(180265175),
-		MonsterTeam = {
-			14503170
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			360
-		}
-	},
-	[1818] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 18,
-		Id = 1818,
-		Describe = getI18NValue(180265176),
-		MonsterTeam = {
-			14503180
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			370
-		}
-	},
-	[1819] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 19,
-		Id = 1819,
-		Describe = getI18NValue(180265177),
-		MonsterTeam = {
-			14503190
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			380
-		}
-	},
-	[1820] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 20,
-		Id = 1820,
-		Describe = getI18NValue(180265178),
-		MonsterTeam = {
-			14503200
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			390
-		}
-	},
-	[1821] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 21,
-		Id = 1821,
-		Describe = getI18NValue(180265179),
-		MonsterTeam = {
-			14503210
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			400
-		}
-	},
-	[1822] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 22,
-		Id = 1822,
-		Describe = getI18NValue(180265180),
-		MonsterTeam = {
-			14503220
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			410
-		}
-	},
-	[1823] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 23,
-		Id = 1823,
-		Describe = getI18NValue(180265181),
-		MonsterTeam = {
-			14503230
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			420
-		}
-	},
-	[1824] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 24,
-		Id = 1824,
-		Describe = getI18NValue(180265182),
-		MonsterTeam = {
-			14503240
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			430
-		}
-	},
-	[1825] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 25,
-		Id = 1825,
-		Describe = getI18NValue(180265183),
-		MonsterTeam = {
-			14503250
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			440
-		}
-	},
-	[1826] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 26,
-		Id = 1826,
-		Describe = getI18NValue(180265184),
-		MonsterTeam = {
-			14503260
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			450
-		}
-	},
-	[1827] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 27,
-		Id = 1827,
-		Describe = getI18NValue(180265185),
-		MonsterTeam = {
-			14503270
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			460
-		}
-	},
-	[1828] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 28,
-		Id = 1828,
-		Describe = getI18NValue(180265186),
-		MonsterTeam = {
-			14503280
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			470
-		}
-	},
-	[1829] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 29,
-		Id = 1829,
-		Describe = getI18NValue(180265187),
-		MonsterTeam = {
-			14503290
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			480
-		}
-	},
-	[1830] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 30,
-		Id = 1830,
-		Describe = getI18NValue(180265188),
-		MonsterTeam = {
-			14503300
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			490
-		}
-	},
-	[1831] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 31,
-		Id = 1831,
-		Describe = getI18NValue(180265189),
-		MonsterTeam = {
-			14503310
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			500
-		}
-	},
-	[1832] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 32,
-		Id = 1832,
-		Describe = getI18NValue(180265190),
-		MonsterTeam = {
-			14503320
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			510
-		}
-	},
-	[1833] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 33,
-		Id = 1833,
-		Describe = getI18NValue(180265191),
-		MonsterTeam = {
-			14503330
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			520
-		}
-	},
-	[1834] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 34,
-		Id = 1834,
-		Describe = getI18NValue(180265192),
-		MonsterTeam = {
-			14503340
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			530
-		}
-	},
-	[1835] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 35,
-		Id = 1835,
-		Describe = getI18NValue(180265193),
-		MonsterTeam = {
-			14503350
-		},
-		AffixBuff = {
-			10130
-		},
-		KillReward = {
-			3,
-			50,
-			115,
-			540
-		}
-	},
-	[1836] = {
-		BossType = 1,
-		ChapterId = 1009,
-		GroupId = 31,
-		BossOrder = 1,
-		BossLevel = 36,
-		Id = 1836,
-		IsExBoss = true,
-		Describe = getI18NValue(180265194),
-		MonsterTeam = {
-			14503360
 		},
 		AffixBuff = {
 			10130

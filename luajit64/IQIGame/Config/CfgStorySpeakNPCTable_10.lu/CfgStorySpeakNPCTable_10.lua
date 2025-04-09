@@ -77749,6 +77749,2062 @@ local CfgStorySpeakNPCTable_10 = {
 		Id = 702101197,
 		NPCName = getI18NValue(180258917),
 		SpeakContent = getI18NValue(180258918)
+	},
+	[702201001] = {
+		SpeakNPC = 7039,
+		Id = 702201001,
+		NPCName = getI18NValue(180265418),
+		SpeakContent = getI18NValue(180265419),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201002] = {
+		SpeakNPC = 7039,
+		Id = 702201002,
+		NPCName = getI18NValue(180265420),
+		SpeakContent = getI18NValue(180265421),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201003] = {
+		PlaySound = 22000114,
+		SpeakNPC = 7039,
+		Id = 702201003,
+		NPCName = getI18NValue(180265422),
+		SpeakContent = getI18NValue(180265423),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201004] = {
+		Id = 702201004,
+		NPCName = getI18NValue(180265424),
+		SpeakContent = getI18NValue(180265425),
+		AnimationName = {
+			"S_talk_no",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201005] = {
+		Id = 702201005,
+		NPCName = getI18NValue(180265426),
+		SpeakContent = getI18NValue(180265427),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201006] = {
+		Id = 702201006,
+		NPCName = getI18NValue(180265428),
+		SpeakContent = getI18NValue(180265429),
+		AnimationName = {
+			"S_thinking_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201007] = {
+		PlaySound = 22000116,
+		Id = 702201007,
+		NPCName = getI18NValue(180265430),
+		SpeakContent = getI18NValue(180265431),
+		AnimationName = {
+			"S_talk_no",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201008] = {
+		SpeakNPC = 7039,
+		PlaySound = 22000114,
+		Id = 702201008,
+		NPCName = getI18NValue(180265432),
+		SpeakContent = getI18NValue(180265433),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201009] = {
+		SpeakNPC = 7039,
+		Id = 702201009,
+		NPCName = getI18NValue(180265434),
+		SpeakContent = getI18NValue(180265435),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201010] = {
+		SpeakNPC = 7039,
+		Id = 702201010,
+		NPCName = getI18NValue(180265436),
+		SpeakContent = getI18NValue(180265437),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201011] = {
+		SpeakNPC = 7039,
+		Id = 702201011,
+		NPCName = getI18NValue(180265438),
+		SpeakContent = getI18NValue(180265439),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201012] = {
+		SpeakNPC = 7039,
+		Id = 702201012,
+		NPCName = getI18NValue(180265440),
+		SpeakContent = getI18NValue(180265441),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201013] = {
+		SpeakNPC = 7039,
+		Id = 702201013,
+		NPCName = getI18NValue(180265442),
+		SpeakContent = getI18NValue(180265443),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201014] = {
+		FacialEffect = 8,
+		Id = 702201014,
+		NPCName = getI18NValue(180265444),
+		SpeakContent = getI18NValue(180265445),
+		TachieAnimationName = {
+			"S_stay",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201015] = {
+		SpeakNPC = 7039,
+		Id = 702201015,
+		NPCName = getI18NValue(180265446),
+		SpeakContent = getI18NValue(180265447),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201016] = {
+		SpeakNPC = 7039,
+		Id = 702201016,
+		NPCName = getI18NValue(180265448),
+		SpeakContent = getI18NValue(180265449),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201017] = {
+		PlaySound = 22000121,
+		Id = 702201017,
+		NPCName = getI18NValue(180265450),
+		SpeakContent = getI18NValue(180265451),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201018] = {
+		Id = 702201018,
+		NPCName = getI18NValue(180265452),
+		SpeakContent = getI18NValue(180265453),
+		TachieAnimationName = {
+			"S_talk_impatient",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201019] = {
+		SpeakNPC = 7039,
+		Id = 702201019,
+		NPCName = getI18NValue(180265454),
+		SpeakContent = getI18NValue(180265455),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201020] = {
+		SpeakNPC = 7039,
+		Id = 702201020,
+		NPCName = getI18NValue(180265456),
+		SpeakContent = getI18NValue(180265457),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201021] = {
+		SpeakNPC = 7039,
+		Id = 702201021,
+		NPCName = getI18NValue(180265458),
+		SpeakContent = getI18NValue(180265459),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201022] = {
+		PlaySound = 22000114,
+		SpeakNPC = 7039,
+		Id = 702201022,
+		NPCName = getI18NValue(180265460),
+		SpeakContent = getI18NValue(180265461),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201023] = {
+		SpeakNPC = 7039,
+		Id = 702201023,
+		NPCName = getI18NValue(180265462),
+		SpeakContent = getI18NValue(180265463),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201024] = {
+		Id = 702201024,
+		NPCName = getI18NValue(180265464),
+		SpeakContent = getI18NValue(180265465),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201025] = {
+		Id = 702201025,
+		PlaySound = 22000121,
+		NPCName = getI18NValue(180265466),
+		SpeakContent = getI18NValue(180265467),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201026] = {
+		SpeakNPC = 7039,
+		Id = 702201026,
+		NPCName = getI18NValue(180265468),
+		SpeakContent = getI18NValue(180265469),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201027] = {
+		SpeakNPC = 7039,
+		Id = 702201027,
+		NPCName = getI18NValue(180265470),
+		SpeakContent = getI18NValue(180265471),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201028] = {
+		Id = 702201028,
+		NPCName = getI18NValue(180265472),
+		SpeakContent = getI18NValue(180265473),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201029] = {
+		Id = 702201029,
+		NPCName = getI18NValue(180265474),
+		SpeakContent = getI18NValue(180265475),
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201030] = {
+		SpeakNPC = 7039,
+		Id = 702201030,
+		NPCName = getI18NValue(180265476),
+		SpeakContent = getI18NValue(180265477),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201031] = {
+		SpeakNPC = 7039,
+		Id = 702201031,
+		NPCName = getI18NValue(180265478),
+		SpeakContent = getI18NValue(180265479),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201032] = {
+		SpeakNPC = 7039,
+		Id = 702201032,
+		NPCName = getI18NValue(180265480),
+		SpeakContent = getI18NValue(180265481),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201033] = {
+		PlaySound = 22000114,
+		Id = 702201033,
+		NPCName = getI18NValue(180265482),
+		SpeakContent = getI18NValue(180265483),
+		AnimationName = {
+			"S_talk_yes",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201034] = {
+		Id = 702201034,
+		NPCName = getI18NValue(180265484),
+		SpeakContent = getI18NValue(180265485),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201035] = {
+		SpeakNPC = 7039,
+		PlaySound = 22000121,
+		Id = 702201035,
+		NPCName = getI18NValue(180265486),
+		SpeakContent = getI18NValue(180265487),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201036] = {
+		SpeakNPC = 7039,
+		Id = 702201036,
+		NPCName = getI18NValue(180265488),
+		SpeakContent = getI18NValue(180265489),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201037] = {
+		Id = 702201037,
+		NPCName = getI18NValue(180265490),
+		SpeakContent = getI18NValue(180265491),
+		AnimationName = {
+			"S_talk_no",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201038] = {
+		Id = 702201038,
+		NPCName = getI18NValue(180265492),
+		SpeakContent = getI18NValue(180265493),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201039] = {
+		PlaySound = 22000121,
+		SpeakNPC = 7039,
+		Id = 702201039,
+		NPCName = getI18NValue(180265494),
+		SpeakContent = getI18NValue(180265495),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201040] = {
+		Id = 702201040,
+		NPCName = getI18NValue(180265496),
+		SpeakContent = getI18NValue(180265497),
+		AnimationName = {
+			"S_talk_yes",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201041] = {
+		Id = 702201041,
+		NPCName = getI18NValue(180265498),
+		SpeakContent = getI18NValue(180265499),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201042] = {
+		Id = 702201042,
+		NPCName = getI18NValue(180265500),
+		SpeakContent = getI18NValue(180265501),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201043] = {
+		SpeakNPC = 7039,
+		Id = 702201043,
+		NPCName = getI18NValue(180265502),
+		SpeakContent = getI18NValue(180265503),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201044] = {
+		SpeakNPC = 7039,
+		Id = 702201044,
+		NPCName = getI18NValue(180265504),
+		SpeakContent = getI18NValue(180265505),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201045] = {
+		PlaySound = 22000114,
+		SpeakNPC = 7039,
+		Id = 702201045,
+		NPCName = getI18NValue(180265506),
+		SpeakContent = getI18NValue(180265507),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201046] = {
+		SpeakNPC = 7039,
+		Id = 702201046,
+		NPCName = getI18NValue(180265508),
+		SpeakContent = getI18NValue(180265509),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201047] = {
+		SpeakNPC = 7039,
+		Id = 702201047,
+		NPCName = getI18NValue(180265510),
+		SpeakContent = getI18NValue(180265511),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201048] = {
+		SpeakNPC = 7039,
+		Id = 702201048,
+		NPCName = getI18NValue(180265512),
+		SpeakContent = getI18NValue(180265513),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201049] = {
+		Id = 702201049,
+		NPCName = getI18NValue(180265514),
+		SpeakContent = getI18NValue(180265515),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201050] = {
+		Id = 702201050,
+		NPCName = getI18NValue(180265516),
+		SpeakContent = getI18NValue(180265517),
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201051] = {
+		SpeakNPC = 7039,
+		Id = 702201051,
+		NPCName = getI18NValue(180265518),
+		SpeakContent = getI18NValue(180265519),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201052] = {
+		SpeakNPC = 7039,
+		Id = 702201052,
+		NPCName = getI18NValue(180265520),
+		SpeakContent = getI18NValue(180265521),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201053] = {
+		SpeakNPC = 7039,
+		Id = 702201053,
+		NPCName = getI18NValue(180265522),
+		SpeakContent = getI18NValue(180265523),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201054] = {
+		SpeakNPC = 7039,
+		Id = 702201054,
+		NPCName = getI18NValue(180265524),
+		SpeakContent = getI18NValue(180265525),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201055] = {
+		SpeakNPC = 7039,
+		PlaySound = 22000121,
+		Id = 702201055,
+		NPCName = getI18NValue(180265526),
+		SpeakContent = getI18NValue(180265527),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201101] = {
+		SpeakNPC = 7039,
+		Id = 702201101,
+		NPCName = getI18NValue(180265528),
+		SpeakContent = getI18NValue(180265529),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201102] = {
+		SpeakNPC = 7039,
+		Id = 702201102,
+		NPCName = getI18NValue(180265530),
+		SpeakContent = getI18NValue(180265531),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201103] = {
+		PlaySound = 22000121,
+		Id = 702201103,
+		NPCName = getI18NValue(180265532),
+		SpeakContent = getI18NValue(180265533),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			true,
+			false,
+			false
+		}
+	},
+	[702201104] = {
+		Id = 702201104,
+		NPCName = getI18NValue(180265534),
+		SpeakContent = getI18NValue(180265535),
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201105] = {
+		PlaySound = 22000137,
+		SpeakNPC = 7039,
+		Id = 702201105,
+		NPCName = getI18NValue(180265536),
+		SpeakContent = getI18NValue(180265537),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201106] = {
+		SpeakNPC = 7039,
+		Id = 702201106,
+		NPCName = getI18NValue(180265538),
+		SpeakContent = getI18NValue(180265539),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201107] = {
+		SpeakNPC = 7039,
+		Id = 702201107,
+		NPCName = getI18NValue(180265540),
+		SpeakContent = getI18NValue(180265541),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201108] = {
+		SpeakNPC = 7039,
+		Id = 702201108,
+		NPCName = getI18NValue(180265542),
+		SpeakContent = getI18NValue(180265543),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201109] = {
+		Id = 702201109,
+		FacialEffect = 8,
+		NPCName = getI18NValue(180265544),
+		SpeakContent = getI18NValue(180265545),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201110] = {
+		SpeakNPC = 7039,
+		PlaySound = 22000121,
+		Id = 702201110,
+		NPCName = getI18NValue(180265546),
+		SpeakContent = getI18NValue(180265547),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201111] = {
+		Id = 702201111,
+		NPCName = getI18NValue(180265548),
+		SpeakContent = getI18NValue(180265549),
+		AnimationName = {
+			"S_thinking_1",
+			"S_thinking_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201112] = {
+		Id = 702201112,
+		NPCName = getI18NValue(180265550),
+		SpeakContent = getI18NValue(180265551),
+		AnimationWhenNext = {
+			"S_thinking_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201201] = {
+		PlaySound = 22000121,
+		SpeakNPC = 7039,
+		Id = 702201201,
+		NPCName = getI18NValue(180265552),
+		SpeakContent = getI18NValue(180265553),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201202] = {
+		SpeakNPC = 7039,
+		Id = 702201202,
+		NPCName = getI18NValue(180265554),
+		SpeakContent = getI18NValue(180265555),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201203] = {
+		Id = 702201203,
+		NPCName = getI18NValue(180265556),
+		SpeakContent = getI18NValue(180265557),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201204] = {
+		Id = 702201204,
+		NPCName = getI18NValue(180265558),
+		SpeakContent = getI18NValue(180265559),
+		AnimationName = {
+			"S_talk_b_1",
+			"S_talk_b_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_b_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_thinking",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201205] = {
+		Id = 702201205,
+		NPCName = getI18NValue(180265560),
+		SpeakContent = getI18NValue(180265561),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201206] = {
+		SpeakNPC = 7039,
+		PlaySound = 22000105,
+		Id = 702201206,
+		NPCName = getI18NValue(180265562),
+		SpeakContent = getI18NValue(180265563),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201207] = {
+		SpeakNPC = 7039,
+		Id = 702201207,
+		NPCName = getI18NValue(180265564),
+		SpeakContent = getI18NValue(180265565),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201208] = {
+		Id = 702201208,
+		NPCName = getI18NValue(180265566),
+		SpeakContent = getI18NValue(180265567),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_talk_3",
+			"S_stay",
+			""
+		},
+		AnimationWhenNextLoop = {
+			false,
+			true,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201209] = {
+		SpeakNPC = 7039,
+		Id = 702201209,
+		NPCName = getI18NValue(180265568),
+		SpeakContent = getI18NValue(180265569),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201210] = {
+		SpeakNPC = 7039,
+		PlaySound = 22000121,
+		Id = 702201210,
+		NPCName = getI18NValue(180265570),
+		SpeakContent = getI18NValue(180265571),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201211] = {
+		Id = 702201211,
+		NPCName = getI18NValue(180265572),
+		SpeakContent = getI18NValue(180265573),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201212] = {
+		Id = 702201212,
+		NPCName = getI18NValue(180265574),
+		SpeakContent = getI18NValue(180265575),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201213] = {
+		Id = 702201213,
+		NPCName = getI18NValue(180265576),
+		SpeakContent = getI18NValue(180265577),
+		AnimationName = {
+			"S_talk_yes",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_talk_impatient",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201214] = {
+		SpeakNPC = 7039,
+		Id = 702201214,
+		NPCName = getI18NValue(180265578),
+		SpeakContent = getI18NValue(180265579),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201215] = {
+		PlaySound = 22000107,
+		SpeakNPC = 7039,
+		Id = 702201215,
+		NPCName = getI18NValue(180265580),
+		SpeakContent = getI18NValue(180265581),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201216] = {
+		Id = 702201216,
+		NPCName = getI18NValue(180265582),
+		SpeakContent = getI18NValue(180265583),
+		TachieAnimationName = {
+			"S_talk",
+			"S_stay",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		}
+	},
+	[702201217] = {
+		SpeakNPC = 7039,
+		Id = 702201217,
+		NPCName = getI18NValue(180265584),
+		SpeakContent = getI18NValue(180265585),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201218] = {
+		SpeakNPC = 7039,
+		FacialEffect = 2,
+		PlaySound = 22000116,
+		Id = 702201218,
+		NPCName = getI18NValue(180265586),
+		SpeakContent = getI18NValue(180265587),
+		AnimationName = {
+			"S_talk_3",
+			"S_stay",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201219] = {
+		SpeakNPC = 7039,
+		Id = 702201219,
+		NPCName = getI18NValue(180265588),
+		SpeakContent = getI18NValue(180265589),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201220] = {
+		SpeakNPC = 7039,
+		Id = 702201220,
+		NPCName = getI18NValue(180265590),
+		SpeakContent = getI18NValue(180265591),
+		TachieAnimationName = {
+			"S_Idle",
+			"",
+			"",
+			""
+		},
+		TachieAnimationLoop = {
+			true,
+			false,
+			false,
+			false
+		}
+	},
+	[702201301] = {
+		Id = 702201301,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180265592),
+		SpeakContent = getI18NValue(180265593)
+	},
+	[702201302] = {
+		Id = 702201302,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180265594),
+		SpeakContent = getI18NValue(180265595)
+	},
+	[702201303] = {
+		Id = 702201303,
+		SpeakNPC = -2,
+		NPCName = getI18NValue(180265596),
+		SpeakContent = getI18NValue(180265597)
+	},
+	[702201304] = {
+		PlaySound = 22000072,
+		SpeakNPC = -2,
+		Id = 702201304,
+		NPCName = getI18NValue(180265598),
+		SpeakContent = getI18NValue(180265599)
 	}
 }
 

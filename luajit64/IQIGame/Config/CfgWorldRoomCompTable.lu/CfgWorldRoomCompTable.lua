@@ -3260,6 +3260,19 @@ local CfgWorldRoomCompTable = {
 			-10
 		}
 	},
+	[50160102] = {
+		ShowType = 2,
+		Type = 1,
+		Id = 50160102,
+		RoomId = 101002,
+		SkinCid = 30500010,
+		Name = getI18NValue(180265612),
+		Location = {
+			-6.64,
+			0,
+			-10.5
+		}
+	},
 	[10090103] = {
 		ActionMove = "S_move",
 		ShowType = 2,

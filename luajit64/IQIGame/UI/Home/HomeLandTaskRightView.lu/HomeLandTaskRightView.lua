@@ -393,14 +393,14 @@ end
 function UIElement:__InitRewardItemsView()
 	for i = 0, self.rewardGrid.transform.childCount - 1 do
 		local childTrans = self.rewardGrid.transform:GetChild(i)
-		local itemCell = ItemCell.New(childTrans.gameObject, false, true, true)
+		local itemCell = ItemCell.New(childTrans.gameObject, true, true, true)
 
 		table.insert(self.rewardItemViewList, itemCell)
 	end
 
 	for i = 0, self.rewardExGrid.transform.childCount - 1 do
 		local childTrans = self.rewardExGrid.transform:GetChild(i)
-		local itemCell = ItemCell.New(childTrans.gameObject, false, true, true)
+		local itemCell = ItemCell.New(childTrans.gameObject, true, true, true)
 
 		table.insert(self.rewardExItemViewList, itemCell)
 	end
@@ -422,6 +422,8 @@ function UIElement:__RefreshRewardsShow(rewardCfg, cellTable)
 
 		itemCell:SetItemByCid(itemCid, cnt)
 		itemCell:Show()
+
+		cellIndex = cellIndex + 1
 	end, 2)
 end
 

@@ -1692,7 +1692,8 @@ local CfgElementEntityTable = {
 	[9015] = {
 		PrefabName = "Story/Role/Hero/CH_SiY",
 		IsPrefabFaceToRight = true,
-		Id = 9015
+		Id = 9015,
+		Tachie = "Assets/03_Prefabs/Entity/StandPaint/ST_Siye.prefab"
 	},
 	[9016] = {
 		PrefabName = "Story/Role/Hero/CH_WuN",

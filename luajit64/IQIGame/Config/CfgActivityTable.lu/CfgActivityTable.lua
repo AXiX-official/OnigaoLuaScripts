@@ -234,6 +234,28 @@ local CfgActivityTable = {
 			8
 		}
 	},
+	[60001005] = {
+		Id = 60001005,
+		OpenTime = "2025/4/9 4:00",
+		OpenTimeType = 2,
+		OpenAction = 9,
+		ActivityType = 3,
+		CloseAction = 27,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1209600
+		},
+		Desc = getI18NValue(180266477),
+		OpenActionParams = {
+			11,
+			7
+		},
+		CloseActionParams = {
+			11,
+			7
+		}
+	},
 	[60002001] = {
 		ActivityType = 17,
 		OpenAction = 9,

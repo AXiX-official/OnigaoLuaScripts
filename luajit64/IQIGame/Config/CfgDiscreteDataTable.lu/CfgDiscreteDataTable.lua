@@ -56,6 +56,8 @@ local CfgDiscreteDataTable = {
 			50000,
 			11,
 			100,
+			16,
+			120,
 			1100,
 			2,
 			3002,

@@ -141,6 +141,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -318,6 +320,8 @@ local CfgSkillLevelTable = {
 			"4"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -497,6 +501,8 @@ local CfgSkillLevelTable = {
 			"2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -829,6 +835,8 @@ local CfgSkillLevelTable = {
 			"0.1"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -991,6 +999,8 @@ local CfgSkillLevelTable = {
 			"0.027"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -1160,6 +1170,8 @@ local CfgSkillLevelTable = {
 			"0.17"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -1483,6 +1495,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -1652,6 +1666,8 @@ local CfgSkillLevelTable = {
 			"0.27"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -1814,6 +1830,8 @@ local CfgSkillLevelTable = {
 			"2.84"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -2136,6 +2154,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -2402,6 +2422,8 @@ local CfgSkillLevelTable = {
 			"45"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -2571,6 +2593,8 @@ local CfgSkillLevelTable = {
 			"2.84"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -2902,6 +2926,8 @@ local CfgSkillLevelTable = {
 			"0.15"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15014,
 			160,
 			4,
@@ -3064,6 +3090,8 @@ local CfgSkillLevelTable = {
 			"0.075"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -3241,6 +3269,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -3565,6 +3595,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -3734,6 +3766,8 @@ local CfgSkillLevelTable = {
 			"0.072"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -3896,6 +3930,8 @@ local CfgSkillLevelTable = {
 			"1.42"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -4226,6 +4262,8 @@ local CfgSkillLevelTable = {
 			"0.278"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -4396,6 +4434,8 @@ local CfgSkillLevelTable = {
 			"14"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -4566,6 +4606,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -4889,6 +4931,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -5050,6 +5094,8 @@ local CfgSkillLevelTable = {
 			"0.027"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -5219,6 +5265,8 @@ local CfgSkillLevelTable = {
 			"0.284"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -5542,6 +5590,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15014,
 			160,
 			4,
@@ -5703,6 +5753,8 @@ local CfgSkillLevelTable = {
 			"0.36"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -5872,6 +5924,8 @@ local CfgSkillLevelTable = {
 			"1.988"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -6203,6 +6257,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -6365,6 +6421,8 @@ local CfgSkillLevelTable = {
 			"0.026"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -6534,6 +6592,8 @@ local CfgSkillLevelTable = {
 			"1.789"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -6865,6 +6925,8 @@ local CfgSkillLevelTable = {
 			"0.4"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -7027,6 +7089,8 @@ local CfgSkillLevelTable = {
 			"0.032"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -7196,6 +7260,8 @@ local CfgSkillLevelTable = {
 			"2.982"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -7527,6 +7593,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -7697,6 +7765,8 @@ local CfgSkillLevelTable = {
 			"0.12"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -7875,6 +7945,8 @@ local CfgSkillLevelTable = {
 			"6"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -8207,6 +8279,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -8369,6 +8443,8 @@ local CfgSkillLevelTable = {
 			"0.018"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -8538,6 +8614,8 @@ local CfgSkillLevelTable = {
 			"2.414"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -8861,6 +8939,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -9022,6 +9102,8 @@ local CfgSkillLevelTable = {
 			"7"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -9191,6 +9273,8 @@ local CfgSkillLevelTable = {
 			"2.556"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -9514,6 +9598,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -9691,6 +9777,8 @@ local CfgSkillLevelTable = {
 			"0.3"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -9870,6 +9958,8 @@ local CfgSkillLevelTable = {
 			"0.18"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -10202,6 +10292,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15014,
 			160,
 			4,
@@ -10364,6 +10456,8 @@ local CfgSkillLevelTable = {
 			"0.18"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -10533,6 +10627,8 @@ local CfgSkillLevelTable = {
 			"1.562"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -10856,6 +10952,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -11017,6 +11115,8 @@ local CfgSkillLevelTable = {
 			"0.32"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -11186,6 +11286,8 @@ local CfgSkillLevelTable = {
 			"1.42"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -11517,6 +11619,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -11679,6 +11783,8 @@ local CfgSkillLevelTable = {
 			"0.27"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -11848,6 +11954,8 @@ local CfgSkillLevelTable = {
 			"1.846"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -12171,6 +12279,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -12332,6 +12442,8 @@ local CfgSkillLevelTable = {
 			"0.055"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -12501,6 +12613,8 @@ local CfgSkillLevelTable = {
 			"1.968"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -12832,6 +12946,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -12994,6 +13110,8 @@ local CfgSkillLevelTable = {
 			"0.3"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -13155,6 +13273,8 @@ local CfgSkillLevelTable = {
 			"1.789"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -13477,6 +13597,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -13638,6 +13760,8 @@ local CfgSkillLevelTable = {
 			"0.225"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -13799,6 +13923,8 @@ local CfgSkillLevelTable = {
 			"0.24"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -14129,6 +14255,8 @@ local CfgSkillLevelTable = {
 			"0.052"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -14299,6 +14427,8 @@ local CfgSkillLevelTable = {
 			"0.04"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -14477,6 +14607,8 @@ local CfgSkillLevelTable = {
 			"0.085"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -14809,6 +14941,8 @@ local CfgSkillLevelTable = {
 			"0.15"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -15003,6 +15137,8 @@ local CfgSkillLevelTable = {
 			"0.06"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -15168,6 +15304,8 @@ local CfgSkillLevelTable = {
 			"3.124"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -15498,6 +15636,8 @@ local CfgSkillLevelTable = {
 			"0.1"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -15668,6 +15808,8 @@ local CfgSkillLevelTable = {
 			"0.018"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -15830,6 +15972,8 @@ local CfgSkillLevelTable = {
 			"1.42"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -16152,6 +16296,8 @@ local CfgSkillLevelTable = {
 			"1.562"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -16426,6 +16572,8 @@ local CfgSkillLevelTable = {
 			"0.01125"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -16588,6 +16736,8 @@ local CfgSkillLevelTable = {
 			"2.556"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -16918,6 +17068,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -17080,6 +17232,8 @@ local CfgSkillLevelTable = {
 			"0.065"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -17241,6 +17395,8 @@ local CfgSkillLevelTable = {
 			"2.84"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -17563,6 +17719,8 @@ local CfgSkillLevelTable = {
 			"1.136"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -17837,6 +17995,8 @@ local CfgSkillLevelTable = {
 			"8"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -17999,6 +18159,8 @@ local CfgSkillLevelTable = {
 			"1.42"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -18329,6 +18491,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15013,
 			160,
 			4,
@@ -18491,6 +18655,8 @@ local CfgSkillLevelTable = {
 			"0.8625"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -18513,10 +18679,16 @@ local CfgSkillLevelTable = {
 		}
 	},
 	[1028211] = {
-		Id = 1028211,
 		Skill = 102821,
+		Id = 1028211,
 		SkillLv = 1,
-		SkillTips = getI18NValue(180260822)
+		SkillTips = getI18NValue(180260822),
+		UpgradeNeedExp = {
+			15011,
+			5,
+			4,
+			3000
+		}
 	},
 	[1028301] = {
 		Skill = 102830,
@@ -18658,6 +18830,8 @@ local CfgSkillLevelTable = {
 			"1.8744"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15013,
 			160,
 			4,
@@ -18996,6 +19170,8 @@ local CfgSkillLevelTable = {
 			"0.3"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -19159,6 +19335,8 @@ local CfgSkillLevelTable = {
 			"0.014"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -19320,6 +19498,8 @@ local CfgSkillLevelTable = {
 			"0.75"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -19642,6 +19822,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -19803,6 +19985,8 @@ local CfgSkillLevelTable = {
 			"0.75"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -19964,6 +20148,8 @@ local CfgSkillLevelTable = {
 			"2.84"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -20294,6 +20480,8 @@ local CfgSkillLevelTable = {
 			"0.15"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -20464,6 +20652,8 @@ local CfgSkillLevelTable = {
 			"0.5"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -20634,6 +20824,8 @@ local CfgSkillLevelTable = {
 			"0.86"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -20965,6 +21157,8 @@ local CfgSkillLevelTable = {
 			"0.2"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15014,
 			160,
 			4,
@@ -21127,6 +21321,8 @@ local CfgSkillLevelTable = {
 			"0.284"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -21288,6 +21484,8 @@ local CfgSkillLevelTable = {
 			"2.556"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15014,
 			160,
 			4,
@@ -21610,6 +21808,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15012,
 			160,
 			4,
@@ -21771,6 +21971,8 @@ local CfgSkillLevelTable = {
 			"0.018"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -21932,6 +22134,8 @@ local CfgSkillLevelTable = {
 			"1.977"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15012,
 			160,
 			4,
@@ -22472,6 +22676,8 @@ local CfgSkillLevelTable = {
 			"0.21"
 		},
 		UpgradeNeedExp = {
+			15015,
+			1,
 			15011,
 			160,
 			4,
@@ -22650,6 +22856,8 @@ local CfgSkillLevelTable = {
 			"20"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -22813,6 +23021,8 @@ local CfgSkillLevelTable = {
 			"1.704"
 		},
 		UpgradeNeedExp = {
+			15015,
+			2,
 			15011,
 			160,
 			4,
@@ -25104,7 +25314,6 @@ local CfgSkillLevelTable = {
 		SkillLv = 1,
 		SkillTips = getI18NValue(180260964),
 		UpGradeOldValue = {
-			"1",
 			"1"
 		}
 	},
@@ -25115,7 +25324,7 @@ local CfgSkillLevelTable = {
 		SkillTips = getI18NValue(180260965),
 		UpGradeOldValue = {
 			"3",
-			"0.05"
+			"0.08"
 		}
 	},
 	[302303301] = {
@@ -25124,8 +25333,8 @@ local CfgSkillLevelTable = {
 		SkillLv = 1,
 		SkillTips = getI18NValue(180260966),
 		UpGradeOldValue = {
-			"1",
-			"0.3"
+			"1.2",
+			"0.2"
 		}
 	},
 	[302303401] = {
@@ -25134,7 +25343,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 1,
 		SkillTips = getI18NValue(180260967),
 		UpGradeOldValue = {
-			"1.36"
+			"1.7"
 		}
 	},
 	[302303411] = {
@@ -25143,7 +25352,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 1,
 		SkillTips = getI18NValue(180260968),
 		UpGradeOldValue = {
-			"0.85",
+			"1.7",
 			"0.05"
 		}
 	},
@@ -25153,7 +25362,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 1,
 		SkillTips = getI18NValue(180260969),
 		UpGradeOldValue = {
-			"1.2"
+			"1.32"
 		}
 	},
 	[302402101] = {

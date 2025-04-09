@@ -421,9 +421,11 @@ local CfgTopMoneyTable = {
 		PrefabName = "HomeLandMissionUI",
 		Id = 203,
 		TypeArr = {
-			16
+			16,
+			117
 		},
 		JumpType = {
+			0,
 			0
 		}
 	},

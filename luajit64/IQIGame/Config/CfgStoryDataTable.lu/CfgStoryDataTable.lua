@@ -6498,6 +6498,15 @@ local CfgStoryDataTable = {
 			0,
 			0
 		}
+	},
+	[7002201] = {
+		Id = 7002201,
+		Path = "storydata/Favor/SiY/SiY_1_1",
+		PlayerInitPosition = {
+			0,
+			0,
+			0
+		}
 	}
 }
 

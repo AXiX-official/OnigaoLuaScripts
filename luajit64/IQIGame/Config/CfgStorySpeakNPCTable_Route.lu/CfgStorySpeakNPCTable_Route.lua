@@ -148,7 +148,7 @@ local CfgStorySpeakNPCTable_Route = {
 	},
 	{
 		500202054,
-		702101197,
+		702201304,
 		10
 	},
 	{

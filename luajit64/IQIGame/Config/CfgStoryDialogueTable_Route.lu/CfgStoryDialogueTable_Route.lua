@@ -153,7 +153,7 @@ local CfgStoryDialogueTable_Route = {
 	},
 	{
 		600703008,
-		702101197,
+		702201304,
 		10
 	},
 	{

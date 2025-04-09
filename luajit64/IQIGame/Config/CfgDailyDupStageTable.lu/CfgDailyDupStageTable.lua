@@ -3507,7 +3507,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503160
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3532,7 +3532,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503170
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3557,7 +3557,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503180
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3582,7 +3582,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503190
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3607,7 +3607,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503200
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3632,7 +3632,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503210
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3657,7 +3657,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503220
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3682,7 +3682,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503230
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3707,7 +3707,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503240
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3732,7 +3732,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503250
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3757,7 +3757,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503260
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3782,7 +3782,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503270
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3807,7 +3807,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503280
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3832,7 +3832,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503290
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3857,7 +3857,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503300
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3882,7 +3882,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503310
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3907,7 +3907,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503320
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3932,7 +3932,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503330
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3957,7 +3957,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503340
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -3982,7 +3982,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503350
+			14503150
 		},
 		OddsTypes = {
 			2
@@ -4007,7 +4007,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14503360
+			14503150
 		},
 		OddsTypes = {
 			2

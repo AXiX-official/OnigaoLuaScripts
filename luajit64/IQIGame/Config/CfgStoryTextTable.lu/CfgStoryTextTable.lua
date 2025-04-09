@@ -2829,6 +2829,10 @@ local CfgStoryTextTable = {
 		Id = 7095,
 		Text = getI18NValue(180189905)
 	},
+	[7096] = {
+		Id = 7096,
+		Text = getI18NValue(180265408)
+	},
 	[7100] = {
 		Id = 7100,
 		Text = getI18NValue(180209148)
@@ -12485,6 +12489,26 @@ local CfgStoryTextTable = {
 	[2019007] = {
 		Id = 2019007,
 		Text = getI18NValue(180259444)
+	},
+	[2022001] = {
+		Id = 2022001,
+		Text = getI18NValue(180265600)
+	},
+	[2022002] = {
+		Id = 2022002,
+		Text = getI18NValue(180265601)
+	},
+	[2022003] = {
+		Id = 2022003,
+		Text = getI18NValue(180265602)
+	},
+	[2022004] = {
+		Id = 2022004,
+		Text = getI18NValue(180265603)
+	},
+	[2022005] = {
+		Id = 2022005,
+		Text = getI18NValue(180265604)
 	},
 	[1005001] = {
 		Id = 1005001,
