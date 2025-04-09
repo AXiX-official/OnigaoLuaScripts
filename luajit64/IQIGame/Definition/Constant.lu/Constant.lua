@@ -1606,13 +1606,14 @@ Constant.ActivityListTeamID = {
 	GhostActivity = 4
 }
 Constant.ActivityListCfgType = {
-	LevelPassActivityType = 102,
+	GlobalChannelActivity = 666,
 	NoviceSignActivityType = 108,
 	FirstRechargeActivityType = 106,
 	SummerSignActivityTyoe = 110,
 	LotteryActivityType = 109,
 	SummerActivityType = 301,
 	GhostActivity = 302,
+	LevelPassActivityType = 102,
 	MainLinePassActivityType = 101,
 	DiceGameActivityType = 107,
 	StrengthActivityType = 103,

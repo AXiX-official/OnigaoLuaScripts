@@ -1416,6 +1416,12 @@ local CfgHeroSkinDiscreteTable = {
 		DetailsPreviewUI = {
 			0,
 			0
+		},
+		DisplayActionControlID = {
+			10401503,
+			10401503,
+			10401503,
+			10401503
 		}
 	},
 	[10401502] = {
@@ -1455,6 +1461,12 @@ local CfgHeroSkinDiscreteTable = {
 		DetailsPreviewUI = {
 			0,
 			0
+		},
+		DisplayActionControlID = {
+			10401504,
+			10401504,
+			10401504,
+			10401504
 		}
 	},
 	[10401601] = {

@@ -185,9 +185,9 @@ local CfgActivityListTable = {
 		}
 	},
 	[60101015] = {
-		ActivityType = 108,
-		ActivityPrefab = "/_Activity/NoviceSignActivity",
-		ActivityTeam = 2,
+		ActivityType = 666,
+		ActivityPrefab = "/_Activity/GlobalChannelActivity",
+		ActivityTeam = 1,
 		Sort = 101,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_2.png",
 		Id = 60101015,
@@ -196,8 +196,7 @@ local CfgActivityListTable = {
 			60001005
 		},
 		ShowConditionID = {
-			30070216,
-			30000101
+			30070216
 		}
 	},
 	[60101021] = {

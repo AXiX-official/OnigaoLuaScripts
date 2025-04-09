@@ -1456,6 +1456,8 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/DiceGameActivity/DiceGameTaskUI
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/DiceGameActivity/DiceRotationGenerator.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/DupMultipleActivity/DupMultipleActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/FirstRechargeActivity/FirstRechargeActivityView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/GlobalChannelActivity/GlobalChannelActivityView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/GlobalChannelActivity/GlobalChannelActivityViewItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/LevelPassActivity/ActivityScrollItemView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/LevelPassActivity/LevelPassActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/LotteryActivity/LotteryActivityView.lua.txt,0

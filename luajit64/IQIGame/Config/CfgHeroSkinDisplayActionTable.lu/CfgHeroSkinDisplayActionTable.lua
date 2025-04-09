@@ -23329,7 +23329,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412101,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/LevelUp_Ch/TL_LevelUp_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/LevelUp/TL_LevelUp.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/LevelUp_Ch/TL_LevelUp_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265227),
@@ -23430,7 +23430,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412102,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/StrengthUp01/TL_StrengthUp01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265229),
@@ -23531,7 +23531,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412103,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/StrengthUp02/TL_StrengthUp02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265231),
@@ -23632,7 +23632,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412104,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp01/TL_IntimacyUp01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265233),
@@ -23733,7 +23733,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412105,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp02/TL_IntimacyUp02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265235),
@@ -23834,7 +23834,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412106,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp03/TL_IntimacyUp03.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265237),
@@ -23935,7 +23935,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412107,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/MorningCall_Ch/TL_MorningCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/MorningCall/TL_MorningCall.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/MorningCall_Ch/TL_MorningCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265239),
@@ -24036,7 +24036,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412108,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/NoonCall_Ch/TL_NoonCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/NoonCall/TL_NoonCall.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/NoonCall_Ch/TL_NoonCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265241),
@@ -24137,7 +24137,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412109,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/AfternoonCall/TL_AfternoonCall.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265243),
@@ -24238,7 +24238,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412110,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/NightCall_Ch/TL_NightCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/NightCall/TL_NightCall.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/NightCall_Ch/TL_NightCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265245),
@@ -24339,7 +24339,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412111,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Greeting01_Ch/TL_Greeting01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Greeting01/TL_Greeting01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Greeting01_Ch/TL_Greeting01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265247),
@@ -24440,7 +24440,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412112,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Greeting02_Ch/TL_Greeting02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Greeting02/TL_Greeting02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Greeting02_Ch/TL_Greeting02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265249),
@@ -24541,7 +24541,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412113,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Chat01_Ch/TL_Chat01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Chat01/TL_Chat01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Chat01_Ch/TL_Chat01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265251),
@@ -24642,7 +24642,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412114,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Chat02_Ch/TL_Chat02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Chat02/TL_Chat02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Chat02_Ch/TL_Chat02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265253),
@@ -24743,7 +24743,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412115,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Idle_Ch/TL_Idle_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Idle/TL_Idle.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J1/Idle_Ch/TL_Idle_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265255),
@@ -24941,7 +24941,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412501,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/LevelUp/TL_LevelUp.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/LevelUp/TL_LevelUp.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/LevelUp/TL_LevelUp.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265257),
@@ -25042,7 +25042,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412502,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp01/TL_StrengthUp01.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/StrengthUp01/TL_StrengthUp01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp01/TL_StrengthUp01.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265259),
@@ -25143,7 +25143,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412503,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp02/TL_StrengthUp02.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/StrengthUp02/TL_StrengthUp02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp02/TL_StrengthUp02.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265261),
@@ -25244,7 +25244,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412504,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp01/TL_IntimacyUp01.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/IntimacyUp01_F/TL_IntimacyUp01_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp01/TL_IntimacyUp01.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265263),
@@ -25345,7 +25345,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412505,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp02/TL_IntimacyUp02.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/IntimacyUp02/TL_IntimacyUp02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp02/TL_IntimacyUp02.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265265),
@@ -25446,7 +25446,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412506,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp03/TL_IntimacyUp03.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/IntimacyUp03/TL_IntimacyUp03.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp03/TL_IntimacyUp03.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265267),
@@ -25547,7 +25547,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412507,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/MorningCall/TL_MorningCall.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/MorningCall_F/TL_MorningCall_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/MorningCall/TL_MorningCall.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265269),
@@ -25648,7 +25648,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412508,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NoonCall/TL_NoonCall.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/NoonCall_F/TL_NoonCall_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NoonCall/TL_NoonCall.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265271),
@@ -25749,7 +25749,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412509,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/AfternoonCall/TL_AfternoonCall.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/AfternoonCall/TL_AfternoonCall.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/AfternoonCall/TL_AfternoonCall.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265273),
@@ -25850,7 +25850,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412510,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NightCall/TL_NightCall.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/NightCall_F/TL_NightCall_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NightCall/TL_NightCall.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265275),
@@ -25951,7 +25951,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412511,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting01/TL_Greeting01.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Greeting01_F/TL_Greeting01_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting01/TL_Greeting01.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265277),
@@ -26052,7 +26052,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412512,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting02/TL_Greeting02.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Greeting02_F/TL_Greeting02_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting02/TL_Greeting02.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265279),
@@ -26153,7 +26153,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412513,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat01/TL_Chat01.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Chat01/TL_Chat01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat01/TL_Chat01.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265281),
@@ -26254,7 +26254,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412514,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat02/TL_Chat02.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Chat02/TL_Chat02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat02/TL_Chat02.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265283),
@@ -26355,7 +26355,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412515,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat03/TL_Chat03.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Chat03/TL_Chat03.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat03/TL_Chat03.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265285),
@@ -26456,7 +26456,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412516,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle/TL_Idle.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Idle/TL_Idle.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle/TL_Idle.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265287),
@@ -26557,7 +26557,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412517,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle01/TL_Idle01.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Idle01/TL_Idle01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle01/TL_Idle01.prefab"
 		},
 		RoleDevelopment = {
 			0,
@@ -26654,7 +26654,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412601,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/LevelUp_Ch/TL_LevelUp_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/LevelUp/TL_LevelUp.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/LevelUp_Ch/TL_LevelUp_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265289),
@@ -26755,7 +26755,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412602,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/StrengthUp01/TL_StrengthUp01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265291),
@@ -26856,7 +26856,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412603,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/StrengthUp02/TL_StrengthUp02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265293),
@@ -26957,7 +26957,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412604,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/IntimacyUp01_F/TL_IntimacyUp01_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265295),
@@ -27058,7 +27058,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412605,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/IntimacyUp02/TL_IntimacyUp02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265297),
@@ -27159,7 +27159,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412606,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/IntimacyUp03/TL_IntimacyUp03.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265299),
@@ -27260,7 +27260,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412607,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/MorningCall_Ch/TL_MorningCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/MorningCall_F/TL_MorningCall_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/MorningCall_Ch/TL_MorningCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265301),
@@ -27361,7 +27361,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412608,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NoonCall_Ch/TL_NoonCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/NoonCall_F/TL_NoonCall_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NoonCall_Ch/TL_NoonCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265303),
@@ -27462,7 +27462,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412609,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/AfternoonCall/TL_AfternoonCall.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265305),
@@ -27563,7 +27563,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412610,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NightCall_Ch/TL_NightCall_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/NightCall_F/TL_NightCall_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/NightCall_Ch/TL_NightCall_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265307),
@@ -27664,7 +27664,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412611,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting01_Ch/TL_Greeting01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Greeting01_F/TL_Greeting01_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting01_Ch/TL_Greeting01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265309),
@@ -27765,7 +27765,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412612,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting02_Ch/TL_Greeting02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Greeting02_F/TL_Greeting02_F.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Greeting02_Ch/TL_Greeting02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265311),
@@ -27866,7 +27866,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412613,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat01_Ch/TL_Chat01_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Chat01/TL_Chat01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat01_Ch/TL_Chat01_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265313),
@@ -27967,7 +27967,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412614,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat02_Ch/TL_Chat02_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Chat02/TL_Chat02.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat02_Ch/TL_Chat02_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265315),
@@ -28068,7 +28068,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412615,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat03_Ch/TL_Chat03_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Chat03/TL_Chat03.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Chat03_Ch/TL_Chat03_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265317),
@@ -28169,7 +28169,7 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412616,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle_Ch/TL_Idle_Ch.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Idle/TL_Idle.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle_Ch/TL_Idle_Ch.prefab"
 		},
 		SpeakText = {
 			getI18NValue(180265319),
@@ -28270,7 +28270,3332 @@ local CfgHeroSkinDisplayActionTable = {
 		ID = 10412617,
 		TimelinePath = {
 			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle01/TL_Idle01.prefab",
-			"Assets/03_Prefabs/Entity/Skin/LH_KanJYL_J3/Idle01/TL_Idle01.prefab"
+			"Assets/03_Prefabs/Entity/Skin/LH_LiuLY_J3/Idle01/TL_Idle01.prefab"
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415101] = {
+		ID = 10415101,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/LevelUp_Ch/TL_LevelUp_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/LevelUp_Ch/TL_LevelUp_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266576),
+			getI18NValue(180266575)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415102] = {
+		ID = 10415102,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266578),
+			getI18NValue(180266577)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415103] = {
+		ID = 10415103,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266580),
+			getI18NValue(180266579)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415104] = {
+		ID = 10415104,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266582),
+			getI18NValue(180266581)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415105] = {
+		ID = 10415105,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266584),
+			getI18NValue(180266583)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415106] = {
+		ID = 10415106,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266586),
+			getI18NValue(180266585)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415107] = {
+		ID = 10415107,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/MorningCall_Ch/TL_MorningCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/MorningCall_Ch/TL_MorningCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266588),
+			getI18NValue(180266587)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415108] = {
+		ID = 10415108,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/NoonCall_Ch/TL_NoonCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/NoonCall_Ch/TL_NoonCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266590),
+			getI18NValue(180266589)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415109] = {
+		ID = 10415109,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266592),
+			getI18NValue(180266591)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415110] = {
+		ID = 10415110,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/NightCall_Ch/TL_NightCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/NightCall_Ch/TL_NightCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266594),
+			getI18NValue(180266593)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415111] = {
+		ID = 10415111,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Greeting01_Ch/TL_Greeting01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Greeting01_Ch/TL_Greeting01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266596),
+			getI18NValue(180266595)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415112] = {
+		ID = 10415112,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Greeting02_Ch/TL_Greeting02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Greeting02_Ch/TL_Greeting02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266598),
+			getI18NValue(180266597)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415113] = {
+		ID = 10415113,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Chat01_Ch/TL_Chat01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Chat01_Ch/TL_Chat01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266600),
+			getI18NValue(180266599)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415114] = {
+		ID = 10415114,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Chat02_Ch/TL_Chat02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Chat02_Ch/TL_Chat02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266602),
+			getI18NValue(180266601)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415115] = {
+		ID = 10415115,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Idle_Ch/TL_Idle_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Idle_Ch/TL_Idle_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266604),
+			getI18NValue(180266603)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415116] = {
+		ID = 10415116,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Idle01/TL_Idle01.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_Siye_J1/Idle01/TL_Idle01.prefab"
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415601] = {
+		ID = 10415601,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/LevelUp_Ch/TL_LevelUp_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/LevelUp_Ch/TL_LevelUp_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266606),
+			getI18NValue(180266605)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415602] = {
+		ID = 10415602,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/StrengthUp01_Ch/TL_StrengthUp01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266608),
+			getI18NValue(180266607)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415603] = {
+		ID = 10415603,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/StrengthUp02_Ch/TL_StrengthUp02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266610),
+			getI18NValue(180266609)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415604] = {
+		ID = 10415604,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/IntimacyUp01_Ch/TL_IntimacyUp01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266612),
+			getI18NValue(180266611)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415605] = {
+		ID = 10415605,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/IntimacyUp02_Ch/TL_IntimacyUp02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266614),
+			getI18NValue(180266613)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415606] = {
+		ID = 10415606,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/IntimacyUp03_Ch/TL_IntimacyUp03_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266616),
+			getI18NValue(180266615)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415607] = {
+		ID = 10415607,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/MorningCall_Ch/TL_MorningCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/MorningCall_Ch/TL_MorningCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266618),
+			getI18NValue(180266617)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415608] = {
+		ID = 10415608,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/NoonCall_Ch/TL_NoonCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/NoonCall_Ch/TL_NoonCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266620),
+			getI18NValue(180266619)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415609] = {
+		ID = 10415609,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/AfternoonCall_Ch/TL_AfternoonCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266622),
+			getI18NValue(180266621)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415610] = {
+		ID = 10415610,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/NightCall_Ch/TL_NightCall_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/NightCall_Ch/TL_NightCall_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266624),
+			getI18NValue(180266623)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415611] = {
+		ID = 10415611,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Greeting01_Ch/TL_Greeting01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Greeting01_Ch/TL_Greeting01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266626),
+			getI18NValue(180266625)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415612] = {
+		ID = 10415612,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Greeting02_Ch/TL_Greeting02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Greeting02_Ch/TL_Greeting02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266628),
+			getI18NValue(180266627)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415613] = {
+		ID = 10415613,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Chat01_Ch/TL_Chat01_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Chat01_Ch/TL_Chat01_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266630),
+			getI18NValue(180266629)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415614] = {
+		ID = 10415614,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Chat02_Ch/TL_Chat02_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Chat02_Ch/TL_Chat02_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266632),
+			getI18NValue(180266631)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415615] = {
+		ID = 10415615,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Chat03_Ch/TL_Chat03_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Chat03_Ch/TL_Chat03_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266634),
+			getI18NValue(180266633)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415616] = {
+		ID = 10415616,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Idle_Ch/TL_Idle_Ch.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Idle_Ch/TL_Idle_Ch.prefab"
+		},
+		SpeakText = {
+			getI18NValue(180266636),
+			getI18NValue(180266635)
+		},
+		RoleDevelopment = {
+			0,
+			-8000,
+			41000,
+			10000,
+			0,
+			-8000,
+			41000,
+			10000
+		},
+		SkinPanel = {
+			3000,
+			-12000,
+			41000,
+			10000,
+			3000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilPhone = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		GetHero = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		UserInfo = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		RoleInfoDetails = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		BattleResult = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		},
+		DetailsPreviewUI = {
+			6000,
+			-12000,
+			41000,
+			10000,
+			6000,
+			-12000,
+			41000,
+			10000
+		},
+		MobilePhoneSkin = {
+			-8000,
+			-12000,
+			41000,
+			10000,
+			-8000,
+			-12000,
+			41000,
+			10000
+		}
+	},
+	[10415617] = {
+		ID = 10415617,
+		TimelinePath = {
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Idle01/TL_Idle01.prefab",
+			"Assets/03_Prefabs/Entity/Skin/LH_SiY_J3/Idle01/TL_Idle01.prefab"
 		},
 		RoleDevelopment = {
 			0,

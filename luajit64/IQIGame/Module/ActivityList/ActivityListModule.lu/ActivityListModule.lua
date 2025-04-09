@@ -12,6 +12,7 @@ local lotteryActivityView = require("IQIGame.UI.ActivityList.LotteryActivity.Lot
 local battleActivity = require("IQIGame.UI.ActivityList.BattleActivity.BattleActivityView")
 local summerSignActivity = require("IQIGame.UI.ActivityList.SummerSignActivity.SummerSignActivity")
 local NewSummerActivityView = require("IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityView")
+local GlobalChannelActivityView = require("IQIGame/UI/ActivityList/GlobalChannelActivity/GlobalChannelActivityView")
 
 ActivityListModule = {}
 
@@ -108,6 +109,8 @@ function ActivityListModule.GetActivityListGameobjectLuaByType(type, obj)
 		return activityViewBase.New(obj, battleActivity)
 	elseif type == Constant.ActivityListCfgType.SummerSignActivityTyoe then
 		return activityViewBase.New(obj, NewSummerActivityView)
+	elseif type == Constant.ActivityListCfgType.GlobalChannelActivity then
+		return activityViewBase.New(obj, GlobalChannelActivityView)
 	end
 
 	return activityViewBase.New(obj, activityViewBase)

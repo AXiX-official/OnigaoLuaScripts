@@ -4318,10 +4318,20 @@ local CfgElementEntityTable = {
 		Id = 10831402
 	},
 	[10831501] = {
-		Id = 10831501
+		Id = 10831501,
+		PrefabName = "Entity/Skin/LH_Siye_J1/UI_LH_Siye_J1"
 	},
 	[10831502] = {
-		Id = 10831502
+		Id = 10831502,
+		PrefabName = "Entity/Skin/LH_SiY_J3/UI_LH_SiY_J3"
+	},
+	[10831503] = {
+		Id = 10831503,
+		PrefabName = "Entity/Skin/LH_SiY_J3/UI_LH_SiY_J3_BG"
+	},
+	[10831504] = {
+		Id = 10831504,
+		PrefabName = "Entity/Skin/LH_SiY_J3/UI_LH_SiY_J3_FG"
 	},
 	[10831601] = {
 		Id = 10831601,

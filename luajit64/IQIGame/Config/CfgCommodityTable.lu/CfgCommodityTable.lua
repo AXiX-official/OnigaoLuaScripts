@@ -1775,7 +1775,7 @@ local CfgCommodityTable = {
 		sort = 237,
 		TimeOvrtShow = 1,
 		Id = 50202402,
-		Desc = "春季优惠礼包2",
+		Desc = "春季优惠礼包2_计费点IOS占用",
 		Price = {
 			{
 				1,

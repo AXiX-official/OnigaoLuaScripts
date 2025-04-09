@@ -4630,8 +4630,6 @@ local CfgItemTable = {
 		ActionParams = {
 			10001,
 			1,
-			10001,
-			1,
 			10002,
 			1,
 			10004,
@@ -4647,6 +4645,8 @@ local CfgItemTable = {
 			10020,
 			1,
 			10024,
+			1,
+			10027,
 			1
 		}
 	},
