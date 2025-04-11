@@ -3,7 +3,7 @@
 FormationModule = {
 	TeamIndex = 0,
 	NormalFormationCount = 0,
-	MaxFormationCount = 4,
+	MaxFormationCount = 5,
 	FormationTypeIsMaze = false,
 	FormationInTheMaze = false,
 	HelpHeroIndex = -1,

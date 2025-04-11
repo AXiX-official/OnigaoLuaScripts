@@ -3,7 +3,7 @@
 local CfgFormationTable = {
 	{
 		Type = 1,
-		MaxHeroCount = 4,
+		MaxHeroCount = 5,
 		MinHeroCount = 1,
 		Id = 1,
 		DefaultUnlock = true,
@@ -44,7 +44,7 @@ local CfgFormationTable = {
 	},
 	{
 		Type = 1,
-		MaxHeroCount = 4,
+		MaxHeroCount = 5,
 		MinHeroCount = 1,
 		Id = 2,
 		DefaultUnlock = true,
@@ -85,7 +85,7 @@ local CfgFormationTable = {
 	},
 	{
 		Type = 1,
-		MaxHeroCount = 4,
+		MaxHeroCount = 5,
 		MinHeroCount = 1,
 		Id = 3,
 		DefaultUnlock = true,
@@ -126,7 +126,7 @@ local CfgFormationTable = {
 	},
 	{
 		Type = 1,
-		MaxHeroCount = 4,
+		MaxHeroCount = 5,
 		MinHeroCount = 1,
 		Id = 4,
 		DefaultUnlock = true,
