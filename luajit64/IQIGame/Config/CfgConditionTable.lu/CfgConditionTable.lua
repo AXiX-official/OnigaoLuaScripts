@@ -72842,7 +72842,7 @@ local CfgConditionTable = {
 		Id = 30600101,
 		Type = {
 			1,
-			0,
+			1,
 			0,
 			0,
 			0,
@@ -72850,7 +72850,7 @@ local CfgConditionTable = {
 		},
 		SubType = {
 			58,
-			0,
+			39,
 			0,
 			0,
 			0,
@@ -72868,7 +72868,7 @@ local CfgConditionTable = {
 		},
 		ComparisonOP = {
 			"==",
-			"",
+			"==",
 			"",
 			"",
 			"",
@@ -72876,11 +72876,19 @@ local CfgConditionTable = {
 		},
 		Value = {
 			1,
-			0,
+			1,
 			0,
 			0,
 			0,
 			0
+		},
+		LogicalOP = {
+			"AND",
+			"",
+			"",
+			"",
+			"",
+			""
 		}
 	},
 	[30600201] = {

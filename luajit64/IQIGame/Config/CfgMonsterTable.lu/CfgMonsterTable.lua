@@ -57540,7 +57540,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			10000,
+			12000,
 			2,
 			380,
 			3,
@@ -57550,7 +57550,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			10000
+			12000
 		},
 		InitialBuff = {
 			1009,
@@ -57601,7 +57601,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			18000,
+			23000,
 			2,
 			539,
 			3,
@@ -57611,7 +57611,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			18000
+			23000
 		},
 		InitialBuff = {
 			1009,
@@ -57662,7 +57662,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			33000,
+			41000,
 			2,
 			765,
 			3,
@@ -57672,7 +57672,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			33000
+			41000
 		},
 		InitialBuff = {
 			1009,
@@ -57723,7 +57723,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			60000,
+			76000,
 			2,
 			1087,
 			3,
@@ -57733,7 +57733,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			60000
+			76000
 		},
 		InitialBuff = {
 			1009,
@@ -57784,7 +57784,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			97000,
+			120000,
 			2,
 			1543,
 			3,
@@ -57794,7 +57794,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			97000
+			120000
 		},
 		InitialBuff = {
 			1009,
@@ -57845,7 +57845,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			140000,
+			180000,
 			2,
 			2191,
 			3,
@@ -57855,7 +57855,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			140000
+			180000
 		},
 		InitialBuff = {
 			1009,
@@ -57906,7 +57906,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			210000,
+			280000,
 			2,
 			3163,
 			3,
@@ -57916,7 +57916,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			210000
+			280000
 		},
 		InitialBuff = {
 			1009,
@@ -57967,7 +57967,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			250000,
+			340000,
 			2,
 			3605,
 			3,
@@ -57977,7 +57977,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			250000
+			340000
 		},
 		InitialBuff = {
 			1009,
@@ -58028,7 +58028,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			300000,
+			410000,
 			2,
 			4110,
 			3,
@@ -58038,7 +58038,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			300000
+			410000
 		},
 		InitialBuff = {
 			1009,
@@ -58089,7 +58089,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			360000,
+			520000,
 			2,
 			4685,
 			3,
@@ -58099,7 +58099,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			360000
+			520000
 		},
 		InitialBuff = {
 			1009,
@@ -58150,7 +58150,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			440000,
+			630000,
 			2,
 			5341,
 			3,
@@ -58160,7 +58160,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			440000
+			630000
 		},
 		InitialBuff = {
 			1009,
@@ -58211,7 +58211,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			510000,
+			740000,
 			2,
 			6089,
 			3,
@@ -58221,7 +58221,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			510000
+			740000
 		},
 		InitialBuff = {
 			1009,
@@ -58272,7 +58272,7 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			650000,
+			920000,
 			2,
 			6942,
 			3,
@@ -58282,7 +58282,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			650000
+			920000
 		},
 		InitialBuff = {
 			1009,
@@ -58333,9 +58333,9 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			810000,
+			1100000,
 			2,
-			7913,
+			7122,
 			3,
 			2590,
 			61,
@@ -58343,7 +58343,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			810000
+			1100000
 		},
 		InitialBuff = {
 			1009,
@@ -58394,9 +58394,9 @@ local CfgMonsterTable = {
 		},
 		Attribute = {
 			1,
-			920000,
+			1300000,
 			2,
-			8855,
+			7970,
 			3,
 			2898,
 			61,
@@ -58404,7 +58404,7 @@ local CfgMonsterTable = {
 			81,
 			0.5,
 			8,
-			920000
+			1300000
 		},
 		InitialBuff = {
 			1009,

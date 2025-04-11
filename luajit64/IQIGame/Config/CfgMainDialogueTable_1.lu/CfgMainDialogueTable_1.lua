@@ -189461,7 +189461,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010102"
 			},
 			{},
@@ -189637,7 +189637,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010203"
 			},
 			{},
@@ -189695,7 +189695,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010204"
 			},
 			{},
@@ -189753,7 +189753,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010205"
 			},
 			{},
@@ -189811,7 +189811,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010206"
 			},
 			{},
@@ -189924,7 +189924,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010208"
 			},
 			{},
@@ -189982,7 +189982,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010209"
 			},
 			{},
@@ -190150,7 +190150,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010212"
 			},
 			{},
@@ -190208,7 +190208,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010213"
 			},
 			{},
@@ -190488,7 +190488,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010302"
 			},
 			{},
@@ -190546,7 +190546,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010303"
 			},
 			{},
@@ -190714,7 +190714,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010306"
 			},
 			{},
@@ -190769,7 +190769,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010307"
 			},
 			{},
@@ -190824,7 +190824,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010308"
 			},
 			{},
@@ -190879,7 +190879,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010309"
 			},
 			{},
@@ -190934,7 +190934,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010310"
 			},
 			{},
@@ -190992,7 +190992,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010311"
 			},
 			{},
@@ -191105,7 +191105,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010313"
 			},
 			{},
@@ -191163,7 +191163,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010314"
 			},
 			{},
@@ -191218,7 +191218,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010315"
 			},
 			{},
@@ -191276,7 +191276,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010316"
 			},
 			{},
@@ -191331,7 +191331,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010317"
 			},
 			{},
@@ -191389,7 +191389,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010318"
 			},
 			{},
@@ -191444,7 +191444,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010319"
 			},
 			{},
@@ -191615,7 +191615,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010322"
 			},
 			{},
@@ -191670,7 +191670,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010323"
 			},
 			{},
@@ -191725,7 +191725,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010324"
 			},
 			{},
@@ -191780,7 +191780,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010325"
 			},
 			{},
@@ -191835,7 +191835,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010326"
 			},
 			{},
@@ -191890,7 +191890,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010327"
 			},
 			{},
@@ -191945,7 +191945,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010328"
 			},
 			{},
@@ -192055,7 +192055,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010330"
 			},
 			{},
@@ -192110,7 +192110,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010331"
 			},
 			{},
@@ -192223,7 +192223,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010333"
 			},
 			{},
@@ -192339,7 +192339,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010335"
 			},
 			{},
@@ -192397,7 +192397,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010336"
 			},
 			{},
@@ -192455,7 +192455,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010337"
 			},
 			{},
@@ -192606,7 +192606,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010402"
 			},
 			{},
@@ -192719,7 +192719,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010404"
 			},
 			{},
@@ -192832,7 +192832,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010406"
 			},
 			{},
@@ -192890,7 +192890,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010407"
 			},
 			{},
@@ -192948,7 +192948,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010408"
 			},
 			{},
@@ -193116,7 +193116,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010411"
 			},
 			{},
@@ -193174,7 +193174,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010412"
 			},
 			{},
@@ -193287,7 +193287,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010414"
 			},
 			{},
@@ -193345,7 +193345,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010415"
 			},
 			{},
@@ -193400,7 +193400,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010416"
 			},
 			{},
@@ -193455,7 +193455,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010417"
 			},
 			{},
@@ -193510,7 +193510,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"10170209",
+				"0",
 				"72010418"
 			},
 			{},
@@ -193568,7 +193568,7 @@ local CfgMainDialogueTable_1 = {
 		},
 		ActionEndParam = {
 			{
-				"0",
+				"10170209",
 				"72010419"
 			},
 			{},
