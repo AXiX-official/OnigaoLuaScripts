@@ -45018,6 +45018,6835 @@ local CfgMainDialogueTable_1 = {
 			{}
 		}
 	},
+	[30110101] = {
+		Id = 30110101,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266797),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10010104",
+				"30110102"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110102] = {
+		Id = 30110102,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266798),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10010104",
+				"30110103"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110103] = {
+		Id = 30110103,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266799),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"501001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110111] = {
+		Id = 30110111,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266800),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10010104",
+				"30110112"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110112] = {
+		Id = 30110112,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266801),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10010104",
+				"30110113"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110113] = {
+		Id = 30110113,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266802),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"501002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110201] = {
+		Id = 30110201,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266803),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10090104",
+				"30110202"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110202] = {
+		Id = 30110202,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266804),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10090104",
+				"30110203"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110203] = {
+		Id = 30110203,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266805),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"502001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110211] = {
+		Id = 30110211,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266806),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10090104",
+				"30110212"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110212] = {
+		Id = 30110212,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266807),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10090104",
+				"30110213"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110213] = {
+		Id = 30110213,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266808),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10090104",
+				"30110214"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110214] = {
+		Id = 30110214,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266809),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"502002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110301] = {
+		Id = 30110301,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266810),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10020106",
+				"30110302"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110302] = {
+		Id = 30110302,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266811),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10020106",
+				"30110303"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110303] = {
+		Id = 30110303,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266812),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10020106",
+				"30110304"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110304] = {
+		Id = 30110304,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266813),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"505001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110311] = {
+		Id = 30110311,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266814),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10020106",
+				"30110312"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110312] = {
+		Id = 30110312,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266815),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10020106",
+				"30110313"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110313] = {
+		Id = 30110313,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266816),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10020106",
+				"30110314"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110314] = {
+		Id = 30110314,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266817),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"505002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110401] = {
+		Id = 30110401,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266818),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10030106",
+				"30110402"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110402] = {
+		Id = 30110402,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266819),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10030106",
+				"30110403"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110403] = {
+		Id = 30110403,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266820),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10030106",
+				"30110404"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110404] = {
+		Id = 30110404,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266821),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"504001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110411] = {
+		Id = 30110411,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266822),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10030106",
+				"30110412"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110412] = {
+		Id = 30110412,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266823),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10030106",
+				"30110413"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110413] = {
+		Id = 30110413,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266824),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"504002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110501] = {
+		Id = 30110501,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266825),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10230106",
+				"30110502"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110502] = {
+		Id = 30110502,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266826),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10230106",
+				"30110503"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110503] = {
+		Id = 30110503,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266827),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"505001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110511] = {
+		Id = 30110511,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266828),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10230106",
+				"30110512"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110512] = {
+		Id = 30110512,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266829),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10230106",
+				"30110513"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110513] = {
+		Id = 30110513,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266830),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"505002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110601] = {
+		Id = 30110601,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266831),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10170106",
+				"30110602"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110602] = {
+		Id = 30110602,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266832),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10170106",
+				"30110603"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110603] = {
+		Id = 30110603,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266833),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"506001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110611] = {
+		Id = 30110611,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266834),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10170106",
+				"30110612"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110612] = {
+		Id = 30110612,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266835),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10170106",
+				"30110613"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110613] = {
+		Id = 30110613,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266836),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"506002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110701] = {
+		Id = 30110701,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266837),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10140106",
+				"30110702"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110702] = {
+		Id = 30110702,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266838),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10140106",
+				"30110703"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110703] = {
+		Id = 30110703,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266839),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10140106",
+				"30110704"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110704] = {
+		Id = 30110704,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266840),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"507001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110711] = {
+		Id = 30110711,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266841),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10140106",
+				"30110712"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110712] = {
+		Id = 30110712,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266842),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10140106",
+				"30110713"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110713] = {
+		Id = 30110713,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266843),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10140106",
+				"30110714"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110714] = {
+		Id = 30110714,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266844),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"507002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110801] = {
+		Id = 30110801,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266845),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10190106",
+				"30110802"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110802] = {
+		Id = 30110802,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266846),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10190106",
+				"30110803"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110803] = {
+		Id = 30110803,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266847),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"508001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110811] = {
+		Id = 30110811,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266848),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10190106",
+				"30110812"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110812] = {
+		Id = 30110812,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266849),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10190106",
+				"30110813"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110813] = {
+		Id = 30110813,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266850),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"508002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110901] = {
+		Id = 30110901,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266851),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10040105",
+				"30110902"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110902] = {
+		Id = 30110902,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266852),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10040105",
+				"30110903"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110903] = {
+		Id = 30110903,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266853),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"509001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110911] = {
+		Id = 30110911,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266854),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10040105",
+				"30110912"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110912] = {
+		Id = 30110912,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266855),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10040105",
+				"30110913"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30110913] = {
+		Id = 30110913,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266856),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"509002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111001] = {
+		Id = 30111001,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266857),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10110105",
+				"30111002"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111002] = {
+		Id = 30111002,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266858),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10110105",
+				"30111003"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111003] = {
+		Id = 30111003,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266859),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"510001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111011] = {
+		Id = 30111011,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266860),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10110105",
+				"30111012"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111012] = {
+		Id = 30111012,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266861),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10110105",
+				"30111013"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111013] = {
+		Id = 30111013,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266862),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"510002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111101] = {
+		Id = 30111101,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266863),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10060105",
+				"30111102"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111102] = {
+		Id = 30111102,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266864),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10060105",
+				"30111103"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111103] = {
+		Id = 30111103,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266865),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"511001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111111] = {
+		Id = 30111111,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266866),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10060105",
+				"30111112"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111112] = {
+		Id = 30111112,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266867),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10060105",
+				"30111113"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111113] = {
+		Id = 30111113,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266868),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"511002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111201] = {
+		Id = 30111201,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266869),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10070105",
+				"30111202"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111202] = {
+		Id = 30111202,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266870),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10070105",
+				"30111203"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111203] = {
+		Id = 30111203,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266871),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10070105",
+				"30111204"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111204] = {
+		Id = 30111204,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266872),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"512001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111211] = {
+		Id = 30111211,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266873),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10070105",
+				"30111212"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111212] = {
+		Id = 30111212,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266874),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10070105",
+				"30111213"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111213] = {
+		Id = 30111213,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266875),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10070105",
+				"30111214"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111214] = {
+		Id = 30111214,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266876),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"512002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111301] = {
+		Id = 30111301,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266877),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10260105",
+				"30111302"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111302] = {
+		Id = 30111302,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266878),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10260105",
+				"30111303"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111303] = {
+		Id = 30111303,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266879),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"513001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111311] = {
+		Id = 30111311,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266880),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10260105",
+				"30111312"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111312] = {
+		Id = 30111312,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266881),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10260105",
+				"30111313"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111313] = {
+		Id = 30111313,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266882),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"513002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111401] = {
+		Id = 30111401,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266883),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10160105",
+				"30111402"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111402] = {
+		Id = 30111402,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266884),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10160105",
+				"30111403"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111403] = {
+		Id = 30111403,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266885),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"514001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111411] = {
+		Id = 30111411,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266886),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10160105",
+				"30111412"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111412] = {
+		Id = 30111412,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266887),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10160105",
+				"30111413"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111413] = {
+		Id = 30111413,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266888),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"514002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111501] = {
+		Id = 30111501,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266889),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10150110",
+				"30111502"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111502] = {
+		Id = 30111502,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266890),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10150110",
+				"30111503"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111503] = {
+		Id = 30111503,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266891),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"515001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111511] = {
+		Id = 30111511,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266892),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10150110",
+				"30111512"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111512] = {
+		Id = 30111512,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266893),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10150110",
+				"30111513"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111513] = {
+		Id = 30111513,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266894),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"515002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111601] = {
+		Id = 30111601,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266895),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10180110",
+				"30111602"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111602] = {
+		Id = 30111602,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266896),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10180110",
+				"30111603"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111603] = {
+		StayTime = 1.1,
+		DialogType = 1,
+		Id = 30111603,
+		TextMan = getI18NValue(180266897),
+		TextWoMan = getI18NValue(180267024),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"516001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111611] = {
+		Id = 30111611,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266898),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10180110",
+				"30111612"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111612] = {
+		Id = 30111612,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266899),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10180110",
+				"30111613"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111613] = {
+		Id = 30111613,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266900),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"516002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111701] = {
+		Id = 30111701,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266901),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10200110",
+				"30111702"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111702] = {
+		Id = 30111702,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266902),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10200110",
+				"30111703"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111703] = {
+		Id = 30111703,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266903),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10200110",
+				"30111704"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111704] = {
+		Id = 30111704,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266904),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"517001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111711] = {
+		Id = 30111711,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266905),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10200110",
+				"30111712"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111712] = {
+		Id = 30111712,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266906),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10200110",
+				"30111713"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111713] = {
+		Id = 30111713,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266907),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"517002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111801] = {
+		Id = 30111801,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266908),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10120109",
+				"30111802"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111802] = {
+		Id = 30111802,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266909),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10120109",
+				"30111803"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111803] = {
+		Id = 30111803,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266910),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"518001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111811] = {
+		Id = 30111811,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266911),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10120109",
+				"30111812"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111812] = {
+		Id = 30111812,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266912),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10120109",
+				"30111813"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111813] = {
+		Id = 30111813,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266913),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"518002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111901] = {
+		Id = 30111901,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266914),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10210109",
+				"30111902"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111902] = {
+		Id = 30111902,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266915),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10210109",
+				"30111903"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111903] = {
+		Id = 30111903,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266916),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"519001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111911] = {
+		Id = 30111911,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266917),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10210109",
+				"30111912"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111912] = {
+		StayTime = 1.1,
+		DialogType = 1,
+		Id = 30111912,
+		TextMan = getI18NValue(180266918),
+		TextWoMan = getI18NValue(180267135),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10210109",
+				"30111913"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30111913] = {
+		Id = 30111913,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266919),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"519002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112001] = {
+		Id = 30112001,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266920),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10280109",
+				"30112002"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112002] = {
+		Id = 30112002,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266921),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10280109",
+				"30112003"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112003] = {
+		Id = 30112003,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266922),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"520001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112011] = {
+		Id = 30112011,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266923),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10280109",
+				"30112012"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112012] = {
+		Id = 30112012,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266924),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10280109",
+				"30112013"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112013] = {
+		Id = 30112013,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266925),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10280109",
+				"30112014"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112014] = {
+		Id = 30112014,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266926),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"520002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112101] = {
+		Id = 30112101,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266927),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10220109",
+				"30112102"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112102] = {
+		Id = 30112102,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266928),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10220109",
+				"30112103"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112103] = {
+		Id = 30112103,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266929),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"521001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112111] = {
+		Id = 30112111,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266930),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10220109",
+				"30112112"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112112] = {
+		Id = 30112112,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266931),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10220109",
+				"30112113"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112113] = {
+		Id = 30112113,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266932),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"521002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112201] = {
+		Id = 30112201,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266933),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10250109",
+				"30112202"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112202] = {
+		Id = 30112202,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266934),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10250109",
+				"30112203"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112203] = {
+		Id = 30112203,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266935),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"522001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112211] = {
+		Id = 30112211,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266936),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10250109",
+				"30112212"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112212] = {
+		Id = 30112212,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266937),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10250109",
+				"30112213"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112213] = {
+		Id = 30112213,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266938),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"522002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112301] = {
+		Id = 30112301,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266939),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10270108",
+				"30112302"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112302] = {
+		Id = 30112302,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266940),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10270108",
+				"30112303"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112303] = {
+		Id = 30112303,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266941),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10270108",
+				"30112304"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112304] = {
+		Id = 30112304,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266942),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"523001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112311] = {
+		Id = 30112311,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266943),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10270108",
+				"30112312"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112312] = {
+		Id = 30112312,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266944),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10270108",
+				"30112313"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112313] = {
+		Id = 30112313,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266945),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"523002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112401] = {
+		Id = 30112401,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266946),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10240108",
+				"30112402"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112402] = {
+		Id = 30112402,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266947),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10240108",
+				"30112403"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112403] = {
+		StayTime = 1.1,
+		DialogType = 1,
+		Id = 30112403,
+		TextMan = getI18NValue(180266948),
+		TextWoMan = getI18NValue(180267025),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"524001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112411] = {
+		Id = 30112411,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266949),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10240108",
+				"30112412"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112412] = {
+		Id = 30112412,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266950),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10240108",
+				"30112413"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112413] = {
+		Id = 30112413,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266951),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10240108",
+				"30112414"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112414] = {
+		Id = 30112414,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266952),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"524002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112501] = {
+		Id = 30112501,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266953),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10310108",
+				"30112502"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112502] = {
+		Id = 30112502,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266954),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10310108",
+				"30112503"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112503] = {
+		Id = 30112503,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266955),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"525001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112511] = {
+		Id = 30112511,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266956),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10310108",
+				"30112512"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112512] = {
+		Id = 30112512,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266957),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10310108",
+				"30112513"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112513] = {
+		Id = 30112513,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266958),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"525002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112601] = {
+		Id = 30112601,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266959),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10320108",
+				"30112602"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112602] = {
+		Id = 30112602,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266960),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"526001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112611] = {
+		Id = 30112611,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266961),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10320108",
+				"30112612"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112612] = {
+		Id = 30112612,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266962),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10320108",
+				"30112613"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112613] = {
+		Id = 30112613,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266963),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"526002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112701] = {
+		Id = 30112701,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266964),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10340108",
+				"30112702"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112702] = {
+		Id = 30112702,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266965),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10340108",
+				"30112703"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112703] = {
+		Id = 30112703,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266966),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"527001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112711] = {
+		Id = 30112711,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266967),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10340108",
+				"30112712"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112712] = {
+		Id = 30112712,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266968),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10340108",
+				"30112713"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112713] = {
+		Id = 30112713,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266969),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10340108",
+				"30112714"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112714] = {
+		Id = 30112714,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266970),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"527002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112801] = {
+		Id = 30112801,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266971),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10350108",
+				"30112802"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112802] = {
+		Id = 30112802,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266972),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10350108",
+				"30112803"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112803] = {
+		Id = 30112803,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266973),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"528001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112811] = {
+		Id = 30112811,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266974),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10350108",
+				"30112812"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112812] = {
+		Id = 30112812,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266975),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10350108",
+				"30112813"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112813] = {
+		Id = 30112813,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266976),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"528002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112901] = {
+		Id = 30112901,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266977),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10130108",
+				"30112902"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112902] = {
+		Id = 30112902,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266978),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10130108",
+				"30112903"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112903] = {
+		Id = 30112903,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266979),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10130108",
+				"30112904"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112904] = {
+		Id = 30112904,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266980),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"529001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112911] = {
+		Id = 30112911,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266981),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10130108",
+				"30112913"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112913] = {
+		Id = 30112913,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266982),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10130108",
+				"30112914"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30112914] = {
+		Id = 30112914,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266983),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"529002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113001] = {
+		Id = 30113001,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266984),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10050107",
+				"30113002"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113002] = {
+		Id = 30113002,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266985),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10050107",
+				"30113003"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113003] = {
+		Id = 30113003,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266986),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10050107",
+				"30113004"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113004] = {
+		Id = 30113004,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266987),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"530001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113011] = {
+		Id = 30113011,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266988),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10050107",
+				"30113012"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113012] = {
+		Id = 30113012,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267026),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10050107",
+				"30113013"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113013] = {
+		Id = 30113013,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266989),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"530002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113101] = {
+		Id = 30113101,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266991),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10080107",
+				"30113102"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113102] = {
+		Id = 30113102,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266992),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10080107",
+				"30113103"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113103] = {
+		Id = 30113103,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266993),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"531001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113111] = {
+		Id = 30113111,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266994),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10080107",
+				"30113112"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113112] = {
+		Id = 30113112,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266995),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10080107",
+				"30113113"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113113] = {
+		Id = 30113113,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266996),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"531002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113201] = {
+		Id = 30113201,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266997),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10330107",
+				"30113202"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113202] = {
+		Id = 30113202,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266998),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10330107",
+				"30113203"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113203] = {
+		Id = 30113203,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180266999),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"532001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113211] = {
+		Id = 30113211,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267000),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10330107",
+				"30113212"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113212] = {
+		Id = 30113212,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267001),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10330107",
+				"30113213"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113213] = {
+		Id = 30113213,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267002),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"532002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113301] = {
+		Id = 30113301,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267003),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10290107",
+				"30113302"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113302] = {
+		Id = 30113302,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267004),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10290107",
+				"30113303"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113303] = {
+		Id = 30113303,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267005),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"533001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113311] = {
+		Id = 30113311,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267006),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10290107",
+				"30113312"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113312] = {
+		Id = 30113312,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267007),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10290107",
+				"30113313"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113313] = {
+		Id = 30113313,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267008),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"533002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113401] = {
+		Id = 30113401,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267009),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10300107",
+				"30113402"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113402] = {
+		Id = 30113402,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267010),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10300107",
+				"30113403"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113403] = {
+		Id = 30113403,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267011),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"534001"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113411] = {
+		Id = 30113411,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267012),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10300107",
+				"30113412"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113412] = {
+		Id = 30113412,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267013),
+		ActionEndType = {
+			104,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"10300107",
+				"30113413"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[30113413] = {
+		Id = 30113413,
+		StayTime = 1.1,
+		DialogType = 1,
+		TextMan = getI18NValue(180267014),
+		ActionEndType = {
+			1004,
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"534002"
+			},
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[30201001] = {
 		Id = 30201001,
 		StayTime = 1.1,
@@ -57401,6 +64230,1033 @@ local CfgMainDialogueTable_1 = {
 		ActionEndParam = {
 			{
 				"50010101"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10701001] = {
+		DialogType = 1,
+		Id = 10701001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10701002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10701002] = {
+		Id = 10701002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307001"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10702001] = {
+		DialogType = 1,
+		Id = 10702001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10702002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10702002] = {
+		Id = 10702002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307002"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10703001] = {
+		DialogType = 1,
+		Id = 10703001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10703002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10703002] = {
+		Id = 10703002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307003"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10704001] = {
+		DialogType = 1,
+		Id = 10704001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10704002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10704002] = {
+		Id = 10704002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307004"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10705001] = {
+		DialogType = 1,
+		Id = 10705001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10705002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10705002] = {
+		Id = 10705002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307005"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10706001] = {
+		DialogType = 1,
+		Id = 10706001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10706002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10706002] = {
+		Id = 10706002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307006"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10707001] = {
+		DialogType = 1,
+		Id = 10707001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10707002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10707002] = {
+		Id = 10707002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307007"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10708001] = {
+		DialogType = 1,
+		Id = 10708001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10708002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10708002] = {
+		Id = 10708002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307008"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10709001] = {
+		DialogType = 1,
+		Id = 10709001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10709002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10709002] = {
+		Id = 10709002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307009"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10710001] = {
+		DialogType = 1,
+		Id = 10710001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10710002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10710002] = {
+		Id = 10710002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307010"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10711001] = {
+		DialogType = 1,
+		Id = 10711001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10711002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10711002] = {
+		Id = 10711002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307011"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10712001] = {
+		DialogType = 1,
+		Id = 10712001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10712002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10712002] = {
+		Id = 10712002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307012"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10713001] = {
+		DialogType = 1,
+		Id = 10713001,
+		ActionEndType = {
+			105,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0",
+				"907011",
+				"907012,104,0,10713002",
+				"907013,104,0,10000000"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[10713002] = {
+		Id = 10713002,
+		DialogType = 1,
+		ActionType = {
+			1004,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionParam = {
+			{
+				"307013"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		},
+		ActionEndType = {
+			106,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ActionEndParam = {
+			{
+				"0"
 			},
 			{},
 			{},
@@ -182884,10786 +190740,6 @@ local CfgMainDialogueTable_1 = {
 			{
 				"0",
 				"71080205"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080205] = {
-		Id = 71080205,
-		DialogType = 1,
-		TextMan = getI18NValue(180253693),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080206"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080206] = {
-		DialogType = 1,
-		Id = 71080206,
-		TextMan = getI18NValue(180253694),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080207"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080207] = {
-		DialogType = 1,
-		Id = 71080207,
-		TextMan = getI18NValue(180253695),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080208"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080208] = {
-		Id = 71080208,
-		DialogType = 1,
-		TextMan = getI18NValue(180253696),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080209"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080209] = {
-		DialogType = 1,
-		Id = 71080209,
-		TextMan = getI18NValue(180253697),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080210"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080210] = {
-		DialogType = 1,
-		Id = 71080210,
-		TextMan = getI18NValue(180253698),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080211"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080211] = {
-		Id = 71080211,
-		DialogType = 1,
-		TextMan = getI18NValue(180253699),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080212"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080212] = {
-		Id = 71080212,
-		DialogType = 1,
-		TextMan = getI18NValue(180253700),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080213"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080213] = {
-		DialogType = 1,
-		Id = 71080213,
-		TextMan = getI18NValue(180253701),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080214"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080214] = {
-		DialogType = 1,
-		Id = 71080214,
-		TextMan = getI18NValue(180253702),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080215"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080215] = {
-		Id = 71080215,
-		DialogType = 1,
-		TextMan = getI18NValue(180253703),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080216"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080216] = {
-		DialogType = 1,
-		Id = 71080216,
-		TextMan = getI18NValue(180253704),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080217"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080217] = {
-		DialogType = 1,
-		Id = 71080217,
-		TextMan = getI18NValue(180253705),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080218"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080218] = {
-		Id = 71080218,
-		DialogType = 1,
-		TextMan = getI18NValue(180253706),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080219"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080219] = {
-		Id = 71080219,
-		DialogType = 1,
-		TextMan = getI18NValue(180253707),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080220"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080220] = {
-		Id = 71080220,
-		DialogType = 1,
-		TextMan = getI18NValue(180253708),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080221"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080221] = {
-		Id = 71080221,
-		DialogType = 1,
-		TextMan = getI18NValue(180253709),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080222"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080222] = {
-		Id = 71080222,
-		DialogType = 1,
-		TextMan = getI18NValue(180253710),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080223"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080223] = {
-		Id = 71080223,
-		DialogType = 1,
-		TextMan = getI18NValue(180253711),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080224"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080224] = {
-		DialogType = 1,
-		Id = 71080224,
-		TextMan = getI18NValue(180253712),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080225"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080225] = {
-		DialogType = 1,
-		Id = 71080225,
-		TextMan = getI18NValue(180253713),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080226"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080226] = {
-		Id = 71080226,
-		DialogType = 1,
-		TextMan = getI18NValue(180253714),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080227"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080227] = {
-		Id = 71080227,
-		DialogType = 1,
-		TextMan = getI18NValue(180253715),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080228"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080228] = {
-		DialogType = 1,
-		Id = 71080228,
-		TextMan = getI18NValue(180253716),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080229"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080229] = {
-		DialogType = 1,
-		Id = 71080229,
-		TextMan = getI18NValue(180253717),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080230"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080230] = {
-		Id = 71080230,
-		DialogType = 1,
-		TextMan = getI18NValue(180253718),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080231"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080231] = {
-		Id = 71080231,
-		DialogType = 1,
-		TextMan = getI18NValue(180253719),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080232"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080232] = {
-		Id = 71080232,
-		DialogType = 1,
-		TextMan = getI18NValue(180253720),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080233"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080233] = {
-		DialogType = 1,
-		Id = 71080233,
-		TextMan = getI18NValue(180253721),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080234"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080234] = {
-		DialogType = 1,
-		Id = 71080234,
-		TextMan = getI18NValue(180253722),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080235"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080235] = {
-		Id = 71080235,
-		DialogType = 1,
-		TextMan = getI18NValue(180253723),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080236"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080236] = {
-		Id = 71080236,
-		DialogType = 1,
-		TextMan = getI18NValue(180253724),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080237"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080237] = {
-		Id = 71080237,
-		DialogType = 1,
-		TextMan = getI18NValue(180253725),
-		ActionEndType = {
-			104,
-			1012,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080301"
-			},
-			{
-				"0",
-				"S_move",
-				"2.25",
-				"-4,0,-6"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080301] = {
-		Id = 71080301,
-		DialogType = 1,
-		TextMan = getI18NValue(180253726),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080302"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080302] = {
-		Id = 71080302,
-		DialogType = 1,
-		TextMan = getI18NValue(180253727),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080303"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080303] = {
-		DialogType = 1,
-		Id = 71080303,
-		TextMan = getI18NValue(180253728),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080304"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080304] = {
-		DialogType = 1,
-		Id = 71080304,
-		TextMan = getI18NValue(180253729),
-		ActionType = {
-			103,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"1",
-				"99005",
-				"50120102",
-				"0,0,0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080305"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080305] = {
-		DialogType = 1,
-		Id = 71080305,
-		TextMan = getI18NValue(180253730),
-		ActionType = {
-			108,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"50120102",
-				"99005"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080306"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080306] = {
-		Id = 71080306,
-		DialogType = 1,
-		TextMan = getI18NValue(180253731),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080307"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080307] = {
-		DialogType = 1,
-		Id = 71080307,
-		TextMan = getI18NValue(180253732),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080308"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080308] = {
-		Id = 71080308,
-		DialogType = 1,
-		TextMan = getI18NValue(180253733),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080309"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080309] = {
-		DialogType = 1,
-		Id = 71080309,
-		TextMan = getI18NValue(180253734),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080310"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080310] = {
-		DialogType = 1,
-		Id = 71080310,
-		TextMan = getI18NValue(180253735),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080311"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080311] = {
-		Id = 71080311,
-		DialogType = 1,
-		TextMan = getI18NValue(180253736),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080312"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080312] = {
-		DialogType = 1,
-		Id = 71080312,
-		TextMan = getI18NValue(180253737),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080313"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080313] = {
-		Id = 71080313,
-		DialogType = 1,
-		TextMan = getI18NValue(180253738),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080314"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080314] = {
-		Id = 71080314,
-		DialogType = 1,
-		TextMan = getI18NValue(180253739),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080315"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080315] = {
-		DialogType = 1,
-		Id = 71080315,
-		TextMan = getI18NValue(180253740),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080316"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080316] = {
-		DialogType = 1,
-		Id = 71080316,
-		TextMan = getI18NValue(180253741),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080317"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080317] = {
-		Id = 71080317,
-		DialogType = 1,
-		TextMan = getI18NValue(180253742),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080318"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080318] = {
-		Id = 71080318,
-		DialogType = 1,
-		TextMan = getI18NValue(180253743),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080319"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080319] = {
-		DialogType = 1,
-		Id = 71080319,
-		TextMan = getI18NValue(180253744),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080320"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080320] = {
-		DialogType = 1,
-		Id = 71080320,
-		TextMan = getI18NValue(180253745),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080321"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080321] = {
-		Id = 71080321,
-		DialogType = 1,
-		TextMan = getI18NValue(180253746),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080322"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080322] = {
-		DialogType = 1,
-		Id = 71080322,
-		TextMan = getI18NValue(180253747),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080323"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080323] = {
-		DialogType = 1,
-		Id = 71080323,
-		TextMan = getI18NValue(180253748),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080324"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080324] = {
-		Id = 71080324,
-		DialogType = 1,
-		TextMan = getI18NValue(180253749),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50120102",
-				"71080325"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080325] = {
-		Id = 71080325,
-		DialogType = 1,
-		TextMan = getI18NValue(180253750),
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080326"
-			},
-			{
-				"50120102",
-				"229"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080326] = {
-		Id = 71080326,
-		StayTime = 1.8,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			1022,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080401"
-			},
-			{
-				"50120102",
-				"0",
-				"-5",
-				"0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080401] = {
-		DialogType = 1,
-		Id = 71080401,
-		TextMan = getI18NValue(180253751),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080402"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080402] = {
-		DialogType = 1,
-		Id = 71080402,
-		TextMan = getI18NValue(180253752),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71080403"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71080403] = {
-		Id = 71080403,
-		DialogType = 1,
-		TextMan = getI18NValue(180253753),
-		ActionEndType = {
-			103,
-			1004,
-			1021,
-			106,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"2",
-				"90090",
-				"0,0,0"
-			},
-			{
-				"1000801"
-			},
-			{},
-			{
-				"0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090101] = {
-		DialogType = 1,
-		StayTime = 0.5,
-		Id = 71090101,
-		ActionType = {
-			103,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"2",
-				"99102",
-				"0,0,0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090102"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090102] = {
-		DialogType = 1,
-		StayTime = 0.1,
-		Id = 71090102,
-		ActionType = {
-			1019,
-			1022,
-			1022,
-			1014,
-			1011,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"50140102"
-			},
-			{
-				"0",
-				"-1.1",
-				"0",
-				"-6"
-			},
-			{
-				"50140102",
-				"-7",
-				"0",
-				"-3.8"
-			},
-			{
-				"0",
-				"1"
-			},
-			{
-				"2"
-			},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090103"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090103] = {
-		Id = 71090103,
-		StayTime = 2.4,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090104"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090104] = {
-		DialogType = 1,
-		StayTime = 0.5,
-		Id = 71090104,
-		ActionType = {
-			108,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"-1",
-				"99102"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090105"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090105] = {
-		DialogType = 1,
-		Id = 71090105,
-		TextMan = getI18NValue(180253913),
-		ActionType = {
-			101,
-			102,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"8"
-			},
-			{
-				"22000121"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090106"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090106] = {
-		Id = 71090106,
-		DialogType = 1,
-		TextMan = getI18NValue(180253914),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090107"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090107] = {
-		Id = 71090107,
-		DialogType = 1,
-		TextMan = getI18NValue(180253915),
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090108"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090108] = {
-		DialogType = 1,
-		StayTime = 1.5,
-		Id = 71090108,
-		ActionType = {
-			103,
-			102,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"1",
-				"99005",
-				"50140102",
-				"0,0,0"
-			},
-			{
-				"22000106"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090109"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090109] = {
-		DialogType = 1,
-		StayTime = 1.5,
-		Id = 71090109,
-		ActionType = {
-			108,
-			103,
-			102,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"50140102",
-				"99005"
-			},
-			{
-				"1",
-				"99005",
-				"0",
-				"0,2.22,0"
-			},
-			{
-				"22000106"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090110"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090110] = {
-		Id = 71090110,
-		StayTime = 1.5,
-		DialogType = 1,
-		TextMan = getI18NValue(180253916),
-		ActionType = {
-			108,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"99005"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090111"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090111] = {
-		Id = 71090111,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090112"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090112] = {
-		DialogType = 1,
-		StayTime = 2,
-		Id = 71090112,
-		ActionType = {
-			1011,
-			1012,
-			1014,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"6"
-			},
-			{
-				"0",
-				"S_move",
-				"1.8",
-				"-2.82,0,-6"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090113"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090113] = {
-		Id = 71090113,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090114"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090114] = {
-		DialogType = 1,
-		StayTime = 2,
-		Id = 71090114,
-		ActionType = {
-			1011,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"3"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090115"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090115] = {
-		Id = 71090115,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090116"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090116] = {
-		DialogType = 1,
-		Id = 71090116,
-		TextMan = getI18NValue(180253917),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000114"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090117"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090117] = {
-		Id = 71090117,
-		DialogType = 1,
-		TextMan = getI18NValue(180253918),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090118"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090118] = {
-		Id = 71090118,
-		DialogType = 1,
-		TextMan = getI18NValue(180253919),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090119"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090119] = {
-		Id = 71090119,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090120"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090120] = {
-		DialogType = 1,
-		StayTime = 2,
-		Id = 71090120,
-		ActionType = {
-			1011,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"4"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090121"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090121] = {
-		Id = 71090121,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090122"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090122] = {
-		DialogType = 1,
-		Id = 71090122,
-		TextMan = getI18NValue(180253920),
-		ActionType = {
-			101,
-			102,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"2"
-			},
-			{
-				"22000121"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090123"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090123] = {
-		Id = 71090123,
-		DialogType = 1,
-		TextMan = getI18NValue(180253921),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090124"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090124] = {
-		Id = 71090124,
-		DialogType = 1,
-		TextMan = getI18NValue(180253922),
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090125"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090125] = {
-		Id = 71090125,
-		DialogType = 1,
-		TextMan = getI18NValue(180253923),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090126"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090126] = {
-		Id = 71090126,
-		DialogType = 1,
-		TextMan = getI18NValue(180253924),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090127"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090127] = {
-		Id = 71090127,
-		DialogType = 1,
-		TextMan = getI18NValue(180253925),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090128"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090128] = {
-		DialogType = 1,
-		Id = 71090128,
-		TextMan = getI18NValue(180253926),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090129"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090129] = {
-		Id = 71090129,
-		DialogType = 1,
-		TextMan = getI18NValue(180253927),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090130"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090130] = {
-		Id = 71090130,
-		DialogType = 1,
-		TextMan = getI18NValue(180253928),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090131"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090131] = {
-		DialogType = 1,
-		Id = 71090131,
-		TextMan = getI18NValue(180253929),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000116"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090132"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090132] = {
-		Id = 71090132,
-		DialogType = 1,
-		TextMan = getI18NValue(180253930),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090133"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090133] = {
-		Id = 71090133,
-		DialogType = 1,
-		TextMan = getI18NValue(180253931),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090134"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090134] = {
-		Id = 71090134,
-		DialogType = 1,
-		TextMan = getI18NValue(180253932),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090135"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090135] = {
-		Id = 71090135,
-		DialogType = 1,
-		TextMan = getI18NValue(180253933),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090136"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090136] = {
-		Id = 71090136,
-		DialogType = 1,
-		TextMan = getI18NValue(180253934),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090137"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090137] = {
-		Id = 71090137,
-		DialogType = 1,
-		TextMan = getI18NValue(180253935),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090138"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090138] = {
-		DialogType = 1,
-		Id = 71090138,
-		TextMan = getI18NValue(180253936),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000107"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090139"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090139] = {
-		Id = 71090139,
-		DialogType = 1,
-		TextMan = getI18NValue(180253937),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090140"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090140] = {
-		Id = 71090140,
-		DialogType = 1,
-		TextMan = getI18NValue(180253938),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090141"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090141] = {
-		DialogType = 1,
-		Id = 71090141,
-		TextMan = getI18NValue(180253939),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"2"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090142"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090142] = {
-		Id = 71090142,
-		DialogType = 1,
-		TextMan = getI18NValue(180253940),
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090143"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090143] = {
-		Id = 71090143,
-		DialogType = 1,
-		TextMan = getI18NValue(180253941),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090144"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090144] = {
-		Id = 71090144,
-		DialogType = 1,
-		TextMan = getI18NValue(180253942),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090145"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090145] = {
-		Id = 71090145,
-		DialogType = 1,
-		TextMan = getI18NValue(180253943),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090146"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090146] = {
-		DialogType = 1,
-		Id = 71090146,
-		TextMan = getI18NValue(180253944),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000114"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090147"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090147] = {
-		DialogType = 1,
-		StayTime = 1.5,
-		Id = 71090147,
-		ActionType = {
-			103,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"1",
-				"99005",
-				"0",
-				"0,2.22,0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090148"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090148] = {
-		DialogType = 1,
-		Id = 71090148,
-		TextMan = getI18NValue(180253945),
-		ActionType = {
-			108,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"99005"
-			},
-			{
-				"0",
-				"2"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090149"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090149] = {
-		Id = 71090149,
-		DialogType = 1,
-		TextMan = getI18NValue(180253946),
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090150"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090150] = {
-		Id = 71090150,
-		DialogType = 1,
-		TextMan = getI18NValue(180253947),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090151"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090151] = {
-		Id = 71090151,
-		DialogType = 1,
-		TextMan = getI18NValue(180253948),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090152"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090152] = {
-		Id = 71090152,
-		DialogType = 1,
-		TextMan = getI18NValue(180253949),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090153"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090153] = {
-		DialogType = 1,
-		Id = 71090153,
-		TextMan = getI18NValue(180253950),
-		ActionType = {
-			101,
-			102,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9",
-				"1.5"
-			},
-			{
-				"22000106"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090154"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090154] = {
-		Id = 71090154,
-		DialogType = 1,
-		TextMan = getI18NValue(180253951),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090155"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090155] = {
-		Id = 71090155,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090156"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090156] = {
-		DialogType = 1,
-		StayTime = 3,
-		Id = 71090156,
-		ActionType = {
-			1011,
-			1012,
-			1014,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"5"
-			},
-			{
-				"0",
-				"S_move",
-				"1.8",
-				"-5.46,0,-3.8"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090157"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090157] = {
-		Id = 71090157,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090158"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090158] = {
-		Id = 71090158,
-		DialogType = 1,
-		TextMan = getI18NValue(180253952),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090159"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090159] = {
-		Id = 71090159,
-		DialogType = 1,
-		TextMan = getI18NValue(180253953),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090160"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090160] = {
-		DialogType = 1,
-		Id = 71090160,
-		TextMan = getI18NValue(180253954),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000121"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090161"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090161] = {
-		Id = 71090161,
-		DialogType = 1,
-		TextMan = getI18NValue(180253955),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090162"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090162] = {
-		DialogType = 1,
-		Id = 71090162,
-		TextMan = getI18NValue(180253956),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"2"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090163"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090163] = {
-		Id = 71090163,
-		DialogType = 1,
-		TextMan = getI18NValue(180253957),
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090164"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090164] = {
-		DialogType = 1,
-		Id = 71090164,
-		TextMan = getI18NValue(180253958),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000106"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090165"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090165] = {
-		Id = 71090165,
-		DialogType = 1,
-		TextMan = getI18NValue(180253959),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090166"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090166] = {
-		Id = 71090166,
-		DialogType = 1,
-		TextMan = getI18NValue(180253960),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090167"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090167] = {
-		Id = 71090167,
-		StayTime = 1.5,
-		DialogType = 1,
-		TextMan = getI18NValue(180253961),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090168"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090168] = {
-		Id = 71090168,
-		DialogType = 1,
-		TextMan = getI18NValue(180253962),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090169"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090169] = {
-		Id = 71090169,
-		StayTime = 1.5,
-		DialogType = 1,
-		TextMan = getI18NValue(180253963),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090170"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090170] = {
-		Id = 71090170,
-		DialogType = 1,
-		TextMan = getI18NValue(180253964),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090171"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090171] = {
-		Id = 71090171,
-		StayTime = 1.5,
-		DialogType = 1,
-		TextMan = getI18NValue(180253965),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090172"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090172] = {
-		Id = 71090172,
-		DialogType = 1,
-		TextMan = getI18NValue(180253966),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090173"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090173] = {
-		Id = 71090173,
-		DialogType = 1,
-		TextMan = getI18NValue(180253967),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090174"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090174] = {
-		Id = 71090174,
-		DialogType = 1,
-		TextMan = getI18NValue(180253968),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090175"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090175] = {
-		Id = 71090175,
-		DialogType = 1,
-		TextMan = getI18NValue(180253969),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090176"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090176] = {
-		Id = 71090176,
-		DialogType = 1,
-		TextMan = getI18NValue(180253970),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090177"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090177] = {
-		Id = 71090177,
-		DialogType = 1,
-		TextMan = getI18NValue(180253971),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090178"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090178] = {
-		Id = 71090178,
-		DialogType = 1,
-		TextMan = getI18NValue(180253972),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090179"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090179] = {
-		DialogType = 1,
-		Id = 71090179,
-		TextMan = getI18NValue(180253973),
-		ActionType = {
-			101,
-			102,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"2"
-			},
-			{
-				"22000109"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090180"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090180] = {
-		Id = 71090180,
-		DialogType = 1,
-		TextMan = getI18NValue(180253974),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090181"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090181] = {
-		Id = 71090181,
-		DialogType = 1,
-		TextMan = getI18NValue(180253975),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090182"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090182] = {
-		Id = 71090182,
-		DialogType = 1,
-		TextMan = getI18NValue(180253976),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090183"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090183] = {
-		Id = 71090183,
-		DialogType = 1,
-		TextMan = getI18NValue(180253977),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090184"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090184] = {
-		Id = 71090184,
-		DialogType = 1,
-		TextMan = getI18NValue(180253978),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090185"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090185] = {
-		Id = 71090185,
-		DialogType = 1,
-		TextMan = getI18NValue(180253979),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090186"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090186] = {
-		Id = 71090186,
-		DialogType = 1,
-		TextMan = getI18NValue(180253980),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090187"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090187] = {
-		Id = 71090187,
-		DialogType = 1,
-		TextMan = getI18NValue(180253981),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090188"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090188] = {
-		DialogType = 1,
-		Id = 71090188,
-		TextMan = getI18NValue(180253982),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000116"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090189"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090189] = {
-		Id = 71090189,
-		DialogType = 1,
-		TextMan = getI18NValue(180253983),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090190"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090190] = {
-		Id = 71090190,
-		DialogType = 1,
-		TextMan = getI18NValue(180253984),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090191"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090191] = {
-		DialogType = 1,
-		Id = 71090191,
-		TextMan = getI18NValue(180253985),
-		ActionType = {
-			102,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"22000106"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090192"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090192] = {
-		Id = 71090192,
-		DialogType = 1,
-		TextMan = getI18NValue(180253986),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090193"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090193] = {
-		DialogType = 1,
-		StayTime = 1.5,
-		Id = 71090193,
-		ActionType = {
-			103,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"1",
-				"99005",
-				"50140102",
-				"0,0,0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090194"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090194] = {
-		DialogType = 1,
-		Id = 71090194,
-		TextMan = getI18NValue(180253987),
-		ActionType = {
-			108,
-			102,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"50140102",
-				"99005"
-			},
-			{
-				"22000102"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090195"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090195] = {
-		Id = 71090195,
-		DialogType = 1,
-		TextMan = getI18NValue(180253988),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"50140102",
-				"71090196"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090196] = {
-		Id = 71090196,
-		DialogType = 1,
-		TextMan = getI18NValue(180253989),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090197"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090197] = {
-		Id = 71090197,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090198"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090198] = {
-		DialogType = 1,
-		StayTime = 2,
-		Id = 71090198,
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"50140102",
-				"229"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090199"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090199] = {
-		Id = 71090199,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090200"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090200] = {
-		DialogType = 1,
-		Id = 71090200,
-		TextMan = getI18NValue(180253991),
-		ActionType = {
-			101,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090201"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090201] = {
-		Id = 71090201,
-		DialogType = 1,
-		TextMan = getI18NValue(180253992),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090202"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090202] = {
-		Id = 71090202,
-		DialogType = 1,
-		TextMan = getI18NValue(180254086),
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090203"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090203] = {
-		Id = 71090203,
-		StayTime = 0.5,
-		DialogType = 1,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090204"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090204] = {
-		DialogType = 1,
-		StayTime = 0.5,
-		Id = 71090204,
-		ActionType = {
-			103,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"2",
-				"99102",
-				"0,0,0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090205"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090205] = {
-		DialogType = 1,
-		StayTime = 2.5,
-		Id = 71090205,
-		ActionType = {
-			1011,
-			1004,
-			1021,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"0"
-			},
-			{
-				"1000901"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"71090206"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[71090206] = {
-		DialogType = 1,
-		StayTime = 0.5,
-		Id = 71090206,
-		ActionType = {
-			108,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"-1",
-				"99102"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			0,
-			106,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{},
-			{
-				"0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010101] = {
-		DialogType = 2,
-		Id = 72010101,
-		TextMan = getI18NValue(180247547),
-		ActionType = {
-			201,
-			202,
-			203,
-			1019,
-			1012,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"10170209"
-			},
-			{
-				"0",
-				"S_move",
-				"2.25",
-				"-9.5,0,-4.4"
-			},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010102"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010102] = {
-		DialogType = 2,
-		Id = 72010102,
-		TextMan = getI18NValue(180247548),
-		ActionType = {
-			201,
-			202,
-			203,
-			1012,
-			1014,
-			1014,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"10170209",
-				"H_move",
-				"2.25",
-				"-8.5,0,-4.4"
-			},
-			{
-				"0",
-				"2"
-			},
-			{
-				"10170209",
-				"1"
-			},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010201"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010201] = {
-		DialogType = 2,
-		Id = 72010201,
-		TextMan = getI18NValue(180247549),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010202"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010202] = {
-		DialogType = 2,
-		Id = 72010202,
-		TextMan = getI18NValue(180247550),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010203"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010203] = {
-		DialogType = 2,
-		Id = 72010203,
-		TextMan = getI18NValue(180247551),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010204"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010204] = {
-		DialogType = 2,
-		Id = 72010204,
-		TextMan = getI18NValue(180247552),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010205"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010205] = {
-		DialogType = 2,
-		Id = 72010205,
-		TextMan = getI18NValue(180247553),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"2"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010206"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010206] = {
-		DialogType = 2,
-		Id = 72010206,
-		TextMan = getI18NValue(180247554),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010207"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010207] = {
-		DialogType = 2,
-		Id = 72010207,
-		TextMan = getI18NValue(180247555),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010208"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010208] = {
-		DialogType = 2,
-		Id = 72010208,
-		TextMan = getI18NValue(180247556),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010209"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010209] = {
-		DialogType = 2,
-		Id = 72010209,
-		TextMan = getI18NValue(180247557),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010210"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010210] = {
-		DialogType = 2,
-		Id = 72010210,
-		TextMan = getI18NValue(180247558),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010211"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010211] = {
-		DialogType = 2,
-		Id = 72010211,
-		TextMan = getI18NValue(180247559),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010212"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010212] = {
-		DialogType = 2,
-		Id = 72010212,
-		TextMan = getI18NValue(180247560),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010213"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010213] = {
-		DialogType = 2,
-		Id = 72010213,
-		TextMan = getI18NValue(180247561),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010214"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010214] = {
-		DialogType = 2,
-		Id = 72010214,
-		TextMan = getI18NValue(180247562),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010215"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010215] = {
-		DialogType = 2,
-		Id = 72010215,
-		TextMan = getI18NValue(180247563),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010216"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010216] = {
-		DialogType = 2,
-		Id = 72010216,
-		TextMan = getI18NValue(180247564),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			105,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"2003004",
-				"2003005,104,10170209,72010301",
-				"2003006,104,10170209,72010301"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010301] = {
-		DialogType = 2,
-		Id = 72010301,
-		TextMan = getI18NValue(180247565),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010302"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010302] = {
-		DialogType = 2,
-		Id = 72010302,
-		TextMan = getI18NValue(180247566),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010303"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010303] = {
-		DialogType = 2,
-		Id = 72010303,
-		TextMan = getI18NValue(180247567),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"25"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010304"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010304] = {
-		DialogType = 2,
-		Id = 72010304,
-		TextMan = getI18NValue(180247568),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010305"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010305] = {
-		DialogType = 2,
-		Id = 72010305,
-		TextMan = getI18NValue(180247569),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010306"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010306] = {
-		DialogType = 2,
-		Id = 72010306,
-		TextMan = getI18NValue(180247570),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010307"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010307] = {
-		DialogType = 2,
-		Id = 72010307,
-		TextMan = getI18NValue(180247571),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010308"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010308] = {
-		DialogType = 2,
-		Id = 72010308,
-		TextMan = getI18NValue(180247572),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010309"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010309] = {
-		DialogType = 2,
-		Id = 72010309,
-		TextMan = getI18NValue(180247573),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010310"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010310] = {
-		DialogType = 2,
-		Id = 72010310,
-		TextMan = getI18NValue(180247574),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010311"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010311] = {
-		DialogType = 2,
-		Id = 72010311,
-		TextMan = getI18NValue(180247575),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010312"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010312] = {
-		DialogType = 2,
-		Id = 72010312,
-		TextMan = getI18NValue(180247576),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010313"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010313] = {
-		DialogType = 2,
-		Id = 72010313,
-		TextMan = getI18NValue(180247577),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010314"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010314] = {
-		DialogType = 2,
-		Id = 72010314,
-		TextMan = getI18NValue(180247578),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010315"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010315] = {
-		DialogType = 2,
-		Id = 72010315,
-		TextMan = getI18NValue(180247579),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010316"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010316] = {
-		DialogType = 2,
-		Id = 72010316,
-		TextMan = getI18NValue(180247580),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010317"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010317] = {
-		DialogType = 2,
-		Id = 72010317,
-		TextMan = getI18NValue(180247581),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010318"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010318] = {
-		DialogType = 2,
-		Id = 72010318,
-		TextMan = getI18NValue(180247582),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010319"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010319] = {
-		DialogType = 2,
-		Id = 72010319,
-		TextMan = getI18NValue(180247583),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010320"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010320] = {
-		DialogType = 2,
-		Id = 72010320,
-		TextMan = getI18NValue(180247584),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"25"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010321"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010321] = {
-		DialogType = 2,
-		Id = 72010321,
-		TextMan = getI18NValue(180247585),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010322"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010322] = {
-		DialogType = 2,
-		Id = 72010322,
-		TextMan = getI18NValue(180247586),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010323"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010323] = {
-		DialogType = 2,
-		Id = 72010323,
-		TextMan = getI18NValue(180247587),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010324"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010324] = {
-		DialogType = 2,
-		Id = 72010324,
-		TextMan = getI18NValue(180247588),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010325"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010325] = {
-		DialogType = 2,
-		Id = 72010325,
-		TextMan = getI18NValue(180247589),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010326"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010326] = {
-		DialogType = 2,
-		Id = 72010326,
-		TextMan = getI18NValue(180247590),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010327"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010327] = {
-		DialogType = 2,
-		Id = 72010327,
-		TextMan = getI18NValue(180247591),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010328"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010328] = {
-		DialogType = 2,
-		Id = 72010328,
-		TextMan = getI18NValue(180247592),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010329"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010329] = {
-		DialogType = 2,
-		Id = 72010329,
-		TextMan = getI18NValue(180247593),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010330"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010330] = {
-		DialogType = 2,
-		Id = 72010330,
-		TextMan = getI18NValue(180247594),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010331"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010331] = {
-		DialogType = 2,
-		Id = 72010331,
-		TextMan = getI18NValue(180247595),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010332"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010332] = {
-		DialogType = 2,
-		Id = 72010332,
-		TextMan = getI18NValue(180247596),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010333"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010333] = {
-		DialogType = 2,
-		Id = 72010333,
-		TextMan = getI18NValue(180247597),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010334"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010334] = {
-		DialogType = 2,
-		Id = 72010334,
-		TextMan = getI18NValue(180247598),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010335"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010335] = {
-		DialogType = 2,
-		Id = 72010335,
-		TextMan = getI18NValue(180247599),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010336"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010336] = {
-		DialogType = 2,
-		Id = 72010336,
-		TextMan = getI18NValue(180247600),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010337"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010337] = {
-		DialogType = 2,
-		Id = 72010337,
-		TextMan = getI18NValue(180247601),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			103,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010400"
-			},
-			{
-				"2",
-				"90090",
-				"0,0,0"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010400] = {
-		Id = 72010400,
-		StayTime = 1,
-		DialogType = 1,
-		PictureID = 10000,
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010401"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010401] = {
-		DialogType = 2,
-		Id = 72010401,
-		TextMan = getI18NValue(180247602),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"1"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010402"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010402] = {
-		DialogType = 2,
-		Id = 72010402,
-		TextMan = getI18NValue(180247603),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010403"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010403] = {
-		DialogType = 2,
-		Id = 72010403,
-		TextMan = getI18NValue(180247604),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010404"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010404] = {
-		DialogType = 2,
-		Id = 72010404,
-		TextMan = getI18NValue(180247605),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010405"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010405] = {
-		DialogType = 2,
-		Id = 72010405,
-		TextMan = getI18NValue(180247606),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010406"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010406] = {
-		DialogType = 2,
-		Id = 72010406,
-		TextMan = getI18NValue(180247607),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010407"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010407] = {
-		DialogType = 2,
-		Id = 72010407,
-		TextMan = getI18NValue(180247608),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010408"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010408] = {
-		DialogType = 2,
-		Id = 72010408,
-		TextMan = getI18NValue(180247609),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010409"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010409] = {
-		DialogType = 2,
-		Id = 72010409,
-		TextMan = getI18NValue(180247610),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010410"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010410] = {
-		DialogType = 2,
-		Id = 72010410,
-		TextMan = getI18NValue(180247611),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010411"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010411] = {
-		DialogType = 2,
-		Id = 72010411,
-		TextMan = getI18NValue(180247612),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"10"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010412"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010412] = {
-		DialogType = 2,
-		Id = 72010412,
-		TextMan = getI18NValue(180247613),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010413"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010413] = {
-		DialogType = 2,
-		Id = 72010413,
-		TextMan = getI18NValue(180247614),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010414"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010414] = {
-		DialogType = 2,
-		Id = 72010414,
-		TextMan = getI18NValue(180247615),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"8"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010415"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010415] = {
-		DialogType = 2,
-		Id = 72010415,
-		TextMan = getI18NValue(180247616),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010416"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010416] = {
-		DialogType = 2,
-		Id = 72010416,
-		TextMan = getI18NValue(180247617),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010417"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010417] = {
-		DialogType = 2,
-		Id = 72010417,
-		TextMan = getI18NValue(180247618),
-		ActionType = {
-			201,
-			202,
-			203,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"72010418"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010418] = {
-		DialogType = 2,
-		Id = 72010418,
-		TextMan = getI18NValue(180247619),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100000"
-			},
-			{
-				"1"
-			},
-			{
-				"S_talk",
-				"1"
-			},
-			{
-				"0",
-				"9"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			104,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"10170209",
-				"72010419"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010419] = {
-		DialogType = 2,
-		Id = 72010419,
-		TextMan = getI18NValue(180247620),
-		ActionType = {
-			201,
-			202,
-			203,
-			101,
-			0,
-			0,
-			0
-		},
-		ActionParam = {
-			{
-				"100004"
-			},
-			{
-				"1"
-			},
-			{
-				"S_Idle",
-				"1"
-			},
-			{
-				"0",
-				"11"
-			},
-			{},
-			{},
-			{}
-		},
-		ActionEndType = {
-			103,
-			1004,
-			1021,
-			106,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"2",
-				"90090",
-				"0,0,0"
-			},
-			{
-				"1100101"
-			},
-			{},
-			{
-				"10170209"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[72010501] = {
-		DialogType = 1,
-		Id = 72010501,
-		ActionEndType = {
-			105,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		ActionEndParam = {
-			{
-				"0",
-				"2003001",
-				"2003002,104,0,72010101",
-				"2003003,104,0,10000000"
 			},
 			{},
 			{},

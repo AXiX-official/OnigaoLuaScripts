@@ -463,6 +463,28 @@ local CfgGuideTable = {
 			301804,
 			301805
 		}
+	},
+	[1901] = {
+		Content = "家园引导",
+		TriggerValues = "Settlement_ActionUI",
+		GuideType = 1,
+		KeyID = 302101,
+		HideL2D = true,
+		Order = 1702,
+		RelinkRevert = true,
+		TriggerType = 5,
+		Conditions = "CheckPlayerLv,>=,1|CheckGuideNoFinished,1901|CheckChapterFinished,20010108|CheckTaskState,1010900,==,3",
+		Id = 1901,
+		Record = true,
+		Enable = true,
+		SubIDList = {
+			302101,
+			302102,
+			302103,
+			302104,
+			302105,
+			302106
+		}
 	}
 }
 

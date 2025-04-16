@@ -3293,6 +3293,15 @@ local CfgSoundTable_1 = {
 		FileName = "Sound/Story/Story_move_cloud.ogg",
 		FadeOutSeconds = 1
 	},
+	[22000208] = {
+		MaxDistance = 100,
+		GroupName = "ENVIRONMENT",
+		Pitch = 1,
+		VolumeInSoundGroup = 1,
+		Id = 22000208,
+		FileName = "Sound/Story/Story_KnifeCollision_01.ogg",
+		FadeOutSeconds = 1
+	},
 	[23000001] = {
 		VolumeInSoundGroup = 1,
 		GroupName = "ENVIRONMENT",
@@ -46394,15 +46403,6 @@ local CfgSoundTable_1 = {
 		Id = 101140124,
 		Pitch = 1,
 		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_An_01_240.ogg"
-	},
-	[101140125] = {
-		MaxDistance = 100,
-		GroupName = "Dub",
-		GroupType = 1,
-		VolumeInSoundGroup = 1,
-		Id = 101140125,
-		Pitch = 1,
-		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_175.ogg"
 	}
 }
 

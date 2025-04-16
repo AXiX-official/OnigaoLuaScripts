@@ -91,6 +91,26 @@ local CfgCardJackpotInstructionTable = {
 		Title = getI18NValue(180264479),
 		Text = getI18NValue(180264480)
 	},
+	[50510113] = {
+		Id = 50510113,
+		Title = getI18NValue(180267260),
+		Text = getI18NValue(180267261)
+	},
+	[50510114] = {
+		Id = 50510114,
+		Title = getI18NValue(180267262),
+		Text = getI18NValue(180267263)
+	},
+	[50510115] = {
+		Id = 50510115,
+		Title = getI18NValue(180267264),
+		Text = getI18NValue(180267265)
+	},
+	[50510116] = {
+		Id = 50510116,
+		Title = getI18NValue(180267266),
+		Text = getI18NValue(180267267)
+	},
 	[50510201] = {
 		Id = 50510201,
 		Title = getI18NValue(180260502),

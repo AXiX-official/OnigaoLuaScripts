@@ -2033,6 +2033,36 @@ local CfgHeroSoundTable = {
 		Name = getI18NValue(180258103),
 		Text = getI18NValue(180258102)
 	},
+	[302101] = {
+		Id = 302101,
+		Name = getI18NValue(180267224),
+		Text = getI18NValue(180267223)
+	},
+	[302102] = {
+		Id = 302102,
+		Name = getI18NValue(180267226),
+		Text = getI18NValue(180267225)
+	},
+	[302103] = {
+		Id = 302103,
+		Name = getI18NValue(180267228),
+		Text = getI18NValue(180267227)
+	},
+	[302104] = {
+		Id = 302104,
+		Name = getI18NValue(180267230),
+		Text = getI18NValue(180267229)
+	},
+	[302105] = {
+		Id = 302105,
+		Name = getI18NValue(180267247),
+		Text = getI18NValue(180267246)
+	},
+	[302106] = {
+		Id = 302106,
+		Name = getI18NValue(180267249),
+		Text = getI18NValue(180267248)
+	},
 	[1010001] = {
 		HeroId = 10000001,
 		Sound = 10000001,

@@ -12186,6 +12186,189 @@ GuideSub = {
 		}
 	},
 	{
+		GuideSubShow = "MainUI(Clone)",
+		GuideSubID = 302101,
+		GuideName = "旁白说明降神1",
+		GuideShowTime = -1,
+		GuideUIType = {
+			{
+				GuideType.NpcTalk,
+				1,
+				321012,
+				0.4,
+				0.4,
+				-560,
+				-10,
+				302101,
+				"#0D0B0B50",
+				1,
+				0
+			}
+		}
+	},
+	{
+		GuideSubShow = "MainUI(Clone)",
+		GuideSubID = 302102,
+		GuideName = "引导点击单抽",
+		GuideShowTime = -1,
+		GuideUIType = {
+			{
+				GuideType.ClickArea,
+				0,
+				CenterImgPath.GuideMask_03,
+				PunchingImgPath.GuideMask_03,
+				290,
+				290,
+				"MainUI(Clone)/Root/Panel_UI/RpgRoot/RPGInfoRoot/buttonMap",
+				0,
+				0,
+				0,
+				-1,
+				"ClickOn",
+				0.7,
+				321013,
+				302102,
+				300,
+				-180
+			},
+			{
+				GuideType.PlayEffect,
+				1,
+				"FX_UI/FX_UI_tishi_yuan_01",
+				"MainUI(Clone)/Root/Panel_UI/RpgRoot/RPGInfoRoot/buttonMap",
+				0,
+				0,
+				0,
+				-1,
+				8,
+				8,
+				"effect/1"
+			}
+		}
+	},
+	{
+		GuideSubShow = "MainUI(Clone)",
+		GuideSubID = 302103,
+		GuideName = "引导点击单抽",
+		GuideShowTime = -1,
+		GuideUIType = {
+			{
+				GuideType.ClickArea,
+				0,
+				CenterImgPath.GuideMask_03,
+				PunchingImgPath.GuideMask_03,
+				290,
+				290,
+				"WorldAreaUI(Clone)/Root/mapScroll/viewport/content/10100/buttonClick",
+				0,
+				0,
+				0,
+				-1,
+				"ClickOn",
+				0.7,
+				321013,
+				302103,
+				300,
+				-180
+			},
+			{
+				GuideType.PlayEffect,
+				1,
+				"FX_UI/FX_UI_tishi_yuan_01",
+				"WorldAreaUI(Clone)/Root/mapScroll/viewport/content/10100/buttonClick",
+				0,
+				0,
+				0,
+				-1,
+				8,
+				8,
+				"effect/1"
+			}
+		}
+	},
+	{
+		GuideSubShow = "MainUI(Clone)",
+		GuideSubID = 302104,
+		GuideName = "引导点击单抽",
+		GuideShowTime = -1,
+		GuideUIType = {
+			{
+				GuideType.ClickArea,
+				0,
+				CenterImgPath.GuideMask_03,
+				PunchingImgPath.GuideMask_03,
+				290,
+				290,
+				"WorldAreaUI(Clone)/Root/areaDetailPop/detailScroll/viewport/detailContent/roomPrefab(Clone)/buttonClick",
+				0,
+				-100,
+				0,
+				-1,
+				"ClickOn",
+				0.7,
+				321013,
+				302104,
+				0,
+				-250
+			},
+			{
+				GuideType.PlayEffect,
+				1,
+				"FX_UI/FX_UI_tishi_yuan_01",
+				"WorldAreaUI(Clone)/Root/areaDetailPop/detailScroll/viewport/detailContent/roomPrefab(Clone)/buttonClick",
+				0,
+				-100,
+				0,
+				-1,
+				8,
+				8,
+				"effect/1"
+			}
+		}
+	},
+	{
+		GuideSubShow = "MainUI(Clone)",
+		GuideSubID = 302105,
+		GuideName = "旁白说明降神1",
+		GuideShowTime = -1,
+		GuideUIType = {
+			{
+				GuideType.NpcTalk,
+				1,
+				321012,
+				0.4,
+				0.4,
+				-560,
+				-10,
+				302105,
+				"#0D0B0B50",
+				1,
+				0
+			}
+		}
+	},
+	{
+		GuideSubShow = "MainUI(Clone)",
+		GuideSubID = 302106,
+		GuideName = "旁白说明降神1",
+		GuideShowTime = -1,
+		GuideUIType = {
+			{
+				GuideType.NpcTalk,
+				1,
+				321012,
+				0.4,
+				0.4,
+				-560,
+				-10,
+				302106,
+				"#0D0B0B50",
+				1,
+				0
+			}
+		}
+	},
+	{
 		ImagePath = "Assets/05_Images/DataResource/UIResource/GuideCommonImg/GuideCommonImg_14.png",
 		GuideSubID = 1000001
 	},

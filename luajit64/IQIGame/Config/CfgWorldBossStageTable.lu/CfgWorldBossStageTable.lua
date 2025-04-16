@@ -727,7 +727,8 @@ local CfgWorldBossStageTable = {
 			14503010
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -747,7 +748,8 @@ local CfgWorldBossStageTable = {
 			14503020
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -767,7 +769,8 @@ local CfgWorldBossStageTable = {
 			14503030
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -787,7 +790,8 @@ local CfgWorldBossStageTable = {
 			14503040
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -807,7 +811,8 @@ local CfgWorldBossStageTable = {
 			14503050
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -827,7 +832,8 @@ local CfgWorldBossStageTable = {
 			14503060
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -847,7 +853,8 @@ local CfgWorldBossStageTable = {
 			14503070
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -867,7 +874,8 @@ local CfgWorldBossStageTable = {
 			14503080
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -887,7 +895,8 @@ local CfgWorldBossStageTable = {
 			14503090
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -907,7 +916,8 @@ local CfgWorldBossStageTable = {
 			14503100
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -927,7 +937,8 @@ local CfgWorldBossStageTable = {
 			14503110
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -947,7 +958,8 @@ local CfgWorldBossStageTable = {
 			14503120
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -967,7 +979,8 @@ local CfgWorldBossStageTable = {
 			14503130
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -987,7 +1000,8 @@ local CfgWorldBossStageTable = {
 			14503140
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -1008,7 +1022,8 @@ local CfgWorldBossStageTable = {
 			14503150
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		}
 	},
 	[1201] = {
@@ -5457,7 +5472,8 @@ local CfgWorldBossStageTable = {
 			14503010
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5478,7 +5494,8 @@ local CfgWorldBossStageTable = {
 			14503020
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5499,7 +5516,8 @@ local CfgWorldBossStageTable = {
 			14503030
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5520,7 +5538,8 @@ local CfgWorldBossStageTable = {
 			14503040
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5541,7 +5560,8 @@ local CfgWorldBossStageTable = {
 			14503050
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5562,7 +5582,8 @@ local CfgWorldBossStageTable = {
 			14503060
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5583,7 +5604,8 @@ local CfgWorldBossStageTable = {
 			14503070
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5604,7 +5626,8 @@ local CfgWorldBossStageTable = {
 			14503080
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5625,7 +5648,8 @@ local CfgWorldBossStageTable = {
 			14503090
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5646,7 +5670,8 @@ local CfgWorldBossStageTable = {
 			14503100
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5667,7 +5692,8 @@ local CfgWorldBossStageTable = {
 			14503110
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5688,7 +5714,8 @@ local CfgWorldBossStageTable = {
 			14503120
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5709,7 +5736,8 @@ local CfgWorldBossStageTable = {
 			14503130
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5730,7 +5758,8 @@ local CfgWorldBossStageTable = {
 			14503140
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		},
 		KillReward = {
 			3,
@@ -5752,7 +5781,8 @@ local CfgWorldBossStageTable = {
 			14503150
 		},
 		AffixBuff = {
-			10130
+			10170,
+			10180
 		}
 	}
 }

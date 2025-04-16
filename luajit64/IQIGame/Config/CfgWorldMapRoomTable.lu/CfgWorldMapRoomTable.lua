@@ -38,17 +38,14 @@ local CfgWorldMapRoomTable = {
 		}
 	},
 	[101004] = {
-		Id = 101004,
-		AreaId = 10100,
 		Sort = 104,
+		AreaId = 10100,
 		RoomType = 1,
-		SceneId = 30600002,
+		Id = 101004,
 		IsDefault = false,
+		SceneId = 30600002,
 		MiniMapRes = "Assets/05_Images/UI/Rpg/RpgSceneImage/Rpg_Map_00.png",
-		Name = getI18NValue(180203191),
-		UnlockCondition = {
-			39101006
-		}
+		Name = getI18NValue(180203191)
 	},
 	[101005] = {
 		Sort = 105,

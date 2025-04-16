@@ -22807,315 +22807,6 @@ local CfgTaskTable = {
 			0
 		}
 	},
-	[12441311] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 6,
-		MonitorTarget = 1031,
-		Id = 12441311,
-		Name = getI18NValue(180266545),
-		Desc = getI18NValue(180266544),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55001,
-			1,
-			3001,
-			1,
-			4,
-			5000
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441312] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 30,
-		MonitorTarget = 1031,
-		Id = 12441312,
-		Name = getI18NValue(180266547),
-		Desc = getI18NValue(180266546),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55001,
-			2,
-			3003,
-			2,
-			4,
-			10000,
-			50003,
-			10
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441313] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 68,
-		MonitorTarget = 1031,
-		Id = 12441313,
-		Name = getI18NValue(180266549),
-		Desc = getI18NValue(180266548),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55001,
-			3,
-			3001,
-			3,
-			4,
-			15000,
-			50003,
-			20,
-			15021,
-			10
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441314] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 98,
-		MonitorTarget = 1031,
-		Id = 12441314,
-		Name = getI18NValue(180266551),
-		Desc = getI18NValue(180266550),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55002,
-			2,
-			3003,
-			4,
-			4,
-			30000,
-			50003,
-			30,
-			15021,
-			20
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441315] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 128,
-		MonitorTarget = 1031,
-		Id = 12441315,
-		Name = getI18NValue(180266553),
-		Desc = getI18NValue(180266552),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55002,
-			3,
-			3001,
-			5,
-			4,
-			40000,
-			50004,
-			10,
-			60202,
-			10
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441316] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 198,
-		MonitorTarget = 1031,
-		Id = 12441316,
-		Name = getI18NValue(180266555),
-		Desc = getI18NValue(180266554),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55002,
-			5,
-			3003,
-			5,
-			4,
-			50000,
-			50004,
-			15,
-			60202,
-			20
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441317] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 328,
-		MonitorTarget = 1031,
-		Id = 12441317,
-		Name = getI18NValue(180266557),
-		Desc = getI18NValue(180266556),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55002,
-			6,
-			3001,
-			10,
-			4,
-			100000,
-			50004,
-			30,
-			16005,
-			5
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441318] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 648,
-		MonitorTarget = 1031,
-		Id = 12441318,
-		Name = getI18NValue(180266559),
-		Desc = getI18NValue(180266558),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55002,
-			8,
-			3003,
-			10,
-			4,
-			300000,
-			15000,
-			1,
-			16005,
-			10
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
-	[12441319] = {
-		Type = 11,
-		LockShow = 1,
-		NeedSchedule = 1000,
-		MonitorTarget = 1031,
-		Id = 12441319,
-		Name = getI18NValue(180266561),
-		Desc = getI18NValue(180266560),
-		PickUpInfo = null,
-		TypeExtend = {
-			8
-		},
-		EventParam = {
-			-1,
-			4
-		},
-		ActionParam = {
-			55002,
-			10,
-			3001,
-			20,
-			4,
-			500000,
-			60122,
-			1,
-			16005,
-			15
-		},
-		CompleteAction = {
-			1,
-			0,
-			0,
-			0
-		}
-	},
 	[1010001] = {
 		IsUnLock = 1,
 		NeedSchedule = 1,
@@ -33169,6 +32860,1490 @@ local CfgTaskTable = {
 			1,
 			106,
 			20010618
+		}
+	},
+	[1070100] = {
+		NeedSchedule = 3,
+		LockShow = 1,
+		MonitorTarget = 1015,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		PreposeID = 1061800,
+		AutoSubmit = true,
+		Id = 1070100,
+		Name = getI18NValue(180266647),
+		Desc = getI18NValue(180266646),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070101,
+			3,
+			1070102,
+			3,
+			1070103,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7500,
+			50004,
+			4,
+			3003,
+			1
+		},
+		CompleteAction = {
+			0,
+			40,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{},
+			{
+				1
+			},
+			{},
+			{}
+		}
+	},
+	[1070101] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1061800,
+		NeedSchedule = 41,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070101,
+		Name = getI18NValue(180266649),
+		Desc = getI18NValue(180266648),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070100,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070102] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070101,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070102,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266651),
+		Desc = getI18NValue(180266650),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070100,
+			2
+		},
+		EventParam = {
+			307001
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010701
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070103] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070102,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070103,
+		Name = getI18NValue(180266653),
+		Desc = getI18NValue(180266652),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070100,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010701
+		}
+	},
+	[1070200] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070100,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070200,
+		Name = getI18NValue(180266655),
+		Desc = getI18NValue(180266654),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070201,
+			3,
+			1070202,
+			3,
+			1070203,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7500,
+			50004,
+			4
+		}
+	},
+	[1070201] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070100,
+		NeedSchedule = 41,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070201,
+		Name = getI18NValue(180266657),
+		Desc = getI18NValue(180266656),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070200,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070202] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070201,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070202,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266659),
+		Desc = getI18NValue(180266658),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070200,
+			2
+		},
+		EventParam = {
+			307002
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010702
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070203] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070202,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070203,
+		Name = getI18NValue(180266661),
+		Desc = getI18NValue(180266660),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070200,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010702
+		}
+	},
+	[1070300] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070200,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070300,
+		Name = getI18NValue(180266663),
+		Desc = getI18NValue(180266662),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070301,
+			3,
+			1070302,
+			3,
+			1070303,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7500,
+			50004,
+			4,
+			3000,
+			1
+		}
+	},
+	[1070301] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070200,
+		NeedSchedule = 41,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070301,
+		Name = getI18NValue(180266665),
+		Desc = getI18NValue(180266664),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070300,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070302] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070301,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070302,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266667),
+		Desc = getI18NValue(180266666),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070300,
+			2
+		},
+		EventParam = {
+			307003
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010703
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070303] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070302,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070303,
+		Name = getI18NValue(180266669),
+		Desc = getI18NValue(180266668),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070300,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010703
+		}
+	},
+	[1070400] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070300,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070400,
+		Name = getI18NValue(180266671),
+		Desc = getI18NValue(180266670),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070401,
+			3,
+			1070402,
+			3,
+			1070403,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7600,
+			50004,
+			4
+		}
+	},
+	[1070401] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070300,
+		NeedSchedule = 42,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070401,
+		Name = getI18NValue(180266673),
+		Desc = getI18NValue(180266672),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070400,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070402] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070401,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070402,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266675),
+		Desc = getI18NValue(180266674),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070400,
+			2
+		},
+		EventParam = {
+			307004
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010704
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070403] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070402,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070403,
+		Name = getI18NValue(180266677),
+		Desc = getI18NValue(180266676),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070400,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010704
+		}
+	},
+	[1070500] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070400,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070500,
+		Name = getI18NValue(180266679),
+		Desc = getI18NValue(180266678),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070501,
+			3,
+			1070502,
+			3,
+			1070503,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7600,
+			50004,
+			4,
+			3003,
+			1
+		}
+	},
+	[1070501] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070400,
+		NeedSchedule = 42,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070501,
+		Name = getI18NValue(180266681),
+		Desc = getI18NValue(180266680),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070500,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070502] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070501,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070502,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266683),
+		Desc = getI18NValue(180266682),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070500,
+			2
+		},
+		EventParam = {
+			307005
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010705
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070503] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070502,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070503,
+		Name = getI18NValue(180266685),
+		Desc = getI18NValue(180266684),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070500,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010705
+		}
+	},
+	[1070600] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070500,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070600,
+		Name = getI18NValue(180266687),
+		Desc = getI18NValue(180266686),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070601,
+			3,
+			1070602,
+			3,
+			1070603,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7700,
+			50004,
+			4
+		}
+	},
+	[1070601] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070500,
+		NeedSchedule = 42,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070601,
+		Name = getI18NValue(180266689),
+		Desc = getI18NValue(180266688),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070600,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070602] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070601,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070602,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266691),
+		Desc = getI18NValue(180266690),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070600,
+			2
+		},
+		EventParam = {
+			307006
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010706
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070603] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070602,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070603,
+		Name = getI18NValue(180266693),
+		Desc = getI18NValue(180266692),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070600,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010706
+		}
+	},
+	[1070700] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070600,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070700,
+		Name = getI18NValue(180266695),
+		Desc = getI18NValue(180266694),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070701,
+			3,
+			1070702,
+			3,
+			1070703,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7700,
+			50004,
+			4,
+			3000,
+			1
+		}
+	},
+	[1070701] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070600,
+		NeedSchedule = 43,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070701,
+		Name = getI18NValue(180266697),
+		Desc = getI18NValue(180266696),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070700,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070702] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070701,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070702,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266699),
+		Desc = getI18NValue(180266698),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070700,
+			2
+		},
+		EventParam = {
+			307007
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010707
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070703] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070702,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070703,
+		Name = getI18NValue(180266701),
+		Desc = getI18NValue(180266700),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070700,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010707
+		}
+	},
+	[1070800] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070700,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070800,
+		Name = getI18NValue(180266703),
+		Desc = getI18NValue(180266702),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070801,
+			3,
+			1070802,
+			3,
+			1070803,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7700,
+			50004,
+			4
+		}
+	},
+	[1070801] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070700,
+		NeedSchedule = 43,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070801,
+		Name = getI18NValue(180266705),
+		Desc = getI18NValue(180266704),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070800,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070802] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070801,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070802,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266707),
+		Desc = getI18NValue(180266706),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070800,
+			2
+		},
+		EventParam = {
+			307008
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010708
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070803] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070802,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070803,
+		Name = getI18NValue(180266709),
+		Desc = getI18NValue(180266708),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070800,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010708
+		}
+	},
+	[1070900] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070800,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1070900,
+		Name = getI18NValue(180266711),
+		Desc = getI18NValue(180266710),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1070901,
+			3,
+			1070902,
+			3,
+			1070903,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7800,
+			50004,
+			4,
+			3003,
+			1
+		}
+	},
+	[1070901] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070800,
+		NeedSchedule = 43,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070901,
+		Name = getI18NValue(180266713),
+		Desc = getI18NValue(180266712),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070900,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1070902] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1070901,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1070902,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266715),
+		Desc = getI18NValue(180266714),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070900,
+			2
+		},
+		EventParam = {
+			307009
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010709
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1070903] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1070902,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1070903,
+		Name = getI18NValue(180266717),
+		Desc = getI18NValue(180266716),
+		PickUpInfo = null,
+		TypeExtend = {
+			1070900,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010709
+		}
+	},
+	[1071000] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1070900,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1071000,
+		Name = getI18NValue(180266719),
+		Desc = getI18NValue(180266718),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1071001,
+			3,
+			1071002,
+			3,
+			1071003,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7800,
+			50004,
+			4
+		}
+	},
+	[1071001] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1070900,
+		NeedSchedule = 44,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071001,
+		Name = getI18NValue(180266721),
+		Desc = getI18NValue(180266720),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071000,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1071002] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1071001,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1071002,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266723),
+		Desc = getI18NValue(180266722),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071000,
+			2
+		},
+		EventParam = {
+			307010
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010710
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1071003] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1071002,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071003,
+		Name = getI18NValue(180266725),
+		Desc = getI18NValue(180266724),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071000,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010710
+		}
+	},
+	[1071100] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1071000,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1071100,
+		Name = getI18NValue(180266727),
+		Desc = getI18NValue(180266726),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1071101,
+			3,
+			1071102,
+			3,
+			1071103,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7800,
+			50004,
+			4,
+			3000,
+			1
+		}
+	},
+	[1071101] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1071000,
+		NeedSchedule = 44,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071101,
+		Name = getI18NValue(180266729),
+		Desc = getI18NValue(180266728),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071100,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1071102] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1071101,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1071102,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266731),
+		Desc = getI18NValue(180266730),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071100,
+			2
+		},
+		EventParam = {
+			307011
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010711
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1071103] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1071102,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071103,
+		Name = getI18NValue(180266733),
+		Desc = getI18NValue(180266732),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071100,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010711
+		}
+	},
+	[1071200] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1071100,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1071200,
+		Name = getI18NValue(180266735),
+		Desc = getI18NValue(180266734),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1071201,
+			3,
+			1071202,
+			3,
+			1071203,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7900,
+			50004,
+			4
+		}
+	},
+	[1071201] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1071100,
+		NeedSchedule = 44,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071201,
+		Name = getI18NValue(180266737),
+		Desc = getI18NValue(180266736),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071200,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1071202] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1071201,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1071202,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266739),
+		Desc = getI18NValue(180266738),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071200,
+			2
+		},
+		EventParam = {
+			307012
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010712
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1071203] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1071202,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071203,
+		Name = getI18NValue(180266741),
+		Desc = getI18NValue(180266740),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071200,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010712
+		}
+	},
+	[1071300] = {
+		MonitorTarget = 1015,
+		LockShow = 1,
+		PreposeID = 1071200,
+		NeedSchedule = 3,
+		AutoSubmit = true,
+		IsRepaired = true,
+		IsShowReward = true,
+		Type = 1001,
+		Id = 1071300,
+		Name = getI18NValue(180266743),
+		Desc = getI18NValue(180266742),
+		PickUpInfo = null,
+		TypeExtend = {
+			1
+		},
+		EventParam = {
+			1071301,
+			3,
+			1071302,
+			3,
+			1071303,
+			3
+		},
+		ActionParam = {
+			5,
+			300,
+			3,
+			50,
+			4,
+			7900,
+			50004,
+			4,
+			3003,
+			1
+		}
+	},
+	[1071301] = {
+		MonitorTarget = 1001,
+		LockShow = 1,
+		PreposeID = 1071200,
+		NeedSchedule = 45,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071301,
+		Name = getI18NValue(180266745),
+		Desc = getI18NValue(180266744),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071300,
+			3
+		},
+		EventParam = {
+			-1
+		}
+	},
+	[1071302] = {
+		MonitorTarget = 1036,
+		LockShow = 1,
+		PreposeID = 1071301,
+		NeedSchedule = 1,
+		IsRepaired = true,
+		AutoSubmit = true,
+		Type = 1001,
+		Id = 1071302,
+		IsRefreshTrack = true,
+		Name = getI18NValue(180266747),
+		Desc = getI18NValue(180266746),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071300,
+			2
+		},
+		EventParam = {
+			307013
+		},
+		CompleteAction = {
+			42,
+			0,
+			0,
+			0
+		},
+		CompleteActionParam = {
+			{
+				20010713
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[1071303] = {
+		MonitorTarget = 1020,
+		LockShow = 1,
+		PreposeID = 1071302,
+		NeedSchedule = 1,
+		AutoSubmit = true,
+		IsRepaired = true,
+		Type = 1001,
+		Id = 1071303,
+		Name = getI18NValue(180266749),
+		Desc = getI18NValue(180266748),
+		PickUpInfo = null,
+		TypeExtend = {
+			1071300,
+			4
+		},
+		EventParam = {
+			1,
+			107,
+			20010713
 		}
 	},
 	[2010100] = {

@@ -969,7 +969,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 70,
-		UpgradeNeedExp = 21420,
+		UpgradeNeedExp = 14900,
 		NeedPlayerLv = 1,
 		HeroLv = 70,
 		ElementReactionParam = {
@@ -983,7 +983,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 71,
-		UpgradeNeedExp = 22140,
+		UpgradeNeedExp = 15400,
 		NeedPlayerLv = 1,
 		HeroLv = 71,
 		ElementReactionParam = {
@@ -997,7 +997,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 72,
-		UpgradeNeedExp = 22880,
+		UpgradeNeedExp = 15910,
 		NeedPlayerLv = 1,
 		HeroLv = 72,
 		ElementReactionParam = {
@@ -1011,7 +1011,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 73,
-		UpgradeNeedExp = 23630,
+		UpgradeNeedExp = 16440,
 		NeedPlayerLv = 1,
 		HeroLv = 73,
 		ElementReactionParam = {
@@ -1025,7 +1025,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 74,
-		UpgradeNeedExp = 24390,
+		UpgradeNeedExp = 16970,
 		NeedPlayerLv = 1,
 		HeroLv = 74,
 		ElementReactionParam = {
@@ -1039,7 +1039,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 75,
-		UpgradeNeedExp = 25170,
+		UpgradeNeedExp = 17510,
 		NeedPlayerLv = 1,
 		HeroLv = 75,
 		ElementReactionParam = {
@@ -1053,7 +1053,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 76,
-		UpgradeNeedExp = 25960,
+		UpgradeNeedExp = 18060,
 		NeedPlayerLv = 1,
 		HeroLv = 76,
 		ElementReactionParam = {
@@ -1067,7 +1067,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 77,
-		UpgradeNeedExp = 26770,
+		UpgradeNeedExp = 18630,
 		NeedPlayerLv = 1,
 		HeroLv = 77,
 		ElementReactionParam = {
@@ -1081,7 +1081,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 78,
-		UpgradeNeedExp = 27600,
+		UpgradeNeedExp = 19200,
 		NeedPlayerLv = 1,
 		HeroLv = 78,
 		ElementReactionParam = {
@@ -1095,7 +1095,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 79,
-		UpgradeNeedExp = 28440,
+		UpgradeNeedExp = 19780,
 		NeedPlayerLv = 1,
 		HeroLv = 79,
 		ElementReactionParam = {
@@ -1109,7 +1109,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 80,
-		UpgradeNeedExp = 42560,
+		UpgradeNeedExp = 20810,
 		NeedPlayerLv = 1,
 		HeroLv = 80,
 		ElementReactionParam = {
@@ -1123,7 +1123,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 81,
-		UpgradeNeedExp = 43840,
+		UpgradeNeedExp = 21430,
 		NeedPlayerLv = 1,
 		HeroLv = 81,
 		ElementReactionParam = {
@@ -1137,7 +1137,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 82,
-		UpgradeNeedExp = 45140,
+		UpgradeNeedExp = 22070,
 		NeedPlayerLv = 1,
 		HeroLv = 82,
 		ElementReactionParam = {
@@ -1151,7 +1151,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 83,
-		UpgradeNeedExp = 46470,
+		UpgradeNeedExp = 22720,
 		NeedPlayerLv = 1,
 		HeroLv = 83,
 		ElementReactionParam = {
@@ -1165,7 +1165,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 84,
-		UpgradeNeedExp = 47820,
+		UpgradeNeedExp = 23380,
 		NeedPlayerLv = 1,
 		HeroLv = 84,
 		ElementReactionParam = {
@@ -1179,7 +1179,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 85,
-		UpgradeNeedExp = 49190,
+		UpgradeNeedExp = 24050,
 		NeedPlayerLv = 1,
 		HeroLv = 85,
 		ElementReactionParam = {
@@ -1193,7 +1193,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 86,
-		UpgradeNeedExp = 50590,
+		UpgradeNeedExp = 24730,
 		NeedPlayerLv = 1,
 		HeroLv = 86,
 		ElementReactionParam = {
@@ -1207,7 +1207,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 87,
-		UpgradeNeedExp = 52010,
+		UpgradeNeedExp = 25430,
 		NeedPlayerLv = 1,
 		HeroLv = 87,
 		ElementReactionParam = {
@@ -1221,7 +1221,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 88,
-		UpgradeNeedExp = 53450,
+		UpgradeNeedExp = 26130,
 		NeedPlayerLv = 1,
 		HeroLv = 88,
 		ElementReactionParam = {
@@ -1235,7 +1235,7 @@ local CfgHeroLvTable = {
 	},
 	{
 		Id = 89,
-		UpgradeNeedExp = 54920,
+		UpgradeNeedExp = 26850,
 		NeedPlayerLv = 1,
 		HeroLv = 89,
 		ElementReactionParam = {

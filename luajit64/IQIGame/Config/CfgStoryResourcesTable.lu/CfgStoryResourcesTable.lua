@@ -95,6 +95,14 @@ local CfgStoryResourcesTable = {
 		Id = 1025,
 		Url = "21_Media/Story/part6-13-2.mp4"
 	},
+	[1026] = {
+		Id = 1026,
+		Url = "21_Media/Story/part7_start.mp4"
+	},
+	[1027] = {
+		Id = 1027,
+		Url = "21_Media/Story/part8_start.mp4"
+	},
 	[10000] = {
 		Id = 10000,
 		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part0_0.png"
@@ -507,7 +515,8 @@ local CfgStoryResourcesTable = {
 	},
 	[17003] = {
 		Id = 17003,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_3.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_3_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_3_1.png"
 	},
 	[17004] = {
 		Id = 17004,
@@ -571,7 +580,8 @@ local CfgStoryResourcesTable = {
 	},
 	[17020] = {
 		Id = 17020,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_19.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_19_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_19_1.png"
 	},
 	[17021] = {
 		Id = 17021,
@@ -583,11 +593,29 @@ local CfgStoryResourcesTable = {
 	},
 	[17023] = {
 		Id = 17023,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_22.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_22_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_22_1.png"
 	},
 	[17024] = {
 		Id = 17024,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_23.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_23_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part7_23_1.png"
+	},
+	[17025] = {
+		Id = 17025,
+		Url = "Assets/05_Images/UI/StoryPart/StoryPuzzle/7-5-JiNianPing/Icon_01.png"
+	},
+	[17026] = {
+		Id = 17026,
+		Url = "Assets/05_Images/UI/StoryPart/StoryPuzzle/7-5-JiNianPing/Icon_02.png"
+	},
+	[17027] = {
+		Id = 17027,
+		Url = "Assets/05_Images/UI/StoryPart/StoryPuzzle/7-5-JiNianPing/Icon_03.png"
+	},
+	[17028] = {
+		Id = 17028,
+		Url = "Assets/05_Images/UI/StoryPart/StoryPuzzle/7-5-JiNianPing/Icon_04.png"
 	},
 	[18001] = {
 		Id = 18001,
@@ -1590,6 +1618,10 @@ local CfgStoryResourcesTable = {
 	[70701] = {
 		Id = 70701,
 		Url = "Assets/24_StoryData/TL_Prefabs/TL_7_9_3_Zhuy_Attack.prefab"
+	},
+	[70702] = {
+		Id = 70702,
+		Url = "Assets/24_StoryData/TL_Prefabs/TL_7_6_TouXi.prefab"
 	},
 	[70801] = {
 		Id = 70801,

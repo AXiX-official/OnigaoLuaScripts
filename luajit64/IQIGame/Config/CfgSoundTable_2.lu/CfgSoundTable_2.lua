@@ -1,6 +1,15 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgSoundTable_2.lua
 
 local CfgSoundTable_2 = {
+	[101140125] = {
+		MaxDistance = 100,
+		GroupName = "Dub",
+		GroupType = 1,
+		VolumeInSoundGroup = 1,
+		Id = 101140125,
+		Pitch = 1,
+		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_175.ogg"
+	},
 	[101140126] = {
 		MaxDistance = 100,
 		GroupName = "Dub",

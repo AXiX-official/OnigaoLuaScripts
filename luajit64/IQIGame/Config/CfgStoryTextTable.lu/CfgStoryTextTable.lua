@@ -4211,6 +4211,19 @@ local CfgStoryTextTable = {
 		Id = 107106,
 		Text = getI18NValue(180259516)
 	},
+	[107111] = {
+		Id = 107111,
+		Text = getI18NValue(180266782)
+	},
+	[107112] = {
+		Id = 107112,
+		Text = getI18NValue(180266783)
+	},
+	[107113] = {
+		Id = 107113,
+		Text = getI18NValue(180266785),
+		Text_Female = getI18NValue(180266784)
+	},
 	[107044] = {
 		Id = 107044,
 		Text = getI18NValue(180247483)
@@ -8750,6 +8763,10 @@ local CfgStoryTextTable = {
 		Id = 100078,
 		Text = getI18NValue(180259763)
 	},
+	[100079] = {
+		Id = 100079,
+		Text = getI18NValue(180267210)
+	},
 	[150001] = {
 		Id = 150001,
 		Text = getI18NValue(180117862)
@@ -9097,6 +9114,38 @@ local CfgStoryTextTable = {
 	[200086] = {
 		Id = 200086,
 		Text = getI18NValue(180231884)
+	},
+	[200087] = {
+		Id = 200087,
+		Text = getI18NValue(180267211)
+	},
+	[200088] = {
+		Id = 200088,
+		Text = getI18NValue(180267212)
+	},
+	[200089] = {
+		Id = 200089,
+		Text = getI18NValue(180267213)
+	},
+	[200090] = {
+		Id = 200090,
+		Text = getI18NValue(180267214)
+	},
+	[200091] = {
+		Id = 200091,
+		Text = getI18NValue(180267221)
+	},
+	[200092] = {
+		Id = 200092,
+		Text = getI18NValue(180267237)
+	},
+	[200093] = {
+		Id = 200093,
+		Text = getI18NValue(180267250)
+	},
+	[200094] = {
+		Id = 200094,
+		Text = getI18NValue(180267251)
 	},
 	[250001] = {
 		Id = 250001,
@@ -10957,6 +11006,18 @@ local CfgStoryTextTable = {
 	[906042] = {
 		Id = 906042,
 		Text = getI18NValue(180209249)
+	},
+	[907011] = {
+		Id = 907011,
+		Text = getI18NValue(180266643)
+	},
+	[907012] = {
+		Id = 907012,
+		Text = getI18NValue(180266644)
+	},
+	[907013] = {
+		Id = 907013,
+		Text = getI18NValue(180266645)
 	},
 	[907101] = {
 		Id = 907101,

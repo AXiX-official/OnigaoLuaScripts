@@ -96,7 +96,7 @@ local CfgWorldRoomSceneTable = {
 	[30600006] = {
 		CameraPrefab = "Assets/03_Prefabs/Home/Scene_6/SceneVirtualCamera.prefab",
 		SceneFileNight = "Home/111_Home_Institute_Night_PrefabStory",
-		RenderConfigNight = "Home/111_1_Home_Institute_Night_SRCHome",
+		RenderConfigNight = "Home/111_2_Home_Institute_Night_SRCHome",
 		MountPointPrefab = "Assets/03_Prefabs/Home/Scene_6/HomeMountPoint.prefab",
 		CameraPrefabNight = "Assets/03_Prefabs/Home/Scene_6/SceneVirtualCamera.prefab",
 		MovePrefab = "Assets/03_Prefabs/Home/MoveConfig/MoveConfig_Home_Institute_001.prefab",
@@ -667,7 +667,7 @@ local CfgWorldRoomSceneTable = {
 		Id = 30600310,
 		RoomId = 103005,
 		BGMNight = 11000020,
-		BGM = 11000055,
+		BGM = 11000020,
 		Name = getI18NValue(180203086)
 	},
 	[30600311] = {

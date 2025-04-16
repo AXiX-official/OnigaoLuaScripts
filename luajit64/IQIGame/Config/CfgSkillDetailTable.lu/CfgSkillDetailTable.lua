@@ -4379,7 +4379,7 @@ local CfgSkillDetailTable = {
 			1
 		},
 		SkillRatio = {
-			0.22
+			0.244
 		},
 		BuffOrder = {
 			0
@@ -4410,7 +4410,7 @@ local CfgSkillDetailTable = {
 		FunctionID = 601,
 		TargetTypeID = 30,
 		SkillRatio = {
-			0.333
+			0.367
 		}
 	},
 	[102612] = {
@@ -4420,7 +4420,7 @@ local CfgSkillDetailTable = {
 		FunctionID = 601,
 		TargetTypeID = 30,
 		SkillRatio = {
-			0.444
+			0.489
 		}
 	},
 	[102620] = {
@@ -10211,6 +10211,40 @@ local CfgSkillDetailTable = {
 		},
 		CustomParams = {
 			0.12
+		}
+	},
+	[802260] = {
+		NotSelectTarget = false,
+		TargetTypeID = 999,
+		Id = 802260,
+		FunctionID = 600,
+		BuffOrder = {
+			0,
+			0
+		},
+		BuffProbability = {
+			1,
+			1
+		},
+		BuffTarget = {
+			21,
+			21
+		},
+		BuffID = {
+			80226000,
+			80226001
+		},
+		BuffTime = {
+			0,
+			0
+		},
+		BuffStackNum = {
+			1,
+			1
+		},
+		CustomParams = {
+			0.05,
+			0.15
 		}
 	},
 	[10110110] = {

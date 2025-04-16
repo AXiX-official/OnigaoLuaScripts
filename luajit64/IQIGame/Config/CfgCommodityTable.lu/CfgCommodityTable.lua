@@ -4131,7 +4131,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				117,
-				2680
+				2000
 			},
 			{},
 			{},
@@ -4155,7 +4155,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				117,
-				1200
+				1500
 			},
 			{},
 			{},
@@ -4169,7 +4169,7 @@ local CfgCommodityTable = {
 		ShopID = 50101011,
 		BuyType = 2,
 		ItemId = 11,
-		Time = 2,
+		Time = 10,
 		sort = 3,
 		ResetType = 2,
 		Number = 60,
@@ -4251,7 +4251,7 @@ local CfgCommodityTable = {
 		Price = {
 			{
 				117,
-				30
+				40
 			},
 			{},
 			{},

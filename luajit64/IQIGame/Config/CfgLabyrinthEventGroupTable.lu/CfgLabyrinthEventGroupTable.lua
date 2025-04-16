@@ -4,9 +4,9 @@ local CfgLabyrinthEventGroupTable = {
 	[101] = {
 		Id = 101,
 		GroupHeavy = {
-			0,
-			0,
-			0
+			20,
+			25,
+			30
 		}
 	},
 	[102] = {
@@ -14,15 +14,15 @@ local CfgLabyrinthEventGroupTable = {
 		GroupHeavy = {
 			0,
 			0,
-			0
+			10
 		}
 	},
 	[103] = {
 		Id = 103,
 		GroupHeavy = {
-			0,
-			0,
-			0
+			10,
+			15,
+			15
 		}
 	},
 	[104] = {
@@ -71,6 +71,14 @@ local CfgLabyrinthEventGroupTable = {
 			0,
 			0,
 			0
+		}
+	},
+	[401] = {
+		Id = 401,
+		GroupHeavy = {
+			5,
+			5,
+			10
 		}
 	},
 	[601] = {

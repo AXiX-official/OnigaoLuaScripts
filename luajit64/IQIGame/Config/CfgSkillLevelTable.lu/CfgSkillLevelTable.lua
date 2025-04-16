@@ -17099,7 +17099,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 1,
 		SkillTips = getI18NValue(180259472),
 		UpGradeOldValue = {
-			"0.03"
+			"0.05"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17115,7 +17115,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 2,
 		SkillTips = getI18NValue(180259473),
 		UpGradeOldValue = {
-			"0.035"
+			"0.055"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17134,7 +17134,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 3,
 		SkillTips = getI18NValue(180259474),
 		UpGradeOldValue = {
-			"0.04"
+			"0.06"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17153,7 +17153,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 4,
 		SkillTips = getI18NValue(180259475),
 		UpGradeOldValue = {
-			"0.045"
+			"0.065"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17172,7 +17172,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 5,
 		SkillTips = getI18NValue(180259476),
 		UpGradeOldValue = {
-			"0.05"
+			"0.07"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17191,7 +17191,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 6,
 		SkillTips = getI18NValue(180259477),
 		UpGradeOldValue = {
-			"0.055"
+			"0.075"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17210,7 +17210,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 7,
 		SkillTips = getI18NValue(180259478),
 		UpGradeOldValue = {
-			"0.06"
+			"0.08"
 		},
 		UpgradeNeedExp = {
 			15012,
@@ -17229,7 +17229,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 8,
 		SkillTips = getI18NValue(180259479),
 		UpGradeOldValue = {
-			"0.065"
+			"0.09"
 		},
 		UpgradeNeedExp = {
 			15015,
@@ -17249,7 +17249,7 @@ local CfgSkillLevelTable = {
 		SkillLv = 9,
 		SkillTips = getI18NValue(180259480),
 		UpGradeOldValue = {
-			"0.07"
+			"0.1"
 		},
 		StrengthenId = {
 			1026209

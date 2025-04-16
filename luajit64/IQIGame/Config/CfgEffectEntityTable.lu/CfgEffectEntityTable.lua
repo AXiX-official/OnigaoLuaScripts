@@ -1262,6 +1262,10 @@ local CfgEffectEntityTable = {
 		Id = 90093,
 		PrefabName = "Story/FX_Story/Fx_Story_Black_Fog_Left"
 	},
+	[90094] = {
+		Id = 90094,
+		PrefabName = "Effect/FX_Scenes/FX_Scenes_ElementalArray_01"
+	},
 	[99001] = {
 		Id = 99001,
 		PrefabName = "Story/FX_Story/Fx_Bubble_Anger_Round"

@@ -28,7 +28,7 @@ local CfgWorldRoomPartTable = {
 	},
 	[30401005] = {
 		Id = 30401005,
-		RoomId = 30300002,
+		RoomId = 30600003,
 		SkinCid = 30500005,
 		Type = 1
 	},

@@ -599,10 +599,10 @@ local CfgItemTable = {
 		Quality = 4,
 		OverMode = 1,
 		Id = 117,
-		Icon = "/Item/Icon_Currency_SmallOther_14.png",
-		SmallIcon = "/Item/Icon_Currency_SmallOther_14.png",
+		Icon = "/Item/Icon_Currency_SmallOther_17.png",
+		SmallIcon = "/Item/Icon_Currency_SmallOther_17.png",
 		ItemTypes = 1,
-		BigIcon = "/Item/Icon_Currency_SmallOther_14.png",
+		BigIcon = "/Item/Icon_Currency_Other_17.png",
 		ItemSubTypes = 3,
 		Name = getI18NValue(180264488),
 		ItemTips = getI18NValue(180264487)
@@ -9178,6 +9178,25 @@ local CfgItemTable = {
 		Name = getI18NValue(180264361),
 		ItemTips = getI18NValue(180266469),
 		ItemStory = getI18NValue(180266470),
+		ActionParams = {
+			1
+		}
+	},
+	[80226] = {
+		UserAction = 21,
+		Quality = 5,
+		Star = true,
+		OverMode = 1,
+		Icon = "/SmallDIYSkill/Diy_80226.png",
+		LikeId = 802260,
+		Reveal = true,
+		ItemTypes = 4,
+		MaxNum = 1,
+		Id = 80226,
+		BigIcon = "/SmallDIYSkill/Diy_80226.png",
+		ItemSubTypes = 2,
+		DepotType = 4,
+		Name = getI18NValue(180267147),
 		ActionParams = {
 			1
 		}

@@ -3300,6 +3300,44 @@ local CfgWorldRoomCompTable = {
 			-0.75
 		}
 	},
+	[10090104] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820312,
+		Type = 2,
+		Id = 10090104,
+		RoomId = 101004,
+		Name = getI18NValue(180264617),
+		UnlockCondition = {
+			30040300,
+			30000402
+		},
+		Location = {
+			1.5,
+			0,
+			0
+		}
+	},
+	[10010104] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820010,
+		Type = 2,
+		Id = 10010104,
+		RoomId = 101004,
+		Name = getI18NValue(180264618),
+		UnlockCondition = {
+			30040010,
+			30000401
+		},
+		Location = {
+			5.44,
+			0,
+			-0.92
+		}
+	},
 	[40060105] = {
 		ShowType = 1,
 		SkinCid = 30502003,
@@ -3310,6 +3348,264 @@ local CfgWorldRoomCompTable = {
 			-8,
 			0,
 			-7.2
+		}
+	},
+	[10040105] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820040,
+		Type = 2,
+		Id = 10040105,
+		RoomId = 101005,
+		Name = getI18NValue(180265320),
+		UnlockCondition = {
+			30040000,
+			30052005,
+			30000401
+		},
+		Location = {
+			-6.27,
+			0,
+			5.91
+		}
+	},
+	[10060105] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820070,
+		Type = 2,
+		Id = 10060105,
+		RoomId = 101005,
+		Name = getI18NValue(180265321),
+		UnlockCondition = {
+			30040060,
+			30000402
+		},
+		Location = {
+			-2.85,
+			0,
+			-1.56
+		}
+	},
+	[10070105] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820100,
+		Type = 2,
+		Id = 10070105,
+		RoomId = 101005,
+		Name = getI18NValue(180265322),
+		UnlockCondition = {
+			30040090,
+			30052007,
+			30000401
+		},
+		Location = {
+			1.55,
+			0,
+			3.71
+		}
+	},
+	[10110105] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820160,
+		Type = 2,
+		Id = 10110105,
+		RoomId = 101005,
+		Name = getI18NValue(180265323),
+		UnlockCondition = {
+			30040150
+		},
+		Location = {
+			6.21,
+			0,
+			4.43
+		}
+	},
+	[10160105] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820250,
+		Type = 2,
+		Id = 10160105,
+		RoomId = 101005,
+		Name = getI18NValue(180265324),
+		UnlockCondition = {
+			30040240,
+			30052004,
+			30000401
+		},
+		Location = {
+			1.4,
+			0,
+			-0.48
+		}
+	},
+	[10260105] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820150,
+		Type = 2,
+		Id = 10260105,
+		RoomId = 101005,
+		Name = getI18NValue(180265325),
+		UnlockCondition = {
+			30040140,
+			30052007,
+			30000402
+		},
+		Location = {
+			1.2,
+			0,
+			-3.8
+		}
+	},
+	[40060106] = {
+		ShowType = 1,
+		SkinCid = 30502003,
+		Type = 3,
+		Id = 40060106,
+		RoomId = 101006,
+		Location = {
+			-3.5,
+			0,
+			5.5
+		}
+	},
+	[10020106] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820020,
+		Type = 2,
+		Id = 10020106,
+		RoomId = 101006,
+		Name = getI18NValue(180265347),
+		UnlockCondition = {
+			30040020,
+			30000401,
+			30052001
+		},
+		Location = {
+			6.5,
+			0,
+			-10.5
+		}
+	},
+	[10030106] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820030,
+		Type = 2,
+		Id = 10030106,
+		RoomId = 101006,
+		Name = getI18NValue(180265348),
+		UnlockCondition = {
+			30040030,
+			30000401,
+			30052001
+		},
+		Location = {
+			6.6,
+			0,
+			-5
+		}
+	},
+	[10140106] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820230,
+		Type = 2,
+		Id = 10140106,
+		RoomId = 101006,
+		Name = getI18NValue(180265349),
+		UnlockCondition = {
+			30040220,
+			30000402
+		},
+		Location = {
+			2.6,
+			0,
+			2.5
+		}
+	},
+	[10170106] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820200,
+		Type = 2,
+		Id = 10170106,
+		RoomId = 101006,
+		Name = getI18NValue(180265350),
+		UnlockCondition = {
+			30040190,
+			30052006,
+			30000401
+		},
+		Location = {
+			6.7,
+			0,
+			3.2
+		}
+	},
+	[10190106] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820291,
+		Type = 2,
+		Id = 10190106,
+		RoomId = 101006,
+		Name = getI18NValue(180265351),
+		UnlockCondition = {
+			30040280,
+			30052004,
+			30000401
+		},
+		Location = {
+			-7.8,
+			-0.15,
+			-3
+		}
+	},
+	[10230106] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820260,
+		Type = 2,
+		Id = 10230106,
+		RoomId = 101006,
+		Name = getI18NValue(180265352),
+		UnlockCondition = {
+			30040250,
+			30052005,
+			30000401
+		},
+		Location = {
+			-2.32,
+			-0.15,
+			-7.54
 		}
 	},
 	[40060107] = {
@@ -3324,6 +3620,106 @@ local CfgWorldRoomCompTable = {
 			0
 		}
 	},
+	[10050107] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820060,
+		Type = 2,
+		Id = 10050107,
+		RoomId = 101007,
+		Name = getI18NValue(180265353),
+		UnlockCondition = {
+			30040050,
+			30052008,
+			30000401
+		},
+		Location = {
+			-4.27,
+			0,
+			4.36
+		}
+	},
+	[10080107] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820120,
+		Type = 2,
+		Id = 10080107,
+		RoomId = 101007,
+		Name = getI18NValue(180265354),
+		UnlockCondition = {
+			30040110,
+			30052005,
+			30000401
+		},
+		Location = {
+			4.1,
+			0,
+			3.9
+		}
+	},
+	[10330107] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820130,
+		Type = 2,
+		Id = 10330107,
+		RoomId = 101007,
+		Name = getI18NValue(180265355),
+		UnlockCondition = {
+			30040120,
+			30052001,
+			30000401
+		},
+		Location = {
+			0.6,
+			0,
+			-1.7
+		}
+	},
+	[10290107] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820320,
+		Type = 2,
+		Id = 10290107,
+		RoomId = 101007,
+		Name = getI18NValue(180265356),
+		UnlockCondition = {
+			30040310,
+			30052002
+		},
+		Location = {
+			3.87,
+			0,
+			-0.46
+		}
+	},
+	[10300107] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820300,
+		Type = 2,
+		Id = 10300107,
+		RoomId = 101007,
+		Name = getI18NValue(180265357),
+		UnlockCondition = {
+			30040290,
+			30000402
+		},
+		Location = {
+			-1.55,
+			0,
+			0.92
+		}
+	},
 	[40060108] = {
 		ShowType = 1,
 		SkinCid = 30502001,
@@ -3334,6 +3730,142 @@ local CfgWorldRoomCompTable = {
 			-7.85,
 			0,
 			-2.7
+		}
+	},
+	[10350108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820080,
+		Type = 2,
+		Id = 10350108,
+		RoomId = 101008,
+		Name = getI18NValue(180265358),
+		UnlockCondition = {
+			30040070,
+			30052003
+		},
+		Location = {
+			4.2,
+			0,
+			3.2
+		}
+	},
+	[10340108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820110,
+		Type = 2,
+		Id = 10340108,
+		RoomId = 101008,
+		Name = getI18NValue(180265359),
+		UnlockCondition = {
+			30040100,
+			30052004
+		},
+		Location = {
+			18.64,
+			0,
+			-3.96
+		}
+	},
+	[10310108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820180,
+		Type = 2,
+		Id = 10310108,
+		RoomId = 101008,
+		Name = getI18NValue(180265360),
+		UnlockCondition = {
+			30040170,
+			30052007
+		},
+		Location = {
+			0.03,
+			0,
+			-2.84
+		}
+	},
+	[10320108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820170,
+		Type = 2,
+		Id = 10320108,
+		RoomId = 101008,
+		Name = getI18NValue(180265361),
+		UnlockCondition = {
+			30040160,
+			30052002
+		},
+		Location = {
+			-8.12,
+			0,
+			-9.95
+		}
+	},
+	[10130108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820050,
+		Type = 2,
+		Id = 10130108,
+		RoomId = 101008,
+		Name = getI18NValue(180265362),
+		UnlockCondition = {
+			30040040,
+			30052006
+		},
+		Location = {
+			6.47,
+			0,
+			-2.47
+		}
+	},
+	[10240108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820240,
+		Type = 2,
+		Id = 10240108,
+		RoomId = 101008,
+		Name = getI18NValue(180265373),
+		UnlockCondition = {
+			30040230,
+			30000402
+		},
+		Location = {
+			10.9,
+			0,
+			-3.78
+		}
+	},
+	[10270108] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820140,
+		Type = 2,
+		Id = 10270108,
+		RoomId = 101008,
+		Name = getI18NValue(180265385),
+		UnlockCondition = {
+			30040130,
+			30052005
+		},
+		Location = {
+			-2.63,
+			0,
+			-2.84
 		}
 	},
 	[40060109] = {
@@ -3348,6 +3880,104 @@ local CfgWorldRoomCompTable = {
 			-1
 		}
 	},
+	[10120109] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820280,
+		Type = 2,
+		Id = 10120109,
+		RoomId = 101009,
+		Name = getI18NValue(180265374),
+		UnlockCondition = {
+			30040270,
+			30052005
+		},
+		Location = {
+			1.48,
+			0,
+			0.23
+		}
+	},
+	[10210109] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820340,
+		Type = 2,
+		Id = 10210109,
+		RoomId = 101009,
+		Name = getI18NValue(180265375),
+		UnlockCondition = {
+			30040330,
+			30052007
+		},
+		Location = {
+			6.78,
+			0,
+			0.78
+		}
+	},
+	[10220109] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820330,
+		Type = 2,
+		Id = 10220109,
+		RoomId = 101009,
+		Name = getI18NValue(180265376),
+		UnlockCondition = {
+			30040320,
+			30052001
+		},
+		Location = {
+			-1.2,
+			0,
+			2.1
+		}
+	},
+	[10250109] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		IsToLeft = true,
+		ActionIdle = "S_stay",
+		SkinCid = 10820480,
+		Type = 2,
+		Id = 10250109,
+		RoomId = 101009,
+		Name = getI18NValue(180265377),
+		UnlockCondition = {
+			30040180,
+			30000401
+		},
+		Location = {
+			5.6,
+			0,
+			-8.8
+		}
+	},
+	[10280109] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820090,
+		Type = 2,
+		Id = 10280109,
+		RoomId = 101009,
+		Name = getI18NValue(180265378),
+		UnlockCondition = {
+			30040080,
+			30000402
+		},
+		Location = {
+			7.86,
+			0,
+			-3.56
+		}
+	},
 	[40060110] = {
 		ShowType = 1,
 		SkinCid = 30502003,
@@ -3358,6 +3988,75 @@ local CfgWorldRoomCompTable = {
 			-5.6,
 			0,
 			-4
+		}
+	},
+	[40060111] = {
+		ShowType = 1,
+		SkinCid = 30502003,
+		Type = 3,
+		Id = 40060111,
+		RoomId = 101010,
+		Location = {
+			5.1,
+			0,
+			-3.4
+		}
+	},
+	[10150110] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820270,
+		Type = 2,
+		Id = 10150110,
+		RoomId = 101010,
+		Name = getI18NValue(180265364),
+		UnlockCondition = {
+			30040260,
+			30052005
+		},
+		Location = {
+			2.65,
+			0,
+			3.4
+		}
+	},
+	[10180110] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820210,
+		Type = 2,
+		Id = 10180110,
+		RoomId = 101010,
+		Name = getI18NValue(180265365),
+		UnlockCondition = {
+			30040200,
+			30052007
+		},
+		Location = {
+			-0.16,
+			0,
+			1.51
+		}
+	},
+	[10200110] = {
+		ActionMove = "S_move",
+		ShowType = 1,
+		ActionIdle = "S_stay",
+		SkinCid = 10820220,
+		Type = 2,
+		Id = 10200110,
+		RoomId = 101010,
+		Name = getI18NValue(180265366),
+		UnlockCondition = {
+			30040210,
+			30052001
+		},
+		Location = {
+			-3.15,
+			0,
+			3.4
 		}
 	},
 	[10010201] = {

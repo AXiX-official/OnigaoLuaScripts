@@ -12233,6 +12233,1511 @@ local CfgWorldRoomActionTable = {
 			106032
 		}
 	},
+	[108001] = {
+		Id = 108001
+	},
+	[108002] = {
+		Id = 108002
+	},
+	[108011] = {
+		Id = 108011
+	},
+	[501001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 501001,
+		Weight = 10,
+		ActionName = getI18NValue(180267028),
+		ActionParam = {
+			10010104,
+			30110101
+		}
+	},
+	[501002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 501002,
+		Weight = 10,
+		ActionName = getI18NValue(180267029),
+		ActionParam = {
+			10010104,
+			30110111
+		}
+	},
+	[501011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10010104,
+		Id = 501011,
+		Weight = 10,
+		ActionName = getI18NValue(180267030),
+		ActionParam = {
+			501001,
+			501002
+		}
+	},
+	[502001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 502001,
+		Weight = 10,
+		ActionName = getI18NValue(180267031),
+		ActionParam = {
+			10090104,
+			30110201
+		}
+	},
+	[502002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 502002,
+		Weight = 10,
+		ActionName = getI18NValue(180267032),
+		ActionParam = {
+			10090104,
+			30110211
+		}
+	},
+	[502011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10090104,
+		Id = 502011,
+		Weight = 10,
+		ActionName = getI18NValue(180267033),
+		ActionParam = {
+			502001,
+			502002
+		}
+	},
+	[503001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 503001,
+		Weight = 10,
+		ActionName = getI18NValue(180267034),
+		ActionParam = {
+			10020106,
+			30110301
+		}
+	},
+	[503002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 503002,
+		Weight = 10,
+		ActionName = getI18NValue(180267035),
+		ActionParam = {
+			10020106,
+			30110311
+		}
+	},
+	[503011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10020106,
+		Id = 503011,
+		Weight = 10,
+		ActionName = getI18NValue(180267036),
+		ActionParam = {
+			503001,
+			503002
+		}
+	},
+	[504001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 504001,
+		Weight = 10,
+		ActionName = getI18NValue(180267037),
+		ActionParam = {
+			10030106,
+			30110401
+		}
+	},
+	[504002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 504002,
+		Weight = 10,
+		ActionName = getI18NValue(180267038),
+		ActionParam = {
+			10030106,
+			30110411
+		}
+	},
+	[504011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10030106,
+		Id = 504011,
+		Weight = 10,
+		ActionName = getI18NValue(180267039),
+		ActionParam = {
+			504001,
+			504002
+		}
+	},
+	[505001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 505001,
+		Weight = 10,
+		ActionName = getI18NValue(180267040),
+		ActionParam = {
+			10230106,
+			30110501
+		}
+	},
+	[505002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 505002,
+		Weight = 10,
+		ActionName = getI18NValue(180267041),
+		ActionParam = {
+			10230106,
+			30110511
+		}
+	},
+	[505011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10230106,
+		Id = 505011,
+		Weight = 10,
+		ActionName = getI18NValue(180267042),
+		ActionParam = {
+			505001,
+			505002
+		}
+	},
+	[506001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 506001,
+		Weight = 10,
+		ActionName = getI18NValue(180267043),
+		ActionParam = {
+			10170106,
+			30110601
+		}
+	},
+	[506002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 506002,
+		Weight = 10,
+		ActionName = getI18NValue(180267044),
+		ActionParam = {
+			10170106,
+			30110611
+		}
+	},
+	[506011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10170106,
+		Id = 506011,
+		Weight = 10,
+		ActionName = getI18NValue(180267045),
+		ActionParam = {
+			506001,
+			506002
+		}
+	},
+	[507001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 507001,
+		Weight = 10,
+		ActionName = getI18NValue(180267046),
+		ActionParam = {
+			10140106,
+			30110701
+		}
+	},
+	[507002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 507002,
+		Weight = 10,
+		ActionName = getI18NValue(180267047),
+		ActionParam = {
+			10140106,
+			30110711
+		}
+	},
+	[507011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10140106,
+		Id = 507011,
+		Weight = 10,
+		ActionName = getI18NValue(180267048),
+		ActionParam = {
+			507001,
+			507002
+		}
+	},
+	[508001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 508001,
+		Weight = 10,
+		ActionName = getI18NValue(180267049),
+		ActionParam = {
+			10190106,
+			30110801
+		}
+	},
+	[508002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 508002,
+		Weight = 10,
+		ActionName = getI18NValue(180267050),
+		ActionParam = {
+			10190106,
+			30110811
+		}
+	},
+	[508011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10190106,
+		Id = 508011,
+		Weight = 10,
+		ActionName = getI18NValue(180267051),
+		ActionParam = {
+			508001,
+			508002
+		}
+	},
+	[509001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 509001,
+		Weight = 10,
+		ActionName = getI18NValue(180267052),
+		ActionParam = {
+			10040105,
+			30110901
+		}
+	},
+	[509002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 509002,
+		Weight = 10,
+		ActionName = getI18NValue(180267053),
+		ActionParam = {
+			10040105,
+			30110911
+		}
+	},
+	[509011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10040105,
+		Id = 509011,
+		Weight = 10,
+		ActionName = getI18NValue(180267054),
+		ActionParam = {
+			509001,
+			509002
+		}
+	},
+	[510001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 510001,
+		Weight = 10,
+		ActionName = getI18NValue(180267055),
+		ActionParam = {
+			10110105,
+			30111001
+		}
+	},
+	[510002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 510002,
+		Weight = 10,
+		ActionName = getI18NValue(180267056),
+		ActionParam = {
+			10110105,
+			30111011
+		}
+	},
+	[510011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10110105,
+		Id = 510011,
+		Weight = 10,
+		ActionName = getI18NValue(180267057),
+		ActionParam = {
+			510001,
+			510002
+		}
+	},
+	[511001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 511001,
+		Weight = 10,
+		ActionName = getI18NValue(180267058),
+		ActionParam = {
+			10060105,
+			30111101
+		}
+	},
+	[511002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 511002,
+		Weight = 10,
+		ActionName = getI18NValue(180267059),
+		ActionParam = {
+			10060105,
+			30111111
+		}
+	},
+	[511011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10060105,
+		Id = 511011,
+		Weight = 10,
+		ActionName = getI18NValue(180267060),
+		ActionParam = {
+			511001,
+			511002
+		}
+	},
+	[512001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 512001,
+		Weight = 10,
+		ActionName = getI18NValue(180267061),
+		ActionParam = {
+			10070105,
+			30111201
+		}
+	},
+	[512002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 512002,
+		Weight = 10,
+		ActionName = getI18NValue(180267062),
+		ActionParam = {
+			10070105,
+			30111211
+		}
+	},
+	[512011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10070105,
+		Id = 512011,
+		Weight = 10,
+		ActionName = getI18NValue(180267063),
+		ActionParam = {
+			512001,
+			512002
+		}
+	},
+	[513001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 513001,
+		Weight = 10,
+		ActionName = getI18NValue(180267064),
+		ActionParam = {
+			10260105,
+			30111301
+		}
+	},
+	[513002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 513002,
+		Weight = 10,
+		ActionName = getI18NValue(180267065),
+		ActionParam = {
+			10260105,
+			30111311
+		}
+	},
+	[513011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10260105,
+		Id = 513011,
+		Weight = 10,
+		ActionName = getI18NValue(180267066),
+		ActionParam = {
+			513001,
+			513002
+		}
+	},
+	[514001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 514001,
+		Weight = 10,
+		ActionName = getI18NValue(180267067),
+		ActionParam = {
+			10160105,
+			30111401
+		}
+	},
+	[514002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 514002,
+		Weight = 10,
+		ActionName = getI18NValue(180267068),
+		ActionParam = {
+			10160105,
+			30111411
+		}
+	},
+	[514011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10160105,
+		Id = 514011,
+		Weight = 10,
+		ActionName = getI18NValue(180267069),
+		ActionParam = {
+			514001,
+			514002
+		}
+	},
+	[515001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 515001,
+		Weight = 10,
+		ActionName = getI18NValue(180267070),
+		ActionParam = {
+			10150110,
+			30111501
+		}
+	},
+	[515002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 515002,
+		Weight = 10,
+		ActionName = getI18NValue(180267071),
+		ActionParam = {
+			10150110,
+			30111511
+		}
+	},
+	[515011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10150110,
+		Id = 515011,
+		Weight = 10,
+		ActionName = getI18NValue(180267072),
+		ActionParam = {
+			515001,
+			515002
+		}
+	},
+	[516001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 516001,
+		Weight = 10,
+		ActionName = getI18NValue(180267073),
+		ActionParam = {
+			10180110,
+			30111601
+		}
+	},
+	[516002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 516002,
+		Weight = 10,
+		ActionName = getI18NValue(180267074),
+		ActionParam = {
+			10180110,
+			30111611
+		}
+	},
+	[516011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10180110,
+		Id = 516011,
+		Weight = 10,
+		ActionName = getI18NValue(180267075),
+		ActionParam = {
+			516001,
+			516002
+		}
+	},
+	[517001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 517001,
+		Weight = 10,
+		ActionName = getI18NValue(180267076),
+		ActionParam = {
+			10200110,
+			30111701
+		}
+	},
+	[517002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 517002,
+		Weight = 10,
+		ActionName = getI18NValue(180267077),
+		ActionParam = {
+			10200110,
+			30111711
+		}
+	},
+	[517011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10200110,
+		Id = 517011,
+		Weight = 10,
+		ActionName = getI18NValue(180267078),
+		ActionParam = {
+			517001,
+			517002
+		}
+	},
+	[518001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 518001,
+		Weight = 10,
+		ActionName = getI18NValue(180267079),
+		ActionParam = {
+			10120109,
+			30111801
+		}
+	},
+	[518002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 518002,
+		Weight = 10,
+		ActionName = getI18NValue(180267080),
+		ActionParam = {
+			10120109,
+			30111811
+		}
+	},
+	[518011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10120109,
+		Id = 518011,
+		Weight = 10,
+		ActionName = getI18NValue(180267081),
+		ActionParam = {
+			518001,
+			518002
+		}
+	},
+	[519001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 519001,
+		Weight = 10,
+		ActionName = getI18NValue(180267082),
+		ActionParam = {
+			10210109,
+			30111901
+		}
+	},
+	[519002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 519002,
+		Weight = 10,
+		ActionName = getI18NValue(180267083),
+		ActionParam = {
+			10210109,
+			30111911
+		}
+	},
+	[519011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10210109,
+		Id = 519011,
+		Weight = 10,
+		ActionName = getI18NValue(180267084),
+		ActionParam = {
+			519001,
+			519002
+		}
+	},
+	[520001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 520001,
+		Weight = 10,
+		ActionName = getI18NValue(180267085),
+		ActionParam = {
+			10280109,
+			30112001
+		}
+	},
+	[520002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 520002,
+		Weight = 10,
+		ActionName = getI18NValue(180267086),
+		ActionParam = {
+			10280109,
+			30112011
+		}
+	},
+	[520011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10280109,
+		Id = 520011,
+		Weight = 10,
+		ActionName = getI18NValue(180267087),
+		ActionParam = {
+			520001,
+			520002
+		}
+	},
+	[521001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 521001,
+		Weight = 10,
+		ActionName = getI18NValue(180267088),
+		ActionParam = {
+			10220109,
+			30112101
+		}
+	},
+	[521002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 521002,
+		Weight = 10,
+		ActionName = getI18NValue(180267089),
+		ActionParam = {
+			10220109,
+			30112111
+		}
+	},
+	[521011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10220109,
+		Id = 521011,
+		Weight = 10,
+		ActionName = getI18NValue(180267090),
+		ActionParam = {
+			521001,
+			521002
+		}
+	},
+	[522001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 522001,
+		Weight = 10,
+		ActionName = getI18NValue(180267091),
+		ActionParam = {
+			10250109,
+			30112201
+		}
+	},
+	[522002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 522002,
+		Weight = 10,
+		ActionName = getI18NValue(180267092),
+		ActionParam = {
+			10250109,
+			30112211
+		}
+	},
+	[522011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10250109,
+		Id = 522011,
+		Weight = 10,
+		ActionName = getI18NValue(180267093),
+		ActionParam = {
+			522001,
+			522002
+		}
+	},
+	[523001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 523001,
+		Weight = 10,
+		ActionName = getI18NValue(180267094),
+		ActionParam = {
+			10270108,
+			30112301
+		}
+	},
+	[523002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 523002,
+		Weight = 10,
+		ActionName = getI18NValue(180267095),
+		ActionParam = {
+			10270108,
+			30112311
+		}
+	},
+	[523011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10270108,
+		Id = 523011,
+		Weight = 10,
+		ActionName = getI18NValue(180267096),
+		ActionParam = {
+			523001,
+			523002
+		}
+	},
+	[524001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 524001,
+		Weight = 10,
+		ActionName = getI18NValue(180267097),
+		ActionParam = {
+			10240108,
+			30112401
+		}
+	},
+	[524002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 524002,
+		Weight = 10,
+		ActionName = getI18NValue(180267098),
+		ActionParam = {
+			10240108,
+			30112411
+		}
+	},
+	[524011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10240108,
+		Id = 524011,
+		Weight = 10,
+		ActionName = getI18NValue(180267099),
+		ActionParam = {
+			524001,
+			524002
+		}
+	},
+	[525001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 525001,
+		Weight = 10,
+		ActionName = getI18NValue(180267100),
+		ActionParam = {
+			10310108,
+			30112501
+		}
+	},
+	[525002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 525002,
+		Weight = 10,
+		ActionName = getI18NValue(180267101),
+		ActionParam = {
+			10310108,
+			30112511
+		}
+	},
+	[525011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10310108,
+		Id = 525011,
+		Weight = 10,
+		ActionName = getI18NValue(180267102),
+		ActionParam = {
+			525001,
+			525002
+		}
+	},
+	[526001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 526001,
+		Weight = 10,
+		ActionName = getI18NValue(180267103),
+		ActionParam = {
+			10320108,
+			30112601
+		}
+	},
+	[526002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 526002,
+		Weight = 10,
+		ActionName = getI18NValue(180267104),
+		ActionParam = {
+			10320108,
+			30112611
+		}
+	},
+	[526011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10320108,
+		Id = 526011,
+		Weight = 10,
+		ActionName = getI18NValue(180267105),
+		ActionParam = {
+			526001,
+			526002
+		}
+	},
+	[527001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 527001,
+		Weight = 10,
+		ActionName = getI18NValue(180267106),
+		ActionParam = {
+			10340108,
+			30112701
+		}
+	},
+	[527002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 527002,
+		Weight = 10,
+		ActionName = getI18NValue(180267107),
+		ActionParam = {
+			10340108,
+			30112711
+		}
+	},
+	[527011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10340108,
+		Id = 527011,
+		Weight = 10,
+		ActionName = getI18NValue(180267108),
+		ActionParam = {
+			527001,
+			527002
+		}
+	},
+	[528001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 528001,
+		Weight = 10,
+		ActionName = getI18NValue(180267109),
+		ActionParam = {
+			10350108,
+			30112801
+		}
+	},
+	[528002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 528002,
+		Weight = 10,
+		ActionName = getI18NValue(180267110),
+		ActionParam = {
+			10350108,
+			30112811
+		}
+	},
+	[528011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10350108,
+		Id = 528011,
+		Weight = 10,
+		ActionName = getI18NValue(180267111),
+		ActionParam = {
+			528001,
+			528002
+		}
+	},
+	[529001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 529001,
+		Weight = 10,
+		ActionName = getI18NValue(180267112),
+		ActionParam = {
+			10130108,
+			30112901
+		}
+	},
+	[529002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 529002,
+		Weight = 10,
+		ActionName = getI18NValue(180267113),
+		ActionParam = {
+			10130108,
+			30112911
+		}
+	},
+	[529011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10130108,
+		Id = 529011,
+		Weight = 10,
+		ActionName = getI18NValue(180267114),
+		ActionParam = {
+			529001,
+			529002
+		}
+	},
+	[530001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 530001,
+		Weight = 10,
+		ActionName = getI18NValue(180267115),
+		ActionParam = {
+			10050107,
+			30113001
+		}
+	},
+	[530002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 530002,
+		Weight = 10,
+		ActionName = getI18NValue(180267116),
+		ActionParam = {
+			10050107,
+			30113011
+		}
+	},
+	[530011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10050107,
+		Id = 530011,
+		Weight = 10,
+		ActionName = getI18NValue(180267117),
+		ActionParam = {
+			530001,
+			530002
+		}
+	},
+	[531001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 531001,
+		Weight = 10,
+		ActionName = getI18NValue(180267118),
+		ActionParam = {
+			10080107,
+			30113101
+		}
+	},
+	[531002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 531002,
+		Weight = 10,
+		ActionName = getI18NValue(180267119),
+		ActionParam = {
+			10080107,
+			30113111
+		}
+	},
+	[531011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10080107,
+		Id = 531011,
+		Weight = 10,
+		ActionName = getI18NValue(180267120),
+		ActionParam = {
+			531001,
+			531002
+		}
+	},
+	[532001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 532001,
+		Weight = 10,
+		ActionName = getI18NValue(180267121),
+		ActionParam = {
+			10330107,
+			30113201
+		}
+	},
+	[532002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 532002,
+		Weight = 10,
+		ActionName = getI18NValue(180267122),
+		ActionParam = {
+			10330107,
+			30113211
+		}
+	},
+	[532011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10330107,
+		Id = 532011,
+		Weight = 10,
+		ActionName = getI18NValue(180267123),
+		ActionParam = {
+			532001,
+			532002
+		}
+	},
+	[533001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 533001,
+		Weight = 10,
+		ActionName = getI18NValue(180267124),
+		ActionParam = {
+			10290107,
+			30113301
+		}
+	},
+	[533002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 533002,
+		Weight = 10,
+		ActionName = getI18NValue(180267125),
+		ActionParam = {
+			10290107,
+			30113311
+		}
+	},
+	[533011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10290107,
+		Id = 533011,
+		Weight = 10,
+		ActionName = getI18NValue(180267126),
+		ActionParam = {
+			533001,
+			533002
+		}
+	},
+	[534001] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 534001,
+		Weight = 10,
+		ActionName = getI18NValue(180267127),
+		ActionParam = {
+			10300107,
+			30113401
+		}
+	},
+	[534002] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		ActionType = 104,
+		Order = 1,
+		TriggerType = 1,
+		Id = 534002,
+		Weight = 10,
+		ActionName = getI18NValue(180267128),
+		ActionParam = {
+			10300107,
+			30113411
+		}
+	},
+	[534011] = {
+		IsNotCalcuate = true,
+		IsStatic = false,
+		IconType = 3005,
+		ActionType = 1008,
+		Order = 1,
+		TriggerType = 1,
+		CompId = 10300107,
+		Id = 534011,
+		Weight = 10,
+		ActionName = getI18NValue(180267129),
+		ActionParam = {
+			534001,
+			534002
+		}
+	},
 	[205001] = {
 		Id = 205001,
 		IsStatic = false,
@@ -15183,7 +16688,7 @@ local CfgWorldRoomActionTable = {
 			10614001
 		}
 	},
-	[307001] = {
+	[307000] = {
 		ExecutableCondition = 30001501,
 		IsStatic = true,
 		IconType = 3001,
@@ -15192,14 +16697,287 @@ local CfgWorldRoomActionTable = {
 		FailNotice = 12019,
 		TriggerType = 1,
 		CompId = 50150102,
-		Id = 307001,
+		Id = 307000,
 		UnlockCondition = {
 			50000001
+		},
+		ActionName = getI18NValue(180266750),
+		ActionParam = {
+			0,
+			90700000
+		}
+	},
+	[307001] = {
+		MainTaskId = 1070100,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307001,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607001
 		},
 		ActionName = getI18NValue(180260413),
 		ActionParam = {
 			0,
-			90700000
+			10701001
+		}
+	},
+	[307002] = {
+		MainTaskId = 1070200,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307002,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607002
+		},
+		ActionName = getI18NValue(180266751),
+		ActionParam = {
+			0,
+			10702001
+		}
+	},
+	[307003] = {
+		MainTaskId = 1070300,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307003,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607003
+		},
+		ActionName = getI18NValue(180266752),
+		ActionParam = {
+			0,
+			10703001
+		}
+	},
+	[307004] = {
+		MainTaskId = 1070400,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307004,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607004
+		},
+		ActionName = getI18NValue(180266753),
+		ActionParam = {
+			0,
+			10704001
+		}
+	},
+	[307005] = {
+		MainTaskId = 1070500,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307005,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607005
+		},
+		ActionName = getI18NValue(180266754),
+		ActionParam = {
+			0,
+			10705001
+		}
+	},
+	[307006] = {
+		MainTaskId = 1070600,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307006,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607006
+		},
+		ActionName = getI18NValue(180266755),
+		ActionParam = {
+			0,
+			10706001
+		}
+	},
+	[307007] = {
+		MainTaskId = 1070700,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307007,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607007
+		},
+		ActionName = getI18NValue(180266756),
+		ActionParam = {
+			0,
+			10707001
+		}
+	},
+	[307008] = {
+		MainTaskId = 1070800,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307008,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607008
+		},
+		ActionName = getI18NValue(180266757),
+		ActionParam = {
+			0,
+			10708001
+		}
+	},
+	[307009] = {
+		MainTaskId = 1070900,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307009,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607009
+		},
+		ActionName = getI18NValue(180266758),
+		ActionParam = {
+			0,
+			10709001
+		}
+	},
+	[307010] = {
+		MainTaskId = 1071000,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307010,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607010
+		},
+		ActionName = getI18NValue(180266759),
+		ActionParam = {
+			0,
+			10710001
+		}
+	},
+	[307011] = {
+		MainTaskId = 1071100,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307011,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607011
+		},
+		ActionName = getI18NValue(180266760),
+		ActionParam = {
+			0,
+			10711001
+		}
+	},
+	[307012] = {
+		MainTaskId = 1071200,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307012,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607012
+		},
+		ActionName = getI18NValue(180266761),
+		ActionParam = {
+			0,
+			10712001
+		}
+	},
+	[307013] = {
+		MainTaskId = 1071300,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 1,
+		FailNotice = 12019,
+		ExecutableCondition = 30001501,
+		TriggerType = 1,
+		CompId = 50010305,
+		Id = 307013,
+		TriggerTimesMax = 1,
+		UnlockCondition = {
+			30607013
+		},
+		ActionName = getI18NValue(180266762),
+		ActionParam = {
+			0,
+			10713001
 		}
 	},
 	[308001] = {
@@ -15286,6 +17064,7 @@ local CfgWorldRoomActionTable = {
 		ActionName = getI18NValue(180234391),
 		ActionParam = {
 			101002,
+			101004,
 			101005
 		}
 	},
@@ -15370,7 +17149,8 @@ local CfgWorldRoomActionTable = {
 		Order = 1,
 		ActionName = getI18NValue(180234398),
 		ActionParam = {
-			101001
+			101001,
+			101004
 		}
 	},
 	[401012] = {
@@ -15383,6 +17163,7 @@ local CfgWorldRoomActionTable = {
 		ActionName = getI18NValue(180262409),
 		ActionParam = {
 			101001,
+			101005,
 			101007
 		}
 	},
@@ -15433,8 +17214,32 @@ local CfgWorldRoomActionTable = {
 		Order = 1,
 		ActionName = getI18NValue(180262413),
 		ActionParam = {
-			101007,
+			101006,
 			101009
+		}
+	},
+	[401017] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060106,
+		ActionType = 2001,
+		Id = 401017,
+		Order = 1,
+		ActionName = getI18NValue(180264503),
+		ActionParam = {
+			101010
+		}
+	},
+	[401018] = {
+		IsStatic = true,
+		TriggerType = 2,
+		CompId = 40060111,
+		ActionType = 2001,
+		Id = 401018,
+		Order = 1,
+		ActionName = getI18NValue(180265340),
+		ActionParam = {
+			101007
 		}
 	},
 	[700101] = {

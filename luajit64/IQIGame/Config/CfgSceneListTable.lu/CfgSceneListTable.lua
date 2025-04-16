@@ -1467,6 +1467,14 @@ local CfgSceneListTable = {
 		SceneFile = "Story/33_1_Stack_S8_3_2_PrefabStory",
 		LoadingUI = "LoadingNormalUI"
 	},
+	[2333] = {
+		WorldMapRoomID = 106003,
+		BGM = 11000006,
+		RenderConfig = "Home/33_2_Stack_Night_SRCStory",
+		Id = 2333,
+		SceneFile = "Home/33_2_Stack_Night_PrefabStory",
+		LoadingUI = "LoadingNormalUI"
+	},
 	[2341] = {
 		WorldMapRoomID = 102009,
 		BGM = 11000006,
