@@ -673,12 +673,12 @@ local CfgLabyrinthBarrierPoolTable = {
 				41116001
 			},
 			{
-				31,
+				38,
 				102,
 				0
 			},
 			{
-				24,
+				31,
 				401,
 				0
 			},
@@ -962,7 +962,7 @@ local CfgLabyrinthBarrierPoolTable = {
 				41116001
 			},
 			{
-				34,
+				45,
 				102,
 				0
 			},
@@ -1106,7 +1106,7 @@ local CfgLabyrinthBarrierPoolTable = {
 				41116001
 			},
 			{
-				20,
+				5,
 				102,
 				0
 			},
@@ -2979,7 +2979,8 @@ local CfgLabyrinthBarrierPoolTable = {
 			100230,
 			22,
 			100240,
-			36
+			36,
+			100250
 		},
 		RoomScene = {
 			{
@@ -3125,15 +3126,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			14,
 			100240,
 			6,
-			100250,
-			4,
-			100260,
-			10,
-			100270,
-			16,
-			100280,
-			22,
-			100290
+			100250
 		},
 		RoomScene = {
 			{
@@ -3286,15 +3279,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			39,
 			100240,
 			45,
-			100250,
-			37,
-			100260,
-			29,
-			100270,
-			15,
-			100280,
-			3,
-			100290
+			100250
 		},
 		RoomScene = {
 			{
@@ -3441,15 +3426,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			19,
 			100240,
 			17,
-			100250,
-			23,
-			100260,
-			37,
-			100270,
-			45,
-			100280,
-			32,
-			100290
+			100250
 		},
 		RoomScene = {
 			{
@@ -3604,15 +3581,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			10,
 			100240,
 			24,
-			100250,
-			22,
-			100260,
-			36,
-			100270,
-			38,
-			100280,
-			48,
-			100290
+			100250
 		},
 		RoomScene = {
 			{
