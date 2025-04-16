@@ -30361,8 +30361,9 @@ local CfgStorySpeakNPCTable_2 = {
 		}
 	},
 	[107021812] = {
-		SpeakNPC = 101,
 		Id = 107021812,
+		SpeakNPC = 101,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180063985),
 		SpeakContent = getI18NValue(180063986),
 		AnimationName = {
