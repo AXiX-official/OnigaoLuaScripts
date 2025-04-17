@@ -165,7 +165,18 @@ function SceneTransferModule.__OnEnterMainCitySceneComplete(args)
 	local plotId = WorldMapModule.GetCurrentStory()
 
 	if plotId and plotId ~= 0 then
-		StoryChapterModule.EnterDup(plotId)
+		local cfgWorldMap = CfgUtil.GetCfgWorldMapItemDataWithID(plotId)
+		local excludeTypeList = {
+			13
+		}
+
+		if ValueInArray(excludeTypeList, cfgWorldMap.Type) then
+			HomeModule.forceEnterDefaultScene = true
+
+			SceneTransferModule.__EmptyMainCityToHome()
+		else
+			StoryChapterModule.EnterDup(plotId)
+		end
 
 		return
 	end

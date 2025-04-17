@@ -1078,16 +1078,34 @@ local CfgSkillDetailTable = {
 		}
 	},
 	[100410] = {
-		FunctionID = 601,
-		Element = 1,
 		Id = 100410,
-		NotSelectTarget = false,
+		FunctionID = 601,
 		TargetTypeID = 101,
+		Element = 1,
+		NotSelectTarget = false,
 		SkillAI = {
 			1
 		},
 		SkillRatio = {
 			0.267
+		},
+		BuffOrder = {
+			6
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			10041000
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
 		}
 	},
 	[100411] = {
@@ -4584,16 +4602,34 @@ local CfgSkillDetailTable = {
 		}
 	},
 	[102710] = {
-		FunctionID = 601,
-		Element = 2,
 		Id = 102710,
-		NotSelectTarget = false,
+		FunctionID = 601,
 		TargetTypeID = 101,
+		Element = 2,
+		NotSelectTarget = false,
 		SkillAI = {
 			1
 		},
 		SkillRatio = {
 			0.8
+		},
+		BuffOrder = {
+			3
+		},
+		BuffProbability = {
+			1
+		},
+		BuffTarget = {
+			21
+		},
+		BuffID = {
+			10271000
+		},
+		BuffTime = {
+			0
+		},
+		BuffStackNum = {
+			1
 		}
 	},
 	[102711] = {
@@ -4618,7 +4654,7 @@ local CfgSkillDetailTable = {
 			21
 		},
 		BuffID = {
-			10271100
+			10271000
 		},
 		BuffTime = {
 			0
@@ -4695,7 +4731,7 @@ local CfgSkillDetailTable = {
 			21
 		},
 		BuffID = {
-			10271100,
+			10271000,
 			10273000
 		},
 		BuffTime = {

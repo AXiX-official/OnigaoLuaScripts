@@ -13,6 +13,7 @@ local battleActivity = require("IQIGame.UI.ActivityList.BattleActivity.BattleAct
 local summerSignActivity = require("IQIGame.UI.ActivityList.SummerSignActivity.SummerSignActivity")
 local NewSummerActivityView = require("IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityView")
 local GlobalChannelActivityView = require("IQIGame/UI/ActivityList/GlobalChannelActivity/GlobalChannelActivityView")
+local AccRechargeActivityView = require("IQIGame/UI/ActivityList/AccRechargeActivity/AccRechargeActivityView")
 
 ActivityListModule = {}
 
@@ -111,6 +112,8 @@ function ActivityListModule.GetActivityListGameobjectLuaByType(type, obj)
 		return activityViewBase.New(obj, NewSummerActivityView)
 	elseif type == Constant.ActivityListCfgType.GlobalChannelActivity then
 		return activityViewBase.New(obj, GlobalChannelActivityView)
+	elseif type == Constant.ActivityListCfgType.AccRechargeActivity then
+		return activityViewBase.New(obj, AccRechargeActivityView)
 	end
 
 	return activityViewBase.New(obj, activityViewBase)
@@ -138,4 +141,14 @@ function ActivityListModule.GetRedDotTypeByType(activityListCfg)
 	end
 
 	return false
+end
+
+function ActivityListModule.GetAccChargeActivityDataList(activityCid)
+	local list = {}
+
+	ForPairs(CfgActivityChargeTable, function(_cid, _cfg)
+		if _cfg.Activityid ~= activityCid then
+			return
+		end
+	end)
 end

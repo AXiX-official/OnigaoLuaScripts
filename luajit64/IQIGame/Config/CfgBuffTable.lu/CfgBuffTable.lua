@@ -67447,8 +67447,8 @@ local CfgBuffTable = {
 			1
 		},
 		EffectType = {
-			346,
-			345,
+			332,
+			0,
 			0,
 			0,
 			0,
@@ -67460,14 +67460,11 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"100413",
+				"2",
 				"100410",
-				"100410",
-				"100410"
+				"103"
 			},
-			{
-				"100410"
-			},
+			{},
 			{},
 			{},
 			{},
@@ -79887,7 +79884,7 @@ local CfgBuffTable = {
 			1
 		}
 	},
-	[10271100] = {
+	[10271000] = {
 		DeathEffective = false,
 		IsNeedText = false,
 		StackMaxNumber = 1,
@@ -79898,7 +79895,7 @@ local CfgBuffTable = {
 		TriggerType = 103,
 		StackType = 5,
 		DebuffType = 3,
-		Id = 10271100,
+		Id = 10271000,
 		RemoveTrigger = {
 			101
 		},
@@ -80738,8 +80735,8 @@ local CfgBuffTable = {
 			-1
 		},
 		EffectType = {
-			345,
-			346,
+			332,
+			0,
 			0,
 			0,
 			0,
@@ -80751,14 +80748,11 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"102710"
-			},
-			{
-				"102711",
+				"2",
 				"102710",
-				"102710",
-				"102710"
+				"106"
 			},
+			{},
 			{},
 			{},
 			{},
@@ -96768,7 +96762,7 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 80104000,
 		TriggerParams = {
-			-1,
+			1,
 			2,
 			-1,
 			-1,
@@ -99486,7 +99480,7 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 80121000,
 		TriggerParams = {
-			-1,
+			1,
 			2,
 			-1,
 			-1,
@@ -99664,7 +99658,7 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 80122000,
 		TriggerParams = {
-			-1,
+			1,
 			2,
 			-1,
 			-1,
@@ -99724,7 +99718,7 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 80122001,
 		TriggerParams = {
-			-1,
+			1,
 			-1,
 			-1,
 			-1,
@@ -99842,7 +99836,7 @@ local CfgBuffTable = {
 		DeathEffective = false,
 		Id = 80123000,
 		TriggerParams = {
-			-1,
+			1,
 			2,
 			-1,
 			-1,

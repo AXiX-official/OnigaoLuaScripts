@@ -146,7 +146,8 @@ local LoadNetList = {
 		"NetWorldBossDupResponse",
 		"NetCenterRankResponse",
 		"NetCrusadeResponse",
-		"NetCenterChatResponse"
+		"NetCenterChatResponse",
+		"NetActivityRechargeResponse"
 	}
 }
 

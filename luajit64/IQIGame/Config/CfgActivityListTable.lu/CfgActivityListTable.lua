@@ -86,6 +86,28 @@ local CfgActivityListTable = {
 		},
 		Desc = getI18NValue(180164842)
 	},
+	[60101007] = {
+		ActivityType = 888,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101007,
+		Name = getI18NValue(180267276),
+		ActivityID = {
+			60001101
+		},
+		ShowConditionID = {
+			30070120
+		},
+		Reward = {
+			12012,
+			3,
+			50033,
+			50003
+		},
+		Desc = getI18NValue(180267275)
+	},
 	[60101008] = {
 		ActivityType = 107,
 		ActivityPrefab = "/_Activity/DiceGameActivity",

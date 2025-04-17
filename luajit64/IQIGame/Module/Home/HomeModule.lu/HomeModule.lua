@@ -57,11 +57,16 @@ end
 function HomeModule.__OnEnterHomeScene()
 	HomeModule.__AddListeners()
 
-	local roomId = WorldMapModule.GetCurrentRoomId()
 	local sceneCid = 30600001
 
-	if roomId then
-		sceneCid = WorldMapModule.GetRoomSceneCfgWithRoomId(roomId).Id
+	if HomeModule.forceEnterDefaultScene then
+		HomeModule.forceEnterDefaultScene = false
+	else
+		local roomId = WorldMapModule.GetCurrentRoomId()
+
+		if roomId then
+			sceneCid = WorldMapModule.GetRoomSceneCfgWithRoomId(roomId).Id
+		end
 	end
 
 	HomeModule.homeScene = HomeScene.New(sceneCid)

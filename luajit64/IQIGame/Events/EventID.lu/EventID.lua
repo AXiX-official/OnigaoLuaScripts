@@ -331,6 +331,7 @@ EventID = {
 	ShowBattleSkillAPCost = "ShowBattleSkillAPCost",
 	SetLotteryAppointedViewActive = "SetLotteryAppointedViewActive",
 	OnReceiveMonthCardAwardResult = "ReceiveMonthCardAwardResult",
+	OnActivityRechargeDataChange = "OnActivityRechargeDataChange",
 	SummerActivityMainView_OpenStage = "SummerActivityMainView_OpenStage",
 	BattleSetBossPropertyPanelVisible = "BattleSetBossPropertyPanelVisible",
 	ShowUserInfoSkinView = "ShowUserInfoSkinView",

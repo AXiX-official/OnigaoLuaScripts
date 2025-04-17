@@ -37,15 +37,37 @@ end
 
 function LotteryModule.GetIsOpenPool()
 	local openPool = {}
+	local waitCheckPool = {}
 
-	for _, v in pairs(LotteryModule.DrawPodList) do
+	ForPairs(LotteryModule.DrawPodList, function(k, v)
 		local cardCfg = CfgUtil.GetCardJackpotWithID(v.id)
 
-		if cardCfg.IsShow then
+		if not cardCfg.IsShow then
+			return
+		end
+
+		if #cardCfg.mutex > 0 then
+			table.insert(waitCheckPool, v)
+		else
 			table.insert(openPool, v)
 		end
-	end
+	end)
+	ForPairs(waitCheckPool, function(_, _cfg)
+		local cardCfg = CfgUtil.GetCardJackpotWithID(_cfg.id)
+		local isMutex = false
 
+		ForPairs(openPool, function(k, v)
+			isMutex = ValueInArray(cardCfg.mutex, v.id)
+
+			return isMutex
+		end)
+
+		if isMutex then
+			return
+		end
+
+		table.insert(openPool, _cfg)
+	end)
 	table.sort(openPool, function(a, b)
 		local cardA = CfgUtil.GetCardJackpotWithID(a.id)
 		local cardB = CfgUtil.GetCardJackpotWithID(b.id)

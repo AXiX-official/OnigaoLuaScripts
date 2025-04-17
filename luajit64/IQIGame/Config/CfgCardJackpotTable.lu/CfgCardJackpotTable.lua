@@ -362,6 +362,136 @@ local CfgCardJackpotTable = {
 			1
 		}
 	},
+	[50300107] = {
+		Id = 50300107,
+		LargeGuaranteeTeam = 108,
+		TinyGuaranteeTeam = 107,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_3.prefab",
+		TopMoneyID = 24,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroup = 50310004,
+		Index = 11,
+		IsShow = true,
+		Name = getI18NValue(180267361),
+		CardTeam = {
+			15,
+			12,
+			4
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3001,
+			1
+		},
+		Access = {
+			50100045,
+			50205002
+		},
+		TenTimesMust = {
+			4
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300108] = {
+		Id = 50300108,
+		LargeGuaranteeTeam = 208,
+		TinyGuaranteeTeam = 207,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_SkillUp_3.prefab",
+		TopMoneyID = 25,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroup = 50310005,
+		Index = 12,
+		IsShow = true,
+		Name = getI18NValue(180267362),
+		CardTeam = {
+			21,
+			22
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1500
+		},
+		OneTime = {
+			3003,
+			1
+		},
+		Access = {
+			50100045,
+			50205003
+		},
+		TenTimesMust = {
+			22
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300201] = {
+		Id = 50300201,
+		LargeGuaranteeTeam = 102,
+		TinyGuaranteeTeam = 101,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_1.prefab",
+		TopMoneyID = 24,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroup = 50310004,
+		Index = 11,
+		IsShow = true,
+		Name = getI18NValue(180267363),
+		CardTeam = {
+			11,
+			12,
+			2
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3001,
+			1
+		},
+		Access = {
+			50100045,
+			50205002
+		},
+		TenTimesMust = {
+			2
+		},
+		CardDrawType = {
+			1,
+			1
+		},
+		mutex = {
+			50300101
+		}
+	},
 	[50300301] = {
 		Id = 50300301,
 		TinyGuaranteeTeam = 31,
@@ -681,29 +811,30 @@ setmetatable(CfgCardJackpotTable, {
 local defaultMetaTable = {
 	__index = {
 		Name = "",
-		ShowGroup = 0,
+		TinyGuaranteeTeam = 0,
 		LargeGuaranteeTeam = 0,
-		TopMoneyID = 0,
 		CardLabel = 0,
 		RookieCard = false,
 		ShowPrefab = "",
-		TinyGuaranteeTeam = 0,
+		TopMoneyID = 0,
 		OpenType = 0,
 		FullTimes = 0,
 		CardGroupID = 0,
 		CardGroup = 0,
 		FirstTime = 0,
+		ShowGroup = 0,
 		Index = 0,
 		IsShow = false,
-		ShowStar = {},
 		Access = {},
 		CardDrawType = {},
+		mutex = {},
 		OneTime = {},
 		TenTimesMust = {},
-		CardTeam = {},
 		ExtraMoney = {},
-		BeforeTime = {},
-		CardWeight = {}
+		CardWeight = {},
+		ShowStar = {},
+		CardTeam = {},
+		BeforeTime = {}
 	}
 }
 

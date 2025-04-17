@@ -1613,6 +1613,7 @@ Constant.ActivityListCfgType = {
 	LotteryActivityType = 109,
 	SummerActivityType = 301,
 	GhostActivity = 302,
+	AccRechargeActivity = 888,
 	LevelPassActivityType = 102,
 	MainLinePassActivityType = 101,
 	DiceGameActivityType = 107,
@@ -2064,4 +2065,9 @@ Constant.MailNameColor = {
 	Select = Color.New(1, 1, 1, 1),
 	UnRead = Color.New(0.8, 0.8, 0.8, 1),
 	Read = Color.New(0.30196078431372547, 0.30196078431372547, 0.30196078431372547, 1)
+}
+Constant.RechargeActivityItemState = {
+	Finished = 3,
+	Open = 2,
+	Disable = 1
 }

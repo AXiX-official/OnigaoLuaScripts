@@ -1464,9 +1464,11 @@ local CfgDropLibTable = {
 			80220,
 			80221,
 			80222,
-			80223
+			80223,
+			80225
 		},
 		RandomType = {
+			2,
 			2,
 			2,
 			2,
@@ -1516,9 +1518,11 @@ local CfgDropLibTable = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
 		Weights = {
+			1,
 			1,
 			1,
 			1,

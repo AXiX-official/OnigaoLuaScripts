@@ -41,6 +41,16 @@ local CfgCardJackpotGroupTable = {
 		MustGuarantee = 60,
 		UpGuaranteePerAdd = 500
 	},
+	[50310006] = {
+		GuaranteePer = 160,
+		GuaranteeTime = 50,
+		UpGuaranteeTime = 100,
+		GuaranteePerAdd = 500,
+		Id = 50310006,
+		UpMustGuarantee = 110,
+		MustGuarantee = 60,
+		UpGuaranteePerAdd = 500
+	},
 	[50310101] = {
 		GuaranteePer = 100,
 		GuaranteeTime = 60,

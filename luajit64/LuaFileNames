@@ -75,6 +75,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/Components/JoystickControl.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Components/MazeMeetEnemyComponent.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Components/StateMachineComponent.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgActivityChapterTable.lua.txt,1
+Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgActivityChargeTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgActivityListTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgActivityStageTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgActivityTable.lua.txt,1
@@ -389,6 +390,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/GlobalFunction/CustomTableFunction.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Helper/UIDelayHelper.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Net/net.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Net/NetActivityPass.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/Net/NetActivityRechargeResponse.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Net/NetActivityResponse.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Net/NetCenterChatResponse.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/Net/NetCenterRankResponse.lua.txt,0
@@ -1447,6 +1449,8 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/GhostActivity/GhostGameTa
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityViewItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActiveActivityList/SummerActivity/SummerActivityMainView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/AccRechargeActivity/AccRechargeActivityView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/AccRechargeActivity/AccRechargeActivityViewItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/BattleActivity/BattleActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/Common/PassActivityRewardItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/DiceGameActivity/DiceGameActivityView.lua.txt,0

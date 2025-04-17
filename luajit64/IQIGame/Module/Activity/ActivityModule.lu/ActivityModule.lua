@@ -202,3 +202,14 @@ function ActivityModule.FilterActivity(activityID)
 
 	return isExist ~= nil
 end
+
+function ActivityModule.GetActivityRechargeRewards(activityCid, id)
+	net_activityRecharge.getRewards(activityCid, id)
+end
+
+function ActivityModule.OnGetActivityRechargeRewardsResult(activityCid, id, rewards)
+	EventDispatcher.Dispatch(EventID.OnActivityRechargeDataChange)
+	UIModule.Open(Constant.UIControllerName.GetPanelUI, Constant.UILayer.UI, {
+		items = rewards
+	})
+end
