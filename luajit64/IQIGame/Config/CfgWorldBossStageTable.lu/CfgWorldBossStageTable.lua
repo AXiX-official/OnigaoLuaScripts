@@ -5477,7 +5477,7 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
 			200
 		}
@@ -5499,9 +5499,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			210
+			300
 		}
 	},
 	[1803] = {
@@ -5521,9 +5521,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			220
+			400
 		}
 	},
 	[1804] = {
@@ -5543,9 +5543,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			230
+			500
 		}
 	},
 	[1805] = {
@@ -5565,9 +5565,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			240
+			600
 		}
 	},
 	[1806] = {
@@ -5587,9 +5587,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			250
+			700
 		}
 	},
 	[1807] = {
@@ -5609,9 +5609,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			260
+			800
 		}
 	},
 	[1808] = {
@@ -5631,9 +5631,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			270
+			900
 		}
 	},
 	[1809] = {
@@ -5653,9 +5653,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			280
+			1000
 		}
 	},
 	[1810] = {
@@ -5675,9 +5675,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			290
+			1000
 		}
 	},
 	[1811] = {
@@ -5697,9 +5697,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			300
+			1100
 		}
 	},
 	[1812] = {
@@ -5719,9 +5719,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			310
+			1200
 		}
 	},
 	[1813] = {
@@ -5741,9 +5741,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			100,
 			115,
-			320
+			1300
 		}
 	},
 	[1814] = {
@@ -5763,9 +5763,9 @@ local CfgWorldBossStageTable = {
 		},
 		KillReward = {
 			3,
-			50,
+			150,
 			115,
-			330
+			1500
 		}
 	},
 	[1815] = {
