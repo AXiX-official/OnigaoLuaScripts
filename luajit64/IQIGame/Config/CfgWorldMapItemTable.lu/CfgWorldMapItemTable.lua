@@ -4535,9 +4535,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180169763),
 		ChapterName = getI18NValue(180167464),
 		Desc = getI18NValue(180169885),
-		EnterConditionId = {
-			30080101
-		},
 		PassCost = {
 			11,
 			0
@@ -4559,9 +4556,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180169764),
 		ChapterName = getI18NValue(180167465),
 		Desc = getI18NValue(180169886),
-		EnterConditionId = {
-			30080102
-		},
 		PassCost = {
 			11,
 			0
@@ -4583,9 +4577,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180169765),
 		ChapterName = getI18NValue(180167466),
 		Desc = getI18NValue(180169887),
-		EnterConditionId = {
-			30080103
-		},
 		PassCost = {
 			11,
 			0
@@ -4607,9 +4598,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180169767),
 		ChapterName = getI18NValue(180174428),
 		Desc = getI18NValue(180169766),
-		EnterConditionId = {
-			30080104
-		},
 		PassCost = {
 			11,
 			0
@@ -4625,15 +4613,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011010,
 		IconPath = "ChapterSummer/07_haian",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040105,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080151,
 		Name = getI18NValue(180169768),
 		Desc = getI18NValue(180169888),
-		EnterConditionId = {
-			30080105
-		},
 		PassCost = {
 			11,
 			10
@@ -4657,9 +4642,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180169769),
 		ChapterName = getI18NValue(180167469),
 		Desc = getI18NValue(180169889),
-		EnterConditionId = {
-			30080106
-		},
 		PassCost = {
 			11,
 			0
@@ -4675,15 +4657,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011020,
 		IconPath = "ChapterSummer/02_senlin",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040201,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080152,
 		Name = getI18NValue(180170272),
 		Desc = getI18NValue(180170271),
-		EnterConditionId = {
-			30080111
-		},
 		PassCost = {
 			11,
 			10
@@ -4702,15 +4681,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011021,
 		IconPath = "ChapterSummer/07_haian",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040202,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080153,
 		Name = getI18NValue(180170274),
 		Desc = getI18NValue(180170273),
-		EnterConditionId = {
-			30080112
-		},
 		PassCost = {
 			11,
 			10
@@ -4729,15 +4705,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011022,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040203,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080154,
 		Name = getI18NValue(180170276),
 		Desc = getI18NValue(180170275),
-		EnterConditionId = {
-			30080113
-		},
 		PassCost = {
 			11,
 			10
@@ -4756,15 +4729,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011023,
 		IconPath = "ChapterSummer/05_daoyushenchu",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040204,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080155,
 		Name = getI18NValue(180170278),
 		Desc = getI18NValue(180170277),
-		EnterConditionId = {
-			30080114
-		},
 		PassCost = {
 			11,
 			10
@@ -4783,17 +4753,14 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010050,
 		WeatherImg = "2",
+		IconPath = "ChapterSummer/02_senlin",
 		Type = 15,
 		Id = 20040205,
-		IconPath = "ChapterSummer/02_senlin",
 		Name = getI18NValue(180170281),
 		ChapterName = getI18NValue(180170280),
 		Desc = getI18NValue(180170279),
 		ShowConditionId = {
 			30080181
-		},
-		EnterConditionId = {
-			30080115
 		},
 		PassCost = {
 			11,
@@ -4816,9 +4783,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180170284),
 		ChapterName = getI18NValue(180170283),
 		Desc = getI18NValue(180170282),
-		EnterConditionId = {
-			30080116
-		},
 		PassCost = {
 			11,
 			0
@@ -4834,17 +4798,14 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010070,
 		WeatherImg = "2",
+		IconPath = "ChapterSummer/08_shatan2",
 		Type = 15,
 		Id = 20040207,
-		IconPath = "ChapterSummer/08_shatan2",
 		Name = getI18NValue(180170287),
 		ChapterName = getI18NValue(180170286),
 		Desc = getI18NValue(180170285),
 		ShowConditionId = {
 			30080182
-		},
-		EnterConditionId = {
-			30080117
 		},
 		PassCost = {
 			11,
@@ -4867,9 +4828,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180170290),
 		ChapterName = getI18NValue(180170289),
 		Desc = getI18NValue(180170288),
-		EnterConditionId = {
-			30080118
-		},
 		PassCost = {
 			11,
 			0
@@ -4885,17 +4843,14 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010090,
 		WeatherImg = "2",
+		IconPath = "ChapterSummer/03_hupo",
 		Type = 15,
 		Id = 20040209,
-		IconPath = "ChapterSummer/03_hupo",
 		Name = getI18NValue(180170293),
 		ChapterName = getI18NValue(180170292),
 		Desc = getI18NValue(180170291),
 		ShowConditionId = {
 			30080183
-		},
-		EnterConditionId = {
-			30080119
 		},
 		PassCost = {
 			11,
@@ -4918,9 +4873,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180170296),
 		ChapterName = getI18NValue(180170295),
 		Desc = getI18NValue(180170294),
-		EnterConditionId = {
-			30080120
-		},
 		PassCost = {
 			11,
 			0
@@ -4944,9 +4896,6 @@ local CfgWorldMapItemTable = {
 		ShowConditionId = {
 			30080184
 		},
-		EnterConditionId = {
-			30080121
-		},
 		PassCost = {
 			11,
 			0
@@ -4962,20 +4911,14 @@ local CfgWorldMapItemTable = {
 		IsFight = 1,
 		ShowStoryBattleID = 4010120,
 		WeatherImg = "2",
+		IconPath = "ChapterSummer/05_daoyushenchu",
 		Type = 15,
 		Id = 20040212,
-		IconPath = "ChapterSummer/05_daoyushenchu",
 		Name = getI18NValue(180174431),
 		ChapterName = getI18NValue(180174430),
 		Desc = getI18NValue(180174429),
 		ShowConditionId = {
 			30080185
-		},
-		EnterConditionId = {
-			30080122,
-			30080123,
-			30080124,
-			30080125
 		},
 		PassCost = {
 			11,
@@ -4998,9 +4941,6 @@ local CfgWorldMapItemTable = {
 		Name = getI18NValue(180174434),
 		ChapterName = getI18NValue(180174433),
 		Desc = getI18NValue(180174432),
-		EnterConditionId = {
-			30080126
-		},
 		PassCost = {
 			11,
 			0
@@ -5016,16 +4956,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011030,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040301,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080156,
 		Name = getI18NValue(180170301),
 		Desc = getI18NValue(180170300),
-		EnterConditionId = {
-			30080127,
-			30080173
-		},
 		PassCost = {
 			11,
 			12
@@ -5044,16 +4980,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011031,
 		IconPath = "ChapterSummer/04_xuanya",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040302,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080157,
 		Name = getI18NValue(180170303),
 		Desc = getI18NValue(180170302),
-		EnterConditionId = {
-			30080127,
-			30080173
-		},
 		PassCost = {
 			11,
 			12
@@ -5080,11 +5012,6 @@ local CfgWorldMapItemTable = {
 		ShowConditionId = {
 			30080186
 		},
-		EnterConditionId = {
-			30080131,
-			30080132,
-			30080173
-		},
 		PassCost = {
 			11,
 			0
@@ -5105,10 +5032,6 @@ local CfgWorldMapItemTable = {
 		Id = 20040304,
 		Name = getI18NValue(180170307),
 		Desc = getI18NValue(180170306),
-		EnterConditionId = {
-			30080133,
-			30080173
-		},
 		PassCost = {
 			11,
 			0
@@ -5129,10 +5052,6 @@ local CfgWorldMapItemTable = {
 		Id = 20040305,
 		Name = getI18NValue(180170310),
 		Desc = getI18NValue(180170308),
-		EnterConditionId = {
-			30080134,
-			30080173
-		},
 		PassCost = {
 			11,
 			0
@@ -5153,10 +5072,6 @@ local CfgWorldMapItemTable = {
 		Id = 20040306,
 		Name = getI18NValue(180170313),
 		Desc = getI18NValue(180170311),
-		EnterConditionId = {
-			30080135,
-			30080173
-		},
 		PassCost = {
 			11,
 			0
@@ -5166,23 +5081,19 @@ local CfgWorldMapItemTable = {
 		}
 	},
 	[20040307] = {
-		Type = 15,
+		IsFight = 1,
 		ChapterId = 403,
 		RecommendLevel = 70,
-		IsFight = 1,
-		IconPath = "ChapterSummer/04_xuanya",
-		ChallengeCount = 3,
 		WeatherImg = "2",
 		ShowStoryBattleID = 4012010,
-		Id = 20040307,
-		ContinuousCondition = 30080160,
+		IconPath = "ChapterSummer/04_xuanya",
 		ListImg = "ChapterMainImg/MainStageImg_QianDao",
+		Type = 15,
+		Id = 20040307,
+		ChallengeCount = 3,
+		ContinuousCondition = 30080160,
 		Name = getI18NValue(180170316),
 		Desc = getI18NValue(180170314),
-		EnterConditionId = {
-			30080136,
-			30080173
-		},
 		PassCost = {
 			11,
 			20
@@ -5201,16 +5112,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011040,
 		IconPath = "ChapterSummer/06_daoyuhaibian",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040308,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080158,
 		Name = getI18NValue(180170319),
 		Desc = getI18NValue(180170317),
-		EnterConditionId = {
-			30080136,
-			30080173
-		},
 		PassCost = {
 			11,
 			15
@@ -5229,16 +5136,12 @@ local CfgWorldMapItemTable = {
 		WeatherImg = "2",
 		ShowStoryBattleID = 4011041,
 		IconPath = "ChapterSummer/07_haian",
+		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		Type = 15,
 		Id = 20040309,
-		ListImg = "ChapterMainImg/MainStageImg_QianDao",
 		ContinuousCondition = 30080159,
 		Name = getI18NValue(180170322),
 		Desc = getI18NValue(180170320),
-		EnterConditionId = {
-			30080136,
-			30080173
-		},
 		PassCost = {
 			11,
 			15

@@ -295,6 +295,23 @@ local CfgActivityChargeTable = {
 			15
 		}
 	},
+	[1020] = {
+		Id = 1020,
+		Activityid = 60001102,
+		RechargeLevel = 2000,
+		Prizes = {
+			55002,
+			15,
+			3001,
+			30,
+			3003,
+			20,
+			4,
+			1000000,
+			60122,
+			1
+		}
+	},
 	[1021] = {
 		Id = 1021,
 		Activityid = 60001103,
@@ -440,6 +457,23 @@ local CfgActivityChargeTable = {
 			1,
 			16005,
 			15
+		}
+	},
+	[1030] = {
+		Id = 1030,
+		Activityid = 60001103,
+		RechargeLevel = 2000,
+		Prizes = {
+			55002,
+			15,
+			3001,
+			30,
+			3003,
+			20,
+			4,
+			1000000,
+			60122,
+			1
 		}
 	}
 }

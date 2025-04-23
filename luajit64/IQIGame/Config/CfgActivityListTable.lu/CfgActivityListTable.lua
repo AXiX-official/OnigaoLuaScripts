@@ -98,7 +98,7 @@ local CfgActivityListTable = {
 			60001101
 		},
 		ShowConditionID = {
-			30070120
+			30070217
 		},
 		Reward = {
 			12012,
@@ -107,6 +107,50 @@ local CfgActivityListTable = {
 			50003
 		},
 		Desc = getI18NValue(180267275)
+	},
+	[60101005] = {
+		ActivityType = 888,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101005,
+		Name = getI18NValue(180267537),
+		ActivityID = {
+			60001102
+		},
+		ShowConditionID = {
+			30070218
+		},
+		Reward = {
+			12012,
+			3,
+			50033,
+			50003
+		},
+		Desc = getI18NValue(180267536)
+	},
+	[60101009] = {
+		ActivityType = 888,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101009,
+		Name = getI18NValue(180267539),
+		ActivityID = {
+			60001103
+		},
+		ShowConditionID = {
+			30070219
+		},
+		Reward = {
+			12012,
+			3,
+			50033,
+			50003
+		},
+		Desc = getI18NValue(180267538)
 	},
 	[60101008] = {
 		ActivityType = 107,
@@ -219,6 +263,21 @@ local CfgActivityListTable = {
 		},
 		ShowConditionID = {
 			30070216
+		}
+	},
+	[60101016] = {
+		ActivityType = 666,
+		ActivityPrefab = "/_Activity/GlobalChannelActivity",
+		ActivityTeam = 1,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_2.png",
+		Id = 60101016,
+		Name = getI18NValue(180267544),
+		ActivityID = {
+			60001008
+		},
+		ShowConditionID = {
+			30070220
 		}
 	},
 	[60101021] = {

@@ -18,7 +18,7 @@ local CfgMainDialogueTable_Route = {
 	},
 	{
 		71080205,
-		100101014,
+		100201018,
 		2
 	}
 }

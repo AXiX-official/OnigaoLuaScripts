@@ -2833,6 +2833,10 @@ local CfgStoryTextTable = {
 		Id = 7096,
 		Text = getI18NValue(180265408)
 	},
+	[7097] = {
+		Id = 7097,
+		Text = getI18NValue(180267474)
+	},
 	[7100] = {
 		Id = 7100,
 		Text = getI18NValue(180209148)
@@ -3380,6 +3384,10 @@ local CfgStoryTextTable = {
 	[1100717] = {
 		Id = 1100717,
 		Text = getI18NValue(180264616)
+	},
+	[1100718] = {
+		Id = 1100718,
+		Text = getI18NValue(180267475)
 	},
 	[1100801] = {
 		Id = 1100801,
@@ -7855,6 +7863,10 @@ local CfgStoryTextTable = {
 		Id = 401023,
 		Text = getI18NValue(180166891)
 	},
+	[401024] = {
+		Id = 401024,
+		Text = getI18NValue(180267533)
+	},
 	[4101001] = {
 		Id = 4101001,
 		Text = getI18NValue(180117749)
@@ -7906,6 +7918,14 @@ local CfgStoryTextTable = {
 	[4101013] = {
 		Id = 4101013,
 		Text = getI18NValue(180164039)
+	},
+	[4101014] = {
+		Id = 4101014,
+		Text = getI18NValue(180267534)
+	},
+	[4101015] = {
+		Id = 4101015,
+		Text = getI18NValue(180267535)
 	},
 	[4201001] = {
 		Id = 4201001,
@@ -12790,6 +12810,78 @@ local CfgStoryTextTable = {
 	[4001014] = {
 		Id = 4001014,
 		Text = getI18NValue(180261283)
+	},
+	[4002001] = {
+		Id = 4002001,
+		Text = getI18NValue(180267452)
+	},
+	[4002002] = {
+		Id = 4002002,
+		Text = getI18NValue(180267453)
+	},
+	[4002003] = {
+		Id = 4002003,
+		Text = getI18NValue(180267454)
+	},
+	[4002004] = {
+		Id = 4002004,
+		Text = getI18NValue(180267455)
+	},
+	[4002005] = {
+		Id = 4002005,
+		Text = getI18NValue(180267456)
+	},
+	[4002006] = {
+		Id = 4002006,
+		Text = getI18NValue(180267457)
+	},
+	[4002007] = {
+		Id = 4002007,
+		Text = getI18NValue(180267458)
+	},
+	[4002008] = {
+		Id = 4002008,
+		Text = getI18NValue(180267459)
+	},
+	[4002009] = {
+		Id = 4002009,
+		Text = getI18NValue(180267460)
+	},
+	[4002010] = {
+		Id = 4002010,
+		Text = getI18NValue(180267461)
+	},
+	[4002011] = {
+		Id = 4002011,
+		Text = getI18NValue(180267462)
+	},
+	[4002012] = {
+		Id = 4002012,
+		Text = getI18NValue(180267463)
+	},
+	[4002013] = {
+		Id = 4002013,
+		Text = getI18NValue(180267464)
+	},
+	[4002014] = {
+		Id = 4002014,
+		Text = getI18NValue(180267465)
+	},
+	[4002015] = {
+		Id = 4002015,
+		Text = getI18NValue(180267466)
+	},
+	[4002016] = {
+		Id = 4002016,
+		Text = getI18NValue(180267467)
+	},
+	[4002017] = {
+		Id = 4002017,
+		Text = getI18NValue(180267468)
+	},
+	[4002018] = {
+		Id = 4002018,
+		Text = getI18NValue(180267469)
 	}
 }
 

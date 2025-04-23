@@ -17018,6 +17018,25 @@ local CfgWorldRoomActionTable = {
 			100100000
 		}
 	},
+	[310001] = {
+		ExecutableCondition = 30001501,
+		IsStatic = true,
+		IconType = 3001,
+		ActionType = 104,
+		Order = 2,
+		FailNotice = 12019,
+		TriggerType = 1,
+		CompId = 50150102,
+		Id = 310001,
+		UnlockCondition = {
+			50000001
+		},
+		ActionName = getI18NValue(180267470),
+		ActionParam = {
+			0,
+			100200000
+		}
+	},
 	[401001] = {
 		IsStatic = true,
 		TriggerType = 2,

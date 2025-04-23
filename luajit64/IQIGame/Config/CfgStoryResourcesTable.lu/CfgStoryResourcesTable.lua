@@ -971,6 +971,10 @@ local CfgStoryResourcesTable = {
 		Id = 50061,
 		Url = "Assets/05_Images/UI/StoryPart/StoryPuzzle/Judge6-4/icon-Player2.png"
 	},
+	[50062] = {
+		Id = 50062,
+		Url = "Assets/05_Images/DataResource/RoleResources/HeroResource/StoryHead/Friend_HeadImg_0_300008.png"
+	},
 	[60101] = {
 		Id = 60101,
 		Url = "Assets/05_Images/Common/Warlock/Warlock_Element/Role_Element_2.png"

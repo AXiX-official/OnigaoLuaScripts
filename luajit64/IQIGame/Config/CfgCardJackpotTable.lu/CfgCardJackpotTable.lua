@@ -126,7 +126,7 @@ local CfgCardJackpotTable = {
 		CardTeam = {
 			11,
 			12,
-			2
+			4
 		},
 		ShowStar = {
 			3,
@@ -146,7 +146,7 @@ local CfgCardJackpotTable = {
 			50205002
 		},
 		TenTimesMust = {
-			2
+			4
 		},
 		CardDrawType = {
 			1,
@@ -367,7 +367,7 @@ local CfgCardJackpotTable = {
 		LargeGuaranteeTeam = 108,
 		TinyGuaranteeTeam = 107,
 		CardLabel = 1,
-		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_3.prefab",
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_4.prefab",
 		TopMoneyID = 24,
 		OpenType = 1,
 		FullTimes = 9999,
@@ -410,7 +410,7 @@ local CfgCardJackpotTable = {
 		LargeGuaranteeTeam = 208,
 		TinyGuaranteeTeam = 207,
 		CardLabel = 1,
-		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_SkillUp_3.prefab",
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_SkillUp_4.prefab",
 		TopMoneyID = 25,
 		OpenType = 1,
 		FullTimes = 9999,
@@ -462,7 +462,7 @@ local CfgCardJackpotTable = {
 		CardTeam = {
 			11,
 			12,
-			2
+			4
 		},
 		ShowStar = {
 			3,
@@ -482,7 +482,7 @@ local CfgCardJackpotTable = {
 			50205002
 		},
 		TenTimesMust = {
-			2
+			4
 		},
 		CardDrawType = {
 			1,

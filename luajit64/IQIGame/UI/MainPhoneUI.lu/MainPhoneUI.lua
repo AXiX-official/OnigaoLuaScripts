@@ -39,6 +39,10 @@ function MainPhoneUI:OnInit()
 		self:QuestionnairBtnClick()
 	end
 
+	function self.DelegateHomeTaskBtnClick()
+		self:__OnHomeTaskBtnClickHandler()
+	end
+
 	self:__SetSkinDisplayMode(true, false)
 	self.gameObject.gameObject:SetActive(false)
 	self:__InitDynamicsActivityBtn()
@@ -143,6 +147,7 @@ function MainPhoneUI:OnAddListeners()
 	UIEventUtil.AddClickEventListener_Button(self, "TaskBtn")
 	UIEventUtil.AddClickEventListener_Button(self, "LotteryBtn")
 	UIEventUtil.AddClickEventListener_Button(self, "ActivityBtn", self.__OnActivityBtnClickHandler)
+	UIEventUtil.AddClickEventListener_Button(self, "HomeTaskBtn", self.__OnHomeTaskBtnClickHandler)
 	UIEventUtil.AddClickEventListener_Button(self, "ShowAppearanceBtn", self.__OnShowAppearanceBtnClickHandler)
 	UIEventUtil.AddClickEventListener_Button(self, "ClosePreviewBtn", self.__OnClosePreviewBtnClickHandler)
 	self.QuestionnairBtn:GetComponent("Button").onClick:AddListener(self.DelegateQuestionnairBtnClick)
@@ -295,6 +300,10 @@ end
 
 function MainPhoneUI:__OnRechargeRebateBtnClickHandler()
 	UIModule.Open(Constant.UIControllerName.RechargeRebateUI, Constant.UILayer.UI)
+end
+
+function MainPhoneUI:__OnHomeTaskBtnClickHandler()
+	UIModule.Open(Constant.UIControllerName.HomeLandMissionUI)
 end
 
 function MainPhoneUI:__OnShopBtnClickHandler()
@@ -463,6 +472,7 @@ function MainPhoneUI:__RefreshButtonStatus()
 	self:__RefreshWelfareBtnAndActivityBtnState()
 	self:__RefreshQuestionnairState()
 	self:__RefreshFirstRechargeBtn()
+	self:__RefreshHomeTaskBtn()
 	LuaUtility.SetGameObjectShow(self.LotteryBtn, UnlockFunctionModule.IsUnlock(Constant.UnlockType.FUNC_DRAW))
 	LuaUtility.SetGameObjectShow(self.ShopBtn, UnlockFunctionModule.IsUnlock(Constant.UnlockType.FUNC_STORE))
 
@@ -484,6 +494,12 @@ function MainPhoneUI:__RefreshFirstRechargeBtn()
 	local isShow = taskList ~= nil and table.len(taskList) > 0 and UnlockFunctionModule.IsUnlock(Constant.UnlockType.FUNC_STORE)
 
 	LuaUtility.SetGameObjectShow(self.FirstRechargeBtn, isShow)
+end
+
+function MainPhoneUI:__RefreshHomeTaskBtn()
+	local isShow = UnlockFunctionModule.IsUnlock(Constant.UnlockType.Saunter)
+
+	LuaUtility.SetGameObjectShow(self.HomeTaskBtn, isShow)
 end
 
 function MainPhoneUI:__RefreshActivityPassBtnState()
@@ -569,6 +585,7 @@ function MainPhoneUI:__AddRedDotEventListener()
 	RedDotModule.Subscribe(Constant.E_RedDotPath.WelfareList, self.WelfareBtn.transform:Find("RedDot").gameObject)
 	RedDotModule.Subscribe(Constant.E_RedDotPath.ActivityList, self.ActivityListBtn.transform:Find("RedDot").gameObject)
 	RedDotModule.Subscribe(Constant.E_RedDotPath.FirstRecharge, self.FirstRechargeBtn.transform:Find("RedDot").gameObject)
+	RedDotModule.Subscribe(Constant.E_RedDotPath.HomeLand_Task, self.HomeTaskBtn.transform:Find("RedDot").gameObject)
 	RedDotModule.Subscribe(Constant.E_RedDotPath.MobilePhone_NoviceActivity_TaskTab, self.ActivityBtn.transform:Find("RedDot").gameObject)
 end
 
@@ -581,6 +598,7 @@ function MainPhoneUI:__RemoveRedDotEventListener()
 	RedDotModule.Unsubscribe(Constant.E_RedDotPath.WelfareList, self.WelfareBtn.transform:Find("RedDot").gameObject)
 	RedDotModule.Unsubscribe(Constant.E_RedDotPath.ActivityList, self.ActivityListBtn.transform:Find("RedDot").gameObject)
 	RedDotModule.Unsubscribe(Constant.E_RedDotPath.FirstRecharge, self.FirstRechargeBtn.transform:Find("RedDot").gameObject)
+	RedDotModule.Unsubscribe(Constant.E_RedDotPath.HomeLand_Task, self.HomeTaskBtn.transform:Find("RedDot").gameObject)
 	RedDotModule.Unsubscribe(Constant.E_RedDotPath.MobilePhone_NoviceActivity_TaskTab, self.ActivityBtn.transform:Find("RedDot").gameObject)
 end
 

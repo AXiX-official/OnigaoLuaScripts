@@ -4650,6 +4650,46 @@ local CfgItemTable = {
 			1
 		}
 	},
+	[60134] = {
+		UserAction = 10,
+		Quality = 5,
+		Id = 60134,
+		OverMode = 1,
+		ItemTypes = 6,
+		Icon = "/Item/Icon_ItemBag_015.png",
+		MaxUse = 1,
+		Reveal = true,
+		UseType = 2,
+		MaxNum = 1,
+		ItemSubTypes = 2,
+		DepotType = 16,
+		Name = getI18NValue(180267547),
+		ItemTips = getI18NValue(180267546),
+		ActionParams = {
+			10001,
+			1,
+			10002,
+			1,
+			10004,
+			1,
+			10005,
+			1,
+			10006,
+			1,
+			10007,
+			1,
+			10009,
+			1,
+			10016,
+			1,
+			10020,
+			1,
+			10024,
+			1,
+			10027,
+			1
+		}
+	},
 	[60201] = {
 		UserAction = 10,
 		Quality = 2,
@@ -6854,7 +6894,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61807.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6864,10 +6904,10 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259711),
 		ActionParams = {
-			55002,
+			3001,
 			2,
-			16005,
-			1
+			55001,
+			2
 		}
 	},
 	[61808] = {
@@ -6875,7 +6915,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61808.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6885,10 +6925,12 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259712),
 		ActionParams = {
-			55002,
 			2,
-			16005,
-			1
+			30,
+			55001,
+			5,
+			3001,
+			10
 		}
 	},
 	[61809] = {
@@ -6896,7 +6938,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61809.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6906,10 +6948,12 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259713),
 		ActionParams = {
-			55002,
 			2,
-			16005,
-			1
+			68,
+			55002,
+			3,
+			3001,
+			15
 		}
 	},
 	[61810] = {
@@ -6917,7 +6961,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61810.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6927,10 +6971,12 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259714),
 		ActionParams = {
-			55002,
 			2,
-			16005,
-			1
+			128,
+			55002,
+			5,
+			3003,
+			10
 		}
 	},
 	[61811] = {
@@ -6938,7 +6984,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61811.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6948,10 +6994,12 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259715),
 		ActionParams = {
-			55002,
 			2,
-			16005,
-			1
+			198,
+			55002,
+			8,
+			3003,
+			15
 		}
 	},
 	[61812] = {
@@ -6959,7 +7007,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61812.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6969,9 +7017,15 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259716),
 		ActionParams = {
-			55002,
 			2,
-			16005,
+			328,
+			55002,
+			10,
+			3001,
+			20,
+			3004,
+			20,
+			15000,
 			1
 		}
 	},
@@ -6980,7 +7034,7 @@ local CfgItemTable = {
 		Quality = 5,
 		UseType = 1,
 		OverMode = 1,
-		Icon = "/Item/BagBig_61701.png",
+		Icon = "/Item/BagBig_61813.png",
 		MaxUse = 1,
 		Reveal = true,
 		MaxNum = 1,
@@ -6990,9 +7044,15 @@ local CfgItemTable = {
 		DepotType = 16,
 		Name = getI18NValue(180259717),
 		ActionParams = {
-			55002,
 			2,
-			16005,
+			648,
+			55001,
+			15,
+			3001,
+			30,
+			3004,
+			30,
+			60122,
 			1
 		}
 	},

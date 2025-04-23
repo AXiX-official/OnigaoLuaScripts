@@ -7007,7 +7007,7 @@ local CfgSkillFunctionTable = {
 			{
 				"2",
 				"1",
-				"203302213"
+				"203302202"
 			},
 			{},
 			{},
@@ -7122,6 +7122,52 @@ local CfgSkillFunctionTable = {
 			},
 			{},
 			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[302305500] = {
+		DynamicRPNExp = "K/(K+A2*(1-A1)*5/3)*K*(1+0.05*A3)",
+		IsBaseAttribute = false,
+		IsDamagePlus = false,
+		MinDamage = 99,
+		Id = 302305500,
+		DamageType = 1,
+		SelfAtt = {
+			2,
+			0
+		},
+		SelfAttVal = {
+			{
+				1
+			},
+			{}
+		},
+		DynamicArgType = {
+			303,
+			303,
+			103,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"3",
+				"1",
+				"16"
+			},
+			{
+				"6",
+				"1",
+				"3"
+			},
+			{
+				"2",
+				"1",
+				"302305200"
+			},
 			{},
 			{},
 			{}

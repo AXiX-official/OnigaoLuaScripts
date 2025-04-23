@@ -260,6 +260,73 @@ local CfgActivityTable = {
 			7
 		}
 	},
+	[60001006] = {
+		Id = 60001006,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		OpenTimeType = 3,
+		Duration = {
+			2592000
+		},
+		Desc = getI18NValue(180267136),
+		OpenActionParams = {
+			60001006,
+			50300101
+		},
+		CloseActionParams = {
+			60001006,
+			50300101
+		}
+	},
+	[60001007] = {
+		OneOnly = false,
+		OpenTime = "2025/4/30 12:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60001007,
+		OpenTimeType = 2,
+		Duration = {
+			1785600
+		},
+		Desc = getI18NValue(180267274),
+		OpenActionParams = {
+			60001007,
+			50300201
+		},
+		CloseActionParams = {
+			60001007,
+			50300201
+		}
+	},
+	[60001008] = {
+		Id = 60001008,
+		OpenTime = "2025/5/1 4:00",
+		OpenTimeType = 2,
+		ActivityType = 3,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1209600
+		},
+		ExtraParam = {
+			11,
+			8
+		},
+		Desc = getI18NValue(180267543),
+		OpenActionParams = {
+			11,
+			8
+		},
+		CloseActionParams = {
+			11,
+			8
+		}
+	},
 	[60001101] = {
 		ActivityType = 28,
 		OpenTime = "2025/4/16 14:30",
@@ -276,7 +343,7 @@ local CfgActivityTable = {
 	},
 	[60001102] = {
 		ActivityType = 28,
-		OpenTime = "2030/5/1 4:00",
+		OpenTime = "2025/5/1 4:00",
 		OneOnly = false,
 		Id = 60001102,
 		OpenTimeType = 2,
@@ -290,7 +357,7 @@ local CfgActivityTable = {
 	},
 	[60001103] = {
 		ActivityType = 28,
-		OpenTime = "2030/6/1 4:00",
+		OpenTime = "2025/6/1 4:00",
 		OneOnly = false,
 		Id = 60001103,
 		OpenTimeType = 2,
@@ -701,7 +768,7 @@ local CfgActivityTable = {
 	},
 	[60003017] = {
 		OneOnly = false,
-		OpenTime = "2025/4/30 12:00",
+		OpenTime = "2025/5/7 12:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,
@@ -722,7 +789,7 @@ local CfgActivityTable = {
 	},
 	[60003018] = {
 		OneOnly = false,
-		OpenTime = "2025/4/30 12:00",
+		OpenTime = "2025/5/7 12:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,

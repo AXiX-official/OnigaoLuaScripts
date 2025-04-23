@@ -1178,6 +1178,8 @@ local CfgCluesTable = {
 	},
 	[40108] = {
 		Shape = "Assets/05_Images/DataResource/StoryResource/StoryItem/Thread_Icon_05.png",
+		IsSurvey = true,
+		ActionParam = "401024",
 		Id = 40108,
 		Icon = "Assets/05_Images/DataResource/StoryResource/ThreadIcon/Thread_Icon_Den.png",
 		CluesName = getI18NValue(180131391),
@@ -1219,6 +1221,13 @@ local CfgCluesTable = {
 		Icon = "Assets/05_Images/DataResource/StoryResource/ThreadIcon/Thread_Icon_Remains.png",
 		CluesName = getI18NValue(180163184),
 		Des = getI18NValue(180163185)
+	},
+	[40114] = {
+		Shape = "Assets/05_Images/DataResource/StoryResource/StoryItem/Thread_Icon_05.png",
+		Id = 40114,
+		Icon = "Assets/05_Images/DataResource/StoryResource/ThreadIcon/Thread_Icon_Den.png",
+		CluesName = getI18NValue(180267528),
+		Des = getI18NValue(180267529)
 	}
 }
 

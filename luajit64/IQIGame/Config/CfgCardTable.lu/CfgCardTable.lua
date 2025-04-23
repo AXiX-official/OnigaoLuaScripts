@@ -3183,8 +3183,21 @@ local CfgCardTable = {
 			1
 		}
 	},
-	[12001] = {
+	[12000] = {
 		ItemId = 10001,
+		Id = 12000,
+		Team = 101,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180267365),
+		Name = getI18NValue(180267366),
+		ExtraItems = {
+			12,
+			1
+		}
+	},
+	[12001] = {
+		ItemId = 10002,
 		Id = 12001,
 		Team = 101,
 		Weight = 100,
@@ -3197,7 +3210,7 @@ local CfgCardTable = {
 		}
 	},
 	[12002] = {
-		ItemId = 10002,
+		ItemId = 10004,
 		Id = 12002,
 		Team = 101,
 		Weight = 100,
@@ -3210,7 +3223,7 @@ local CfgCardTable = {
 		}
 	},
 	[12003] = {
-		ItemId = 10004,
+		ItemId = 10005,
 		Id = 12003,
 		Team = 101,
 		Weight = 100,
@@ -3223,7 +3236,7 @@ local CfgCardTable = {
 		}
 	},
 	[12004] = {
-		ItemId = 10005,
+		ItemId = 10006,
 		Id = 12004,
 		Team = 101,
 		Weight = 100,
@@ -3236,7 +3249,7 @@ local CfgCardTable = {
 		}
 	},
 	[12005] = {
-		ItemId = 10006,
+		ItemId = 10007,
 		Id = 12005,
 		Team = 101,
 		Weight = 100,
@@ -3249,7 +3262,7 @@ local CfgCardTable = {
 		}
 	},
 	[12006] = {
-		ItemId = 10007,
+		ItemId = 10009,
 		Id = 12006,
 		Team = 101,
 		Weight = 100,
@@ -3262,7 +3275,7 @@ local CfgCardTable = {
 		}
 	},
 	[12007] = {
-		ItemId = 10009,
+		ItemId = 10020,
 		Id = 12007,
 		Team = 101,
 		Weight = 100,
@@ -3275,7 +3288,7 @@ local CfgCardTable = {
 		}
 	},
 	[12008] = {
-		ItemId = 10020,
+		ItemId = 10024,
 		Id = 12008,
 		Team = 101,
 		Weight = 100,
@@ -3288,11 +3301,12 @@ local CfgCardTable = {
 		}
 	},
 	[12009] = {
-		ItemId = 10024,
+		ItemId = 10016,
 		Id = 12009,
-		Team = 101,
-		Weight = 100,
+		UpTag = 1,
 		Number = 1,
+		Team = 101,
+		Weight = 1000,
 		ShowType = getI18NValue(180259948),
 		Name = getI18NValue(180259949),
 		ExtraItems = {
@@ -3301,12 +3315,11 @@ local CfgCardTable = {
 		}
 	},
 	[12010] = {
-		ItemId = 10016,
+		ItemId = 10027,
 		Id = 12010,
-		UpTag = 1,
-		Number = 1,
 		Team = 101,
-		Weight = 900,
+		Weight = 100,
+		Number = 1,
 		ShowType = getI18NValue(180259950),
 		Name = getI18NValue(180259951),
 		ExtraItems = {
