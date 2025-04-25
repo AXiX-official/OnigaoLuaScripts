@@ -5794,7 +5794,7 @@ local CfgWorldBossStageTable = {
 		Id = 1901,
 		Describe = getI18NValue(180267389),
 		MonsterTeam = {
-			14503010
+			14509010
 		},
 		AffixBuff = {
 			10170,
@@ -5816,7 +5816,7 @@ local CfgWorldBossStageTable = {
 		Id = 1902,
 		Describe = getI18NValue(180267390),
 		MonsterTeam = {
-			14503020
+			14509020
 		},
 		AffixBuff = {
 			10170,
@@ -5838,7 +5838,7 @@ local CfgWorldBossStageTable = {
 		Id = 1903,
 		Describe = getI18NValue(180267391),
 		MonsterTeam = {
-			14503030
+			14509030
 		},
 		AffixBuff = {
 			10170,
@@ -5860,7 +5860,7 @@ local CfgWorldBossStageTable = {
 		Id = 1904,
 		Describe = getI18NValue(180267392),
 		MonsterTeam = {
-			14503040
+			14509040
 		},
 		AffixBuff = {
 			10170,
@@ -5882,7 +5882,7 @@ local CfgWorldBossStageTable = {
 		Id = 1905,
 		Describe = getI18NValue(180267393),
 		MonsterTeam = {
-			14503050
+			14509050
 		},
 		AffixBuff = {
 			10170,
@@ -5904,7 +5904,7 @@ local CfgWorldBossStageTable = {
 		Id = 1906,
 		Describe = getI18NValue(180267394),
 		MonsterTeam = {
-			14503060
+			14509060
 		},
 		AffixBuff = {
 			10170,
@@ -5926,7 +5926,7 @@ local CfgWorldBossStageTable = {
 		Id = 1907,
 		Describe = getI18NValue(180267395),
 		MonsterTeam = {
-			14503070
+			14509070
 		},
 		AffixBuff = {
 			10170,
@@ -5948,7 +5948,7 @@ local CfgWorldBossStageTable = {
 		Id = 1908,
 		Describe = getI18NValue(180267396),
 		MonsterTeam = {
-			14503080
+			14509080
 		},
 		AffixBuff = {
 			10170,
@@ -5970,7 +5970,7 @@ local CfgWorldBossStageTable = {
 		Id = 1909,
 		Describe = getI18NValue(180267397),
 		MonsterTeam = {
-			14503090
+			14509090
 		},
 		AffixBuff = {
 			10170,
@@ -5992,7 +5992,7 @@ local CfgWorldBossStageTable = {
 		Id = 1910,
 		Describe = getI18NValue(180267398),
 		MonsterTeam = {
-			14503100
+			14509100
 		},
 		AffixBuff = {
 			10170,
@@ -6014,7 +6014,7 @@ local CfgWorldBossStageTable = {
 		Id = 1911,
 		Describe = getI18NValue(180267399),
 		MonsterTeam = {
-			14503110
+			14509110
 		},
 		AffixBuff = {
 			10170,
@@ -6036,7 +6036,7 @@ local CfgWorldBossStageTable = {
 		Id = 1912,
 		Describe = getI18NValue(180267400),
 		MonsterTeam = {
-			14503120
+			14509120
 		},
 		AffixBuff = {
 			10170,
@@ -6058,7 +6058,7 @@ local CfgWorldBossStageTable = {
 		Id = 1913,
 		Describe = getI18NValue(180267401),
 		MonsterTeam = {
-			14503130
+			14509130
 		},
 		AffixBuff = {
 			10170,
@@ -6080,7 +6080,7 @@ local CfgWorldBossStageTable = {
 		Id = 1914,
 		Describe = getI18NValue(180267402),
 		MonsterTeam = {
-			14503140
+			14509140
 		},
 		AffixBuff = {
 			10170,
@@ -6103,7 +6103,7 @@ local CfgWorldBossStageTable = {
 		IsExBoss = true,
 		Describe = getI18NValue(180267403),
 		MonsterTeam = {
-			14503150
+			14509150
 		},
 		AffixBuff = {
 			10170,
@@ -6119,7 +6119,7 @@ local CfgWorldBossStageTable = {
 		Id = 2001,
 		Describe = getI18NValue(180267404),
 		MonsterTeam = {
-			14508010
+			14509010
 		},
 		AffixBuff = {
 			10170,
@@ -6141,7 +6141,7 @@ local CfgWorldBossStageTable = {
 		Id = 2002,
 		Describe = getI18NValue(180267405),
 		MonsterTeam = {
-			14508020
+			14509020
 		},
 		AffixBuff = {
 			10170,
@@ -6163,7 +6163,7 @@ local CfgWorldBossStageTable = {
 		Id = 2003,
 		Describe = getI18NValue(180267406),
 		MonsterTeam = {
-			14508030
+			14509030
 		},
 		AffixBuff = {
 			10170,
@@ -6185,7 +6185,7 @@ local CfgWorldBossStageTable = {
 		Id = 2004,
 		Describe = getI18NValue(180267407),
 		MonsterTeam = {
-			14508040
+			14509040
 		},
 		AffixBuff = {
 			10170,
@@ -6207,7 +6207,7 @@ local CfgWorldBossStageTable = {
 		Id = 2005,
 		Describe = getI18NValue(180267408),
 		MonsterTeam = {
-			14508050
+			14509050
 		},
 		AffixBuff = {
 			10170,
@@ -6229,7 +6229,7 @@ local CfgWorldBossStageTable = {
 		Id = 2006,
 		Describe = getI18NValue(180267409),
 		MonsterTeam = {
-			14508060
+			14509060
 		},
 		AffixBuff = {
 			10170,
@@ -6251,7 +6251,7 @@ local CfgWorldBossStageTable = {
 		Id = 2007,
 		Describe = getI18NValue(180267410),
 		MonsterTeam = {
-			14508070
+			14509070
 		},
 		AffixBuff = {
 			10170,
@@ -6273,7 +6273,7 @@ local CfgWorldBossStageTable = {
 		Id = 2008,
 		Describe = getI18NValue(180267411),
 		MonsterTeam = {
-			14508080
+			14509080
 		},
 		AffixBuff = {
 			10170,
@@ -6295,7 +6295,7 @@ local CfgWorldBossStageTable = {
 		Id = 2009,
 		Describe = getI18NValue(180267412),
 		MonsterTeam = {
-			14508090
+			14509090
 		},
 		AffixBuff = {
 			10170,
@@ -6317,7 +6317,7 @@ local CfgWorldBossStageTable = {
 		Id = 2010,
 		Describe = getI18NValue(180267413),
 		MonsterTeam = {
-			14508100
+			14509100
 		},
 		AffixBuff = {
 			10170,
@@ -6339,7 +6339,7 @@ local CfgWorldBossStageTable = {
 		Id = 2011,
 		Describe = getI18NValue(180267414),
 		MonsterTeam = {
-			14508110
+			14509110
 		},
 		AffixBuff = {
 			10170,
@@ -6361,7 +6361,7 @@ local CfgWorldBossStageTable = {
 		Id = 2012,
 		Describe = getI18NValue(180267415),
 		MonsterTeam = {
-			14508120
+			14509120
 		},
 		AffixBuff = {
 			10170,
@@ -6383,7 +6383,7 @@ local CfgWorldBossStageTable = {
 		Id = 2013,
 		Describe = getI18NValue(180267416),
 		MonsterTeam = {
-			14508130
+			14509130
 		},
 		AffixBuff = {
 			10170,
@@ -6405,7 +6405,7 @@ local CfgWorldBossStageTable = {
 		Id = 2014,
 		Describe = getI18NValue(180267417),
 		MonsterTeam = {
-			14508140
+			14509140
 		},
 		AffixBuff = {
 			10170,
@@ -6428,7 +6428,7 @@ local CfgWorldBossStageTable = {
 		IsExBoss = true,
 		Describe = getI18NValue(180267418),
 		MonsterTeam = {
-			14508150
+			14509150
 		},
 		AffixBuff = {
 			10170,

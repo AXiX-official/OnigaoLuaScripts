@@ -16240,6 +16240,501 @@ local CfgMonsterTeamTable = {
 			7
 		}
 	},
+	[14509010] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509010,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090101,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509020] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509020,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090201,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090201,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509030] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509030,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090301,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509040] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509040,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090401,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090401,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509050] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509050,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090501,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090501,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509060] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509060,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090601,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090601,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509070] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509070,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090701,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090701,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509080] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509080,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090801,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090801,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509090] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509090,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135090901,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135090901,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509100] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509100,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135091001,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135091001,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509110] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509110,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135091101,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135091101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509120] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509120,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135091201,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135091201,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509130] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509130,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135091301,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135091301,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509140] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509140,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135091401,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135091401,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
+	[14509150] = {
+		Type = 2,
+		ReleaseOrder = 20,
+		MaxRound = 30,
+		BattleAreaID = 1431,
+		Id = 14509150,
+		ResultType = {
+			2
+		},
+		ResultParam = {
+			{
+				135091501,
+				1
+			}
+		},
+		MonsterTeam = {
+			0,
+			0,
+			0,
+			0,
+			135091501,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DailyDupTag = {
+			7
+		}
+	},
 	[14601001] = {
 		Type = 1,
 		ReleaseOrder = 20,
