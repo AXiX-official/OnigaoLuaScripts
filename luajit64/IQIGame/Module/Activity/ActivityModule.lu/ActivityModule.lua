@@ -191,6 +191,10 @@ function ActivityModule.ReceiveSupplyResult(shows)
 	NoticeModule.ShowGetItems(Constant.TipConst.TIP_GET_ITEM_NOTICE_TEXT, shows)
 end
 
+function ActivityModule.OnRaffleResult(awardCid, shows)
+	EventDispatcher.Dispatch(EventID.OnRaffleResult, awardCid, shows)
+end
+
 ActivityModule.filterActivityID = {}
 
 function ActivityModule.FilterActivity(activityID)

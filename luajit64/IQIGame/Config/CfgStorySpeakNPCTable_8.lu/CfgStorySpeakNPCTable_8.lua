@@ -1,6 +1,76 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStorySpeakNPCTable_8.lua
 
 local CfgStorySpeakNPCTable_8 = {
+	[102062095] = {
+		Id = 102062095,
+		NPCName = getI18NValue(180101993),
+		SpeakContent = getI18NValue(180101994),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[102062096] = {
+		SpeakNPC = 103,
+		Id = 102062096,
+		NPCName = getI18NValue(180101995),
+		SpeakContent = getI18NValue(180101996),
+		AnimationName = {
+			"S_talk_1",
+			"S_talk_2",
+			"",
+			""
+		},
+		AnimationLoop = {
+			false,
+			true,
+			false,
+			false
+		},
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
+	[102062097] = {
+		Id = 102062097,
+		NPCName = getI18NValue(180101997),
+		SpeakContent = getI18NValue(180101998),
+		AnimationWhenNext = {
+			"S_stay",
+			"",
+			""
+		},
+		AnimationWhenNextLoop = {
+			true,
+			false,
+			false
+		}
+	},
 	[102062098] = {
 		SpeakNPC = 103,
 		Id = 102062098,
@@ -83026,89 +83096,6 @@ local CfgStorySpeakNPCTable_8 = {
 		Id = 401001438,
 		NPCName = getI18NValue(180176376),
 		SpeakContent = getI18NValue(180176377),
-		AnimationWhenNext = {
-			"S_stay",
-			"",
-			""
-		},
-		AnimationWhenNextLoop = {
-			true,
-			false,
-			false
-		}
-	},
-	[401001439] = {
-		SpeakNPC = 101,
-		Id = 401001439,
-		NPCName = getI18NValue(180176378),
-		SpeakContent = getI18NValue(180176379),
-		AnimationName = {
-			"S_sleepy_1",
-			"S_sleepy_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_sleepy_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[401001440] = {
-		SpeakNPC = 102,
-		Id = 401001440,
-		NPCName = getI18NValue(180176380),
-		SpeakContent = getI18NValue(180176381),
-		AnimationName = {
-			"S_talk_1",
-			"S_talk_2",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
-		AnimationWhenNext = {
-			"S_talk_3",
-			"S_stay",
-			""
-		},
-		AnimationWhenNextLoop = {
-			false,
-			true,
-			false
-		}
-	},
-	[401001441] = {
-		Id = 401001441,
-		NPCName = getI18NValue(180176382),
-		SpeakContent = getI18NValue(180176383),
-		AnimationName = {
-			"S_talk_yes",
-			"S_stay",
-			"",
-			""
-		},
-		AnimationLoop = {
-			false,
-			true,
-			false,
-			false
-		},
 		AnimationWhenNext = {
 			"S_stay",
 			"",

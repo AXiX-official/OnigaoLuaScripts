@@ -317,7 +317,7 @@ local CfgImagePuzzleTable = {
 	},
 	[1801] = {
 		Id = 1801,
-		ImagePrefabPath = "Assets/03_Prefabs/UI/_ImagePuzzleUI/part7/8_Picture.prefab",
+		ImagePrefabPath = "Assets/03_Prefabs/UI/_ImagePuzzleUI/part8/8_Picture.prefab",
 		ImageDescription = getI18NValue(180208694)
 	},
 	[200001] = {

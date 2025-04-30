@@ -3417,6 +3417,10 @@ local CfgStoryTextTable = {
 		Id = 1100807,
 		Text = getI18NValue(180189912)
 	},
+	[1100808] = {
+		Id = 1100808,
+		Text = getI18NValue(180267975)
+	},
 	[101001] = {
 		Id = 101001,
 		Text = getI18NValue(180116822)

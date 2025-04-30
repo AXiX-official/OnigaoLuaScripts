@@ -53,10 +53,26 @@ function TaskSystemUI_achievementPanel_TaskItem:OnClickGoto()
 	JumpModule.Jump(self.data.BaseData.JumpType)
 end
 
+function TaskSystemUI_achievementPanel_TaskItem:GetAllClaimableTaskIds()
+	local claimableTaskIds = {}
+
+	if self.mainView and self.mainView.taskDataArray then
+		for _, task in ipairs(self.mainView.taskDataArray) do
+			if task.status == Constant.TaskStatus.hasDone then
+				table.insert(claimableTaskIds, task.cid)
+			end
+		end
+	end
+
+	return claimableTaskIds
+end
+
 function TaskSystemUI_achievementPanel_TaskItem:OnClickFinish()
-	TaskSystemModule.SubmitTask({
-		self.data.cid
-	})
+	local allClaimableTaskIds = self:GetAllClaimableTaskIds()
+
+	if #allClaimableTaskIds > 0 then
+		TaskSystemModule.SubmitTask(allClaimableTaskIds)
+	end
 end
 
 function TaskSystemUI_achievementPanel_TaskItem:Show()

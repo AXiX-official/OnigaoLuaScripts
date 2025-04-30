@@ -100,12 +100,6 @@ local CfgActivityListTable = {
 		ShowConditionID = {
 			30070217
 		},
-		Reward = {
-			12012,
-			3,
-			50033,
-			50003
-		},
 		Desc = getI18NValue(180267275)
 	},
 	[60101005] = {
@@ -121,12 +115,6 @@ local CfgActivityListTable = {
 		},
 		ShowConditionID = {
 			30070218
-		},
-		Reward = {
-			12012,
-			3,
-			50033,
-			50003
 		},
 		Desc = getI18NValue(180267536)
 	},
@@ -144,28 +132,7 @@ local CfgActivityListTable = {
 		ShowConditionID = {
 			30070219
 		},
-		Reward = {
-			12012,
-			3,
-			50033,
-			50003
-		},
 		Desc = getI18NValue(180267538)
-	},
-	[60101008] = {
-		ActivityType = 107,
-		ActivityPrefab = "/_Activity/DiceGameActivity",
-		ActivityTeam = 2,
-		Sort = 203,
-		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_4.png",
-		Id = 60101008,
-		Name = getI18NValue(180139050),
-		ActivityID = {
-			60007001
-		},
-		ShowConditionID = {
-			30070119
-		}
 	},
 	[60101010] = {
 		ActivityType = 104,
@@ -267,7 +234,7 @@ local CfgActivityListTable = {
 	},
 	[60101016] = {
 		ActivityType = 666,
-		ActivityPrefab = "/_Activity/GlobalChannelActivity",
+		ActivityPrefab = "/_Activity/SignActivityMayDay",
 		ActivityTeam = 1,
 		Sort = 101,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_2.png",
@@ -278,6 +245,51 @@ local CfgActivityListTable = {
 		},
 		ShowConditionID = {
 			30070220
+		}
+	},
+	[60101017] = {
+		ActivityType = 110,
+		ActivityPrefab = "/_Activity/SummerSignActivity",
+		ActivityTeam = 1,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
+		Id = 60101017,
+		Name = getI18NValue(180169843),
+		ActivityID = {
+			60008001
+		},
+		ShowConditionID = {
+			30070209
+		}
+	},
+	[60101018] = {
+		ActivityType = 110,
+		ActivityPrefab = "/_Activity/XiaNaiSignActivity",
+		ActivityTeam = 1,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
+		Id = 60101018,
+		Name = getI18NValue(180261287),
+		ActivityID = {
+			60008014
+		},
+		ShowConditionID = {
+			30070214
+		}
+	},
+	[60101019] = {
+		ActivityType = 110,
+		ActivityPrefab = "/_Activity/StarryWishesSignActivity",
+		ActivityTeam = 1,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
+		Id = 60101019,
+		Name = getI18NValue(180267596),
+		ActivityID = {
+			60008005
+		},
+		ShowConditionID = {
+			30070213
 		}
 	},
 	[60101021] = {
@@ -414,21 +426,6 @@ local CfgActivityListTable = {
 		},
 		Desc = getI18NValue(180195237)
 	},
-	[60101017] = {
-		ActivityType = 110,
-		ActivityPrefab = "/_Activity/SummerSignActivity",
-		ActivityTeam = 1,
-		Sort = 101,
-		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
-		Id = 60101017,
-		Name = getI18NValue(180169843),
-		ActivityID = {
-			60008001
-		},
-		ShowConditionID = {
-			30070209
-		}
-	},
 	[60301001] = {
 		ActivityType = 301,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
@@ -456,21 +453,6 @@ local CfgActivityListTable = {
 		ShowConditionID = {
 			30070210,
 			30000010
-		}
-	},
-	[60101018] = {
-		ActivityType = 110,
-		ActivityPrefab = "/_Activity/XiaNaiSignActivity",
-		ActivityTeam = 1,
-		Sort = 101,
-		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
-		Id = 60101018,
-		Name = getI18NValue(180261287),
-		ActivityID = {
-			60008014
-		},
-		ShowConditionID = {
-			30070214
 		}
 	},
 	[60301003] = {
@@ -502,19 +484,34 @@ local CfgActivityListTable = {
 			30000005
 		}
 	},
-	[60301010] = {
-		ActivityType = 110,
-		ActivityPrefab = "/_Activity/StarryWishesSignActivity",
-		ActivityTeam = 1,
-		Sort = 101,
-		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
-		Id = 60301010,
-		Name = getI18NValue(180190741),
+	[60301101] = {
+		ActivityType = 107,
+		ActivityPrefab = "/_Activity/DiceGameActivity",
+		ActivityTeam = 2,
+		Sort = 203,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_4.png",
+		Id = 60301101,
+		Name = getI18NValue(180267597),
 		ActivityID = {
-			60008005
+			60007001
 		},
 		ShowConditionID = {
-			30070213
+			30070119
+		}
+	},
+	[60301102] = {
+		ActivityType = 999,
+		ActivityPrefab = "/_Activity/TreasureHuntActivity",
+		ActivityTeam = 2,
+		Sort = 301,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_4.png",
+		Id = 60301102,
+		Name = getI18NValue(180267598),
+		ActivityID = {
+			60007002
+		},
+		ShowConditionID = {
+			30070221
 		}
 	}
 }

@@ -349,6 +349,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgTopMoneyTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgTowerChapterTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgTowerStageTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgTransferResourceTable.lua.txt,1
+Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgTreasureHuntActivityTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgUIConfigurationTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgUIPaintingItemTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgVariationTable.lua.txt,1
@@ -1472,6 +1473,8 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/StrengthActivity/StrengthActivi
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/StrengthActivity/StrengthSupplyInfoItemView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/SummerSignActivity/SummerSignActivity.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/SummerSignActivity/SummerSignActivityItemCell.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/TreasureHuntActivity/TreasureHuntActivityItemView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/ActivityList/TreasureHuntActivity/TreasureHuntActivityView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Battle/BattleGuideTemplate/BattleGuideMould1.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Battle/BattleGuideTemplate/BattleGuideMould2.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Battle/BattleGuideTemplate/BattleGuideMould3.lua.txt,0

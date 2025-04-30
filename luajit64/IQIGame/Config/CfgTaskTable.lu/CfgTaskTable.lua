@@ -22968,7 +22968,7 @@ local CfgTaskTable = {
 			1
 		},
 		ActionParam = {
-			3001,
+			3003,
 			5,
 			55002,
 			5
@@ -22997,7 +22997,7 @@ local CfgTaskTable = {
 			1
 		},
 		ActionParam = {
-			3003,
+			3001,
 			5,
 			55002,
 			5

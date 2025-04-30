@@ -374,6 +374,267 @@ local CfgMonsterTeamTable = {
 			0
 		}
 	},
+	[900200] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900200,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130003801,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900201] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900201,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130003802,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900202] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900202,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130003803,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900203] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900203,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130004801,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900204] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900204,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130004802,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900205] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900205,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130004803,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900206] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900206,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130006801,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900207] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900207,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130006801,
+			130006803,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	[900208] = {
+		MaxRound = 99,
+		Type = 1,
+		Id = 900208,
+		ReleaseOrder = 20,
+		BattleAreaID = 1011,
+		ResultType = {
+			4
+		},
+		ResultParam = {
+			{
+				99
+			}
+		},
+		MonsterTeam = {
+			0,
+			130006802,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	},
 	[14100010] = {
 		Type = 1,
 		ReleaseOrder = 20,
@@ -21779,11 +22040,11 @@ local CfgMonsterTeamTable = {
 			0,
 			0,
 			0,
+			0,
+			0,
+			0,
 			138130301,
 			0,
-			138130302,
-			0,
-			138130303,
 			0,
 			0,
 			0
@@ -21805,17 +22066,17 @@ local CfgMonsterTeamTable = {
 		},
 		MonsterTeam = {
 			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
 			138130401,
-			0,
-			0,
-			0,
-			0,
 			0,
 			138130402,
 			0,
-			0,
-			0,
-			0
+			138130403
 		}
 	},
 	[14813050] = {
@@ -22272,11 +22533,11 @@ local CfgMonsterTeamTable = {
 			0,
 			0,
 			0,
+			0,
+			0,
+			0,
 			138230301,
 			0,
-			138230302,
-			0,
-			138230303,
 			0,
 			0,
 			0
@@ -22298,17 +22559,17 @@ local CfgMonsterTeamTable = {
 		},
 		MonsterTeam = {
 			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
 			138230401,
-			0,
-			0,
-			0,
-			0,
 			0,
 			138230402,
 			0,
-			0,
-			0,
-			0
+			138230403
 		}
 	},
 	[14831010] = {
@@ -22736,11 +22997,11 @@ local CfgMonsterTeamTable = {
 			0,
 			0,
 			0,
+			0,
+			0,
+			0,
 			138330301,
 			0,
-			138330302,
-			0,
-			138330303,
 			0,
 			0,
 			0
@@ -22762,17 +23023,17 @@ local CfgMonsterTeamTable = {
 		},
 		MonsterTeam = {
 			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
 			138330401,
-			0,
-			0,
-			0,
-			0,
 			0,
 			138330402,
 			0,
-			0,
-			0,
-			0
+			138330403
 		}
 	},
 	[14910101] = {

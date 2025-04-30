@@ -619,19 +619,23 @@ local CfgStoryResourcesTable = {
 	},
 	[18001] = {
 		Id = 18001,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_1.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_1_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_1_1.png"
 	},
 	[18002] = {
 		Id = 18002,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_2.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_2_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_2_1.png"
 	},
 	[18003] = {
 		Id = 18003,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_3.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_3_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_3_1.png"
 	},
 	[18004] = {
 		Id = 18004,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_4.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_4_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_4_1.png"
 	},
 	[18005] = {
 		Id = 18005,
@@ -639,7 +643,8 @@ local CfgStoryResourcesTable = {
 	},
 	[18006] = {
 		Id = 18006,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_6.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_6_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_6_1.png"
 	},
 	[18007] = {
 		Id = 18007,
@@ -648,6 +653,11 @@ local CfgStoryResourcesTable = {
 	[18008] = {
 		Id = 18008,
 		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_8.png"
+	},
+	[18009] = {
+		Id = 18009,
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_9_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_9_1.png"
 	},
 	[140101] = {
 		Id = 140101,

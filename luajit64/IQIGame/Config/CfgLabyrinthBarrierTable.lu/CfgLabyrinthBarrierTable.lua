@@ -211,6 +211,204 @@ local CfgLabyrinthBarrierTable = {
 		LevelDesc = getI18NValue(180209845),
 		DetailDesc = getI18NValue(180209846)
 	},
+	[41000001] = {
+		MaxTime = 1440,
+		SuccesDrop = 200001,
+		SeasonID = 2,
+		Type = 1,
+		BGM = 11000013,
+		Id = 41000001,
+		StageName = getI18NValue(180267645),
+		StageDesc = getI18NValue(180267864),
+		BarrierPool = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108
+		},
+		Cost = {
+			21,
+			1
+		},
+		MaxMind = {
+			24,
+			60
+		},
+		MoveCost = {
+			24,
+			3
+		},
+		PunishSeparate = {
+			80,
+			50,
+			0,
+			-20,
+			-50
+		},
+		PunishBuff = {
+			100300,
+			100310,
+			100320,
+			100330,
+			100340
+		},
+		FailSeparate = {
+			0,
+			3,
+			6,
+			9,
+			12,
+			15
+		},
+		FailDrop = {
+			200011,
+			200012,
+			200013,
+			200014,
+			200015,
+			200015
+		},
+		LevelDesc = getI18NValue(180267646),
+		DetailDesc = getI18NValue(180267647)
+	},
+	[41000002] = {
+		SeasonID = 2,
+		MaxTime = 1440,
+		SuccesDrop = 200002,
+		Type = 2,
+		BGM = 11000013,
+		Id = 41000002,
+		StageName = getI18NValue(180267648),
+		StageDesc = getI18NValue(180267865),
+		UnlockCondition = {
+			30069101
+		},
+		BarrierPool = {
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208
+		},
+		Cost = {
+			21,
+			1
+		},
+		MaxMind = {
+			24,
+			60
+		},
+		MoveCost = {
+			24,
+			3
+		},
+		PunishSeparate = {
+			80,
+			50,
+			0,
+			-20,
+			-50
+		},
+		PunishBuff = {
+			100300,
+			100310,
+			100320,
+			100330,
+			100340
+		},
+		FailSeparate = {
+			0,
+			3,
+			6,
+			9,
+			12,
+			15
+		},
+		FailDrop = {
+			200021,
+			200022,
+			200023,
+			200024,
+			200025,
+			200025
+		},
+		LevelDesc = getI18NValue(180267649),
+		DetailDesc = getI18NValue(180267650)
+	},
+	[41000003] = {
+		SeasonID = 2,
+		MaxTime = 1440,
+		SuccesDrop = 200003,
+		Type = 3,
+		BGM = 11000013,
+		Id = 41000003,
+		StageName = getI18NValue(180267651),
+		StageDesc = getI18NValue(180267866),
+		UnlockCondition = {
+			30069102
+		},
+		BarrierPool = {
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308
+		},
+		Cost = {
+			21,
+			1
+		},
+		MaxMind = {
+			24,
+			60
+		},
+		MoveCost = {
+			24,
+			3
+		},
+		PunishSeparate = {
+			80,
+			50,
+			0,
+			-20,
+			-50
+		},
+		PunishBuff = {
+			100300,
+			100310,
+			100320,
+			100330,
+			100340
+		},
+		FailSeparate = {
+			0,
+			3,
+			6,
+			9,
+			12,
+			15
+		},
+		FailDrop = {
+			200031,
+			200032,
+			200033,
+			200034,
+			200035,
+			200035
+		},
+		LevelDesc = getI18NValue(180267652),
+		DetailDesc = getI18NValue(180267653)
+	},
 	[40000004] = {
 		MaxTime = 1440,
 		SuccesDrop = 40000001,

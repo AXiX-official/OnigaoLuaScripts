@@ -2,17 +2,23 @@
 
 local CfgSearchTargetTable = {
 	{
-		Id = 1,
+		ContainAnchorPpoint = 1,
 		SelectSelf = false,
 		AttackStealth = false,
-		ContainAnchorPpoint = 1,
+		AlivePriority = false,
 		IgnoreOld = false,
 		IgnoreTaunt = false,
 		IsGroup = false,
 		PointSelectOrder = 1,
 		SelectStealth = false,
-		AlivePriority = false,
-		SelectDeath = false
+		Id = 1,
+		SelectDeath = false,
+		DynamicArgParams = {
+			{
+				"50208"
+			},
+			{}
+		}
 	},
 	{
 		Id = 2,
@@ -5906,33 +5912,6 @@ local CfgSearchTargetTable = {
 			{}
 		}
 	},
-	[38011] = {
-		ContainAnchorPpoint = -1,
-		SelectSelf = false,
-		AttackStealth = true,
-		SelectNum = 1,
-		IgnoreOld = false,
-		AlivePriority = true,
-		IgnoreTaunt = true,
-		PointSelectOrder = 1,
-		SelectCamp = 2,
-		IsGroup = false,
-		SelectStealth = true,
-		Id = 38011,
-		SelectDeath = false,
-		TargetUnitType = {
-			8,
-			0
-		},
-		TargetUnitParam = {
-			{
-				0,
-				1,
-				38012010
-			},
-			{}
-		}
-	},
 	[41011] = {
 		ContainAnchorPpoint = -1,
 		SelectSelf = false,
@@ -7391,6 +7370,142 @@ local CfgSearchTargetTable = {
 			{
 				"1",
 				"302305301"
+			},
+			{}
+		}
+	},
+	[401101300] = {
+		Id = 401101300,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 1,
+		IgnoreOld = false,
+		IgnoreTaunt = true,
+		IsGroup = false,
+		SelectCamp = 2,
+		PointSelectOrder = 1,
+		SelectStealth = true,
+		AlivePriority = true,
+		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_200.png",
+		SelectDeath = false,
+		TargetUnitType = {
+			8,
+			0
+		},
+		TargetUnitParam = {
+			{
+				1,
+				1,
+				401101300
+			},
+			{}
+		}
+	},
+	[401101310] = {
+		DynamicRPNExp = "A1==1",
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 1,
+		IgnoreOld = false,
+		PointSelectOrder = 1,
+		AlivePriority = true,
+		SelectCamp = 1,
+		IgnoreTaunt = true,
+		IsGroup = false,
+		Id = 401101310,
+		SelectStealth = true,
+		SelectDeath = false,
+		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_100.png",
+		DynamicArgType = {
+			102,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"401101301"
+			},
+			{}
+		}
+	},
+	[401301300] = {
+		Id = 401301300,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 2,
+		IgnoreOld = false,
+		IgnoreTaunt = true,
+		IsGroup = true,
+		SelectCamp = 1,
+		PointSelectOrder = 1,
+		SelectStealth = true,
+		AlivePriority = true,
+		SelectDeath = false,
+		TargetUnitType = {
+			8,
+			0
+		},
+		TargetUnitParam = {
+			{
+				1,
+				1,
+				305
+			},
+			{}
+		}
+	},
+	[401302200] = {
+		ContainAnchorPpoint = 1,
+		SelectSelf = true,
+		AttackStealth = false,
+		SelectNum = 24,
+		IgnoreOld = false,
+		AlivePriority = true,
+		IgnoreTaunt = false,
+		IsGroup = true,
+		PointSelectOrder = 1,
+		SelectCamp = -1,
+		SelectStealth = true,
+		Id = 401302200,
+		SelectDeath = false
+	},
+	[401302201] = {
+		ContainAnchorPpoint = 1,
+		SelectSelf = false,
+		AttackStealth = false,
+		SelectNum = 23,
+		IgnoreOld = false,
+		AlivePriority = true,
+		IgnoreTaunt = false,
+		IsGroup = true,
+		PointSelectOrder = 1,
+		SelectCamp = -1,
+		SelectStealth = true,
+		Id = 401302201,
+		SelectDeath = false
+	},
+	[401302300] = {
+		Id = 401302300,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 1,
+		IgnoreOld = false,
+		IgnoreTaunt = true,
+		IsGroup = true,
+		SelectCamp = 1,
+		PointSelectOrder = 1,
+		SelectStealth = true,
+		AlivePriority = true,
+		SelectDeath = false,
+		TargetUnitType = {
+			8,
+			0
+		},
+		TargetUnitParam = {
+			{
+				0,
+				1,
+				305
 			},
 			{}
 		}

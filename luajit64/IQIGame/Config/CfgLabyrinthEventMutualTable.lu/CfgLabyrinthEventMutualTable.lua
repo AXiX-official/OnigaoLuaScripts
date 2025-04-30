@@ -4054,337 +4054,809 @@ local CfgLabyrinthEventMutualTable = {
 			{}
 		}
 	},
-	[41600002] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600002,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210257),
+	[42600101] = {
+		Id = 42600101,
+		Title = getI18NValue(180267655),
 		Text = {
-			getI18NValue(180196710),
-			getI18NValue(180196708),
-			getI18NValue(180196709),
-			getI18NValue(180217217)
+			getI18NValue(180267654),
+			"",
+			"",
+			""
 		},
 		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
+			"",
+			"",
+			""
 		},
 		mutualIds = {
-			41920101,
-			41920103,
-			41920105
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
+			42901001,
+			42901003,
+			42901005
 		}
 	},
-	[41600003] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600003,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210258),
+	[42600102] = {
+		Id = 42600102,
+		Title = getI18NValue(180267657),
 		Text = {
-			getI18NValue(180196714),
-			getI18NValue(180196712),
-			getI18NValue(180196713),
-			getI18NValue(180196711)
+			getI18NValue(180267656),
+			"",
+			"",
+			""
 		},
 		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
+			"",
+			"",
+			""
 		},
 		mutualIds = {
-			41920201,
-			41920203,
-			41920205
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
+			42901002
 		}
 	},
-	[41600004] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600004,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210259),
+	[42600103] = {
+		Id = 42600103,
+		Title = getI18NValue(180267659),
 		Text = {
-			getI18NValue(180196718),
-			getI18NValue(180196716),
-			getI18NValue(180196717),
-			getI18NValue(180196715)
+			getI18NValue(180267658),
+			"",
+			"",
+			""
 		},
 		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
+			"",
+			"",
+			""
 		},
 		mutualIds = {
-			41920301,
-			41920303,
-			41920305
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
+			42901004
 		}
 	},
-	[41600005] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600005,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210260),
+	[42600104] = {
+		Id = 42600104,
+		Title = getI18NValue(180267661),
 		Text = {
-			getI18NValue(180196722),
-			getI18NValue(180196720),
-			getI18NValue(180196721),
-			getI18NValue(180196719)
+			getI18NValue(180267660),
+			"",
+			"",
+			""
 		},
 		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png"
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
+			"",
+			"",
+			""
 		},
 		mutualIds = {
-			41920401,
-			41920403,
-			41920405
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
+			42901006
 		}
 	},
-	[41600006] = {
-		DefaultAnimation = "S_idle",
-		ElementShow = 10815066,
-		Id = 41600006,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210261),
+	[42600201] = {
+		Id = 42600201,
+		Title = getI18NValue(180267663),
 		Text = {
-			getI18NValue(180196726),
-			getI18NValue(180196724),
-			getI18NValue(180196725),
+			getI18NValue(180267662),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42902001,
+			42902003,
+			42902005
+		}
+	},
+	[42600202] = {
+		Id = 42600202,
+		Title = getI18NValue(180267665),
+		Text = {
+			getI18NValue(180267664),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42902002
+		}
+	},
+	[42600203] = {
+		Id = 42600203,
+		Title = getI18NValue(180267667),
+		Text = {
+			getI18NValue(180267666),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42902004
+		}
+	},
+	[42600204] = {
+		Id = 42600204,
+		Title = getI18NValue(180267669),
+		Text = {
+			getI18NValue(180267668),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42902006
+		}
+	},
+	[42600301] = {
+		Id = 42600301,
+		Title = getI18NValue(180267671),
+		Text = {
+			getI18NValue(180267670),
+			"",
+			"",
 			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42903001,
+			42903003
+		}
+	},
+	[42600302] = {
+		Id = 42600302,
+		Title = getI18NValue(180267673),
+		Text = {
+			getI18NValue(180267672),
+			"",
+			"",
+			""
+		},
+		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42903002
+		}
+	},
+	[42600303] = {
+		Id = 42600303,
+		Title = getI18NValue(180267675),
+		Text = {
+			getI18NValue(180267674),
+			"",
+			"",
+			""
+		},
+		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41920501,
-			41920503
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42903004
 		}
 	},
-	[41600007] = {
-		DefaultAnimation = "S_stay_b",
-		ElementShow = 10815051,
-		Id = 41600007,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210262),
+	[42600401] = {
+		Id = 42600401,
+		Title = getI18NValue(180267677),
 		Text = {
-			getI18NValue(180196729),
-			getI18NValue(180196727),
-			getI18NValue(180196728),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			""
-		},
-		mutualIds = {
-			41920601,
-			41920603
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600008] = {
-		ElementShow = 10815052,
-		DefaultAnimation = "S_stay_b",
-		Id = 41600008,
-		Title = getI18NValue(180210263),
-		Text = {
-			getI18NValue(180198533),
-			getI18NValue(180198531),
-			getI18NValue(180198532),
+			getI18NValue(180267676),
+			"",
+			"",
 			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41920701,
-			41920703
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42904001,
+			42904003
 		}
 	},
-	[41600009] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600009,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210264),
+	[42600402] = {
+		Id = 42600402,
+		Title = getI18NValue(180267679),
 		Text = {
-			getI18NValue(180198536),
-			getI18NValue(180198534),
-			getI18NValue(180198535),
+			getI18NValue(180267678),
+			"",
+			"",
 			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41920801,
-			41920803
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42904002
 		}
 	},
-	[41600010] = {
-		ElementShow = 10815060,
-		DefaultAnimation = "S_stay",
-		Id = 41600010,
-		Title = getI18NValue(180210265),
+	[42600403] = {
+		Id = 42600403,
+		Title = getI18NValue(180267681),
 		Text = {
-			getI18NValue(180198539),
+			getI18NValue(180267680),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42904004
+		}
+	},
+	[42600501] = {
+		Id = 42600501,
+		Title = getI18NValue(180267683),
+		Text = {
+			getI18NValue(180267682),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42905001,
+			42905003,
+			42905005
+		}
+	},
+	[42600502] = {
+		Id = 42600502,
+		Title = getI18NValue(180267685),
+		Text = {
+			getI18NValue(180267684),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42905002
+		}
+	},
+	[42600503] = {
+		Id = 42600503,
+		Title = getI18NValue(180267687),
+		Text = {
+			getI18NValue(180267686),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42905004
+		}
+	},
+	[42600504] = {
+		Id = 42600504,
+		Title = getI18NValue(180267689),
+		Text = {
+			getI18NValue(180267688),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42905006
+		}
+	},
+	[42600601] = {
+		Id = 42600601,
+		Title = getI18NValue(180267691),
+		Text = {
+			getI18NValue(180267690),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42906001,
+			42906003,
+			42906005
+		}
+	},
+	[42600602] = {
+		Id = 42600602,
+		Title = getI18NValue(180267693),
+		Text = {
+			getI18NValue(180267692),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42906002
+		}
+	},
+	[42600603] = {
+		Id = 42600603,
+		Title = getI18NValue(180267695),
+		Text = {
+			getI18NValue(180267694),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42906004
+		}
+	},
+	[42600604] = {
+		Id = 42600604,
+		Title = getI18NValue(180267697),
+		Text = {
+			getI18NValue(180267696),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42906006
+		}
+	},
+	[42600701] = {
+		Id = 42600701,
+		Title = getI18NValue(180267699),
+		Text = {
+			getI18NValue(180267698),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42907001,
+			42907003,
+			42907005
+		}
+	},
+	[42600702] = {
+		Id = 42600702,
+		Title = getI18NValue(180267701),
+		Text = {
+			getI18NValue(180267700),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42907002
+		}
+	},
+	[42600703] = {
+		Id = 42600703,
+		Title = getI18NValue(180267703),
+		Text = {
+			getI18NValue(180267702),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42907004
+		}
+	},
+	[42600704] = {
+		Id = 42600704,
+		Title = getI18NValue(180267705),
+		Text = {
+			getI18NValue(180267704),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42907006
+		}
+	},
+	[42600801] = {
+		Id = 42600801,
+		Title = getI18NValue(180267707),
+		Text = {
+			getI18NValue(180267706),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42908001,
+			42908003
+		}
+	},
+	[42600802] = {
+		Id = 42600802,
+		Title = getI18NValue(180267709),
+		Text = {
+			getI18NValue(180267708),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42908002
+		}
+	},
+	[42600803] = {
+		Id = 42600803,
+		Title = getI18NValue(180267711),
+		Text = {
+			getI18NValue(180267710),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42908004
+		}
+	},
+	[42600901] = {
+		Id = 42600901,
+		Title = getI18NValue(180267713),
+		Text = {
+			getI18NValue(180267712),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42909001,
+			42909003,
+			42909005
+		}
+	},
+	[42600902] = {
+		Id = 42600902,
+		Title = getI18NValue(180267715),
+		Text = {
+			getI18NValue(180267714),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42909002
+		}
+	},
+	[42600903] = {
+		Id = 42600903,
+		Title = getI18NValue(180267717),
+		Text = {
+			getI18NValue(180267716),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42909004
+		}
+	},
+	[42600904] = {
+		Id = 42600904,
+		Title = getI18NValue(180267719),
+		Text = {
+			getI18NValue(180267718),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42909006
+		}
+	},
+	[42601001] = {
+		Id = 42601001,
+		Title = getI18NValue(180267721),
+		Text = {
+			getI18NValue(180267720),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42910001,
+			42910003,
+			42910005
+		}
+	},
+	[42601002] = {
+		Id = 42601002,
+		Title = getI18NValue(180267723),
+		Text = {
+			getI18NValue(180267722),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42910002
+		}
+	},
+	[42601003] = {
+		Id = 42601003,
+		Title = getI18NValue(180267725),
+		Text = {
+			getI18NValue(180267724),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42910004
+		}
+	},
+	[42601004] = {
+		Id = 42601004,
+		Title = getI18NValue(180267727),
+		Text = {
+			getI18NValue(180267726),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42910006
+		}
+	},
+	[42601101] = {
+		Id = 42601101,
+		Title = getI18NValue(180267729),
+		Text = {
+			getI18NValue(180267728),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42911001,
+			42911003,
+			42911005
+		}
+	},
+	[42601102] = {
+		Id = 42601102,
+		Title = getI18NValue(180267731),
+		Text = {
+			getI18NValue(180267730),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42911002
+		}
+	},
+	[42601103] = {
+		Id = 42601103,
+		Title = getI18NValue(180267733),
+		Text = {
+			getI18NValue(180267732),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42911004
+		}
+	},
+	[42601104] = {
+		Id = 42601104,
+		Title = getI18NValue(180267735),
+		Text = {
+			getI18NValue(180267734),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42911006
+		}
+	},
+	[42601201] = {
+		Id = 42601201,
+		Title = getI18NValue(180267737),
+		Text = {
+			getI18NValue(180267736),
 			"",
 			"",
 			""
@@ -4396,1466 +4868,261 @@ local CfgLabyrinthEventMutualTable = {
 			""
 		},
 		mutualIds = {
-			41920901
-		},
-		Next = {
-			{
-				0
-			},
-			{},
-			{},
-			{}
+			42912001,
+			42912003
 		}
 	},
-	[41600011] = {
-		DefaultAnimation = "S_off",
-		ElementShow = 10815064,
-		Id = 41600011,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210266),
+	[42601202] = {
+		Id = 42601202,
+		Title = getI18NValue(180267739),
 		Text = {
-			getI18NValue(180198540),
-			getI18NValue(180217218),
-			getI18NValue(180217219),
+			getI18NValue(180267738),
+			"",
+			"",
 			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41921001,
-			41921003
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42912002
 		}
 	},
-	[41600012] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600012,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210267),
+	[42601203] = {
+		Id = 42601203,
+		Title = getI18NValue(180267741),
 		Text = {
-			getI18NValue(180198543),
-			getI18NValue(180198541),
-			getI18NValue(180198542),
+			getI18NValue(180267740),
+			"",
+			"",
 			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			""
-		},
-		mutualIds = {
-			41921101,
-			41921103
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600013] = {
-		DefaultAnimation = "S_stay_b",
-		ElementShow = 10815052,
-		Id = 41600013,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210268),
-		Text = {
-			getI18NValue(180198546),
-			getI18NValue(180198544),
-			getI18NValue(180198545),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			""
-		},
-		mutualIds = {
-			41921201,
-			41921203
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600014] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600014,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210269),
-		Text = {
-			getI18NValue(180198549),
-			getI18NValue(180198547),
-			getI18NValue(180198548),
-			getI18NValue(180217220)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png"
-		},
-		mutualIds = {
-			41921301,
-			41921303,
-			41921305
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600015] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600015,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210270),
-		Text = {
-			getI18NValue(180198553),
-			getI18NValue(180198551),
-			getI18NValue(180198552),
-			getI18NValue(180198550)
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42912004
+		}
+	},
+	[42601301] = {
+		Id = 42601301,
+		Title = getI18NValue(180267743),
+		Text = {
+			getI18NValue(180267742),
+			"",
+			"",
+			""
+		},
+		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42913001,
+			42913003,
+			42913005
+		}
+	},
+	[42601302] = {
+		Id = 42601302,
+		Title = getI18NValue(180267745),
+		Text = {
+			getI18NValue(180267744),
+			"",
+			"",
+			""
+		},
+		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png"
-		},
-		mutualIds = {
-			41921401,
-			41921403,
-			41921405
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600016] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600016,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210271),
-		Text = {
-			getI18NValue(180198557),
-			getI18NValue(180198555),
-			getI18NValue(180198556),
-			getI18NValue(180198554)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png"
-		},
-		mutualIds = {
-			41921501,
-			41921503,
-			41921505
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600017] = {
-		ElementShow = 10815060,
-		DefaultAnimation = "S_stay",
-		Id = 41600017,
-		Title = getI18NValue(180210272),
-		Text = {
-			getI18NValue(180198561),
-			getI18NValue(180198559),
-			getI18NValue(180198560),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41921601,
-			41921603
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42913002
 		}
 	},
-	[41600018] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600018,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210273),
+	[42601303] = {
+		Id = 42601303,
+		Title = getI18NValue(180267747),
 		Text = {
-			getI18NValue(180198564),
-			getI18NValue(180198562),
-			getI18NValue(180198563),
-			getI18NValue(180217221)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png"
-		},
-		mutualIds = {
-			41921701,
-			41921703,
-			41921705
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600019] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600019,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210274),
-		Text = {
-			getI18NValue(180198568),
-			getI18NValue(180198566),
-			getI18NValue(180198567),
+			getI18NValue(180267746),
+			"",
+			"",
 			""
 		},
 		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41921801,
-			41921803
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42913004
 		}
 	},
-	[41600020] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600020,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210275),
+	[42601304] = {
+		Id = 42601304,
+		Title = getI18NValue(180267749),
 		Text = {
-			getI18NValue(180198571),
-			getI18NValue(180198569),
-			getI18NValue(180198570),
+			getI18NValue(180267748),
+			"",
+			"",
 			""
 		},
 		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41921901,
-			41921903
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42913006
 		}
 	},
-	[41600021] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815068,
-		Id = 41600021,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210276),
+	[42601401] = {
+		Id = 42601401,
+		Title = getI18NValue(180267751),
 		Text = {
-			getI18NValue(180198574),
-			getI18NValue(180198572),
-			getI18NValue(180198573),
-			getI18NValue(180217222)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png"
-		},
-		mutualIds = {
-			41922001,
-			41922003,
-			41922005
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600022] = {
-		DefaultAnimation = "S_idle",
-		ElementShow = 10815062,
-		Id = 41600022,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210277),
-		Text = {
-			getI18NValue(180198578),
-			getI18NValue(180198576),
-			getI18NValue(180198577),
-			getI18NValue(180198575)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
-		},
-		mutualIds = {
-			41922101,
-			41922103,
-			41922105
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600023] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600023,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210278),
-		Text = {
-			getI18NValue(180198582),
-			getI18NValue(180198580),
-			getI18NValue(180198581),
-			getI18NValue(180198579)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png"
-		},
-		mutualIds = {
-			41922201,
-			41922203,
-			41922205
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600024] = {
-		DefaultAnimation = "S_idle",
-		ElementShow = 10815063,
-		Id = 41600024,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210279),
-		Text = {
-			getI18NValue(180198586),
-			getI18NValue(180198584),
-			getI18NValue(180198585),
-			getI18NValue(180198583)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png"
-		},
-		mutualIds = {
-			41922301,
-			41922303,
-			41922305
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600025] = {
-		ElementShow = 10815060,
-		DefaultAnimation = "S_stay",
-		Id = 41600025,
-		Title = getI18NValue(180210280),
-		Text = {
-			getI18NValue(180198590),
-			getI18NValue(180198588),
-			getI18NValue(180198589),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			""
-		},
-		mutualIds = {
-			41922401,
-			41922403
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600026] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600026,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210281),
-		Text = {
-			getI18NValue(180198593),
-			getI18NValue(180198591),
-			getI18NValue(180198592),
-			getI18NValue(180217223)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
-		},
-		mutualIds = {
-			41922501,
-			41922503,
-			41922505
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600027] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600027,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210282),
-		Text = {
-			getI18NValue(180198597),
-			getI18NValue(180198595),
-			getI18NValue(180198596),
-			getI18NValue(180198594)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
-		},
-		mutualIds = {
-			41922601,
-			41922603,
-			41922605
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600028] = {
-		ElementShow = 10815060,
-		DefaultAnimation = "S_stay",
-		Id = 41600028,
-		Title = getI18NValue(180210283),
-		Text = {
-			getI18NValue(180198601),
-			getI18NValue(180198599),
-			getI18NValue(180198600),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			""
-		},
-		mutualIds = {
-			41922701,
-			41922703
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600029] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600029,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210284),
-		Text = {
-			getI18NValue(180198604),
-			getI18NValue(180198602),
-			getI18NValue(180198603),
-			getI18NValue(180217224)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
-		},
-		mutualIds = {
-			41922801,
-			41922803,
-			41922805
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600030] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600030,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210285),
-		Text = {
-			getI18NValue(180198608),
-			getI18NValue(180198606),
-			getI18NValue(180198607),
-			getI18NValue(180198605)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png"
-		},
-		mutualIds = {
-			41922901,
-			41922903,
-			41922905
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600031] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600031,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210286),
-		Text = {
-			getI18NValue(180198612),
-			getI18NValue(180198610),
-			getI18NValue(180198611),
-			getI18NValue(180198609)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_07.png"
-		},
-		mutualIds = {
-			41923001,
-			41923003,
-			41923005
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600032] = {
-		ElementShow = 10815060,
-		DefaultAnimation = "S_stay",
-		Id = 41600032,
-		Title = getI18NValue(180210287),
-		Text = {
-			getI18NValue(180198616),
-			getI18NValue(180198614),
-			getI18NValue(180198615),
-			getI18NValue(180198613)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_02.png"
-		},
-		mutualIds = {
-			41923101,
-			41923103,
-			41923105
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600033] = {
-		DefaultAnimation = "S_stay_b",
-		ElementShow = 10815052,
-		Id = 41600033,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210288),
-		Text = {
-			getI18NValue(180198620),
-			getI18NValue(180198618),
-			getI18NValue(180198619),
-			getI18NValue(180198617)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png"
-		},
-		mutualIds = {
-			41923201,
-			41923203,
-			41923205
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600034] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600034,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210289),
-		Text = {
-			getI18NValue(180198624),
-			getI18NValue(180198622),
-			getI18NValue(180198623),
-			getI18NValue(180198621)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png"
-		},
-		mutualIds = {
-			41923301,
-			41923303,
-			41923305
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600035] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815051,
-		Id = 41600035,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180210290),
-		Text = {
-			getI18NValue(180198628),
-			getI18NValue(180198626),
-			getI18NValue(180198627),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			""
-		},
-		mutualIds = {
-			41923401,
-			41923403
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600036] = {
-		DefaultAnimation = "S_on",
-		ElementShow = 10815065,
-		Id = 41600036,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217366),
-		Text = {
-			getI18NValue(180217365),
-			getI18NValue(180217363),
-			getI18NValue(180217364),
-			""
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_05.png",
-			""
-		},
-		mutualIds = {
-			41923501,
-			41923503
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
-		}
-	},
-	[41600037] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600037,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217370),
-		Text = {
-			getI18NValue(180217369),
-			getI18NValue(180217367),
-			getI18NValue(180217368),
+			getI18NValue(180267750),
+			"",
+			"",
 			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
 			""
 		},
 		mutualIds = {
-			41923601,
-			41923603
-		},
-		Next = {
-			{
-				2,
-				3
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{}
+			42914001,
+			42914003,
+			42914005
 		}
 	},
-	[41600038] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815067,
-		Id = 41600038,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217375),
+	[42601402] = {
+		Id = 42601402,
+		Title = getI18NValue(180267753),
 		Text = {
-			getI18NValue(180217374),
-			getI18NValue(180217372),
-			getI18NValue(180217373),
-			getI18NValue(180217371)
+			getI18NValue(180267752),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42914002
+		}
+	},
+	[42601403] = {
+		Id = 42601403,
+		Title = getI18NValue(180267755),
+		Text = {
+			getI18NValue(180267754),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42914004
+		}
+	},
+	[42601404] = {
+		Id = 42601404,
+		Title = getI18NValue(180267757),
+		Text = {
+			getI18NValue(180267756),
+			"",
+			"",
+			""
+		},
+		Picture = {
+			"Assets/05_Images/Icon/Common/Icon_MazeImage_10.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42914006
+		}
+	},
+	[42601501] = {
+		Id = 42601501,
+		Title = getI18NValue(180267759),
+		Text = {
+			getI18NValue(180267758),
+			"",
+			"",
+			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png"
+			"",
+			"",
+			""
 		},
 		mutualIds = {
-			41923701,
-			41923703,
-			41923705
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
+			42915001,
+			42915003
 		}
 	},
-	[41600039] = {
-		DefaultAnimation = "S_off",
-		ElementShow = 10815064,
-		Id = 41600039,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217380),
+	[42601502] = {
+		Id = 42601502,
+		Title = getI18NValue(180267761),
 		Text = {
-			getI18NValue(180217379),
-			getI18NValue(180217377),
-			getI18NValue(180217378),
-			getI18NValue(180217376)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_03.png"
-		},
-		mutualIds = {
-			41923801,
-			41923803,
-			41923805
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600040] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815054,
-		Id = 41600040,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217385),
-		Text = {
-			getI18NValue(180217384),
-			getI18NValue(180217382),
-			getI18NValue(180217383),
-			getI18NValue(180217381)
+			getI18NValue(180267760),
+			"",
+			"",
+			""
 		},
 		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
+			"",
+			"",
+			""
+		},
+		mutualIds = {
+			42915002
+		}
+	},
+	[42601503] = {
+		Id = 42601503,
+		Title = getI18NValue(180267763),
+		Text = {
+			getI18NValue(180267762),
+			"",
+			"",
+			""
+		},
+		Picture = {
 			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_06.png"
+			"",
+			"",
+			""
 		},
 		mutualIds = {
-			41923901,
-			41923903,
-			41923905
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
+			42915004
 		}
-	},
-	[41600041] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600041,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217390),
-		Text = {
-			getI18NValue(180217389),
-			getI18NValue(180217387),
-			getI18NValue(180217388),
-			getI18NValue(180217386)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_04.png"
-		},
-		mutualIds = {
-			41924001,
-			41924003,
-			41924005
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600042] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600042,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217395),
-		Text = {
-			getI18NValue(180217394),
-			getI18NValue(180217392),
-			getI18NValue(180217393),
-			getI18NValue(180217391)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_08.png"
-		},
-		mutualIds = {
-			41924101,
-			41924103,
-			41924105
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600043] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815060,
-		Id = 41600043,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217400),
-		Text = {
-			getI18NValue(180217399),
-			getI18NValue(180217397),
-			getI18NValue(180217398),
-			getI18NValue(180217396)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png"
-		},
-		mutualIds = {
-			41924201,
-			41924203,
-			41924205
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600044] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815052,
-		Id = 41600044,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217405),
-		Text = {
-			getI18NValue(180217404),
-			getI18NValue(180217402),
-			getI18NValue(180217403),
-			getI18NValue(180217401)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_09.png"
-		},
-		mutualIds = {
-			41924301,
-			41924303,
-			41924305
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600045] = {
-		DefaultAnimation = "S_stay",
-		ElementShow = 10815054,
-		Id = 41600045,
-		DefaultEffect = {
-			10030,
-			10001
-		},
-		Title = getI18NValue(180217410),
-		Text = {
-			getI18NValue(180217409),
-			getI18NValue(180217407),
-			getI18NValue(180217408),
-			getI18NValue(180217406)
-		},
-		Picture = {
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png",
-			"Assets/05_Images/Icon/Common/Icon_MazeImage_01.png"
-		},
-		mutualIds = {
-			41924401,
-			41924403,
-			41924405
-		},
-		Next = {
-			{
-				2,
-				3,
-				4
-			},
-			{
-				0
-			},
-			{
-				0
-			},
-			{
-				0
-			}
-		}
-	},
-	[41600046] = {
-		Id = 41600046,
-		ElementShow = 10815060,
-		DefaultAnimation = "S_stay"
 	}
 }
 

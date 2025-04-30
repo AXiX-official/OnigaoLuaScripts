@@ -145,6 +145,18 @@ local CfgLabyrinthEventTable = {
 		EventTrigType = 2,
 		Type = 1
 	},
+	[42101101] = {
+		SubTypeID = 41200203,
+		Id = 42101101,
+		EventTrigType = 2,
+		Type = 1
+	},
+	[42101102] = {
+		SubTypeID = 41200204,
+		Id = 42101102,
+		EventTrigType = 2,
+		Type = 1
+	},
 	[41101201] = {
 		SubTypeID = 41200201,
 		Id = 41101201,
@@ -154,6 +166,18 @@ local CfgLabyrinthEventTable = {
 	[41101202] = {
 		SubTypeID = 41200201,
 		Id = 41101202,
+		EventTrigType = 2,
+		Type = 1
+	},
+	[42101201] = {
+		SubTypeID = 41200203,
+		Id = 42101201,
+		EventTrigType = 2,
+		Type = 1
+	},
+	[42101202] = {
+		SubTypeID = 41200204,
+		Id = 42101202,
 		EventTrigType = 2,
 		Type = 1
 	},
@@ -200,7 +224,7 @@ local CfgLabyrinthEventTable = {
 		Type = 1
 	},
 	[41101903] = {
-		SubTypeID = 41205003,
+		SubTypeID = 42205004,
 		Id = 41101903,
 		EventTrigType = 1,
 		Type = 1
@@ -1759,6 +1783,336 @@ local CfgLabyrinthEventTable = {
 	[41605504] = {
 		SubTypeID = 41605504,
 		Id = 41605504,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620101] = {
+		SubTypeID = 42600101,
+		Id = 41620101,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620102] = {
+		SubTypeID = 42600102,
+		Id = 41620102,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620103] = {
+		SubTypeID = 42600103,
+		Id = 41620103,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620104] = {
+		SubTypeID = 42600104,
+		Id = 41620104,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620201] = {
+		SubTypeID = 42600201,
+		Id = 41620201,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620202] = {
+		SubTypeID = 42600202,
+		Id = 41620202,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620203] = {
+		SubTypeID = 42600203,
+		Id = 41620203,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620204] = {
+		SubTypeID = 42600204,
+		Id = 41620204,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620301] = {
+		SubTypeID = 42600301,
+		Id = 41620301,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620302] = {
+		SubTypeID = 42600302,
+		Id = 41620302,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620303] = {
+		SubTypeID = 42600303,
+		Id = 41620303,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620401] = {
+		SubTypeID = 42600401,
+		Id = 41620401,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620402] = {
+		SubTypeID = 42600402,
+		Id = 41620402,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620403] = {
+		SubTypeID = 42600403,
+		Id = 41620403,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620501] = {
+		SubTypeID = 42600501,
+		Id = 41620501,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620502] = {
+		SubTypeID = 42600502,
+		Id = 41620502,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620503] = {
+		SubTypeID = 42600503,
+		Id = 41620503,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620504] = {
+		SubTypeID = 42600504,
+		Id = 41620504,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620601] = {
+		SubTypeID = 42600601,
+		Id = 41620601,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620602] = {
+		SubTypeID = 42600602,
+		Id = 41620602,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620603] = {
+		SubTypeID = 42600603,
+		Id = 41620603,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620604] = {
+		SubTypeID = 42600604,
+		Id = 41620604,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620701] = {
+		SubTypeID = 42600701,
+		Id = 41620701,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620702] = {
+		SubTypeID = 42600702,
+		Id = 41620702,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620703] = {
+		SubTypeID = 42600703,
+		Id = 41620703,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620704] = {
+		SubTypeID = 42600704,
+		Id = 41620704,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620801] = {
+		SubTypeID = 42600801,
+		Id = 41620801,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620802] = {
+		SubTypeID = 42600802,
+		Id = 41620802,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620803] = {
+		SubTypeID = 42600803,
+		Id = 41620803,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620901] = {
+		SubTypeID = 42600901,
+		Id = 41620901,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41620902] = {
+		SubTypeID = 42600902,
+		Id = 41620902,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620903] = {
+		SubTypeID = 42600903,
+		Id = 41620903,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41620904] = {
+		SubTypeID = 42600904,
+		Id = 41620904,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621001] = {
+		SubTypeID = 42601001,
+		Id = 41621001,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41621002] = {
+		SubTypeID = 42601002,
+		Id = 41621002,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621003] = {
+		SubTypeID = 42601003,
+		Id = 41621003,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621004] = {
+		SubTypeID = 42601004,
+		Id = 41621004,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621101] = {
+		SubTypeID = 42601101,
+		Id = 41621101,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41621102] = {
+		SubTypeID = 42601102,
+		Id = 41621102,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621103] = {
+		SubTypeID = 42601103,
+		Id = 41621103,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621104] = {
+		SubTypeID = 42601104,
+		Id = 41621104,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621201] = {
+		SubTypeID = 42601201,
+		Id = 41621201,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41621202] = {
+		SubTypeID = 42601202,
+		Id = 41621202,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621203] = {
+		SubTypeID = 42601203,
+		Id = 41621203,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621301] = {
+		SubTypeID = 42601301,
+		Id = 41621301,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41621302] = {
+		SubTypeID = 42601302,
+		Id = 41621302,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621303] = {
+		SubTypeID = 42601303,
+		Id = 41621303,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621304] = {
+		SubTypeID = 42601304,
+		Id = 41621304,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621401] = {
+		SubTypeID = 42601401,
+		Id = 41621401,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41621402] = {
+		SubTypeID = 42601402,
+		Id = 41621402,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621403] = {
+		SubTypeID = 42601403,
+		Id = 41621403,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621404] = {
+		SubTypeID = 42601404,
+		Id = 41621404,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621501] = {
+		SubTypeID = 42601501,
+		Id = 41621501,
+		EventTrigType = 2,
+		Type = 6
+	},
+	[41621502] = {
+		SubTypeID = 42601502,
+		Id = 41621502,
+		EventTrigType = 1,
+		Type = 6
+	},
+	[41621503] = {
+		SubTypeID = 42601503,
+		Id = 41621503,
 		EventTrigType = 1,
 		Type = 6
 	},

@@ -34,6 +34,7 @@ function m:__SetData(activityListCfg)
 	local activityPOD = ActivityModule.GetActivityPodByID(activityCid)
 
 	self.ActivityTitle:GetComponent("Text").text = self.activityListCfg.Name
+	self.DescText:GetComponent("Text").text = self.activityListCfg.Desc
 	self.TotalRechargeNum:GetComponent("Text").text = activityPOD.activityRecharge.totalRecharge
 	self.dataList = {}
 

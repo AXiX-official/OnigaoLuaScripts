@@ -99,7 +99,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				46,
-				102,
+				104,
 				0
 			},
 			{
@@ -245,7 +245,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				34,
-				102,
+				104,
 				0
 			},
 			{
@@ -389,7 +389,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				45,
-				102,
+				104,
 				0
 			},
 			{
@@ -531,7 +531,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				37,
-				102,
+				104,
 				0
 			},
 			{
@@ -674,7 +674,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				38,
-				102,
+				104,
 				0
 			},
 			{
@@ -817,7 +817,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				22,
-				102,
+				104,
 				0
 			},
 			{
@@ -963,7 +963,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				45,
-				102,
+				104,
 				0
 			},
 			{
@@ -1107,7 +1107,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				5,
-				102,
+				104,
 				0
 			},
 			{
@@ -1260,7 +1260,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				22,
-				102,
+				104,
 				0
 			},
 			{
@@ -1411,7 +1411,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				46,
-				102,
+				104,
 				0
 			},
 			{
@@ -1564,7 +1564,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				31,
-				102,
+				104,
 				0
 			},
 			{
@@ -1708,7 +1708,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				6,
-				102,
+				104,
 				0
 			},
 			{
@@ -1852,7 +1852,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				31,
-				102,
+				104,
 				0
 			},
 			{
@@ -1996,7 +1996,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				26,
-				102,
+				104,
 				0
 			},
 			{
@@ -2145,7 +2145,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				21,
-				102,
+				104,
 				0
 			},
 			{
@@ -2296,7 +2296,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				35,
-				102,
+				104,
 				0
 			},
 			{
@@ -2448,7 +2448,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				47,
-				102,
+				104,
 				0
 			},
 			{
@@ -2596,7 +2596,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				19,
-				102,
+				104,
 				0
 			},
 			{
@@ -2748,7 +2748,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				10,
-				102,
+				104,
 				0
 			},
 			{
@@ -2898,7 +2898,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				12,
-				102,
+				104,
 				0
 			},
 			{
@@ -3045,7 +3045,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				37,
-				102,
+				104,
 				0
 			},
 			{
@@ -3196,7 +3196,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				6,
-				102,
+				104,
 				0
 			},
 			{
@@ -3344,7 +3344,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				37,
-				102,
+				104,
 				0
 			},
 			{
@@ -3498,7 +3498,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				16,
-				102,
+				104,
 				0
 			},
 			{
@@ -3658,7 +3658,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				22,
-				102,
+				104,
 				0
 			},
 			{
@@ -3804,7 +3804,7 @@ local CfgLabyrinthBarrierPoolTable = {
 			},
 			{
 				46,
-				102,
+				104,
 				0
 			},
 			{
@@ -3956,78 +3956,78 @@ local CfgLabyrinthBarrierPoolTable = {
 		RoomEvent = {
 			{
 				1,
-				603,
-				41106001
+				601,
+				42106001
 			},
 			{
 				2,
-				602,
-				41106002
+				603,
+				42106002
 			},
 			{
 				3,
-				603,
-				41106003
+				601,
+				42106003
 			},
 			{
 				4,
-				603,
-				41106004
+				601,
+				42106004
 			},
 			{
 				5,
 				602,
-				41106005
+				42106005
 			},
 			{
 				6,
-				601,
-				41106006
+				602,
+				42106006
 			},
 			{
 				7,
-				603,
-				41106007
+				601,
+				42106007
 			},
 			{
 				8,
-				602,
-				41106008
+				603,
+				42106008
 			},
 			{
 				16,
-				601,
-				41106009
+				603,
+				42106009
 			},
 			{
 				15,
-				601,
-				41106010
+				602,
+				42106010
 			},
 			{
 				14,
-				603,
-				41106011
+				601,
+				42106011
 			},
 			{
 				13,
 				603,
-				41106012
+				42106012
 			},
 			{
 				12,
-				603,
-				41106013
+				602,
+				42106013
 			},
 			{
 				11,
 				601,
-				41106014
+				42106014
 			},
 			{
 				10,
-				603,
-				41106015
+				602,
+				42106015
 			},
 			{
 				9,

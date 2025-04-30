@@ -1,6 +1,24 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgStorySpeakNPCTable_10.lua
 
 local CfgStorySpeakNPCTable_10 = {
+	[500202050] = {
+		Id = 500202050,
+		SpeakNPC = 1002,
+		NPCName = getI18NValue(180213647),
+		SpeakContent = getI18NValue(180213648)
+	},
+	[500202051] = {
+		Id = 500202051,
+		SpeakNPC = 6002,
+		NPCName = getI18NValue(180213649),
+		SpeakContent = getI18NValue(180213650)
+	},
+	[500202052] = {
+		Id = 500202052,
+		SpeakNPC = 1002,
+		NPCName = getI18NValue(180213651),
+		SpeakContent = getI18NValue(180213652)
+	},
 	[500202053] = {
 		Id = 500202053,
 		SpeakNPC = 1001,

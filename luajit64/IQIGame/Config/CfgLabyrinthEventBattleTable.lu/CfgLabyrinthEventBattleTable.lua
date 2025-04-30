@@ -346,6 +346,36 @@ local CfgLabyrinthEventBattleTable = {
 			}
 		}
 	},
+	[41200203] = {
+		Id = 41200203,
+		BattleType = 1,
+		StoryBattleID = {
+			{
+				5000203
+			},
+			{
+				5100203
+			},
+			{
+				5200203
+			}
+		}
+	},
+	[41200204] = {
+		Id = 41200204,
+		BattleType = 1,
+		StoryBattleID = {
+			{
+				5000204
+			},
+			{
+				5100204
+			},
+			{
+				5200204
+			}
+		}
+	},
 	[41201001] = {
 		Id = 41201001,
 		BattleType = 1,
@@ -628,6 +658,24 @@ local CfgLabyrinthEventBattleTable = {
 			{
 				5210201,
 				5210202
+			}
+		}
+	},
+	[42205004] = {
+		Id = 42205004,
+		BattleType = 2,
+		StoryBattleID = {
+			{
+				5010203,
+				5010204
+			},
+			{
+				5110203,
+				5110204
+			},
+			{
+				5200203,
+				5200204
 			}
 		}
 	},

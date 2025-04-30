@@ -472,7 +472,7 @@ local CfgSoundTable_1 = {
 	},
 	[11000029] = {
 		Id = 11000029,
-		VolumeInSoundGroup = 0.5,
+		VolumeInSoundGroup = 0.25,
 		FadeOutSeconds = 1,
 		Loop = true,
 		Pitch = 1,
@@ -3300,6 +3300,25 @@ local CfgSoundTable_1 = {
 		VolumeInSoundGroup = 1,
 		Id = 22000208,
 		FileName = "Sound/Story/Story_KnifeCollision_01.ogg",
+		FadeOutSeconds = 1
+	},
+	[22000209] = {
+		VolumeInSoundGroup = 0.2,
+		GroupName = "ENVIRONMENT",
+		MaxDistance = 100,
+		Loop = true,
+		Id = 22000209,
+		Pitch = 1,
+		FileName = "Sound/Story/Story_Phone_DuDuDu_01.ogg",
+		FadeOutSeconds = 1
+	},
+	[22000210] = {
+		MaxDistance = 100,
+		GroupName = "ENVIRONMENT",
+		Pitch = 1,
+		VolumeInSoundGroup = 1,
+		Id = 22000210,
+		FileName = "Sound/Story/Story_Phone_HangUp_01.ogg",
 		FadeOutSeconds = 1
 	},
 	[23000001] = {
@@ -46385,24 +46404,6 @@ local CfgSoundTable_1 = {
 		Id = 101140122,
 		Pitch = 1,
 		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_173.ogg"
-	},
-	[101140123] = {
-		MaxDistance = 100,
-		GroupName = "Dub",
-		GroupType = 1,
-		VolumeInSoundGroup = 1,
-		Id = 101140123,
-		Pitch = 1,
-		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_174.ogg"
-	},
-	[101140124] = {
-		MaxDistance = 100,
-		GroupName = "Dub",
-		GroupType = 1,
-		VolumeInSoundGroup = 1,
-		Id = 101140124,
-		Pitch = 1,
-		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_An_01_240.ogg"
 	}
 }
 

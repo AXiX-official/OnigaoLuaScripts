@@ -102,21 +102,6 @@ local CfgDupTagTable = {
 			30030001
 		}
 	},
-	[202] = {
-		DupShow = 1,
-		DupType = 2,
-		TitleImgClose = "Assets/05_Images/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTypeImg_02.png",
-		TitleImg = "Assets/05_Images/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTypeImg_01.png",
-		Id = 202,
-		ParentID = 2,
-		Name = getI18NValue(180037042),
-		FilterIds = {
-			999999
-		},
-		UnlockConditionId = {
-			30000001
-		}
-	},
 	[203] = {
 		DupShow = 1,
 		DupType = 2,
@@ -126,7 +111,7 @@ local CfgDupTagTable = {
 		ParentID = 2,
 		Name = getI18NValue(180037043),
 		FilterIds = {
-			1000002
+			999999
 		},
 		UnlockConditionId = {
 			30000001
@@ -141,7 +126,7 @@ local CfgDupTagTable = {
 		ParentID = 2,
 		Name = getI18NValue(180129317),
 		FilterIds = {
-			1000000
+			1000002
 		},
 		UnlockConditionId = {
 			30000001
@@ -156,7 +141,7 @@ local CfgDupTagTable = {
 		ParentID = 2,
 		Name = getI18NValue(180129318),
 		FilterIds = {
-			1000001
+			1000000
 		},
 		UnlockConditionId = {
 			30000001
@@ -171,7 +156,7 @@ local CfgDupTagTable = {
 		ParentID = 2,
 		Name = getI18NValue(180129319),
 		FilterIds = {
-			1000003
+			1000001
 		},
 		UnlockConditionId = {
 			30000001
@@ -186,7 +171,7 @@ local CfgDupTagTable = {
 		ParentID = 2,
 		Name = getI18NValue(180129320),
 		FilterIds = {
-			1000004
+			1000003
 		},
 		UnlockConditionId = {
 			30000001
@@ -201,7 +186,7 @@ local CfgDupTagTable = {
 		ParentID = 2,
 		Name = getI18NValue(180129321),
 		FilterIds = {
-			1000005
+			1000004
 		},
 		UnlockConditionId = {
 			30000001
@@ -215,6 +200,21 @@ local CfgDupTagTable = {
 		Id = 209,
 		ParentID = 2,
 		Name = getI18NValue(180262875),
+		FilterIds = {
+			1000005
+		},
+		UnlockConditionId = {
+			30000001
+		}
+	},
+	[202] = {
+		DupShow = 1,
+		DupType = 2,
+		TitleImgClose = "Assets/05_Images/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTypeImg_02.png",
+		TitleImg = "Assets/05_Images/DataResource/ChapterResource/ResourceCommonImg/Common_ResourceTypeImg_01.png",
+		Id = 202,
+		ParentID = 2,
+		Name = getI18NValue(180037042),
 		FilterIds = {
 			1000006
 		},

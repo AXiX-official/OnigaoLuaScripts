@@ -214,6 +214,16 @@ local CfgLabyrinthEventEntityTable = {
 		DefaultAnimation = "S_talk_2",
 		Id = 20032
 	},
+	[20033] = {
+		Id = 20033,
+		EventShowType = 1,
+		NpcShow = 10815052,
+		DefaultAnimation = "S_stay_b",
+		DefaultEffect = {
+			10030,
+			10001
+		}
+	},
 	[2004] = {
 		Id = 2004,
 		EventShowType = 1,
@@ -304,6 +314,16 @@ local CfgLabyrinthEventEntityTable = {
 		Id = 2010,
 		NpcShow = 10815059
 	},
+	[20101] = {
+		Id = 20101,
+		EventShowType = 1,
+		NpcShow = 10815059,
+		DefaultAnimation = "S_stay",
+		DefaultEffect = {
+			10030,
+			10001
+		}
+	},
 	[2011] = {
 		Id = 2011,
 		EventShowType = 1,
@@ -348,6 +368,16 @@ local CfgLabyrinthEventEntityTable = {
 			10001
 		}
 	},
+	[20121] = {
+		Id = 20121,
+		EventShowType = 1,
+		NpcShow = 10815061,
+		DefaultAnimation = "S_off",
+		DefaultEffect = {
+			10030,
+			10001
+		}
+	},
 	[2013] = {
 		Id = 2013,
 		EventShowType = 1,
@@ -385,6 +415,16 @@ local CfgLabyrinthEventEntityTable = {
 		DefaultAnimation = "S_on",
 		DefaultEffect = {
 			10028,
+			10001
+		}
+	},
+	[20161] = {
+		Id = 20161,
+		EventShowType = 1,
+		NpcShow = 10815065,
+		DefaultAnimation = "S_on",
+		DefaultEffect = {
+			10030,
 			10001
 		}
 	},

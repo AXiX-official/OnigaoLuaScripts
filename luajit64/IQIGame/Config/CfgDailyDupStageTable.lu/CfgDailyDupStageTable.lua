@@ -4948,7 +4948,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601061
+			900200
 		},
 		VictroyDesc = getI18NValue(180262855)
 	},
@@ -4961,7 +4961,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601062
+			900201
 		},
 		VictroyDesc = getI18NValue(180262857)
 	},
@@ -4974,7 +4974,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601063
+			900202
 		},
 		VictroyDesc = getI18NValue(180262859)
 	},
@@ -4987,7 +4987,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601064
+			900203
 		},
 		VictroyDesc = getI18NValue(180262861)
 	},
@@ -5000,7 +5000,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601065
+			900204
 		},
 		VictroyDesc = getI18NValue(180262863)
 	},
@@ -5013,7 +5013,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601066
+			900205
 		},
 		VictroyDesc = getI18NValue(180262865)
 	},
@@ -5026,7 +5026,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601067
+			900206
 		},
 		VictroyDesc = getI18NValue(180262867)
 	},
@@ -5039,7 +5039,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601068
+			900207
 		},
 		VictroyDesc = getI18NValue(180262869)
 	},
@@ -5052,7 +5052,7 @@ local CfgDailyDupStageTable = {
 			30000001
 		},
 		MonsterTeam = {
-			14601069
+			900208
 		},
 		VictroyDesc = getI18NValue(180262871)
 	},

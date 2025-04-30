@@ -340,8 +340,7 @@ local CfgLabyrinthEventLinkTable = {
 			1012
 		},
 		EventLink = {
-			42000001,
-			41101101,
+			42101101,
 			41103004
 		}
 	},
@@ -360,8 +359,7 @@ local CfgLabyrinthEventLinkTable = {
 			1013
 		},
 		EventLink = {
-			42000001,
-			41101102,
+			42101102,
 			41103004
 		}
 	},
@@ -379,8 +377,7 @@ local CfgLabyrinthEventLinkTable = {
 			1012
 		},
 		EventLink = {
-			42000001,
-			41101201,
+			42101201,
 			41103004
 		}
 	},
@@ -398,8 +395,7 @@ local CfgLabyrinthEventLinkTable = {
 			1013
 		},
 		EventLink = {
-			42000001,
-			41101202,
+			42101202,
 			41103004
 		}
 	},
@@ -3144,6 +3140,386 @@ local CfgLabyrinthEventLinkTable = {
 		EventLink = {
 			42005501,
 			41605501
+		},
+		BelongRoom = {
+			7,
+			8,
+			15
+		}
+	},
+	[42106001] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106001,
+		EventPool = 601,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41620101
+		},
+		BelongRoom = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			15
+		}
+	},
+	[42106002] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106002,
+		EventPool = 603,
+		EventEntityID = {
+			20161
+		},
+		EventLink = {
+			41620201
+		},
+		BelongRoom = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			9,
+			10
+		}
+	},
+	[42106003] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106003,
+		EventPool = 601,
+		EventEntityID = {
+			20121
+		},
+		EventLink = {
+			41620301
+		},
+		BelongRoom = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			9,
+			10
+		}
+	},
+	[42106004] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106004,
+		EventPool = 601,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41620401
+		},
+		BelongRoom = {
+			11,
+			12,
+			13,
+			14
+		}
+	},
+	[42106005] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106005,
+		EventPool = 602,
+		EventEntityID = {
+			2013
+		},
+		EventLink = {
+			41620501
+		},
+		BelongRoom = {
+			12
+		}
+	},
+	[42106006] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106006,
+		EventPool = 602,
+		EventEntityID = {
+			20101
+		},
+		EventLink = {
+			41620601
+		},
+		BelongRoom = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			9,
+			10
+		}
+	},
+	[42106007] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106007,
+		EventPool = 601,
+		EventEntityID = {
+			2002
+		},
+		EventLink = {
+			41620701
+		},
+		BelongRoom = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			15
+		}
+	},
+	[42106008] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106008,
+		EventPool = 603,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41620801
+		},
+		BelongRoom = {
+			7,
+			8,
+			15
+		}
+	},
+	[42106009] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106009,
+		EventPool = 603,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41620901
+		},
+		BelongRoom = {
+			14
+		}
+	},
+	[42106010] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106010,
+		EventPool = 602,
+		EventEntityID = {
+			20033
+		},
+		EventLink = {
+			41621001
+		},
+		BelongRoom = {
+			11
+		}
+	},
+	[42106011] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106011,
+		EventPool = 601,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41621101
+		},
+		BelongRoom = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15
+		}
+	},
+	[42106012] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106012,
+		EventPool = 603,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41621201
+		},
+		BelongRoom = {
+			13
+		}
+	},
+	[42106013] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106013,
+		EventPool = 602,
+		EventEntityID = {
+			2018
+		},
+		EventLink = {
+			41621301
+		},
+		BelongRoom = {
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			15
+		}
+	},
+	[42106014] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106014,
+		EventPool = 601,
+		EventEntityID = {
+			2011
+		},
+		EventLink = {
+			41621401
+		},
+		BelongRoom = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15
+		}
+	},
+	[42106015] = {
+		Type = 6,
+		EventWeight = 100,
+		ControlType = true,
+		IsCanComeback = true,
+		EventLimit = 2,
+		HideNpc = true,
+		LoopTime = 1,
+		Id = 42106015,
+		EventPool = 602,
+		EventEntityID = {
+			20033
+		},
+		EventLink = {
+			41621501
 		},
 		BelongRoom = {
 			7,

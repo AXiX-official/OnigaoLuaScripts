@@ -8,67 +8,37 @@ local CfgLabyrinthFirstShowTable = {
 		DialogueID = 41550008
 	},
 	[201] = {
-		SeasonID = 2,
-		Id = 201,
-		ShowType = 1,
-		StoryDataID = 42700002
+		Id = 201
 	},
 	[202] = {
-		SeasonID = 2,
-		Id = 202,
-		ShowType = 1,
-		DialogueID = 41550008
+		Id = 202
 	},
 	[301] = {
 		ShowType = 2,
-		SeasonID = 1,
+		SeasonID = 2,
 		DialogueID = 41550009,
 		Id = 301,
 		ShowSubType = 1
 	},
 	[401] = {
 		ShowType = 2,
-		SeasonID = 1,
+		SeasonID = 2,
 		DialogueID = 41550009,
 		Id = 401,
 		ShowSubType = 2
 	},
 	[501] = {
 		ShowType = 2,
-		SeasonID = 1,
+		SeasonID = 2,
 		Id = 501,
 		ShowSubType = 3,
 		StepShow = {
-			701,
-			702,
-			703,
-			704,
-			705,
-			706,
-			707,
-			708,
-			709,
-			710,
-			711,
-			712,
-			713,
-			714,
-			715,
-			716,
-			717,
-			718,
-			719,
-			720,
-			721,
-			722,
-			723,
-			724,
-			725
+			701
 		}
 	},
 	[601] = {
 		ShowType = 2,
-		SeasonID = 1,
+		SeasonID = 2,
 		DialogueID = 41550009,
 		Id = 601,
 		ShowSubType = 4

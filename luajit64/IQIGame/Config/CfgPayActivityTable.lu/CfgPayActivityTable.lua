@@ -263,21 +263,25 @@ local CfgPayActivityTable = {
 		Name = getI18NValue(180253657)
 	},
 	[10105] = {
-		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_siye_1",
-		Type = 2,
 		Id = 10105,
+		OpenTime = "2025/5/7 18:00",
+		Type = 2,
+		Skip = 10202002,
 		Order = 8,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_siye_Banner_01_1.png",
-		Name = getI18NValue(180253658)
+		UIPrefab = "/_Notice/Notice_Lottery_beitiaonandu_1",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_beitiaonandu_Banner_01_1.png",
+		Name = getI18NValue(180253658),
+		Duration = {
+			1814400
+		}
 	},
 	[10106] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_3",
+		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
 		Type = 2,
 		Id = 10106,
 		Order = 9,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_3.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_wunian_Banner_01_1.png",
 		Name = getI18NValue(180253659)
 	},
 	[10107] = {
@@ -381,21 +385,25 @@ local CfgPayActivityTable = {
 		Name = getI18NValue(180255856)
 	},
 	[30105] = {
-		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_siye_1",
-		Type = 3,
 		Id = 30105,
+		OpenTime = "2025/5/7 18:00",
+		Type = 3,
+		Skip = 10202002,
 		Order = 8,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_siye_Banner_01_1.png",
-		Name = getI18NValue(180255857)
+		UIPrefab = "/_Notice/Notice_Lottery_beitiaonandu_1",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_beitiaonandu_Banner_01_1.png",
+		Name = getI18NValue(180255857),
+		Duration = {
+			1814400
+		}
 	},
 	[30106] = {
 		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_dingxiang_3",
+		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
 		Type = 3,
 		Id = 30106,
 		Order = 9,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_dingxiang_Banner_01_3.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_wunian_Banner_01_1.png",
 		Name = getI18NValue(180255858)
 	},
 	[30107] = {

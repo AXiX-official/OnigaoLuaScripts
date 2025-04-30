@@ -635,6 +635,16 @@ local CfgItemTable = {
 		ItemTips = getI18NValue(180261312),
 		ItemStory = getI18NValue(180261313)
 	},
+	[203] = {
+		Id = 203,
+		Quality = 5,
+		OverMode = 1,
+		Icon = "/Item/Icon_Item_203.png",
+		UseType = 2,
+		Reveal = true,
+		Name = getI18NValue(180267644),
+		ItemTips = getI18NValue(180267643)
+	},
 	[1000] = {
 		UserAction = 5,
 		Quality = 3,
@@ -7046,7 +7056,7 @@ local CfgItemTable = {
 		ActionParams = {
 			2,
 			648,
-			55001,
+			55002,
 			15,
 			3001,
 			30,

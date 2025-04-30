@@ -11,3 +11,7 @@ end
 function net_activity.receiveSupplyResult(code, shows)
 	ActivityModule.ReceiveSupplyResult(shows)
 end
+
+function net_activity.raffleResult(code, awardCid, shows)
+	ActivityModule.OnRaffleResult(awardCid, shows)
+end

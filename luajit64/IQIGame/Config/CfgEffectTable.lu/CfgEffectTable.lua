@@ -2621,6 +2621,11 @@ local CfgEffectTable = {
 		Id = 90094,
 		PlayTime = 99999
 	},
+	[90095] = {
+		EntityID = 90095,
+		Id = 90095,
+		PlayTime = 99999
+	},
 	[99001] = {
 		EntityID = 99001,
 		Id = 99001,

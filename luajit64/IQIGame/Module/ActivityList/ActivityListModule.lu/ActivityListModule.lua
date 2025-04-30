@@ -14,6 +14,9 @@ local summerSignActivity = require("IQIGame.UI.ActivityList.SummerSignActivity.S
 local NewSummerActivityView = require("IQIGame/UI/ActiveActivityList/NewSummerActivity/NewSummerActivityView")
 local GlobalChannelActivityView = require("IQIGame/UI/ActivityList/GlobalChannelActivity/GlobalChannelActivityView")
 local AccRechargeActivityView = require("IQIGame/UI/ActivityList/AccRechargeActivity/AccRechargeActivityView")
+local AccRechargeActivityViewItem = require("IQIGame/UI/ActivityList/AccRechargeActivity/AccRechargeActivityViewItem")
+local GlobalChannelActivityView = require("IQIGame/UI/ActivityList/GlobalChannelActivity/GlobalChannelActivityView")
+local TreasureHuntActivityView = require("IQIGame/UI/ActivityList/TreasureHuntActivity/TreasureHuntActivityView")
 
 ActivityListModule = {}
 
@@ -114,6 +117,8 @@ function ActivityListModule.GetActivityListGameobjectLuaByType(type, obj)
 		return activityViewBase.New(obj, GlobalChannelActivityView)
 	elseif type == Constant.ActivityListCfgType.AccRechargeActivity then
 		return activityViewBase.New(obj, AccRechargeActivityView)
+	elseif type == Constant.ActivityListCfgType.TreasureHuntActivity then
+		return activityViewBase.New(obj, TreasureHuntActivityView)
 	end
 
 	return activityViewBase.New(obj, activityViewBase)
@@ -138,6 +143,10 @@ function ActivityListModule.GetRedDotTypeByType(activityListCfg)
 		return RedDotModule.GetRedDotCntByRedDotID(Constant.E_RedDotPath.BattleActivity) >= 1
 	elseif type == Constant.ActivityListCfgType.SummerSignActivityTyoe then
 		return RedDotModule.CheckRedDot_SummerSign()
+	elseif type == Constant.ActivityListCfgType.AccRechargeActivity then
+		return RedDotModule.CheckRedDot_AccRecharge()
+	elseif type == Constant.ActivityListCfgType.GlobalChannelActivity then
+		return RedDotModule.CheckRedDot_GlobalChannelActivity()
 	end
 
 	return false
@@ -151,4 +160,12 @@ function ActivityListModule.GetAccChargeActivityDataList(activityCid)
 			return
 		end
 	end)
+end
+
+function ActivityListModule.HasUnclaimedAccRechargeRewards(activityId)
+	return AccRechargeActivityViewItem:HasUnclaimedRewards(activityId)
+end
+
+function ActivityListModule.HasUnclaimedItemsInGlobalChannelActivity(activityId)
+	return GlobalChannelActivityView:HasRewardsToClaim(activityId)
 end

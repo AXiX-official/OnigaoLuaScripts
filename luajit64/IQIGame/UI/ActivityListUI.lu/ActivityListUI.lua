@@ -43,7 +43,9 @@ function ActivityListUI:GetPreloadAssetPaths()
 	local preloadAssets = {}
 
 	for k, v in pairsCfg(CfgActivityListTable) do
-		table.insert(preloadAssets, UIGlobalApi.GetImagePath(v.Background))
+		if not LuaUtility.StrIsNullOrEmpty(v.Background) then
+			table.insert(preloadAssets, UIGlobalApi.GetImagePath(v.Background))
+		end
 	end
 
 	return preloadAssets

@@ -3950,78 +3950,6 @@ local CfgSkillAITable = {
 			{}
 		}
 	},
-	[38031] = {
-		DynamicRPNExp = "A1>0&&A2==0",
-		Priority = 30,
-		Id = 38031,
-		DynamicArgType = {
-			102,
-			103,
-			0
-		},
-		DynamicArgParams = {
-			{},
-			{
-				"1",
-				"38033018"
-			},
-			{}
-		}
-	},
-	[38032] = {
-		DynamicRPNExp = "A1>0&&A2==0",
-		Priority = 50,
-		Id = 38032,
-		DynamicArgType = {
-			102,
-			103,
-			0
-		},
-		DynamicArgParams = {
-			{},
-			{
-				"1",
-				"38033018"
-			},
-			{}
-		}
-	},
-	[38033] = {
-		DynamicRPNExp = "A1>0&&A2==1",
-		Priority = 30,
-		Id = 38033,
-		DynamicArgType = {
-			102,
-			103,
-			0
-		},
-		DynamicArgParams = {
-			{},
-			{
-				"1",
-				"38033018"
-			},
-			{}
-		}
-	},
-	[38034] = {
-		DynamicRPNExp = "A1>0&&A2==1",
-		Priority = 50,
-		Id = 38034,
-		DynamicArgType = {
-			102,
-			103,
-			0
-		},
-		DynamicArgParams = {
-			{},
-			{
-				"1",
-				"38033018"
-			},
-			{}
-		}
-	},
 	[41031] = {
 		Id = 41031,
 		Priority = 100,
@@ -4099,24 +4027,6 @@ local CfgSkillAITable = {
 				"66015010"
 			},
 			{},
-			{}
-		}
-	},
-	[68011] = {
-		DynamicRPNExp = "A1>0&&A2==0",
-		Priority = 50,
-		Id = 68011,
-		DynamicArgType = {
-			102,
-			103,
-			0
-		},
-		DynamicArgParams = {
-			{},
-			{
-				"1",
-				"68012008"
-			},
 			{}
 		}
 	},
@@ -4450,6 +4360,150 @@ local CfgSkillAITable = {
 			{
 				"1",
 				"302305601"
+			},
+			{},
+			{}
+		}
+	},
+	[401103100] = {
+		DynamicRPNExp = "A1>0&&A2==0",
+		Priority = 30,
+		Id = 401103100,
+		DynamicArgType = {
+			102,
+			103,
+			0
+		},
+		DynamicArgParams = {
+			{},
+			{
+				"1",
+				"401103304"
+			},
+			{}
+		}
+	},
+	[401103300] = {
+		DynamicRPNExp = "A2==0",
+		Priority = 50,
+		Id = 401103300,
+		DynamicArgType = {
+			0,
+			103,
+			0
+		},
+		DynamicArgParams = {
+			{},
+			{
+				"1",
+				"401103304"
+			},
+			{}
+		}
+	},
+	[401103400] = {
+		DynamicRPNExp = "A1>0&&A2==1",
+		Priority = 30,
+		Id = 401103400,
+		DynamicArgType = {
+			102,
+			103,
+			0
+		},
+		DynamicArgParams = {
+			{},
+			{
+				"1",
+				"401103304"
+			},
+			{}
+		}
+	},
+	[401103500] = {
+		DynamicRPNExp = "A1>0&&A2==1",
+		Priority = 50,
+		Id = 401103500,
+		DynamicArgType = {
+			102,
+			103,
+			0
+		},
+		DynamicArgParams = {
+			{},
+			{
+				"1",
+				"401103304"
+			},
+			{}
+		}
+	},
+	[401201300] = {
+		DynamicRPNExp = "A1==0",
+		Priority = 100,
+		Id = 401201300,
+		DynamicArgType = {
+			103,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"401201300"
+			},
+			{},
+			{}
+		}
+	},
+	[401301310] = {
+		DynamicRPNExp = "A1>0&&A2==0",
+		Priority = 50,
+		Id = 401301310,
+		DynamicArgType = {
+			102,
+			103,
+			0
+		},
+		DynamicArgParams = {
+			{},
+			{
+				"1",
+				"401301314"
+			},
+			{}
+		}
+	},
+	[401301400] = {
+		DynamicRPNExp = "A1>0&&A2==0",
+		Priority = 50,
+		Id = 401301400,
+		DynamicArgType = {
+			102,
+			103,
+			0
+		},
+		DynamicArgParams = {
+			{},
+			{
+				"1",
+				"401301312"
+			},
+			{}
+		}
+	},
+	[401301530] = {
+		DynamicRPNExp = "A1==1",
+		Priority = 500,
+		Id = 401301530,
+		DynamicArgType = {
+			101,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"401301202"
 			},
 			{},
 			{}

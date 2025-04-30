@@ -4029,32 +4029,6 @@ local CfgSkillFunctionTable = {
 			{}
 		}
 	},
-	[680101] = {
-		DynamicRPNExp = "0.03*A1",
-		IsBaseAttribute = false,
-		Id = 680101,
-		IsDamagePlus = true,
-		DynamicArgType = {
-			103,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"305"
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
 	[803071] = {
 		DynamicRPNExp = "K*0.165",
 		IsBaseAttribute = false,
@@ -7168,6 +7142,188 @@ local CfgSkillFunctionTable = {
 				"1",
 				"302305200"
 			},
+			{},
+			{},
+			{}
+		}
+	},
+	[401301500] = {
+		DynamicRPNExp = "K/(K+A2*(1-A1)*5/3)*K*(1+0.05*A3)",
+		IsBaseAttribute = false,
+		IsDamagePlus = false,
+		MinDamage = 99,
+		Id = 401301500,
+		DamageType = 1,
+		SelfAtt = {
+			2,
+			0
+		},
+		SelfAttVal = {
+			{
+				1
+			},
+			{}
+		},
+		DynamicArgType = {
+			303,
+			303,
+			103,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"3",
+				"1",
+				"16"
+			},
+			{
+				"6",
+				"1",
+				"3"
+			},
+			{
+				"2",
+				"1",
+				"305"
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[401301530] = {
+		DynamicRPNExp = "K/(K+A2*(1-A1)*5/3)*K*(1+0.05*(10+A3))",
+		IsBaseAttribute = false,
+		IsDamagePlus = false,
+		MinDamage = 99,
+		Id = 401301530,
+		DamageType = 1,
+		SelfAtt = {
+			2,
+			0
+		},
+		SelfAttVal = {
+			{
+				1
+			},
+			{}
+		},
+		DynamicArgType = {
+			303,
+			303,
+			103,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"3",
+				"1",
+				"16"
+			},
+			{
+				"6",
+				"1",
+				"3"
+			},
+			{
+				"2",
+				"1",
+				"305"
+			},
+			{},
+			{},
+			{}
+		}
+	},
+	[401302210] = {
+		DynamicRPNExp = "A1-A2",
+		IsBaseAttribute = false,
+		Id = 401302210,
+		IsDamagePlus = true,
+		DynamicArgType = {
+			103,
+			103,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"2",
+				"1",
+				"305"
+			},
+			{
+				"2",
+				"1",
+				"401302212"
+			},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[401302211] = {
+		DynamicRPNExp = "A2-A1",
+		IsBaseAttribute = false,
+		Id = 401302211,
+		IsDamagePlus = true,
+		DynamicArgType = {
+			103,
+			103,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"2",
+				"1",
+				"305"
+			},
+			{
+				"2",
+				"1",
+				"401302212"
+			},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[401302214] = {
+		DynamicRPNExp = "2*(A2-A1)",
+		IsBaseAttribute = false,
+		Id = 401302214,
+		IsDamagePlus = true,
+		DynamicArgType = {
+			103,
+			103,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"2",
+				"1",
+				"305"
+			},
+			{
+				"2",
+				"1",
+				"401302212"
+			},
+			{},
 			{},
 			{},
 			{}

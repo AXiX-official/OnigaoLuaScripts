@@ -99,6 +99,36 @@ function Item:__GetRechargeActivityItemState(activityChargeData, activityPOD)
 	return Constant.RechargeActivityItemState.Open
 end
 
+function Item:HasUnclaimedRewards(activityId)
+	if not ActivityModule.IsOpenByTime(activityId) then
+		return false
+	end
+
+	local activityPOD = ActivityModule.GetActivityPodByID(activityId)
+
+	if not activityPOD or not activityPOD.activityRecharge then
+		return false
+	end
+
+	local dataList = {}
+
+	ForPairs(CfgActivityChargeTable, function(_cid, _cfg)
+		if _cfg.Activityid == activityId then
+			table.insert(dataList, _cfg)
+		end
+	end)
+
+	for _, cfg in ipairs(dataList) do
+		local state = self:__GetRechargeActivityItemState(cfg, activityPOD)
+
+		if state == Constant.RechargeActivityItemState.Open then
+			return true
+		end
+	end
+
+	return false
+end
+
 function Item:Dispose()
 	UIEventUtil.ClearEventListener(self)
 	ForPairs(self.rewardItems, function(k, v)

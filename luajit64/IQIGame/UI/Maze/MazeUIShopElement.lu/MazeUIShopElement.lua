@@ -96,16 +96,8 @@ function Element:__Init(view)
 		self:__OnRenderItemCell(cell)
 	end
 
-	function self.__delegateOnMazeShopLevelChange()
-		self:__OnMazeShopLevelChange()
-	end
-
 	function self.__delegateOnShopItemChange()
 		self:__OnShopItemChange()
-	end
-
-	function self.__delegateOnClicklvUpButton()
-		self:__OnClicklvUpButton()
 	end
 
 	self.commonReturnBtn = CommonReturnBtn.New(self.commonReturnBtn, self)
@@ -115,8 +107,6 @@ function Element:__Init(view)
 	end)
 
 	self.moneyCell = CurrencyCell.New(self.moneyTopRoot)
-
-	self:__AddEventListener()
 end
 
 function Element:__OnRenderItemCell(cell)
@@ -145,6 +135,9 @@ function Element:Show()
 	self:__ShowShop()
 	self:__RefreshItemsShow()
 	self:__DisposeDelayTimer()
+	LuaUtility.SetGameObjectShow(self.lvUpButton, false)
+	LuaUtility.SetGameObjectShow(self.levelNumEn, false)
+	LuaUtility.SetGameObjectShow(self.levelNumCn, false)
 end
 
 function Element:__DisposeDelayTimer()
@@ -173,8 +166,7 @@ function Element:__RefreshItemsShow()
 end
 
 function Element:__RefreshLvInfo()
-	UGUIUtil.SetText(self.levelNumCn, MazeApi:GetCNLevelText(MazeModule.GetShopLevel()))
-	UGUIUtil.SetText(self.levelNumEn, MazeApi:GetENLevelText(MazeModule.GetShopLevel()))
+	return
 end
 
 function Element:__OnShopItemChange()
@@ -206,11 +198,11 @@ function Element:__RemoveListener()
 end
 
 function Element:__AddEnableEventListener()
-	EventDispatcher.AddEventListener(EventID.MazeShopLevelChange, self.__delegateOnMazeShopLevelChange)
+	EventDispatcher.AddEventListener(EventID.NotifyChangeShopItems, self.__delegateOnShopItemChange)
 end
 
 function Element:__RemoveEnableListener()
-	EventDispatcher.RemoveEventListener(EventID.MazeShopLevelChange, self.__delegateOnMazeShopLevelChange)
+	EventDispatcher.RemoveEventListener(EventID.NotifyChangeShopItems, self.__delegateOnShopItemChange)
 end
 
 function Element:Dispose()

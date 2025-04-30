@@ -2614,6 +2614,594 @@ local CfgLabyrinthEventOptionTable = {
 			41103007,
 			42100201
 		}
+	},
+	[42901001] = {
+		Id = 42901001,
+		Text = getI18NValue(180267764),
+		AfterEvnet = {
+			41620102
+		}
+	},
+	[42901002] = {
+		Id = 42901002,
+		Text = getI18NValue(180267765),
+		AfterEvnet = {
+			41109311
+		}
+	},
+	[42901003] = {
+		Id = 42901003,
+		Text = getI18NValue(180267766),
+		AfterEvnet = {
+			41620103
+		}
+	},
+	[42901004] = {
+		Id = 42901004,
+		Text = getI18NValue(180267767),
+		AfterEvnet = {
+			41109411,
+			41103005
+		}
+	},
+	[42901005] = {
+		Id = 42901005,
+		Text = getI18NValue(180267768),
+		AfterEvnet = {
+			41620104
+		}
+	},
+	[42901006] = {
+		Id = 42901006,
+		Text = getI18NValue(180267769),
+		AfterEvnet = {
+			41109301
+		}
+	},
+	[42902001] = {
+		Id = 42902001,
+		Text = getI18NValue(180267770),
+		AfterEvnet = {
+			41620202
+		}
+	},
+	[42902002] = {
+		Id = 42902002,
+		Text = getI18NValue(180267771),
+		AfterEvnet = {
+			41109412,
+			41103006
+		}
+	},
+	[42902003] = {
+		Id = 42902003,
+		Text = getI18NValue(180267772),
+		AfterEvnet = {
+			41620203
+		}
+	},
+	[42902004] = {
+		Id = 42902004,
+		Text = getI18NValue(180267773),
+		AfterEvnet = {
+			41109402,
+			41109015
+		}
+	},
+	[42902005] = {
+		Id = 42902005,
+		Text = getI18NValue(180267774),
+		AfterEvnet = {
+			41620204
+		}
+	},
+	[42902006] = {
+		Id = 42902006,
+		Text = getI18NValue(180267775),
+		AfterEvnet = {
+			41103005
+		}
+	},
+	[42903001] = {
+		Id = 42903001,
+		Text = getI18NValue(180267776),
+		AfterEvnet = {
+			41620302
+		}
+	},
+	[42903002] = {
+		Id = 42903002,
+		Text = getI18NValue(180267777),
+		AfterEvnet = {
+			41101902,
+			41103006
+		}
+	},
+	[42903003] = {
+		Id = 42903003,
+		Text = getI18NValue(180267778),
+		AfterEvnet = {
+			41620303
+		}
+	},
+	[42903004] = {
+		Id = 42903004,
+		Text = getI18NValue(180267779),
+		AfterEvnet = {
+			41109412
+		}
+	},
+	[42904001] = {
+		Id = 42904001,
+		Text = getI18NValue(180267780),
+		AfterEvnet = {
+			41620402
+		}
+	},
+	[42904002] = {
+		Id = 42904002,
+		Text = getI18NValue(180267781),
+		AfterEvnet = {
+			41109302
+		}
+	},
+	[42904003] = {
+		Id = 42904003,
+		Text = getI18NValue(180267782),
+		AfterEvnet = {
+			41620403
+		}
+	},
+	[42904004] = {
+		Id = 42904004,
+		Text = getI18NValue(180267783),
+		AfterEvnet = {
+			41101902,
+			41103006
+		}
+	},
+	[42905001] = {
+		Id = 42905001,
+		Text = getI18NValue(180267784),
+		AfterEvnet = {
+			41620502
+		}
+	},
+	[42905002] = {
+		Id = 42905002,
+		Text = getI18NValue(180267785),
+		AfterEvnet = {
+			41109413,
+			41103006
+		}
+	},
+	[42905003] = {
+		Id = 42905003,
+		Text = getI18NValue(180267786),
+		AfterEvnet = {
+			41620503
+		}
+	},
+	[42905004] = {
+		Id = 42905004,
+		Text = getI18NValue(180267787),
+		AfterEvnet = {
+			41101903,
+			41103007
+		}
+	},
+	[42905005] = {
+		Id = 42905005,
+		Text = getI18NValue(180267788),
+		AfterEvnet = {
+			41620504
+		}
+	},
+	[42905006] = {
+		Id = 42905006,
+		Text = getI18NValue(180267789),
+		AfterEvnet = {
+			41109015
+		}
+	},
+	[42906001] = {
+		Id = 42906001,
+		Text = getI18NValue(180267790),
+		AfterEvnet = {
+			41620602
+		}
+	},
+	[42906002] = {
+		Id = 42906002,
+		Text = getI18NValue(180267791),
+		AfterEvnet = {
+			41109303
+		}
+	},
+	[42906003] = {
+		Id = 42906003,
+		Text = getI18NValue(180267792),
+		AfterEvnet = {
+			41620603
+		}
+	},
+	[42906004] = {
+		Id = 42906004,
+		Text = getI18NValue(180267793),
+		AfterEvnet = {
+			41109412,
+			41103006
+		}
+	},
+	[42906005] = {
+		Id = 42906005,
+		Text = getI18NValue(180267794),
+		AfterEvnet = {
+			41620604
+		}
+	},
+	[42906006] = {
+		Id = 42906006,
+		Text = getI18NValue(180267795),
+		AfterEvnet = {
+			41101901,
+			41103005
+		}
+	},
+	[42907001] = {
+		Id = 42907001,
+		Text = getI18NValue(180267796),
+		AfterEvnet = {
+			41620702
+		}
+	},
+	[42907002] = {
+		Id = 42907002,
+		Text = getI18NValue(180267797),
+		AfterEvnet = {
+			41109403,
+			41103006
+		}
+	},
+	[42907003] = {
+		Id = 42907003,
+		Text = getI18NValue(180267798),
+		AfterEvnet = {
+			41620703
+		}
+	},
+	[42907004] = {
+		Id = 42907004,
+		Text = getI18NValue(180267799),
+		AfterEvnet = {
+			41103005
+		}
+	},
+	[42907005] = {
+		Id = 42907005,
+		Text = getI18NValue(180267800),
+		AfterEvnet = {
+			41620704
+		}
+	},
+	[42907006] = {
+		Id = 42907006,
+		Text = getI18NValue(180267801),
+		AfterEvnet = {
+			41109311
+		}
+	},
+	[42908001] = {
+		Id = 42908001,
+		Text = getI18NValue(180267802),
+		AfterEvnet = {
+			41620802
+		}
+	},
+	[42908002] = {
+		Id = 42908002,
+		Text = getI18NValue(180267803),
+		AfterEvnet = {
+			41101901,
+			41103005
+		}
+	},
+	[42908003] = {
+		Id = 42908003,
+		Text = getI18NValue(180267804),
+		AfterEvnet = {
+			41620803
+		}
+	},
+	[42908004] = {
+		Id = 42908004,
+		Text = getI18NValue(180267805),
+		AfterEvnet = {
+			41109015,
+			41103005
+		}
+	},
+	[42909001] = {
+		Id = 42909001,
+		Text = getI18NValue(180267806),
+		AfterEvnet = {
+			41620902
+		}
+	},
+	[42909002] = {
+		Id = 42909002,
+		Text = getI18NValue(180267807),
+		AfterEvnet = {
+			41109401,
+			41103005
+		}
+	},
+	[42909003] = {
+		Id = 42909003,
+		Text = getI18NValue(180267808),
+		AfterEvnet = {
+			41620903
+		}
+	},
+	[42909004] = {
+		Id = 42909004,
+		Text = getI18NValue(180267809),
+		AfterEvnet = {
+			41109311,
+			41103005
+		}
+	},
+	[42909005] = {
+		Id = 42909005,
+		Text = getI18NValue(180267810),
+		AfterEvnet = {
+			41620904
+		}
+	},
+	[42909006] = {
+		Id = 42909006,
+		Text = getI18NValue(180267811),
+		AfterEvnet = {
+			41101903,
+			41103007
+		}
+	},
+	[42910001] = {
+		Id = 42910001,
+		Text = getI18NValue(180267812),
+		AfterEvnet = {
+			41621002
+		}
+	},
+	[42910002] = {
+		Id = 42910002,
+		Text = getI18NValue(180267813),
+		AfterEvnet = {
+			41109402,
+			41103006
+		}
+	},
+	[42910003] = {
+		Id = 42910003,
+		Text = getI18NValue(180267814),
+		AfterEvnet = {
+			41621003
+		}
+	},
+	[42910004] = {
+		Id = 42910004,
+		Text = getI18NValue(180267815),
+		AfterEvnet = {
+			41109412,
+			41103006
+		}
+	},
+	[42910005] = {
+		Id = 42910005,
+		Text = getI18NValue(180267816),
+		AfterEvnet = {
+			41621004
+		}
+	},
+	[42910006] = {
+		Id = 42910006,
+		Text = getI18NValue(180267817),
+		AfterEvnet = {
+			41109311,
+			41103007
+		}
+	},
+	[42911001] = {
+		Id = 42911001,
+		Text = getI18NValue(180267818),
+		AfterEvnet = {
+			41621102
+		}
+	},
+	[42911002] = {
+		Id = 42911002,
+		Text = getI18NValue(180267819),
+		AfterEvnet = {
+			41109401
+		}
+	},
+	[42911003] = {
+		Id = 42911003,
+		Text = getI18NValue(180267820),
+		AfterEvnet = {
+			41621103
+		}
+	},
+	[42911004] = {
+		Id = 42911004,
+		Text = getI18NValue(180267821),
+		AfterEvnet = {
+			41109302
+		}
+	},
+	[42911005] = {
+		Id = 42911005,
+		Text = getI18NValue(180267822),
+		AfterEvnet = {
+			41621104
+		}
+	},
+	[42911006] = {
+		Id = 42911006,
+		Text = getI18NValue(180267823),
+		AfterEvnet = {
+			41109312
+		}
+	},
+	[42912001] = {
+		Id = 42912001,
+		Text = getI18NValue(180267824),
+		AfterEvnet = {
+			41621202
+		}
+	},
+	[42912002] = {
+		Id = 42912002,
+		Text = getI18NValue(180267825),
+		AfterEvnet = {
+			41109313,
+			41103007
+		}
+	},
+	[42912003] = {
+		Id = 42912003,
+		Text = getI18NValue(180267826),
+		AfterEvnet = {
+			41621203
+		}
+	},
+	[42912004] = {
+		Id = 42912004,
+		Text = getI18NValue(180267827),
+		AfterEvnet = {
+			41109303,
+			41103007
+		}
+	},
+	[42913001] = {
+		Id = 42913001,
+		Text = getI18NValue(180267828),
+		AfterEvnet = {
+			41621302
+		}
+	},
+	[42913002] = {
+		Id = 42913002,
+		Text = getI18NValue(180267829),
+		AfterEvnet = {
+			41109411,
+			41103005
+		}
+	},
+	[42913003] = {
+		Id = 42913003,
+		Text = getI18NValue(180267830),
+		AfterEvnet = {
+			41621303
+		}
+	},
+	[42913004] = {
+		Id = 42913004,
+		Text = getI18NValue(180267831),
+		AfterEvnet = {
+			41109401,
+			41103005
+		}
+	},
+	[42913005] = {
+		Id = 42913005,
+		Text = getI18NValue(180267832),
+		AfterEvnet = {
+			41621304
+		}
+	},
+	[42913006] = {
+		Id = 42913006,
+		Text = getI18NValue(180267833),
+		AfterEvnet = {
+			41101902,
+			41103006
+		}
+	},
+	[42914001] = {
+		Id = 42914001,
+		Text = getI18NValue(180267834),
+		AfterEvnet = {
+			41621402
+		}
+	},
+	[42914002] = {
+		Id = 42914002,
+		Text = getI18NValue(180267835),
+		AfterEvnet = {
+			41109312,
+			41103006
+		}
+	},
+	[42914003] = {
+		Id = 42914003,
+		Text = getI18NValue(180267836),
+		AfterEvnet = {
+			41621403
+		}
+	},
+	[42914004] = {
+		Id = 42914004,
+		Text = getI18NValue(180267837),
+		AfterEvnet = {
+			41109312,
+			41103006
+		}
+	},
+	[42914005] = {
+		Id = 42914005,
+		Text = getI18NValue(180267838),
+		AfterEvnet = {
+			41621404
+		}
+	},
+	[42914006] = {
+		Id = 42914006,
+		Text = getI18NValue(180267839),
+		AfterEvnet = {
+			41109312,
+			41103006
+		}
+	},
+	[42915001] = {
+		Id = 42915001,
+		Text = getI18NValue(180267840),
+		AfterEvnet = {
+			41621502
+		}
+	},
+	[42915002] = {
+		Id = 42915002,
+		Text = getI18NValue(180267841),
+		AfterEvnet = {
+			41109413,
+			41103006
+		}
+	},
+	[42915003] = {
+		Id = 42915003,
+		Text = getI18NValue(180267842),
+		AfterEvnet = {
+			41621503
+		}
+	},
+	[42915004] = {
+		Id = 42915004,
+		Text = getI18NValue(180267843),
+		AfterEvnet = {
+			41109313,
+			41109301
+		}
 	}
 }
 

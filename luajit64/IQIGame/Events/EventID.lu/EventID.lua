@@ -334,6 +334,7 @@ EventID = {
 	OnActivityRechargeDataChange = "OnActivityRechargeDataChange",
 	SummerActivityMainView_OpenStage = "SummerActivityMainView_OpenStage",
 	BattleSetBossPropertyPanelVisible = "BattleSetBossPropertyPanelVisible",
+	OnRaffleResult = "OnRaffleResult",
 	ShowUserInfoSkinView = "ShowUserInfoSkinView",
 	FormationToggleClickEvent = "FormationToggleClickEvent",
 	SetAutoDialogueShowEvent = "SetAutoDialogueShowEvent",

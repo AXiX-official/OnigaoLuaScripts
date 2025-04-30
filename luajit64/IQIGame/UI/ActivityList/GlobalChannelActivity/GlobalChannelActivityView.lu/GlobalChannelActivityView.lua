@@ -57,6 +57,34 @@ function m:OnTaskNotifyFinish()
 	self:__SetData(self.activityListcfg)
 end
 
+function m:HasRewardsToClaim(activityId)
+	local activityCfg = CfgActivityTable[activityId]
+
+	if not activityCfg then
+		return false
+	end
+
+	local subTypes = {}
+
+	for i = 2, #activityCfg.ExtraParam do
+		table.insert(subTypes, activityCfg.ExtraParam[i])
+	end
+
+	local signTaskList = TaskSystemModule.GetTaskListByConfig(activityCfg.ExtraParam[1], subTypes)
+
+	if not signTaskList then
+		return false
+	end
+
+	for _, task in ipairs(signTaskList) do
+		if task.status == Constant.TaskStatus.hasDone then
+			return true
+		end
+	end
+
+	return false
+end
+
 function m:__Dispose()
 	for k, v in pairs(self.signItemList) do
 		v:Dispose()

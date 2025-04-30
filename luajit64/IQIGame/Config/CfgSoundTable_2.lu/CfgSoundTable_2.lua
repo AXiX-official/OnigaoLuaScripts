@@ -1,6 +1,24 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgSoundTable_2.lua
 
 local CfgSoundTable_2 = {
+	[101140123] = {
+		MaxDistance = 100,
+		GroupName = "Dub",
+		GroupType = 1,
+		VolumeInSoundGroup = 1,
+		Id = 101140123,
+		Pitch = 1,
+		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_174.ogg"
+	},
+	[101140124] = {
+		MaxDistance = 100,
+		GroupName = "Dub",
+		GroupType = 1,
+		VolumeInSoundGroup = 1,
+		Id = 101140124,
+		Pitch = 1,
+		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_An_01_240.ogg"
+	},
 	[101140125] = {
 		MaxDistance = 100,
 		GroupName = "Dub",
@@ -20990,6 +21008,46 @@ local CfgSoundTable_2 = {
 		MaxDistance = 100,
 		TextTime = 3,
 		Text = getI18NValue(180263776)
+	},
+	[300010341] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010341,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180267928)
+	},
+	[300010342] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010342,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180267929)
+	},
+	[300010343] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010343,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180267930)
+	},
+	[300010344] = {
+		GroupName = "Dub",
+		GroupType = 2,
+		VolumeInSoundGroup = 1,
+		Id = 300010344,
+		Pitch = 1,
+		MaxDistance = 100,
+		TextTime = 3,
+		Text = getI18NValue(180267931)
 	},
 	[300010401] = {
 		GroupName = "Dub",

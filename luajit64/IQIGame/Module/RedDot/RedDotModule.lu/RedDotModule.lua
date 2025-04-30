@@ -695,10 +695,13 @@ function RedDotModule.CheckTaskRedDot()
 		RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.Task_Achieve, 0)
 	end
 
-	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_Normal, passNormalCount)
-	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_Daily, passDailyCount)
-	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_Week, passWeekCount)
-	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_RewardTab, passLevelCount)
+	if not ActivityPassModule.GetPassLvIsMax() then
+		RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_Normal, passNormalCount)
+		RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_Daily, passDailyCount)
+		RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_Week, passWeekCount)
+		RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.PassActivity_RewardTab, passLevelCount)
+	end
+
 	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.MobilePhone_NoviceActivity_SignInTab, activitySignInCount)
 	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.MobilePhone_NoviceActivity_TaskTab, activitySevenCount)
 	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.MobilePhone_NoviceActivity_LevelRewardTab, activityLevelCount)
@@ -766,6 +769,21 @@ end
 
 function RedDotModule.CheckRedDot_NoviceSign()
 	return RedDotModule.CheckRedDot_ActivityNoviceSignIsCanReceive()
+end
+
+function RedDotModule.CheckRedDot_GlobalChannelActivity()
+	local openServerSign = RedDotModule.CheckRedDot_GlobalChannelActivityIsCanReceive(Constant.ActivityID.OpenServerSignActivity)
+	local mayDaySign = RedDotModule.CheckRedDot_GlobalChannelActivityIsCanReceive(Constant.ActivityID.MayDaySignActivity)
+
+	return openServerSign or mayDaySign
+end
+
+function RedDotModule.CheckRedDot_AccRecharge()
+	local AccRechargeActivity_1 = RedDotModule.CheckRedDot_AccRechargeActivityIsCanReceive(Constant.ActivityID.AccumulateRechargeActivity_1)
+	local AccRechargeActivity_2 = RedDotModule.CheckRedDot_AccRechargeActivityIsCanReceive(Constant.ActivityID.AccumulateRechargeActivity_2)
+	local AccRechargeActivity_3 = RedDotModule.CheckRedDot_AccRechargeActivityIsCanReceive(Constant.ActivityID.AccumulateRechargeActivity_3)
+
+	return AccRechargeActivity_1 or AccRechargeActivity_2 or AccRechargeActivity_3
 end
 
 function RedDotModule.CheckRedDot_SummerSign()
@@ -863,6 +881,14 @@ function RedDotModule.CheckRedDot_WelfareList()
 		cnt = 1
 	end
 
+	if RedDotModule.CheckRedDot_GlobalChannelActivity(Constant.ActivityID.OpenServerSignActivity) == true then
+		cnt = 1
+	end
+
+	if RedDotModule.CheckRedDot_GlobalChannelActivity(Constant.ActivityID.MMayDaySignActivity) == true then
+		cnt = 1
+	end
+
 	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.WelfareList, cnt)
 end
 
@@ -908,6 +934,10 @@ function RedDotModule.CheckRedDot_ActivitySummerSignIsCanReceive()
 	return RedDotModule._GetActivitySummerSignIsCanReceive()
 end
 
+function RedDotModule.CheckRedDot_GlobalChannelActivityIsCanReceive(activityId)
+	return RedDotModule._GlobalChannelActivityIsCanReceive(activityId)
+end
+
 function RedDotModule.CheckRedDot_ActivityPassIsCanReceiveByActivityType(type)
 	local activityPod = ActivityModule.GetActivityPodByActivityType({
 		type
@@ -929,6 +959,10 @@ function RedDotModule.CheckRedDot_ActivityPassIsCanReceiveByActivityType(type)
 end
 
 function RedDotModule._GetActivityPassTaskIsCanReceive(activityPod)
+	if activityPod == nil then
+		return false
+	end
+
 	local activityCfg = CfgActivityTable[activityPod.cid]
 	local normalMainTaskType = activityCfg.ExtraParam[1]
 	local normalExtTaskType = {
@@ -968,6 +1002,22 @@ end
 
 function RedDotModule._GetActivitySummerSignIsCanReceive()
 	local normalTrunkIsShow = TaskSystemModule.IsCanGetAward(Constant.MainTaskType.Recharge, Constant.ExtendTaskType.SummerSign)
+
+	if normalTrunkIsShow == true then
+		return true
+	end
+
+	return false
+end
+
+function RedDotModule._GlobalChannelActivityIsCanReceive(activityId)
+	local activityPod = ActivityModule.GetActivityPodByID(activityId)
+
+	if activityPod == nil or activityPod.stage == 0 then
+		return false
+	end
+
+	local normalTrunkIsShow = ActivityListModule.HasUnclaimedItemsInGlobalChannelActivity(activityId)
 
 	if normalTrunkIsShow == true then
 		return true
@@ -1061,13 +1111,11 @@ end
 function RedDotModule.CheckRedDot_ActiveActivityList()
 	local cnt = 0
 
-	if RedDotModule.CheckRedDot_GhostGame() then
+	if RedDotModule.CheckRedDot_AccRecharge() == true then
 		cnt = 1
 	end
 
-	if RedDotModule.CheckRedDot_GhostGameTask() then
-		cnt = 1
-	end
+	RedDotModule.SetRedDotCnt(Constant.E_RedDotPath.ActivityList, cnt)
 end
 
 function RedDotModule.CheckRedDot_GhostGame()
@@ -1112,6 +1160,22 @@ function RedDotModule.CheckRedDot_GhostGameTask()
 	end
 
 	return true
+end
+
+function RedDotModule.CheckRedDot_AccRechargeActivityIsCanReceive(activityId)
+	local activityPod = ActivityModule.GetActivityPodByID(activityId)
+
+	if activityPod == nil or activityPod.stage == 0 then
+		return false
+	end
+
+	local hasRewards = ActivityListModule.HasUnclaimedAccRechargeRewards(activityId)
+
+	if hasRewards == true then
+		return true
+	end
+
+	return false
 end
 
 local co_WaitToHomeLandUpdate

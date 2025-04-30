@@ -1550,6 +1550,28 @@ local CfgStoryBattleTable = {
 		},
 		VictroyDesc = getI18NValue(180213827)
 	},
+	[5000203] = {
+		Id = 5000203,
+		MonsterTeam = {
+			14813030
+		},
+		PassReward = {
+			200101,
+			200300
+		},
+		VictroyDesc = getI18NValue(180267860)
+	},
+	[5000204] = {
+		Id = 5000204,
+		MonsterTeam = {
+			14813040
+		},
+		PassReward = {
+			200101,
+			200300
+		},
+		VictroyDesc = getI18NValue(180267861)
+	},
 	[5010001] = {
 		IsNotActiveReturnBtn = true,
 		Id = 5010001,
@@ -1757,6 +1779,24 @@ local CfgStoryBattleTable = {
 			14813020
 		},
 		VictroyDesc = getI18NValue(180230364)
+	},
+	[5010203] = {
+		IsNotActiveReturnBtn = true,
+		Id = 5010203,
+		IsNotActiveHomeBtn = true,
+		MonsterTeam = {
+			14813030
+		},
+		VictroyDesc = getI18NValue(180267568)
+	},
+	[5010204] = {
+		IsNotActiveReturnBtn = true,
+		Id = 5010204,
+		IsNotActiveHomeBtn = true,
+		MonsterTeam = {
+			14813040
+		},
+		VictroyDesc = getI18NValue(180267569)
 	},
 	[5100001] = {
 		Id = 5100001,
@@ -1994,6 +2034,28 @@ local CfgStoryBattleTable = {
 		},
 		VictroyDesc = getI18NValue(180213832)
 	},
+	[5100203] = {
+		Id = 5100203,
+		MonsterTeam = {
+			14823030
+		},
+		PassReward = {
+			200101,
+			200300
+		},
+		VictroyDesc = getI18NValue(180267570)
+	},
+	[5100204] = {
+		Id = 5100204,
+		MonsterTeam = {
+			14823040
+		},
+		PassReward = {
+			200101,
+			200300
+		},
+		VictroyDesc = getI18NValue(180267571)
+	},
 	[5110001] = {
 		IsNotActiveReturnBtn = true,
 		Id = 5110001,
@@ -2201,6 +2263,24 @@ local CfgStoryBattleTable = {
 			14823020
 		},
 		VictroyDesc = getI18NValue(180230387)
+	},
+	[5110203] = {
+		IsNotActiveReturnBtn = true,
+		Id = 5110203,
+		IsNotActiveHomeBtn = true,
+		MonsterTeam = {
+			14823030
+		},
+		VictroyDesc = getI18NValue(180267572)
+	},
+	[5110204] = {
+		IsNotActiveReturnBtn = true,
+		Id = 5110204,
+		IsNotActiveHomeBtn = true,
+		MonsterTeam = {
+			14823040
+		},
+		VictroyDesc = getI18NValue(180267573)
 	},
 	[5200001] = {
 		Id = 5200001,
@@ -2438,6 +2518,28 @@ local CfgStoryBattleTable = {
 		},
 		VictroyDesc = getI18NValue(180213837)
 	},
+	[5200203] = {
+		Id = 5200203,
+		MonsterTeam = {
+			14833030
+		},
+		PassReward = {
+			200101,
+			200300
+		},
+		VictroyDesc = getI18NValue(180267574)
+	},
+	[5200204] = {
+		Id = 5200204,
+		MonsterTeam = {
+			14833040
+		},
+		PassReward = {
+			200101,
+			200300
+		},
+		VictroyDesc = getI18NValue(180267575)
+	},
 	[5210001] = {
 		IsNotActiveReturnBtn = true,
 		Id = 5210001,
@@ -2645,6 +2747,24 @@ local CfgStoryBattleTable = {
 			14833020
 		},
 		VictroyDesc = getI18NValue(180230410)
+	},
+	[5210203] = {
+		IsNotActiveReturnBtn = true,
+		Id = 5210203,
+		IsNotActiveHomeBtn = true,
+		MonsterTeam = {
+			14833030
+		},
+		VictroyDesc = getI18NValue(180267576)
+	},
+	[5210204] = {
+		IsNotActiveReturnBtn = true,
+		Id = 5210204,
+		IsNotActiveHomeBtn = true,
+		MonsterTeam = {
+			14833040
+		},
+		VictroyDesc = getI18NValue(180267577)
 	},
 	[5300001] = {
 		Id = 5300001,

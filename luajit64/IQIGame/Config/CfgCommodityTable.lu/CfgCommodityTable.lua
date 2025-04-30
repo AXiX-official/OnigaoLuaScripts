@@ -893,7 +893,7 @@ local CfgCommodityTable = {
 		sort = 203,
 		TimeOvrtShow = 1,
 		Id = 50202103,
-		Desc = "初遇礼盒",
+		Desc = "喜迎五一礼盒",
 		Price = {
 			{
 				1,
@@ -997,7 +997,7 @@ local CfgCommodityTable = {
 		sort = 207,
 		TimeOvrtShow = 1,
 		Id = 50202152,
-		Desc = "七光礼包1",
+		Desc = "水月降神礼盒Ⅰ",
 		Price = {
 			{
 				1,
@@ -1153,7 +1153,7 @@ local CfgCommodityTable = {
 		sort = 213,
 		TimeOvrtShow = 1,
 		Id = 50202203,
-		Desc = "欧皇礼袋",
+		Desc = "水月降神礼盒Ⅱ",
 		Price = {
 			{
 				1,
@@ -1567,7 +1567,7 @@ local CfgCommodityTable = {
 		sort = 229,
 		TimeOvrtShow = 1,
 		Id = 50202304,
-		Desc = "魂玉礼包1",
+		Desc = "水月鬼武礼盒Ⅰ",
 		Price = {
 			{
 				1,
@@ -1645,7 +1645,7 @@ local CfgCommodityTable = {
 		sort = 232,
 		TimeOvrtShow = 1,
 		Id = 50202352,
-		Desc = "卡卡福袋2",
+		Desc = "水月鬼武礼盒Ⅱ",
 		Price = {
 			{
 				1,
@@ -1801,7 +1801,7 @@ local CfgCommodityTable = {
 		sort = 238,
 		TimeOvrtShow = 1,
 		Id = 50202403,
-		Desc = "春季优惠礼包3",
+		Desc = "迎夏心神礼盒Ⅰ",
 		Price = {
 			{
 				1,
@@ -1905,7 +1905,7 @@ local CfgCommodityTable = {
 		sort = 242,
 		TimeOvrtShow = 1,
 		Id = 50202452,
-		Desc = "玺玉招募盒",
+		Desc = "迎夏心神礼盒Ⅱ",
 		Price = {
 			{
 				1,
@@ -4260,22 +4260,23 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220001] = {
+	[50220002] = {
 		CommodityType = 1,
 		ShopID = 50102000,
 		BuyType = 2,
-		ItemId = 15000,
+		ItemId = 15015,
 		Time = 1,
-		sort = 1,
-		TimeOvrtShow = 1,
+		sort = 2,
+		ResetType = 2,
 		Number = 1,
 		UnlockConditionId = 30067001,
-		Id = 50220001,
-		Desc = "天照命晶",
+		TimeOvrtShow = 1,
+		Id = 50220002,
+		Desc = "遗馈之环",
 		Price = {
 			{
 				22,
-				10000
+				1800
 			},
 			{},
 			{},
@@ -4290,29 +4291,23 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 3000,
 		Time = 2,
+		sort = 3,
+		ResetType = 2,
+		Number = 1,
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
-		Number = 1,
-		sort = 2,
 		Id = 50220003,
 		Desc = "神觉银契",
 		Price = {
 			{
 				22,
-				1000
+				300
 			},
 			{},
 			{},
 			{},
 			{},
 			{}
-		},
-		addTime = {
-			0,
-			3,
-			6,
-			8,
-			8
 		}
 	},
 	[50220004] = {
@@ -4321,73 +4316,112 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 3003,
 		Time = 2,
+		sort = 4,
+		ResetType = 2,
+		Number = 1,
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
-		Number = 1,
-		sort = 3,
 		Id = 50220004,
 		Desc = "鬼武专契",
 		Price = {
 			{
 				22,
-				1000
+				300
 			},
 			{},
 			{},
 			{},
 			{},
 			{}
-		},
-		addTime = {
-			0,
-			3,
-			6,
-			8,
-			8
 		}
 	},
 	[50220005] = {
 		CommodityType = 1,
 		ShopID = 50102000,
 		BuyType = 2,
-		ItemId = 4,
-		Time = 5,
+		ItemId = 60127,
+		Time = 6,
+		sort = 5,
+		ResetType = 2,
+		Number = 1,
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
-		Number = 30000,
-		sort = 15,
 		Id = 50220005,
-		Desc = "札币",
+		Desc = "四星识域",
 		Price = {
 			{
 				22,
-				100
+				200
 			},
 			{},
 			{},
 			{},
 			{},
 			{}
-		},
-		addTime = {
-			0,
-			0,
-			0,
-			0,
-			5
 		}
 	},
 	[50220006] = {
 		CommodityType = 1,
 		ShopID = 50102000,
 		BuyType = 2,
-		ItemId = 50034,
-		Time = 5,
+		ItemId = 60128,
+		Time = 3,
+		sort = 6,
+		ResetType = 2,
+		Number = 1,
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
-		Number = 5,
-		sort = 10,
 		Id = 50220006,
+		Desc = "五星识域",
+		Price = {
+			{
+				22,
+				600
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220007] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 4,
+		Time = 5,
+		sort = 7,
+		ResetType = 2,
+		Number = 50000,
+		UnlockConditionId = 30067001,
+		TimeOvrtShow = 1,
+		Id = 50220007,
+		Desc = "札币",
+		Price = {
+			{
+				22,
+				180
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220008] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 50034,
+		Time = 5,
+		sort = 8,
+		ResetType = 2,
+		Number = 5,
+		UnlockConditionId = 30067001,
+		TimeOvrtShow = 1,
+		Id = 50220008,
 		Desc = "神宗鬼卷·真言",
 		Price = {
 			{
@@ -4399,350 +4433,50 @@ local CfgCommodityTable = {
 			{},
 			{},
 			{}
-		},
-		addTime = {
-			0,
-			0,
-			5,
-			5,
-			5
-		}
-	},
-	[50220007] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 50033,
-		Time = 5,
-		UnlockConditionId = 30067001,
-		TimeOvrtShow = 1,
-		Number = 5,
-		sort = 13,
-		Id = 50220007,
-		Desc = "神宗鬼卷·拓本",
-		Price = {
-			{
-				22,
-				160
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		addTime = {
-			0,
-			5,
-			5,
-			10,
-			10
-		}
-	},
-	[50220008] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 50034,
-		Time = 10,
-		UnlockConditionId = 30067001,
-		TimeOvrtShow = 1,
-		Number = 5,
-		sort = 11,
-		Id = 50220008,
-		Desc = "神宗鬼卷·真言",
-		Price = {
-			{
-				22,
-				500
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		addTime = {
-			0,
-			5,
-			5,
-			10,
-			10
 		}
 	},
 	[50220009] = {
 		CommodityType = 1,
 		ShopID = 50102000,
 		BuyType = 2,
-		ItemId = 50032,
-		Time = 10,
+		ItemId = 50033,
+		Time = 5,
+		sort = 9,
+		ResetType = 2,
+		Number = 10,
 		UnlockConditionId = 30067001,
 		TimeOvrtShow = 1,
-		Number = 5,
-		sort = 18,
 		Id = 50220009,
-		Desc = "神宗鬼卷·注卷",
+		Desc = "神宗鬼卷·拓本",
 		Price = {
 			{
 				22,
-				100
+				200
 			},
 			{},
 			{},
 			{},
 			{},
 			{}
-		},
-		addTime = {
-			0,
-			5,
-			5,
-			10,
-			10
 		}
 	},
 	[50220010] = {
 		CommodityType = 1,
 		ShopID = 50102000,
 		BuyType = 2,
-		ItemId = 50033,
-		Time = 10,
-		UnlockConditionId = 30067001,
-		TimeOvrtShow = 1,
-		Number = 5,
-		sort = 14,
-		Id = 50220010,
-		Desc = "神宗鬼卷·拓本",
-		Price = {
-			{
-				22,
-				240
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		addTime = {
-			0,
-			0,
-			10,
-			10,
-			20
-		}
-	},
-	[50220011] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 50031,
-		Time = 10,
-		UnlockConditionId = 30067001,
-		TimeOvrtShow = 1,
-		Number = 5,
-		sort = 20,
-		Id = 50220011,
-		Desc = "神宗鬼卷·抄本",
-		Price = {
-			{
-				22,
-				24
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		},
-		addTime = {
-			0,
-			0,
-			10,
-			10,
-			20
-		}
-	},
-	[50220012] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
 		ItemId = 50032,
-		sort = 19,
-		TimeOvrtShow = 1,
-		Number = 1,
+		Time = 5,
+		sort = 10,
+		ResetType = 2,
+		Number = 20,
 		UnlockConditionId = 30067001,
-		Id = 50220012,
+		TimeOvrtShow = 1,
+		Id = 50220010,
 		Desc = "神宗鬼卷·注卷",
 		Price = {
 			{
 				22,
-				40
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220013] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 50031,
-		sort = 21,
-		TimeOvrtShow = 1,
-		Number = 1,
-		UnlockConditionId = 30067001,
-		Id = 50220013,
-		Desc = "神宗鬼卷·抄本",
-		Price = {
-			{
-				22,
-				8
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220014] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 4,
-		sort = 16,
-		TimeOvrtShow = 1,
-		Number = 3000,
-		UnlockConditionId = 30067001,
-		Id = 50220014,
-		Desc = "札币",
-		Price = {
-			{
-				22,
-				20
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220015] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 60128,
-		Time = 10,
-		sort = 4,
-		TimeOvrtShow = 1,
-		Number = 1,
-		UnlockConditionId = 30067001,
-		Id = 50220015,
-		Desc = "五星识域",
-		Price = {
-			{
-				22,
-				2000
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220016] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 60127,
-		Time = 20,
-		sort = 12,
-		TimeOvrtShow = 1,
-		Number = 1,
-		UnlockConditionId = 30067001,
-		Id = 50220016,
-		Desc = "四星识域",
-		Price = {
-			{
-				22,
-				500
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220017] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 21,
-		Time = 5,
-		sort = 5,
-		ResetType = 2,
-		Number = 1,
-		UnlockConditionId = 30067001,
-		TimeOvrtShow = 1,
-		Id = 50220017,
-		Desc = "异象券",
-		Price = {
-			{
-				4,
-				2000
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220018] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 22,
-		sort = 6,
-		TimeOvrtShow = 1,
-		Number = 300,
-		UnlockConditionId = 30067001,
-		Id = 50220018,
-		Desc = "塞钱",
-		Price = {
-			{
-				23,
-				1
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220019] = {
-		CommodityType = 1,
-		ShopID = 50102000,
-		BuyType = 2,
-		ItemId = 4,
-		sort = 17,
-		TimeOvrtShow = 1,
-		Number = 150,
-		UnlockConditionId = 30067001,
-		Id = 50220019,
-		Desc = "札币",
-		Price = {
-			{
-				22,
-				1
+				120
 			},
 			{},
 			{},
