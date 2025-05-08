@@ -7240,13 +7240,13 @@ local CfgSkillFunctionTable = {
 		}
 	},
 	[401302210] = {
-		DynamicRPNExp = "A1-A2",
+		DynamicRPNExp = "A1",
 		IsBaseAttribute = false,
 		Id = 401302210,
 		IsDamagePlus = true,
 		DynamicArgType = {
 			103,
-			103,
+			0,
 			0,
 			0,
 			0,
@@ -7258,11 +7258,7 @@ local CfgSkillFunctionTable = {
 				"1",
 				"305"
 			},
-			{
-				"2",
-				"1",
-				"401302212"
-			},
+			{},
 			{},
 			{},
 			{},
@@ -7270,43 +7266,13 @@ local CfgSkillFunctionTable = {
 		}
 	},
 	[401302211] = {
-		DynamicRPNExp = "A2-A1",
+		DynamicRPNExp = "2*A1",
 		IsBaseAttribute = false,
 		Id = 401302211,
 		IsDamagePlus = true,
 		DynamicArgType = {
 			103,
-			103,
 			0,
-			0,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"305"
-			},
-			{
-				"2",
-				"1",
-				"401302212"
-			},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[401302214] = {
-		DynamicRPNExp = "2*(A2-A1)",
-		IsBaseAttribute = false,
-		Id = 401302214,
-		IsDamagePlus = true,
-		DynamicArgType = {
-			103,
-			103,
 			0,
 			0,
 			0,
@@ -7318,11 +7284,7 @@ local CfgSkillFunctionTable = {
 				"1",
 				"305"
 			},
-			{
-				"2",
-				"1",
-				"401302212"
-			},
+			{},
 			{},
 			{},
 			{},

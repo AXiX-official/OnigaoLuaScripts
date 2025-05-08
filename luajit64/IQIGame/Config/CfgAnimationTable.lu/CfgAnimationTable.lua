@@ -1140,6 +1140,11 @@ local CfgAnimationTable = {
 	{
 		Id = 229,
 		Start = "open"
+	},
+	{
+		Id = 230,
+		Start = "S_Hit",
+		Loop = "S_stay_pain"
 	}
 }
 

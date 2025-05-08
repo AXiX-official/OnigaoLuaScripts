@@ -290,6 +290,7 @@ local CfgStorySpeakNPCTable_3 = {
 		}
 	},
 	[108080602] = {
+		PlaySound = 22000106,
 		SpeakNPC = 101,
 		Id = 108080602,
 		NPCName = getI18NValue(180188812),
@@ -338,6 +339,7 @@ local CfgStorySpeakNPCTable_3 = {
 		SpeakContent = getI18NValue(180188823)
 	},
 	[108080801] = {
+		PlaySound = 22000107,
 		SpeakNPC = 102,
 		Id = 108080801,
 		NPCName = getI18NValue(180188824),
@@ -648,8 +650,9 @@ local CfgStorySpeakNPCTable_3 = {
 		}
 	},
 	[108090102] = {
-		SpeakNPC = 101,
 		Id = 108090102,
+		SpeakNPC = 101,
+		PlaySound = 22000106,
 		NPCName = getI18NValue(180188858),
 		SpeakContent = getI18NValue(180188859),
 		AnimationName = {

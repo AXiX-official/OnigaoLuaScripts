@@ -264,7 +264,7 @@ local CfgPayActivityTable = {
 	},
 	[10105] = {
 		Id = 10105,
-		OpenTime = "2025/5/7 18:00",
+		OpenTime = "2025/5/7 12:00",
 		Type = 2,
 		Skip = 10202002,
 		Order = 8,
@@ -272,17 +272,21 @@ local CfgPayActivityTable = {
 		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_beitiaonandu_Banner_01_1.png",
 		Name = getI18NValue(180253658),
 		Duration = {
-			1814400
+			1785600
 		}
 	},
 	[10106] = {
-		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
-		Type = 2,
 		Id = 10106,
+		OpenTime = "2025/4/30 12:00",
+		Type = 2,
+		Skip = 10202002,
 		Order = 9,
+		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
 		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_wunian_Banner_01_1.png",
-		Name = getI18NValue(180253659)
+		Name = getI18NValue(180253659),
+		Duration = {
+			1785600
+		}
 	},
 	[10107] = {
 		Id = 10107,
@@ -386,7 +390,7 @@ local CfgPayActivityTable = {
 	},
 	[30105] = {
 		Id = 30105,
-		OpenTime = "2025/5/7 18:00",
+		OpenTime = "2025/5/7 12:00",
 		Type = 3,
 		Skip = 10202002,
 		Order = 8,
@@ -394,17 +398,21 @@ local CfgPayActivityTable = {
 		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_beitiaonandu_Banner_01_1.png",
 		Name = getI18NValue(180255857),
 		Duration = {
-			1814400
+			1785600
 		}
 	},
 	[30106] = {
-		Skip = 10202002,
-		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
-		Type = 3,
 		Id = 30106,
+		OpenTime = "2025/4/30 12:00",
+		Type = 3,
+		Skip = 10202002,
 		Order = 9,
+		UIPrefab = "/_Notice/Notice_Lottery_wunian_1",
 		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_wunian_Banner_01_1.png",
-		Name = getI18NValue(180255858)
+		Name = getI18NValue(180255858),
+		Duration = {
+			1785600
+		}
 	},
 	[30107] = {
 		Id = 30107,

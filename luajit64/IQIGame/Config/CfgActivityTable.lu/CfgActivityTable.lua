@@ -768,7 +768,7 @@ local CfgActivityTable = {
 	},
 	[60003017] = {
 		OneOnly = false,
-		OpenTime = "2025/5/8 15:00",
+		OpenTime = "2025/5/7 12:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,
@@ -789,7 +789,7 @@ local CfgActivityTable = {
 	},
 	[60003018] = {
 		OneOnly = false,
-		OpenTime = "2025/5/8 15:00",
+		OpenTime = "2025/5/7 12:00",
 		ActivityType = 4,
 		CloseAction = 16,
 		OpenAction = 15,

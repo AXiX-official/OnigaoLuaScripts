@@ -8770,10 +8770,6 @@ local CfgAutoTextI18NTable = {
 		Id = 1741843871,
 		Text = getI18NValue(180263128)
 	},
-	[1741847693] = {
-		Id = 1741847693,
-		Text = getI18NValue(180262849)
-	},
 	[1741925071] = {
 		Id = 1741925071,
 		Text = getI18NValue(180263129)
@@ -9277,6 +9273,10 @@ local CfgAutoTextI18NTable = {
 	[1745569422] = {
 		Id = 1745569422,
 		Text = getI18NValue(180268012)
+	},
+	[1746670691] = {
+		Id = 1746670691,
+		Text = getI18NValue(180268148)
 	}
 }
 

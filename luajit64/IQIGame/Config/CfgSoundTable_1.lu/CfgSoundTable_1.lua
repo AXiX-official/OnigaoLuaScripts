@@ -3321,6 +3321,33 @@ local CfgSoundTable_1 = {
 		FileName = "Sound/Story/Story_Phone_HangUp_01.ogg",
 		FadeOutSeconds = 1
 	},
+	[22000211] = {
+		MaxDistance = 100,
+		GroupName = "ENVIRONMENT",
+		Pitch = 1,
+		VolumeInSoundGroup = 0.5,
+		Id = 22000211,
+		FileName = "Sound/Story/Story_BreakAir_01.ogg",
+		FadeOutSeconds = 1
+	},
+	[22000212] = {
+		MaxDistance = 100,
+		GroupName = "ENVIRONMENT",
+		Pitch = 1,
+		VolumeInSoundGroup = 0.5,
+		Id = 22000212,
+		FileName = "Sound/Story/Story_Story_DrawSword_01.ogg",
+		FadeOutSeconds = 1
+	},
+	[22000213] = {
+		MaxDistance = 100,
+		GroupName = "ENVIRONMENT",
+		Pitch = 1,
+		VolumeInSoundGroup = 0.5,
+		Id = 22000213,
+		FileName = "Sound/Story/Story_Story_DrawSword_02.ogg",
+		FadeOutSeconds = 1
+	},
 	[23000001] = {
 		VolumeInSoundGroup = 1,
 		GroupName = "ENVIRONMENT",
@@ -46377,33 +46404,6 @@ local CfgSoundTable_1 = {
 		Id = 101140119,
 		Pitch = 1,
 		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_171.ogg"
-	},
-	[101140120] = {
-		MaxDistance = 100,
-		GroupName = "Dub",
-		GroupType = 1,
-		VolumeInSoundGroup = 1,
-		Id = 101140120,
-		Pitch = 1,
-		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_An_01_239.ogg"
-	},
-	[101140121] = {
-		MaxDistance = 100,
-		GroupName = "Dub",
-		GroupType = 1,
-		VolumeInSoundGroup = 1,
-		Id = 101140121,
-		Pitch = 1,
-		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_172.ogg"
-	},
-	[101140122] = {
-		MaxDistance = 100,
-		GroupName = "Dub",
-		GroupType = 1,
-		VolumeInSoundGroup = 1,
-		Id = 101140122,
-		Pitch = 1,
-		FileName = "CV/0_stroyVoice/chapter_01/storyVoice_XiaQ_01_173.ogg"
 	}
 }
 

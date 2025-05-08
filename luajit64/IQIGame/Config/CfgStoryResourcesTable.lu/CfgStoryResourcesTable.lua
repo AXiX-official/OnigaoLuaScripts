@@ -648,7 +648,8 @@ local CfgStoryResourcesTable = {
 	},
 	[18007] = {
 		Id = 18007,
-		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_7.png"
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_7_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_7_1.png"
 	},
 	[18008] = {
 		Id = 18008,
@@ -658,6 +659,11 @@ local CfgStoryResourcesTable = {
 		Id = 18009,
 		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_9_2.png",
 		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_9_1.png"
+	},
+	[18010] = {
+		Id = 18010,
+		Url_Female = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_10_2.png",
+		Url = "Assets/05_Images/DataResource/StoryResource/StoryCG/Story_CG_Part8_10_1.png"
 	},
 	[140101] = {
 		Id = 140101,

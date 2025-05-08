@@ -9253,20 +9253,22 @@ local CfgItemTable = {
 		}
 	},
 	[80226] = {
-		UserAction = 21,
-		Quality = 5,
-		Star = true,
+		Id = 80226,
+		MaxNum = 1,
 		OverMode = 1,
-		Icon = "/SmallDIYSkill/Diy_80226.png",
 		LikeId = 802260,
 		Reveal = true,
 		ItemTypes = 4,
-		MaxNum = 1,
-		Id = 80226,
 		BigIcon = "/SmallDIYSkill/Diy_80226.png",
 		ItemSubTypes = 2,
 		DepotType = 4,
+		UserAction = 21,
+		Quality = 5,
+		Icon = "/SmallDIYSkill/Diy_80226.png",
+		Star = true,
 		Name = getI18NValue(180267147),
+		ItemTips = getI18NValue(180268146),
+		ItemStory = getI18NValue(180268147),
 		ActionParams = {
 			1
 		}

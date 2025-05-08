@@ -17127,35 +17127,29 @@ local CfgSkillDetailTable = {
 		BuffOrder = {
 			0,
 			0,
-			0,
 			0
 		},
 		BuffProbability = {
-			1,
 			1,
 			1,
 			1
 		},
 		BuffTarget = {
 			21,
-			401302200,
 			401302201,
 			21
 		},
 		BuffID = {
 			401302200,
 			401302210,
-			401302211,
-			401302214
+			401302211
 		},
 		BuffTime = {
-			0,
 			0,
 			0,
 			0
 		},
 		BuffStackNum = {
-			1,
 			1,
 			1,
 			1
@@ -17191,14 +17185,17 @@ local CfgSkillDetailTable = {
 		}
 	},
 	[40130240] = {
-		FunctionID = 600,
 		Id = 40130240,
+		FunctionID = 612,
 		InitCD = 4,
-		TargetTypeID = 201,
+		TargetTypeID = 121,
 		NotSelectTarget = false,
 		CoolDown = 4,
 		SkillAI = {
-			103
+			104
+		},
+		SkillRatio = {
+			1.2
 		},
 		BuffOrder = {
 			4
@@ -17223,12 +17220,12 @@ local CfgSkillDetailTable = {
 		Id = 40130250,
 		FunctionID = 612,
 		InitCD = 10,
-		TargetTypeID = 305,
+		TargetTypeID = 121,
 		Element = 2,
 		NotSelectTarget = false,
 		CoolDown = 10,
 		SkillAI = {
-			103
+			104
 		},
 		SkillRatio = {
 			0.12
@@ -17239,7 +17236,7 @@ local CfgSkillDetailTable = {
 		Element = 2,
 		Id = 40130251,
 		FunctionID = 612,
-		TargetTypeID = 104,
+		TargetTypeID = 31,
 		SkillRatio = {
 			0.28
 		}
@@ -17249,7 +17246,7 @@ local CfgSkillDetailTable = {
 		Element = 2,
 		Id = 40130252,
 		FunctionID = 612,
-		TargetTypeID = 104,
+		TargetTypeID = 31,
 		SkillRatio = {
 			0.56
 		}

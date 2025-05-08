@@ -4260,6 +4260,31 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
+	[50220001] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 15000,
+		Time = 1,
+		sort = 1,
+		ResetType = 3,
+		Number = 1,
+		UnlockConditionId = 30067001,
+		TimeOvrtShow = 1,
+		Id = 50220001,
+		Desc = "天照命晶",
+		Price = {
+			{
+				22,
+				5000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[50220002] = {
 		CommodityType = 1,
 		ShopID = 50102000,

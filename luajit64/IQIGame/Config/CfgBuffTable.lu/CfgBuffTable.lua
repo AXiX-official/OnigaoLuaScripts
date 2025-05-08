@@ -125364,7 +125364,6 @@ local CfgBuffTable = {
 		IsTipsVisible = false,
 		BuffTime = -1,
 		IsVisible = false,
-		TriggerType = 103,
 		DeathEffective = false,
 		Id = 401302201,
 		Name = getI18NValue(180267938),
@@ -125441,7 +125440,7 @@ local CfgBuffTable = {
 			{
 				"2",
 				"1",
-				"401301310"
+				"401302202"
 			},
 			{},
 			{},
@@ -125467,7 +125466,7 @@ local CfgBuffTable = {
 			{
 				"1",
 				"401302202",
-				"-1"
+				"-10"
 			},
 			{},
 			{},
@@ -125485,10 +125484,9 @@ local CfgBuffTable = {
 		TriggerProbability = 1,
 		StackType = 5,
 		IsTipsVisible = false,
-		DynamicRPNExp = "A1>A2",
 		BuffTime = -1,
 		IsVisible = false,
-		TriggerType = 104,
+		TriggerType = 102,
 		DeathEffective = false,
 		Id = 401302210,
 		IsNeedText = false,
@@ -125496,7 +125494,8 @@ local CfgBuffTable = {
 		Describe = getI18NValue(180267941),
 		TriggerParams = {
 			1,
-			305
+			305,
+			-1
 		},
 		RemoveTrigger = {
 			101
@@ -125507,29 +125506,9 @@ local CfgBuffTable = {
 		Properties = {
 			0
 		},
-		DynamicArgType = {
-			103,
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"305"
-			},
-			{
-				"2",
-				"1",
-				"401302212"
-			},
-			{},
-			{}
-		},
 		EffectType = {
 			310,
-			0,
+			310,
 			0,
 			0,
 			0,
@@ -125542,12 +125521,18 @@ local CfgBuffTable = {
 		EffectParam = {
 			{
 				"1",
-				"21",
-				"401302212",
+				"99",
+				"401302201",
 				"0",
 				"401302210"
 			},
-			{},
+			{
+				"1",
+				"99",
+				"401302202",
+				"0",
+				"401302210"
+			},
 			{},
 			{},
 			{},
@@ -125564,10 +125549,9 @@ local CfgBuffTable = {
 		TriggerProbability = 1,
 		StackType = 5,
 		IsTipsVisible = false,
-		DynamicRPNExp = "A1<A2",
 		BuffTime = -1,
 		IsVisible = false,
-		TriggerType = 104,
+		TriggerType = 102,
 		DeathEffective = false,
 		Id = 401302211,
 		IsNeedText = false,
@@ -125575,7 +125559,8 @@ local CfgBuffTable = {
 		Describe = getI18NValue(180267943),
 		TriggerParams = {
 			1,
-			305
+			305,
+			-1
 		},
 		RemoveTrigger = {
 			101
@@ -125586,30 +125571,10 @@ local CfgBuffTable = {
 		Properties = {
 			0
 		},
-		DynamicArgType = {
-			103,
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"305"
-			},
-			{
-				"2",
-				"1",
-				"401302212"
-			},
-			{},
-			{}
-		},
 		EffectType = {
 			310,
 			310,
-			310,
+			0,
 			0,
 			0,
 			0,
@@ -125633,204 +125598,7 @@ local CfgBuffTable = {
 				"0",
 				"401302211"
 			},
-			{
-				"1",
-				"21",
-				"401302213",
-				"0",
-				"401302211"
-			},
 			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[401302212] = {
-		DebuffType = 3,
-		StackMaxNumber = 1,
-		IsNeedText = false,
-		TriggerProbability = 1,
-		IsTipsVisible = false,
-		BuffTime = -1,
-		IsVisible = false,
-		StackType = 5,
-		DeathEffective = false,
-		Id = 401302212,
-		Name = getI18NValue(180267946),
-		Describe = getI18NValue(180267945),
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		Properties = {
-			0
-		}
-	},
-	[401302213] = {
-		StackMaxNumber = 1,
-		DebuffType = 3,
-		TriggerProbability = 1,
-		StackType = 5,
-		IsTipsVisible = false,
-		DynamicRPNExp = "A1>0",
-		BuffTime = -1,
-		IsVisible = false,
-		TriggerType = 104,
-		DeathEffective = false,
-		Id = 401302213,
-		IsNeedText = false,
-		Name = getI18NValue(180267948),
-		Describe = getI18NValue(180267947),
-		TriggerParams = {
-			1,
-			401302213
-		},
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		Properties = {
-			0
-		},
-		DynamicArgType = {
-			103,
-			0,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"401302213"
-			},
-			{},
-			{},
-			{}
-		},
-		EffectType = {
-			110,
-			110,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"401302212",
-				"-1"
-			},
-			{
-				"1",
-				"401302213",
-				"-1"
-			},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[401302214] = {
-		StackMaxNumber = 1,
-		DebuffType = 3,
-		TriggerProbability = 1,
-		StackType = 5,
-		IsTipsVisible = false,
-		DynamicRPNExp = "A1<A2",
-		BuffTime = -1,
-		IsVisible = false,
-		TriggerType = 104,
-		DeathEffective = false,
-		Id = 401302214,
-		IsNeedText = false,
-		Name = getI18NValue(180267950),
-		Describe = getI18NValue(180267949),
-		TriggerParams = {
-			1,
-			305
-		},
-		RemoveTrigger = {
-			101
-		},
-		TriggerMaxNumber = {
-			-1
-		},
-		Properties = {
-			0
-		},
-		DynamicArgType = {
-			103,
-			103,
-			0,
-			0
-		},
-		DynamicArgParams = {
-			{
-				"2",
-				"1",
-				"305"
-			},
-			{
-				"2",
-				"1",
-				"401302212"
-			},
-			{},
-			{}
-		},
-		EffectType = {
-			310,
-			310,
-			310,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		EffectParam = {
-			{
-				"1",
-				"99",
-				"401302201",
-				"0",
-				"401302214"
-			},
-			{
-				"1",
-				"99",
-				"401302202",
-				"0",
-				"401302214"
-			},
-			{
-				"1",
-				"21",
-				"401302213",
-				"0",
-				"401302211"
-			},
 			{},
 			{},
 			{},
