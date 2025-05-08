@@ -3171,9 +3171,8 @@ local CfgTimelineTable = {
 	[50103] = {
 		Id = 50103,
 		HitType = 4,
-		timeline = "Battle/Role/Monster/HaiS_2/Sources/Timeline/TL_HaiS_2_attack_1",
-		Cinemachine = "Battle/Role/Monster/HaiS_2/Sources/Cinemachine/TL_HaiS_2_attack_1",
-		HitBindingType = 1
+		HitBindingType = 1,
+		timeline = "Battle/Role/Monster/HaiS_2/Sources/Timeline/TL_HaiS_2_attack_1"
 	},
 	[50104] = {
 		Id = 50104,
@@ -3185,9 +3184,7 @@ local CfgTimelineTable = {
 		Id = 50105,
 		HitType = 1,
 		MaskType = 4,
-		timeline = "Battle/Role/Monster/HaiS_2/Sources/Timeline/TL_HaiS_2_skill_2",
-		Cinemachine = "Battle/Role/Monster/HaiS_2/Sources/Cinemachine/TL_HaiS_2_skill_2",
-		HitBindingType = 1
+		timeline = "Battle/Role/Monster/HaiS_2/Sources/Timeline/TL_HaiS_2_skill_2"
 	},
 	[50106] = {
 		Id = 50106,

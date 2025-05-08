@@ -42,7 +42,7 @@ local CfgShopBannerListTable = {
 		NormaToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_129.png",
 		Name = getI18NValue(180235978),
 		ShowConditionID = {
-			30000001
+			30000000
 		}
 	},
 	[50530005] = {

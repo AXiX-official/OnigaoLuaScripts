@@ -2384,9 +2384,9 @@ local CfgHeroSkinDiscreteTable = {
 			0
 		},
 		DisplayActionControlID = {
+			10402601,
 			10402603,
-			10402603,
-			10402603,
+			10402601,
 			10402603
 		}
 	},
@@ -2429,9 +2429,9 @@ local CfgHeroSkinDiscreteTable = {
 			0
 		},
 		DisplayActionControlID = {
+			10402602,
 			10402604,
-			10402604,
-			10402604,
+			10402602,
 			10402604
 		}
 	},
