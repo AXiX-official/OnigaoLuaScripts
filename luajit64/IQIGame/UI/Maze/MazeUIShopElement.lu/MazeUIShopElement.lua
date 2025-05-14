@@ -162,6 +162,7 @@ function Element:__RefreshItemsShow()
 	self.itemDataList = ShopModule.GetMazeShopItemList()
 
 	self.scrollAreaList:Refresh(#self.itemDataList)
+	self.moneyCell:RefreshItem(Constant.TopMoneyType.MazeShopUI)
 	self:__RefreshLvInfo()
 end
 

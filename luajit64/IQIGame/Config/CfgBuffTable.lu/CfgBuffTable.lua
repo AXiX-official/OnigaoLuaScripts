@@ -190,25 +190,21 @@ local CfgBuffTable = {
 	},
 	[102] = {
 		StackMaxNumber = 1,
-		DebuffType = 1,
-		TriggerProbability = 1,
-		IsNeedText = true,
 		GroupID = 102,
+		TriggerProbability = 1,
+		DebuffType = 1,
 		StackType = 5,
 		IsTipsVisible = true,
-		DynamicRPNExp = "A1<=A2",
 		StartBuffSound = 20000004,
 		Icon = "Buff_Stealth",
 		BuffTime = -1,
 		IsVisible = true,
-		TriggerType = 341,
+		TriggerType = 103,
 		DeathEffective = false,
 		Id = 102,
+		IsNeedText = true,
 		Name = getI18NValue(180013253),
 		Describe = getI18NValue(180013252),
-		TriggerParams = {
-			1
-		},
 		RemoveTrigger = {
 			101
 		},
@@ -226,6 +222,73 @@ local CfgBuffTable = {
 		},
 		ShowType = {
 			1
+		},
+		EffectType = {
+			302,
+			101,
+			101,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"9"
+			},
+			{
+				"1",
+				"21",
+				"1020",
+				"0",
+				"1"
+			},
+			{
+				"1",
+				"221",
+				"1021",
+				"0",
+				"1"
+			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[1020] = {
+		StackMaxNumber = 1,
+		GroupID = 102,
+		TriggerProbability = 1,
+		DebuffType = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		DynamicRPNExp = "A1<=A2+1",
+		BuffTime = -1,
+		IsVisible = false,
+		TriggerType = 319,
+		DeathEffective = false,
+		Id = 1020,
+		IsNeedText = false,
+		Name = getI18NValue(180268524),
+		Describe = getI18NValue(180268523),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			1
+		},
+		Properties = {
+			0
+		},
+		BuffTag = {
+			11
 		},
 		DynamicArgType = {
 			311,
@@ -246,8 +309,8 @@ local CfgBuffTable = {
 			{}
 		},
 		EffectType = {
-			302,
 			103,
+			0,
 			0,
 			0,
 			0,
@@ -259,14 +322,88 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"9"
-			},
-			{
-				"201",
+				"237",
 				"1",
 				"102",
 				"99"
 			},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[1021] = {
+		StackMaxNumber = 1,
+		GroupID = 102,
+		TriggerProbability = 1,
+		DebuffType = 1,
+		StackType = 5,
+		IsTipsVisible = false,
+		DynamicRPNExp = "A1<=A2+1",
+		BuffTime = -1,
+		IsVisible = false,
+		TriggerType = 319,
+		DeathEffective = false,
+		Id = 1021,
+		IsNeedText = false,
+		Name = getI18NValue(180268529),
+		Describe = getI18NValue(180268528),
+		RemoveTrigger = {
+			101
+		},
+		TriggerMaxNumber = {
+			1
+		},
+		Properties = {
+			0
+		},
+		BuffTag = {
+			11
+		},
+		DynamicArgType = {
+			311,
+			310,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1"
+			},
+			{
+				"1",
+				"1",
+				"102"
+			},
+			{},
+			{}
+		},
+		EffectType = {
+			103,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		EffectParam = {
+			{
+				"237",
+				"1",
+				"102",
+				"99"
+			},
+			{},
 			{},
 			{},
 			{},
@@ -121753,7 +121890,7 @@ local CfgBuffTable = {
 		IsTipsVisible = false,
 		BuffTime = -1,
 		IsVisible = false,
-		TriggerType = 305,
+		TriggerType = 306,
 		DeathEffective = false,
 		Id = 302305202,
 		Describe = getI18NValue(180267498),
@@ -121762,7 +121899,8 @@ local CfgBuffTable = {
 			2,
 			-1,
 			-1,
-			-1
+			-1,
+			0
 		},
 		RemoveTrigger = {
 			101
@@ -122112,7 +122250,7 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"84",
+				"80",
 				"3",
 				"0.05",
 				"0"

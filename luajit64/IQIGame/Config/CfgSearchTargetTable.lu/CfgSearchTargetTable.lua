@@ -2209,6 +2209,33 @@ local CfgSearchTargetTable = {
 		Id = 236,
 		SelectDeath = true
 	},
+	[237] = {
+		Id = 237,
+		SelectSelf = false,
+		AttackStealth = true,
+		SelectNum = 1,
+		IgnoreOld = false,
+		IgnoreTaunt = true,
+		IsGroup = false,
+		SelectCamp = 2,
+		PointSelectOrder = 1,
+		SelectStealth = true,
+		AlivePriority = true,
+		SkillRangeImg = "/Icon/SkillRangeImg/SkillRange_Icon_200.png",
+		SelectDeath = false,
+		TargetUnitType = {
+			8,
+			0
+		},
+		TargetUnitParam = {
+			{
+				1,
+				1,
+				12
+			},
+			{}
+		}
+	},
 	[240] = {
 		ContainAnchorPpoint = -1,
 		SelectSelf = true,

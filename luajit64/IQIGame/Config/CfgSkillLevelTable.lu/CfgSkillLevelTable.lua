@@ -25452,7 +25452,7 @@ local CfgSkillLevelTable = {
 		SkillTips = getI18NValue(180267522),
 		UpGradeOldValue = {
 			"0.02",
-			"0.05"
+			"0.15"
 		}
 	},
 	[302305301] = {
