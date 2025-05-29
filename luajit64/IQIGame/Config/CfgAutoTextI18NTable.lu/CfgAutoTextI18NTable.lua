@@ -9385,6 +9385,10 @@ local CfgAutoTextI18NTable = {
 	[1748243925] = {
 		Id = 1748243925,
 		Text = getI18NValue(180268865)
+	},
+	[1748424765] = {
+		Id = 1748424765,
+		Text = getI18NValue(180268998)
 	}
 }
 

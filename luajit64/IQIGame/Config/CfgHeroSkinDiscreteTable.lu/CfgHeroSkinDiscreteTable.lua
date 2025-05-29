@@ -1598,9 +1598,9 @@ local CfgHeroSkinDiscreteTable = {
 			0
 		},
 		DisplayActionControlID = {
-			10401603,
+			10401605,
 			10401606,
-			10401603,
+			10401605,
 			10401606
 		}
 	},

@@ -4022,7 +4022,9 @@ local CfgHeroSkinDisplayActionControlTable = {
 	[10401605] = {
 		ID = 10401605,
 		Idle = {
-			10416817,
+			10416717,
+			0,
+			10416716,
 			0
 		},
 		LevelUp = {
@@ -4030,25 +4032,27 @@ local CfgHeroSkinDisplayActionControlTable = {
 			0
 		},
 		Train = {
-			10416814,
+			10416701,
 			0
 		},
 		Close = {
-			10416813,
+			10416704,
 			0,
-			10416814,
+			10416705,
+			0,
+			10416706,
 			0
 		},
 		TouchFeedback = {
-			10416813,
+			10416713,
 			0,
-			10416814,
+			10416714,
 			0
 		},
 		StandbyAction = {
-			10416816,
+			10416716,
 			0,
-			10416817,
+			10416717,
 			0
 		},
 		MorningGreetings = {
@@ -4068,11 +4072,72 @@ local CfgHeroSkinDisplayActionControlTable = {
 			0
 		},
 		BattleWin = {
-			10416817,
+			10416714,
 			0
 		},
 		BattleLose = {
+			10416714,
+			0
+		}
+	},
+	[10401606] = {
+		ID = 10401606,
+		Idle = {
 			10416817,
+			0,
+			10416816,
+			0
+		},
+		LevelUp = {
+			10416813,
+			0
+		},
+		Train = {
+			10416801,
+			0
+		},
+		Close = {
+			10416804,
+			0,
+			10416805,
+			0,
+			10416806,
+			0
+		},
+		TouchFeedback = {
+			10416813,
+			0,
+			10416814,
+			0
+		},
+		StandbyAction = {
+			10416816,
+			0,
+			10416817,
+			0
+		},
+		MorningGreetings = {
+			10416807,
+			0
+		},
+		NoonGreetings = {
+			10416808,
+			0
+		},
+		EveningGreetings = {
+			10416809,
+			0
+		},
+		LateEveningGreetings = {
+			10416810,
+			0
+		},
+		BattleWin = {
+			10416814,
+			0
+		},
+		BattleLose = {
+			10416814,
 			0
 		}
 	},
