@@ -117,6 +117,12 @@ end
 
 function ActivityModule.GetActivityPodByActivityTypeHasAll(activityType)
 	for k, v in pairs(ActivityModule.ActivityPodList) do
+		if CfgActivityTable[v.cid].ActivityType == activityType and v.stage ~= 0 then
+			return v
+		end
+	end
+
+	for k, v in pairs(ActivityModule.ActivityPodList) do
 		if CfgActivityTable[v.cid].ActivityType == activityType then
 			return v
 		end
