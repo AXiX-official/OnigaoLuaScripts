@@ -1,1333 +1,1053 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgEquipAttrTable.lua
 
 local CfgEquipAttrTable = {
-	[16021101] = {
-		MasterAttrValue = 38,
+	[1101] = {
+		MasterAttrValue = 60,
 		MasterAttrType = 41,
-		Id = 16021101,
+		Id = 1101,
 		Weight = 10000,
-		MasterAttrGrowing = 13
+		MasterAttrGrowing = 12
 	},
-	[16021102] = {
-		MasterAttrValue = 56,
+	[1102] = {
+		MasterAttrValue = 120,
 		MasterAttrType = 41,
-		Id = 16021102,
+		Id = 1102,
 		Weight = 10000,
-		MasterAttrGrowing = 20
+		MasterAttrGrowing = 24
 	},
-	[16021103] = {
-		MasterAttrValue = 94,
+	[1103] = {
+		MasterAttrValue = 180,
 		MasterAttrType = 41,
-		Id = 16021103,
+		Id = 1103,
 		Weight = 10000,
-		MasterAttrGrowing = 33
+		MasterAttrGrowing = 36
 	},
-	[16021104] = {
-		MasterAttrValue = 141,
+	[1104] = {
+		MasterAttrValue = 240,
 		MasterAttrType = 41,
-		Id = 16021104,
+		Id = 1104,
 		Weight = 10000,
-		MasterAttrGrowing = 49
+		MasterAttrGrowing = 48
 	},
-	[16021105] = {
-		MasterAttrValue = 188,
+	[1105] = {
+		MasterAttrValue = 300,
 		MasterAttrType = 41,
-		Id = 16021105,
+		Id = 1105,
 		Weight = 10000,
-		MasterAttrGrowing = 66
+		MasterAttrGrowing = 60
 	},
-	[16021201] = {
-		MasterAttrValue = 6,
+	[1201] = {
+		MasterAttrValue = 10,
 		MasterAttrType = 42,
-		Id = 16021201,
+		Id = 1201,
 		Weight = 10000,
 		MasterAttrGrowing = 2
 	},
-	[16021202] = {
-		MasterAttrValue = 9,
+	[1202] = {
+		MasterAttrValue = 20,
 		MasterAttrType = 42,
-		Id = 16021202,
-		Weight = 10000,
-		MasterAttrGrowing = 3
-	},
-	[16021203] = {
-		MasterAttrValue = 16,
-		MasterAttrType = 42,
-		Id = 16021203,
-		Weight = 10000,
-		MasterAttrGrowing = 5
-	},
-	[16021204] = {
-		MasterAttrValue = 23,
-		MasterAttrType = 42,
-		Id = 16021204,
-		Weight = 10000,
-		MasterAttrGrowing = 8
-	},
-	[16021205] = {
-		MasterAttrValue = 31,
-		MasterAttrType = 42,
-		Id = 16021205,
-		Weight = 10000,
-		MasterAttrGrowing = 11
-	},
-	[16021301] = {
-		MasterAttrValue = 3,
-		MasterAttrType = 43,
-		Id = 16021301,
-		Weight = 10000,
-		MasterAttrGrowing = 1
-	},
-	[16021302] = {
-		MasterAttrValue = 4,
-		MasterAttrType = 43,
-		Id = 16021302,
-		Weight = 10000,
-		MasterAttrGrowing = 1
-	},
-	[16021303] = {
-		MasterAttrValue = 6,
-		MasterAttrType = 43,
-		Id = 16021303,
-		Weight = 10000,
-		MasterAttrGrowing = 2
-	},
-	[16021304] = {
-		MasterAttrValue = 9,
-		MasterAttrType = 43,
-		Id = 16021304,
-		Weight = 10000,
-		MasterAttrGrowing = 3
-	},
-	[16021305] = {
-		MasterAttrValue = 13,
-		MasterAttrType = 43,
-		Id = 16021305,
+		Id = 1202,
 		Weight = 10000,
 		MasterAttrGrowing = 4
 	},
-	[16021411] = {
+	[1203] = {
+		MasterAttrValue = 30,
+		MasterAttrType = 42,
+		Id = 1203,
+		Weight = 10000,
+		MasterAttrGrowing = 6
+	},
+	[1204] = {
+		MasterAttrValue = 40,
+		MasterAttrType = 42,
+		Id = 1204,
+		Weight = 10000,
+		MasterAttrGrowing = 8
+	},
+	[1205] = {
+		MasterAttrValue = 50,
+		MasterAttrType = 42,
+		Id = 1205,
+		Weight = 10000,
+		MasterAttrGrowing = 10
+	},
+	[1301] = {
+		MasterAttrValue = 4,
+		MasterAttrType = 43,
+		Id = 1301,
+		Weight = 10000,
+		MasterAttrGrowing = 1
+	},
+	[1302] = {
+		MasterAttrValue = 8,
+		MasterAttrType = 43,
+		Id = 1302,
+		Weight = 10000,
+		MasterAttrGrowing = 2
+	},
+	[1303] = {
+		MasterAttrValue = 12,
+		MasterAttrType = 43,
+		Id = 1303,
+		Weight = 10000,
+		MasterAttrGrowing = 2
+	},
+	[1304] = {
+		MasterAttrValue = 16,
+		MasterAttrType = 43,
+		Id = 1304,
+		Weight = 10000,
+		MasterAttrGrowing = 3
+	},
+	[1305] = {
+		MasterAttrValue = 20,
+		MasterAttrType = 43,
+		Id = 1305,
+		Weight = 10000,
+		MasterAttrGrowing = 4
+	},
+	[1411] = {
 		MasterAttrValue = 0.008,
 		MasterAttrType = 21,
-		Id = 16021411,
+		Id = 1411,
 		Weight = 10000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021412] = {
-		MasterAttrValue = 0.012,
-		MasterAttrType = 21,
-		Id = 16021412,
-		Weight = 10000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021413] = {
-		MasterAttrValue = 0.02,
-		MasterAttrType = 21,
-		Id = 16021413,
-		Weight = 10000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021414] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 21,
-		Id = 16021414,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021415] = {
-		MasterAttrValue = 0.04,
-		MasterAttrType = 21,
-		Id = 16021415,
-		Weight = 10000,
-		MasterAttrGrowing = 0.014
-	},
-	[16021421] = {
-		MasterAttrValue = 0.008,
-		MasterAttrType = 22,
-		Id = 16021421,
-		Weight = 10000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021422] = {
-		MasterAttrValue = 0.012,
-		MasterAttrType = 22,
-		Id = 16021422,
-		Weight = 10000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021423] = {
-		MasterAttrValue = 0.02,
-		MasterAttrType = 22,
-		Id = 16021423,
-		Weight = 10000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021424] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 22,
-		Id = 16021424,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021425] = {
-		MasterAttrValue = 0.04,
-		MasterAttrType = 22,
-		Id = 16021425,
-		Weight = 10000,
-		MasterAttrGrowing = 0.014
-	},
-	[16021431] = {
-		MasterAttrValue = 0.008,
-		MasterAttrType = 23,
-		Id = 16021431,
-		Weight = 10000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021432] = {
-		MasterAttrValue = 0.012,
-		MasterAttrType = 23,
-		Id = 16021432,
-		Weight = 10000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021433] = {
-		MasterAttrValue = 0.02,
-		MasterAttrType = 23,
-		Id = 16021433,
-		Weight = 10000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021434] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 23,
-		Id = 16021434,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021435] = {
-		MasterAttrValue = 0.04,
-		MasterAttrType = 23,
-		Id = 16021435,
-		Weight = 10000,
-		MasterAttrGrowing = 0.014
-	},
-	[16021441] = {
-		MasterAttrValue = 0.01,
-		MasterAttrType = 75,
-		Id = 16021441,
-		Weight = 5000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021442] = {
-		MasterAttrValue = 0.015,
-		MasterAttrType = 75,
-		Id = 16021442,
-		Weight = 5000,
-		MasterAttrGrowing = 0.005
-	},
-	[16021443] = {
-		MasterAttrValue = 0.025,
-		MasterAttrType = 75,
-		Id = 16021443,
-		Weight = 5000,
-		MasterAttrGrowing = 0.009
-	},
-	[16021444] = {
-		MasterAttrValue = 0.038,
-		MasterAttrType = 75,
-		Id = 16021444,
-		Weight = 5000,
-		MasterAttrGrowing = 0.013
-	},
-	[16021445] = {
-		MasterAttrValue = 0.05,
-		MasterAttrType = 75,
-		Id = 16021445,
-		Weight = 5000,
-		MasterAttrGrowing = 0.018
-	},
-	[16021451] = {
-		MasterAttrValue = 0.01,
-		MasterAttrType = 77,
-		Id = 16021451,
-		Weight = 5000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021452] = {
-		MasterAttrValue = 0.015,
-		MasterAttrType = 77,
-		Id = 16021452,
-		Weight = 5000,
-		MasterAttrGrowing = 0.005
-	},
-	[16021453] = {
-		MasterAttrValue = 0.025,
-		MasterAttrType = 77,
-		Id = 16021453,
-		Weight = 5000,
-		MasterAttrGrowing = 0.009
-	},
-	[16021454] = {
-		MasterAttrValue = 0.038,
-		MasterAttrType = 77,
-		Id = 16021454,
-		Weight = 5000,
-		MasterAttrGrowing = 0.013
-	},
-	[16021455] = {
-		MasterAttrValue = 0.05,
-		MasterAttrType = 77,
-		Id = 16021455,
-		Weight = 5000,
-		MasterAttrGrowing = 0.018
-	},
-	[16021511] = {
-		MasterAttrValue = 0.008,
-		MasterAttrType = 21,
-		Id = 16021511,
-		Weight = 10000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021512] = {
-		MasterAttrValue = 0.012,
-		MasterAttrType = 21,
-		Id = 16021512,
-		Weight = 10000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021513] = {
-		MasterAttrValue = 0.02,
-		MasterAttrType = 21,
-		Id = 16021513,
-		Weight = 10000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021514] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 21,
-		Id = 16021514,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021515] = {
-		MasterAttrValue = 0.04,
-		MasterAttrType = 21,
-		Id = 16021515,
-		Weight = 10000,
-		MasterAttrGrowing = 0.014
-	},
-	[16021521] = {
-		MasterAttrValue = 0.008,
-		MasterAttrType = 22,
-		Id = 16021521,
-		Weight = 10000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021522] = {
-		MasterAttrValue = 0.012,
-		MasterAttrType = 22,
-		Id = 16021522,
-		Weight = 10000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021523] = {
-		MasterAttrValue = 0.02,
-		MasterAttrType = 22,
-		Id = 16021523,
-		Weight = 10000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021524] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 22,
-		Id = 16021524,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021525] = {
-		MasterAttrValue = 0.04,
-		MasterAttrType = 22,
-		Id = 16021525,
-		Weight = 10000,
-		MasterAttrGrowing = 0.014
-	},
-	[16021531] = {
-		MasterAttrValue = 0.008,
-		MasterAttrType = 23,
-		Id = 16021531,
-		Weight = 10000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021532] = {
-		MasterAttrValue = 0.012,
-		MasterAttrType = 23,
-		Id = 16021532,
-		Weight = 10000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021533] = {
-		MasterAttrValue = 0.02,
-		MasterAttrType = 23,
-		Id = 16021533,
-		Weight = 10000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021534] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 23,
-		Id = 16021534,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021535] = {
-		MasterAttrValue = 0.04,
-		MasterAttrType = 23,
-		Id = 16021535,
-		Weight = 10000,
-		MasterAttrGrowing = 0.014
-	},
-	[16021541] = {
-		MasterAttrValue = 0.005,
-		MasterAttrType = 61,
-		Id = 16021541,
-		Weight = 3000,
 		MasterAttrGrowing = 0.002
 	},
-	[16021542] = {
-		MasterAttrValue = 0.008,
-		MasterAttrType = 61,
-		Id = 16021542,
-		Weight = 3000,
-		MasterAttrGrowing = 0.003
-	},
-	[16021543] = {
-		MasterAttrValue = 0.013,
-		MasterAttrType = 61,
-		Id = 16021543,
-		Weight = 3000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021544] = {
-		MasterAttrValue = 0.019,
-		MasterAttrType = 61,
-		Id = 16021544,
-		Weight = 3000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021545] = {
-		MasterAttrValue = 0.025,
-		MasterAttrType = 61,
-		Id = 16021545,
-		Weight = 3000,
-		MasterAttrGrowing = 0.009
-	},
-	[16021551] = {
-		MasterAttrValue = 0.013,
-		MasterAttrType = 81,
-		Id = 16021551,
-		Weight = 5000,
-		MasterAttrGrowing = 0.004
-	},
-	[16021552] = {
-		MasterAttrValue = 0.019,
-		MasterAttrType = 81,
-		Id = 16021552,
-		Weight = 5000,
-		MasterAttrGrowing = 0.007
-	},
-	[16021553] = {
-		MasterAttrValue = 0.031,
-		MasterAttrType = 81,
-		Id = 16021553,
-		Weight = 5000,
-		MasterAttrGrowing = 0.011
-	},
-	[16021554] = {
-		MasterAttrValue = 0.047,
-		MasterAttrType = 81,
-		Id = 16021554,
-		Weight = 5000,
-		MasterAttrGrowing = 0.016
-	},
-	[16021555] = {
-		MasterAttrValue = 0.063,
-		MasterAttrType = 81,
-		Id = 16021555,
-		Weight = 5000,
-		MasterAttrGrowing = 0.022
-	},
-	[16021611] = {
-		MasterAttrValue = 0.008,
+	[1412] = {
+		MasterAttrValue = 0.016,
 		MasterAttrType = 21,
-		Id = 16021611,
+		Id = 1412,
 		Weight = 10000,
 		MasterAttrGrowing = 0.003
 	},
-	[16021612] = {
-		MasterAttrValue = 0.012,
+	[1413] = {
+		MasterAttrValue = 0.024,
 		MasterAttrType = 21,
-		Id = 16021612,
+		Id = 1413,
 		Weight = 10000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.005
 	},
-	[16021613] = {
-		MasterAttrValue = 0.02,
+	[1414] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 21,
-		Id = 16021613,
+		Id = 1414,
 		Weight = 10000,
-		MasterAttrGrowing = 0.007
+		MasterAttrGrowing = 0.006
 	},
-	[16021614] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 21,
-		Id = 16021614,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021615] = {
+	[1415] = {
 		MasterAttrValue = 0.04,
 		MasterAttrType = 21,
-		Id = 16021615,
+		Id = 1415,
 		Weight = 10000,
-		MasterAttrGrowing = 0.014
+		MasterAttrGrowing = 0.008
 	},
-	[16021621] = {
+	[1421] = {
 		MasterAttrValue = 0.008,
 		MasterAttrType = 22,
-		Id = 16021621,
+		Id = 1421,
+		Weight = 10000,
+		MasterAttrGrowing = 0.002
+	},
+	[1422] = {
+		MasterAttrValue = 0.016,
+		MasterAttrType = 22,
+		Id = 1422,
 		Weight = 10000,
 		MasterAttrGrowing = 0.003
 	},
-	[16021622] = {
-		MasterAttrValue = 0.012,
+	[1423] = {
+		MasterAttrValue = 0.024,
 		MasterAttrType = 22,
-		Id = 16021622,
+		Id = 1423,
 		Weight = 10000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.005
 	},
-	[16021623] = {
-		MasterAttrValue = 0.02,
+	[1424] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 22,
-		Id = 16021623,
+		Id = 1424,
 		Weight = 10000,
-		MasterAttrGrowing = 0.007
+		MasterAttrGrowing = 0.006
 	},
-	[16021624] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 22,
-		Id = 16021624,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021625] = {
+	[1425] = {
 		MasterAttrValue = 0.04,
 		MasterAttrType = 22,
-		Id = 16021625,
+		Id = 1425,
 		Weight = 10000,
-		MasterAttrGrowing = 0.014
+		MasterAttrGrowing = 0.008
 	},
-	[16021631] = {
+	[1431] = {
 		MasterAttrValue = 0.008,
 		MasterAttrType = 23,
-		Id = 16021631,
+		Id = 1431,
+		Weight = 10000,
+		MasterAttrGrowing = 0.002
+	},
+	[1432] = {
+		MasterAttrValue = 0.016,
+		MasterAttrType = 23,
+		Id = 1432,
 		Weight = 10000,
 		MasterAttrGrowing = 0.003
 	},
-	[16021632] = {
-		MasterAttrValue = 0.012,
+	[1433] = {
+		MasterAttrValue = 0.024,
 		MasterAttrType = 23,
-		Id = 16021632,
+		Id = 1433,
 		Weight = 10000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.005
 	},
-	[16021633] = {
-		MasterAttrValue = 0.02,
+	[1434] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 23,
-		Id = 16021633,
+		Id = 1434,
 		Weight = 10000,
-		MasterAttrGrowing = 0.007
+		MasterAttrGrowing = 0.006
 	},
-	[16021634] = {
-		MasterAttrValue = 0.03,
-		MasterAttrType = 23,
-		Id = 16021634,
-		Weight = 10000,
-		MasterAttrGrowing = 0.01
-	},
-	[16021635] = {
+	[1435] = {
 		MasterAttrValue = 0.04,
 		MasterAttrType = 23,
-		Id = 16021635,
+		Id = 1435,
 		Weight = 10000,
-		MasterAttrGrowing = 0.014
+		MasterAttrGrowing = 0.008
 	},
-	[16021641] = {
-		MasterAttrValue = 0.01,
+	[1441] = {
+		MasterAttrValue = 0.012,
+		MasterAttrType = 75,
+		Id = 1441,
+		Weight = 1,
+		MasterAttrGrowing = 0.002
+	},
+	[1442] = {
+		MasterAttrValue = 0.024,
+		MasterAttrType = 75,
+		Id = 1442,
+		Weight = 1,
+		MasterAttrGrowing = 0.005
+	},
+	[1443] = {
+		MasterAttrValue = 0.036,
+		MasterAttrType = 75,
+		Id = 1443,
+		Weight = 1,
+		MasterAttrGrowing = 0.007
+	},
+	[1444] = {
+		MasterAttrValue = 0.048,
+		MasterAttrType = 75,
+		Id = 1444,
+		Weight = 1,
+		MasterAttrGrowing = 0.01
+	},
+	[1445] = {
+		MasterAttrValue = 0.06,
+		MasterAttrType = 75,
+		Id = 1445,
+		Weight = 1,
+		MasterAttrGrowing = 0.012
+	},
+	[1451] = {
+		MasterAttrValue = 0.012,
+		MasterAttrType = 77,
+		Id = 1451,
+		Weight = 1,
+		MasterAttrGrowing = 0.002
+	},
+	[1452] = {
+		MasterAttrValue = 0.024,
+		MasterAttrType = 77,
+		Id = 1452,
+		Weight = 1,
+		MasterAttrGrowing = 0.005
+	},
+	[1453] = {
+		MasterAttrValue = 0.036,
+		MasterAttrType = 77,
+		Id = 1453,
+		Weight = 1,
+		MasterAttrGrowing = 0.007
+	},
+	[1454] = {
+		MasterAttrValue = 0.048,
+		MasterAttrType = 77,
+		Id = 1454,
+		Weight = 1,
+		MasterAttrGrowing = 0.01
+	},
+	[1455] = {
+		MasterAttrValue = 0.06,
+		MasterAttrType = 77,
+		Id = 1455,
+		Weight = 1,
+		MasterAttrGrowing = 0.012
+	},
+	[1461] = {
+		MasterAttrValue = 0.008,
 		MasterAttrType = 67,
-		Id = 16021641,
+		Id = 1461,
 		Weight = 2000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.002
 	},
-	[16021642] = {
-		MasterAttrValue = 0.015,
+	[1462] = {
+		MasterAttrValue = 0.016,
 		MasterAttrType = 67,
-		Id = 16021642,
+		Id = 1462,
+		Weight = 2000,
+		MasterAttrGrowing = 0.003
+	},
+	[1463] = {
+		MasterAttrValue = 0.024,
+		MasterAttrType = 67,
+		Id = 1463,
 		Weight = 2000,
 		MasterAttrGrowing = 0.005
 	},
-	[16021643] = {
-		MasterAttrValue = 0.025,
+	[1464] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 67,
-		Id = 16021643,
+		Id = 1464,
 		Weight = 2000,
-		MasterAttrGrowing = 0.009
+		MasterAttrGrowing = 0.006
 	},
-	[16021644] = {
-		MasterAttrValue = 0.038,
+	[1465] = {
+		MasterAttrValue = 0.04,
 		MasterAttrType = 67,
-		Id = 16021644,
+		Id = 1465,
 		Weight = 2000,
-		MasterAttrGrowing = 0.013
+		MasterAttrGrowing = 0.008
 	},
-	[16021645] = {
-		MasterAttrValue = 0.05,
-		MasterAttrType = 67,
-		Id = 16021645,
-		Weight = 2000,
-		MasterAttrGrowing = 0.018
-	},
-	[16021651] = {
-		MasterAttrValue = 0.01,
+	[1471] = {
+		MasterAttrValue = 0.008,
 		MasterAttrType = 69,
-		Id = 16021651,
+		Id = 1471,
 		Weight = 2000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.002
 	},
-	[16021652] = {
-		MasterAttrValue = 0.015,
+	[1472] = {
+		MasterAttrValue = 0.016,
 		MasterAttrType = 69,
-		Id = 16021652,
+		Id = 1472,
+		Weight = 2000,
+		MasterAttrGrowing = 0.003
+	},
+	[1473] = {
+		MasterAttrValue = 0.024,
+		MasterAttrType = 69,
+		Id = 1473,
 		Weight = 2000,
 		MasterAttrGrowing = 0.005
 	},
-	[16021653] = {
-		MasterAttrValue = 0.025,
+	[1474] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 69,
-		Id = 16021653,
+		Id = 1474,
 		Weight = 2000,
-		MasterAttrGrowing = 0.009
+		MasterAttrGrowing = 0.006
 	},
-	[16021654] = {
-		MasterAttrValue = 0.038,
+	[1475] = {
+		MasterAttrValue = 0.04,
 		MasterAttrType = 69,
-		Id = 16021654,
+		Id = 1475,
 		Weight = 2000,
-		MasterAttrGrowing = 0.013
+		MasterAttrGrowing = 0.008
 	},
-	[16021655] = {
-		MasterAttrValue = 0.05,
-		MasterAttrType = 69,
-		Id = 16021655,
-		Weight = 2000,
-		MasterAttrGrowing = 0.018
-	},
-	[16021661] = {
-		MasterAttrValue = 0.01,
+	[1481] = {
+		MasterAttrValue = 0.008,
 		MasterAttrType = 71,
-		Id = 16021661,
+		Id = 1481,
 		Weight = 2000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.002
 	},
-	[16021662] = {
-		MasterAttrValue = 0.015,
+	[1482] = {
+		MasterAttrValue = 0.016,
 		MasterAttrType = 71,
-		Id = 16021662,
+		Id = 1482,
+		Weight = 2000,
+		MasterAttrGrowing = 0.003
+	},
+	[1483] = {
+		MasterAttrValue = 0.024,
+		MasterAttrType = 71,
+		Id = 1483,
 		Weight = 2000,
 		MasterAttrGrowing = 0.005
 	},
-	[16021663] = {
-		MasterAttrValue = 0.025,
+	[1484] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 71,
-		Id = 16021663,
+		Id = 1484,
 		Weight = 2000,
-		MasterAttrGrowing = 0.009
+		MasterAttrGrowing = 0.006
 	},
-	[16021664] = {
-		MasterAttrValue = 0.038,
+	[1485] = {
+		MasterAttrValue = 0.04,
 		MasterAttrType = 71,
-		Id = 16021664,
+		Id = 1485,
 		Weight = 2000,
-		MasterAttrGrowing = 0.013
+		MasterAttrGrowing = 0.008
 	},
-	[16021665] = {
-		MasterAttrValue = 0.05,
-		MasterAttrType = 71,
-		Id = 16021665,
-		Weight = 2000,
-		MasterAttrGrowing = 0.018
-	},
-	[16021671] = {
-		MasterAttrValue = 0.01,
+	[1491] = {
+		MasterAttrValue = 0.008,
 		MasterAttrType = 73,
-		Id = 16021671,
+		Id = 1491,
 		Weight = 2000,
-		MasterAttrGrowing = 0.004
+		MasterAttrGrowing = 0.002
 	},
-	[16021672] = {
-		MasterAttrValue = 0.015,
+	[1492] = {
+		MasterAttrValue = 0.016,
 		MasterAttrType = 73,
-		Id = 16021672,
+		Id = 1492,
+		Weight = 2000,
+		MasterAttrGrowing = 0.003
+	},
+	[1493] = {
+		MasterAttrValue = 0.024,
+		MasterAttrType = 73,
+		Id = 1493,
 		Weight = 2000,
 		MasterAttrGrowing = 0.005
 	},
-	[16021673] = {
-		MasterAttrValue = 0.025,
+	[1494] = {
+		MasterAttrValue = 0.032,
 		MasterAttrType = 73,
-		Id = 16021673,
+		Id = 1494,
 		Weight = 2000,
-		MasterAttrGrowing = 0.009
+		MasterAttrGrowing = 0.006
 	},
-	[16021674] = {
-		MasterAttrValue = 0.038,
+	[1495] = {
+		MasterAttrValue = 0.04,
 		MasterAttrType = 73,
-		Id = 16021674,
+		Id = 1495,
 		Weight = 2000,
-		MasterAttrGrowing = 0.013
+		MasterAttrGrowing = 0.008
 	},
-	[16021675] = {
-		MasterAttrValue = 0.05,
-		MasterAttrType = 73,
-		Id = 16021675,
-		Weight = 2000,
-		MasterAttrGrowing = 0.018
-	},
-	[16022011] = {
+	[2011] = {
 		MasterAttrType = 41,
-		Id = 16022011,
+		Id = 2011,
 		Weight = 650,
 		AttrValue = {
-			24,
-			72
+			30,
+			90
 		},
 		AttrShowRange = {
-			22,
-			96
+			27,
+			120
 		}
 	},
-	[16022012] = {
+	[2012] = {
 		MasterAttrType = 41,
-		Id = 16022012,
+		Id = 2012,
 		Weight = 450,
 		AttrValue = {
-			72,
-			96
+			90,
+			120
 		},
 		AttrShowRange = {
-			22,
-			96
+			27,
+			120
 		}
 	},
-	[16022021] = {
+	[2021] = {
 		MasterAttrType = 41,
-		Id = 16022021,
+		Id = 2021,
 		Weight = 350,
 		AttrValue = {
-			24,
-			72
+			30,
+			90
 		},
 		AttrShowRange = {
-			22,
-			144
+			27,
+			180
 		}
 	},
-	[16022022] = {
+	[2022] = {
 		MasterAttrType = 41,
-		Id = 16022022,
+		Id = 2022,
 		Weight = 450,
 		AttrValue = {
-			72,
-			96
+			90,
+			120
 		},
 		AttrShowRange = {
-			22,
-			144
+			27,
+			180
 		}
 	},
-	[16022023] = {
+	[2023] = {
 		MasterAttrType = 41,
-		Id = 16022023,
+		Id = 2023,
 		Weight = 200,
 		AttrValue = {
-			96,
-			144
+			120,
+			180
 		},
 		AttrShowRange = {
-			22,
-			144
+			27,
+			180
 		}
 	},
-	[16022032] = {
+	[2032] = {
 		MasterAttrType = 41,
-		Id = 16022032,
+		Id = 2032,
 		Weight = 350,
 		AttrValue = {
-			72,
-			96
+			90,
+			120
 		},
 		AttrShowRange = {
-			65,
-			192
+			81,
+			240
 		}
 	},
-	[16022033] = {
+	[2033] = {
 		MasterAttrType = 41,
-		Id = 16022033,
+		Id = 2033,
 		Weight = 450,
 		AttrValue = {
-			96,
-			144
+			120,
+			180
 		},
 		AttrShowRange = {
-			65,
-			192
+			81,
+			240
 		}
 	},
-	[16022034] = {
+	[2034] = {
 		MasterAttrType = 41,
-		Id = 16022034,
+		Id = 2034,
 		Weight = 200,
 		AttrValue = {
-			144,
-			192
+			180,
+			240
 		},
 		AttrShowRange = {
-			65,
-			192
+			81,
+			240
 		}
 	},
-	[16022042] = {
+	[2042] = {
 		MasterAttrType = 41,
-		Id = 16022042,
+		Id = 2042,
 		Weight = 300,
 		AttrValue = {
-			72,
-			96
+			90,
+			120
 		},
 		AttrShowRange = {
-			65,
-			240
+			81,
+			300
 		}
 	},
-	[16022043] = {
+	[2043] = {
 		MasterAttrType = 41,
-		Id = 16022043,
-		Weight = 400,
+		Id = 2043,
+		Weight = 450,
 		AttrValue = {
-			96,
-			144
+			120,
+			180
 		},
 		AttrShowRange = {
-			65,
-			240
+			81,
+			300
 		}
 	},
-	[16022044] = {
+	[2044] = {
 		MasterAttrType = 41,
-		Id = 16022044,
+		Id = 2044,
 		Weight = 200,
 		AttrValue = {
-			144,
-			192
+			180,
+			240
 		},
 		AttrShowRange = {
-			65,
-			240
+			81,
+			300
 		}
 	},
-	[16022045] = {
+	[2045] = {
 		MasterAttrType = 41,
-		Id = 16022045,
-		Weight = 100,
+		Id = 2045,
+		Weight = 50,
 		AttrValue = {
-			192,
-			240
+			240,
+			300
 		},
 		AttrShowRange = {
-			65,
-			240
+			81,
+			300
 		}
 	},
-	[16022052] = {
+	[2052] = {
 		MasterAttrType = 41,
-		Id = 16022052,
+		Id = 2052,
+		Weight = 200,
+		AttrValue = {
+			90,
+			120
+		},
+		AttrShowRange = {
+			81,
+			300
+		}
+	},
+	[2053] = {
+		MasterAttrType = 41,
+		Id = 2053,
+		Weight = 400,
+		AttrValue = {
+			120,
+			180
+		},
+		AttrShowRange = {
+			81,
+			300
+		}
+	},
+	[2054] = {
+		MasterAttrType = 41,
+		Id = 2054,
 		Weight = 250,
 		AttrValue = {
-			72,
-			96
+			180,
+			240
 		},
 		AttrShowRange = {
-			65,
-			240
+			81,
+			300
 		}
 	},
-	[16022053] = {
+	[2055] = {
 		MasterAttrType = 41,
-		Id = 16022053,
-		Weight = 350,
-		AttrValue = {
-			96,
-			144
-		},
-		AttrShowRange = {
-			65,
-			240
-		}
-	},
-	[16022054] = {
-		MasterAttrType = 41,
-		Id = 16022054,
-		Weight = 250,
-		AttrValue = {
-			144,
-			192
-		},
-		AttrShowRange = {
-			65,
-			240
-		}
-	},
-	[16022055] = {
-		MasterAttrType = 41,
-		Id = 16022055,
+		Id = 2055,
 		Weight = 150,
 		AttrValue = {
-			192,
-			240
+			240,
+			300
 		},
 		AttrShowRange = {
-			65,
-			240
+			81,
+			300
 		}
 	},
-	[16022111] = {
+	[2111] = {
 		MasterAttrType = 42,
-		Id = 16022111,
+		Id = 2111,
 		Weight = 650,
 		AttrValue = {
-			4,
-			12
+			5,
+			15
 		},
 		AttrShowRange = {
-			4,
-			16
+			5,
+			20
 		}
 	},
-	[16022112] = {
+	[2112] = {
 		MasterAttrType = 42,
-		Id = 16022112,
+		Id = 2112,
 		Weight = 450,
 		AttrValue = {
-			12,
-			16
+			15,
+			20
 		},
 		AttrShowRange = {
-			4,
-			16
+			5,
+			20
 		}
 	},
-	[16022121] = {
+	[2121] = {
 		MasterAttrType = 42,
-		Id = 16022121,
+		Id = 2121,
 		Weight = 350,
 		AttrValue = {
-			4,
-			12
+			5,
+			15
 		},
 		AttrShowRange = {
-			4,
-			24
+			5,
+			30
 		}
 	},
-	[16022122] = {
+	[2122] = {
 		MasterAttrType = 42,
-		Id = 16022122,
+		Id = 2122,
 		Weight = 450,
 		AttrValue = {
-			12,
-			16
+			15,
+			20
 		},
 		AttrShowRange = {
-			4,
-			24
+			5,
+			30
 		}
 	},
-	[16022123] = {
+	[2123] = {
 		MasterAttrType = 42,
-		Id = 16022123,
+		Id = 2123,
 		Weight = 200,
 		AttrValue = {
-			16,
-			24
+			20,
+			30
 		},
 		AttrShowRange = {
-			4,
-			24
+			5,
+			30
 		}
 	},
-	[16022132] = {
+	[2132] = {
 		MasterAttrType = 42,
-		Id = 16022132,
+		Id = 2132,
 		Weight = 350,
 		AttrValue = {
-			12,
-			16
+			15,
+			20
 		},
 		AttrShowRange = {
-			11,
-			32
+			14,
+			40
 		}
 	},
-	[16022133] = {
+	[2133] = {
 		MasterAttrType = 42,
-		Id = 16022133,
+		Id = 2133,
 		Weight = 450,
 		AttrValue = {
-			16,
-			24
+			20,
+			30
 		},
 		AttrShowRange = {
-			11,
-			32
+			14,
+			40
 		}
 	},
-	[16022134] = {
+	[2134] = {
 		MasterAttrType = 42,
-		Id = 16022134,
+		Id = 2134,
 		Weight = 200,
 		AttrValue = {
-			24,
-			32
+			30,
+			40
 		},
 		AttrShowRange = {
-			11,
-			32
+			14,
+			40
 		}
 	},
-	[16022142] = {
+	[2142] = {
 		MasterAttrType = 42,
-		Id = 16022142,
+		Id = 2142,
 		Weight = 300,
 		AttrValue = {
-			12,
-			16
+			15,
+			20
 		},
 		AttrShowRange = {
-			11,
-			40
+			14,
+			50
 		}
 	},
-	[16022143] = {
+	[2143] = {
 		MasterAttrType = 42,
-		Id = 16022143,
-		Weight = 400,
+		Id = 2143,
+		Weight = 450,
 		AttrValue = {
-			16,
-			24
+			20,
+			30
 		},
 		AttrShowRange = {
-			11,
-			40
+			14,
+			50
 		}
 	},
-	[16022144] = {
+	[2144] = {
 		MasterAttrType = 42,
-		Id = 16022144,
+		Id = 2144,
 		Weight = 200,
 		AttrValue = {
-			24,
-			32
+			30,
+			40
 		},
 		AttrShowRange = {
-			11,
-			40
+			14,
+			50
 		}
 	},
-	[16022145] = {
+	[2145] = {
 		MasterAttrType = 42,
-		Id = 16022145,
-		Weight = 100,
+		Id = 2145,
+		Weight = 50,
 		AttrValue = {
-			32,
-			40
+			40,
+			50
 		},
 		AttrShowRange = {
-			11,
-			40
+			14,
+			50
 		}
 	},
-	[16022152] = {
+	[2152] = {
 		MasterAttrType = 42,
-		Id = 16022152,
+		Id = 2152,
+		Weight = 200,
+		AttrValue = {
+			15,
+			20
+		},
+		AttrShowRange = {
+			14,
+			50
+		}
+	},
+	[2153] = {
+		MasterAttrType = 42,
+		Id = 2153,
+		Weight = 400,
+		AttrValue = {
+			20,
+			30
+		},
+		AttrShowRange = {
+			14,
+			50
+		}
+	},
+	[2154] = {
+		MasterAttrType = 42,
+		Id = 2154,
 		Weight = 250,
 		AttrValue = {
-			12,
-			16
+			30,
+			40
 		},
 		AttrShowRange = {
-			11,
-			40
+			14,
+			50
 		}
 	},
-	[16022153] = {
+	[2155] = {
 		MasterAttrType = 42,
-		Id = 16022153,
-		Weight = 350,
-		AttrValue = {
-			16,
-			24
-		},
-		AttrShowRange = {
-			11,
-			40
-		}
-	},
-	[16022154] = {
-		MasterAttrType = 42,
-		Id = 16022154,
-		Weight = 250,
-		AttrValue = {
-			24,
-			32
-		},
-		AttrShowRange = {
-			11,
-			40
-		}
-	},
-	[16022155] = {
-		MasterAttrType = 42,
-		Id = 16022155,
+		Id = 2155,
 		Weight = 150,
 		AttrValue = {
-			32,
-			40
+			40,
+			50
 		},
 		AttrShowRange = {
-			11,
-			40
+			14,
+			50
 		}
 	},
-	[16022211] = {
+	[2211] = {
 		MasterAttrType = 43,
-		Id = 16022211,
+		Id = 2211,
 		Weight = 650,
 		AttrValue = {
 			2,
-			5
+			6
 		},
 		AttrShowRange = {
-			1,
-			6
+			2,
+			8
 		}
 	},
-	[16022212] = {
+	[2212] = {
 		MasterAttrType = 43,
-		Id = 16022212,
+		Id = 2212,
 		Weight = 450,
 		AttrValue = {
-			5,
-			6
+			6,
+			8
 		},
 		AttrShowRange = {
-			1,
-			6
+			2,
+			8
 		}
 	},
-	[16022221] = {
+	[2221] = {
 		MasterAttrType = 43,
-		Id = 16022221,
+		Id = 2221,
 		Weight = 350,
 		AttrValue = {
 			2,
-			5
-		},
-		AttrShowRange = {
-			1,
-			10
-		}
-	},
-	[16022222] = {
-		MasterAttrType = 43,
-		Id = 16022222,
-		Weight = 450,
-		AttrValue = {
-			5,
 			6
 		},
 		AttrShowRange = {
-			1,
-			10
+			2,
+			12
 		}
 	},
-	[16022223] = {
+	[2222] = {
 		MasterAttrType = 43,
-		Id = 16022223,
-		Weight = 200,
+		Id = 2222,
+		Weight = 450,
 		AttrValue = {
 			6,
-			10
+			8
 		},
 		AttrShowRange = {
-			1,
-			10
+			2,
+			12
 		}
 	},
-	[16022232] = {
+	[2223] = {
 		MasterAttrType = 43,
-		Id = 16022232,
+		Id = 2223,
+		Weight = 200,
+		AttrValue = {
+			8,
+			12
+		},
+		AttrShowRange = {
+			2,
+			12
+		}
+	},
+	[2232] = {
+		MasterAttrType = 43,
+		Id = 2232,
 		Weight = 350,
 		AttrValue = {
+			6,
+			8
+		},
+		AttrShowRange = {
 			5,
-			6
-		},
-		AttrShowRange = {
-			4,
-			13
+			16
 		}
 	},
-	[16022233] = {
+	[2233] = {
 		MasterAttrType = 43,
-		Id = 16022233,
+		Id = 2233,
 		Weight = 450,
 		AttrValue = {
-			6,
-			10
+			8,
+			12
 		},
 		AttrShowRange = {
-			4,
-			13
-		}
-	},
-	[16022234] = {
-		MasterAttrType = 43,
-		Id = 16022234,
-		Weight = 200,
-		AttrValue = {
-			10,
-			13
-		},
-		AttrShowRange = {
-			4,
-			13
-		}
-	},
-	[16022242] = {
-		MasterAttrType = 43,
-		Id = 16022242,
-		Weight = 300,
-		AttrValue = {
 			5,
-			6
-		},
-		AttrShowRange = {
-			4,
 			16
 		}
 	},
-	[16022243] = {
+	[2234] = {
 		MasterAttrType = 43,
-		Id = 16022243,
-		Weight = 400,
-		AttrValue = {
-			6,
-			10
-		},
-		AttrShowRange = {
-			4,
-			16
-		}
-	},
-	[16022244] = {
-		MasterAttrType = 43,
-		Id = 16022244,
+		Id = 2234,
 		Weight = 200,
 		AttrValue = {
-			10,
-			13
-		},
-		AttrShowRange = {
-			4,
-			16
-		}
-	},
-	[16022245] = {
-		MasterAttrType = 43,
-		Id = 16022245,
-		Weight = 100,
-		AttrValue = {
-			13,
+			12,
 			16
 		},
 		AttrShowRange = {
-			4,
-			16
-		}
-	},
-	[16022252] = {
-		MasterAttrType = 43,
-		Id = 16022252,
-		Weight = 250,
-		AttrValue = {
 			5,
-			6
-		},
-		AttrShowRange = {
-			4,
 			16
 		}
 	},
-	[16022253] = {
+	[2242] = {
 		MasterAttrType = 43,
-		Id = 16022253,
-		Weight = 350,
+		Id = 2242,
+		Weight = 300,
 		AttrValue = {
 			6,
-			10
+			8
 		},
 		AttrShowRange = {
-			4,
-			16
+			5,
+			20
 		}
 	},
-	[16022254] = {
+	[2243] = {
 		MasterAttrType = 43,
-		Id = 16022254,
-		Weight = 250,
+		Id = 2243,
+		Weight = 450,
 		AttrValue = {
-			10,
-			13
+			8,
+			12
 		},
 		AttrShowRange = {
-			4,
-			16
+			5,
+			20
 		}
 	},
-	[16022255] = {
+	[2244] = {
 		MasterAttrType = 43,
-		Id = 16022255,
-		Weight = 150,
+		Id = 2244,
+		Weight = 200,
 		AttrValue = {
-			13,
+			12,
 			16
 		},
 		AttrShowRange = {
-			4,
+			5,
+			20
+		}
+	},
+	[2245] = {
+		MasterAttrType = 43,
+		Id = 2245,
+		Weight = 50,
+		AttrValue = {
+			16,
+			20
+		},
+		AttrShowRange = {
+			5,
+			20
+		}
+	},
+	[2252] = {
+		MasterAttrType = 43,
+		Id = 2252,
+		Weight = 200,
+		AttrValue = {
+			6,
+			8
+		},
+		AttrShowRange = {
+			5,
+			20
+		}
+	},
+	[2253] = {
+		MasterAttrType = 43,
+		Id = 2253,
+		Weight = 400,
+		AttrValue = {
+			8,
+			12
+		},
+		AttrShowRange = {
+			5,
+			20
+		}
+	},
+	[2254] = {
+		MasterAttrType = 43,
+		Id = 2254,
+		Weight = 250,
+		AttrValue = {
+			12,
 			16
+		},
+		AttrShowRange = {
+			5,
+			20
 		}
 	},
-	[16022311] = {
+	[2255] = {
+		MasterAttrType = 43,
+		Id = 2255,
+		Weight = 150,
+		AttrValue = {
+			16,
+			20
+		},
+		AttrShowRange = {
+			5,
+			20
+		}
+	},
+	[2311] = {
 		MasterAttrType = 21,
-		Id = 16022311,
+		Id = 2311,
 		Weight = 650,
 		AttrValue = {
 			0.005,
@@ -1338,9 +1058,9 @@ local CfgEquipAttrTable = {
 			0.02
 		}
 	},
-	[16022312] = {
+	[2312] = {
 		MasterAttrType = 21,
-		Id = 16022312,
+		Id = 2312,
 		Weight = 450,
 		AttrValue = {
 			0.015,
@@ -1351,9 +1071,9 @@ local CfgEquipAttrTable = {
 			0.02
 		}
 	},
-	[16022321] = {
+	[2321] = {
 		MasterAttrType = 21,
-		Id = 16022321,
+		Id = 2321,
 		Weight = 350,
 		AttrValue = {
 			0.005,
@@ -1364,9 +1084,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022322] = {
+	[2322] = {
 		MasterAttrType = 21,
-		Id = 16022322,
+		Id = 2322,
 		Weight = 450,
 		AttrValue = {
 			0.015,
@@ -1377,9 +1097,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022323] = {
+	[2323] = {
 		MasterAttrType = 21,
-		Id = 16022323,
+		Id = 2323,
 		Weight = 200,
 		AttrValue = {
 			0.02,
@@ -1390,9 +1110,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022332] = {
+	[2332] = {
 		MasterAttrType = 21,
-		Id = 16022332,
+		Id = 2332,
 		Weight = 350,
 		AttrValue = {
 			0.015,
@@ -1400,12 +1120,12 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022333] = {
+	[2333] = {
 		MasterAttrType = 21,
-		Id = 16022333,
+		Id = 2333,
 		Weight = 450,
 		AttrValue = {
 			0.02,
@@ -1413,25 +1133,25 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022334] = {
+	[2334] = {
 		MasterAttrType = 21,
-		Id = 16022334,
+		Id = 2334,
 		Weight = 200,
 		AttrValue = {
 			0.03,
-			0.041
+			0.04
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022342] = {
+	[2342] = {
 		MasterAttrType = 21,
-		Id = 16022342,
+		Id = 2342,
 		Weight = 300,
 		AttrValue = {
 			0.015,
@@ -1439,12 +1159,64 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022343] = {
+	[2343] = {
 		MasterAttrType = 21,
-		Id = 16022343,
+		Id = 2343,
+		Weight = 450,
+		AttrValue = {
+			0.02,
+			0.03
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2344] = {
+		MasterAttrType = 21,
+		Id = 2344,
+		Weight = 200,
+		AttrValue = {
+			0.03,
+			0.04
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2345] = {
+		MasterAttrType = 21,
+		Id = 2345,
+		Weight = 50,
+		AttrValue = {
+			0.04,
+			0.05
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2352] = {
+		MasterAttrType = 21,
+		Id = 2352,
+		Weight = 200,
+		AttrValue = {
+			0.015,
+			0.02
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2353] = {
+		MasterAttrType = 21,
+		Id = 2353,
 		Weight = 400,
 		AttrValue = {
 			0.02,
@@ -1452,90 +1224,38 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022344] = {
+	[2354] = {
 		MasterAttrType = 21,
-		Id = 16022344,
-		Weight = 200,
-		AttrValue = {
-			0.03,
-			0.041
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022345] = {
-		MasterAttrType = 21,
-		Id = 16022345,
-		Weight = 100,
-		AttrValue = {
-			0.041,
-			0.051
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022352] = {
-		MasterAttrType = 21,
-		Id = 16022352,
-		Weight = 250,
-		AttrValue = {
-			0.015,
-			0.02
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022353] = {
-		MasterAttrType = 21,
-		Id = 16022353,
-		Weight = 350,
-		AttrValue = {
-			0.02,
-			0.03
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022354] = {
-		MasterAttrType = 21,
-		Id = 16022354,
+		Id = 2354,
 		Weight = 250,
 		AttrValue = {
 			0.03,
-			0.041
+			0.04
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022355] = {
+	[2355] = {
 		MasterAttrType = 21,
-		Id = 16022355,
+		Id = 2355,
 		Weight = 150,
 		AttrValue = {
-			0.041,
-			0.051
+			0.04,
+			0.05
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022411] = {
+	[2411] = {
 		MasterAttrType = 22,
-		Id = 16022411,
+		Id = 2411,
 		Weight = 650,
 		AttrValue = {
 			0.005,
@@ -1546,9 +1266,9 @@ local CfgEquipAttrTable = {
 			0.02
 		}
 	},
-	[16022412] = {
+	[2412] = {
 		MasterAttrType = 22,
-		Id = 16022412,
+		Id = 2412,
 		Weight = 450,
 		AttrValue = {
 			0.015,
@@ -1559,9 +1279,9 @@ local CfgEquipAttrTable = {
 			0.02
 		}
 	},
-	[16022421] = {
+	[2421] = {
 		MasterAttrType = 22,
-		Id = 16022421,
+		Id = 2421,
 		Weight = 350,
 		AttrValue = {
 			0.005,
@@ -1572,9 +1292,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022422] = {
+	[2422] = {
 		MasterAttrType = 22,
-		Id = 16022422,
+		Id = 2422,
 		Weight = 450,
 		AttrValue = {
 			0.015,
@@ -1585,9 +1305,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022423] = {
+	[2423] = {
 		MasterAttrType = 22,
-		Id = 16022423,
+		Id = 2423,
 		Weight = 200,
 		AttrValue = {
 			0.02,
@@ -1598,9 +1318,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022432] = {
+	[2432] = {
 		MasterAttrType = 22,
-		Id = 16022432,
+		Id = 2432,
 		Weight = 350,
 		AttrValue = {
 			0.015,
@@ -1608,12 +1328,12 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022433] = {
+	[2433] = {
 		MasterAttrType = 22,
-		Id = 16022433,
+		Id = 2433,
 		Weight = 450,
 		AttrValue = {
 			0.02,
@@ -1621,25 +1341,25 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022434] = {
+	[2434] = {
 		MasterAttrType = 22,
-		Id = 16022434,
+		Id = 2434,
 		Weight = 200,
 		AttrValue = {
 			0.03,
-			0.041
+			0.04
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022442] = {
+	[2442] = {
 		MasterAttrType = 22,
-		Id = 16022442,
+		Id = 2442,
 		Weight = 300,
 		AttrValue = {
 			0.015,
@@ -1647,12 +1367,64 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022443] = {
+	[2443] = {
 		MasterAttrType = 22,
-		Id = 16022443,
+		Id = 2443,
+		Weight = 450,
+		AttrValue = {
+			0.02,
+			0.03
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2444] = {
+		MasterAttrType = 22,
+		Id = 2444,
+		Weight = 200,
+		AttrValue = {
+			0.03,
+			0.04
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2445] = {
+		MasterAttrType = 22,
+		Id = 2445,
+		Weight = 50,
+		AttrValue = {
+			0.04,
+			0.05
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2452] = {
+		MasterAttrType = 22,
+		Id = 2452,
+		Weight = 200,
+		AttrValue = {
+			0.015,
+			0.02
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2453] = {
+		MasterAttrType = 22,
+		Id = 2453,
 		Weight = 400,
 		AttrValue = {
 			0.02,
@@ -1660,90 +1432,38 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022444] = {
+	[2454] = {
 		MasterAttrType = 22,
-		Id = 16022444,
-		Weight = 200,
-		AttrValue = {
-			0.03,
-			0.041
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022445] = {
-		MasterAttrType = 22,
-		Id = 16022445,
-		Weight = 100,
-		AttrValue = {
-			0.041,
-			0.051
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022452] = {
-		MasterAttrType = 22,
-		Id = 16022452,
-		Weight = 250,
-		AttrValue = {
-			0.015,
-			0.02
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022453] = {
-		MasterAttrType = 22,
-		Id = 16022453,
-		Weight = 350,
-		AttrValue = {
-			0.02,
-			0.03
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022454] = {
-		MasterAttrType = 22,
-		Id = 16022454,
+		Id = 2454,
 		Weight = 250,
 		AttrValue = {
 			0.03,
-			0.041
+			0.04
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022455] = {
+	[2455] = {
 		MasterAttrType = 22,
-		Id = 16022455,
+		Id = 2455,
 		Weight = 150,
 		AttrValue = {
-			0.041,
-			0.051
+			0.04,
+			0.05
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022511] = {
+	[2511] = {
 		MasterAttrType = 23,
-		Id = 16022511,
+		Id = 2511,
 		Weight = 650,
 		AttrValue = {
 			0.005,
@@ -1754,9 +1474,9 @@ local CfgEquipAttrTable = {
 			0.02
 		}
 	},
-	[16022512] = {
+	[2512] = {
 		MasterAttrType = 23,
-		Id = 16022512,
+		Id = 2512,
 		Weight = 450,
 		AttrValue = {
 			0.015,
@@ -1767,9 +1487,9 @@ local CfgEquipAttrTable = {
 			0.02
 		}
 	},
-	[16022521] = {
+	[2521] = {
 		MasterAttrType = 23,
-		Id = 16022521,
+		Id = 2521,
 		Weight = 350,
 		AttrValue = {
 			0.005,
@@ -1780,9 +1500,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022522] = {
+	[2522] = {
 		MasterAttrType = 23,
-		Id = 16022522,
+		Id = 2522,
 		Weight = 450,
 		AttrValue = {
 			0.015,
@@ -1793,9 +1513,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022523] = {
+	[2523] = {
 		MasterAttrType = 23,
-		Id = 16022523,
+		Id = 2523,
 		Weight = 200,
 		AttrValue = {
 			0.02,
@@ -1806,9 +1526,9 @@ local CfgEquipAttrTable = {
 			0.03
 		}
 	},
-	[16022532] = {
+	[2532] = {
 		MasterAttrType = 23,
-		Id = 16022532,
+		Id = 2532,
 		Weight = 350,
 		AttrValue = {
 			0.015,
@@ -1816,12 +1536,12 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022533] = {
+	[2533] = {
 		MasterAttrType = 23,
-		Id = 16022533,
+		Id = 2533,
 		Weight = 450,
 		AttrValue = {
 			0.02,
@@ -1829,25 +1549,25 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022534] = {
+	[2534] = {
 		MasterAttrType = 23,
-		Id = 16022534,
+		Id = 2534,
 		Weight = 200,
 		AttrValue = {
 			0.03,
-			0.041
+			0.04
 		},
 		AttrShowRange = {
 			0.014,
-			0.041
+			0.04
 		}
 	},
-	[16022542] = {
+	[2542] = {
 		MasterAttrType = 23,
-		Id = 16022542,
+		Id = 2542,
 		Weight = 300,
 		AttrValue = {
 			0.015,
@@ -1855,12 +1575,64 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022543] = {
+	[2543] = {
 		MasterAttrType = 23,
-		Id = 16022543,
+		Id = 2543,
+		Weight = 450,
+		AttrValue = {
+			0.02,
+			0.03
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2544] = {
+		MasterAttrType = 23,
+		Id = 2544,
+		Weight = 200,
+		AttrValue = {
+			0.03,
+			0.04
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2545] = {
+		MasterAttrType = 23,
+		Id = 2545,
+		Weight = 50,
+		AttrValue = {
+			0.04,
+			0.05
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2552] = {
+		MasterAttrType = 23,
+		Id = 2552,
+		Weight = 200,
+		AttrValue = {
+			0.015,
+			0.02
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2553] = {
+		MasterAttrType = 23,
+		Id = 2553,
 		Weight = 400,
 		AttrValue = {
 			0.02,
@@ -1868,960 +1640,894 @@ local CfgEquipAttrTable = {
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022544] = {
+	[2554] = {
 		MasterAttrType = 23,
-		Id = 16022544,
-		Weight = 200,
-		AttrValue = {
-			0.03,
-			0.041
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022545] = {
-		MasterAttrType = 23,
-		Id = 16022545,
-		Weight = 100,
-		AttrValue = {
-			0.041,
-			0.051
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022552] = {
-		MasterAttrType = 23,
-		Id = 16022552,
-		Weight = 250,
-		AttrValue = {
-			0.015,
-			0.02
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022553] = {
-		MasterAttrType = 23,
-		Id = 16022553,
-		Weight = 350,
-		AttrValue = {
-			0.02,
-			0.03
-		},
-		AttrShowRange = {
-			0.014,
-			0.051
-		}
-	},
-	[16022554] = {
-		MasterAttrType = 23,
-		Id = 16022554,
+		Id = 2554,
 		Weight = 250,
 		AttrValue = {
 			0.03,
-			0.041
+			0.04
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022555] = {
+	[2555] = {
 		MasterAttrType = 23,
-		Id = 16022555,
+		Id = 2555,
 		Weight = 150,
 		AttrValue = {
-			0.041,
-			0.051
+			0.04,
+			0.05
 		},
 		AttrShowRange = {
 			0.014,
-			0.051
+			0.05
 		}
 	},
-	[16022611] = {
+	[2611] = {
 		MasterAttrType = 61,
-		Id = 16022611,
+		Id = 2611,
 		Weight = 650,
 		AttrValue = {
-			0.003,
-			0.009
+			0.005,
+			0.015
 		},
 		AttrShowRange = {
-			0.003,
-			0.012
+			0.005,
+			0.02
 		}
 	},
-	[16022612] = {
+	[2612] = {
 		MasterAttrType = 61,
-		Id = 16022612,
+		Id = 2612,
 		Weight = 450,
 		AttrValue = {
-			0.009,
-			0.012
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.003,
-			0.012
+			0.005,
+			0.02
 		}
 	},
-	[16022621] = {
+	[2621] = {
 		MasterAttrType = 61,
-		Id = 16022621,
+		Id = 2621,
 		Weight = 350,
 		AttrValue = {
-			0.003,
-			0.009
+			0.005,
+			0.015
 		},
 		AttrShowRange = {
-			0.003,
-			0.018
+			0.005,
+			0.03
 		}
 	},
-	[16022622] = {
+	[2622] = {
 		MasterAttrType = 61,
-		Id = 16022622,
+		Id = 2622,
 		Weight = 450,
 		AttrValue = {
-			0.009,
-			0.012
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.003,
-			0.018
+			0.005,
+			0.03
 		}
 	},
-	[16022623] = {
+	[2623] = {
 		MasterAttrType = 61,
-		Id = 16022623,
+		Id = 2623,
 		Weight = 200,
 		AttrValue = {
-			0.012,
-			0.018
+			0.02,
+			0.03
 		},
 		AttrShowRange = {
-			0.003,
-			0.018
+			0.005,
+			0.03
 		}
 	},
-	[16022632] = {
+	[2632] = {
 		MasterAttrType = 61,
-		Id = 16022632,
+		Id = 2632,
 		Weight = 350,
 		AttrValue = {
-			0.009,
-			0.012
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.008,
-			0.024
+			0.014,
+			0.04
 		}
 	},
-	[16022633] = {
+	[2633] = {
 		MasterAttrType = 61,
-		Id = 16022633,
+		Id = 2633,
 		Weight = 450,
 		AttrValue = {
-			0.012,
-			0.018
+			0.02,
+			0.03
 		},
 		AttrShowRange = {
-			0.008,
-			0.024
+			0.014,
+			0.04
 		}
 	},
-	[16022634] = {
+	[2634] = {
 		MasterAttrType = 61,
-		Id = 16022634,
+		Id = 2634,
 		Weight = 200,
 		AttrValue = {
-			0.018,
-			0.024
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.008,
-			0.024
+			0.014,
+			0.04
 		}
 	},
-	[16022642] = {
+	[2642] = {
 		MasterAttrType = 61,
-		Id = 16022642,
+		Id = 2642,
 		Weight = 300,
 		AttrValue = {
-			0.009,
-			0.012
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.008,
-			0.03
+			0.014,
+			0.05
 		}
 	},
-	[16022643] = {
+	[2643] = {
 		MasterAttrType = 61,
-		Id = 16022643,
-		Weight = 400,
+		Id = 2643,
+		Weight = 450,
 		AttrValue = {
-			0.012,
-			0.018
+			0.02,
+			0.03
 		},
 		AttrShowRange = {
-			0.008,
-			0.03
+			0.014,
+			0.05
 		}
 	},
-	[16022644] = {
+	[2644] = {
 		MasterAttrType = 61,
-		Id = 16022644,
+		Id = 2644,
 		Weight = 200,
 		AttrValue = {
-			0.018,
-			0.024
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.008,
-			0.03
+			0.014,
+			0.05
 		}
 	},
-	[16022645] = {
+	[2645] = {
 		MasterAttrType = 61,
-		Id = 16022645,
-		Weight = 100,
+		Id = 2645,
+		Weight = 50,
 		AttrValue = {
-			0.024,
+			0.04,
+			0.05
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2652] = {
+		MasterAttrType = 61,
+		Id = 2652,
+		Weight = 200,
+		AttrValue = {
+			0.015,
+			0.02
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2653] = {
+		MasterAttrType = 61,
+		Id = 2653,
+		Weight = 400,
+		AttrValue = {
+			0.02,
 			0.03
 		},
 		AttrShowRange = {
-			0.008,
-			0.03
+			0.014,
+			0.05
 		}
 	},
-	[16022652] = {
+	[2654] = {
 		MasterAttrType = 61,
-		Id = 16022652,
+		Id = 2654,
 		Weight = 250,
 		AttrValue = {
-			0.009,
-			0.012
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.008,
-			0.03
+			0.014,
+			0.05
 		}
 	},
-	[16022653] = {
+	[2655] = {
 		MasterAttrType = 61,
-		Id = 16022653,
-		Weight = 350,
-		AttrValue = {
-			0.012,
-			0.018
-		},
-		AttrShowRange = {
-			0.008,
-			0.03
-		}
-	},
-	[16022654] = {
-		MasterAttrType = 61,
-		Id = 16022654,
-		Weight = 250,
-		AttrValue = {
-			0.018,
-			0.024
-		},
-		AttrShowRange = {
-			0.008,
-			0.03
-		}
-	},
-	[16022655] = {
-		MasterAttrType = 61,
-		Id = 16022655,
+		Id = 2655,
 		Weight = 150,
 		AttrValue = {
-			0.024,
-			0.03
+			0.04,
+			0.05
 		},
 		AttrShowRange = {
-			0.008,
-			0.03
+			0.014,
+			0.05
 		}
 	},
-	[16022711] = {
+	[2711] = {
 		MasterAttrType = 81,
-		Id = 16022711,
+		Id = 2711,
 		Weight = 650,
 		AttrValue = {
-			0.006,
-			0.018
+			0.01,
+			0.03
 		},
 		AttrShowRange = {
-			0.005,
-			0.024
+			0.009,
+			0.04
 		}
 	},
-	[16022712] = {
+	[2712] = {
 		MasterAttrType = 81,
-		Id = 16022712,
+		Id = 2712,
 		Weight = 450,
 		AttrValue = {
-			0.018,
-			0.024
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.005,
-			0.024
+			0.009,
+			0.04
 		}
 	},
-	[16022721] = {
+	[2721] = {
 		MasterAttrType = 81,
-		Id = 16022721,
+		Id = 2721,
 		Weight = 350,
 		AttrValue = {
-			0.006,
-			0.018
+			0.01,
+			0.03
 		},
 		AttrShowRange = {
-			0.005,
-			0.036
+			0.009,
+			0.06
 		}
 	},
-	[16022722] = {
+	[2722] = {
 		MasterAttrType = 81,
-		Id = 16022722,
+		Id = 2722,
 		Weight = 450,
 		AttrValue = {
-			0.018,
-			0.024
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.005,
-			0.036
+			0.009,
+			0.06
 		}
 	},
-	[16022723] = {
+	[2723] = {
 		MasterAttrType = 81,
-		Id = 16022723,
+		Id = 2723,
 		Weight = 200,
 		AttrValue = {
-			0.024,
-			0.036
+			0.04,
+			0.06
 		},
 		AttrShowRange = {
-			0.005,
-			0.036
+			0.009,
+			0.06
 		}
 	},
-	[16022732] = {
+	[2732] = {
 		MasterAttrType = 81,
-		Id = 16022732,
+		Id = 2732,
 		Weight = 350,
 		AttrValue = {
-			0.018,
-			0.024
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.016,
-			0.048
+			0.027,
+			0.08
 		}
 	},
-	[16022733] = {
+	[2733] = {
 		MasterAttrType = 81,
-		Id = 16022733,
+		Id = 2733,
 		Weight = 450,
 		AttrValue = {
-			0.024,
-			0.036
+			0.04,
+			0.06
 		},
 		AttrShowRange = {
-			0.016,
-			0.048
+			0.027,
+			0.08
 		}
 	},
-	[16022734] = {
+	[2734] = {
 		MasterAttrType = 81,
-		Id = 16022734,
+		Id = 2734,
 		Weight = 200,
 		AttrValue = {
-			0.036,
-			0.048
+			0.06,
+			0.08
 		},
 		AttrShowRange = {
-			0.016,
-			0.048
+			0.027,
+			0.08
 		}
 	},
-	[16022742] = {
+	[2742] = {
 		MasterAttrType = 81,
-		Id = 16022742,
+		Id = 2742,
 		Weight = 300,
 		AttrValue = {
-			0.018,
-			0.024
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.016,
-			0.06
+			0.027,
+			0.1
 		}
 	},
-	[16022743] = {
+	[2743] = {
 		MasterAttrType = 81,
-		Id = 16022743,
-		Weight = 400,
+		Id = 2743,
+		Weight = 450,
 		AttrValue = {
-			0.024,
-			0.036
+			0.04,
+			0.06
 		},
 		AttrShowRange = {
-			0.016,
-			0.06
+			0.027,
+			0.1
 		}
 	},
-	[16022744] = {
+	[2744] = {
 		MasterAttrType = 81,
-		Id = 16022744,
+		Id = 2744,
 		Weight = 200,
 		AttrValue = {
-			0.036,
-			0.048
+			0.06,
+			0.08
 		},
 		AttrShowRange = {
-			0.016,
-			0.06
+			0.027,
+			0.1
 		}
 	},
-	[16022745] = {
+	[2745] = {
 		MasterAttrType = 81,
-		Id = 16022745,
-		Weight = 100,
+		Id = 2745,
+		Weight = 50,
 		AttrValue = {
-			0.048,
+			0.08,
+			0.1
+		},
+		AttrShowRange = {
+			0.027,
+			0.1
+		}
+	},
+	[2752] = {
+		MasterAttrType = 81,
+		Id = 2752,
+		Weight = 200,
+		AttrValue = {
+			0.03,
+			0.04
+		},
+		AttrShowRange = {
+			0.027,
+			0.1
+		}
+	},
+	[2753] = {
+		MasterAttrType = 81,
+		Id = 2753,
+		Weight = 400,
+		AttrValue = {
+			0.04,
 			0.06
 		},
 		AttrShowRange = {
-			0.016,
-			0.06
+			0.027,
+			0.1
 		}
 	},
-	[16022752] = {
+	[2754] = {
 		MasterAttrType = 81,
-		Id = 16022752,
+		Id = 2754,
 		Weight = 250,
 		AttrValue = {
-			0.018,
-			0.024
+			0.06,
+			0.08
 		},
 		AttrShowRange = {
-			0.016,
-			0.06
+			0.027,
+			0.1
 		}
 	},
-	[16022753] = {
+	[2755] = {
 		MasterAttrType = 81,
-		Id = 16022753,
-		Weight = 350,
-		AttrValue = {
-			0.024,
-			0.036
-		},
-		AttrShowRange = {
-			0.016,
-			0.06
-		}
-	},
-	[16022754] = {
-		MasterAttrType = 81,
-		Id = 16022754,
-		Weight = 250,
-		AttrValue = {
-			0.036,
-			0.048
-		},
-		AttrShowRange = {
-			0.016,
-			0.06
-		}
-	},
-	[16022755] = {
-		MasterAttrType = 81,
-		Id = 16022755,
+		Id = 2755,
 		Weight = 150,
 		AttrValue = {
-			0.048,
-			0.06
+			0.08,
+			0.1
 		},
 		AttrShowRange = {
-			0.016,
-			0.06
+			0.027,
+			0.1
 		}
 	},
-	[16022811] = {
+	[2811] = {
 		MasterAttrType = 79,
-		Id = 16022811,
+		Id = 2811,
 		Weight = 650,
 		AttrValue = {
 			0.004,
-			0.011
+			0.012
 		},
 		AttrShowRange = {
-			0.003,
-			0.014
+			0.004,
+			0.016
 		}
 	},
-	[16022812] = {
+	[2812] = {
 		MasterAttrType = 79,
-		Id = 16022812,
+		Id = 2812,
 		Weight = 450,
 		AttrValue = {
-			0.011,
-			0.014
+			0.012,
+			0.016
 		},
 		AttrShowRange = {
-			0.003,
-			0.014
+			0.004,
+			0.016
 		}
 	},
-	[16022821] = {
+	[2821] = {
 		MasterAttrType = 79,
-		Id = 16022821,
+		Id = 2821,
 		Weight = 350,
 		AttrValue = {
 			0.004,
-			0.011
+			0.012
 		},
 		AttrShowRange = {
-			0.003,
-			0.022
+			0.004,
+			0.024
 		}
 	},
-	[16022822] = {
+	[2822] = {
 		MasterAttrType = 79,
-		Id = 16022822,
+		Id = 2822,
 		Weight = 450,
 		AttrValue = {
-			0.011,
-			0.014
+			0.012,
+			0.016
 		},
 		AttrShowRange = {
-			0.003,
-			0.022
+			0.004,
+			0.024
 		}
 	},
-	[16022823] = {
+	[2823] = {
 		MasterAttrType = 79,
-		Id = 16022823,
+		Id = 2823,
 		Weight = 200,
 		AttrValue = {
-			0.014,
-			0.022
+			0.016,
+			0.024
 		},
 		AttrShowRange = {
-			0.003,
-			0.022
+			0.004,
+			0.024
 		}
 	},
-	[16022832] = {
+	[2832] = {
 		MasterAttrType = 79,
-		Id = 16022832,
+		Id = 2832,
 		Weight = 350,
 		AttrValue = {
-			0.011,
-			0.014
+			0.012,
+			0.016
 		},
 		AttrShowRange = {
-			0.01,
-			0.029
+			0.011,
+			0.032
 		}
 	},
-	[16022833] = {
+	[2833] = {
 		MasterAttrType = 79,
-		Id = 16022833,
+		Id = 2833,
 		Weight = 450,
 		AttrValue = {
-			0.014,
-			0.022
+			0.016,
+			0.024
 		},
 		AttrShowRange = {
-			0.01,
-			0.029
+			0.011,
+			0.032
 		}
 	},
-	[16022834] = {
+	[2834] = {
 		MasterAttrType = 79,
-		Id = 16022834,
+		Id = 2834,
 		Weight = 200,
 		AttrValue = {
-			0.022,
-			0.029
+			0.024,
+			0.032
 		},
 		AttrShowRange = {
-			0.01,
-			0.029
+			0.011,
+			0.032
 		}
 	},
-	[16022842] = {
+	[2842] = {
 		MasterAttrType = 79,
-		Id = 16022842,
+		Id = 2842,
 		Weight = 300,
 		AttrValue = {
+			0.012,
+			0.016
+		},
+		AttrShowRange = {
 			0.011,
-			0.014
-		},
-		AttrShowRange = {
-			0.01,
-			0.036
+			0.04
 		}
 	},
-	[16022843] = {
+	[2843] = {
 		MasterAttrType = 79,
-		Id = 16022843,
-		Weight = 400,
+		Id = 2843,
+		Weight = 450,
 		AttrValue = {
-			0.014,
-			0.022
+			0.016,
+			0.024
 		},
 		AttrShowRange = {
-			0.01,
-			0.036
+			0.011,
+			0.04
 		}
 	},
-	[16022844] = {
+	[2844] = {
 		MasterAttrType = 79,
-		Id = 16022844,
+		Id = 2844,
 		Weight = 200,
 		AttrValue = {
-			0.022,
-			0.029
+			0.024,
+			0.032
 		},
 		AttrShowRange = {
-			0.01,
-			0.036
-		}
-	},
-	[16022845] = {
-		MasterAttrType = 79,
-		Id = 16022845,
-		Weight = 100,
-		AttrValue = {
-			0.029,
-			0.036
-		},
-		AttrShowRange = {
-			0.01,
-			0.036
-		}
-	},
-	[16022852] = {
-		MasterAttrType = 79,
-		Id = 16022852,
-		Weight = 250,
-		AttrValue = {
 			0.011,
-			0.014
-		},
-		AttrShowRange = {
-			0.01,
-			0.036
+			0.04
 		}
 	},
-	[16022853] = {
+	[2845] = {
 		MasterAttrType = 79,
-		Id = 16022853,
-		Weight = 350,
+		Id = 2845,
+		Weight = 50,
 		AttrValue = {
-			0.014,
-			0.022
+			0.032,
+			0.04
 		},
 		AttrShowRange = {
-			0.01,
-			0.036
+			0.011,
+			0.04
 		}
 	},
-	[16022854] = {
+	[2852] = {
 		MasterAttrType = 79,
-		Id = 16022854,
+		Id = 2852,
+		Weight = 200,
+		AttrValue = {
+			0.012,
+			0.016
+		},
+		AttrShowRange = {
+			0.011,
+			0.04
+		}
+	},
+	[2853] = {
+		MasterAttrType = 79,
+		Id = 2853,
+		Weight = 400,
+		AttrValue = {
+			0.016,
+			0.024
+		},
+		AttrShowRange = {
+			0.011,
+			0.04
+		}
+	},
+	[2854] = {
+		MasterAttrType = 79,
+		Id = 2854,
 		Weight = 250,
 		AttrValue = {
-			0.022,
-			0.029
+			0.024,
+			0.032
 		},
 		AttrShowRange = {
-			0.01,
-			0.036
+			0.011,
+			0.04
 		}
 	},
-	[16022855] = {
+	[2855] = {
 		MasterAttrType = 79,
-		Id = 16022855,
+		Id = 2855,
 		Weight = 150,
 		AttrValue = {
-			0.029,
-			0.036
+			0.032,
+			0.04
 		},
 		AttrShowRange = {
-			0.01,
-			0.036
+			0.011,
+			0.04
 		}
 	},
-	[16022911] = {
+	[2911] = {
 		MasterAttrType = 80,
-		Id = 16022911,
+		Id = 2911,
 		Weight = 650,
 		AttrValue = {
-			0.008,
-			0.024
+			0.005,
+			0.015
 		},
 		AttrShowRange = {
-			0.007,
-			0.032
+			0.005,
+			0.02
 		}
 	},
-	[16022912] = {
+	[2912] = {
 		MasterAttrType = 80,
-		Id = 16022912,
+		Id = 2912,
 		Weight = 450,
 		AttrValue = {
-			0.024,
-			0.032
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.007,
-			0.032
+			0.005,
+			0.02
 		}
 	},
-	[16022921] = {
+	[2921] = {
 		MasterAttrType = 80,
-		Id = 16022921,
+		Id = 2921,
 		Weight = 350,
 		AttrValue = {
-			0.008,
-			0.024
+			0.005,
+			0.015
 		},
 		AttrShowRange = {
-			0.007,
-			0.048
+			0.005,
+			0.03
 		}
 	},
-	[16022922] = {
+	[2922] = {
 		MasterAttrType = 80,
-		Id = 16022922,
+		Id = 2922,
 		Weight = 450,
 		AttrValue = {
-			0.024,
-			0.032
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.007,
-			0.048
+			0.005,
+			0.03
 		}
 	},
-	[16022923] = {
+	[2923] = {
 		MasterAttrType = 80,
-		Id = 16022923,
+		Id = 2923,
 		Weight = 200,
 		AttrValue = {
-			0.032,
-			0.048
+			0.02,
+			0.03
 		},
 		AttrShowRange = {
-			0.007,
-			0.048
+			0.005,
+			0.03
 		}
 	},
-	[16022932] = {
+	[2932] = {
 		MasterAttrType = 80,
-		Id = 16022932,
+		Id = 2932,
 		Weight = 350,
 		AttrValue = {
-			0.024,
-			0.032
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.022,
-			0.064
+			0.014,
+			0.04
 		}
 	},
-	[16022933] = {
+	[2933] = {
 		MasterAttrType = 80,
-		Id = 16022933,
+		Id = 2933,
 		Weight = 450,
 		AttrValue = {
-			0.032,
-			0.048
+			0.02,
+			0.03
 		},
 		AttrShowRange = {
-			0.022,
-			0.064
+			0.014,
+			0.04
 		}
 	},
-	[16022934] = {
+	[2934] = {
 		MasterAttrType = 80,
-		Id = 16022934,
+		Id = 2934,
 		Weight = 200,
 		AttrValue = {
-			0.048,
-			0.064
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.022,
-			0.064
+			0.014,
+			0.04
 		}
 	},
-	[16022942] = {
+	[2942] = {
 		MasterAttrType = 80,
-		Id = 16022942,
+		Id = 2942,
 		Weight = 300,
 		AttrValue = {
-			0.024,
-			0.032
+			0.015,
+			0.02
 		},
 		AttrShowRange = {
-			0.022,
-			0.08
+			0.014,
+			0.05
 		}
 	},
-	[16022943] = {
+	[2943] = {
 		MasterAttrType = 80,
-		Id = 16022943,
-		Weight = 400,
+		Id = 2943,
+		Weight = 450,
 		AttrValue = {
-			0.032,
-			0.048
+			0.02,
+			0.03
 		},
 		AttrShowRange = {
-			0.022,
-			0.08
+			0.014,
+			0.05
 		}
 	},
-	[16022944] = {
+	[2944] = {
 		MasterAttrType = 80,
-		Id = 16022944,
+		Id = 2944,
 		Weight = 200,
 		AttrValue = {
-			0.048,
-			0.064
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.022,
-			0.08
+			0.014,
+			0.05
 		}
 	},
-	[16022945] = {
+	[2945] = {
 		MasterAttrType = 80,
-		Id = 16022945,
-		Weight = 100,
+		Id = 2945,
+		Weight = 50,
 		AttrValue = {
-			0.064,
-			0.08
+			0.04,
+			0.05
 		},
 		AttrShowRange = {
-			0.022,
-			0.08
+			0.014,
+			0.05
 		}
 	},
-	[16022952] = {
+	[2952] = {
 		MasterAttrType = 80,
-		Id = 16022952,
+		Id = 2952,
+		Weight = 200,
+		AttrValue = {
+			0.015,
+			0.02
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2953] = {
+		MasterAttrType = 80,
+		Id = 2953,
+		Weight = 400,
+		AttrValue = {
+			0.02,
+			0.03
+		},
+		AttrShowRange = {
+			0.014,
+			0.05
+		}
+	},
+	[2954] = {
+		MasterAttrType = 80,
+		Id = 2954,
 		Weight = 250,
 		AttrValue = {
-			0.024,
-			0.032
+			0.03,
+			0.04
 		},
 		AttrShowRange = {
-			0.022,
-			0.08
+			0.014,
+			0.05
 		}
 	},
-	[16022953] = {
+	[2955] = {
 		MasterAttrType = 80,
-		Id = 16022953,
-		Weight = 350,
-		AttrValue = {
-			0.032,
-			0.048
-		},
-		AttrShowRange = {
-			0.022,
-			0.08
-		}
-	},
-	[16022954] = {
-		MasterAttrType = 80,
-		Id = 16022954,
-		Weight = 250,
-		AttrValue = {
-			0.048,
-			0.064
-		},
-		AttrShowRange = {
-			0.022,
-			0.08
-		}
-	},
-	[16022955] = {
-		MasterAttrType = 80,
-		Id = 16022955,
+		Id = 2955,
 		Weight = 150,
 		AttrValue = {
-			0.064,
-			0.08
+			0.04,
+			0.05
 		},
 		AttrShowRange = {
-			0.022,
-			0.08
+			0.014,
+			0.05
 		}
 	},
-	[16023011] = {
+	[3101] = {
 		MasterAttrValue = 200000,
 		MasterAttrType = 41,
-		Id = 16023011,
+		Id = 3101,
 		Weight = 10000,
-		MasterAttrGrowing = 40000
+		MasterAttrGrowing = 10
 	},
-	[16023021] = {
+	[3201] = {
 		MasterAttrValue = 2000,
 		MasterAttrType = 42,
-		Id = 16023021,
+		Id = 3201,
 		Weight = 10000,
 		MasterAttrGrowing = 500
 	},
-	[16023031] = {
+	[3301] = {
 		MasterAttrValue = 1000,
 		MasterAttrType = 43,
-		Id = 16023031,
+		Id = 3301,
 		Weight = 10000,
 		MasterAttrGrowing = 3000
 	},
-	[16023041] = {
+	[3401] = {
 		MasterAttrValue = 0.4,
 		MasterAttrType = 61,
-		Id = 16023041,
+		Id = 3401,
 		Weight = 10000,
 		MasterAttrGrowing = 0.03
-	},
-	[16023051] = {
-		MasterAttrValue = 0.8,
-		MasterAttrType = 81,
-		Id = 16023051,
-		Weight = 10000,
-		MasterAttrGrowing = 0.05
-	},
-	[16023061] = {
-		MasterAttrValue = 0.6,
-		MasterAttrType = 25,
-		Id = 16023061,
-		Weight = 10000,
-		MasterAttrGrowing = 0.05
 	}
 }
 

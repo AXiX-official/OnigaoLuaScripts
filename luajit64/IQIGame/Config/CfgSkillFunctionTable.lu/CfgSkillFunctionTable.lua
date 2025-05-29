@@ -6548,6 +6548,118 @@ local CfgSkillFunctionTable = {
 			{}
 		}
 	},
+	[80228000] = {
+		DynamicRPNExp = "A1*A2",
+		IsDamagePlus = false,
+		IsBaseAttribute = false,
+		Id = 80228000,
+		DamageType = 4,
+		DynamicArgType = {
+			332,
+			303,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1"
+			},
+			{
+				"1",
+				"1",
+				"2"
+			},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[80228001] = {
+		DynamicRPNExp = "A1*0.05",
+		IsBaseAttribute = false,
+		IsDamagePlus = false,
+		Id = 80228001,
+		MaxFunctionRPN = 80228002,
+		DamageType = 4,
+		DynamicArgType = {
+			303,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"2",
+				"1",
+				"8"
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[80228002] = {
+		DynamicRPNExp = "A1*2.4",
+		IsBaseAttribute = false,
+		Id = 80228002,
+		IsDamagePlus = true,
+		DynamicArgType = {
+			303,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"1",
+				"2"
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[80228003] = {
+		DynamicRPNExp = "A1*A2*5",
+		IsDamagePlus = false,
+		IsBaseAttribute = false,
+		Id = 80228003,
+		DamageType = 4,
+		DynamicArgType = {
+			332,
+			303,
+			0,
+			0,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1"
+			},
+			{
+				"1",
+				"1",
+				"2"
+			},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[101201200] = {
 		DynamicRPNExp = "A1*A2*A3",
 		IsBaseAttribute = false,

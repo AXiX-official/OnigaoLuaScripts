@@ -111,8 +111,8 @@ function ActivityListModule.GetActivityListGameobjectLuaByType(type, obj)
 		return activityViewBase.New(obj, lotteryActivityView)
 	elseif type == Constant.ActivityListCfgType.BattleActivityType then
 		return activityViewBase.New(obj, battleActivity)
-	elseif type == Constant.ActivityListCfgType.SummerSignActivityTyoe then
-		return activityViewBase.New(obj, NewSummerActivityView)
+	elseif type == Constant.ActivityListCfgType.SummerSignActivityType then
+		return activityViewBase.New(obj, summerSignActivity)
 	elseif type == Constant.ActivityListCfgType.GlobalChannelActivity then
 		return activityViewBase.New(obj, GlobalChannelActivityView)
 	elseif type == Constant.ActivityListCfgType.AccRechargeActivity then
@@ -141,7 +141,7 @@ function ActivityListModule.GetRedDotTypeByType(activityListCfg)
 		return RedDotModule.CheckRedDot_NoviceSign()
 	elseif type == Constant.ActivityListCfgType.BattleActivityType then
 		return RedDotModule.GetRedDotCntByRedDotID(Constant.E_RedDotPath.BattleActivity) >= 1
-	elseif type == Constant.ActivityListCfgType.SummerSignActivityTyoe then
+	elseif type == Constant.ActivityListCfgType.SummerSignActivityType then
 		return RedDotModule.CheckRedDot_SummerSign()
 	elseif type == Constant.ActivityListCfgType.AccRechargeActivity then
 		return RedDotModule.CheckRedDot_AccRecharge()

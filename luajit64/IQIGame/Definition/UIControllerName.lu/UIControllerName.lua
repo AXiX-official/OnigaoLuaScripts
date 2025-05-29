@@ -127,6 +127,7 @@ Constant.UIControllerName = {
 	GlobalNoticeUI = "GlobalNoticeUI",
 	LoopMapUI = "LoopMapUI",
 	ChatRoomUI = "ChatRoomUI",
+	EquipSuccinctTipsUI = "EquipSuccinctTipsUI",
 	SkillBreachTipsUI = "SkillBreachTipsUI",
 	RechargeRebateUI = "RechargeRebateUI",
 	GhostActivityTaskUI = "GhostActivityTaskUI",

@@ -23,8 +23,9 @@ local CfgWarehouseTable = {
 	},
 	{
 		Text = 1000006,
-		Id = 3,
 		Index = 2,
+		SuperId = 1,
+		Id = 3,
 		EnglishText = "Equip",
 		Sort = {
 			1,

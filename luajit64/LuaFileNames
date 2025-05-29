@@ -153,6 +153,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipDupChapterTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipDupStageTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipLevelTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipScreenTable.lua.txt,1
+Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipSuccinctTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipSuitTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgEquipTable.lua.txt,1
 Assets/16_LuaAb/Luajit64/IQIGame/Config/CfgErrorCodeTable.lua.txt,1
@@ -486,6 +487,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/DiySkillStrengthenUI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/DupMultipleActivityUI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/EquipDupUI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/EquipStrengthUI.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/EquipSuccinctTipsUI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/EquipUpLevelTipUI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/EquipWarehouseUI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/FavorabilityUI.lua.txt,0
@@ -650,6 +652,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/ConvertUIApi.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/DiySkillStrengthenUIApi.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/DupMultipleActivityUIApi.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/EquipApi.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/EquipStrengthUIApi.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/FormationUIApi.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/FormatRoleUIAPI.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UIExternalApi/FriendUIApi.lua.txt,0
@@ -1518,6 +1521,7 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/BagView/CommonHeroBagView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Condition/CommonCondition.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Condition/CommonConditionItemCell.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Decompose/DecomposeContent.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Decompose/EquipDecomposeContent.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Dialog/BubbleDialogElement.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Dialog/CommonDialogPanel_BubbleItem.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Common/Dialog/LRHeadDialogElement.lua.txt,0
@@ -1624,6 +1628,8 @@ Assets/16_LuaAb/Luajit64/IQIGame/UI/Equip/AttributePanel/EquipBaseAttributeView.
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Equip/MainView/EquipDescribeView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Equip/MainView/EquipDetailsView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Equip/MainView/EquipIntensifyView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/Equip/MainView/EquipSuccinctRightView.lua.txt,0
+Assets/16_LuaAb/Luajit64/IQIGame/UI/Equip/MainView/EquipSuccinctView.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Formation/ItemCell/FormationAgentSkillCell.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Formation/ItemCell/FormationAgentSkillSelectCell.lua.txt,0
 Assets/16_LuaAb/Luajit64/IQIGame/UI/Formation/ItemCell/FormationBoxCell.lua.txt,0

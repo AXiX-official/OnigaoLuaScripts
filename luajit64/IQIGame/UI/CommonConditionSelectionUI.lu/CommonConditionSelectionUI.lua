@@ -39,6 +39,8 @@ function toggleItemView:SetData(index, conditionType, condition)
 
 	if conditionType == Constant.CommonConditionSelectionType.Quality then
 		UGUIUtil.SetText(self.toggleText, CommonConditionSelectionUIApi:GetQualityTitle(condition))
+	elseif conditionType == Constant.CommonConditionSelectionType.Color then
+		UGUIUtil.SetText(self.toggleText, CommonConditionSelectionUIApi:GetColorTitle(condition))
 	end
 
 	if index == 1 then

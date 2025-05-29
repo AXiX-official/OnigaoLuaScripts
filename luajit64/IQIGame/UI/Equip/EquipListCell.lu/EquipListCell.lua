@@ -36,6 +36,10 @@ function EquipListCell:IsChoose()
 end
 
 function EquipListCell:Refresh(equipData, index)
+	if equipData == nil then
+		return
+	end
+
 	self.tableIndex = index
 	self.equipData = equipData
 

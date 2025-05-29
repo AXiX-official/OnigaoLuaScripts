@@ -259,7 +259,7 @@ local CfgActivityListTable = {
 			60008001
 		},
 		ShowConditionID = {
-			30070209
+			30070210
 		}
 	},
 	[60101018] = {

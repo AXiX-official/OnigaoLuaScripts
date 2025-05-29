@@ -733,8 +733,11 @@ function EquipIntensifyView:RefreshConsumePanel(consumeItemList, previewAddExp)
 	end
 
 	local needMoney = UserInfoModule.GetTalentAttr(Constant.TalentAttrType.EQUIP_UPGRADE_GOLD_COST, CfgDiscreteDataTable[24].Data[1] / 100 * previewAddExp, true)
+	local costNumText = self.bottomBtnParent.transform:Find("costParent/costNumText"):GetComponent("Text")
 
-	self.consumeGoldCell:SetData(needMoney)
+	if costNumText then
+		costNumText.text = tostring(needMoney)
+	end
 end
 
 function EquipIntensifyView:ShowConsumeItem(index)

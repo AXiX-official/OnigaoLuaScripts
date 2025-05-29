@@ -24,7 +24,7 @@ local CfgShopBannerListTable = {
 		}
 	},
 	[50530003] = {
-		Sort = 5,
+		Sort = 6,
 		Id = 50530003,
 		CheckToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_128.png",
 		ShopBannerPrefab = "/_Shop/ShopRecommendScrollItem_8",
@@ -35,14 +35,14 @@ local CfgShopBannerListTable = {
 		}
 	},
 	[50530004] = {
-		Sort = 4,
+		Sort = 5,
 		Id = 50530004,
 		CheckToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_128.png",
 		ShopBannerPrefab = "/_Shop/ShopRecommendScrollItem_4",
 		NormaToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_129.png",
 		Name = getI18NValue(180235978),
 		ShowConditionID = {
-			30000000
+			30070222
 		}
 	},
 	[50530005] = {
@@ -65,6 +65,17 @@ local CfgShopBannerListTable = {
 		Name = getI18NValue(180253774),
 		ShowConditionID = {
 			40011001
+		}
+	},
+	[50530007] = {
+		Sort = 4,
+		Id = 50530007,
+		CheckToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_130.png",
+		ShopBannerPrefab = "/_Shop/ShopRecommendScrollItem_9",
+		NormaToggleImg = "/DataResource/UIResource/ShopCommonImg/Icon_ToggleImg_131.png",
+		Name = getI18NValue(180268841),
+		ShowConditionID = {
+			40011004
 		}
 	}
 }

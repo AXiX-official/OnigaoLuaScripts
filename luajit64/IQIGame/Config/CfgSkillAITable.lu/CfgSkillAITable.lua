@@ -4086,6 +4086,24 @@ local CfgSkillAITable = {
 			{}
 		}
 	},
+	[10343000] = {
+		DynamicRPNExp = "A1==0",
+		Priority = 100,
+		Id = 10343000,
+		DynamicArgType = {
+			103,
+			0,
+			0
+		},
+		DynamicArgParams = {
+			{
+				"1",
+				"10343002"
+			},
+			{},
+			{}
+		}
+	},
 	[107101300] = {
 		DynamicRPNExp = "A1/A2<=0.3",
 		Priority = 50,

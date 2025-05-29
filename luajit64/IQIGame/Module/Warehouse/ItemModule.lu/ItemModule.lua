@@ -146,6 +146,7 @@ end
 function ItemModule.DisItemResult(items)
 	NoticeModule.ShowGetItems(Constant.TipConst.TIP_GET_ITEM_NOTICE_TEXT, items)
 	EventDispatcher.Dispatch(EventID.DecomposeItemResult)
+	EventDispatcher.Dispatch(EventID.EquipDecomposeItemResult)
 end
 
 function ItemModule.CheckCanUse(itemData, num)

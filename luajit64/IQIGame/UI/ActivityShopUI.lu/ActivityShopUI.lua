@@ -199,7 +199,7 @@ function ActivityShopUI:Refresh()
 	if shopType == Constant.ShopType.SummerShop.Type then
 		LuaUtility.SetStateController(self.gameObject, dataName_theme, stateName_summer)
 
-		TopMoneyType = Constant.TopMoneyType.ActivityShop_New
+		TopMoneyType = Constant.TopMoneyType.ActivityShop
 	elseif shopType == Constant.ShopType.GhostShop.Type then
 		LuaUtility.SetStateController(self.gameObject, dataName_theme, stateName_ghost)
 	end

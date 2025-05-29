@@ -4,56 +4,56 @@ local CfgEquipScreenTable = {
 	[16051001] = {
 		Id = 16051001,
 		Type = 1,
-		Value = 400001,
+		Value = 101,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_01.png",
 		Content = getI18NValue(180130913)
 	},
 	[16051002] = {
 		Id = 16051002,
 		Type = 1,
-		Value = 400002,
+		Value = 102,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_06.png",
 		Content = getI18NValue(180130914)
 	},
 	[16051003] = {
 		Id = 16051003,
 		Type = 1,
-		Value = 400003,
+		Value = 103,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_11.png",
 		Content = getI18NValue(180130915)
 	},
 	[16051004] = {
 		Id = 16051004,
 		Type = 1,
-		Value = 400004,
+		Value = 104,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_16.png",
 		Content = getI18NValue(180130916)
 	},
 	[16051005] = {
 		Id = 16051005,
 		Type = 1,
-		Value = 400005,
+		Value = 105,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_21.png",
 		Content = getI18NValue(180130917)
 	},
 	[16051006] = {
 		Id = 16051006,
 		Type = 1,
-		Value = 400006,
+		Value = 106,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_26.png",
 		Content = getI18NValue(180130918)
 	},
 	[16051007] = {
 		Id = 16051007,
 		Type = 1,
-		Value = 400007,
+		Value = 107,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_31.png",
 		Content = getI18NValue(180130919)
 	},
 	[16051008] = {
 		Id = 16051008,
 		Type = 1,
-		Value = 400008,
+		Value = 108,
 		Icon = "05_Images/Icon/Equip/Icon_Item_Equip_36.png",
 		Content = getI18NValue(180130920)
 	},

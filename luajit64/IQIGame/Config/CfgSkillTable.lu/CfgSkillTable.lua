@@ -7814,6 +7814,75 @@ local CfgSkillTable = {
 			1.01
 		}
 	},
+	[802270] = {
+		SkillShowType = 3,
+		ReleaseType = 2,
+		SkillDetail = 802270,
+		ManualSkill = false,
+		SkillType = 4,
+		LikeId = 80227,
+		Cutin = false,
+		IsTipsVisible = false,
+		Level = 1,
+		Quality = 5,
+		Icon = "/SmallDIYSkill/Diy_80227.png",
+		IsDiy = true,
+		MaxStrengthenLevel = 70,
+		Id = 802270,
+		Name = getI18NValue(180268557),
+		ProfessionLimit = {
+			3
+		},
+		DiyBaseAtt = {
+			41,
+			224,
+			42,
+			69,
+			43,
+			15
+		},
+		DiyGrowAtt = {
+			41,
+			15.1,
+			42,
+			4.67,
+			43,
+			1.01
+		}
+	},
+	[802280] = {
+		SkillShowType = 3,
+		ReleaseType = 2,
+		SkillDetail = 802280,
+		ManualSkill = false,
+		SkillType = 4,
+		LikeId = 80228,
+		Cutin = false,
+		IsTipsVisible = false,
+		Level = 1,
+		Quality = 5,
+		Icon = "/SmallDIYSkill/Diy_80228.png",
+		IsDiy = true,
+		MaxStrengthenLevel = 70,
+		Id = 802280,
+		Name = getI18NValue(180268558),
+		DiyBaseAtt = {
+			41,
+			224,
+			42,
+			69,
+			43,
+			15
+		},
+		DiyGrowAtt = {
+			41,
+			15.1,
+			42,
+			4.67,
+			43,
+			1.01
+		}
+	},
 	[10110110] = {
 		Level = 1,
 		ReleaseType = 1,

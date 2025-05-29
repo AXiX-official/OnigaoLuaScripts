@@ -225,6 +225,51 @@ local CfgEquipDupStageTable = {
 		},
 		Desc = getI18NValue(180121973)
 	},
+	[20500006] = {
+		ChapterId = 20400001,
+		RecommendLevel = 70,
+		IsContinuous = true,
+		IsHelp = true,
+		Order = 6,
+		Id = 20500006,
+		ContinuousCondition = 30030707,
+		Name = getI18NValue(180268843),
+		UnlockConditionId = {
+			30030706,
+			30000036
+		},
+		MonsterTeam = {
+			14410050
+		},
+		PassCost = {
+			11,
+			20
+		},
+		FirstReward = {
+			110015
+		},
+		PassReward = {
+			110005
+		},
+		OddsTypes = {
+			2
+		},
+		OddsValues = {
+			1
+		},
+		Difficultydesc = {
+			"风系技能伤害提升。"
+		},
+		DifficultyImg = {
+			1,
+			2,
+			3
+		},
+		OddsBuffs = {
+			4401
+		},
+		Desc = getI18NValue(180268842)
+	},
 	[20500101] = {
 		ChapterId = 20400002,
 		RecommendLevel = 20,
@@ -448,6 +493,51 @@ local CfgEquipDupStageTable = {
 			4601
 		},
 		Desc = getI18NValue(180121991)
+	},
+	[20500106] = {
+		ChapterId = 20400002,
+		RecommendLevel = 70,
+		IsContinuous = true,
+		IsHelp = true,
+		Order = 6,
+		Id = 20500106,
+		ContinuousCondition = 30030717,
+		Name = getI18NValue(180268845),
+		UnlockConditionId = {
+			30030716,
+			30000045
+		},
+		MonsterTeam = {
+			14410150
+		},
+		PassCost = {
+			11,
+			20
+		},
+		FirstReward = {
+			110115
+		},
+		PassReward = {
+			110105
+		},
+		OddsTypes = {
+			2
+		},
+		OddsValues = {
+			2
+		},
+		Difficultydesc = {
+			"火系技能伤害提升。"
+		},
+		DifficultyImg = {
+			1,
+			2,
+			3
+		},
+		OddsBuffs = {
+			4601
+		},
+		Desc = getI18NValue(180268844)
 	},
 	[20500201] = {
 		ChapterId = 20400003,
@@ -673,6 +763,51 @@ local CfgEquipDupStageTable = {
 		},
 		Desc = getI18NValue(180122009)
 	},
+	[20500206] = {
+		ChapterId = 20400003,
+		RecommendLevel = 70,
+		IsContinuous = true,
+		IsHelp = true,
+		Order = 6,
+		Id = 20500206,
+		ContinuousCondition = 30030727,
+		Name = getI18NValue(180268847),
+		UnlockConditionId = {
+			30030726,
+			30000045
+		},
+		MonsterTeam = {
+			14410250
+		},
+		PassCost = {
+			11,
+			20
+		},
+		FirstReward = {
+			110215
+		},
+		PassReward = {
+			110205
+		},
+		OddsTypes = {
+			2
+		},
+		OddsValues = {
+			3
+		},
+		Difficultydesc = {
+			"雷系技能伤害提升。"
+		},
+		DifficultyImg = {
+			1,
+			2,
+			3
+		},
+		OddsBuffs = {
+			4801
+		},
+		Desc = getI18NValue(180268846)
+	},
 	[20500301] = {
 		ChapterId = 20400004,
 		RecommendLevel = 20,
@@ -896,6 +1031,51 @@ local CfgEquipDupStageTable = {
 			5001
 		},
 		Desc = getI18NValue(180122027)
+	},
+	[20500306] = {
+		ChapterId = 20400004,
+		RecommendLevel = 70,
+		IsContinuous = true,
+		IsHelp = true,
+		Order = 6,
+		Id = 20500306,
+		ContinuousCondition = 30030737,
+		Name = getI18NValue(180268849),
+		UnlockConditionId = {
+			30030736,
+			30000045
+		},
+		MonsterTeam = {
+			14410350
+		},
+		PassCost = {
+			11,
+			20
+		},
+		FirstReward = {
+			110315
+		},
+		PassReward = {
+			110305
+		},
+		OddsTypes = {
+			2
+		},
+		OddsValues = {
+			4
+		},
+		Difficultydesc = {
+			"水系技能伤害提升。"
+		},
+		DifficultyImg = {
+			1,
+			2,
+			3
+		},
+		OddsBuffs = {
+			5001
+		},
+		Desc = getI18NValue(180268848)
 	}
 }
 

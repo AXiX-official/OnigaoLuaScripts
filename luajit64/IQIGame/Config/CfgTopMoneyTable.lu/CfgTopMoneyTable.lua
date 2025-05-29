@@ -443,7 +443,7 @@ local CfgTopMoneyTable = {
 		PrefabName = "ActivityShopUI",
 		Id = 402,
 		TypeArr = {
-			201
+			18
 		},
 		JumpType = {
 			0

@@ -946,6 +946,42 @@ function WarehouseModule.GetDecomposeReward(type, itemIdList)
 	return result
 end
 
+function WarehouseModule.GetEquipDecomposeReward(type, itemIdList)
+	local discreteData, currencyRatio
+
+	if type == Constant.ItemType.Equip then
+		discreteData = CfgDiscreteDataTable[107].Data
+		currencyRatio = CfgDiscreteDataTable[24].Data[1]
+	end
+
+	local allExp = 0
+
+	ForPairs(itemIdList, function(_, itemId)
+		local itemData = WarehouseModule.GetItemDataById(itemId)
+
+		if itemData == nil then
+			return
+		end
+
+		if type == Constant.ItemType.Equip then
+			local equipLevelCfg = itemData.equipData:GetEquipCfgByLevel()
+
+			allExp = allExp + equipLevelCfg.OfferExp
+		end
+	end)
+
+	local result = WarehouseModule.CalculateConvertibleItems(WarehouseModule.ParseItemExpData(discreteData), allExp)
+
+	if allExp > 0 then
+		table.insert(result, 1, {
+			cid = Constant.ItemCid.GOLD,
+			count = allExp * currencyRatio / 100
+		})
+	end
+
+	return result
+end
+
 function WarehouseModule.ParseItemExpData(data)
 	local items = {}
 

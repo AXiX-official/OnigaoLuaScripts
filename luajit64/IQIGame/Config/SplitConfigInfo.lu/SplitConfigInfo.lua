@@ -215,6 +215,7 @@ local SplitConfigInfo = {
 	CfgTaskTable = false,
 	CfgRoleRandomNameTable = false,
 	CfgCrusadeDupStageTable = false,
+	CfgEquipSuccinctTable = false,
 	CfgWorldMapItemTable = false,
 	CfgWorldRoomSceneTable = false,
 	CfgHeroScreenTable = false,

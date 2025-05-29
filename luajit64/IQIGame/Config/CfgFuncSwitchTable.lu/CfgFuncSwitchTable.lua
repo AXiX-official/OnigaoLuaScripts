@@ -182,7 +182,8 @@ local CfgFuncSwitchTable = {
 		LockTip = getI18NValue(180023133)
 	},
 	[10016] = {
-		IsUnLock = false,
+		ShowType = 1,
+		IsUnLock = true,
 		UnlockType = 1,
 		TargetObjectName = "FunctionOpenPos",
 		Id = 10016,

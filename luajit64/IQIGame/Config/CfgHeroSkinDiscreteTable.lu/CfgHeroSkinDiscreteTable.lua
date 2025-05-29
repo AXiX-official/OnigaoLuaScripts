@@ -1559,6 +1559,51 @@ local CfgHeroSkinDiscreteTable = {
 			10401604
 		}
 	},
+	[10401603] = {
+		Id = 10401603,
+		RoleDevelopmentPosition = {
+			0,
+			0
+		},
+		SkinPanelPosition = {
+			0,
+			0
+		},
+		MobilPhonePosition = {
+			-8591,
+			1494
+		},
+		MobilePhoneSkin = {
+			0,
+			0
+		},
+		GetHeroPosition = {
+			0,
+			0
+		},
+		UserInfoPosition = {
+			0,
+			0
+		},
+		RoleInfoDetails = {
+			0,
+			0
+		},
+		BattleResult = {
+			0,
+			0
+		},
+		DetailsPreviewUI = {
+			0,
+			0
+		},
+		DisplayActionControlID = {
+			10401603,
+			10401606,
+			10401603,
+			10401606
+		}
+	},
 	[10401701] = {
 		Id = 10401701,
 		RoleDevelopmentPosition = {

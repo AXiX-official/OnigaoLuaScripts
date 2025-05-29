@@ -1,430 +1,292 @@
 ﻿-- chunkname: @IQIGame\\Config\\CfgEquipTable.lua
 
 local CfgEquipTable = {
-	[16000001] = {
+	[10001] = {
 		Quality = 5,
 		Place = 1,
-		Id = 16000001,
+		Id = 10001,
 		Icon = "/Equip/Icon_Item_Equip_21.png",
-		Name = getI18NValue(180130254),
-		EquipTips = getI18NValue(180130253),
+		Name = getI18NValue(180268153),
+		EquipTips = getI18NValue(180268152),
 		MasterCount = {
-			16013001
+			3001
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000002] = {
+	[10002] = {
 		Quality = 5,
 		Place = 2,
-		Id = 16000002,
+		Id = 10002,
 		Icon = "/Equip/Icon_Item_Equip_22.png",
-		Name = getI18NValue(180130256),
-		EquipTips = getI18NValue(180130255),
+		Name = getI18NValue(180268155),
+		EquipTips = getI18NValue(180268154),
 		MasterCount = {
-			16013002
+			3002
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000003] = {
+	[10003] = {
 		Quality = 5,
 		Place = 3,
-		Id = 16000003,
+		Id = 10003,
 		Icon = "/Equip/Icon_Item_Equip_23.png",
-		Name = getI18NValue(180130258),
-		EquipTips = getI18NValue(180130257),
+		Name = getI18NValue(180268157),
+		EquipTips = getI18NValue(180268156),
 		MasterCount = {
-			16013003
+			3003
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000004] = {
+	[10004] = {
 		Quality = 5,
 		Place = 4,
-		Id = 16000004,
+		Id = 10004,
 		Icon = "/Equip/Icon_Item_Equip_24.png",
-		Name = getI18NValue(180130260),
-		EquipTips = getI18NValue(180130259),
+		Name = getI18NValue(180268159),
+		EquipTips = getI18NValue(180268158),
 		MasterCount = {
-			16013004
+			3004
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000005] = {
-		Quality = 5,
-		Place = 5,
-		Id = 16000005,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Name = getI18NValue(180130262),
-		EquipTips = getI18NValue(180130261),
-		MasterCount = {
-			16013005
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000006] = {
-		Quality = 5,
-		Place = 6,
-		Id = 16000006,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Name = getI18NValue(180130264),
-		EquipTips = getI18NValue(180130263),
-		MasterCount = {
-			16013006
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000111] = {
+	[10111] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_01.png",
-		Id = 16000111,
-		Name = getI18NValue(180130266),
-		EquipTips = getI18NValue(180130265),
+		Id = 10111,
+		Name = getI18NValue(180268161),
+		EquipTips = getI18NValue(180268160),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000112] = {
+	[10112] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_02.png",
-		Id = 16000112,
-		Name = getI18NValue(180130268),
-		EquipTips = getI18NValue(180130267),
+		Id = 10112,
+		Name = getI18NValue(180268163),
+		EquipTips = getI18NValue(180268162),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000113] = {
+	[10113] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_03.png",
-		Id = 16000113,
-		Name = getI18NValue(180130270),
-		EquipTips = getI18NValue(180130269),
+		Id = 10113,
+		Name = getI18NValue(180268165),
+		EquipTips = getI18NValue(180268164),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000114] = {
+	[10114] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_04.png",
-		Id = 16000114,
-		Name = getI18NValue(180130272),
-		EquipTips = getI18NValue(180130271),
+		Id = 10114,
+		Name = getI18NValue(180268167),
+		EquipTips = getI18NValue(180268166),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000115] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000115,
-		Name = getI18NValue(180130274),
-		EquipTips = getI18NValue(180130273),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000116] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000116,
-		Name = getI18NValue(180130276),
-		EquipTips = getI18NValue(180130275),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000121] = {
+	[10121] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_01.png",
-		Id = 16000121,
-		Name = getI18NValue(180130278),
-		EquipTips = getI18NValue(180130277),
+		Id = 10121,
+		Name = getI18NValue(180268169),
+		EquipTips = getI18NValue(180268168),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000122] = {
+	[10122] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_02.png",
-		Id = 16000122,
-		Name = getI18NValue(180130280),
-		EquipTips = getI18NValue(180130279),
+		Id = 10122,
+		Name = getI18NValue(180268171),
+		EquipTips = getI18NValue(180268170),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000123] = {
+	[10123] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_03.png",
-		Id = 16000123,
-		Name = getI18NValue(180130282),
-		EquipTips = getI18NValue(180130281),
+		Id = 10123,
+		Name = getI18NValue(180268173),
+		EquipTips = getI18NValue(180268172),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000124] = {
+	[10124] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_04.png",
-		Id = 16000124,
-		Name = getI18NValue(180130284),
-		EquipTips = getI18NValue(180130283),
+		Id = 10124,
+		Name = getI18NValue(180268175),
+		EquipTips = getI18NValue(180268174),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000125] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000125,
-		Name = getI18NValue(180130286),
-		EquipTips = getI18NValue(180130285),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000126] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000126,
-		Name = getI18NValue(180130288),
-		EquipTips = getI18NValue(180130287),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000131] = {
+	[10131] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_01.png",
-		Id = 16000131,
-		Name = getI18NValue(180130290),
-		EquipTips = getI18NValue(180130289),
+		Id = 10131,
+		Name = getI18NValue(180268177),
+		EquipTips = getI18NValue(180268176),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000132] = {
+	[10132] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_02.png",
-		Id = 16000132,
-		Name = getI18NValue(180130292),
-		EquipTips = getI18NValue(180130291),
+		Id = 10132,
+		Name = getI18NValue(180268179),
+		EquipTips = getI18NValue(180268178),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000133] = {
+	[10133] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_03.png",
-		Id = 16000133,
-		Name = getI18NValue(180130294),
-		EquipTips = getI18NValue(180130293),
+		Id = 10133,
+		Name = getI18NValue(180268181),
+		EquipTips = getI18NValue(180268180),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000134] = {
+	[10134] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_04.png",
-		Id = 16000134,
-		Name = getI18NValue(180130296),
-		EquipTips = getI18NValue(180130295),
+		Id = 10134,
+		Name = getI18NValue(180268183),
+		EquipTips = getI18NValue(180268182),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000135] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000135,
-		Name = getI18NValue(180130298),
-		EquipTips = getI18NValue(180130297),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000136] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000136,
-		Name = getI18NValue(180130300),
-		EquipTips = getI18NValue(180130299),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000141] = {
+	[10141] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_01.png",
-		Id = 16000141,
-		Name = getI18NValue(180130302),
-		EquipTips = getI18NValue(180130301),
+		Id = 10141,
+		Name = getI18NValue(180268185),
+		EquipTips = getI18NValue(180268184),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -432,19 +294,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000142] = {
+	[10142] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_02.png",
-		Id = 16000142,
-		Name = getI18NValue(180130304),
-		EquipTips = getI18NValue(180130303),
+		Id = 10142,
+		Name = getI18NValue(180268187),
+		EquipTips = getI18NValue(180268186),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -452,19 +314,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000143] = {
+	[10143] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_03.png",
-		Id = 16000143,
-		Name = getI18NValue(180130306),
-		EquipTips = getI18NValue(180130305),
+		Id = 10143,
+		Name = getI18NValue(180268189),
+		EquipTips = getI18NValue(180268188),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -472,19 +334,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000144] = {
+	[10144] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_04.png",
-		Id = 16000144,
-		Name = getI18NValue(180130308),
-		EquipTips = getI18NValue(180130307),
+		Id = 10144,
+		Name = getI18NValue(180268191),
+		EquipTips = getI18NValue(180268190),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -492,59 +354,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000145] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000145,
-		Name = getI18NValue(180130310),
-		EquipTips = getI18NValue(180130309),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000146] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000146,
-		Name = getI18NValue(180130312),
-		EquipTips = getI18NValue(180130311),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000151] = {
+	[10151] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_01.png",
-		Id = 16000151,
-		Name = getI18NValue(180130314),
-		EquipTips = getI18NValue(180130313),
+		Id = 10151,
+		Name = getI18NValue(180268193),
+		EquipTips = getI18NValue(180268192),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -553,19 +375,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000152] = {
+	[10152] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_02.png",
-		Id = 16000152,
-		Name = getI18NValue(180130316),
-		EquipTips = getI18NValue(180130315),
+		Id = 10152,
+		Name = getI18NValue(180268195),
+		EquipTips = getI18NValue(180268194),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -574,19 +396,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000153] = {
+	[10153] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_03.png",
-		Id = 16000153,
-		Name = getI18NValue(180130318),
-		EquipTips = getI18NValue(180130317),
+		Id = 10153,
+		Name = getI18NValue(180268197),
+		EquipTips = getI18NValue(180268196),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -595,19 +417,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000154] = {
+	[10154] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_04.png",
-		Id = 16000154,
-		Name = getI18NValue(180130320),
-		EquipTips = getI18NValue(180130319),
+		Id = 10154,
+		Name = getI18NValue(180268199),
+		EquipTips = getI18NValue(180268198),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -616,391 +438,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400001
+			101
 		}
 	},
-	[16000155] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000155,
-		Name = getI18NValue(180130322),
-		EquipTips = getI18NValue(180130321),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000156] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_05.png",
-		Id = 16000156,
-		Name = getI18NValue(180130324),
-		EquipTips = getI18NValue(180130323),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400001
-		}
-	},
-	[16000211] = {
+	[10211] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000211,
-		Name = getI18NValue(180130338),
-		EquipTips = getI18NValue(180130337),
+		Id = 10211,
+		Name = getI18NValue(180268201),
+		EquipTips = getI18NValue(180268200),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000212] = {
+	[10212] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000212,
-		Name = getI18NValue(180130340),
-		EquipTips = getI18NValue(180130339),
+		Id = 10212,
+		Name = getI18NValue(180268203),
+		EquipTips = getI18NValue(180268202),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000213] = {
+	[10213] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000213,
-		Name = getI18NValue(180130342),
-		EquipTips = getI18NValue(180130341),
+		Id = 10213,
+		Name = getI18NValue(180268205),
+		EquipTips = getI18NValue(180268204),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000214] = {
+	[10214] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000214,
-		Name = getI18NValue(180130344),
-		EquipTips = getI18NValue(180130343),
+		Id = 10214,
+		Name = getI18NValue(180268207),
+		EquipTips = getI18NValue(180268206),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000215] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000215,
-		Name = getI18NValue(180130346),
-		EquipTips = getI18NValue(180130345),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000216] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000216,
-		Name = getI18NValue(180130348),
-		EquipTips = getI18NValue(180130347),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000221] = {
+	[10221] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000221,
-		Name = getI18NValue(180130350),
-		EquipTips = getI18NValue(180130349),
+		Id = 10221,
+		Name = getI18NValue(180268209),
+		EquipTips = getI18NValue(180268208),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000222] = {
+	[10222] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000222,
-		Name = getI18NValue(180130352),
-		EquipTips = getI18NValue(180130351),
+		Id = 10222,
+		Name = getI18NValue(180268211),
+		EquipTips = getI18NValue(180268210),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000223] = {
+	[10223] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000223,
-		Name = getI18NValue(180130354),
-		EquipTips = getI18NValue(180130353),
+		Id = 10223,
+		Name = getI18NValue(180268213),
+		EquipTips = getI18NValue(180268212),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000224] = {
+	[10224] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000224,
-		Name = getI18NValue(180130356),
-		EquipTips = getI18NValue(180130355),
+		Id = 10224,
+		Name = getI18NValue(180268215),
+		EquipTips = getI18NValue(180268214),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000225] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000225,
-		Name = getI18NValue(180130358),
-		EquipTips = getI18NValue(180130357),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000226] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000226,
-		Name = getI18NValue(180130360),
-		EquipTips = getI18NValue(180130359),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000231] = {
+	[10231] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000231,
-		Name = getI18NValue(180130362),
-		EquipTips = getI18NValue(180130361),
+		Id = 10231,
+		Name = getI18NValue(180268217),
+		EquipTips = getI18NValue(180268216),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000232] = {
+	[10232] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000232,
-		Name = getI18NValue(180130364),
-		EquipTips = getI18NValue(180130363),
+		Id = 10232,
+		Name = getI18NValue(180268219),
+		EquipTips = getI18NValue(180268218),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000233] = {
+	[10233] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000233,
-		Name = getI18NValue(180130366),
-		EquipTips = getI18NValue(180130365),
+		Id = 10233,
+		Name = getI18NValue(180268221),
+		EquipTips = getI18NValue(180268220),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000234] = {
+	[10234] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000234,
-		Name = getI18NValue(180130368),
-		EquipTips = getI18NValue(180130367),
+		Id = 10234,
+		Name = getI18NValue(180268223),
+		EquipTips = getI18NValue(180268222),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000235] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000235,
-		Name = getI18NValue(180130370),
-		EquipTips = getI18NValue(180130369),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000236] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000236,
-		Name = getI18NValue(180130372),
-		EquipTips = getI18NValue(180130371),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000241] = {
+	[10241] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000241,
-		Name = getI18NValue(180130374),
-		EquipTips = getI18NValue(180130373),
+		Id = 10241,
+		Name = getI18NValue(180268225),
+		EquipTips = getI18NValue(180268224),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -1008,19 +678,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000242] = {
+	[10242] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000242,
-		Name = getI18NValue(180130376),
-		EquipTips = getI18NValue(180130375),
+		Id = 10242,
+		Name = getI18NValue(180268227),
+		EquipTips = getI18NValue(180268226),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -1028,19 +698,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000243] = {
+	[10243] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000243,
-		Name = getI18NValue(180130378),
-		EquipTips = getI18NValue(180130377),
+		Id = 10243,
+		Name = getI18NValue(180268229),
+		EquipTips = getI18NValue(180268228),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -1048,19 +718,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000244] = {
+	[10244] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000244,
-		Name = getI18NValue(180130380),
-		EquipTips = getI18NValue(180130379),
+		Id = 10244,
+		Name = getI18NValue(180268231),
+		EquipTips = getI18NValue(180268230),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -1068,59 +738,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000245] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000245,
-		Name = getI18NValue(180130382),
-		EquipTips = getI18NValue(180130381),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000246] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000246,
-		Name = getI18NValue(180130384),
-		EquipTips = getI18NValue(180130383),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000251] = {
+	[10251] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000251,
-		Name = getI18NValue(180130386),
-		EquipTips = getI18NValue(180130385),
+		Id = 10251,
+		Name = getI18NValue(180268233),
+		EquipTips = getI18NValue(180268232),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -1129,19 +759,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000252] = {
+	[10252] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000252,
-		Name = getI18NValue(180130388),
-		EquipTips = getI18NValue(180130387),
+		Id = 10252,
+		Name = getI18NValue(180268235),
+		EquipTips = getI18NValue(180268234),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -1150,19 +780,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000253] = {
+	[10253] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000253,
-		Name = getI18NValue(180130390),
-		EquipTips = getI18NValue(180130389),
+		Id = 10253,
+		Name = getI18NValue(180268237),
+		EquipTips = getI18NValue(180268236),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -1171,19 +801,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000254] = {
+	[10254] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000254,
-		Name = getI18NValue(180130392),
-		EquipTips = getI18NValue(180130391),
+		Id = 10254,
+		Name = getI18NValue(180268239),
+		EquipTips = getI18NValue(180268238),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -1192,391 +822,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400002
+			102
 		}
 	},
-	[16000255] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000255,
-		Name = getI18NValue(180130394),
-		EquipTips = getI18NValue(180130393),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000256] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000256,
-		Name = getI18NValue(180130396),
-		EquipTips = getI18NValue(180130395),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400002
-		}
-	},
-	[16000311] = {
+	[10311] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_11.png",
-		Id = 16000311,
-		Name = getI18NValue(180130410),
-		EquipTips = getI18NValue(180130409),
+		Id = 10311,
+		Name = getI18NValue(180268241),
+		EquipTips = getI18NValue(180268240),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000312] = {
+	[10312] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_12.png",
-		Id = 16000312,
-		Name = getI18NValue(180130412),
-		EquipTips = getI18NValue(180130411),
+		Id = 10312,
+		Name = getI18NValue(180268243),
+		EquipTips = getI18NValue(180268242),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000313] = {
+	[10313] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_13.png",
-		Id = 16000313,
-		Name = getI18NValue(180130414),
-		EquipTips = getI18NValue(180130413),
+		Id = 10313,
+		Name = getI18NValue(180268245),
+		EquipTips = getI18NValue(180268244),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000314] = {
+	[10314] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_14.png",
-		Id = 16000314,
-		Name = getI18NValue(180130416),
-		EquipTips = getI18NValue(180130415),
+		Id = 10314,
+		Name = getI18NValue(180268247),
+		EquipTips = getI18NValue(180268246),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000315] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000315,
-		Name = getI18NValue(180130418),
-		EquipTips = getI18NValue(180130417),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000316] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000316,
-		Name = getI18NValue(180130420),
-		EquipTips = getI18NValue(180130419),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000321] = {
+	[10321] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_11.png",
-		Id = 16000321,
-		Name = getI18NValue(180130422),
-		EquipTips = getI18NValue(180130421),
+		Id = 10321,
+		Name = getI18NValue(180268249),
+		EquipTips = getI18NValue(180268248),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000322] = {
+	[10322] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_12.png",
-		Id = 16000322,
-		Name = getI18NValue(180130424),
-		EquipTips = getI18NValue(180130423),
+		Id = 10322,
+		Name = getI18NValue(180268251),
+		EquipTips = getI18NValue(180268250),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000323] = {
+	[10323] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_13.png",
-		Id = 16000323,
-		Name = getI18NValue(180130426),
-		EquipTips = getI18NValue(180130425),
+		Id = 10323,
+		Name = getI18NValue(180268253),
+		EquipTips = getI18NValue(180268252),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000324] = {
+	[10324] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_14.png",
-		Id = 16000324,
-		Name = getI18NValue(180130428),
-		EquipTips = getI18NValue(180130427),
+		Id = 10324,
+		Name = getI18NValue(180268255),
+		EquipTips = getI18NValue(180268254),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000325] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000325,
-		Name = getI18NValue(180130430),
-		EquipTips = getI18NValue(180130429),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000326] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000326,
-		Name = getI18NValue(180130432),
-		EquipTips = getI18NValue(180130431),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000331] = {
+	[10331] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_11.png",
-		Id = 16000331,
-		Name = getI18NValue(180130434),
-		EquipTips = getI18NValue(180130433),
+		Id = 10331,
+		Name = getI18NValue(180268257),
+		EquipTips = getI18NValue(180268256),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000332] = {
+	[10332] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_12.png",
-		Id = 16000332,
-		Name = getI18NValue(180130436),
-		EquipTips = getI18NValue(180130435),
+		Id = 10332,
+		Name = getI18NValue(180268259),
+		EquipTips = getI18NValue(180268258),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000333] = {
+	[10333] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_13.png",
-		Id = 16000333,
-		Name = getI18NValue(180130438),
-		EquipTips = getI18NValue(180130437),
+		Id = 10333,
+		Name = getI18NValue(180268261),
+		EquipTips = getI18NValue(180268260),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000334] = {
+	[10334] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_14.png",
-		Id = 16000334,
-		Name = getI18NValue(180130440),
-		EquipTips = getI18NValue(180130439),
+		Id = 10334,
+		Name = getI18NValue(180268263),
+		EquipTips = getI18NValue(180268262),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000335] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000335,
-		Name = getI18NValue(180130442),
-		EquipTips = getI18NValue(180130441),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000336] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000336,
-		Name = getI18NValue(180130444),
-		EquipTips = getI18NValue(180130443),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000341] = {
+	[10341] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_11.png",
-		Id = 16000341,
-		Name = getI18NValue(180130446),
-		EquipTips = getI18NValue(180130445),
+		Id = 10341,
+		Name = getI18NValue(180268265),
+		EquipTips = getI18NValue(180268264),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -1584,19 +1062,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000342] = {
+	[10342] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_12.png",
-		Id = 16000342,
-		Name = getI18NValue(180130448),
-		EquipTips = getI18NValue(180130447),
+		Id = 10342,
+		Name = getI18NValue(180268267),
+		EquipTips = getI18NValue(180268266),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -1604,19 +1082,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000343] = {
+	[10343] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_13.png",
-		Id = 16000343,
-		Name = getI18NValue(180130450),
-		EquipTips = getI18NValue(180130449),
+		Id = 10343,
+		Name = getI18NValue(180268269),
+		EquipTips = getI18NValue(180268268),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -1624,19 +1102,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000344] = {
+	[10344] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_14.png",
-		Id = 16000344,
-		Name = getI18NValue(180130452),
-		EquipTips = getI18NValue(180130451),
+		Id = 10344,
+		Name = getI18NValue(180268271),
+		EquipTips = getI18NValue(180268270),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -1644,59 +1122,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000345] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000345,
-		Name = getI18NValue(180130454),
-		EquipTips = getI18NValue(180130453),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000346] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000346,
-		Name = getI18NValue(180130456),
-		EquipTips = getI18NValue(180130455),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000351] = {
+	[10351] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_11.png",
-		Id = 16000351,
-		Name = getI18NValue(180130458),
-		EquipTips = getI18NValue(180130457),
+		Id = 10351,
+		Name = getI18NValue(180268273),
+		EquipTips = getI18NValue(180268272),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -1705,19 +1143,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000352] = {
+	[10352] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_12.png",
-		Id = 16000352,
-		Name = getI18NValue(180130460),
-		EquipTips = getI18NValue(180130459),
+		Id = 10352,
+		Name = getI18NValue(180268275),
+		EquipTips = getI18NValue(180268274),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -1726,19 +1164,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000353] = {
+	[10353] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_13.png",
-		Id = 16000353,
-		Name = getI18NValue(180130462),
-		EquipTips = getI18NValue(180130461),
+		Id = 10353,
+		Name = getI18NValue(180268277),
+		EquipTips = getI18NValue(180268276),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -1747,19 +1185,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000354] = {
+	[10354] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_14.png",
-		Id = 16000354,
-		Name = getI18NValue(180130464),
-		EquipTips = getI18NValue(180130463),
+		Id = 10354,
+		Name = getI18NValue(180268279),
+		EquipTips = getI18NValue(180268278),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -1768,391 +1206,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400003
+			103
 		}
 	},
-	[16000355] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000355,
-		Name = getI18NValue(180130466),
-		EquipTips = getI18NValue(180130465),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000356] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_15.png",
-		Id = 16000356,
-		Name = getI18NValue(180130468),
-		EquipTips = getI18NValue(180130467),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400003
-		}
-	},
-	[16000411] = {
+	[10411] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_16.png",
-		Id = 16000411,
-		Name = getI18NValue(180130482),
-		EquipTips = getI18NValue(180130481),
+		Id = 10411,
+		Name = getI18NValue(180268281),
+		EquipTips = getI18NValue(180268280),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000412] = {
+	[10412] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_17.png",
-		Id = 16000412,
-		Name = getI18NValue(180130484),
-		EquipTips = getI18NValue(180130483),
+		Id = 10412,
+		Name = getI18NValue(180268283),
+		EquipTips = getI18NValue(180268282),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000413] = {
+	[10413] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_18.png",
-		Id = 16000413,
-		Name = getI18NValue(180130486),
-		EquipTips = getI18NValue(180130485),
+		Id = 10413,
+		Name = getI18NValue(180268285),
+		EquipTips = getI18NValue(180268284),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000414] = {
+	[10414] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_19.png",
-		Id = 16000414,
-		Name = getI18NValue(180130488),
-		EquipTips = getI18NValue(180130487),
+		Id = 10414,
+		Name = getI18NValue(180268287),
+		EquipTips = getI18NValue(180268286),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000415] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000415,
-		Name = getI18NValue(180130490),
-		EquipTips = getI18NValue(180130489),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000416] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000416,
-		Name = getI18NValue(180130492),
-		EquipTips = getI18NValue(180130491),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000421] = {
+	[10421] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_16.png",
-		Id = 16000421,
-		Name = getI18NValue(180130494),
-		EquipTips = getI18NValue(180130493),
+		Id = 10421,
+		Name = getI18NValue(180268289),
+		EquipTips = getI18NValue(180268288),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000422] = {
+	[10422] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_17.png",
-		Id = 16000422,
-		Name = getI18NValue(180130496),
-		EquipTips = getI18NValue(180130495),
+		Id = 10422,
+		Name = getI18NValue(180268291),
+		EquipTips = getI18NValue(180268290),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000423] = {
+	[10423] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_18.png",
-		Id = 16000423,
-		Name = getI18NValue(180130498),
-		EquipTips = getI18NValue(180130497),
+		Id = 10423,
+		Name = getI18NValue(180268293),
+		EquipTips = getI18NValue(180268292),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000424] = {
+	[10424] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_19.png",
-		Id = 16000424,
-		Name = getI18NValue(180130500),
-		EquipTips = getI18NValue(180130499),
+		Id = 10424,
+		Name = getI18NValue(180268295),
+		EquipTips = getI18NValue(180268294),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000425] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000425,
-		Name = getI18NValue(180130502),
-		EquipTips = getI18NValue(180130501),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000426] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000426,
-		Name = getI18NValue(180130504),
-		EquipTips = getI18NValue(180130503),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000431] = {
+	[10431] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_16.png",
-		Id = 16000431,
-		Name = getI18NValue(180130506),
-		EquipTips = getI18NValue(180130505),
+		Id = 10431,
+		Name = getI18NValue(180268297),
+		EquipTips = getI18NValue(180268296),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000432] = {
+	[10432] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_17.png",
-		Id = 16000432,
-		Name = getI18NValue(180130508),
-		EquipTips = getI18NValue(180130507),
+		Id = 10432,
+		Name = getI18NValue(180268299),
+		EquipTips = getI18NValue(180268298),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000433] = {
+	[10433] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_18.png",
-		Id = 16000433,
-		Name = getI18NValue(180130510),
-		EquipTips = getI18NValue(180130509),
+		Id = 10433,
+		Name = getI18NValue(180268301),
+		EquipTips = getI18NValue(180268300),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000434] = {
+	[10434] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_19.png",
-		Id = 16000434,
-		Name = getI18NValue(180130512),
-		EquipTips = getI18NValue(180130511),
+		Id = 10434,
+		Name = getI18NValue(180268303),
+		EquipTips = getI18NValue(180268302),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000435] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000435,
-		Name = getI18NValue(180130514),
-		EquipTips = getI18NValue(180130513),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000436] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000436,
-		Name = getI18NValue(180130516),
-		EquipTips = getI18NValue(180130515),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000441] = {
+	[10441] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_16.png",
-		Id = 16000441,
-		Name = getI18NValue(180130518),
-		EquipTips = getI18NValue(180130517),
+		Id = 10441,
+		Name = getI18NValue(180268305),
+		EquipTips = getI18NValue(180268304),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -2160,19 +1446,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000442] = {
+	[10442] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_17.png",
-		Id = 16000442,
-		Name = getI18NValue(180130520),
-		EquipTips = getI18NValue(180130519),
+		Id = 10442,
+		Name = getI18NValue(180268307),
+		EquipTips = getI18NValue(180268306),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -2180,19 +1466,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000443] = {
+	[10443] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_18.png",
-		Id = 16000443,
-		Name = getI18NValue(180130522),
-		EquipTips = getI18NValue(180130521),
+		Id = 10443,
+		Name = getI18NValue(180268309),
+		EquipTips = getI18NValue(180268308),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -2200,19 +1486,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000444] = {
+	[10444] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_19.png",
-		Id = 16000444,
-		Name = getI18NValue(180130524),
-		EquipTips = getI18NValue(180130523),
+		Id = 10444,
+		Name = getI18NValue(180268311),
+		EquipTips = getI18NValue(180268310),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -2220,59 +1506,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000445] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000445,
-		Name = getI18NValue(180130526),
-		EquipTips = getI18NValue(180130525),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000446] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000446,
-		Name = getI18NValue(180130528),
-		EquipTips = getI18NValue(180130527),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000451] = {
+	[10451] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_16.png",
-		Id = 16000451,
-		Name = getI18NValue(180130530),
-		EquipTips = getI18NValue(180130529),
+		Id = 10451,
+		Name = getI18NValue(180268313),
+		EquipTips = getI18NValue(180268312),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -2281,19 +1527,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000452] = {
+	[10452] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_17.png",
-		Id = 16000452,
-		Name = getI18NValue(180130532),
-		EquipTips = getI18NValue(180130531),
+		Id = 10452,
+		Name = getI18NValue(180268315),
+		EquipTips = getI18NValue(180268314),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -2302,19 +1548,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000453] = {
+	[10453] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_18.png",
-		Id = 16000453,
-		Name = getI18NValue(180130534),
-		EquipTips = getI18NValue(180130533),
+		Id = 10453,
+		Name = getI18NValue(180268317),
+		EquipTips = getI18NValue(180268316),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -2323,19 +1569,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000454] = {
+	[10454] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_19.png",
-		Id = 16000454,
-		Name = getI18NValue(180130536),
-		EquipTips = getI18NValue(180130535),
+		Id = 10454,
+		Name = getI18NValue(180268319),
+		EquipTips = getI18NValue(180268318),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -2344,391 +1590,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400004
+			104
 		}
 	},
-	[16000455] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000455,
-		Name = getI18NValue(180130538),
-		EquipTips = getI18NValue(180130537),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000456] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_20.png",
-		Id = 16000456,
-		Name = getI18NValue(180130540),
-		EquipTips = getI18NValue(180130539),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400004
-		}
-	},
-	[16000511] = {
+	[10511] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_21.png",
-		Id = 16000511,
-		Name = getI18NValue(180130554),
-		EquipTips = getI18NValue(180130553),
+		Id = 10511,
+		Name = getI18NValue(180268321),
+		EquipTips = getI18NValue(180268320),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000512] = {
+	[10512] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_22.png",
-		Id = 16000512,
-		Name = getI18NValue(180130556),
-		EquipTips = getI18NValue(180130555),
+		Id = 10512,
+		Name = getI18NValue(180268323),
+		EquipTips = getI18NValue(180268322),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000513] = {
+	[10513] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_23.png",
-		Id = 16000513,
-		Name = getI18NValue(180130558),
-		EquipTips = getI18NValue(180130557),
+		Id = 10513,
+		Name = getI18NValue(180268325),
+		EquipTips = getI18NValue(180268324),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000514] = {
+	[10514] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_24.png",
-		Id = 16000514,
-		Name = getI18NValue(180130560),
-		EquipTips = getI18NValue(180130559),
+		Id = 10514,
+		Name = getI18NValue(180268327),
+		EquipTips = getI18NValue(180268326),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000515] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000515,
-		Name = getI18NValue(180130562),
-		EquipTips = getI18NValue(180130561),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000516] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000516,
-		Name = getI18NValue(180130564),
-		EquipTips = getI18NValue(180130563),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000521] = {
+	[10521] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_21.png",
-		Id = 16000521,
-		Name = getI18NValue(180130566),
-		EquipTips = getI18NValue(180130565),
+		Id = 10521,
+		Name = getI18NValue(180268329),
+		EquipTips = getI18NValue(180268328),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000522] = {
+	[10522] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_22.png",
-		Id = 16000522,
-		Name = getI18NValue(180130568),
-		EquipTips = getI18NValue(180130567),
+		Id = 10522,
+		Name = getI18NValue(180268331),
+		EquipTips = getI18NValue(180268330),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000523] = {
+	[10523] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_23.png",
-		Id = 16000523,
-		Name = getI18NValue(180130570),
-		EquipTips = getI18NValue(180130569),
+		Id = 10523,
+		Name = getI18NValue(180268333),
+		EquipTips = getI18NValue(180268332),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000524] = {
+	[10524] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_24.png",
-		Id = 16000524,
-		Name = getI18NValue(180130572),
-		EquipTips = getI18NValue(180130571),
+		Id = 10524,
+		Name = getI18NValue(180268335),
+		EquipTips = getI18NValue(180268334),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000525] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000525,
-		Name = getI18NValue(180130574),
-		EquipTips = getI18NValue(180130573),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000526] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000526,
-		Name = getI18NValue(180130576),
-		EquipTips = getI18NValue(180130575),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000531] = {
+	[10531] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_21.png",
-		Id = 16000531,
-		Name = getI18NValue(180130578),
-		EquipTips = getI18NValue(180130577),
+		Id = 10531,
+		Name = getI18NValue(180268337),
+		EquipTips = getI18NValue(180268336),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000532] = {
+	[10532] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_22.png",
-		Id = 16000532,
-		Name = getI18NValue(180130580),
-		EquipTips = getI18NValue(180130579),
+		Id = 10532,
+		Name = getI18NValue(180268339),
+		EquipTips = getI18NValue(180268338),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000533] = {
+	[10533] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_23.png",
-		Id = 16000533,
-		Name = getI18NValue(180130582),
-		EquipTips = getI18NValue(180130581),
+		Id = 10533,
+		Name = getI18NValue(180268341),
+		EquipTips = getI18NValue(180268340),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000534] = {
+	[10534] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_24.png",
-		Id = 16000534,
-		Name = getI18NValue(180130584),
-		EquipTips = getI18NValue(180130583),
+		Id = 10534,
+		Name = getI18NValue(180268343),
+		EquipTips = getI18NValue(180268342),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000535] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000535,
-		Name = getI18NValue(180130586),
-		EquipTips = getI18NValue(180130585),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000536] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000536,
-		Name = getI18NValue(180130588),
-		EquipTips = getI18NValue(180130587),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000541] = {
+	[10541] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_21.png",
-		Id = 16000541,
-		Name = getI18NValue(180130590),
-		EquipTips = getI18NValue(180130589),
+		Id = 10541,
+		Name = getI18NValue(180268345),
+		EquipTips = getI18NValue(180268344),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -2736,19 +1830,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000542] = {
+	[10542] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_22.png",
-		Id = 16000542,
-		Name = getI18NValue(180130592),
-		EquipTips = getI18NValue(180130591),
+		Id = 10542,
+		Name = getI18NValue(180268347),
+		EquipTips = getI18NValue(180268346),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -2756,19 +1850,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000543] = {
+	[10543] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_23.png",
-		Id = 16000543,
-		Name = getI18NValue(180130594),
-		EquipTips = getI18NValue(180130593),
+		Id = 10543,
+		Name = getI18NValue(180268349),
+		EquipTips = getI18NValue(180268348),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -2776,19 +1870,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000544] = {
+	[10544] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_24.png",
-		Id = 16000544,
-		Name = getI18NValue(180130596),
-		EquipTips = getI18NValue(180130595),
+		Id = 10544,
+		Name = getI18NValue(180268351),
+		EquipTips = getI18NValue(180268350),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -2796,59 +1890,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000545] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000545,
-		Name = getI18NValue(180130598),
-		EquipTips = getI18NValue(180130597),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000546] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000546,
-		Name = getI18NValue(180130600),
-		EquipTips = getI18NValue(180130599),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000551] = {
+	[10551] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_21.png",
-		Id = 16000551,
-		Name = getI18NValue(180130602),
-		EquipTips = getI18NValue(180130601),
+		Id = 10551,
+		Name = getI18NValue(180268353),
+		EquipTips = getI18NValue(180268352),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -2857,19 +1911,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000552] = {
+	[10552] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_22.png",
-		Id = 16000552,
-		Name = getI18NValue(180130604),
-		EquipTips = getI18NValue(180130603),
+		Id = 10552,
+		Name = getI18NValue(180268355),
+		EquipTips = getI18NValue(180268354),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -2878,19 +1932,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000553] = {
+	[10553] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_23.png",
-		Id = 16000553,
-		Name = getI18NValue(180130606),
-		EquipTips = getI18NValue(180130605),
+		Id = 10553,
+		Name = getI18NValue(180268357),
+		EquipTips = getI18NValue(180268356),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -2899,19 +1953,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000554] = {
+	[10554] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_24.png",
-		Id = 16000554,
-		Name = getI18NValue(180130608),
-		EquipTips = getI18NValue(180130607),
+		Id = 10554,
+		Name = getI18NValue(180268359),
+		EquipTips = getI18NValue(180268358),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -2920,391 +1974,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400005
+			105
 		}
 	},
-	[16000555] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000555,
-		Name = getI18NValue(180130610),
-		EquipTips = getI18NValue(180130609),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000556] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_25.png",
-		Id = 16000556,
-		Name = getI18NValue(180130612),
-		EquipTips = getI18NValue(180130611),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400005
-		}
-	},
-	[16000611] = {
+	[10611] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000611,
-		Name = getI18NValue(180130626),
-		EquipTips = getI18NValue(180130625),
+		Id = 10611,
+		Name = getI18NValue(180268361),
+		EquipTips = getI18NValue(180268360),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000612] = {
+	[10612] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000612,
-		Name = getI18NValue(180130628),
-		EquipTips = getI18NValue(180130627),
+		Id = 10612,
+		Name = getI18NValue(180268363),
+		EquipTips = getI18NValue(180268362),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000613] = {
+	[10613] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000613,
-		Name = getI18NValue(180130630),
-		EquipTips = getI18NValue(180130629),
+		Id = 10613,
+		Name = getI18NValue(180268365),
+		EquipTips = getI18NValue(180268364),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000614] = {
+	[10614] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000614,
-		Name = getI18NValue(180130632),
-		EquipTips = getI18NValue(180130631),
+		Id = 10614,
+		Name = getI18NValue(180268367),
+		EquipTips = getI18NValue(180268366),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000615] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000615,
-		Name = getI18NValue(180130634),
-		EquipTips = getI18NValue(180130633),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000616] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000616,
-		Name = getI18NValue(180130636),
-		EquipTips = getI18NValue(180130635),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000621] = {
+	[10621] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000621,
-		Name = getI18NValue(180130638),
-		EquipTips = getI18NValue(180130637),
+		Id = 10621,
+		Name = getI18NValue(180268369),
+		EquipTips = getI18NValue(180268368),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000622] = {
+	[10622] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000622,
-		Name = getI18NValue(180130640),
-		EquipTips = getI18NValue(180130639),
+		Id = 10622,
+		Name = getI18NValue(180268371),
+		EquipTips = getI18NValue(180268370),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000623] = {
+	[10623] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000623,
-		Name = getI18NValue(180130642),
-		EquipTips = getI18NValue(180130641),
+		Id = 10623,
+		Name = getI18NValue(180268373),
+		EquipTips = getI18NValue(180268372),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000624] = {
+	[10624] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000624,
-		Name = getI18NValue(180130644),
-		EquipTips = getI18NValue(180130643),
+		Id = 10624,
+		Name = getI18NValue(180268375),
+		EquipTips = getI18NValue(180268374),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000625] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000625,
-		Name = getI18NValue(180130646),
-		EquipTips = getI18NValue(180130645),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000626] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000626,
-		Name = getI18NValue(180130648),
-		EquipTips = getI18NValue(180130647),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000631] = {
+	[10631] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000631,
-		Name = getI18NValue(180130650),
-		EquipTips = getI18NValue(180130649),
+		Id = 10631,
+		Name = getI18NValue(180268377),
+		EquipTips = getI18NValue(180268376),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000632] = {
+	[10632] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000632,
-		Name = getI18NValue(180130652),
-		EquipTips = getI18NValue(180130651),
+		Id = 10632,
+		Name = getI18NValue(180268379),
+		EquipTips = getI18NValue(180268378),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000633] = {
+	[10633] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000633,
-		Name = getI18NValue(180130654),
-		EquipTips = getI18NValue(180130653),
+		Id = 10633,
+		Name = getI18NValue(180268381),
+		EquipTips = getI18NValue(180268380),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000634] = {
+	[10634] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000634,
-		Name = getI18NValue(180130656),
-		EquipTips = getI18NValue(180130655),
+		Id = 10634,
+		Name = getI18NValue(180268383),
+		EquipTips = getI18NValue(180268382),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000635] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000635,
-		Name = getI18NValue(180130658),
-		EquipTips = getI18NValue(180130657),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000636] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000636,
-		Name = getI18NValue(180130660),
-		EquipTips = getI18NValue(180130659),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000641] = {
+	[10641] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000641,
-		Name = getI18NValue(180130662),
-		EquipTips = getI18NValue(180130661),
+		Id = 10641,
+		Name = getI18NValue(180268385),
+		EquipTips = getI18NValue(180268384),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -3312,19 +2214,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000642] = {
+	[10642] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000642,
-		Name = getI18NValue(180130664),
-		EquipTips = getI18NValue(180130663),
+		Id = 10642,
+		Name = getI18NValue(180268387),
+		EquipTips = getI18NValue(180268386),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -3332,19 +2234,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000643] = {
+	[10643] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000643,
-		Name = getI18NValue(180130666),
-		EquipTips = getI18NValue(180130665),
+		Id = 10643,
+		Name = getI18NValue(180268389),
+		EquipTips = getI18NValue(180268388),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -3352,19 +2254,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000644] = {
+	[10644] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000644,
-		Name = getI18NValue(180130668),
-		EquipTips = getI18NValue(180130667),
+		Id = 10644,
+		Name = getI18NValue(180268391),
+		EquipTips = getI18NValue(180268390),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -3372,59 +2274,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000645] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000645,
-		Name = getI18NValue(180130670),
-		EquipTips = getI18NValue(180130669),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000646] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000646,
-		Name = getI18NValue(180130672),
-		EquipTips = getI18NValue(180130671),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000651] = {
+	[10651] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_06.png",
-		Id = 16000651,
-		Name = getI18NValue(180130674),
-		EquipTips = getI18NValue(180130673),
+		Id = 10651,
+		Name = getI18NValue(180268393),
+		EquipTips = getI18NValue(180268392),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -3433,19 +2295,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000652] = {
+	[10652] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_07.png",
-		Id = 16000652,
-		Name = getI18NValue(180130676),
-		EquipTips = getI18NValue(180130675),
+		Id = 10652,
+		Name = getI18NValue(180268395),
+		EquipTips = getI18NValue(180268394),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -3454,19 +2316,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000653] = {
+	[10653] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_08.png",
-		Id = 16000653,
-		Name = getI18NValue(180130678),
-		EquipTips = getI18NValue(180130677),
+		Id = 10653,
+		Name = getI18NValue(180268397),
+		EquipTips = getI18NValue(180268396),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -3475,19 +2337,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000654] = {
+	[10654] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_09.png",
-		Id = 16000654,
-		Name = getI18NValue(180130680),
-		EquipTips = getI18NValue(180130679),
+		Id = 10654,
+		Name = getI18NValue(180268399),
+		EquipTips = getI18NValue(180268398),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -3496,391 +2358,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400006
+			106
 		}
 	},
-	[16000655] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000655,
-		Name = getI18NValue(180130682),
-		EquipTips = getI18NValue(180130681),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000656] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_10.png",
-		Id = 16000656,
-		Name = getI18NValue(180130684),
-		EquipTips = getI18NValue(180130683),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400006
-		}
-	},
-	[16000711] = {
+	[10711] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_26.png",
-		Id = 16000711,
-		Name = getI18NValue(180130698),
-		EquipTips = getI18NValue(180130697),
+		Id = 10711,
+		Name = getI18NValue(180268401),
+		EquipTips = getI18NValue(180268400),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000712] = {
+	[10712] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_27.png",
-		Id = 16000712,
-		Name = getI18NValue(180130700),
-		EquipTips = getI18NValue(180130699),
+		Id = 10712,
+		Name = getI18NValue(180268403),
+		EquipTips = getI18NValue(180268402),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000713] = {
+	[10713] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_28.png",
-		Id = 16000713,
-		Name = getI18NValue(180130702),
-		EquipTips = getI18NValue(180130701),
+		Id = 10713,
+		Name = getI18NValue(180268405),
+		EquipTips = getI18NValue(180268404),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000714] = {
+	[10714] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_29.png",
-		Id = 16000714,
-		Name = getI18NValue(180130704),
-		EquipTips = getI18NValue(180130703),
+		Id = 10714,
+		Name = getI18NValue(180268407),
+		EquipTips = getI18NValue(180268406),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000715] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000715,
-		Name = getI18NValue(180130706),
-		EquipTips = getI18NValue(180130705),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000716] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000716,
-		Name = getI18NValue(180130708),
-		EquipTips = getI18NValue(180130707),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000721] = {
+	[10721] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_26.png",
-		Id = 16000721,
-		Name = getI18NValue(180130710),
-		EquipTips = getI18NValue(180130709),
+		Id = 10721,
+		Name = getI18NValue(180268409),
+		EquipTips = getI18NValue(180268408),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000722] = {
+	[10722] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_27.png",
-		Id = 16000722,
-		Name = getI18NValue(180130712),
-		EquipTips = getI18NValue(180130711),
+		Id = 10722,
+		Name = getI18NValue(180268411),
+		EquipTips = getI18NValue(180268410),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000723] = {
+	[10723] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_28.png",
-		Id = 16000723,
-		Name = getI18NValue(180130714),
-		EquipTips = getI18NValue(180130713),
+		Id = 10723,
+		Name = getI18NValue(180268413),
+		EquipTips = getI18NValue(180268412),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000724] = {
+	[10724] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_29.png",
-		Id = 16000724,
-		Name = getI18NValue(180130716),
-		EquipTips = getI18NValue(180130715),
+		Id = 10724,
+		Name = getI18NValue(180268415),
+		EquipTips = getI18NValue(180268414),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000725] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000725,
-		Name = getI18NValue(180130718),
-		EquipTips = getI18NValue(180130717),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000726] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000726,
-		Name = getI18NValue(180130720),
-		EquipTips = getI18NValue(180130719),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000731] = {
+	[10731] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_26.png",
-		Id = 16000731,
-		Name = getI18NValue(180130722),
-		EquipTips = getI18NValue(180130721),
+		Id = 10731,
+		Name = getI18NValue(180268417),
+		EquipTips = getI18NValue(180268416),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000732] = {
+	[10732] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_27.png",
-		Id = 16000732,
-		Name = getI18NValue(180130724),
-		EquipTips = getI18NValue(180130723),
+		Id = 10732,
+		Name = getI18NValue(180268419),
+		EquipTips = getI18NValue(180268418),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000733] = {
+	[10733] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_28.png",
-		Id = 16000733,
-		Name = getI18NValue(180130726),
-		EquipTips = getI18NValue(180130725),
+		Id = 10733,
+		Name = getI18NValue(180268421),
+		EquipTips = getI18NValue(180268420),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000734] = {
+	[10734] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_29.png",
-		Id = 16000734,
-		Name = getI18NValue(180130728),
-		EquipTips = getI18NValue(180130727),
+		Id = 10734,
+		Name = getI18NValue(180268423),
+		EquipTips = getI18NValue(180268422),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000735] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000735,
-		Name = getI18NValue(180130730),
-		EquipTips = getI18NValue(180130729),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000736] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000736,
-		Name = getI18NValue(180130732),
-		EquipTips = getI18NValue(180130731),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000741] = {
+	[10741] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_26.png",
-		Id = 16000741,
-		Name = getI18NValue(180130734),
-		EquipTips = getI18NValue(180130733),
+		Id = 10741,
+		Name = getI18NValue(180268425),
+		EquipTips = getI18NValue(180268424),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -3888,19 +2598,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000742] = {
+	[10742] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_27.png",
-		Id = 16000742,
-		Name = getI18NValue(180130736),
-		EquipTips = getI18NValue(180130735),
+		Id = 10742,
+		Name = getI18NValue(180268427),
+		EquipTips = getI18NValue(180268426),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -3908,19 +2618,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000743] = {
+	[10743] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_28.png",
-		Id = 16000743,
-		Name = getI18NValue(180130738),
-		EquipTips = getI18NValue(180130737),
+		Id = 10743,
+		Name = getI18NValue(180268429),
+		EquipTips = getI18NValue(180268428),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -3928,19 +2638,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000744] = {
+	[10744] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_29.png",
-		Id = 16000744,
-		Name = getI18NValue(180130740),
-		EquipTips = getI18NValue(180130739),
+		Id = 10744,
+		Name = getI18NValue(180268431),
+		EquipTips = getI18NValue(180268430),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -3948,59 +2658,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000745] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000745,
-		Name = getI18NValue(180130742),
-		EquipTips = getI18NValue(180130741),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000746] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000746,
-		Name = getI18NValue(180130744),
-		EquipTips = getI18NValue(180130743),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000751] = {
+	[10751] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_26.png",
-		Id = 16000751,
-		Name = getI18NValue(180130746),
-		EquipTips = getI18NValue(180130745),
+		Id = 10751,
+		Name = getI18NValue(180268433),
+		EquipTips = getI18NValue(180268432),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -4009,19 +2679,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000752] = {
+	[10752] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_27.png",
-		Id = 16000752,
-		Name = getI18NValue(180130748),
-		EquipTips = getI18NValue(180130747),
+		Id = 10752,
+		Name = getI18NValue(180268435),
+		EquipTips = getI18NValue(180268434),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -4030,19 +2700,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000753] = {
+	[10753] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_28.png",
-		Id = 16000753,
-		Name = getI18NValue(180130750),
-		EquipTips = getI18NValue(180130749),
+		Id = 10753,
+		Name = getI18NValue(180268437),
+		EquipTips = getI18NValue(180268436),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -4051,19 +2721,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000754] = {
+	[10754] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_29.png",
-		Id = 16000754,
-		Name = getI18NValue(180130752),
-		EquipTips = getI18NValue(180130751),
+		Id = 10754,
+		Name = getI18NValue(180268439),
+		EquipTips = getI18NValue(180268438),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -4072,391 +2742,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400007
+			107
 		}
 	},
-	[16000755] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000755,
-		Name = getI18NValue(180130754),
-		EquipTips = getI18NValue(180130753),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000756] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_30.png",
-		Id = 16000756,
-		Name = getI18NValue(180130756),
-		EquipTips = getI18NValue(180130755),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400007
-		}
-	},
-	[16000811] = {
+	[10811] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_35.png",
-		Id = 16000811,
-		Name = getI18NValue(180130770),
-		EquipTips = getI18NValue(180130769),
+		Id = 10811,
+		Name = getI18NValue(180268441),
+		EquipTips = getI18NValue(180268440),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000812] = {
+	[10812] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_34.png",
-		Id = 16000812,
-		Name = getI18NValue(180130772),
-		EquipTips = getI18NValue(180130771),
+		Id = 10812,
+		Name = getI18NValue(180268443),
+		EquipTips = getI18NValue(180268442),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000813] = {
+	[10813] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_33.png",
-		Id = 16000813,
-		Name = getI18NValue(180130774),
-		EquipTips = getI18NValue(180130773),
+		Id = 10813,
+		Name = getI18NValue(180268445),
+		EquipTips = getI18NValue(180268444),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000814] = {
+	[10814] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_32.png",
-		Id = 16000814,
-		Name = getI18NValue(180130776),
-		EquipTips = getI18NValue(180130775),
+		Id = 10814,
+		Name = getI18NValue(180268447),
+		EquipTips = getI18NValue(180268446),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000815] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000815,
-		Name = getI18NValue(180130778),
-		EquipTips = getI18NValue(180130777),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000816] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000816,
-		Name = getI18NValue(180130780),
-		EquipTips = getI18NValue(180130779),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000821] = {
+	[10821] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_35.png",
-		Id = 16000821,
-		Name = getI18NValue(180130782),
-		EquipTips = getI18NValue(180130781),
+		Id = 10821,
+		Name = getI18NValue(180268449),
+		EquipTips = getI18NValue(180268448),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000822] = {
+	[10822] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_34.png",
-		Id = 16000822,
-		Name = getI18NValue(180130784),
-		EquipTips = getI18NValue(180130783),
+		Id = 10822,
+		Name = getI18NValue(180268451),
+		EquipTips = getI18NValue(180268450),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000823] = {
+	[10823] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_33.png",
-		Id = 16000823,
-		Name = getI18NValue(180130786),
-		EquipTips = getI18NValue(180130785),
+		Id = 10823,
+		Name = getI18NValue(180268453),
+		EquipTips = getI18NValue(180268452),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000824] = {
+	[10824] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_32.png",
-		Id = 16000824,
-		Name = getI18NValue(180130788),
-		EquipTips = getI18NValue(180130787),
+		Id = 10824,
+		Name = getI18NValue(180268455),
+		EquipTips = getI18NValue(180268454),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000825] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000825,
-		Name = getI18NValue(180130790),
-		EquipTips = getI18NValue(180130789),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000826] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000826,
-		Name = getI18NValue(180130792),
-		EquipTips = getI18NValue(180130791),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000831] = {
+	[10831] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_35.png",
-		Id = 16000831,
-		Name = getI18NValue(180130794),
-		EquipTips = getI18NValue(180130793),
+		Id = 10831,
+		Name = getI18NValue(180268457),
+		EquipTips = getI18NValue(180268456),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000832] = {
+	[10832] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_34.png",
-		Id = 16000832,
-		Name = getI18NValue(180130796),
-		EquipTips = getI18NValue(180130795),
+		Id = 10832,
+		Name = getI18NValue(180268459),
+		EquipTips = getI18NValue(180268458),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000833] = {
+	[10833] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_33.png",
-		Id = 16000833,
-		Name = getI18NValue(180130798),
-		EquipTips = getI18NValue(180130797),
+		Id = 10833,
+		Name = getI18NValue(180268461),
+		EquipTips = getI18NValue(180268460),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000834] = {
+	[10834] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_32.png",
-		Id = 16000834,
-		Name = getI18NValue(180130800),
-		EquipTips = getI18NValue(180130799),
+		Id = 10834,
+		Name = getI18NValue(180268463),
+		EquipTips = getI18NValue(180268462),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000835] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000835,
-		Name = getI18NValue(180130802),
-		EquipTips = getI18NValue(180130801),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000836] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000836,
-		Name = getI18NValue(180130804),
-		EquipTips = getI18NValue(180130803),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000841] = {
+	[10841] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_35.png",
-		Id = 16000841,
-		Name = getI18NValue(180130806),
-		EquipTips = getI18NValue(180130805),
+		Id = 10841,
+		Name = getI18NValue(180268465),
+		EquipTips = getI18NValue(180268464),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -4464,19 +2982,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000842] = {
+	[10842] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_34.png",
-		Id = 16000842,
-		Name = getI18NValue(180130808),
-		EquipTips = getI18NValue(180130807),
+		Id = 10842,
+		Name = getI18NValue(180268467),
+		EquipTips = getI18NValue(180268466),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -4484,19 +3002,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000843] = {
+	[10843] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_33.png",
-		Id = 16000843,
-		Name = getI18NValue(180130810),
-		EquipTips = getI18NValue(180130809),
+		Id = 10843,
+		Name = getI18NValue(180268469),
+		EquipTips = getI18NValue(180268468),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -4504,19 +3022,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000844] = {
+	[10844] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_32.png",
-		Id = 16000844,
-		Name = getI18NValue(180130812),
-		EquipTips = getI18NValue(180130811),
+		Id = 10844,
+		Name = getI18NValue(180268471),
+		EquipTips = getI18NValue(180268470),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -4524,59 +3042,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000845] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000845,
-		Name = getI18NValue(180130814),
-		EquipTips = getI18NValue(180130813),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000846] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000846,
-		Name = getI18NValue(180130816),
-		EquipTips = getI18NValue(180130815),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000851] = {
+	[10851] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_35.png",
-		Id = 16000851,
-		Name = getI18NValue(180130818),
-		EquipTips = getI18NValue(180130817),
+		Id = 10851,
+		Name = getI18NValue(180268473),
+		EquipTips = getI18NValue(180268472),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -4585,19 +3063,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000852] = {
+	[10852] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_34.png",
-		Id = 16000852,
-		Name = getI18NValue(180130820),
-		EquipTips = getI18NValue(180130819),
+		Id = 10852,
+		Name = getI18NValue(180268475),
+		EquipTips = getI18NValue(180268474),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -4606,19 +3084,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000853] = {
+	[10853] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_33.png",
-		Id = 16000853,
-		Name = getI18NValue(180130822),
-		EquipTips = getI18NValue(180130821),
+		Id = 10853,
+		Name = getI18NValue(180268477),
+		EquipTips = getI18NValue(180268476),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -4627,19 +3105,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000854] = {
+	[10854] = {
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_32.png",
-		Id = 16000854,
-		Name = getI18NValue(180130824),
-		EquipTips = getI18NValue(180130823),
+		Id = 10854,
+		Name = getI18NValue(180268479),
+		EquipTips = getI18NValue(180268478),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -4648,391 +3126,239 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400008
+			108
 		}
 	},
-	[16000855] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000855,
-		Name = getI18NValue(180130826),
-		EquipTips = getI18NValue(180130825),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000856] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_31.png",
-		Id = 16000856,
-		Name = getI18NValue(180130828),
-		EquipTips = getI18NValue(180130827),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400008
-		}
-	},
-	[16000911] = {
+	[10911] = {
 		Quality = 1,
 		Place = 1,
-		SlaverCount = 16012011,
+		SlaverCount = 2011,
 		Icon = "/Equip/Icon_Item_Equip_40.png",
-		Id = 16000911,
-		Name = getI18NValue(180130842),
-		EquipTips = getI18NValue(180130841),
+		Id = 10911,
+		Name = getI18NValue(180268481),
+		EquipTips = getI18NValue(180268480),
 		MasterCount = {
-			16011011
+			1011
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000912] = {
+	[10912] = {
 		Quality = 1,
 		Place = 2,
-		SlaverCount = 16012021,
+		SlaverCount = 2021,
 		Icon = "/Equip/Icon_Item_Equip_39.png",
-		Id = 16000912,
-		Name = getI18NValue(180130844),
-		EquipTips = getI18NValue(180130843),
+		Id = 10912,
+		Name = getI18NValue(180268483),
+		EquipTips = getI18NValue(180268482),
 		MasterCount = {
-			16011021
+			1021
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000913] = {
+	[10913] = {
 		Quality = 1,
 		Place = 3,
-		SlaverCount = 16012031,
+		SlaverCount = 2031,
 		Icon = "/Equip/Icon_Item_Equip_38.png",
-		Id = 16000913,
-		Name = getI18NValue(180130846),
-		EquipTips = getI18NValue(180130845),
+		Id = 10913,
+		Name = getI18NValue(180268485),
+		EquipTips = getI18NValue(180268484),
 		MasterCount = {
-			16011031
+			1031
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000914] = {
+	[10914] = {
 		Quality = 1,
 		Place = 4,
-		SlaverCount = 16012041,
+		SlaverCount = 2041,
 		Icon = "/Equip/Icon_Item_Equip_37.png",
-		Id = 16000914,
-		Name = getI18NValue(180130848),
-		EquipTips = getI18NValue(180130847),
+		Id = 10914,
+		Name = getI18NValue(180268487),
+		EquipTips = getI18NValue(180268486),
 		MasterCount = {
-			16011041
+			1041
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000915] = {
-		Quality = 1,
-		Place = 5,
-		SlaverCount = 16012051,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000915,
-		Name = getI18NValue(180130850),
-		EquipTips = getI18NValue(180130849),
-		MasterCount = {
-			16011051
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000916] = {
-		Quality = 1,
-		Place = 6,
-		SlaverCount = 16012061,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000916,
-		Name = getI18NValue(180130852),
-		EquipTips = getI18NValue(180130851),
-		MasterCount = {
-			16011061
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000921] = {
+	[10921] = {
 		Quality = 2,
 		Place = 1,
-		SlaverCount = 16012012,
+		SlaverCount = 2012,
 		Icon = "/Equip/Icon_Item_Equip_40.png",
-		Id = 16000921,
-		Name = getI18NValue(180130854),
-		EquipTips = getI18NValue(180130853),
+		Id = 10921,
+		Name = getI18NValue(180268489),
+		EquipTips = getI18NValue(180268488),
 		MasterCount = {
-			16011012
+			1012
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000922] = {
+	[10922] = {
 		Quality = 2,
 		Place = 2,
-		SlaverCount = 16012022,
+		SlaverCount = 2022,
 		Icon = "/Equip/Icon_Item_Equip_39.png",
-		Id = 16000922,
-		Name = getI18NValue(180130856),
-		EquipTips = getI18NValue(180130855),
+		Id = 10922,
+		Name = getI18NValue(180268491),
+		EquipTips = getI18NValue(180268490),
 		MasterCount = {
-			16011022
+			1022
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000923] = {
+	[10923] = {
 		Quality = 2,
 		Place = 3,
-		SlaverCount = 16012032,
+		SlaverCount = 2032,
 		Icon = "/Equip/Icon_Item_Equip_38.png",
-		Id = 16000923,
-		Name = getI18NValue(180130858),
-		EquipTips = getI18NValue(180130857),
+		Id = 10923,
+		Name = getI18NValue(180268493),
+		EquipTips = getI18NValue(180268492),
 		MasterCount = {
-			16011032
+			1032
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000924] = {
+	[10924] = {
 		Quality = 2,
 		Place = 4,
-		SlaverCount = 16012042,
+		SlaverCount = 2042,
 		Icon = "/Equip/Icon_Item_Equip_37.png",
-		Id = 16000924,
-		Name = getI18NValue(180130860),
-		EquipTips = getI18NValue(180130859),
+		Id = 10924,
+		Name = getI18NValue(180268495),
+		EquipTips = getI18NValue(180268494),
 		MasterCount = {
-			16011042
+			1042
 		},
 		CountCondition = {
 			4
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000925] = {
-		Quality = 2,
-		Place = 5,
-		SlaverCount = 16012052,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000925,
-		Name = getI18NValue(180130862),
-		EquipTips = getI18NValue(180130861),
-		MasterCount = {
-			16011052
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000926] = {
-		Quality = 2,
-		Place = 6,
-		SlaverCount = 16012062,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000926,
-		Name = getI18NValue(180130864),
-		EquipTips = getI18NValue(180130863),
-		MasterCount = {
-			16011062
-		},
-		CountCondition = {
-			4
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000931] = {
+	[10931] = {
 		Quality = 3,
 		Place = 1,
-		SlaverCount = 16012013,
+		SlaverCount = 2013,
 		Icon = "/Equip/Icon_Item_Equip_40.png",
-		Id = 16000931,
-		Name = getI18NValue(180130866),
-		EquipTips = getI18NValue(180130865),
+		Id = 10931,
+		Name = getI18NValue(180268497),
+		EquipTips = getI18NValue(180268496),
 		MasterCount = {
-			16011013
+			1013
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000932] = {
+	[10932] = {
 		Quality = 3,
 		Place = 2,
-		SlaverCount = 16012023,
+		SlaverCount = 2023,
 		Icon = "/Equip/Icon_Item_Equip_39.png",
-		Id = 16000932,
-		Name = getI18NValue(180130868),
-		EquipTips = getI18NValue(180130867),
+		Id = 10932,
+		Name = getI18NValue(180268499),
+		EquipTips = getI18NValue(180268498),
 		MasterCount = {
-			16011023
+			1023
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000933] = {
+	[10933] = {
 		Quality = 3,
 		Place = 3,
-		SlaverCount = 16012033,
+		SlaverCount = 2033,
 		Icon = "/Equip/Icon_Item_Equip_38.png",
-		Id = 16000933,
-		Name = getI18NValue(180130870),
-		EquipTips = getI18NValue(180130869),
+		Id = 10933,
+		Name = getI18NValue(180268501),
+		EquipTips = getI18NValue(180268500),
 		MasterCount = {
-			16011033
+			1033
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000934] = {
+	[10934] = {
 		Quality = 3,
 		Place = 4,
-		SlaverCount = 16012043,
+		SlaverCount = 2043,
 		Icon = "/Equip/Icon_Item_Equip_37.png",
-		Id = 16000934,
-		Name = getI18NValue(180130872),
-		EquipTips = getI18NValue(180130871),
+		Id = 10934,
+		Name = getI18NValue(180268503),
+		EquipTips = getI18NValue(180268502),
 		MasterCount = {
-			16011043
+			1043
 		},
 		CountCondition = {
 			4,
 			8
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000935] = {
-		Quality = 3,
-		Place = 5,
-		SlaverCount = 16012053,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000935,
-		Name = getI18NValue(180130874),
-		EquipTips = getI18NValue(180130873),
-		MasterCount = {
-			16011053
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000936] = {
-		Quality = 3,
-		Place = 6,
-		SlaverCount = 16012063,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000936,
-		Name = getI18NValue(180130876),
-		EquipTips = getI18NValue(180130875),
-		MasterCount = {
-			16011063
-		},
-		CountCondition = {
-			4,
-			8
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000941] = {
+	[10941] = {
 		Quality = 4,
 		Place = 1,
-		SlaverCount = 16012014,
+		SlaverCount = 2014,
 		Icon = "/Equip/Icon_Item_Equip_40.png",
-		Id = 16000941,
-		Name = getI18NValue(180130878),
-		EquipTips = getI18NValue(180130877),
+		Id = 10941,
+		Name = getI18NValue(180268505),
+		EquipTips = getI18NValue(180268504),
 		MasterCount = {
-			16011014
+			1014
 		},
 		CountCondition = {
 			4,
@@ -5040,19 +3366,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000942] = {
+	[10942] = {
 		Quality = 4,
 		Place = 2,
-		SlaverCount = 16012024,
+		SlaverCount = 2024,
 		Icon = "/Equip/Icon_Item_Equip_39.png",
-		Id = 16000942,
-		Name = getI18NValue(180130880),
-		EquipTips = getI18NValue(180130879),
+		Id = 10942,
+		Name = getI18NValue(180268507),
+		EquipTips = getI18NValue(180268506),
 		MasterCount = {
-			16011024
+			1024
 		},
 		CountCondition = {
 			4,
@@ -5060,19 +3386,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000943] = {
+	[10943] = {
 		Quality = 4,
 		Place = 3,
-		SlaverCount = 16012034,
+		SlaverCount = 2034,
 		Icon = "/Equip/Icon_Item_Equip_38.png",
-		Id = 16000943,
-		Name = getI18NValue(180130882),
-		EquipTips = getI18NValue(180130881),
+		Id = 10943,
+		Name = getI18NValue(180268509),
+		EquipTips = getI18NValue(180268508),
 		MasterCount = {
-			16011034
+			1034
 		},
 		CountCondition = {
 			4,
@@ -5080,19 +3406,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000944] = {
+	[10944] = {
 		Quality = 4,
 		Place = 4,
-		SlaverCount = 16012044,
+		SlaverCount = 2044,
 		Icon = "/Equip/Icon_Item_Equip_37.png",
-		Id = 16000944,
-		Name = getI18NValue(180130884),
-		EquipTips = getI18NValue(180130883),
+		Id = 10944,
+		Name = getI18NValue(180268511),
+		EquipTips = getI18NValue(180268510),
 		MasterCount = {
-			16011044
+			1044
 		},
 		CountCondition = {
 			4,
@@ -5100,59 +3426,19 @@ local CfgEquipTable = {
 			12
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000945] = {
-		Quality = 4,
-		Place = 5,
-		SlaverCount = 16012054,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000945,
-		Name = getI18NValue(180130886),
-		EquipTips = getI18NValue(180130885),
-		MasterCount = {
-			16011054
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000946] = {
-		Quality = 4,
-		Place = 6,
-		SlaverCount = 16012064,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000946,
-		Name = getI18NValue(180130888),
-		EquipTips = getI18NValue(180130887),
-		MasterCount = {
-			16011064
-		},
-		CountCondition = {
-			4,
-			8,
-			12
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000951] = {
+	[10951] = {
 		Quality = 5,
 		Place = 1,
-		SlaverCount = 16012015,
+		SlaverCount = 2015,
 		Icon = "/Equip/Icon_Item_Equip_40.png",
-		Id = 16000951,
-		Name = getI18NValue(180130890),
-		EquipTips = getI18NValue(180130889),
+		Id = 10951,
+		Name = getI18NValue(180268513),
+		EquipTips = getI18NValue(180268512),
 		MasterCount = {
-			16011015
+			1015
 		},
 		CountCondition = {
 			4,
@@ -5161,19 +3447,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000952] = {
+	[10952] = {
 		Quality = 5,
 		Place = 2,
-		SlaverCount = 16012025,
+		SlaverCount = 2025,
 		Icon = "/Equip/Icon_Item_Equip_39.png",
-		Id = 16000952,
-		Name = getI18NValue(180130892),
-		EquipTips = getI18NValue(180130891),
+		Id = 10952,
+		Name = getI18NValue(180268515),
+		EquipTips = getI18NValue(180268514),
 		MasterCount = {
-			16011025
+			1025
 		},
 		CountCondition = {
 			4,
@@ -5182,19 +3468,19 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000953] = {
+	[10953] = {
 		Quality = 5,
 		Place = 3,
-		SlaverCount = 16012035,
+		SlaverCount = 2035,
 		Icon = "/Equip/Icon_Item_Equip_38.png",
-		Id = 16000953,
-		Name = getI18NValue(180130894),
-		EquipTips = getI18NValue(180130893),
+		Id = 10953,
+		Name = getI18NValue(180268517),
+		EquipTips = getI18NValue(180268516),
 		MasterCount = {
-			16011035
+			1035
 		},
 		CountCondition = {
 			4,
@@ -5203,19 +3489,18 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400009
+			109
 		}
 	},
-	[16000954] = {
+	[10954] = {
+		Id = 10954,
 		Quality = 5,
 		Place = 4,
-		SlaverCount = 16012045,
+		SlaverCount = 2045,
 		Icon = "/Equip/Icon_Item_Equip_37.png",
-		Id = 16000954,
-		Name = getI18NValue(180130896),
-		EquipTips = getI18NValue(180130895),
+		Name = getI18NValue(180268519),
 		MasterCount = {
-			16011045
+			1045
 		},
 		CountCondition = {
 			4,
@@ -5224,49 +3509,7 @@ local CfgEquipTable = {
 			16
 		},
 		SuitId = {
-			400009
-		}
-	},
-	[16000955] = {
-		Quality = 5,
-		Place = 5,
-		SlaverCount = 16012055,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000955,
-		Name = getI18NValue(180130898),
-		EquipTips = getI18NValue(180130897),
-		MasterCount = {
-			16011055
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400009
-		}
-	},
-	[16000956] = {
-		Quality = 5,
-		Place = 6,
-		SlaverCount = 16012065,
-		Icon = "/Equip/Icon_Item_Equip_36.png",
-		Id = 16000956,
-		Name = getI18NValue(180130900),
-		EquipTips = getI18NValue(180130899),
-		MasterCount = {
-			16011065
-		},
-		CountCondition = {
-			4,
-			8,
-			12,
-			16
-		},
-		SuitId = {
-			400009
+			109
 		}
 	}
 }

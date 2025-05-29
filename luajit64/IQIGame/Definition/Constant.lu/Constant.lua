@@ -617,7 +617,7 @@ Constant.ExtendTaskType = {
 	},
 	SummerActivityTask = {
 		6,
-		2
+		4
 	},
 	RPGMain_Main = {
 		1
@@ -1614,8 +1614,8 @@ Constant.ActivityListCfgType = {
 	GlobalChannelActivity = 666,
 	NoviceSignActivityType = 108,
 	FirstRechargeActivityType = 106,
-	SummerSignActivityTyoe = 110,
 	LotteryActivityType = 109,
+	SummerSignActivityType = 110,
 	SummerActivityType = 301,
 	GhostActivity = 302,
 	AccRechargeActivity = 888,
@@ -2022,6 +2022,7 @@ Constant.SoundGroupType = {
 	Story = 1
 }
 Constant.CommonConditionSelectionType = {
+	Color = 2,
 	Quality = 1
 }
 Constant.FavorEntryType = {

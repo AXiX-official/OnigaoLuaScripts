@@ -951,6 +951,42 @@ local CfgHeroSkinTable = {
 			1.2
 		}
 	},
+	[10401603] = {
+		HeroResourcesShowImg = "WuNian/HalfShowImg_WuNian/HeroShowImg_0_301603",
+		DetailsHeadIcon = "WuNian/OtherImg_WuNian/Friend_HeadImg_0_301603",
+		UIEntityID = 10810161,
+		HeroResourcesVerticalDraw = "WuNian/VerticalDrawImg/HeroVerticalDraw_101603",
+		ShopShowImg = "WuNian/HalfShowImg_WuNian/HeroShowImg_0_301604",
+		HeroSkillChangeHeadImg = "WuNian/OtherImg_WuNian/Warlock_Icon_0_301603",
+		HeroId = 10000016,
+		AssistInFightingImg = "WuNian/OtherImg_WuNian/Warlock_FightIcon_0_301603",
+		BGM = 11000073,
+		BattleEntityID = 100161,
+		UIDynamicEntityID = 10831603,
+		FriendHeadImg = "WuNian/OtherImg_WuNian/Friend_HeadImg_0_301603",
+		HomeEntityID = 10820160,
+		HeroTachie = "Assets/03_Prefabs/Entity/StandPaint/ST_Wunian.prefab",
+		HeadIcon = "Hero_BattleHead_90163",
+		Id = 10401603,
+		HeroResourcesHead = "WuNian/OtherImg_WuNian/Warlock_Icon_0_301603",
+		IsShow = 1,
+		TimeLine = {
+			1016104,
+			1016105
+		},
+		SkinDesc = getI18NValue(180268802),
+		Scale = {
+			1.2
+		},
+		Tips = {
+			1,
+			2
+		},
+		SkinTips = {
+			"全新立绘",
+			"全新战斗形象"
+		}
+	},
 	[10401701] = {
 		HeroResourcesShowImg = "Zhao/HalfShowImg_Zhao/HeroShowImg_0_301701",
 		DetailsHeadIcon = "Zhao/OtherImg_Zhao/Friend_HeadImg_0_301701",

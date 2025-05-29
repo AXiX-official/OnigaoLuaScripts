@@ -281,7 +281,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61011,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		Time = 1,
 		Id = 50201001,
@@ -296,7 +296,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61012,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000301,
 		Time = 1,
@@ -312,7 +312,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61013,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000302,
 		Time = 1,
@@ -328,7 +328,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61014,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000303,
 		Time = 1,
@@ -344,7 +344,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61015,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000304,
 		Time = 1,
@@ -360,7 +360,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61016,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000305,
 		Time = 1,
@@ -376,7 +376,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61017,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000306,
 		Time = 1,
@@ -392,7 +392,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61018,
 		Free = true,
-		sort = 100,
+		sort = 1,
 		Number = 1,
 		UnlockConditionId = 30000307,
 		Time = 1,
@@ -408,7 +408,7 @@ local CfgCommodityTable = {
 		BuyType = 1,
 		ItemId = 61301,
 		Time = 2,
-		sort = 101,
+		sort = 1,
 		AbsoluteValue = 6,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -432,7 +432,7 @@ local CfgCommodityTable = {
 		BuyType = 1,
 		ItemId = 61302,
 		Time = 2,
-		sort = 102,
+		sort = 1,
 		AbsoluteValue = 18,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -456,7 +456,7 @@ local CfgCommodityTable = {
 		BuyType = 1,
 		ItemId = 61303,
 		Time = 2,
-		sort = 103,
+		sort = 1,
 		AbsoluteValue = 30,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -480,7 +480,7 @@ local CfgCommodityTable = {
 		BuyType = 1,
 		ItemId = 61304,
 		Time = 2,
-		sort = 104,
+		sort = 1,
 		AbsoluteValue = 38,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -504,7 +504,7 @@ local CfgCommodityTable = {
 		BuyType = 1,
 		ItemId = 61305,
 		Time = 6,
-		sort = 105,
+		sort = 1,
 		AbsoluteValue = 68,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -528,7 +528,7 @@ local CfgCommodityTable = {
 		BuyType = 1,
 		ItemId = 61306,
 		Time = 6,
-		sort = 106,
+		sort = 1,
 		AbsoluteValue = 128,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -556,7 +556,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 6,
 		Number = 1,
 		ItemId = 61701,
-		sort = 101,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202001,
 		Desc = "幸运礼盒",
@@ -582,7 +582,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 18,
 		Number = 1,
 		ItemId = 61702,
-		sort = 102,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202002,
 		Desc = "福气招来礼盒",
@@ -608,7 +608,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 38,
 		Number = 1,
 		ItemId = 61703,
-		sort = 103,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202003,
 		Desc = "春日特招礼盒",
@@ -634,7 +634,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 38,
 		Number = 1,
 		ItemId = 61704,
-		sort = 104,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202004,
 		Desc = "春日珍藏礼盒",
@@ -660,7 +660,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 98,
 		Number = 1,
 		ItemId = 61705,
-		sort = 105,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202005,
 		Desc = "心想事成礼盒",
@@ -686,7 +686,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 168,
 		Number = 1,
 		ItemId = 61706,
-		sort = 107,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202006,
 		Desc = "合家欢乐·壹",
@@ -712,7 +712,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 128,
 		Number = 1,
 		ItemId = 61707,
-		sort = 108,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202007,
 		Desc = "合家欢乐·贰",
@@ -738,7 +738,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 268,
 		Number = 1,
 		ItemId = 61708,
-		sort = 110,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202008,
 		Desc = "金玉满堂礼盒",
@@ -764,7 +764,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 328,
 		Number = 1,
 		ItemId = 61709,
-		sort = 111,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202009,
 		Desc = "瑞蛇启新·壹",
@@ -790,7 +790,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 328,
 		Number = 1,
 		ItemId = 61710,
-		sort = 112,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202010,
 		Desc = "瑞蛇启新·贰",
@@ -816,7 +816,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 648,
 		Number = 1,
 		ItemId = 61711,
-		sort = 113,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202011,
 		Desc = "蛇年大吉",
@@ -836,7 +836,7 @@ local CfgCommodityTable = {
 		CommodityType = 1,
 		BuyType = 1,
 		ItemId = 1039,
-		sort = 102,
+		sort = 1,
 		TimeOvrtShow = 1,
 		AbsoluteValue = 6,
 		Number = 1,
@@ -864,7 +864,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 6,
 		Number = 1,
 		ItemId = 61801,
-		sort = 202,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202102,
 		Desc = "春暖花开礼盒",
@@ -890,7 +890,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 6,
 		Number = 1,
 		ItemId = 61807,
-		sort = 203,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202103,
 		Desc = "喜迎五一礼盒",
@@ -916,7 +916,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 6,
 		Number = 1,
 		ItemId = 61804,
-		sort = 204,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202104,
 		Desc = "初遇礼箱",
@@ -942,7 +942,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 6,
 		Number = 1,
 		ItemId = 61805,
-		sort = 205,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202105,
 		Desc = "初遇宝箱",
@@ -968,7 +968,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 30,
 		Number = 1,
 		ItemId = 61802,
-		sort = 206,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202151,
 		Desc = "神觉招来礼盒Ⅰ",
@@ -994,7 +994,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 30,
 		Number = 1,
 		ItemId = 61808,
-		sort = 207,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202152,
 		Desc = "水月降神礼盒Ⅰ",
@@ -1020,7 +1020,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 30,
 		Number = 1,
 		ItemId = 61808,
-		sort = 208,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202153,
 		Desc = "七光礼包2",
@@ -1046,7 +1046,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 30,
 		Number = 1,
 		ItemId = 61809,
-		sort = 209,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202154,
 		Desc = "七光礼包3",
@@ -1072,7 +1072,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 30,
 		Number = 1,
 		ItemId = 61810,
-		sort = 210,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202155,
 		Desc = "七光礼包4",
@@ -1093,6 +1093,7 @@ local CfgCommodityTable = {
 		ShopID = 50100220,
 		ItemId = 60005,
 		Time = 1,
+		sort = 1,
 		AbsoluteValue = 68,
 		Number = 1,
 		BuyType = 1,
@@ -1124,7 +1125,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 68,
 		Number = 1,
 		ItemId = 61803,
-		sort = 212,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202202,
 		Desc = "神觉招来礼盒Ⅱ",
@@ -1150,7 +1151,7 @@ local CfgCommodityTable = {
 		AbsoluteValue = 68,
 		Number = 1,
 		ItemId = 61809,
-		sort = 213,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202203,
 		Desc = "水月降神礼盒Ⅱ",
@@ -1168,18 +1169,16 @@ local CfgCommodityTable = {
 	},
 	[50202204] = {
 		CommodityType = 1,
-		OpenTime = "2024/6/18 4:00",
+		ShopID = 50100020,
 		BuyType = 1,
-		CloseTime = "2024/7/18 4:00",
+		ItemId = 600163,
 		Time = 1,
-		ShopID = 50100042,
 		AbsoluteValue = 68,
 		Number = 1,
-		ItemId = 61814,
-		sort = 214,
+		sort = 1,
 		TimeOvrtShow = 1,
 		Id = 50202204,
-		Desc = "欧皇礼包",
+		Desc = "无念·心念漂流",
 		Price = {
 			{
 				1,
@@ -1190,6 +1189,9 @@ local CfgCommodityTable = {
 			{},
 			{},
 			{}
+		},
+		BuyConditionId = {
+			40011004
 		}
 	},
 	[50202205] = {
@@ -2722,6 +2724,50 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
+	[50204024] = {
+		CommodityType = 1,
+		ShopID = 50100044,
+		BuyType = 2,
+		ItemId = 60135,
+		Time = 5,
+		sort = 111,
+		ResetType = 1,
+		Number = 1,
+		Id = 50204024,
+		Desc = "千髓礼包",
+		Price = {
+			{
+				2,
+				10
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50204025] = {
+		CommodityType = 1,
+		ShopID = 50100044,
+		BuyType = 2,
+		ItemId = 60136,
+		sort = 111,
+		Number = 1,
+		Id = 50204025,
+		Desc = "灵髓礼包",
+		Price = {
+			{
+				2,
+				50
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[50205001] = {
 		CommodityType = 1,
 		ShopID = 50100045,
@@ -2812,7 +2858,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61101,
 		Time = 2,
-		sort = 111,
+		sort = 112,
 		ResetType = 2,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -2836,7 +2882,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61102,
 		Time = 2,
-		sort = 112,
+		sort = 113,
 		ResetType = 2,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -2860,7 +2906,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61103,
 		Time = 2,
-		sort = 113,
+		sort = 114,
 		ResetType = 2,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -3083,6 +3129,29 @@ local CfgCommodityTable = {
 		},
 		BuyConditionId = {
 			30000040
+		}
+	},
+	[50205109] = {
+		CommodityType = 1,
+		ShopID = 50100045,
+		BuyType = 2,
+		ItemId = 60135,
+		Time = 10,
+		sort = 111,
+		ResetType = 2,
+		Number = 1,
+		Id = 50205109,
+		Desc = "千髓礼包",
+		Price = {
+			{
+				3,
+				300
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
 		}
 	},
 	[50206001] = {
@@ -3422,7 +3491,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 15000,
 		Time = 1,
-		sort = 112,
+		sort = 104,
 		ResetType = 3,
 		Number = 1,
 		Id = 50210005,
@@ -3690,6 +3759,54 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
+	[50210018] = {
+		CommodityType = 1,
+		ShopID = 50101001,
+		BuyType = 2,
+		ItemId = 50041,
+		Time = 4,
+		sort = 110,
+		ResetType = 2,
+		Number = 5,
+		TimeOvrtShow = 1,
+		Id = 50210018,
+		Desc = "千变灵髓",
+		Price = {
+			{
+				12,
+				50
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210019] = {
+		CommodityType = 1,
+		ShopID = 50101001,
+		BuyType = 2,
+		ItemId = 50042,
+		Time = 5,
+		sort = 105,
+		ResetType = 3,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210019,
+		Desc = "万化灵髓",
+		Price = {
+			{
+				12,
+				100
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[50210101] = {
 		CommodityType = 1,
 		ShopID = 50101002,
@@ -3744,7 +3861,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 60123,
 		Time = 10,
-		sort = 3,
+		sort = 5,
 		ResetType = 3,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -3768,7 +3885,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 60125,
 		Time = 10,
-		sort = 4,
+		sort = 6,
 		ResetType = 3,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -3792,7 +3909,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 50002,
 		Time = 30,
-		sort = 5,
+		sort = 7,
 		ResetType = 3,
 		Number = 8,
 		TimeOvrtShow = 1,
@@ -3816,7 +3933,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 50032,
 		Time = 30,
-		sort = 6,
+		sort = 8,
 		ResetType = 3,
 		Number = 3,
 		TimeOvrtShow = 1,
@@ -3840,7 +3957,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 4,
 		Time = 20,
-		sort = 7,
+		sort = 9,
 		ResetType = 3,
 		Number = 100000,
 		TimeOvrtShow = 1,
@@ -3863,7 +3980,7 @@ local CfgCommodityTable = {
 		ShopID = 50101002,
 		BuyType = 2,
 		ItemId = 4,
-		sort = 8,
+		sort = 10,
 		TimeOvrtShow = 1,
 		Number = 100000,
 		Id = 50210108,
@@ -3872,6 +3989,54 @@ local CfgCommodityTable = {
 			{
 				14,
 				15
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210109] = {
+		CommodityType = 1,
+		ShopID = 50101002,
+		BuyType = 2,
+		ItemId = 50041,
+		Time = 4,
+		sort = 4,
+		ResetType = 2,
+		Number = 5,
+		TimeOvrtShow = 1,
+		Id = 50210109,
+		Desc = "千变灵髓",
+		Price = {
+			{
+				14,
+				50
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210110] = {
+		CommodityType = 1,
+		ShopID = 50101002,
+		BuyType = 2,
+		ItemId = 50042,
+		Time = 5,
+		sort = 3,
+		ResetType = 3,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210110,
+		Desc = "万化灵髓",
+		Price = {
+			{
+				14,
+				100
 			},
 			{},
 			{},
@@ -4146,7 +4311,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 15015,
 		Time = 1,
-		sort = 2,
+		sort = 3,
 		ResetType = 2,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -4170,7 +4335,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 11,
 		Time = 10,
-		sort = 3,
+		sort = 4,
 		ResetType = 2,
 		Number = 60,
 		TimeOvrtShow = 1,
@@ -4194,7 +4359,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 16004,
 		Time = 10,
-		sort = 4,
+		sort = 5,
 		ResetType = 2,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -4218,7 +4383,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 15032,
 		Time = 1,
-		sort = 5,
+		sort = 6,
 		ResetType = 2,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -4242,7 +4407,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 4,
 		Time = 10,
-		sort = 6,
+		sort = 8,
 		ResetType = 1,
 		Number = 10000,
 		TimeOvrtShow = 1,
@@ -4252,6 +4417,54 @@ local CfgCommodityTable = {
 			{
 				117,
 				40
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210407] = {
+		CommodityType = 1,
+		ShopID = 50101011,
+		BuyType = 2,
+		ItemId = 50041,
+		Time = 5,
+		sort = 7,
+		ResetType = 1,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210407,
+		Desc = "千变灵髓",
+		Price = {
+			{
+				117,
+				80
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210408] = {
+		CommodityType = 1,
+		ShopID = 50101011,
+		BuyType = 2,
+		ItemId = 50042,
+		Time = 5,
+		sort = 2,
+		ResetType = 3,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210408,
+		Desc = "万化灵髓",
+		Price = {
+			{
+				117,
+				500
 			},
 			{},
 			{},
@@ -4610,21 +4823,21 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220101] = {
+	[50220117] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 80207,
+		ItemId = 10034,
 		Time = 1,
 		sort = 100,
 		TimeOvrtShow = 1,
 		Number = 1,
-		Id = 50220101,
-		Desc = "火鼠裘",
+		Id = 50220117,
+		Desc = "一川晴",
 		Price = {
 			{
-				202,
-				3000
+				18,
+				20000
 			},
 			{},
 			{},
@@ -4633,21 +4846,21 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220102] = {
+	[50220118] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 60122,
+		ItemId = 15031,
 		Time = 1,
 		sort = 101,
 		TimeOvrtShow = 1,
 		Number = 1,
-		Id = 50220102,
-		Desc = "五星鬼武（随机）",
+		Id = 50220118,
+		Desc = "鬼神心核·真",
 		Price = {
 			{
-				202,
-				2400
+				18,
+				15000
 			},
 			{},
 			{},
@@ -4656,20 +4869,112 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220103] = {
+	[50220119] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 80124,
+		ItemId = 15000,
 		Time = 1,
 		sort = 102,
 		TimeOvrtShow = 1,
 		Number = 1,
-		Id = 50220103,
-		Desc = "妖刀村正",
+		Id = 50220119,
+		Desc = "天照命晶",
 		Price = {
 			{
-				202,
+				18,
+				8000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220120] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 15015,
+		Time = 2,
+		sort = 103,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220120,
+		Desc = "遗馈之环",
+		Price = {
+			{
+				18,
+				5000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220121] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 60128,
+		Time = 10,
+		sort = 104,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220121,
+		Desc = "五星识域",
+		Price = {
+			{
+				18,
+				2000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220122] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 60127,
+		Time = 20,
+		sort = 105,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220122,
+		Desc = "四星识域",
+		Price = {
+			{
+				18,
+				500
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220123] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 3000,
+		Time = 5,
+		sort = 106,
+		TimeOvrtShow = 1,
+		Number = 1,
+		Id = 50220123,
+		Desc = "神觉银契",
+		Price = {
+			{
+				18,
 				1000
 			},
 			{},
@@ -4679,21 +4984,21 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220104] = {
+	[50220124] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 60123,
-		Time = 1,
-		sort = 103,
+		ItemId = 3001,
+		Time = 5,
+		sort = 107,
 		TimeOvrtShow = 1,
 		Number = 1,
-		Id = 50220104,
-		Desc = "四星鬼武",
+		Id = 50220124,
+		Desc = "神觉金契",
 		Price = {
 			{
-				202,
-				800
+				18,
+				1000
 			},
 			{},
 			{},
@@ -4702,21 +5007,21 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220105] = {
+	[50220125] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 60123,
-		Time = 1,
-		sort = 104,
+		ItemId = 3003,
+		Time = 5,
+		sort = 108,
 		TimeOvrtShow = 1,
 		Number = 1,
-		Id = 50220105,
-		Desc = "四星鬼武",
+		Id = 50220125,
+		Desc = "鬼武专契",
 		Price = {
 			{
-				202,
-				600
+				18,
+				1000
 			},
 			{},
 			{},
@@ -4725,21 +5030,21 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220106] = {
+	[50220126] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
 		ItemId = 55001,
-		Time = 3,
-		sort = 105,
+		Time = 10,
+		sort = 109,
 		TimeOvrtShow = 1,
 		Number = 1,
-		Id = 50220106,
+		Id = 50220126,
 		Desc = "人格稳定试剂",
 		Price = {
 			{
-				202,
-				50
+				18,
+				500
 			},
 			{},
 			{},
@@ -4748,21 +5053,136 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220107] = {
+	[50220127] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 15011,
+		Time = 10,
+		sort = 110,
+		TimeOvrtShow = 1,
+		Number = 10,
+		Id = 50220127,
+		Desc = "守之印",
+		Price = {
+			{
+				18,
+				150
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220128] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 15012,
+		Time = 10,
+		sort = 111,
+		TimeOvrtShow = 1,
+		Number = 10,
+		Id = 50220128,
+		Desc = "斗之印",
+		Price = {
+			{
+				18,
+				150
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220129] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 15013,
+		Time = 10,
+		sort = 112,
+		TimeOvrtShow = 1,
+		Number = 10,
+		Id = 50220129,
+		Desc = "术之印",
+		Price = {
+			{
+				18,
+				150
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220130] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 15014,
+		Time = 10,
+		sort = 113,
+		TimeOvrtShow = 1,
+		Number = 10,
+		Id = 50220130,
+		Desc = "诡之印",
+		Price = {
+			{
+				18,
+				150
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220131] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 15021,
+		Time = 20,
+		sort = 114,
+		TimeOvrtShow = 1,
+		Number = 10,
+		Id = 50220131,
+		Desc = "破封血刃",
+		Price = {
+			{
+				18,
+				150
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220132] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
 		ItemId = 50004,
-		Time = 10,
-		sort = 106,
+		Time = 20,
+		sort = 115,
 		TimeOvrtShow = 1,
-		Number = 5,
-		Id = 50220107,
+		Number = 3,
+		Id = 50220132,
 		Desc = "阴阳秘文·完本",
 		Price = {
 			{
-				202,
-				60
+				18,
+				300
 			},
 			{},
 			{},
@@ -4771,21 +5191,44 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220108] = {
+	[50220133] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 50034,
+		Time = 20,
+		sort = 116,
+		TimeOvrtShow = 1,
+		Number = 3,
+		Id = 50220133,
+		Desc = "神宗鬼卷·真言",
+		Price = {
+			{
+				18,
+				500
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220134] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
 		ItemId = 50003,
-		Time = 20,
-		sort = 107,
+		Time = 30,
+		sort = 117,
 		TimeOvrtShow = 1,
-		Number = 10,
-		Id = 50220108,
+		Number = 5,
+		Id = 50220134,
 		Desc = "阴阳秘文·断章",
 		Price = {
 			{
-				202,
-				30
+				18,
+				150
 			},
 			{},
 			{},
@@ -4794,20 +5237,42 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220109] = {
+	[50220135] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
-		ItemId = 50002,
+		ItemId = 50033,
 		Time = 30,
-		sort = 108,
+		sort = 118,
 		TimeOvrtShow = 1,
-		Number = 20,
-		Id = 50220109,
-		Desc = "阴阳秘文·残页",
+		Number = 5,
+		Id = 50220135,
+		Desc = "神宗鬼卷·拓本",
 		Price = {
 			{
-				202,
+				18,
+				300
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220136] = {
+		CommodityType = 1,
+		ShopID = 50102010,
+		BuyType = 2,
+		ItemId = 4,
+		sort = 119,
+		TimeOvrtShow = 1,
+		Number = 1000,
+		Id = 50220136,
+		Desc = "札币",
+		Price = {
+			{
+				18,
 				10
 			},
 			{},
@@ -4817,156 +5282,19 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
-	[50220110] = {
-		CommodityType = 1,
-		ShopID = 50102010,
-		BuyType = 2,
-		ItemId = 50034,
-		Time = 20,
-		sort = 109,
-		TimeOvrtShow = 1,
-		Number = 5,
-		Id = 50220110,
-		Desc = "神宗鬼卷·真言",
-		Price = {
-			{
-				202,
-				100
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220111] = {
-		CommodityType = 1,
-		ShopID = 50102010,
-		BuyType = 2,
-		ItemId = 50033,
-		Time = 30,
-		sort = 110,
-		TimeOvrtShow = 1,
-		Number = 10,
-		Id = 50220111,
-		Desc = "神宗鬼卷·拓本",
-		Price = {
-			{
-				202,
-				80
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220112] = {
-		CommodityType = 1,
-		ShopID = 50102010,
-		BuyType = 2,
-		ItemId = 50032,
-		Time = 50,
-		sort = 111,
-		TimeOvrtShow = 1,
-		Number = 20,
-		Id = 50220112,
-		Desc = "神宗鬼卷·注卷",
-		Price = {
-			{
-				202,
-				40
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220113] = {
+	[50220137] = {
 		CommodityType = 1,
 		ShopID = 50102010,
 		BuyType = 2,
 		ItemId = 4,
-		Time = 10,
-		sort = 112,
+		sort = 120,
 		TimeOvrtShow = 1,
-		Number = 100000,
-		Id = 50220113,
+		Number = 100,
+		Id = 50220137,
 		Desc = "札币",
 		Price = {
 			{
-				202,
-				100
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220114] = {
-		CommodityType = 1,
-		ShopID = 50102010,
-		BuyType = 2,
-		ItemId = 4,
-		Time = 20,
-		sort = 113,
-		TimeOvrtShow = 1,
-		Number = 100000,
-		Id = 50220114,
-		Desc = "札币",
-		Price = {
-			{
-				202,
-				130
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220115] = {
-		CommodityType = 1,
-		ShopID = 50102010,
-		BuyType = 2,
-		ItemId = 50001,
-		sort = 114,
-		TimeOvrtShow = 1,
-		Number = 2,
-		Id = 50220115,
-		Desc = "阴阳秘文·残片",
-		Price = {
-			{
-				202,
-				1
-			},
-			{},
-			{},
-			{},
-			{},
-			{}
-		}
-	},
-	[50220116] = {
-		CommodityType = 1,
-		ShopID = 50102010,
-		BuyType = 2,
-		ItemId = 50031,
-		sort = 115,
-		TimeOvrtShow = 1,
-		Number = 2,
-		Id = 50220116,
-		Desc = "神宗鬼卷·抄本",
-		Price = {
-			{
-				202,
+				18,
 				1
 			},
 			{},

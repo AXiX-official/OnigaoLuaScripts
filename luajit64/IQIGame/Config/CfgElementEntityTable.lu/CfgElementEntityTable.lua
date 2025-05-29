@@ -2205,6 +2205,14 @@ local CfgElementEntityTable = {
 		DieTimelineId = 1016102,
 		BornTimelineId = 1016101
 	},
+	[100161] = {
+		PrefabName = "Battle/Role/Hero/WuN_Skin_01/CH_WuN_Skin_01",
+		IsPrefabFaceToRight = true,
+		HitTimelineId = 1016103,
+		DieTimelineId = 1016102,
+		Id = 100161,
+		BornTimelineId = 1016101
+	},
 	[100170] = {
 		PrefabName = "Battle/Role/Hero/Zhao/CH_Zhao",
 		IsPrefabFaceToRight = true,
@@ -2887,10 +2895,10 @@ local CfgElementEntityTable = {
 	[140803] = {
 		PrefabName = "Battle/Role/Hero/JiuBJJY/CH_JiuBJJY",
 		IsPrefabFaceToRight = true,
-		HitTimelineId = 10323,
-		DieTimelineId = 10332,
+		HitTimelineId = 1033103,
+		DieTimelineId = 1033102,
 		Id = 140803,
-		BornTimelineId = 10331
+		BornTimelineId = 1033101
 	},
 	[150001] = {
 		PrefabName = "Battle/Role/DIY/YingMTS/DIY_YingMTS",
@@ -3004,6 +3012,10 @@ local CfgElementEntityTable = {
 	[10810160] = {
 		Id = 10810160,
 		PrefabName = "Entity/UISpine/Hero/UI_WuN"
+	},
+	[10810161] = {
+		Id = 10810161,
+		PrefabName = "Entity/UISpine/Hero/UI_WuN_Skin01"
 	},
 	[10810170] = {
 		Id = 10810170,
@@ -4175,6 +4187,10 @@ local CfgElementEntityTable = {
 		Id = 10830011,
 		PrefabName = "Entity/Skin/UI_BoZ_Skin01"
 	},
+	[10830012] = {
+		Id = 10830012,
+		PrefabName = "Entity/Skin/UI_WuN_Skin_01"
+	},
 	[10830101] = {
 		Id = 10830101,
 		PrefabName = "Entity/Skin/LH_An_J1/UI_LH_An_J1"
@@ -4344,6 +4360,14 @@ local CfgElementEntityTable = {
 	[10831602] = {
 		Id = 10831602,
 		PrefabName = "Entity/Skin/LH_WuN_J3/UI_LH_WuN_J3"
+	},
+	[10831603] = {
+		Id = 10831603,
+		PrefabName = "Entity/Skin/WuN_Skin_01/UI_WuN_Skin_01"
+	},
+	[10831604] = {
+		Id = 10831604,
+		PrefabName = "Entity/Skin/WuN_Skin_01/UI_WuN_Skin_01_BG"
 	},
 	[10831701] = {
 		Id = 10831701,

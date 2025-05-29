@@ -33,12 +33,10 @@ end
 
 function EquipTipsContent:__AddListeners()
 	self.DetailBtn:GetComponent("Button").onClick:AddListener(self.__onDetailBtnClickEventProxy)
-	self.decomposeBtn:GetComponent("Button").onClick:AddListener(self.__OnDecomposeBtnClickEventProxy)
 end
 
 function EquipTipsContent:__RemoveListeners()
 	self.DetailBtn:GetComponent("Button").onClick:RemoveListener(self.__onDetailBtnClickEventProxy)
-	self.decomposeBtn:GetComponent("Button").onClick:RemoveListener(self.__OnDecomposeBtnClickEventProxy)
 end
 
 function EquipTipsContent:Dispose()
@@ -60,7 +58,6 @@ function EquipTipsContent:SetData(userData)
 	self.headContent:SetData(self.itemData, userData.cbParams)
 	self.infoContent:SetData(self.itemData, userData.cbParams)
 	self.DetailBtn:SetActive(not userData.cbParams.forShow)
-	self.decomposeBtn:SetActive(not userData.cbParams.forShow)
 
 	local isEquip = self:__RefreshWareState(self.itemData.equipData)
 
@@ -87,13 +84,6 @@ function EquipTipsContent:__OnDetailBtnClickEventHandler()
 	UIModule.Open(Constant.UIControllerName.EquipStrengthUI, Constant.UILayer.UI, {
 		isHideEquipButton = true,
 		equipData = self.itemData.equipData
-	})
-end
-
-function EquipTipsContent:__OnDecomposeBtnClickEventHandler()
-	UIModule.Close(Constant.UIControllerName.CommonEquipTipsUI)
-	net_equip.decomposeEquip({
-		self.itemData.id
 	})
 end
 

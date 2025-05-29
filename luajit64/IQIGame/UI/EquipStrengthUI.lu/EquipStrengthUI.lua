@@ -3,9 +3,16 @@
 local EquipStrengthUI = Base:Extend("EquipStrengthUI", "IQIGame.Onigao.UI.EquipStrengthUI", {})
 local EquipIntensifyView = require("IQIGame.UI.Equip.MainView.EquipIntensifyView")
 local EquipDescribeView = require("IQIGame.UI.Equip.MainView.EquipDescribeView")
+local EquipSuccinctView = require("IQIGame/UI/Equip/MainView/EquipSuccinctView")
 local UITabList = require("IQIGame.UI.Common.UITabList")
 
+require("IQIGame.UIExternalApi.EquipStrengthUIApi")
+
 function EquipStrengthUI:OnInit()
+	function self.DelegateJumpToStrength()
+		self:OnJumpToStrength()
+	end
+
 	self.moneyCell = CurrencyCell.New(self.CurrencyContainer)
 	self.equipImgParentAnimation = self.EquipImgParent:GetComponent("Animation")
 	self.uiTabList = UITabList.Create()
@@ -15,12 +22,13 @@ function EquipStrengthUI:OnInit()
 		return self.equipDescribeView
 	end, function(_isOn, _view)
 		if not _isOn then
-			_view:OnClose()
+			_view:Hide()
 
 			return
 		end
 
-		self.equipImgParentAnimation:Play("EquipImgParent_Desc")
+		self.EquipImgParent.gameObject:SetActive(true)
+		self.equipImgParentAnimation:Play("EquipImgParent_Strength")
 
 		if self.equipData ~= nil then
 			_view:OnOpen(self.equipData, self.isHideEquipButton)
@@ -42,6 +50,24 @@ function EquipStrengthUI:OnInit()
 
 		if self.equipData ~= nil then
 			_view:OnOpen(self.equipData)
+		end
+	end)
+
+	self.equipSuccinctView = EquipSuccinctView.New(self.EquipSuccinctParent)
+
+	self.uiTabList:AddTableItem(self.SuccinctTab, function()
+		return self.equipSuccinctView
+	end, function(_isOn, _view)
+		if not _isOn then
+			_view:Hide()
+
+			return
+		end
+
+		self.EquipImgParent.gameObject:SetActive(false)
+
+		if self.equipData ~= nil then
+			_view:Show(self.equipData, self.EquipImgParent)
 		end
 	end)
 
@@ -68,11 +94,11 @@ function EquipStrengthUI:OnClose(userData)
 end
 
 function EquipStrengthUI:OnAddListeners()
-	return
+	EventDispatcher.AddEventListener(EventID.JumpToStrengthEvent, self.DelegateJumpToStrength)
 end
 
 function EquipStrengthUI:OnRemoveListeners()
-	return
+	EventDispatcher.RemoveEventListener(EventID.JumpToStrengthEvent, self.DelegateJumpToStrength)
 end
 
 function EquipStrengthUI:OnPause()
@@ -125,6 +151,10 @@ end
 
 function EquipStrengthUI:GetBGM(userData)
 	return nil
+end
+
+function EquipStrengthUI:OnJumpToStrength()
+	self.uiTabList:ChangeSelectIndex(2)
 end
 
 return EquipStrengthUI

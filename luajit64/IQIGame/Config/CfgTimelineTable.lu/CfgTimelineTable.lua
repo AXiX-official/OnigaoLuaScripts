@@ -537,14 +537,17 @@ local CfgTimelineTable = {
 	},
 	[1016101] = {
 		Id = 1016101,
+		CloseRoleEffect = true,
 		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_born"
 	},
 	[1016102] = {
 		Id = 1016102,
+		CloseRoleEffect = true,
 		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_die"
 	},
 	[1016103] = {
 		Id = 1016103,
+		CloseRoleEffect = true,
 		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_hit"
 	},
 	[1016104] = {
@@ -552,7 +555,8 @@ local CfgTimelineTable = {
 		HitType = 1,
 		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_attack_1",
 		Id = 1016104,
-		HitBindingType = 1
+		HitBindingType = 1,
+		CloseRoleEffect = true
 	},
 	[1016105] = {
 		Id = 1016105,
@@ -561,6 +565,22 @@ local CfgTimelineTable = {
 		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_special_1",
 		Cinemachine = "Battle/Role/Hero/WuN/Sources/Cinemachine/TL_WuN_special_1",
 		IsHideTile = true,
+		ForceHitTarget = true,
+		CloseRoleEffect = true
+	},
+	[1016204] = {
+		HitType = 1,
+		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_Skin_01_attack_1",
+		Id = 1016204,
+		ForceHitTarget = true,
+		CloseRoleEffect = true
+	},
+	[1016205] = {
+		Id = 1016205,
+		HitType = 4,
+		MaskType = 4,
+		timeline = "Battle/Role/Hero/WuN/Sources/Timeline/TL_WuN_Skin_01_special_1",
+		Cinemachine = "Battle/Role/Hero/WuN/Sources/Cinemachine/TL_WuN_special_1",
 		ForceHitTarget = true,
 		CloseRoleEffect = true
 	},
@@ -2962,7 +2982,7 @@ local CfgTimelineTable = {
 		timeline = "Battle/Role/Monster/QianCZ/Sources/Timeline/TL_QianCZ_die"
 	},
 	[30254] = {
-		HitType = 4,
+		HitType = 6,
 		MaskType = 4,
 		timeline = "Battle/Role/Monster/QianCZ/Sources/Timeline/TL_QianCZ_special_1",
 		Id = 30254,
@@ -3028,7 +3048,7 @@ local CfgTimelineTable = {
 	},
 	[40131] = {
 		Id = 40131,
-		HitType = 4,
+		HitType = 6,
 		HitBindingType = 1,
 		timeline = "Battle/Role/Monster/HunDEY/Sources/Timeline/TL_HunDEY_attack_1"
 	},
@@ -3068,7 +3088,7 @@ local CfgTimelineTable = {
 	},
 	[40145] = {
 		Id = 40145,
-		HitType = 4,
+		HitType = 6,
 		MaskType = 4,
 		timeline = "Battle/Role/Monster/NingSZ/Sources/Timeline/TL_NingSZ_special_1"
 	},
@@ -3128,7 +3148,7 @@ local CfgTimelineTable = {
 	},
 	[50093] = {
 		Id = 50093,
-		HitType = 4,
+		HitType = 6,
 		timeline = "Battle/Role/Monster/HaiS_1/Sources/Timeline/TL_HaiS_1_attack_1",
 		Cinemachine = "Battle/Role/Monster/HaiS_1/Sources/Cinemachine/TL_HaiS_1_attack",
 		HitBindingType = 1
@@ -3147,7 +3167,7 @@ local CfgTimelineTable = {
 	},
 	[50096] = {
 		Id = 50096,
-		HitType = 4,
+		HitType = 6,
 		MaskType = 4,
 		timeline = "Battle/Role/Monster/HaiS_1/Sources/Timeline/TL_HaiS_1_special_1",
 		Cinemachine = "Battle/Role/Monster/HaiS_1/Sources/Cinemachine/TL_HaiS_1_special_1"
@@ -3170,7 +3190,7 @@ local CfgTimelineTable = {
 	},
 	[50103] = {
 		Id = 50103,
-		HitType = 4,
+		HitType = 6,
 		HitBindingType = 1,
 		timeline = "Battle/Role/Monster/HaiS_2/Sources/Timeline/TL_HaiS_2_attack_1"
 	},
@@ -3188,7 +3208,7 @@ local CfgTimelineTable = {
 	},
 	[50106] = {
 		Id = 50106,
-		HitType = 4,
+		HitType = 6,
 		MaskType = 4,
 		timeline = "Battle/Role/Monster/HaiS_2/Sources/Timeline/TL_HaiS_2_special_1",
 		Cinemachine = "Battle/Role/Monster/HaiS_2/Sources/Cinemachine/TL_HaiS_2_special_1"

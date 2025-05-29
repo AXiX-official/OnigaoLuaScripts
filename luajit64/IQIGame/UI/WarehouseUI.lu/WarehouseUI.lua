@@ -8,12 +8,15 @@ local ItemTipsContent = require("IQIGame.UI.CommonTips.ItemTipsContent.ItemTipsC
 local SkillTipsContent = require("IQIGame.UI.CommonTips.SkillTipsContent.SkillTipsContent")
 local CommonScreenControllerView = require("IQIGame/UI/Common/Screen/CommonScreenControllerView")
 local DecomposeContent = require("IQIGame.UI.Common.Decompose.DecomposeContent")
+local EquipDecomposeContent = require("IQIGame.UI.Common.Decompose.EquipDecomposeContent")
 local WarehouseUI = {
 	decomposeState = false,
+	equipDecomposeState = false,
 	sortOrder = true,
 	TabRedDots = {},
 	itemCells = {},
-	decomposeItemList = {}
+	decomposeItemList = {},
+	equipDecomposeItemList = {}
 }
 
 WarehouseUI = Base:Extend("NewWarehouseUI", "IQIGame.Onigao.UI.WarehouseUI", WarehouseUI)
@@ -41,6 +44,7 @@ function WarehouseUI:OnInit()
 	self.itemTipsContent = ItemTipsContent.New(self.ItemTipsContent)
 	self.skillTipsContent = SkillTipsContent.New(self.SkillTipsContent)
 	self.decomposeContent = DecomposeContent.New(self.DecomposeContent)
+	self.equipDecomposeContent = EquipDecomposeContent.New(self.EquipDecomposeContent)
 end
 
 function WarehouseUI:GetPreloadAssetPaths()
@@ -66,6 +70,11 @@ function WarehouseUI:OnOpen(userData)
 
 	self.decomposeState = false
 	self.decomposeItemList = {}
+
+	self.equipDecomposeContent:Hide()
+
+	self.equipDecomposeState = false
+	self.equipDecomposeItemList = {}
 
 	if userData ~= nil then
 		if userData.mianTable ~= nil then
@@ -110,6 +119,22 @@ function WarehouseUI:PrepareEventProxy()
 	function self.__OndelegateDecomposeItemResult()
 		self:__OnDecomposeItemResult()
 	end
+
+	function self.__delegateOnClickEquipDecomposeBtn()
+		self:__OnClickEquipDecomposeBtn()
+	end
+
+	function self.__delegateOnClickCancelEquipDecomposeBtn()
+		self:__OnClickCancelEquipDecomposeBtn()
+	end
+
+	function self.__delegateOnClickQuickSelectEquipBtn()
+		self:__OnClickQuickSelectEquipBtn()
+	end
+
+	function self.__delegateEquipDecomposeItemResult()
+		self:__OnEquipDecomposeItemResult()
+	end
 end
 
 function WarehouseUI:OnAddListeners()
@@ -119,6 +144,10 @@ function WarehouseUI:OnAddListeners()
 	self.DecomposeBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnClickDecomposeBtn)
 	self.CancelDecomposeBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnClickCancelDecomposeBtn)
 	self.QuickSelectBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnClickQuickSelectBtn)
+	self.EquipDecomposeBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnClickEquipDecomposeBtn)
+	self.CancelEquipDecomposeBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnClickCancelEquipDecomposeBtn)
+	self.QuickSelectEquipBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnClickQuickSelectEquipBtn)
+	EventDispatcher.AddEventListener(EventID.EquipDecomposeItemResult, self.__delegateEquipDecomposeItemResult)
 end
 
 function WarehouseUI:OnRemoveListeners()
@@ -128,6 +157,10 @@ function WarehouseUI:OnRemoveListeners()
 	self.DecomposeBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnClickDecomposeBtn)
 	self.CancelDecomposeBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnClickCancelDecomposeBtn)
 	self.QuickSelectBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnClickQuickSelectBtn)
+	self.EquipDecomposeBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnClickEquipDecomposeBtn)
+	self.CancelEquipDecomposeBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnClickCancelEquipDecomposeBtn)
+	self.QuickSelectEquipBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnClickQuickSelectEquipBtn)
+	EventDispatcher.RemoveEventListener(EventID.EquipDecomposeItemResult, self.__delegateEquipDecomposeItemResult)
 end
 
 function WarehouseUI:OnPause()
@@ -237,6 +270,11 @@ function WarehouseUI:__OnSelectTabChangeEvent()
 	self.decomposeContent:Hide()
 
 	self.decomposeItemList = {}
+
+	self.equipDecomposeContent:Hide()
+
+	self.equipDecomposeState = false
+	self.equipDecomposeItemList = {}
 	self.curEquipPartIndex = -1
 
 	self:__RefreshGoodsShow(nil, nil, true)
@@ -247,6 +285,9 @@ function WarehouseUI:__RefreshGoodsShow(selectItemID, itemData, isToggleTrigger)
 		self.curSelectItem:SetItem(itemData[1])
 		self.curSelectItem:SetSelectItemId(itemData[1].id)
 	else
+		LuaUtility.SetGameObjectShow(self.DecomposeParent, false)
+		LuaUtility.SetGameObjectShow(self.EquipDecomposeParent, false)
+
 		local tabItem = self.tabList.tableItems[self.tabList.selectIndex]
 
 		if tabItem.goodsType == Constant.WarehouseDepotType.Equip then
@@ -257,7 +298,13 @@ function WarehouseUI:__RefreshGoodsShow(selectItemID, itemData, isToggleTrigger)
 			local commonScreenData = CommonScreenModule.GetCommonEquipScreenData(true)
 
 			self.screenControllerView:SetScreenPopupData(commonScreenData, true)
-			LuaUtility.SetGameObjectShow(self.DecomposeParent, false)
+			LuaUtility.SetGameObjectShow(self.EquipDecomposeParent, true)
+
+			if not self.equipDecomposeState then
+				self:__SetEquipDecomposeShowState(false)
+			end
+
+			self.equipDecomposeType = Constant.CommonConditionSelectionType.Color
 
 			if isToggleTrigger then
 				self.equipPartTabList:ChangeSelectIndex(1)
@@ -282,14 +329,13 @@ function WarehouseUI:__RefreshGoodsShow(selectItemID, itemData, isToggleTrigger)
 			self.screenControllerView:SetSortOrderData(true)
 			self.screenControllerView:SetScreenPopupData(nil)
 			self.EquipHoleParent.gameObject:SetActive(false)
-			LuaUtility.SetGameObjectShow(self.DecomposeParent, false)
 		end
 
 		self:__DoRefreshData(selectItemID, true)
 	end
 end
 
-function WarehouseUI:__DoRefreshData(selectItemID, resetData)
+function WarehouseUI:__DoRefreshData(selectItemID, resetData, excludeLockEquip)
 	local tabItem = self.tabList.tableItems[self.tabList.selectIndex]
 	local sortType = self.screenControllerView.sortIndex
 	local ascending = self.screenControllerView.ascending
@@ -321,6 +367,18 @@ function WarehouseUI:__DoRefreshData(selectItemID, resetData)
 	end
 
 	if tabItem.goodsType == Constant.WarehouseDepotType.Equip then
+		if excludeLockEquip then
+			local items = {}
+
+			for i, v in pairs(self.items) do
+				if v.equipData.isLock == false and v.equipData:GetCfg().Isdestroyed and (v.equipData.heroCid == nil or v.equipData.heroCid == 0) then
+					table.insert(items, v)
+				end
+			end
+
+			self.items = items
+		end
+
 		WarehouseModule.SortEquips(self.items, sortType, ascending)
 	elseif tabItem.goodsType == Constant.WarehouseDepotType.Skill then
 		if not self.decomposeState then
@@ -394,9 +452,17 @@ function WarehouseUI:__OnRenderItemCell(cell)
 
 	itemCell:SetItem(itemData)
 
-	if self.decomposeState then
+	if self.decomposeState and self.decomposeType == Constant.CommonConditionSelectionType.Quality then
 		if table.indexOf(self.decomposeItemList, itemData.id) ~= -1 then
 			itemCell:SetSelectState(true)
+		else
+			itemCell:SetSelectState(false)
+		end
+	elseif self.equipDecomposeState and self.equipDecomposeType == Constant.CommonConditionSelectionType.Color then
+		if table.indexOf(self.equipDecomposeItemList, itemData.id) ~= -1 then
+			itemCell:SetSelectState(true)
+		else
+			itemCell:SetSelectState(false)
 		end
 	else
 		itemCell:SetSelectItemId(self.curSelectItemID)
@@ -404,8 +470,14 @@ function WarehouseUI:__OnRenderItemCell(cell)
 end
 
 function WarehouseUI:__OnItemCellClickEventHandler(bagCell)
-	if self.decomposeState then
+	if self.decomposeState and self.decomposeType == Constant.CommonConditionSelectionType.Quality then
 		self:__UpdateDecomposeItem(bagCell)
+
+		return
+	end
+
+	if self.equipDecomposeState and self.equipDecomposeType == Constant.CommonConditionSelectionType.Color then
+		self:__UpdateEquipDecomposeItem(bagCell)
 
 		return
 	end
@@ -435,7 +507,7 @@ function WarehouseUI:__ShowItemTips(itemData)
 		return
 	end
 
-	if self.decomposeState then
+	if self.decomposeState or self.equipDecomposeState then
 		return
 	end
 
@@ -494,19 +566,20 @@ function WarehouseUI:__InitEquipPartToggle()
 
 	self.equipPartTabList = UITabList.Create()
 
+	if self.equipTableView.Gu then
+		self.equipTableView.Gu.gameObject:SetActive(false)
+	end
+
+	if self.equipTableView.Hun then
+		self.equipTableView.Hun.gameObject:SetActive(false)
+	end
+
 	self.equipPartTabList:AddTableItem(self.equipTableView.All, nil, function(_isOn, _view)
 		if not _isOn then
 			return
 		end
 
 		self:__OnSelectPartIndex(0)
-	end)
-	self.equipPartTabList:AddTableItem(self.equipTableView.Gu, nil, function(_isOn, _view)
-		if not _isOn then
-			return
-		end
-
-		self:__OnSelectPartIndex(Constant.Equip.Part.Gu)
 	end)
 	self.equipPartTabList:AddTableItem(self.equipTableView.Xing, nil, function(_isOn, _view)
 		if not _isOn then
@@ -536,13 +609,6 @@ function WarehouseUI:__InitEquipPartToggle()
 
 		self:__OnSelectPartIndex(Constant.Equip.Part.Chu)
 	end)
-	self.equipPartTabList:AddTableItem(self.equipTableView.Hun, nil, function(_isOn, _view)
-		if not _isOn then
-			return
-		end
-
-		self:__OnSelectPartIndex(Constant.Equip.Part.Hun)
-	end)
 end
 
 function WarehouseUI:__DestroyEquipPartToggle()
@@ -569,6 +635,7 @@ function WarehouseUI:__OnClickDecomposeBtn()
 
 		_bagCell:SetSelectState(false)
 	end)
+	self:__HideAllDecomposeContent()
 
 	self.decomposeState = true
 
@@ -617,8 +684,12 @@ function WarehouseUI:__OnUpdateDecomposeItemList(conditionList)
 	self.decomposeItemList = {}
 
 	ForPairs(self.items, function(_, _item)
-		if self.decomposeType == Constant.CommonConditionSelectionType.Quality and table.indexOf(conditionList, _item.skillData.Quality) ~= -1 then
-			table.insert(self.decomposeItemList, _item.id)
+		if self.decomposeType == Constant.CommonConditionSelectionType.Quality then
+			if table.indexOf(conditionList, _item.skillData.Quality) ~= -1 then
+				table.insert(self.decomposeItemList, _item.id)
+			end
+		elseif self.equipDecomposeType == Constant.CommonConditionSelectionType.Color and table.indexOf(conditionList, _item.equipData:GetEquipCfg().Quality ~= -1) then
+			table.insert(self.equipDecomposeItemList, _item.id)
 		end
 	end)
 end
@@ -644,6 +715,14 @@ function WarehouseUI:__SetDecomposeShowState(state)
 	LuaUtility.SetGameObjectShow(self.QuickSelectBtn, state)
 end
 
+function WarehouseUI:__HideAllDecomposeContent()
+	self.decomposeContent:Hide()
+	self.equipDecomposeContent:Hide()
+
+	self.decomposeState = false
+	self.equipDecomposeState = false
+end
+
 function WarehouseUI:__OnDecomposeItemResult()
 	if not self.decomposeState then
 		return
@@ -653,6 +732,104 @@ function WarehouseUI:__OnDecomposeItemResult()
 
 	self:__DoRefreshData(nil, true)
 	self.decomposeContent:SetData(self.decomposeItemList)
+end
+
+function WarehouseUI:__OnClickEquipDecomposeBtn()
+	BagItemCell.ForeachAll(self, function(_bagCell)
+		if not _bagCell.View.activeSelf then
+			return
+		end
+
+		_bagCell:SetSelectState(false)
+	end)
+	self:__HideAllDecomposeContent()
+
+	self.equipDecomposeState = true
+
+	self.equipDecomposeContent:Show()
+	self.equipDecomposeContent:SetData(self.decomposeItemList)
+	self:__SetEquipDecomposeShowState(true)
+	self:__HideAllTips()
+	self:__DoRefreshData(nil, true, true)
+end
+
+function WarehouseUI:__OnClickCancelEquipDecomposeBtn()
+	self.equipDecomposeState = false
+
+	self.equipDecomposeContent:Hide()
+
+	self.equipDecomposeItemList = {}
+
+	self:__SetEquipDecomposeShowState(false)
+	self:__DoRefreshData(nil, true)
+end
+
+function WarehouseUI:__OnClickQuickSelectEquipBtn()
+	UIModule.Open(Constant.UIControllerName.CommonConditionSelectionUI, Constant.UILayer.UI, {
+		type = Constant.CommonConditionSelectionType.Color,
+		conditionList = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		callback = function(conditionList, isCancel)
+			self:__OnConditionEquipSelectionCallback(conditionList, isCancel)
+		end
+	})
+end
+
+function WarehouseUI:__OnConditionEquipSelectionCallback(conditionList, isCancel)
+	if isCancel then
+		return
+	end
+
+	self:__OnUpdateEquipDecomposeItemList(conditionList)
+	self:__DoRefreshData(nil, true)
+	self.equipDecomposeContent:SetData(self.equipDecomposeItemList)
+end
+
+function WarehouseUI:__OnUpdateEquipDecomposeItemList(conditionList)
+	self.equipDecomposeItemList = {}
+
+	ForPairs(self.items, function(_, _item)
+		if self.equipDecomposeType == Constant.CommonConditionSelectionType.Color and table.indexOf(conditionList, _item.equipData:GetEquipCfg().Quality) ~= -1 then
+			table.insert(self.equipDecomposeItemList, _item.id)
+		end
+	end)
+end
+
+function WarehouseUI:__UpdateEquipDecomposeItem(bagCell)
+	local index = table.indexOf(self.equipDecomposeItemList, bagCell.itemData.id)
+
+	if index == -1 then
+		table.insert(self.equipDecomposeItemList, bagCell.itemData.id)
+		bagCell:SetSelectState(true)
+	else
+		bagCell:SetSelectState(false)
+
+		self.equipDecomposeItemList[index] = nil
+	end
+
+	self.equipDecomposeContent:SetData(self.equipDecomposeItemList)
+end
+
+function WarehouseUI:__SetEquipDecomposeShowState(state)
+	LuaUtility.SetGameObjectShow(self.EquipDecomposeBtn, not state)
+	LuaUtility.SetGameObjectShow(self.CancelEquipDecomposeBtn, state)
+	LuaUtility.SetGameObjectShow(self.QuickSelectEquipBtn, state)
+end
+
+function WarehouseUI:__OnEquipDecomposeItemResult()
+	if not self.equipDecomposeState then
+		return
+	end
+
+	self.equipDecomposeItemList = {}
+
+	self:__DoRefreshData(nil, true)
+	self.equipDecomposeContent:SetData(self.equipDecomposeItemList)
 end
 
 return WarehouseUI

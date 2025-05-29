@@ -19,5 +19,21 @@ function net_equip.lockEquipResult(code)
 end
 
 function net_equip.decomposeEquipResult(code)
-	EquipModule.OnDecomposeEquipSuccess(code)
+	EquipModule.OnDecomposeEquipSuccess()
+end
+
+function net_equip.succinctAttrResult(code, id, attrCid, type, attrMap, attrValueMap)
+	local userData = {
+		equipId = id,
+		attrCid = attrCid,
+		succinctType = type,
+		attrMap = attrMap,
+		attrValueMap = attrValueMap
+	}
+
+	UIModule.Open(Constant.UIControllerName.EquipSuccinctTipsUI, Constant.UILayer.UI, userData)
+end
+
+function net_equip.applySuccinctAttrResult(code)
+	EventDispatcher.Dispatch(EventID.OnApplySuccinctAttrResult)
 end

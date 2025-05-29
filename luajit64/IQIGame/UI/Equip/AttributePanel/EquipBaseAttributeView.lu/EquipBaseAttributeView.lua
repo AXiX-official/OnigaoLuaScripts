@@ -17,6 +17,9 @@ function EquipBaseAttributeView:Initialize(go)
 	LuaCodeInterface.BindOutlet(go, self)
 
 	self.gameObject = go
+
+	self.AttributeItemPrefab.gameObject:SetActive(false)
+
 	self.BaseAttributeTitleText:GetComponent("Text").text = EquipApi:GetTextFoldBaseAttribute()
 
 	self:OnInitDelegation()

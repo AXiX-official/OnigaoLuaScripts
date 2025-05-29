@@ -231,7 +231,9 @@ function EquipWarehouseUI:RefreshEquipWarehousePanel(selectRefresh)
 		for k, v in pairs(self.curEquipCellList) do
 			local data = self.sortEquipDataList[k + 1]
 
-			v:Refresh(data, v.tableIndex)
+			if data then
+				v:Refresh(data, v.tableIndex)
+			end
 		end
 	else
 		self.curEquipCellList = {}

@@ -444,8 +444,8 @@ function EquipModule.IntensifyEquipSucceed(oldEquipPOD, equipPOD)
 	})
 end
 
-function EquipModule.OnDecomposeEquipSuccess(code)
-	return
+function EquipModule.OnDecomposeEquipSuccess()
+	EventDispatcher.Dispatch(EventID.EquipDecomposeItemResult)
 end
 
 function EquipModule.GetHasWearEquip()

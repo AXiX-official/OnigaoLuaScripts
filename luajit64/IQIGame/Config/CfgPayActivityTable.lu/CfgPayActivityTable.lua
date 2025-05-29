@@ -239,7 +239,7 @@ local CfgPayActivityTable = {
 		Type = 2,
 		Id = 10102,
 		Order = 2,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_Pass_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_Pass_Banner_01_2.png",
 		Name = getI18NValue(180253655)
 	},
 	[10103] = {
@@ -255,7 +255,6 @@ local CfgPayActivityTable = {
 	[10104] = {
 		Skip = 20000010,
 		UIPrefab = "/_Notice/Notice_SkinAn_1",
-		Type = 2,
 		Id = 10104,
 		ShowCondition = 40011001,
 		Order = 4,
@@ -264,12 +263,12 @@ local CfgPayActivityTable = {
 	},
 	[10105] = {
 		Id = 10105,
-		OpenTime = "2025/5/7 12:00",
+		OpenTime = "2025/5/28 12:00",
 		Type = 2,
 		Skip = 10202002,
 		Order = 8,
-		UIPrefab = "/_Notice/Notice_Lottery_beitiaonandu_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_beitiaonandu_Banner_01_1.png",
+		UIPrefab = "/_Notice/Notice_Lottery_Jiubj_1",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/small_Lottery_Jiubj_Banner_01_1.png",
 		Name = getI18NValue(180253658),
 		Duration = {
 			1785600
@@ -289,17 +288,14 @@ local CfgPayActivityTable = {
 		}
 	},
 	[10107] = {
-		Id = 10107,
-		OpenTime = "2024/1/1 4:00",
+		Skip = 20000010,
+		UIPrefab = "/_Notice/Notice_SkinWuN_1",
 		Type = 2,
-		Skip = 20000040,
+		Id = 10107,
+		ShowCondition = 40011004,
 		Order = 5,
-		UIPrefab = "/_Notice/Notice_FanLi_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_FanLi_Banner_1.png",
-		Name = getI18NValue(180258144),
-		Duration = {
-			604800
-		}
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_SkinWuN_Banner_01_1.png",
+		Name = getI18NValue(180258144)
 	},
 	[10108] = {
 		Id = 10108,
@@ -316,15 +312,15 @@ local CfgPayActivityTable = {
 	},
 	[10109] = {
 		Id = 10109,
-		OpenTime = "2024/1/1 4:00",
+		OpenTime = "2025/5/14 4:00",
 		Type = 2,
 		Skip = 30020101,
 		Order = 7,
-		UIPrefab = "/_Notice/Notice_Lottery_kanjieyoulei_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_kanjieyoulei_Banner_01_1.png",
+		UIPrefab = "/_Notice/Notice_SummerHoliday",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_SummerHoliday.png",
 		Name = getI18NValue(180259224),
 		Duration = {
-			604800
+			2678400
 		}
 	},
 	[10110] = {
@@ -365,7 +361,7 @@ local CfgPayActivityTable = {
 		Type = 3,
 		Id = 30102,
 		Order = 2,
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_Pass_Banner_01_1.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_Pass_Banner_01_2.png",
 		Name = getI18NValue(180255854)
 	},
 	[30103] = {
@@ -381,7 +377,6 @@ local CfgPayActivityTable = {
 	[30104] = {
 		Skip = 20000010,
 		UIPrefab = "/_Notice/Notice_SkinAn_1",
-		Type = 3,
 		Id = 30104,
 		ShowCondition = 40011001,
 		Order = 4,
@@ -390,12 +385,12 @@ local CfgPayActivityTable = {
 	},
 	[30105] = {
 		Id = 30105,
-		OpenTime = "2025/5/7 12:00",
+		OpenTime = "2025/5/28 12:00",
 		Type = 3,
 		Skip = 10202002,
 		Order = 8,
-		UIPrefab = "/_Notice/Notice_Lottery_beitiaonandu_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_beitiaonandu_Banner_01_1.png",
+		UIPrefab = "/_Notice/Notice_Lottery_Jiubj_1",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/small_Lottery_Jiubj_Banner_01_1.png",
 		Name = getI18NValue(180255857),
 		Duration = {
 			1785600
@@ -415,25 +410,21 @@ local CfgPayActivityTable = {
 		}
 	},
 	[30107] = {
-		Id = 30107,
-		OpenTime = "2024/1/1 4:00",
+		Skip = 20000010,
+		UIPrefab = "/_Notice/Notice_SkinWuN_1",
 		Type = 3,
-		Skip = 20000040,
+		Id = 30107,
+		ShowCondition = 40011004,
 		Order = 5,
-		UIPrefab = "/_Notice/Notice_FanLi_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_FanLi_Banner_1.png",
-		Name = getI18NValue(180258146),
-		Duration = {
-			604800
-		}
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_SkinWuN_Banner_01_1.png",
+		Name = getI18NValue(180258146)
 	},
 	[30108] = {
-		Id = 30108,
-		OpenTime = "2024/1/1 4:00",
-		Type = 3,
 		Skip = 20000040,
-		Order = 6,
+		OpenTime = "2024/1/1 4:00",
 		UIPrefab = "/_Notice/Notice_FanLi_2",
+		Id = 30108,
+		Order = 6,
 		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_FanLi_Banner_1.png",
 		Name = getI18NValue(180258147),
 		Duration = {
@@ -446,8 +437,8 @@ local CfgPayActivityTable = {
 		Type = 3,
 		Skip = 30020101,
 		Order = 7,
-		UIPrefab = "/_Notice/Notice_Lottery_kanjieyoulei_1",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Samll_Lottery_kanjieyoulei_Banner_01_1.png",
+		UIPrefab = "/_Notice/Notice_SummerHoliday",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_SummerHoliday.png",
 		Name = getI18NValue(180259225),
 		Duration = {
 			604800

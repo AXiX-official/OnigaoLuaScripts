@@ -16,7 +16,7 @@ local CfgDiscreteDataTable = {
 	[24] = {
 		Id = 24,
 		Data = {
-			80
+			100
 		}
 	},
 	{
@@ -773,7 +773,7 @@ local CfgDiscreteDataTable = {
 			50012,
 			1000,
 			50011,
-			200
+			500
 		}
 	},
 	[108] = {
@@ -807,7 +807,7 @@ local CfgDiscreteDataTable = {
 			3,
 			680,
 			1,
-			80211,
+			80228,
 			1,
 			1,
 			4,
@@ -828,7 +828,7 @@ local CfgDiscreteDataTable = {
 			3001,
 			15,
 			0,
-			80211,
+			80228,
 			3,
 			0,
 			55002,
@@ -842,7 +842,7 @@ local CfgDiscreteDataTable = {
 			3,
 			980,
 			1,
-			80211,
+			80228,
 			1,
 			1,
 			55002,
@@ -866,7 +866,7 @@ local CfgDiscreteDataTable = {
 			3001,
 			15,
 			0,
-			80211,
+			80228,
 			3,
 			0,
 			55002,
@@ -880,7 +880,7 @@ local CfgDiscreteDataTable = {
 			3,
 			300,
 			1,
-			80211,
+			80228,
 			1,
 			1,
 			55002,
@@ -904,7 +904,7 @@ local CfgDiscreteDataTable = {
 			3001,
 			15,
 			0,
-			80211,
+			80228,
 			3,
 			0,
 			55002,
@@ -1071,6 +1071,24 @@ local CfgDiscreteDataTable = {
 			5,
 			4,
 			5
+		}
+	},
+	[210] = {
+		Id = 210,
+		Data = {
+			50041,
+			1,
+			4,
+			5000
+		}
+	},
+	[211] = {
+		Id = 211,
+		Data = {
+			50042,
+			1,
+			4,
+			5000
 		}
 	},
 	[10001] = {

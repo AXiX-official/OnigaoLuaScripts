@@ -32,6 +32,7 @@ function EquipData:Update(equipData, ItemData)
 	self.heroCid = equipData.heroCid
 	self.isLock = equipData.lock
 	self.isMaxLv = self.lv == self:GetMaxLv()
+	self.sourceSlaverAttrs = equipData.slaverAttrs
 	self.baseAttribute.Main = EquipData.InitMainAttributeData(equipData.masterAttrs)
 	self.baseAttribute.Other = EquipData.InitOtherAttributeData(equipData.slaverAttrs)
 	self.AttributeDic = EquipData.GetAttributeTable(equipData.masterAttrs, equipData.slaverAttrs)
@@ -162,6 +163,16 @@ function EquipData:GetAttributeValue(attributeId, base)
 	end
 
 	return value
+end
+
+function EquipData:GetEquipCfgByLevel()
+	for k, v in pairsCfg(CfgEquipLevelTable) do
+		if v.Quality == self:GetEquipCfg().Quality and v.Place == self:GetEquipCfg().Place and v.Level == self.lv then
+			return v
+		end
+	end
+
+	return nil
 end
 
 function EquipData:SortByLevel(target, ascending)

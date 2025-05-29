@@ -270,7 +270,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[401] = {
-		Type = 15,
+		Type = 13,
 		Id = 401,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/SummerActivity/SummerActivityStage/SummerActivityStage_Toggle_1.png",
 		UnlockConditionId = 30000001,
@@ -282,7 +282,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[402] = {
-		Type = 15,
+		Type = 13,
 		Id = 402,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/SummerActivity/SummerActivityStage/SummerActivityStage_Toggle_2.png",
 		UnlockConditionId = 30000010,
@@ -294,7 +294,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[403] = {
-		Type = 15,
+		Type = 13,
 		Id = 403,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/SummerActivity/SummerActivityStage/SummerActivityStage_Toggle_3.png",
 		UnlockConditionId = 30000030,
@@ -318,7 +318,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[405] = {
-		Type = 13,
+		Type = 15,
 		Id = 405,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityStage/XiaNaiActivityStage_Img_09.png",
 		UnlockConditionId = 30000005,
@@ -330,7 +330,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[406] = {
-		Type = 13,
+		Type = 15,
 		Id = 406,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityStage/XiaNaiActivityStage_Img_10.png",
 		UnlockConditionId = 30000010,
@@ -342,7 +342,7 @@ local CfgGeneralDupChapterTable = {
 		Desc = null
 	},
 	[407] = {
-		Type = 13,
+		Type = 15,
 		Id = 407,
 		BackPicture = "Assets/05_Images/UI/ActivityPart/XiaNaiActivity/XiaNaiActivityStage/XiaNaiActivityStage_Img_11.png",
 		UnlockConditionId = 30000015,

@@ -4019,6 +4019,63 @@ local CfgHeroSkinDisplayActionControlTable = {
 			0
 		}
 	},
+	[10401605] = {
+		ID = 10401605,
+		Idle = {
+			10416817,
+			0
+		},
+		LevelUp = {
+			10416813,
+			0
+		},
+		Train = {
+			10416814,
+			0
+		},
+		Close = {
+			10416813,
+			0,
+			10416814,
+			0
+		},
+		TouchFeedback = {
+			10416813,
+			0,
+			10416814,
+			0
+		},
+		StandbyAction = {
+			10416816,
+			0,
+			10416817,
+			0
+		},
+		MorningGreetings = {
+			10416707,
+			0
+		},
+		NoonGreetings = {
+			10416708,
+			0
+		},
+		EveningGreetings = {
+			10416709,
+			0
+		},
+		LateEveningGreetings = {
+			10416710,
+			0
+		},
+		BattleWin = {
+			10416817,
+			0
+		},
+		BattleLose = {
+			10416817,
+			0
+		}
+	},
 	[10401701] = {
 		ID = 10401701,
 		Idle = {

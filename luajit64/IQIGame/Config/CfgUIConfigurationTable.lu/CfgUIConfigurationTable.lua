@@ -604,6 +604,15 @@ local CfgUIConfigurationTable = {
 		UILayer = "UI",
 		FullScreen = true,
 		NeedFade = 1
+	},
+	{
+		BlurBG = true,
+		FadeInDuration = 0.05,
+		UIName = "EquipSuccinctTipsUI",
+		Id = 88,
+		UILayer = "UI",
+		FullScreen = true,
+		NeedFade = 1
 	}
 }
 
