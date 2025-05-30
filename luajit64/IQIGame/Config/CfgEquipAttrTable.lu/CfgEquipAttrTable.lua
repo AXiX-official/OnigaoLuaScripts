@@ -1048,7 +1048,7 @@ local CfgEquipAttrTable = {
 	[2311] = {
 		MasterAttrType = 21,
 		Id = 2311,
-		Weight = 650,
+		Weight = 520,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1061,7 +1061,7 @@ local CfgEquipAttrTable = {
 	[2312] = {
 		MasterAttrType = 21,
 		Id = 2312,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1074,7 +1074,7 @@ local CfgEquipAttrTable = {
 	[2321] = {
 		MasterAttrType = 21,
 		Id = 2321,
-		Weight = 350,
+		Weight = 280,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1087,7 +1087,7 @@ local CfgEquipAttrTable = {
 	[2322] = {
 		MasterAttrType = 21,
 		Id = 2322,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1100,7 +1100,7 @@ local CfgEquipAttrTable = {
 	[2323] = {
 		MasterAttrType = 21,
 		Id = 2323,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1113,7 +1113,7 @@ local CfgEquipAttrTable = {
 	[2332] = {
 		MasterAttrType = 21,
 		Id = 2332,
-		Weight = 350,
+		Weight = 280,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1126,7 +1126,7 @@ local CfgEquipAttrTable = {
 	[2333] = {
 		MasterAttrType = 21,
 		Id = 2333,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1139,7 +1139,7 @@ local CfgEquipAttrTable = {
 	[2334] = {
 		MasterAttrType = 21,
 		Id = 2334,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1152,7 +1152,7 @@ local CfgEquipAttrTable = {
 	[2342] = {
 		MasterAttrType = 21,
 		Id = 2342,
-		Weight = 300,
+		Weight = 240,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1165,7 +1165,7 @@ local CfgEquipAttrTable = {
 	[2343] = {
 		MasterAttrType = 21,
 		Id = 2343,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1178,7 +1178,7 @@ local CfgEquipAttrTable = {
 	[2344] = {
 		MasterAttrType = 21,
 		Id = 2344,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1191,7 +1191,7 @@ local CfgEquipAttrTable = {
 	[2345] = {
 		MasterAttrType = 21,
 		Id = 2345,
-		Weight = 50,
+		Weight = 40,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1204,7 +1204,7 @@ local CfgEquipAttrTable = {
 	[2352] = {
 		MasterAttrType = 21,
 		Id = 2352,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1217,7 +1217,7 @@ local CfgEquipAttrTable = {
 	[2353] = {
 		MasterAttrType = 21,
 		Id = 2353,
-		Weight = 400,
+		Weight = 320,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1230,7 +1230,7 @@ local CfgEquipAttrTable = {
 	[2354] = {
 		MasterAttrType = 21,
 		Id = 2354,
-		Weight = 250,
+		Weight = 200,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1243,7 +1243,7 @@ local CfgEquipAttrTable = {
 	[2355] = {
 		MasterAttrType = 21,
 		Id = 2355,
-		Weight = 150,
+		Weight = 120,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1256,7 +1256,7 @@ local CfgEquipAttrTable = {
 	[2411] = {
 		MasterAttrType = 22,
 		Id = 2411,
-		Weight = 650,
+		Weight = 520,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1269,7 +1269,7 @@ local CfgEquipAttrTable = {
 	[2412] = {
 		MasterAttrType = 22,
 		Id = 2412,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1282,7 +1282,7 @@ local CfgEquipAttrTable = {
 	[2421] = {
 		MasterAttrType = 22,
 		Id = 2421,
-		Weight = 350,
+		Weight = 280,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1295,7 +1295,7 @@ local CfgEquipAttrTable = {
 	[2422] = {
 		MasterAttrType = 22,
 		Id = 2422,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1308,7 +1308,7 @@ local CfgEquipAttrTable = {
 	[2423] = {
 		MasterAttrType = 22,
 		Id = 2423,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1321,7 +1321,7 @@ local CfgEquipAttrTable = {
 	[2432] = {
 		MasterAttrType = 22,
 		Id = 2432,
-		Weight = 350,
+		Weight = 280,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1334,7 +1334,7 @@ local CfgEquipAttrTable = {
 	[2433] = {
 		MasterAttrType = 22,
 		Id = 2433,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1347,7 +1347,7 @@ local CfgEquipAttrTable = {
 	[2434] = {
 		MasterAttrType = 22,
 		Id = 2434,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1360,7 +1360,7 @@ local CfgEquipAttrTable = {
 	[2442] = {
 		MasterAttrType = 22,
 		Id = 2442,
-		Weight = 300,
+		Weight = 240,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1373,7 +1373,7 @@ local CfgEquipAttrTable = {
 	[2443] = {
 		MasterAttrType = 22,
 		Id = 2443,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1386,7 +1386,7 @@ local CfgEquipAttrTable = {
 	[2444] = {
 		MasterAttrType = 22,
 		Id = 2444,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1399,7 +1399,7 @@ local CfgEquipAttrTable = {
 	[2445] = {
 		MasterAttrType = 22,
 		Id = 2445,
-		Weight = 50,
+		Weight = 40,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1412,7 +1412,7 @@ local CfgEquipAttrTable = {
 	[2452] = {
 		MasterAttrType = 22,
 		Id = 2452,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1425,7 +1425,7 @@ local CfgEquipAttrTable = {
 	[2453] = {
 		MasterAttrType = 22,
 		Id = 2453,
-		Weight = 400,
+		Weight = 320,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1438,7 +1438,7 @@ local CfgEquipAttrTable = {
 	[2454] = {
 		MasterAttrType = 22,
 		Id = 2454,
-		Weight = 250,
+		Weight = 200,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1451,7 +1451,7 @@ local CfgEquipAttrTable = {
 	[2455] = {
 		MasterAttrType = 22,
 		Id = 2455,
-		Weight = 150,
+		Weight = 120,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1464,7 +1464,7 @@ local CfgEquipAttrTable = {
 	[2511] = {
 		MasterAttrType = 23,
 		Id = 2511,
-		Weight = 650,
+		Weight = 520,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1477,7 +1477,7 @@ local CfgEquipAttrTable = {
 	[2512] = {
 		MasterAttrType = 23,
 		Id = 2512,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1490,7 +1490,7 @@ local CfgEquipAttrTable = {
 	[2521] = {
 		MasterAttrType = 23,
 		Id = 2521,
-		Weight = 350,
+		Weight = 280,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1503,7 +1503,7 @@ local CfgEquipAttrTable = {
 	[2522] = {
 		MasterAttrType = 23,
 		Id = 2522,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1516,7 +1516,7 @@ local CfgEquipAttrTable = {
 	[2523] = {
 		MasterAttrType = 23,
 		Id = 2523,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1529,7 +1529,7 @@ local CfgEquipAttrTable = {
 	[2532] = {
 		MasterAttrType = 23,
 		Id = 2532,
-		Weight = 350,
+		Weight = 280,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1542,7 +1542,7 @@ local CfgEquipAttrTable = {
 	[2533] = {
 		MasterAttrType = 23,
 		Id = 2533,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1555,7 +1555,7 @@ local CfgEquipAttrTable = {
 	[2534] = {
 		MasterAttrType = 23,
 		Id = 2534,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1568,7 +1568,7 @@ local CfgEquipAttrTable = {
 	[2542] = {
 		MasterAttrType = 23,
 		Id = 2542,
-		Weight = 300,
+		Weight = 240,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1581,7 +1581,7 @@ local CfgEquipAttrTable = {
 	[2543] = {
 		MasterAttrType = 23,
 		Id = 2543,
-		Weight = 450,
+		Weight = 360,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1594,7 +1594,7 @@ local CfgEquipAttrTable = {
 	[2544] = {
 		MasterAttrType = 23,
 		Id = 2544,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1607,7 +1607,7 @@ local CfgEquipAttrTable = {
 	[2545] = {
 		MasterAttrType = 23,
 		Id = 2545,
-		Weight = 50,
+		Weight = 40,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1620,7 +1620,7 @@ local CfgEquipAttrTable = {
 	[2552] = {
 		MasterAttrType = 23,
 		Id = 2552,
-		Weight = 200,
+		Weight = 160,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1633,7 +1633,7 @@ local CfgEquipAttrTable = {
 	[2553] = {
 		MasterAttrType = 23,
 		Id = 2553,
-		Weight = 400,
+		Weight = 320,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1646,7 +1646,7 @@ local CfgEquipAttrTable = {
 	[2554] = {
 		MasterAttrType = 23,
 		Id = 2554,
-		Weight = 250,
+		Weight = 200,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1659,7 +1659,7 @@ local CfgEquipAttrTable = {
 	[2555] = {
 		MasterAttrType = 23,
 		Id = 2555,
-		Weight = 150,
+		Weight = 120,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1672,7 +1672,7 @@ local CfgEquipAttrTable = {
 	[2611] = {
 		MasterAttrType = 61,
 		Id = 2611,
-		Weight = 650,
+		Weight = 195,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1685,7 +1685,7 @@ local CfgEquipAttrTable = {
 	[2612] = {
 		MasterAttrType = 61,
 		Id = 2612,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1698,7 +1698,7 @@ local CfgEquipAttrTable = {
 	[2621] = {
 		MasterAttrType = 61,
 		Id = 2621,
-		Weight = 350,
+		Weight = 105,
 		AttrValue = {
 			0.005,
 			0.015
@@ -1711,7 +1711,7 @@ local CfgEquipAttrTable = {
 	[2622] = {
 		MasterAttrType = 61,
 		Id = 2622,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1724,7 +1724,7 @@ local CfgEquipAttrTable = {
 	[2623] = {
 		MasterAttrType = 61,
 		Id = 2623,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1737,7 +1737,7 @@ local CfgEquipAttrTable = {
 	[2632] = {
 		MasterAttrType = 61,
 		Id = 2632,
-		Weight = 350,
+		Weight = 105,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1750,7 +1750,7 @@ local CfgEquipAttrTable = {
 	[2633] = {
 		MasterAttrType = 61,
 		Id = 2633,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1763,7 +1763,7 @@ local CfgEquipAttrTable = {
 	[2634] = {
 		MasterAttrType = 61,
 		Id = 2634,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1776,7 +1776,7 @@ local CfgEquipAttrTable = {
 	[2642] = {
 		MasterAttrType = 61,
 		Id = 2642,
-		Weight = 300,
+		Weight = 90,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1789,7 +1789,7 @@ local CfgEquipAttrTable = {
 	[2643] = {
 		MasterAttrType = 61,
 		Id = 2643,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1802,7 +1802,7 @@ local CfgEquipAttrTable = {
 	[2644] = {
 		MasterAttrType = 61,
 		Id = 2644,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1815,7 +1815,7 @@ local CfgEquipAttrTable = {
 	[2645] = {
 		MasterAttrType = 61,
 		Id = 2645,
-		Weight = 50,
+		Weight = 15,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1828,7 +1828,7 @@ local CfgEquipAttrTable = {
 	[2652] = {
 		MasterAttrType = 61,
 		Id = 2652,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.015,
 			0.02
@@ -1841,7 +1841,7 @@ local CfgEquipAttrTable = {
 	[2653] = {
 		MasterAttrType = 61,
 		Id = 2653,
-		Weight = 400,
+		Weight = 120,
 		AttrValue = {
 			0.02,
 			0.03
@@ -1854,7 +1854,7 @@ local CfgEquipAttrTable = {
 	[2654] = {
 		MasterAttrType = 61,
 		Id = 2654,
-		Weight = 250,
+		Weight = 75,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1867,7 +1867,7 @@ local CfgEquipAttrTable = {
 	[2655] = {
 		MasterAttrType = 61,
 		Id = 2655,
-		Weight = 150,
+		Weight = 45,
 		AttrValue = {
 			0.04,
 			0.05
@@ -1880,7 +1880,7 @@ local CfgEquipAttrTable = {
 	[2711] = {
 		MasterAttrType = 81,
 		Id = 2711,
-		Weight = 650,
+		Weight = 195,
 		AttrValue = {
 			0.01,
 			0.03
@@ -1893,7 +1893,7 @@ local CfgEquipAttrTable = {
 	[2712] = {
 		MasterAttrType = 81,
 		Id = 2712,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1906,7 +1906,7 @@ local CfgEquipAttrTable = {
 	[2721] = {
 		MasterAttrType = 81,
 		Id = 2721,
-		Weight = 350,
+		Weight = 105,
 		AttrValue = {
 			0.01,
 			0.03
@@ -1919,7 +1919,7 @@ local CfgEquipAttrTable = {
 	[2722] = {
 		MasterAttrType = 81,
 		Id = 2722,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1932,7 +1932,7 @@ local CfgEquipAttrTable = {
 	[2723] = {
 		MasterAttrType = 81,
 		Id = 2723,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.04,
 			0.06
@@ -1945,7 +1945,7 @@ local CfgEquipAttrTable = {
 	[2732] = {
 		MasterAttrType = 81,
 		Id = 2732,
-		Weight = 350,
+		Weight = 105,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1958,7 +1958,7 @@ local CfgEquipAttrTable = {
 	[2733] = {
 		MasterAttrType = 81,
 		Id = 2733,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.04,
 			0.06
@@ -1971,7 +1971,7 @@ local CfgEquipAttrTable = {
 	[2734] = {
 		MasterAttrType = 81,
 		Id = 2734,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.06,
 			0.08
@@ -1984,7 +1984,7 @@ local CfgEquipAttrTable = {
 	[2742] = {
 		MasterAttrType = 81,
 		Id = 2742,
-		Weight = 300,
+		Weight = 90,
 		AttrValue = {
 			0.03,
 			0.04
@@ -1997,7 +1997,7 @@ local CfgEquipAttrTable = {
 	[2743] = {
 		MasterAttrType = 81,
 		Id = 2743,
-		Weight = 450,
+		Weight = 135,
 		AttrValue = {
 			0.04,
 			0.06
@@ -2010,7 +2010,7 @@ local CfgEquipAttrTable = {
 	[2744] = {
 		MasterAttrType = 81,
 		Id = 2744,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.06,
 			0.08
@@ -2023,7 +2023,7 @@ local CfgEquipAttrTable = {
 	[2745] = {
 		MasterAttrType = 81,
 		Id = 2745,
-		Weight = 50,
+		Weight = 15,
 		AttrValue = {
 			0.08,
 			0.1
@@ -2036,7 +2036,7 @@ local CfgEquipAttrTable = {
 	[2752] = {
 		MasterAttrType = 81,
 		Id = 2752,
-		Weight = 200,
+		Weight = 60,
 		AttrValue = {
 			0.03,
 			0.04
@@ -2049,7 +2049,7 @@ local CfgEquipAttrTable = {
 	[2753] = {
 		MasterAttrType = 81,
 		Id = 2753,
-		Weight = 400,
+		Weight = 120,
 		AttrValue = {
 			0.04,
 			0.06
@@ -2062,7 +2062,7 @@ local CfgEquipAttrTable = {
 	[2754] = {
 		MasterAttrType = 81,
 		Id = 2754,
-		Weight = 250,
+		Weight = 75,
 		AttrValue = {
 			0.06,
 			0.08
@@ -2075,7 +2075,7 @@ local CfgEquipAttrTable = {
 	[2755] = {
 		MasterAttrType = 81,
 		Id = 2755,
-		Weight = 150,
+		Weight = 45,
 		AttrValue = {
 			0.08,
 			0.1
@@ -2088,7 +2088,7 @@ local CfgEquipAttrTable = {
 	[2811] = {
 		MasterAttrType = 79,
 		Id = 2811,
-		Weight = 650,
+		Weight = 325,
 		AttrValue = {
 			0.004,
 			0.012
@@ -2101,7 +2101,7 @@ local CfgEquipAttrTable = {
 	[2812] = {
 		MasterAttrType = 79,
 		Id = 2812,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.012,
 			0.016
@@ -2114,7 +2114,7 @@ local CfgEquipAttrTable = {
 	[2821] = {
 		MasterAttrType = 79,
 		Id = 2821,
-		Weight = 350,
+		Weight = 175,
 		AttrValue = {
 			0.004,
 			0.012
@@ -2127,7 +2127,7 @@ local CfgEquipAttrTable = {
 	[2822] = {
 		MasterAttrType = 79,
 		Id = 2822,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.012,
 			0.016
@@ -2140,7 +2140,7 @@ local CfgEquipAttrTable = {
 	[2823] = {
 		MasterAttrType = 79,
 		Id = 2823,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.016,
 			0.024
@@ -2153,7 +2153,7 @@ local CfgEquipAttrTable = {
 	[2832] = {
 		MasterAttrType = 79,
 		Id = 2832,
-		Weight = 350,
+		Weight = 175,
 		AttrValue = {
 			0.012,
 			0.016
@@ -2166,7 +2166,7 @@ local CfgEquipAttrTable = {
 	[2833] = {
 		MasterAttrType = 79,
 		Id = 2833,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.016,
 			0.024
@@ -2179,7 +2179,7 @@ local CfgEquipAttrTable = {
 	[2834] = {
 		MasterAttrType = 79,
 		Id = 2834,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.024,
 			0.032
@@ -2192,7 +2192,7 @@ local CfgEquipAttrTable = {
 	[2842] = {
 		MasterAttrType = 79,
 		Id = 2842,
-		Weight = 300,
+		Weight = 150,
 		AttrValue = {
 			0.012,
 			0.016
@@ -2205,7 +2205,7 @@ local CfgEquipAttrTable = {
 	[2843] = {
 		MasterAttrType = 79,
 		Id = 2843,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.016,
 			0.024
@@ -2218,7 +2218,7 @@ local CfgEquipAttrTable = {
 	[2844] = {
 		MasterAttrType = 79,
 		Id = 2844,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.024,
 			0.032
@@ -2231,7 +2231,7 @@ local CfgEquipAttrTable = {
 	[2845] = {
 		MasterAttrType = 79,
 		Id = 2845,
-		Weight = 50,
+		Weight = 25,
 		AttrValue = {
 			0.032,
 			0.04
@@ -2244,7 +2244,7 @@ local CfgEquipAttrTable = {
 	[2852] = {
 		MasterAttrType = 79,
 		Id = 2852,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.012,
 			0.016
@@ -2257,7 +2257,7 @@ local CfgEquipAttrTable = {
 	[2853] = {
 		MasterAttrType = 79,
 		Id = 2853,
-		Weight = 400,
+		Weight = 200,
 		AttrValue = {
 			0.016,
 			0.024
@@ -2270,7 +2270,7 @@ local CfgEquipAttrTable = {
 	[2854] = {
 		MasterAttrType = 79,
 		Id = 2854,
-		Weight = 250,
+		Weight = 125,
 		AttrValue = {
 			0.024,
 			0.032
@@ -2283,7 +2283,7 @@ local CfgEquipAttrTable = {
 	[2855] = {
 		MasterAttrType = 79,
 		Id = 2855,
-		Weight = 150,
+		Weight = 75,
 		AttrValue = {
 			0.032,
 			0.04
@@ -2296,7 +2296,7 @@ local CfgEquipAttrTable = {
 	[2911] = {
 		MasterAttrType = 80,
 		Id = 2911,
-		Weight = 650,
+		Weight = 325,
 		AttrValue = {
 			0.005,
 			0.015
@@ -2309,7 +2309,7 @@ local CfgEquipAttrTable = {
 	[2912] = {
 		MasterAttrType = 80,
 		Id = 2912,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.015,
 			0.02
@@ -2322,7 +2322,7 @@ local CfgEquipAttrTable = {
 	[2921] = {
 		MasterAttrType = 80,
 		Id = 2921,
-		Weight = 350,
+		Weight = 175,
 		AttrValue = {
 			0.005,
 			0.015
@@ -2335,7 +2335,7 @@ local CfgEquipAttrTable = {
 	[2922] = {
 		MasterAttrType = 80,
 		Id = 2922,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.015,
 			0.02
@@ -2348,7 +2348,7 @@ local CfgEquipAttrTable = {
 	[2923] = {
 		MasterAttrType = 80,
 		Id = 2923,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.02,
 			0.03
@@ -2361,7 +2361,7 @@ local CfgEquipAttrTable = {
 	[2932] = {
 		MasterAttrType = 80,
 		Id = 2932,
-		Weight = 350,
+		Weight = 175,
 		AttrValue = {
 			0.015,
 			0.02
@@ -2374,7 +2374,7 @@ local CfgEquipAttrTable = {
 	[2933] = {
 		MasterAttrType = 80,
 		Id = 2933,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.02,
 			0.03
@@ -2387,7 +2387,7 @@ local CfgEquipAttrTable = {
 	[2934] = {
 		MasterAttrType = 80,
 		Id = 2934,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.03,
 			0.04
@@ -2400,7 +2400,7 @@ local CfgEquipAttrTable = {
 	[2942] = {
 		MasterAttrType = 80,
 		Id = 2942,
-		Weight = 300,
+		Weight = 150,
 		AttrValue = {
 			0.015,
 			0.02
@@ -2413,7 +2413,7 @@ local CfgEquipAttrTable = {
 	[2943] = {
 		MasterAttrType = 80,
 		Id = 2943,
-		Weight = 450,
+		Weight = 225,
 		AttrValue = {
 			0.02,
 			0.03
@@ -2426,7 +2426,7 @@ local CfgEquipAttrTable = {
 	[2944] = {
 		MasterAttrType = 80,
 		Id = 2944,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.03,
 			0.04
@@ -2439,7 +2439,7 @@ local CfgEquipAttrTable = {
 	[2945] = {
 		MasterAttrType = 80,
 		Id = 2945,
-		Weight = 50,
+		Weight = 25,
 		AttrValue = {
 			0.04,
 			0.05
@@ -2452,7 +2452,7 @@ local CfgEquipAttrTable = {
 	[2952] = {
 		MasterAttrType = 80,
 		Id = 2952,
-		Weight = 200,
+		Weight = 100,
 		AttrValue = {
 			0.015,
 			0.02
@@ -2465,7 +2465,7 @@ local CfgEquipAttrTable = {
 	[2953] = {
 		MasterAttrType = 80,
 		Id = 2953,
-		Weight = 400,
+		Weight = 200,
 		AttrValue = {
 			0.02,
 			0.03
@@ -2478,7 +2478,7 @@ local CfgEquipAttrTable = {
 	[2954] = {
 		MasterAttrType = 80,
 		Id = 2954,
-		Weight = 250,
+		Weight = 125,
 		AttrValue = {
 			0.03,
 			0.04
@@ -2491,7 +2491,7 @@ local CfgEquipAttrTable = {
 	[2955] = {
 		MasterAttrType = 80,
 		Id = 2955,
-		Weight = 150,
+		Weight = 75,
 		AttrValue = {
 			0.04,
 			0.05

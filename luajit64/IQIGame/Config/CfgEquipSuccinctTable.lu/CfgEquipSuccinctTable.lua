@@ -50,11 +50,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.05,
 		AttrName = getI18NValue(180268584),
 		AttrQuality = {
-			0.015,
-			0.02,
-			0.03,
-			0.04,
-			0.05
+			1.5,
+			2,
+			3,
+			4,
+			5
 		}
 	},
 	[1005] = {
@@ -64,11 +64,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.05,
 		AttrName = getI18NValue(180268585),
 		AttrQuality = {
-			0.015,
-			0.02,
-			0.03,
-			0.04,
-			0.05
+			1.5,
+			2,
+			3,
+			4,
+			5
 		}
 	},
 	[1006] = {
@@ -78,11 +78,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.05,
 		AttrName = getI18NValue(180268586),
 		AttrQuality = {
-			0.015,
-			0.02,
-			0.03,
-			0.04,
-			0.05
+			1.5,
+			2,
+			3,
+			4,
+			5
 		}
 	},
 	[1007] = {
@@ -92,11 +92,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.05,
 		AttrName = getI18NValue(180268587),
 		AttrQuality = {
-			0.015,
-			0.02,
-			0.03,
-			0.04,
-			0.05
+			1.5,
+			2,
+			3,
+			4,
+			5
 		}
 	},
 	[1008] = {
@@ -106,11 +106,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.1,
 		AttrName = getI18NValue(180268588),
 		AttrQuality = {
-			0.03,
-			0.04,
-			0.06,
-			0.08,
-			0.1
+			3,
+			4,
+			6,
+			8,
+			10
 		}
 	},
 	[1009] = {
@@ -120,11 +120,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.04,
 		AttrName = getI18NValue(180268589),
 		AttrQuality = {
-			0.012,
-			0.016,
-			0.024,
-			0.032,
-			0.04
+			1.2,
+			1.6,
+			2.4,
+			3.2,
+			4
 		}
 	},
 	[1010] = {
@@ -134,11 +134,11 @@ local CfgEquipSuccinctTable = {
 		AttrMax = 0.05,
 		AttrName = getI18NValue(180268590),
 		AttrQuality = {
-			0.015,
-			0.02,
-			0.03,
-			0.04,
-			0.05
+			1.5,
+			2,
+			3,
+			4,
+			5
 		}
 	}
 }

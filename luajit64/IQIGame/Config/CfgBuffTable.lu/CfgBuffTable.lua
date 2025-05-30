@@ -88140,7 +88140,7 @@ local CfgBuffTable = {
 		EffectParam = {
 			{
 				"1",
-				"21",
+				"99",
 				"40000613",
 				"0",
 				"1"
