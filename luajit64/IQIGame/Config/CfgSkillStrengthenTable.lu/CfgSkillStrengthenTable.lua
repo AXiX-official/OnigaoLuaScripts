@@ -20761,7 +20761,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102020",
 				"1",
-				"0.18"
+				"0.21"
 			},
 			{},
 			{},
@@ -20792,7 +20792,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102020",
 				"1",
-				"0.2"
+				"0.24"
 			},
 			{},
 			{},
@@ -20823,7 +20823,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102020",
 				"1",
-				"0.22"
+				"0.27"
 			},
 			{},
 			{},
@@ -20854,7 +20854,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102020",
 				"1",
-				"0.25"
+				"0.28"
 			},
 			{},
 			{},
@@ -20885,7 +20885,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102020",
 				"1",
-				"0.28"
+				"0.3"
 			},
 			{},
 			{},
@@ -20916,7 +20916,7 @@ local CfgSkillStrengthenTable = {
 			{
 				"102020",
 				"1",
-				"0.32"
+				"0.35"
 			},
 			{},
 			{},

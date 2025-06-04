@@ -2004,7 +2004,7 @@ local CfgCommodityTable = {
 		BuyType = 2,
 		ItemId = 61001,
 		Free = true,
-		sort = 101,
+		sort = 10,
 		ResetType = 1,
 		Number = 1,
 		TimeOvrtShow = 1,
@@ -2154,6 +2154,98 @@ local CfgCommodityTable = {
 			{
 				1,
 				9800
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50203007] = {
+		CommodityType = 1,
+		ShopID = 50100043,
+		BuyType = 2,
+		ItemId = 61846,
+		Time = 5,
+		sort = 11,
+		ResetType = 3,
+		Number = 1,
+		Id = 50203007,
+		Desc = "超值礼包1",
+		Price = {
+			{
+				2,
+				128
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50203008] = {
+		CommodityType = 1,
+		ShopID = 50100043,
+		BuyType = 2,
+		ItemId = 61847,
+		Time = 5,
+		sort = 12,
+		ResetType = 3,
+		Number = 1,
+		Id = 50203008,
+		Desc = "超值礼包2",
+		Price = {
+			{
+				2,
+				198
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50203009] = {
+		CommodityType = 1,
+		ShopID = 50100043,
+		BuyType = 2,
+		ItemId = 61848,
+		Time = 5,
+		sort = 13,
+		ResetType = 3,
+		Number = 1,
+		Id = 50203009,
+		Desc = "超值礼包3",
+		Price = {
+			{
+				2,
+				328
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50203010] = {
+		CommodityType = 1,
+		ShopID = 50100043,
+		BuyType = 2,
+		ItemId = 61849,
+		Time = 5,
+		sort = 14,
+		ResetType = 3,
+		Number = 1,
+		Id = 50203010,
+		Desc = "超值礼包4",
+		Price = {
+			{
+				2,
+				648
 			},
 			{},
 			{},
