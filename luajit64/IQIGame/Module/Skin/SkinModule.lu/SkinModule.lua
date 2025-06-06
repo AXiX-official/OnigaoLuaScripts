@@ -786,7 +786,11 @@ end
 
 function SkinModule.GetHeroSkinImgPathByType(heroSkinConfig, skinImageType)
 	if skinImageType == Constant.SkinImageType.HeroResourcesVerticalDraw then
-		return string.format(SkinApi:GetResUrl(1600006), heroSkinConfig.HeroResourcesVerticalDraw)
+		if SettingModule.harmoniousResources == 1 and heroSkinConfig.HeroResourcesVerticalDrawTest ~= "" and heroSkinConfig.HeroResourcesVerticalDrawTest ~= nil then
+			return string.format(SkinApi:GetResUrl(1600006), heroSkinConfig.HeroResourcesVerticalDrawTest)
+		else
+			return string.format(SkinApi:GetResUrl(1600006), heroSkinConfig.HeroResourcesVerticalDraw)
+		end
 	elseif skinImageType == Constant.SkinImageType.HeadIcon then
 		return string.format(SkinApi:GetResUrl(1600009), heroSkinConfig.HeadIcon)
 	elseif skinImageType == Constant.SkinImageType.HeroResourcesHead then

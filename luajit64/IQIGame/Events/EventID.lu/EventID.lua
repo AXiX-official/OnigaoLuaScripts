@@ -635,6 +635,7 @@ EventID = {
 	OnBattleUnitOrderComplete = "OnBattleUnitOrderComplete",
 	OpenMobilePhoneEvent = "OpenMobilePhoneEvent",
 	InOrbmentDataChangeEvent = "InOrbmentDataChangeEvent",
+	ChangeHarmoniousResourcesEvent = "ChangeHarmoniousResourcesEvent",
 	FormationSelectMonsterChangeEvent = "FormationSelectMonsterChangeEvent",
 	GetBreakRewardSuccessEvent = "GetBreakRewardSuccessEvent",
 	AddStandPaintAnimationEvent = "AddStandPaintAnimationEvent",

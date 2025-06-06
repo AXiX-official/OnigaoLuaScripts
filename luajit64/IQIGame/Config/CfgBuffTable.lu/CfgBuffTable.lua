@@ -103410,7 +103410,7 @@ local CfgBuffTable = {
 		StackType = 3,
 		IsTipsVisible = true,
 		DynamicRPNExp = "A1==0&&A2>=6",
-		Icon = "Debuff_heilian",
+		Icon = "Buff_CriDmg_Up",
 		BuffTime = -1,
 		IsVisible = true,
 		TriggerType = 103,
@@ -103494,7 +103494,7 @@ local CfgBuffTable = {
 		TriggerProbability = 1,
 		StackType = 5,
 		IsTipsVisible = true,
-		Icon = "Debuff_heilian",
+		Icon = "Buff_Normal_Up",
 		BuffTime = 2,
 		IsVisible = true,
 		DeathEffective = false,
@@ -103521,7 +103521,7 @@ local CfgBuffTable = {
 		},
 		EffectParam = {
 			{
-				"81",
+				"79",
 				"1",
 				"10002",
 				"0"

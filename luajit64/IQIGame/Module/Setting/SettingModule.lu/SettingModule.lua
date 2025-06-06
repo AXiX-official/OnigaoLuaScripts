@@ -1,15 +1,16 @@
 ﻿-- chunkname: @IQIGame\\Module\\Setting\\SettingModule.lua
 
 SettingModule = {
-	currentSoundVolume = 1,
-	currentCvVolume = 1,
-	targetFrameRate = 60,
+	harmoniousResources = 0,
 	AllAudioVolume = 1,
+	targetFrameRate = 60,
+	currentSoundVolume = 1,
+	ultimateAnimationState = 1,
+	PowerSavingModule = 1,
 	currentMusicVolume = 1,
 	messageMainSwitch = 0,
 	PersonalActive = 0,
-	PowerSavingModule = 1,
-	ultimateAnimationState = 1,
+	currentCvVolume = 1,
 	pushMessage = {},
 	musicGroup = {
 		"ENVIRONMENT",
@@ -199,6 +200,8 @@ function SettingModule.DefaultSetting()
 	SettingModule.SetAllAudioGroupValue()
 	SettingModule.SetFrameRate(SettingModule.LoadTargetFrameRate())
 	SettingModule.SetUrpSettingNew(SettingModule.LoadUrpLevel())
+
+	SettingModule.harmoniousResources = PlayerPrefsUtil.GetInt("", Constant.PlayerPrefsConst.OpenHarmoniousResources)
 end
 
 function SettingModule.SetAllAudioGroupValue()
@@ -323,6 +326,14 @@ function SettingModule.SaveMessageChildSwitch(cid, value)
 	if SettingModule.messageMainSwitch == 0 then
 		-- block empty
 	end
+end
+
+function SettingModule.SaveHarmoniousResources(stateNum)
+	PlayerPrefsUtil.SetInt("", Constant.PlayerPrefsConst.OpenHarmoniousResources, stateNum)
+
+	SettingModule.harmoniousResources = stateNum
+
+	EventDispatcher.Dispatch(EventID.ChangeHarmoniousResourcesEvent)
 end
 
 function SettingModule.GetMessageChildSwitch(cid)

@@ -217,6 +217,10 @@ function HeroSkinUI:__OnInitEventDelegateFunc()
 	function self.DelegateOnBuyShopResultEvent()
 		self:OnBuyShopResultEvent()
 	end
+
+	function self.DelegateChangeResourcesEvent()
+		self:OnChangeResourcesEvent()
+	end
 end
 
 function HeroSkinUI:OnAddListeners()
@@ -229,6 +233,7 @@ function HeroSkinUI:OnAddListeners()
 	self.skinTipsCloseBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnSkinTipsCloseBtnClick)
 	self.skinTipsBtn:GetComponent("Button").onClick:AddListener(self.__delegateOnSkinTipsBtnClick)
 	EventDispatcher.AddEventListener(EventID.NotifyChangeShopItems, self.DelegateOnBuyShopResultEvent)
+	EventDispatcher.AddEventListener(EventID.ChangeHarmoniousResourcesEvent, self.DelegateChangeResourcesEvent)
 end
 
 function HeroSkinUI:OnRemoveListeners()
@@ -241,6 +246,7 @@ function HeroSkinUI:OnRemoveListeners()
 	self.skinTipsCloseBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnSkinTipsCloseBtnClick)
 	self.skinTipsBtn:GetComponent("Button").onClick:RemoveListener(self.__delegateOnSkinTipsBtnClick)
 	EventDispatcher.RemoveEventListener(EventID.NotifyChangeShopItems, self.DelegateOnBuyShopResultEvent)
+	EventDispatcher.RemoveEventListener(EventID.ChangeHarmoniousResourcesEvent, self.DelegateChangeResourcesEvent)
 end
 
 function HeroSkinUI:OnPause()
@@ -410,11 +416,14 @@ function HeroSkinUI:__RefreshHeroSkinData(skinCid)
 			return
 		end
 
+		self.goSpine = _entityComponent.gameObject
+
 		local previewSpine = _entityComponent.gameObject
 		local skeletonGraphic = previewSpine:GetComponentInChildren(typeof(Spine.Unity.SkeletonGraphic), true)
 
 		skeletonGraphic:Initialize(true)
 		skeletonGraphic.AnimationState:SetAnimation(0, "idle", true)
+		self:RefreshNode()
 	end)
 
 	self.roleDisplayView:Show(self.skinCid)
@@ -538,6 +547,33 @@ end
 
 function HeroSkinUI:OnBuyShopResultEvent()
 	self:__RefreshButtonState()
+end
+
+function HeroSkinUI:OnChangeResourcesEvent()
+	self:RefreshNode()
+	self:RefreshImg()
+end
+
+function HeroSkinUI:RefreshImg()
+	if self.skinCid then
+		local heroSkinData = CfgHeroSkinTable[self.skinCid]
+		local resourcesVerticalDrawPath = SkinModule.GetHeroSkinImgPathByType(heroSkinData, Constant.SkinImageType.HeroResourcesVerticalDraw)
+		local img = self.rolePreview.img
+
+		AssetUtil.LoadImage(self, resourcesVerticalDrawPath, img:GetComponent("Image"), self.__OnLoadImageSucess, nil, img)
+	end
+end
+
+function HeroSkinUI:RefreshNode()
+	if self.goSpine and not LuaCodeInterface.GameObjIsDestroy(self.goSpine) then
+		local harmoniousMask = self.goSpine.transform:Find("HarmoniousMask")
+
+		if harmoniousMask then
+			local isShow = SettingModule.harmoniousResources == 0
+
+			harmoniousMask.gameObject:SetActive(isShow)
+		end
+	end
 end
 
 function HeroSkinUI:CloseSelfUI()

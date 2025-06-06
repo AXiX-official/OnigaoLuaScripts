@@ -81,8 +81,14 @@ function m:SetData(equipData, isHideEquipButton)
 
 	local itemCfg = CfgItemTable[equipData.itemCid]
 
-	UGUIUtil.SetText(self.equipNameText, itemCfg.Name)
-	UGUIUtil.SetText(self.describeText, itemCfg.ItemStory)
+	if self.equipNameText then
+		UGUIUtil.SetText(self.equipNameText, itemCfg.Name)
+	end
+
+	if self.describeText then
+		UGUIUtil.SetText(self.describeText, itemCfg.ItemStory)
+	end
+
 	self.equipDefaultBaseInfoView:Refresh(equipData)
 	self.equipDefaultBaseInfoView:Show()
 

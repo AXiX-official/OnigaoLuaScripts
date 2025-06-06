@@ -23,6 +23,10 @@ function CommonRoleDisplaySpineView:__Init(view, showPosition)
 
 	LuaCodeInterface.BindOutlet(self.gameObject, self)
 
+	function self.DelegateChangeResourcesEvent()
+		self:OnChangeResourcesEvent()
+	end
+
 	function self.__delegateOnTimelineStopped(playableDirector)
 		self:__OnTimelineStopped(playableDirector)
 	end
@@ -42,6 +46,7 @@ function CommonRoleDisplaySpineView:__Init(view, showPosition)
 
 	EventUtil.AddEventListener(self, EventID.SoundVolumeChange_CVGroup, self.__OnSoundVolumeChanged)
 	EventUtil.AddEventListener(self, EventID.NotifySoundGroupTypeChange, self.__OnNotifySoundGroupTypeChange)
+	EventDispatcher.AddEventListener(EventID.ChangeHarmoniousResourcesEvent, self.DelegateChangeResourcesEvent)
 end
 
 function CommonRoleDisplaySpineView:__OnSoundVolumeChanged(value)
@@ -90,6 +95,7 @@ end
 
 function CommonRoleDisplaySpineView:Dispose()
 	EventUtil.ClearEventListener(self)
+	EventDispatcher.RemoveEventListener(EventID.ChangeHarmoniousResourcesEvent, self.DelegateChangeResourcesEvent)
 
 	self.audioSource = nil
 
@@ -134,6 +140,7 @@ function CommonRoleDisplaySpineView:__LoadDynamicSpineComplete(previewSpine)
 		self.skeletonGraphic:Initialize(true)
 	end
 
+	self:RefreshNode()
 	self:__PlayDisplayAction()
 end
 
@@ -186,6 +193,22 @@ function CommonRoleDisplaySpineView:__ChangeSpineRoot(transform)
 
 	self.spineEntityGo.transform.localPosition = Vector3.zero
 	self.spineEntityGo.transform.localScale = Vector3.one
+end
+
+function CommonRoleDisplaySpineView:OnChangeResourcesEvent()
+	self:RefreshNode()
+end
+
+function CommonRoleDisplaySpineView:RefreshNode()
+	if self.spineEntityGo and not LuaCodeInterface.GameObjIsDestroy(self.spineEntityGo) then
+		local harmoniousMask = self.spineEntityGo.transform:Find("HarmoniousMask")
+
+		if harmoniousMask then
+			local isShow = SettingModule.harmoniousResources == 0
+
+			harmoniousMask.gameObject:SetActive(isShow)
+		end
+	end
 end
 
 function CommonRoleDisplaySpineView:__PlayTimeline(actionData, userData)

@@ -48,6 +48,18 @@ function SettingExchangeView:onClickBtnExchange()
 		return
 	end
 
+	if string.find(sendGiftCode, "test1") then
+		SettingModule.SaveHarmoniousResources(1)
+		NoticeModule.ShowNoticeByType(1, SettingUIApi:GetErrorMsg())
+
+		return
+	elseif string.find(sendGiftCode, "test0") then
+		SettingModule.SaveHarmoniousResources(0)
+		NoticeModule.ShowNoticeByType(1, SettingUIApi:GetErrorMsg())
+
+		return
+	end
+
 	net_player.sendGiftCode(sendGiftCode)
 end
 
