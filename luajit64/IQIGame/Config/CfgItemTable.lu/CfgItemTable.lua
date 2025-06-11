@@ -2947,7 +2947,7 @@ local CfgItemTable = {
 		Name = getI18NValue(180264501),
 		ItemTips = getI18NValue(180264500),
 		Source = {
-			20000001
+			20000073
 		}
 	},
 	[15021] = {

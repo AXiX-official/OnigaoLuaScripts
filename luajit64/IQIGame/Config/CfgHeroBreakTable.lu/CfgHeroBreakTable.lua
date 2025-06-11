@@ -98,7 +98,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000001,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -221,7 +221,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000002,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -344,7 +344,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000003,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -467,7 +467,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000004,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -590,7 +590,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000005,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -713,7 +713,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000006,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -836,7 +836,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000007,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -959,7 +959,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000008,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1082,7 +1082,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000009,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1205,7 +1205,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000010,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1328,7 +1328,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000011,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1451,7 +1451,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000012,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1574,7 +1574,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000013,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1697,7 +1697,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000014,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1820,7 +1820,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000015,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -1943,7 +1943,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000016,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2066,7 +2066,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000017,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2189,7 +2189,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000018,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2312,7 +2312,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000019,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2435,7 +2435,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000020,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2558,7 +2558,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000021,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2681,7 +2681,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000022,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2804,7 +2804,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000023,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -2927,7 +2927,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000024,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3050,7 +3050,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000025,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3173,7 +3173,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000026,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3296,7 +3296,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000027,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3419,7 +3419,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000028,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3542,7 +3542,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000029,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3665,7 +3665,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000030,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3788,7 +3788,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000031,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -3911,7 +3911,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000032,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -4034,7 +4034,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000033,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
@@ -4157,7 +4157,7 @@ local CfgHeroBreakTable = {
 		HeroId = 10000034,
 		BreakLv = 3,
 		PlayerLv = 1,
-		MaxHeroLv = 70,
+		MaxHeroLv = 90,
 		BreakAward = {
 			3,
 			60
