@@ -312,7 +312,7 @@ local CfgPayActivityTable = {
 	},
 	[10109] = {
 		Id = 10109,
-		OpenTime = "2025/5/14 4:00",
+		OpenTime = "2025/5/28 4:00",
 		Type = 2,
 		Skip = 30020101,
 		Order = 7,
@@ -320,7 +320,7 @@ local CfgPayActivityTable = {
 		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_SummerHoliday.png",
 		Name = getI18NValue(180259224),
 		Duration = {
-			2678400
+			2764800
 		}
 	},
 	[10110] = {
