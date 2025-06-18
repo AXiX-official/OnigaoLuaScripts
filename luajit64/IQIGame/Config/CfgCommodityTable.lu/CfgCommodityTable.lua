@@ -1662,18 +1662,17 @@ local CfgCommodityTable = {
 	},
 	[50202353] = {
 		CommodityType = 1,
-		OpenTime = "2024/6/18 4:00",
+		ShopID = 50100041,
 		BuyType = 1,
-		CloseTime = "2024/7/18 4:00",
-		Time = 1,
-		ShopID = 50100042,
+		ItemId = 61850,
+		Time = 3,
+		ResetType = 3,
 		AbsoluteValue = 198,
 		Number = 1,
-		ItemId = 61833,
 		sort = 233,
 		TimeOvrtShow = 1,
 		Id = 50202353,
-		Desc = "卡卡福袋3",
+		Desc = "卡卡福袋",
 		Price = {
 			{
 				1,
@@ -1818,18 +1817,17 @@ local CfgCommodityTable = {
 	},
 	[50202404] = {
 		CommodityType = 1,
-		OpenTime = "2024/6/18 4:00",
+		ShopID = 50100041,
 		BuyType = 1,
-		CloseTime = "2024/7/18 4:00",
-		Time = 1,
-		ShopID = 50100042,
+		ItemId = 61851,
+		Time = 3,
+		ResetType = 3,
 		AbsoluteValue = 328,
 		Number = 1,
-		ItemId = 61839,
 		sort = 239,
 		TimeOvrtShow = 1,
 		Id = 50202404,
-		Desc = "春季优惠礼包4",
+		Desc = "夏季优惠",
 		Price = {
 			{
 				1,
@@ -3899,6 +3897,78 @@ local CfgCommodityTable = {
 			{}
 		}
 	},
+	[50210020] = {
+		CommodityType = 1,
+		ShopID = 50101001,
+		BuyType = 2,
+		ItemId = 55002,
+		Time = 1,
+		sort = 1,
+		ResetType = 2,
+		Number = 10,
+		TimeOvrtShow = 1,
+		Id = 50210020,
+		Desc = "人格安定药剂",
+		Price = {
+			{
+				12,
+				10
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210021] = {
+		CommodityType = 1,
+		ShopID = 50101001,
+		BuyType = 2,
+		ItemId = 15015,
+		Time = 1,
+		sort = 2,
+		ResetType = 3,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210021,
+		Desc = "遗馈之环",
+		Price = {
+			{
+				12,
+				50
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210022] = {
+		CommodityType = 1,
+		ShopID = 50101001,
+		BuyType = 2,
+		ItemId = 50034,
+		Time = 5,
+		sort = 3,
+		ResetType = 2,
+		Number = 10,
+		TimeOvrtShow = 1,
+		Id = 50210022,
+		Desc = "神宗鬼卷·真言",
+		Price = {
+			{
+				12,
+				20
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
 	[50210101] = {
 		CommodityType = 1,
 		ShopID = 50101002,
@@ -4365,6 +4435,102 @@ local CfgCommodityTable = {
 			{
 				115,
 				300
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210312] = {
+		CommodityType = 1,
+		ShopID = 50101010,
+		BuyType = 2,
+		ItemId = 60128,
+		Time = 5,
+		sort = 1,
+		ResetType = 3,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210312,
+		Desc = "五星识域",
+		Price = {
+			{
+				115,
+				800
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210313] = {
+		CommodityType = 1,
+		ShopID = 50101010,
+		BuyType = 2,
+		ItemId = 50034,
+		Time = 20,
+		sort = 2,
+		ResetType = 2,
+		Number = 5,
+		TimeOvrtShow = 1,
+		Id = 50210313,
+		Desc = "神宗鬼卷·真言",
+		Price = {
+			{
+				115,
+				50
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210314] = {
+		CommodityType = 1,
+		ShopID = 50101010,
+		BuyType = 2,
+		ItemId = 15015,
+		Time = 1,
+		sort = 3,
+		ResetType = 3,
+		Number = 1,
+		TimeOvrtShow = 1,
+		Id = 50210314,
+		Desc = "遗馈之环",
+		Price = {
+			{
+				115,
+				1000
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50210315] = {
+		CommodityType = 1,
+		ShopID = 50101010,
+		BuyType = 2,
+		ItemId = 55002,
+		Time = 1,
+		sort = 4,
+		ResetType = 2,
+		Number = 10,
+		TimeOvrtShow = 1,
+		Id = 50210315,
+		Desc = "人格安定药剂",
+		Price = {
+			{
+				115,
+				2000
 			},
 			{},
 			{},
@@ -4907,6 +5073,56 @@ local CfgCommodityTable = {
 			{
 				22,
 				500
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220015] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 55002,
+		Time = 10,
+		sort = 15,
+		ResetType = 2,
+		Number = 1,
+		UnlockConditionId = 30067001,
+		TimeOvrtShow = 1,
+		Id = 50220015,
+		Desc = "人格安定药剂",
+		Price = {
+			{
+				23,
+				1
+			},
+			{},
+			{},
+			{},
+			{},
+			{}
+		}
+	},
+	[50220016] = {
+		CommodityType = 1,
+		ShopID = 50102000,
+		BuyType = 2,
+		ItemId = 4,
+		Time = 5,
+		sort = 16,
+		ResetType = 2,
+		Number = 100000,
+		UnlockConditionId = 30067001,
+		TimeOvrtShow = 1,
+		Id = 50220016,
+		Desc = "札币",
+		Price = {
+			{
+				23,
+				5
 			},
 			{},
 			{},

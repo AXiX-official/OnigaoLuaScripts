@@ -7848,6 +7848,56 @@ local CfgItemTable = {
 			1
 		}
 	},
+	[61850] = {
+		UserAction = 1,
+		Quality = 5,
+		UseType = 1,
+		OverMode = 1,
+		Icon = "/Item/BagBig_61701.png",
+		MaxUse = 1,
+		Reveal = true,
+		MaxNum = 1,
+		ItemTypes = 6,
+		Id = 61850,
+		ItemSubTypes = 1,
+		DepotType = 16,
+		Name = getI18NValue(180269030),
+		ActionParams = {
+			55002,
+			30,
+			50034,
+			50,
+			4,
+			500000,
+			3003,
+			20
+		}
+	},
+	[61851] = {
+		UserAction = 1,
+		Quality = 5,
+		UseType = 1,
+		OverMode = 1,
+		Icon = "/Item/BagBig_61701.png",
+		MaxUse = 1,
+		Reveal = true,
+		MaxNum = 1,
+		ItemTypes = 6,
+		Id = 61851,
+		ItemSubTypes = 1,
+		DepotType = 16,
+		Name = getI18NValue(180269031),
+		ActionParams = {
+			55002,
+			50,
+			4,
+			1000000,
+			15015,
+			1,
+			3003,
+			30
+		}
+	},
 	[80000] = {
 		UserAction = 21,
 		Quality = 3,
