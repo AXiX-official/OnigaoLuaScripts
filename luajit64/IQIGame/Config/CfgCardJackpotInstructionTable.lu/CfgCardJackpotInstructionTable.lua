@@ -160,6 +160,16 @@ local CfgCardJackpotInstructionTable = {
 		Id = 50510206,
 		Title = getI18NValue(180264483),
 		Text = getI18NValue(180264484)
+	},
+	[50510207] = {
+		Id = 50510207,
+		Title = getI18NValue(180269037),
+		Text = getI18NValue(180269038)
+	},
+	[50510208] = {
+		Id = 50510208,
+		Title = getI18NValue(180269039),
+		Text = getI18NValue(180269040)
 	}
 }
 
