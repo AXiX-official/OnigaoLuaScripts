@@ -369,6 +369,76 @@ local CfgActivityTable = {
 		},
 		Desc = getI18NValue(180267239)
 	},
+	[60001104] = {
+		ActivityType = 28,
+		OpenTime = "2025/7/1 4:00",
+		OneOnly = false,
+		Id = 60001104,
+		OpenTimeType = 2,
+		Duration = {
+			2664000
+		},
+		ExtraParam = {
+			1751299200
+		},
+		Desc = getI18NValue(180269050)
+	},
+	[60001105] = {
+		ActivityType = 28,
+		OpenTime = "2025/8/1 4:00",
+		OneOnly = false,
+		Id = 60001105,
+		OpenTimeType = 2,
+		Duration = {
+			2664000
+		},
+		ExtraParam = {
+			1753977600
+		},
+		Desc = getI18NValue(180269051)
+	},
+	[60001106] = {
+		ActivityType = 28,
+		OpenTime = "2025/9/1 4:00",
+		OneOnly = false,
+		Id = 60001106,
+		OpenTimeType = 2,
+		Duration = {
+			2577600
+		},
+		ExtraParam = {
+			1756656000
+		},
+		Desc = getI18NValue(180269052)
+	},
+	[60001107] = {
+		ActivityType = 28,
+		OpenTime = "2025/10/1 4:00",
+		OneOnly = false,
+		Id = 60001107,
+		OpenTimeType = 2,
+		Duration = {
+			2664000
+		},
+		ExtraParam = {
+			1759248000
+		},
+		Desc = getI18NValue(180269053)
+	},
+	[60001191] = {
+		ActivityType = 28,
+		OpenTime = "2025/1/1 4:00",
+		OneOnly = false,
+		Id = 60001191,
+		OpenTimeType = 2,
+		Duration = {
+			315360000
+		},
+		ExtraParam = {
+			1735660800
+		},
+		Desc = getI18NValue(180269066)
+	},
 	[60002001] = {
 		ActivityType = 17,
 		OpenAction = 9,
@@ -1237,11 +1307,11 @@ local CfgActivityTable = {
 	},
 	[60008010] = {
 		Id = 60008010,
-		OpenTime = "2025/5/8 4:00",
+		OpenTime = "2025/7/9 4:00",
 		OpenTimeType = 2,
 		ActivityType = 24,
 		OneOnly = false,
-		version = 1,
+		version = 3,
 		Duration = {
 			0,
 			1209600
@@ -1255,13 +1325,13 @@ local CfgActivityTable = {
 	},
 	[60008011] = {
 		Id = 60008011,
-		OpenTime = "2025/5/8 4:00",
+		OpenTime = "2025/7/9 4:00",
 		OpenTimeType = 2,
 		ActivityType = 25,
 		OpenAction = 9,
 		CloseAction = 27,
 		OneOnly = false,
-		version = 1,
+		version = 3,
 		Duration = {
 			0,
 			604800,
@@ -1282,13 +1352,13 @@ local CfgActivityTable = {
 	},
 	[60008012] = {
 		Id = 60008012,
-		OpenTime = "2025/5/8 4:00",
+		OpenTime = "2025/7/9 4:00",
 		OpenTimeType = 2,
 		ActivityType = 26,
 		OpenAction = 9,
 		CloseAction = 27,
 		OneOnly = false,
-		version = 1,
+		version = 3,
 		Duration = {
 			1209600
 		},

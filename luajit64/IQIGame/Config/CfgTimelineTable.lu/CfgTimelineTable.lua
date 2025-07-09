@@ -1869,7 +1869,7 @@ local CfgTimelineTable = {
 	},
 	[10410104] = {
 		ForceHitTarget = true,
-		HitType = 4,
+		HitType = 6,
 		timeline = "Battle/Role/Monster/YiQS/Sources/Timeline/TL_YiQS_attack_1",
 		Id = 10410104,
 		HitBindingType = 1

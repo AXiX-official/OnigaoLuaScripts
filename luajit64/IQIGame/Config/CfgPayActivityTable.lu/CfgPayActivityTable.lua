@@ -339,7 +339,7 @@ local CfgPayActivityTable = {
 		Skip = 30020201,
 		Order = 7,
 		UIPrefab = "/_Notice/Notice_XiaNai",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_XiaNai.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_GuiJie.png",
 		Name = getI18NValue(180261351),
 		Duration = {
 			2764800
@@ -460,7 +460,7 @@ local CfgPayActivityTable = {
 		Skip = 30020201,
 		Order = 7,
 		UIPrefab = "/_Notice/Notice_XiaNai",
-		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_XiaNai.png",
+		Path = "/DataResource/UIResource/NoticeRes/Batch1/Small_GuiJie.png",
 		Name = getI18NValue(180261352),
 		Duration = {
 			2764800

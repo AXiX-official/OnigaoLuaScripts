@@ -608,13 +608,14 @@ local CfgItemTable = {
 		ItemTips = getI18NValue(180264487)
 	},
 	[201] = {
-		ItemTypes = 1,
 		Quality = 5,
-		Id = 201,
 		OverMode = 1,
-		MaxNum = 99999999,
+		Id = 201,
 		Icon = "/Item/Icon_Currency_Other_10.png",
+		MaxNum = 99999999,
 		Reveal = true,
+		SmallIcon = "/Item/Icon_Currency_Other_11.png",
+		ItemTypes = 1,
 		BigIcon = "/Item/Icon_Currency_Other_10.png",
 		ItemSubTypes = 3,
 		Name = getI18NValue(180187155),

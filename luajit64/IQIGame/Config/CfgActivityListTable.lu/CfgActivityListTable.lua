@@ -360,6 +360,91 @@ local CfgActivityListTable = {
 			30070211
 		}
 	},
+	[60101025] = {
+		ActivityType = 888,
+		Branch = 1,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101025,
+		Name = getI18NValue(180269055),
+		ActivityID = {
+			60001104
+		},
+		ShowConditionID = {
+			30070223
+		},
+		Desc = getI18NValue(180269054)
+	},
+	[60101026] = {
+		ActivityType = 888,
+		Branch = 1,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101026,
+		Name = getI18NValue(180269057),
+		ActivityID = {
+			60001105
+		},
+		ShowConditionID = {
+			30070224
+		},
+		Desc = getI18NValue(180269056)
+	},
+	[60101027] = {
+		ActivityType = 888,
+		Branch = 1,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101027,
+		Name = getI18NValue(180269059),
+		ActivityID = {
+			60001106
+		},
+		ShowConditionID = {
+			30070225
+		},
+		Desc = getI18NValue(180269058)
+	},
+	[60101028] = {
+		ActivityType = 888,
+		Branch = 1,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101028,
+		Name = getI18NValue(180269061),
+		ActivityID = {
+			60001107
+		},
+		ShowConditionID = {
+			30070226
+		},
+		Desc = getI18NValue(180269060)
+	},
+	[60101091] = {
+		ActivityType = 888,
+		Branch = 2,
+		ActivityPrefab = "/_Activity/AccRechargeActivity",
+		ActivityTeam = 2,
+		Sort = 200,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_5.png",
+		Id = 60101091,
+		Name = getI18NValue(180269068),
+		ActivityID = {
+			60001191
+		},
+		ShowConditionID = {
+			30070227
+		},
+		Desc = getI18NValue(180269067)
+	},
 	[60102000] = {
 		ActivityType = 302,
 		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_1.png",
