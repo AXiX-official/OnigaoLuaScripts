@@ -143,6 +143,90 @@ local CfgWorldBossChapterTable = {
 		Id = 1020,
 		ActivityId = 60010001,
 		Name = getI18NValue(180268904)
+	},
+	[1021] = {
+		MonsterTeam = 14503010,
+		BossType = 1,
+		Id = 1021,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269073)
+	},
+	[1022] = {
+		MonsterTeam = 14509010,
+		BossType = 1,
+		Id = 1022,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269074)
+	},
+	[1023] = {
+		MonsterTeam = 14509010,
+		BossType = 1,
+		Id = 1023,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269075)
+	},
+	[1024] = {
+		MonsterTeam = 14508010,
+		BossType = 1,
+		Id = 1024,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269076)
+	},
+	[1025] = {
+		MonsterTeam = 14508010,
+		BossType = 1,
+		Id = 1025,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269077)
+	},
+	[1026] = {
+		MonsterTeam = 14508010,
+		BossType = 1,
+		Id = 1026,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269078)
+	},
+	[1027] = {
+		MonsterTeam = 14510010,
+		BossType = 1,
+		Id = 1027,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269079)
+	},
+	[1028] = {
+		MonsterTeam = 14510010,
+		BossType = 1,
+		Id = 1028,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269080)
+	},
+	[1029] = {
+		MonsterTeam = 14510010,
+		BossType = 1,
+		Id = 1029,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269081)
+	},
+	[1030] = {
+		MonsterTeam = 14511010,
+		BossType = 1,
+		Id = 1030,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269082)
+	},
+	[1031] = {
+		MonsterTeam = 14511010,
+		BossType = 1,
+		Id = 1031,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269083)
+	},
+	[1032] = {
+		MonsterTeam = 14511010,
+		BossType = 1,
+		Id = 1032,
+		ActivityId = 60010001,
+		Name = getI18NValue(180269084)
 	}
 }
 
