@@ -86,16 +86,99 @@ local CfgWorldBossSeasonTable = {
 		ChapterCid = 1020
 	},
 	{
-		Id = 22
+		Id = 22,
+		ChapterCid = 1001
 	},
 	{
-		Id = 23
+		Id = 23,
+		ChapterCid = 1003
 	},
 	{
-		Id = 24
+		Id = 24,
+		ChapterCid = 1004
 	},
 	{
-		Id = 25
+		Id = 25,
+		ChapterCid = 1005
+	},
+	{
+		Id = 26,
+		ChapterCid = 1006
+	},
+	{
+		Id = 27,
+		ChapterCid = 1007
+	},
+	{
+		Id = 28,
+		ChapterCid = 1008
+	},
+	{
+		Id = 29,
+		ChapterCid = 1002
+	},
+	{
+		Id = 30,
+		ChapterCid = 1009
+	},
+	{
+		Id = 31,
+		ChapterCid = 1010
+	},
+	{
+		Id = 32,
+		ChapterCid = 1011
+	},
+	{
+		Id = 33,
+		ChapterCid = 1012
+	},
+	{
+		Id = 34,
+		ChapterCid = 1013
+	},
+	{
+		Id = 35,
+		ChapterCid = 1014
+	},
+	{
+		Id = 36,
+		ChapterCid = 1015
+	},
+	{
+		Id = 37,
+		ChapterCid = 1016
+	},
+	{
+		Id = 38,
+		ChapterCid = 1017
+	},
+	{
+		Id = 39,
+		ChapterCid = 1018
+	},
+	{
+		Id = 40,
+		ChapterCid = 1019
+	},
+	{
+		Id = 41,
+		ChapterCid = 1020
+	},
+	{
+		Id = 42
+	},
+	{
+		Id = 43
+	},
+	{
+		Id = 44
+	},
+	{
+		Id = 45
+	},
+	{
+		Id = 46
 	}
 }
 
