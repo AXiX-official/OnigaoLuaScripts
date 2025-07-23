@@ -10305,7 +10305,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80228,
+			60110,
 			1
 		},
 		CompleteAction = {
@@ -10335,7 +10335,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10364,7 +10364,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10393,7 +10393,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10422,7 +10422,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10451,7 +10451,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10480,7 +10480,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10509,7 +10509,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10538,7 +10538,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10567,7 +10567,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10596,7 +10596,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10625,7 +10625,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10654,7 +10654,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10683,7 +10683,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10712,7 +10712,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10741,7 +10741,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10770,7 +10770,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10799,7 +10799,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10828,7 +10828,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10857,7 +10857,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10886,7 +10886,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10915,7 +10915,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10944,7 +10944,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -10973,7 +10973,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11002,7 +11002,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11031,7 +11031,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11060,7 +11060,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11089,7 +11089,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11118,7 +11118,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11147,7 +11147,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11176,7 +11176,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			5000
+			10000
 		},
 		CompleteAction = {
 			1,
@@ -11204,8 +11204,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			4
+			50034,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -11233,8 +11233,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			3
+			16005,
+			2
 		},
 		CompleteAction = {
 			1,
@@ -11262,8 +11262,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			45000
+			5,
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -11291,8 +11291,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			60201,
-			12
+			55001,
+			1
 		},
 		CompleteAction = {
 			1,
@@ -11320,7 +11320,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			55002,
+			60123,
 			1
 		},
 		CompleteAction = {
@@ -11349,8 +11349,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			5
+			50034,
+			7
 		},
 		CompleteAction = {
 			1,
@@ -11378,7 +11378,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
+			16005,
 			3
 		},
 		CompleteAction = {
@@ -11407,8 +11407,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			59000
+			5,
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -11436,8 +11436,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			16003,
-			3
+			55001,
+			2
 		},
 		CompleteAction = {
 			1,
@@ -11465,8 +11465,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			3001,
-			5
+			60110,
+			1
 		},
 		CompleteAction = {
 			1,
@@ -11494,8 +11494,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			6
+			50034,
+			10
 		},
 		CompleteAction = {
 			1,
@@ -11523,8 +11523,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			4
+			16005,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -11552,8 +11552,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			73000
+			5,
+			30000
 		},
 		CompleteAction = {
 			1,
@@ -11581,8 +11581,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			60201,
-			18
+			55001,
+			3
 		},
 		CompleteAction = {
 			1,
@@ -11610,8 +11610,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80228,
-			1
+			3001,
+			3
 		},
 		CompleteAction = {
 			1,
@@ -11639,8 +11639,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			7
+			50034,
+			15
 		},
 		CompleteAction = {
 			1,
@@ -11668,8 +11668,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			4
+			16005,
+			7
 		},
 		CompleteAction = {
 			1,
@@ -11697,8 +11697,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			87000
+			5,
+			30000
 		},
 		CompleteAction = {
 			1,
@@ -11726,8 +11726,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			16003,
-			3
+			55001,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -11756,7 +11756,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			3001,
-			5
+			10
 		},
 		CompleteAction = {
 			1,
@@ -11784,8 +11784,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			8
+			50041,
+			3
 		},
 		CompleteAction = {
 			1,
@@ -11813,7 +11813,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
+			50004,
 			5
 		},
 		CompleteAction = {
@@ -11842,8 +11842,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			101000
+			5,
+			40000
 		},
 		CompleteAction = {
 			1,
@@ -11871,8 +11871,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			60201,
-			24
+			16005,
+			10
 		},
 		CompleteAction = {
 			1,
@@ -11901,7 +11901,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			55002,
-			1
+			4
 		},
 		CompleteAction = {
 			1,
@@ -11929,8 +11929,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			9
+			50041,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -11958,8 +11958,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			5
+			50004,
+			7
 		},
 		CompleteAction = {
 			1,
@@ -11987,8 +11987,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			115000
+			5,
+			40000
 		},
 		CompleteAction = {
 			1,
@@ -12016,8 +12016,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			16003,
-			3
+			16005,
+			13
 		},
 		CompleteAction = {
 			1,
@@ -12045,7 +12045,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80228,
+			60110,
 			1
 		},
 		CompleteAction = {
@@ -12074,8 +12074,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			10
+			50041,
+			7
 		},
 		CompleteAction = {
 			1,
@@ -12103,8 +12103,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			6
+			50004,
+			10
 		},
 		CompleteAction = {
 			1,
@@ -12132,8 +12132,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			129000
+			5,
+			50000
 		},
 		CompleteAction = {
 			1,
@@ -12161,8 +12161,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			60201,
-			30
+			16005,
+			15
 		},
 		CompleteAction = {
 			1,
@@ -12190,8 +12190,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			55002,
-			1
+			3003,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -12219,8 +12219,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			11
+			50041,
+			10
 		},
 		CompleteAction = {
 			1,
@@ -12248,8 +12248,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			6
+			50004,
+			15
 		},
 		CompleteAction = {
 			1,
@@ -12277,8 +12277,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			143000
+			5,
+			50000
 		},
 		CompleteAction = {
 			1,
@@ -12306,8 +12306,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			16003,
-			3
+			60123,
+			1
 		},
 		CompleteAction = {
 			1,
@@ -12364,7 +12364,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
+			50041,
 			12
 		},
 		CompleteAction = {
@@ -12393,8 +12393,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			7
+			60127,
+			5
 		},
 		CompleteAction = {
 			1,
@@ -12422,8 +12422,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			157000
+			5,
+			60000
 		},
 		CompleteAction = {
 			1,
@@ -12451,8 +12451,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			60201,
-			36
+			16005,
+			17
 		},
 		CompleteAction = {
 			1,
@@ -12480,8 +12480,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			55002,
-			1
+			50042,
+			3
 		},
 		CompleteAction = {
 			1,
@@ -12509,8 +12509,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50004,
-			13
+			50041,
+			15
 		},
 		CompleteAction = {
 			1,
@@ -12538,8 +12538,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			50034,
-			7
+			60127,
+			10
 		},
 		CompleteAction = {
 			1,
@@ -12567,8 +12567,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			4,
-			171000
+			5,
+			60000
 		},
 		CompleteAction = {
 			1,
@@ -12596,8 +12596,8 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			16003,
-			3
+			16005,
+			20
 		},
 		CompleteAction = {
 			1,
@@ -12625,7 +12625,7 @@ local CfgTaskTable = {
 			-1
 		},
 		ActionParam = {
-			80228,
+			60110,
 			1
 		},
 		CompleteAction = {
@@ -12655,7 +12655,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12684,7 +12684,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12713,7 +12713,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12742,7 +12742,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12771,7 +12771,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12800,7 +12800,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12829,7 +12829,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12858,7 +12858,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12887,7 +12887,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12916,7 +12916,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12945,7 +12945,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -12974,7 +12974,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13003,7 +13003,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13032,7 +13032,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13061,7 +13061,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13090,7 +13090,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13119,7 +13119,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13148,7 +13148,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13177,7 +13177,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13206,7 +13206,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13235,7 +13235,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13264,7 +13264,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13293,7 +13293,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13322,7 +13322,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13351,7 +13351,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13380,7 +13380,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13409,7 +13409,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13438,7 +13438,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13467,7 +13467,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,
@@ -13496,7 +13496,7 @@ local CfgTaskTable = {
 		},
 		ActionParam = {
 			4,
-			10000
+			20000
 		},
 		CompleteAction = {
 			1,

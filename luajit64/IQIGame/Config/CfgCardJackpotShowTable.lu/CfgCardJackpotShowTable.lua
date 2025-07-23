@@ -222,6 +222,23 @@ local CfgCardJackpotShowTable = {
 			"180130"
 		}
 	},
+	[50500111] = {
+		CardJackpot = 50300111,
+		Id = 50500111,
+		ShowInstruction = {
+			50510121,
+			50510122
+		},
+		ShowDetail = {
+			50520111
+		},
+		ShowProbability = {
+			"5",
+			"180129",
+			"4",
+			"180130"
+		}
+	},
 	[50500201] = {
 		CardJackpot = 50300301,
 		Id = 50500201,
@@ -367,6 +384,40 @@ local CfgCardJackpotShowTable = {
 		},
 		ShowDetail = {
 			50520204
+		},
+		ShowProbability = {
+			"5",
+			"180127",
+			"4",
+			"180128"
+		}
+	},
+	[50500210] = {
+		CardJackpot = 50300310,
+		Id = 50500210,
+		ShowInstruction = {
+			50510209,
+			50510210
+		},
+		ShowDetail = {
+			50520205
+		},
+		ShowProbability = {
+			"5",
+			"180127",
+			"4",
+			"180128"
+		}
+	},
+	[50500211] = {
+		CardJackpot = 50300311,
+		Id = 50500211,
+		ShowInstruction = {
+			50510209,
+			50510210
+		},
+		ShowDetail = {
+			50520205
 		},
 		ShowProbability = {
 			"5",

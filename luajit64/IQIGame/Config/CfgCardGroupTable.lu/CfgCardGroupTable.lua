@@ -58,6 +58,20 @@ local CfgCardGroupTable = {
 			10000020,
 			10000024
 		}
+	},
+	[105] = {
+		CardLabel = 1,
+		Id = 105,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_Appointed_4.prefab",
+		Name = getI18NValue(180269265),
+		CardJackpotID = {
+			50300310,
+			50300311
+		},
+		ShowCard = {
+			10000004,
+			10000027
+		}
 	}
 }
 
