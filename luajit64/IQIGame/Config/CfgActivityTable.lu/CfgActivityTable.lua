@@ -1387,11 +1387,11 @@ local CfgActivityTable = {
 	},
 	[60008010] = {
 		Id = 60008010,
-		OpenTime = "2025/7/9 4:00",
+		OpenTime = "2025/8/6 4:00",
 		OpenTimeType = 2,
 		ActivityType = 24,
 		OneOnly = false,
-		version = 3,
+		version = 5,
 		Duration = {
 			0,
 			1209600
@@ -1405,13 +1405,13 @@ local CfgActivityTable = {
 	},
 	[60008011] = {
 		Id = 60008011,
-		OpenTime = "2025/7/9 4:00",
+		OpenTime = "2025/8/6 4:00",
 		OpenTimeType = 2,
 		ActivityType = 25,
 		OpenAction = 9,
 		CloseAction = 27,
 		OneOnly = false,
-		version = 3,
+		version = 5,
 		Duration = {
 			0,
 			604800,
@@ -1432,13 +1432,13 @@ local CfgActivityTable = {
 	},
 	[60008012] = {
 		Id = 60008012,
-		OpenTime = "2025/7/9 4:00",
+		OpenTime = "2025/8/6 4:00",
 		OpenTimeType = 2,
 		ActivityType = 26,
 		OpenAction = 9,
 		CloseAction = 27,
 		OneOnly = false,
-		version = 3,
+		version = 5,
 		Duration = {
 			1209600
 		},
