@@ -79,10 +79,14 @@ local CfgActivityListTable = {
 			30070113
 		},
 		Reward = {
-			12012,
-			3,
+			16005,
 			50033,
-			50003
+			50041,
+			50003,
+			55002,
+			50004,
+			50042,
+			50034
 		},
 		Desc = getI18NValue(180164842)
 	},
@@ -290,6 +294,21 @@ local CfgActivityListTable = {
 		},
 		ShowConditionID = {
 			30070213
+		}
+	},
+	[60101020] = {
+		ActivityType = 666,
+		ActivityPrefab = "/_Activity/SignActivityMayDay",
+		ActivityTeam = 1,
+		Sort = 101,
+		Background = "/UI/ActivityPart/ActivityListUI/ActivityListUI_Bg/ActivityList_Bg_2.png",
+		Id = 60101020,
+		Name = getI18NValue(180269438),
+		ActivityID = {
+			60001009
+		},
+		ShowConditionID = {
+			30070228
 		}
 	},
 	[60101021] = {

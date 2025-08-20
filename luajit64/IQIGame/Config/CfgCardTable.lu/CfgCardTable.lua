@@ -3196,6 +3196,20 @@ local CfgCardTable = {
 			1
 		}
 	},
+	[11111] = {
+		ItemId = 10034,
+		Id = 11111,
+		UpTag = 1,
+		Number = 1,
+		Team = 41,
+		Weight = 100,
+		ShowType = getI18NValue(180269435),
+		Name = getI18NValue(180269436),
+		ExtraItems = {
+			12,
+			1
+		}
+	},
 	[12000] = {
 		ItemId = 10001,
 		Id = 12000,
@@ -7216,6 +7230,398 @@ local CfgCardTable = {
 		Weight = 100,
 		ShowType = getI18NValue(180269330),
 		Name = getI18NValue(180269331),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20601] = {
+		ItemId = 80101,
+		Id = 20601,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269363),
+		Name = getI18NValue(180269364),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20602] = {
+		ItemId = 80102,
+		Id = 20602,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269365),
+		Name = getI18NValue(180269366),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20603] = {
+		ItemId = 80114,
+		Id = 20603,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269367),
+		Name = getI18NValue(180269368),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20604] = {
+		ItemId = 80115,
+		Id = 20604,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269369),
+		Name = getI18NValue(180269370),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20605] = {
+		ItemId = 80201,
+		Id = 20605,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269371),
+		Name = getI18NValue(180269372),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20606] = {
+		ItemId = 80202,
+		Id = 20606,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269373),
+		Name = getI18NValue(180269374),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20607] = {
+		ItemId = 80203,
+		Id = 20607,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269375),
+		Name = getI18NValue(180269376),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20608] = {
+		ItemId = 80204,
+		Id = 20608,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269377),
+		Name = getI18NValue(180269378),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20609] = {
+		ItemId = 80205,
+		Id = 20609,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269379),
+		Name = getI18NValue(180269380),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20610] = {
+		ItemId = 80206,
+		Id = 20610,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269381),
+		Name = getI18NValue(180269382),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20611] = {
+		ItemId = 80207,
+		Id = 20611,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269383),
+		Name = getI18NValue(180269384),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20612] = {
+		ItemId = 80208,
+		Id = 20612,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269385),
+		Name = getI18NValue(180269386),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20613] = {
+		ItemId = 80209,
+		Id = 20613,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269387),
+		Name = getI18NValue(180269388),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20614] = {
+		ItemId = 80210,
+		Id = 20614,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269389),
+		Name = getI18NValue(180269390),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20615] = {
+		ItemId = 80211,
+		Id = 20615,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269391),
+		Name = getI18NValue(180269392),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20616] = {
+		ItemId = 80212,
+		Id = 20616,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269393),
+		Name = getI18NValue(180269394),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20617] = {
+		ItemId = 80213,
+		Id = 20617,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269395),
+		Name = getI18NValue(180269396),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20618] = {
+		ItemId = 80214,
+		Id = 20618,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269397),
+		Name = getI18NValue(180269398),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20619] = {
+		ItemId = 80215,
+		Id = 20619,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269399),
+		Name = getI18NValue(180269400),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20620] = {
+		ItemId = 80216,
+		Id = 20620,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269401),
+		Name = getI18NValue(180269402),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20621] = {
+		ItemId = 80217,
+		Id = 20621,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269403),
+		Name = getI18NValue(180269404),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20622] = {
+		ItemId = 80218,
+		Id = 20622,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269405),
+		Name = getI18NValue(180269406),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20623] = {
+		ItemId = 80219,
+		Id = 20623,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269407),
+		Name = getI18NValue(180269408),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20624] = {
+		ItemId = 80220,
+		Id = 20624,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269409),
+		Name = getI18NValue(180269410),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20625] = {
+		ItemId = 80221,
+		Id = 20625,
+		UpTag = 1,
+		Number = 1,
+		Team = 213,
+		Weight = 2900,
+		ShowType = getI18NValue(180269411),
+		Name = getI18NValue(180269412),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20626] = {
+		ItemId = 80222,
+		Id = 20626,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269413),
+		Name = getI18NValue(180269414),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20627] = {
+		ItemId = 80223,
+		Id = 20627,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269415),
+		Name = getI18NValue(180269416),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20628] = {
+		ItemId = 80225,
+		Id = 20628,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269417),
+		Name = getI18NValue(180269418),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20629] = {
+		ItemId = 80224,
+		Id = 20629,
+		Team = 213,
+		Weight = 100,
+		Number = 1,
+		ShowType = getI18NValue(180269419),
+		Name = getI18NValue(180269420),
+		ExtraItems = {
+			14,
+			1
+		}
+	},
+	[20630] = {
+		ItemId = 80221,
+		Id = 20630,
+		UpTag = 1,
+		Number = 1,
+		Team = 214,
+		Weight = 100,
+		ShowType = getI18NValue(180269421),
+		Name = getI18NValue(180269422),
 		ExtraItems = {
 			14,
 			1

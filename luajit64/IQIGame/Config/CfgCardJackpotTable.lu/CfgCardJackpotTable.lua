@@ -571,6 +571,47 @@ local CfgCardJackpotTable = {
 			1
 		}
 	},
+	[50300112] = {
+		Id = 50300112,
+		LargeGuaranteeTeam = 214,
+		TinyGuaranteeTeam = 213,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_SkillUp_5.prefab",
+		TopMoneyID = 25,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroup = 50310005,
+		Index = 12,
+		IsShow = true,
+		Name = getI18NValue(180269424),
+		CardTeam = {
+			21,
+			22
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1500
+		},
+		OneTime = {
+			3003,
+			1
+		},
+		Access = {
+			50100045,
+			50205003
+		},
+		TenTimesMust = {
+			22
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
 	[50300201] = {
 		Id = 50300201,
 		LargeGuaranteeTeam = 102,
@@ -1071,6 +1112,94 @@ local CfgCardJackpotTable = {
 		Index = 4,
 		IsShow = true,
 		Name = getI18NValue(180269267),
+		CardTeam = {
+			15,
+			12,
+			4
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3004,
+			1
+		},
+		Access = {
+			50100045,
+			50205004
+		},
+		TenTimesMust = {
+			4
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300312] = {
+		Id = 50300312,
+		TinyGuaranteeTeam = 41,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_1.prefab",
+		TopMoneyID = 104,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroupID = 106,
+		CardGroup = 50310101,
+		ShowGroup = 1,
+		Index = 4,
+		IsShow = true,
+		Name = getI18NValue(180269425),
+		CardTeam = {
+			15,
+			12,
+			4
+		},
+		ShowStar = {
+			3,
+			4
+		},
+		CardWeight = {
+			8500,
+			1000,
+			500
+		},
+		OneTime = {
+			3004,
+			1
+		},
+		Access = {
+			50100045,
+			50205004
+		},
+		TenTimesMust = {
+			2
+		},
+		CardDrawType = {
+			1,
+			1
+		}
+	},
+	[50300313] = {
+		Id = 50300313,
+		TinyGuaranteeTeam = 31,
+		CardLabel = 1,
+		ShowPrefab = "Assets/03_Prefabs/UI/_Lottery/LotteryNew_RoleUp_1.prefab",
+		TopMoneyID = 104,
+		OpenType = 1,
+		FullTimes = 9999,
+		CardGroupID = 106,
+		CardGroup = 50310101,
+		ShowGroup = 1,
+		Index = 4,
+		IsShow = true,
+		Name = getI18NValue(180269426),
 		CardTeam = {
 			15,
 			12,

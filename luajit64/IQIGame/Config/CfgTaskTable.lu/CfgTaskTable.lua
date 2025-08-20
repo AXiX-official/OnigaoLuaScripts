@@ -23009,6 +23009,208 @@ local CfgTaskTable = {
 			0
 		}
 	},
+	[12441321] = {
+		Type = 11,
+		LockShow = 1,
+		NeedSchedule = 1,
+		MonitorTarget = 1000,
+		Id = 12441321,
+		Name = getI18NValue(180269444),
+		Desc = getI18NValue(180269443),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3001,
+			1
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441322] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441321,
+		NeedSchedule = 2,
+		Type = 11,
+		Id = 12441322,
+		Name = getI18NValue(180269446),
+		Desc = getI18NValue(180269445),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3001,
+			2
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441323] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441322,
+		NeedSchedule = 3,
+		Type = 11,
+		Id = 12441323,
+		Name = getI18NValue(180269448),
+		Desc = getI18NValue(180269447),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3001,
+			1
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441324] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441323,
+		NeedSchedule = 4,
+		Type = 11,
+		Id = 12441324,
+		Name = getI18NValue(180269450),
+		Desc = getI18NValue(180269449),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3001,
+			2
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441325] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441324,
+		NeedSchedule = 5,
+		Type = 11,
+		Id = 12441325,
+		Name = getI18NValue(180269452),
+		Desc = getI18NValue(180269451),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3001,
+			1
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441326] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441325,
+		NeedSchedule = 6,
+		Type = 11,
+		Id = 12441326,
+		Name = getI18NValue(180269454),
+		Desc = getI18NValue(180269453),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			1,
+			3001,
+			2
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
+	[12441327] = {
+		MonitorTarget = 1000,
+		LockShow = 1,
+		PreposeID = 12441326,
+		NeedSchedule = 7,
+		Type = 11,
+		Id = 12441327,
+		Name = getI18NValue(180269456),
+		Desc = getI18NValue(180269455),
+		PickUpInfo = null,
+		TypeExtend = {
+			9
+		},
+		EventParam = {
+			1
+		},
+		ActionParam = {
+			3001,
+			5,
+			60137,
+			1
+		},
+		CompleteAction = {
+			1,
+			0,
+			0,
+			0
+		}
+	},
 	[1010001] = {
 		IsUnLock = 1,
 		NeedSchedule = 1,

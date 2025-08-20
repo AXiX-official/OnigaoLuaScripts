@@ -327,6 +327,32 @@ local CfgActivityTable = {
 			8
 		}
 	},
+	[60001009] = {
+		Id = 60001009,
+		OpenTime = "2025/8/20 4:00",
+		OpenTimeType = 2,
+		ActivityType = 3,
+		OpenAction = 9,
+		CloseAction = 27,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1209600
+		},
+		ExtraParam = {
+			11,
+			9
+		},
+		Desc = getI18NValue(180269437),
+		OpenActionParams = {
+			11,
+			9
+		},
+		CloseActionParams = {
+			11,
+			9
+		}
+	},
 	[60001101] = {
 		ActivityType = 28,
 		OpenTime = "2025/4/16 14:30",
@@ -1059,6 +1085,93 @@ local CfgActivityTable = {
 			50300311
 		}
 	},
+	[60003026] = {
+		OneOnly = false,
+		OpenTime = "2025/8/20 4:00",
+		ActivityType = 4,
+		CloseAction = 16,
+		OpenAction = 15,
+		Id = 60003026,
+		OpenTimeType = 2,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180269359),
+		OpenActionParams = {
+			60003026,
+			50300112
+		},
+		CloseActionParams = {
+			60003026,
+			50300112
+		}
+	},
+	[60003027] = {
+		Id = 60003027,
+		OpenTime = "2025/8/20 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180269360),
+		OpenActionParams = {
+			60003027,
+			50300312
+		},
+		CloseActionParams = {
+			60003027,
+			50300312
+		}
+	},
+	[60003028] = {
+		Id = 60003028,
+		OpenTime = "2025/8/20 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1814400
+		},
+		Desc = getI18NValue(180269361),
+		OpenActionParams = {
+			60003028,
+			50300313
+		},
+		CloseActionParams = {
+			60003028,
+			50300313
+		}
+	},
+	[60003029] = {
+		Id = 60003029,
+		OpenTime = "2025/8/20 4:00",
+		OpenTimeType = 2,
+		OpenAction = 15,
+		ActivityType = 4,
+		CloseAction = 16,
+		OneOnly = false,
+		version = 1,
+		Duration = {
+			1900800
+		},
+		Desc = getI18NValue(180269362),
+		OpenActionParams = {
+			60003029,
+			50300101
+		},
+		CloseActionParams = {
+			60003029,
+			50300101
+		}
+	},
 	[60003101] = {
 		ActivityType = 21,
 		OpenTime = "2024/6/18 4:00",
@@ -1245,22 +1358,24 @@ local CfgActivityTable = {
 	},
 	[60006001] = {
 		ActivityType = 14,
-		OpenTime = "2025/4/2 4:00",
+		OpenTime = "2025/8/20 4:00",
+		OpenTimeType = 2,
 		OneOnly = false,
 		Id = 60006001,
-		OpenTimeType = 2,
+		version = 1,
 		Duration = {
 			1209600
 		},
 		Desc = getI18NValue(180264323)
 	},
 	[60007001] = {
-		OpenTime = "2024/6/24 4:00",
+		Id = 60007001,
+		OpenTime = "2025/8/20 4:00",
+		OpenTimeType = 2,
 		ActivityType = 20,
 		OpenAction = 9,
 		OneOnly = false,
-		Id = 60007001,
-		OpenTimeType = 2,
+		version = 1,
 		Duration = {
 			1209600
 		},
